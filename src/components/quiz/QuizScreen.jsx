@@ -52,7 +52,7 @@ export default function QuizScreen() {
     };
 
     return (
-        <div className="flex flex-col lg:flex-row h-screen lg:h-auto gap-6 max-w-7xl mx-auto p-4">
+        <div className="flex flex-col lg:flex-row min-h-screen lg:h-auto gap-6 max-w-7xl mx-auto p-4">
             {/* Left Column: Main Quiz Area */}
             <div className="flex-1 space-y-6">
 
