@@ -6,6 +6,7 @@ import QuizScreen from './components/quiz/QuizScreen';
 import ResultScreen from './components/quiz/ResultScreen';
 import LoginScreen from './components/auth/LoginScreen';
 import DashboardScreen from './components/dashboard/DashboardScreen';
+import RevisionScreen from './components/quiz/RevisionScreen';
 import { AnimatePresence, motion } from 'framer-motion';
 
 export default function App() {
@@ -31,6 +32,10 @@ export default function App() {
         ) : quizStatus === 'running' ? (
           <motion.div key="quiz" initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }}>
             <QuizScreen />
+          </motion.div>
+        ) : quizStatus === 'revision' ? (
+          <motion.div key="revision" initial={{ opacity: 0, scale: 0.95 }} animate={{ opacity: 1, scale: 1 }} exit={{ opacity: 0, scale: 1.05 }}>
+            <RevisionScreen />
           </motion.div>
         ) : (
           <motion.div key="result" initial={{ scale: 0.9, opacity: 0 }} animate={{ scale: 1, opacity: 1 }} exit={{ opacity: 0 }}>

@@ -3998,5 +3998,2661 @@
         "correct_option": "B",
         "answer": "4500",
         "explanation": ""
+    },
+    {
+        "id": "PERC-T12-251",
+        "chapter": "Percentage",
+        "type": "Type-XII",
+        "question_number": 251,
+        "question": "In an election between two candidates, the voter who did not cast their vote was 20%. The winner by obtaining 60% of total votes defeated his opponent by 1200 votes. Find total number of voters.",
+        "options": {
+            "A": "3750",
+            "B": "3570",
+            "C": "4000",
+            "D": "5730"
+        },
+        "correct_option": "A",
+        "answer": "3750",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T12-252",
+        "chapter": "Percentage",
+        "type": "Type-XII",
+        "question_number": 252,
+        "question": "In an election between two candidates, the first gets 75% of total valid votes. 20% votes are invalid among 2,48,000 votes. Find number of votes in favour of second candidate.",
+        "options": {
+            "A": "56000",
+            "B": "46800",
+            "C": "53800",
+            "D": "49600"
+        },
+        "correct_option": "D",
+        "answer": "49600",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T12-253",
+        "chapter": "Percentage",
+        "type": "Type-XII",
+        "question_number": 253,
+        "question": "In an election between two candidates, 75% of voters cast their votes, of which 4% were invalid. A candidate got 9504 votes which were 50% of valid votes. Find total number of voters enrolled.",
+        "options": {
+            "A": "12375",
+            "B": "12672",
+            "C": "13200",
+            "D": "13500"
+        },
+        "correct_option": "D",
+        "answer": "13500",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T12-254",
+        "chapter": "Percentage",
+        "type": "Type-XII",
+        "question_number": 254,
+        "question": "Two candidates A and B contested an election. 80% voters cast votes, 4% votes were invalid. A got 9408 votes which were 60% of valid votes. Find total number of voters enrolled.",
+        "options": {
+            "A": "12000",
+            "B": "22000",
+            "C": "21000",
+            "D": "13000"
+        },
+        "correct_option": "C",
+        "answer": "21000",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T12-255",
+        "chapter": "Percentage",
+        "type": "Type-XII",
+        "question_number": 255,
+        "question": "In a constituency, 90% of total people cast votes. 15% votes were declared invalid. Jeeta secured 60% of valid votes. If Jeeta secured 91800 valid votes, find total number of people in constituency.",
+        "options": {
+            "A": "216000",
+            "B": "225000",
+            "C": "180000",
+            "D": "200000"
+        },
+        "correct_option": "D",
+        "answer": "200000",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T12-256",
+        "chapter": "Percentage",
+        "type": "Type-XII",
+        "question_number": 256,
+        "question": "In a constituency, 85% of total people cast votes and 5% votes were declared invalid. If 30000 people cast vote, find percentage of total valid votes did Bhamini get.",
+        "options": {
+            "A": "50.5%",
+            "B": "70.2%",
+            "C": "45.9%",
+            "D": "60%"
+        },
+        "correct_option": "D",
+        "answer": "60%",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T12-257",
+        "chapter": "Percentage",
+        "type": "Type-XII",
+        "question_number": 257,
+        "question": "In an election between two candidates, candidate got 60% valid votes. If invalid votes were 850 and 10% votes were invalid, find valid votes that other candidate got.",
+        "options": {
+            "A": "3816",
+            "B": "3168",
+            "C": "3681",
+            "D": "3618"
+        },
+        "correct_option": "B",
+        "answer": "3168",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T12-258",
+        "chapter": "Percentage",
+        "type": "Type-XII",
+        "question_number": 258,
+        "question": "In an election, 8% voters did not cast vote. Winning candidate got 48% of total votes and won by 1100 votes. Find total number of votes cast.",
+        "options": {
+            "A": "25500",
+            "B": "26500",
+            "C": "27500",
+            "D": "28500"
+        },
+        "correct_option": "C",
+        "answer": "27500",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T12-259",
+        "chapter": "Percentage",
+        "type": "Type-XII",
+        "question_number": 259,
+        "question": "In an election, 12% voters did not cast votes. Winning candidate got 68% votes and won by 2880 votes. Find total number of voters who cast vote.",
+        "options": {
+            "A": "5280",
+            "B": "8000",
+            "C": "4000",
+            "D": "6000"
+        },
+        "correct_option": "A",
+        "answer": "5280",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T12-260",
+        "chapter": "Percentage",
+        "type": "Type-XII",
+        "question_number": 260,
+        "question": "In an election, 65% voters cast votes, out of which 3% votes were invalid. Winning candidate got 81965 votes which were 65% of valid votes. Find total number of voters enrolled.",
+        "options": {
+            "A": "200000",
+            "B": "190000",
+            "C": "215000",
+            "D": "185000"
+        },
+        "correct_option": "A",
+        "answer": "200000",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T12-261",
+        "chapter": "Percentage",
+        "type": "Type-XII",
+        "question_number": 261,
+        "question": "In a two-candidate election, 10% of voters did not cast their ballots, and 10% of votes cast were invalid. The winning candidate received 54% of valid votes and won by a majority of 1620 votes. Find the number of people on the voter list.",
+        "options": {
+            "A": "25000",
+            "B": "24500",
+            "C": "26000",
+            "D": "25500"
+        },
+        "correct_option": "A",
+        "answer": "25000",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T12-262",
+        "chapter": "Percentage",
+        "type": "Type-XII",
+        "question_number": 262,
+        "question": "In an assembly election, a candidate got 60% of total valid votes. 2% of total votes were declared invalid. If total voters were 1,50,000, find number of valid votes polled in favour of candidate.",
+        "options": {
+            "A": "90000",
+            "B": "78000",
+            "C": "86400",
+            "D": "88200"
+        },
+        "correct_option": "D",
+        "answer": "88200",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T12-263",
+        "chapter": "Percentage",
+        "type": "Type-XII",
+        "question_number": 263,
+        "question": "In an election between two candidates, 85% voters cast votes, out of which 4% votes were invalid. Candidate got 6936 votes which were 85% of valid votes. Find total number of voters enrolled.",
+        "options": {
+            "A": "10500",
+            "B": "10800",
+            "C": "10000",
+            "D": "10700"
+        },
+        "correct_option": "C",
+        "answer": "10000",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T12-264",
+        "chapter": "Percentage",
+        "type": "Type-XII",
+        "question_number": 264,
+        "question": "In an election between Sunita and Mamata, 85% voters cast their votes but 2% of votes were invalid. If Sunita got 64974 votes which is 78% of valid votes, find total number of voters enrolled.",
+        "options": {
+            "A": "125000",
+            "B": "100000",
+            "C": "165000",
+            "D": "180000"
+        },
+        "correct_option": "B",
+        "answer": "100000",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T12-265",
+        "chapter": "Percentage",
+        "type": "Type-XII",
+        "question_number": 265,
+        "question": "Two candidates contested an election. 80% voters cast votes, out of which 5% votes were invalid. Winning candidate got 70% valid votes and won by a majority of 36480 votes. Find total number of voters enrolled.",
+        "options": {
+            "A": "115000",
+            "B": "120000",
+            "C": "125000",
+            "D": "118000"
+        },
+        "correct_option": "B",
+        "answer": "120000",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T12-266",
+        "chapter": "Percentage",
+        "type": "Type-XII",
+        "question_number": 266,
+        "question": "In an election between two candidates, P received 42% valid votes and Q received 45360 votes. 20% people did not cast vote. If 10% of votes cast were invalid, find total number of registered voters.",
+        "options": {
+            "A": "393750",
+            "B": "359000",
+            "C": "393600",
+            "D": "353790"
+        },
+        "correct_option": "A",
+        "answer": "393750",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T12-267",
+        "chapter": "Percentage",
+        "type": "Type-XII",
+        "question_number": 267,
+        "question": "In an election between two candidates, 80% voters cast votes, out of which 4% votes were invalid. Candidate got 15360 votes which were 80% of total valid votes. Find total number of voters.",
+        "options": {
+            "A": "20000",
+            "B": "18000",
+            "C": "25000",
+            "D": "23000"
+        },
+        "correct_option": "C",
+        "answer": "25000",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T12-268",
+        "chapter": "Percentage",
+        "type": "Type-XII",
+        "question_number": 268,
+        "question": "In an election between two candidates, 10% voters did not cast vote and 5% votes were invalid. Successful candidate got 52.5% valid votes and won by majority of 1710 votes. Find number of voters enrolled.",
+        "options": {
+            "A": "36000",
+            "B": "40000",
+            "C": "42000",
+            "D": "48000"
+        },
+        "correct_option": "B",
+        "answer": "40000",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T12-269",
+        "chapter": "Percentage",
+        "type": "Type-XII",
+        "question_number": 269,
+        "question": "In an election between two candidates, A gets 63% of valid votes. If total votes polled were 8750, find number of votes secured by other candidate if 20% votes were invalid.",
+        "options": {
+            "A": "4410",
+            "B": "2590",
+            "C": "3560",
+            "D": "6450"
+        },
+        "correct_option": "B",
+        "answer": "2590",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T12-270",
+        "chapter": "Percentage",
+        "type": "Type-XII",
+        "question_number": 270,
+        "question": "In an assembly election, candidate got 60% of total valid votes. 3% votes were declared invalid. If total voters were 240000, find number of votes polled in favour of candidate.",
+        "options": {
+            "A": "193680",
+            "B": "139680",
+            "C": "139860",
+            "D": "139608"
+        },
+        "correct_option": "B",
+        "answer": "139680",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T12-271",
+        "chapter": "Percentage",
+        "type": "Type-XII",
+        "question_number": 271,
+        "question": "In an election between two candidates, 30% of electorate did not cast their votes. 20% of votes polled were invalid. Winning candidate got 64% valid votes and won by majority of 3136 votes. Find number of voters enrolled.",
+        "options": {
+            "A": "24000",
+            "B": "20000",
+            "C": "25000",
+            "D": "30000"
+        },
+        "correct_option": "B",
+        "answer": "20000",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T12-272",
+        "chapter": "Percentage",
+        "type": "Type-XII",
+        "question_number": 272,
+        "question": "In an election between two candidates, 80% voters cast their votes, out of which 5% votes were declared invalid. Candidate got 9500 votes which were 80% of valid votes. Find total number of voters enrolled.",
+        "options": {
+            "A": "14780",
+            "B": "15625",
+            "C": "16100",
+            "D": "15100"
+        },
+        "correct_option": "B",
+        "answer": "15625",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T12-273",
+        "chapter": "Percentage",
+        "type": "Type-XII",
+        "question_number": 273,
+        "question": "In a village election between three candidates, 80% voters cast votes, out of which 3% votes were invalid. Winning candidate got 42680 votes which were 55% of valid votes. Find number of valid votes received by third candidate who got 10% of valid votes.",
+        "options": {
+            "A": "7760",
+            "B": "7700",
+            "C": "7670",
+            "D": "7680"
+        },
+        "correct_option": "A",
+        "answer": "7760",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T12-274",
+        "chapter": "Percentage",
+        "type": "Type-XII",
+        "question_number": 274,
+        "question": "In an election between two candidates, 10% voters did not cast vote, candidate got 56% valid votes and won by margin of 1458 votes. Find total number of voters enrolled.",
+        "options": {
+            "A": "14000",
+            "B": "15000",
+            "C": "16000",
+            "D": "13000"
+        },
+        "correct_option": "B",
+        "answer": "15000",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T12-275",
+        "chapter": "Percentage",
+        "type": "Type-XII",
+        "question_number": 275,
+        "question": "In an election between two candidates, 20% voters did not cast vote and 40% votes were invalid. Winning candidate got 72% valid votes and won by margin of 112 votes. Find number of voters enrolled.",
+        "options": {
+            "A": "1200",
+            "B": "1500",
+            "C": "1800",
+            "D": "3800"
+        },
+        "correct_option": "C",
+        "answer": "1800",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T12-276",
+        "chapter": "Percentage",
+        "type": "Type-XII",
+        "question_number": 276,
+        "question": "In an election between two candidates, 10% voters did not cast vote and valid votes were 59.375% of total votes. Winning candidate got 2484 votes. Find number of voters enrolled.",
+        "options": {
+            "A": "7000",
+            "B": "8400",
+            "C": "16000",
+            "D": "8240"
+        },
+        "correct_option": "C",
+        "answer": "16000",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T12-277",
+        "chapter": "Percentage",
+        "type": "Type-XII",
+        "question_number": 277,
+        "question": "In an election, 2% voters did not participate and 500 votes were found invalid. A and B fought election and A defeated B by 200 votes. If 43% voters voted in favour of A, find total number of voters enrolled.",
+        "options": {
+            "A": "2450",
+            "B": "2800",
+            "C": "3000",
+            "D": "3250"
+        },
+        "correct_option": "A",
+        "answer": "2450",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T12-278",
+        "chapter": "Percentage",
+        "type": "Type-XII",
+        "question_number": 278,
+        "question": "In an election between candidates P and Q, P got 78% valid votes. If total votes were 756000 and 15% votes were invalid, find valid votes secured by Q.",
+        "options": {
+            "A": "141372",
+            "B": "147132",
+            "C": "141732",
+            "D": "147312"
+        },
+        "correct_option": "C",
+        "answer": "141732",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T12-279",
+        "chapter": "Percentage",
+        "type": "Type-XII",
+        "question_number": 279,
+        "question": "In a Panchayat election, A, B and C contested. 75% voters cast votes and 10% voters voted NOTA. A got least votes with only 300 votes. B got 66% of total votes. Find number of votes B got.",
+        "options": {
+            "A": "3960",
+            "B": "4080",
+            "C": "4200",
+            "D": "4560"
+        },
+        "correct_option": "A",
+        "answer": "3960",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T12-280",
+        "chapter": "Percentage",
+        "type": "Type-XII",
+        "question_number": 280,
+        "question": "Raju, Ravi and Ashok contested an election. 5% votes were invalid. Raju got 30% of total votes, Ravi got 32% of total votes and winner got 51% more votes than runner-up. Find total number of votes polled.",
+        "options": {
+            "A": "171200",
+            "B": "64200",
+            "C": "171220",
+            "D": "172100"
+        },
+        "correct_option": "A",
+        "answer": "171200",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T12-281",
+        "chapter": "Percentage",
+        "type": "Type-XII",
+        "question_number": 281,
+        "question": "In an election, three candidates A, B and C contested. Out of total voters, 45% voted for A, 35% for B and remaining for C. 30% of votes polled were invalid. If all valid votes were cast for C and A got 882 more valid votes than B, find valid votes secured by C.",
+        "options": {
+            "A": "5020",
+            "B": "5040",
+            "C": "5050",
+            "D": "5060"
+        },
+        "correct_option": "B",
+        "answer": "5040",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T12-282",
+        "chapter": "Percentage",
+        "type": "Type-XII",
+        "question_number": 282,
+        "question": "Chamanlal, Arshad and Jagjit Singh contested an election. Arshad got 35 votes, Chamanlal got 14 votes and Jagjit Singh got 4950 more votes than the person with least votes. Find total number of votes polled.",
+        "options": {
+            "A": "13378",
+            "B": "38000",
+            "C": "99000",
+            "D": "33000"
+        },
+        "correct_option": "D",
+        "answer": "33000",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T12-283",
+        "chapter": "Percentage",
+        "type": "Type-XII",
+        "question_number": 283,
+        "question": "Three candidates X, Y and Z contested election. X got 30% votes more than Y, and Z got 25% votes more than Y. X and Z together got 5000 votes. If 71% votes were cast and no invalid votes, find total number of voters.",
+        "options": {
+            "A": "500000",
+            "B": "405000",
+            "C": "350000",
+            "D": "450000"
+        },
+        "correct_option": "A",
+        "answer": "500000",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T12-284",
+        "chapter": "Percentage",
+        "type": "Type-XII",
+        "question_number": 284,
+        "question": "In an election between two candidates, 30% voters did not cast votes and 200 votes were declared invalid. Winner got 65% of valid votes. If winner got 1200 votes, find total number of voters.",
+        "options": {
+            "A": "9000",
+            "B": "6000",
+            "C": "7000",
+            "D": "8000"
+        },
+        "correct_option": "B",
+        "answer": "6000",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T12-285",
+        "chapter": "Percentage",
+        "type": "Type-XII",
+        "question_number": 285,
+        "question": "In an election involving two candidates, 68 voters were declared invalid. Winning candidate got 52% of valid votes and won by 98 votes. Find total number of votes polled.",
+        "options": {
+            "A": "2475",
+            "B": "2518",
+            "C": "2500",
+            "D": "2250"
+        },
+        "correct_option": "B",
+        "answer": "2518",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T12-286",
+        "chapter": "Percentage",
+        "type": "Type-XII",
+        "question_number": 286,
+        "question": "In an election between two candidates, one got 54% valid votes and won by 88 votes. If 58 votes were invalid, find total number of votes polled.",
+        "options": {
+            "A": "1850",
+            "B": "1800",
+            "C": "1156",
+            "D": "2000"
+        },
+        "correct_option": "B",
+        "answer": "1800",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T12-287",
+        "chapter": "Percentage",
+        "type": "Type-XII",
+        "question_number": 287,
+        "question": "In an election, defeated candidate secured 42% of valid votes polled and lost the election by 254800 votes. If 365500 people were declared invalid and 30% did not cast vote, find number of people who did NOT cast vote.",
+        "options": {
+            "A": "5 million",
+            "B": "8 million",
+            "C": "6 million",
+            "D": "7 million"
+        },
+        "correct_option": "D",
+        "answer": "7 million",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T12-288",
+        "chapter": "Percentage",
+        "type": "Type-XII",
+        "question_number": 288,
+        "question": "In an election, winner was supported by 46% of voters in voter list and got 41% of votes cast. If total voters were 17445 and 600 votes were blank, find number of voters in voter list.",
+        "options": {
+            "A": "17445",
+            "B": "16550",
+            "C": "17500",
+            "D": "15750"
+        },
+        "correct_option": "C",
+        "answer": "17500",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T12-289",
+        "chapter": "Percentage",
+        "type": "Type-XII",
+        "question_number": 289,
+        "question": "In an election, 12% voters did not cast votes and 84 voters cast blank ballot papers. Ramagya got 54% votes and won by margin of 1456 votes. Find total number of voters enrolled.",
+        "options": {
+            "A": "5690",
+            "B": "6670",
+            "C": "7860",
+            "D": "6860"
+        },
+        "correct_option": "D",
+        "answer": "6860",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T12-290",
+        "chapter": "Percentage",
+        "type": "Type-XII",
+        "question_number": 290,
+        "question": "In an election between two candidates, 10% voters did not cast vote and 75 votes were invalid. Winning candidate got 50% votes and won by 170 votes. Find number of voters enrolled.",
+        "options": {
+            "A": "800",
+            "B": "855",
+            "C": "850",
+            "D": "950"
+        },
+        "correct_option": "D",
+        "answer": "950",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T12-291",
+        "chapter": "Percentage",
+        "type": "Type-XII",
+        "question_number": 291,
+        "question": "In an election between two candidates, 20% voters did not cast votes and 80 voters cast blank ballots. Winner secured 45% of total voters and got 280 votes more than rival. Find total number of voters.",
+        "options": {
+            "A": "2000",
+            "B": "2800",
+            "C": "2500",
+            "D": "1500"
+        },
+        "correct_option": "A",
+        "answer": "2000",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T12-292",
+        "chapter": "Percentage",
+        "type": "Type-XII",
+        "question_number": 292,
+        "question": "In an election between A and B, some votes were declared invalid. A won by 2500 votes which was 10% of total votes polled. If 90% of invalid votes were in favour of B, what would have been the result?",
+        "options": {
+            "A": "B would have won by 8%",
+            "B": "B would have won by 3%",
+            "C": "A would have won by 3%",
+            "D": "A would have won by 8%"
+        },
+        "correct_option": "A",
+        "answer": "B would have won by 8%",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T12-293",
+        "chapter": "Percentage",
+        "type": "Type-XII",
+        "question_number": 293,
+        "question": "In an election between two candidates, 64% voters cast votes and 4% votes were invalid. Candidate got 12288 votes which were 64% of valid votes. Find total number of voters enrolled.",
+        "options": {
+            "A": "31250",
+            "B": "30250",
+            "C": "32152",
+            "D": "30152"
+        },
+        "correct_option": "A",
+        "answer": "31250",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T12-294",
+        "chapter": "Percentage",
+        "type": "Type-XII",
+        "question_number": 294,
+        "question": "In an election, 15% voters did not cast votes and 100 votes were declared invalid. Winner got 630 votes more than rival. Find total number of voters.",
+        "options": {
+            "A": "1200",
+            "B": "1000",
+            "C": "1100",
+            "D": "900"
+        },
+        "correct_option": "B",
+        "answer": "1000",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T12-295",
+        "chapter": "Percentage",
+        "type": "Type-XII",
+        "question_number": 295,
+        "question": "In an election, defeated candidate secured 42% valid votes and winner got 76.8% of valid votes. Invalid votes were 52560 which were 20% of total votes. Find percentage of people who did NOT cast vote.",
+        "options": {
+            "A": "10.6%",
+            "B": "9.8%",
+            "C": "12.9%",
+            "D": "6.7%"
+        },
+        "correct_option": "D",
+        "answer": "6.7%",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T12-296",
+        "chapter": "Percentage",
+        "type": "Type-XII",
+        "question_number": 296,
+        "question": "In an election between two candidates, 15% voters did not cast vote and 100 votes were declared invalid. Winner got 45% votes and won by margin of 400 votes. Find total number of voters.",
+        "options": {
+            "A": "6000",
+            "B": "6500",
+            "C": "3600",
+            "D": "3500"
+        },
+        "correct_option": "A",
+        "answer": "6000",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T12-297",
+        "chapter": "Percentage",
+        "type": "Type-XII",
+        "question_number": 297,
+        "question": "Rajit, Pooja and Abhi participated in election. Total votes were 40000. Rajit got 36% valid votes and Pooja got 40% valid votes. Find votes secured by Abhi.",
+        "options": {
+            "A": "9245",
+            "B": "1024",
+            "C": "8640",
+            "D": "5760"
+        },
+        "correct_option": "C",
+        "answer": "8640",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T12-298",
+        "chapter": "Percentage",
+        "type": "Type-XII",
+        "question_number": 298,
+        "question": "In an election, 83% voters cast votes and 4% votes were invalid. Party A got 156611 votes which were 83% of valid votes. Find total number of voters.",
+        "options": {
+            "A": "258233",
+            "B": "234888",
+            "C": "236807",
+            "D": "234687"
+        },
+        "correct_option": "C",
+        "answer": "236807",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T12-299",
+        "chapter": "Percentage",
+        "type": "Type-XII",
+        "question_number": 299,
+        "question": "In an election between P, R and S, 10% votes were invalid. R and S got equal votes. Due to machine fault, half votes in favour of R counted in favour of S. Find overall percentage of votes secured by R.",
+        "options": {
+            "A": "37.55%",
+            "B": "41.55%",
+            "C": "38.55%",
+            "D": "42.55%"
+        },
+        "correct_option": "D",
+        "answer": "42.55%",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T12-300",
+        "chapter": "Percentage",
+        "type": "Type-XII",
+        "question_number": 300,
+        "question": "Hari, Kamal and Lalit contested election. 6050 votes were polled and 10% votes were invalid. Kamal got 42% more votes than Lalit. Lalit got 9% votes more than Hari. Find number of votes secured by Hari.",
+        "options": {
+            "A": "1912",
+            "B": "1556",
+            "C": "1916",
+            "D": "1668"
+        },
+        "correct_option": "A",
+        "answer": "1912",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T12-301",
+        "chapter": "Percentage",
+        "type": "Type-XII",
+        "question_number": 301,
+        "question": "In an election between three candidates Arjun, Bhaskar and Saral, Arjun got 50% more votes than Saral and Saral got 2% votes less than Bhaskar. The difference between Bhaskar and Saral votes is 1296. Find half of the difference between Arjun and Bhaskar votes.",
+        "options": {
+            "A": "3888",
+            "B": "13988",
+            "C": "7766",
+            "D": "15228"
+        },
+        "correct_option": "D",
+        "answer": "15228",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T12-302",
+        "chapter": "Percentage",
+        "type": "Type-XII",
+        "question_number": 302,
+        "question": "Two candidates P and Q contested an election. 70% registered voters support P. If 60% of P supporters and 30% of Q supporters vote for P, find percentage of registered voters expected to vote for P.",
+        "options": {
+            "A": "30%",
+            "B": "51%",
+            "C": "26%",
+            "D": "47%"
+        },
+        "correct_option": "B",
+        "answer": "51%",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T12-303",
+        "chapter": "Percentage",
+        "type": "Type-XII",
+        "question_number": 303,
+        "question": "In an election, votes of three candidates are 6 times NOTA votes. Winner got twice second runner-up votes and first runner-up got 9000 more votes than NOTA. Winner defeated second runner-up by 150 votes. Find total votes polled.",
+        "options": {
+            "A": "17715",
+            "B": "15177",
+            "C": "11025",
+            "D": "11577"
+        },
+        "correct_option": "C",
+        "answer": "11025",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T12-304",
+        "chapter": "Percentage",
+        "type": "Type-XII",
+        "question_number": 304,
+        "question": "Three candidates P, Q and R participated in an election. P got 35% more votes than Q and R got 15% more votes than Q. P overtook R by 2412 votes. If 90% voters voted, find total number of voters.",
+        "options": {
+            "A": "46900",
+            "B": "42800",
+            "C": "42210",
+            "D": "48500"
+        },
+        "correct_option": "A",
+        "answer": "46900",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T12-305",
+        "chapter": "Percentage",
+        "type": "Type-XII",
+        "question_number": 305,
+        "question": "28% people eligible to vote are between 20 and 25 years. 75% voted and 20 to 25 age group voted. Find percentage of eligible voters who did not vote.",
+        "options": {
+            "A": "25%",
+            "B": "21%",
+            "C": "28%",
+            "D": "22%"
+        },
+        "correct_option": "B",
+        "answer": "21%",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T12-306",
+        "chapter": "Percentage",
+        "type": "Type-XII",
+        "question_number": 306,
+        "question": "In election, 35% voted for A and 50% of remaining voted for B. Remaining voted for C. Difference between voters for A and non-voters was 1000. Find total number of voters.",
+        "options": {
+            "A": "40000",
+            "B": "60000",
+            "C": "75000",
+            "D": "55000"
+        },
+        "correct_option": "A",
+        "answer": "40000",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T12-307",
+        "chapter": "Percentage",
+        "type": "Type-XII",
+        "question_number": 307,
+        "question": "In survey, 55% voters are male and rest female. 40% males and 33.33% females are literate. Find percentage of voters literate.",
+        "options": {
+            "A": "52%",
+            "B": "48%",
+            "C": "54%",
+            "D": "37%"
+        },
+        "correct_option": "A",
+        "answer": "52%",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T12-308",
+        "chapter": "Percentage",
+        "type": "Type-XII",
+        "question_number": 308,
+        "question": "In constituency, 55% voters are males and rest females. 40% males and 40% females are illiterate. Find percentage by which illiterate females exceed illiterate males.",
+        "options": {
+            "A": "21.5%",
+            "B": "20.8%",
+            "C": "16.4%",
+            "D": "22.7%"
+        },
+        "correct_option": "D",
+        "answer": "22.7%",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T12-309",
+        "chapter": "Percentage",
+        "type": "Type-XII",
+        "question_number": 309,
+        "question": "In constituency, 45% voters male and rest female. 60% males and 60% females literate. Find percentage by which literate males exceed literate females.",
+        "options": {
+            "A": "19.11%",
+            "B": "27.23%",
+            "C": "30.24%",
+            "D": "22.22%"
+        },
+        "correct_option": "D",
+        "answer": "22.22%",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T12-310",
+        "chapter": "Percentage",
+        "type": "Type-XII",
+        "question_number": 310,
+        "question": "Candidate scored 75% marks in Paper A, 80% in Paper B and 60% in Paper C. Weightage ratio is 50%, 40% and 10%. Find weighted percentage.",
+        "options": {
+            "A": "77%",
+            "B": "74%",
+            "C": "72%",
+            "D": "76%"
+        },
+        "correct_option": "D",
+        "answer": "76%",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T13-311",
+        "chapter": "Percentage",
+        "type": "Type-XIII (Venn Diagram)",
+        "question_number": 311,
+        "question": "In a school, total students who play tennis and cricket together is 180. Students who play tennis are 70% of total students and cricket players are 60%. Students who do not play any game are 25%. Find total number of students.",
+        "options": {
+            "A": "500",
+            "B": "480",
+            "C": "400",
+            "D": "680"
+        },
+        "correct_option": "C",
+        "answer": "400",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T13-312",
+        "chapter": "Percentage",
+        "type": "Type-XIII (Venn Diagram)",
+        "question_number": 312,
+        "question": "40% students passed Maths, 50% passed English, and 14% passed both. If total students are 1400, find number of students who passed only one subject.",
+        "options": {
+            "A": "600",
+            "B": "700",
+            "C": "490",
+            "D": "560"
+        },
+        "correct_option": "B",
+        "answer": "700",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T13-313",
+        "chapter": "Percentage",
+        "type": "Type-XIII (Venn Diagram)",
+        "question_number": 313,
+        "question": "In village, 200% speak English only and Hindi speakers double of those who did not speak any language. Find number of students who speak both languages.",
+        "options": {
+            "A": "320",
+            "B": "160",
+            "C": "200",
+            "D": "180"
+        },
+        "correct_option": "B",
+        "answer": "160",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T13-314",
+        "chapter": "Percentage",
+        "type": "Type-XIII (Venn Diagram)",
+        "question_number": 314,
+        "question": "Survey shows people like Hindu and Times of India newspapers. Total surveyed 1750. Given data about readers, find number of people who like only Hindu.",
+        "options": {
+            "A": "40",
+            "B": "25",
+            "C": "30",
+            "D": "35"
+        },
+        "correct_option": "A",
+        "answer": "40",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T13-315",
+        "chapter": "Percentage",
+        "type": "Type-XIII (Venn Diagram)",
+        "question_number": 315,
+        "question": "In examination, 60% passed Physics, 37.5% passed Chemistry and 12.5% passed both. If total students 240, find percentage who failed.",
+        "options": {
+            "A": "16%",
+            "B": "25%",
+            "C": "20%",
+            "D": "15%"
+        },
+        "correct_option": "B",
+        "answer": "25%",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T13-316",
+        "chapter": "Percentage",
+        "type": "Type-XIII (Venn Diagram)",
+        "question_number": 316,
+        "question": "In college, 43 passed accounts, 42 digital marketing, 40 science, 22 accounts and digital marketing, 23 accounts and science, 16 digital marketing and science, 10 passed none. Find percentage who passed only one subject.",
+        "options": {
+            "A": "93.99%",
+            "B": "9.3%",
+            "C": "11.11%",
+            "D": "95%"
+        },
+        "correct_option": "A",
+        "answer": "93.99%",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T13-317",
+        "chapter": "Percentage",
+        "type": "Type-XIII (Venn Diagram)",
+        "question_number": 317,
+        "question": "53% passed Maths, 61% Physics, 60% Chemistry. 24% passed Maths and Physics, 35% Physics and Chemistry, 27% Maths and Chemistry, 5% none. Find ratio of Maths & Chemistry only to Physics & Chemistry only.",
+        "options": {
+            "A": "7:5",
+            "B": "5:7",
+            "C": "4:5",
+            "D": "5:4"
+        },
+        "correct_option": "B",
+        "answer": "5:7",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T13-318",
+        "chapter": "Percentage",
+        "type": "Type-XIII (Venn Diagram)",
+        "question_number": 318,
+        "question": "In class of 50 students, given numbers playing hockey, cricket, football and overlaps. If 18 play none, find ratio of students who play all sports to exactly two sports.",
+        "options": {
+            "A": "1:3",
+            "B": "1:7",
+            "C": "1:5",
+            "D": "4:3"
+        },
+        "correct_option": "C",
+        "answer": "1:5",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T14-319",
+        "chapter": "Percentage",
+        "type": "Type-XIV (Commission)",
+        "question_number": 319,
+        "question": "Agent gets 5% commission up to ₹10000 and 4% above that. He gives ₹28700 after deducting commission. Find total sales.",
+        "options": {
+            "A": "30000",
+            "B": "24000",
+            "C": "28000",
+            "D": "32000"
+        },
+        "correct_option": "A",
+        "answer": "30000",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T14-320",
+        "chapter": "Percentage",
+        "type": "Type-XIV (Commission)",
+        "question_number": 320,
+        "question": "Salesman allowed 12% commission up to ₹15000 and 1% additional above. Total earnings ₹7650. Find total sales.",
+        "options": {
+            "A": "56000",
+            "B": "50000",
+            "C": "60000",
+            "D": "64000"
+        },
+        "correct_option": "C",
+        "answer": "60000",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T14-321",
+        "chapter": "Percentage",
+        "type": "Type-XIV (Commission)",
+        "question_number": 321,
+        "question": "A company allows 7% commission on total sales. If salesman is appointed on fixed salary of ₹3000 and 4% commission on sales more than ₹10000, then salesman gets ₹8000 more. Find total sales made by salesman.",
+        "options": {
+            "A": "60000",
+            "B": "75000",
+            "C": "56000",
+            "D": "64000"
+        },
+        "correct_option": "A",
+        "answer": "60000",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T14-322",
+        "chapter": "Percentage",
+        "type": "Type-XIV (Commission)",
+        "question_number": 322,
+        "question": "A company allows 13% commission on total sales. But if salesman is appointed on fixed salary of ₹4700 and 7% commission on sales more than ₹12000, salesman gets ₹620 more. Find total sales made by salesman.",
+        "options": {
+            "A": "50000",
+            "B": "52000",
+            "C": "57000",
+            "D": "54000"
+        },
+        "correct_option": "D",
+        "answer": "54000",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T14-323",
+        "chapter": "Percentage",
+        "type": "Type-XIV (Commission)",
+        "question_number": 323,
+        "question": "A marketing agent earns commission of 2% on first ₹200000, 1.5% on next ₹200000, and 1% on remaining amount. If total sales were ₹568000, find commission earned.",
+        "options": {
+            "A": "8860",
+            "B": "7730",
+            "C": "8240",
+            "D": "7105"
+        },
+        "correct_option": "A",
+        "answer": "8860",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T14-324",
+        "chapter": "Percentage",
+        "type": "Type-XIV (Commission)",
+        "question_number": 324,
+        "question": "Two saleswomen Kavitha and Kalyani earned 12% and 15% commission respectively. Kavitha gets 3% and Kalyani gets 5% extra bonus on sales more than ₹20000. If difference in earnings is ₹7600, find Kavitha's total earnings.",
+        "options": {
+            "A": "19200",
+            "B": "21600",
+            "C": "17800",
+            "D": "23400"
+        },
+        "correct_option": "D",
+        "answer": "23400",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T14-325",
+        "chapter": "Percentage",
+        "type": "Type-XIV (Commission)",
+        "question_number": 325,
+        "question": "A salesman makes commission of x% on first ₹3000 and y% on remaining sales. Commission from ₹7000 was ₹960 and from ₹8000 was ₹1110. Find values of x and y.",
+        "options": {
+            "A": "12%, 15%",
+            "B": "15%, 12%",
+            "C": "10%, 15%",
+            "D": "12%, 10%"
+        },
+        "correct_option": "A",
+        "answer": "12%, 15%",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T15-326",
+        "chapter": "Percentage",
+        "type": "Type-XV (Income Tax)",
+        "question_number": 326,
+        "question": "If rate of income tax increases by 27% and net income increases by 3%, find decrease in tax rate.",
+        "options": {
+            "A": "6%",
+            "B": "8%",
+            "C": "12%",
+            "D": "10%"
+        },
+        "correct_option": "D",
+        "answer": "10%",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T15-327",
+        "chapter": "Percentage",
+        "type": "Type-XV (Income Tax)",
+        "question_number": 327,
+        "question": "Income tax rate increased by x% but net income increased by 12% and gross income decreased by 3%. Find increase in tax rate.",
+        "options": {
+            "A": "22.4%",
+            "B": "21.6%",
+            "C": "20.8%",
+            "D": "24.8%"
+        },
+        "correct_option": "A",
+        "answer": "22.4%",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T15-328",
+        "chapter": "Percentage",
+        "type": "Type-XV (Income Tax)",
+        "question_number": 328,
+        "question": "Income increased by ₹1800 and payable tax decreased from 18% to 15%. Both tax amounts same. Find income.",
+        "options": {
+            "A": "9000",
+            "B": "15000",
+            "C": "12000",
+            "D": "10000"
+        },
+        "correct_option": "A",
+        "answer": "9000",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T15-329",
+        "chapter": "Percentage",
+        "type": "Type-XV (Income Tax)",
+        "question_number": 329,
+        "question": "Income increased by ₹2000. Tax rate increased from 14% to 12%. Tax amount same. First ₹2000 and next ₹3000 tax-free. Find current income.",
+        "options": {
+            "A": "6000",
+            "B": "8000",
+            "C": "5000",
+            "D": "9000"
+        },
+        "correct_option": "B",
+        "answer": "8000",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T15-330",
+        "chapter": "Percentage",
+        "type": "Type-XV (Income Tax)",
+        "question_number": 330,
+        "question": "Person income increased by ₹28800 but tax reduced from 12% to 10%. Tax-free limit same. Find increase in income.",
+        "options": {
+            "A": "1440",
+            "B": "5760",
+            "C": "6000",
+            "D": "6500"
+        },
+        "correct_option": "B",
+        "answer": "5760",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T16-331",
+        "chapter": "Percentage",
+        "type": "Type-XVI (Miscellaneous)",
+        "question_number": 331,
+        "question": "Income decreases by ₹3000 and tax rate increases from 15% to 18%. Ratio of paid tax is 3:2. If 29% income is tax free, find initial income.",
+        "options": {
+            "A": "6750",
+            "B": "5550",
+            "C": "7750",
+            "D": "6250"
+        },
+        "correct_option": "A",
+        "answer": "6750",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T16-332",
+        "chapter": "Percentage",
+        "type": "Type-XVI (Miscellaneous)",
+        "question_number": 332,
+        "question": "A is 25% more than B, and B is 40% less than C. If C is 20% more than D, find percentage less than C that D is.",
+        "options": {
+            "A": "10%",
+            "B": "12%",
+            "C": "9%",
+            "D": "11%"
+        },
+        "correct_option": "D",
+        "answer": "11%",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T16-333",
+        "chapter": "Percentage",
+        "type": "Type-XVI (Miscellaneous)",
+        "question_number": 333,
+        "question": "A is 25% more than B and B is 30% less than C. If C is 20% more than D, find percentage more than A that D is.",
+        "options": {
+            "A": "3%",
+            "B": "6%",
+            "C": "5%",
+            "D": "2%"
+        },
+        "correct_option": "C",
+        "answer": "5%",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T16-334",
+        "chapter": "Percentage",
+        "type": "Type-XVI (Miscellaneous)",
+        "question_number": 334,
+        "question": "Sum of two numbers is 450. If greater increases by 4% and smaller decreases by 20%, resulting numbers equal. Find smaller number.",
+        "options": {
+            "A": "144",
+            "B": "164",
+            "C": "200",
+            "D": "176"
+        },
+        "correct_option": "C",
+        "answer": "200",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T16-335",
+        "chapter": "Percentage",
+        "type": "Type-XVI (Miscellaneous)",
+        "question_number": 335,
+        "question": "A is 25% more than B, and B is 40% less than C. If C is 20% more than D, find percentage less than A that D is.",
+        "options": {
+            "A": "5%",
+            "B": "15%",
+            "C": "10%",
+            "D": "12%"
+        },
+        "correct_option": "C",
+        "answer": "10%",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T16-336",
+        "chapter": "Percentage",
+        "type": "Type-XVI (Miscellaneous)",
+        "question_number": 336,
+        "question": "If number increases by 15% then decreases by 15%, result is 782. Same number increases by 25% then decreases by 20%. Find resulting number.",
+        "options": {
+            "A": "712",
+            "B": "150",
+            "C": "750",
+            "D": "600"
+        },
+        "correct_option": "D",
+        "answer": "600",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T16-337",
+        "chapter": "Percentage",
+        "type": "Type-XVI (Miscellaneous)",
+        "question_number": 337,
+        "question": "If 70% of number subtracted from second number makes second number 70% of first number, find ratio of first to second.",
+        "options": {
+            "A": "3:2",
+            "B": "4:3",
+            "C": "2:3",
+            "D": "3:4"
+        },
+        "correct_option": "A",
+        "answer": "3:2",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T16-338",
+        "chapter": "Percentage",
+        "type": "Type-XVI (Miscellaneous)",
+        "question_number": 338,
+        "question": "Sum of two numbers is 660. If bigger increases by 15% and smaller decreases by 15%, resulting numbers equal. Find smaller number.",
+        "options": {
+            "A": "307",
+            "B": "285",
+            "C": "289",
+            "D": "304"
+        },
+        "correct_option": "C",
+        "answer": "289",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T16-339",
+        "chapter": "Percentage",
+        "type": "Type-XVI (Miscellaneous)",
+        "question_number": 339,
+        "question": "A invested 40% less than B and C invested ₹8000. Average investment of A, B and C is ₹6347. Find total investment.",
+        "options": {
+            "A": "6347",
+            "B": "6417",
+            "C": "6215",
+            "D": "6143"
+        },
+        "correct_option": "A",
+        "answer": "6347",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T16-340",
+        "chapter": "Percentage",
+        "type": "Type-XVI (Miscellaneous)",
+        "question_number": 340,
+        "question": "Income of A is 30% less than B and income of B is 137.5% more than C. If income of A is ₹28500 less than B, find income of C.",
+        "options": {
+            "A": "40000",
+            "B": "50000",
+            "C": "48000",
+            "D": "36000"
+        },
+        "correct_option": "A",
+        "answer": "40000",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T16-341",
+        "chapter": "Percentage",
+        "type": "Type-XVI (Miscellaneous)",
+        "question_number": 341,
+        "question": "A, B and C divided a sum. Average amount is ₹4520. A’s share is 10 2/3% more than B and 33 1/3% less than C. Find B’s share.",
+        "options": {
+            "A": "3500",
+            "B": "5976",
+            "C": "3600",
+            "D": "9384"
+        },
+        "correct_option": "C",
+        "answer": "3600",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T16-342",
+        "chapter": "Percentage",
+        "type": "Type-XVI (Miscellaneous)",
+        "question_number": 342,
+        "question": "A is 80% more than B and C is 48 4/7% less than sum of A and B. Find what percent C is less than A.",
+        "options": {
+            "A": "15%",
+            "B": "25%",
+            "C": "30%",
+            "D": "20%"
+        },
+        "correct_option": "D",
+        "answer": "20%",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T16-343",
+        "chapter": "Percentage",
+        "type": "Type-XVI (Miscellaneous)",
+        "question_number": 343,
+        "question": "Number decreased by 20% gives second number. Second increased by 200% gives third number. Find percentage difference between first and third number.",
+        "options": {
+            "A": "More, 15.7%",
+            "B": "Less, 15.7%",
+            "C": "More, 12.5%",
+            "D": "Less, 12.5%"
+        },
+        "correct_option": "D",
+        "answer": "Less, 12.5%",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T16-344",
+        "chapter": "Percentage",
+        "type": "Type-XVI (Miscellaneous)",
+        "question_number": 344,
+        "question": "11/5 of number A is 22% of B. Number B is 2.5% of C. If C = 5500, find sum of 80% of A and 40% of B.",
+        "options": {
+            "A": "88",
+            "B": "75",
+            "C": "45",
+            "D": "66"
+        },
+        "correct_option": "D",
+        "answer": "66",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T16-345",
+        "chapter": "Percentage",
+        "type": "Type-XVI (Miscellaneous)",
+        "question_number": 345,
+        "question": "Student A got 25 marks more than B and marks of A were 60% of sum of their marks. Find marks of A and B respectively.",
+        "options": {
+            "A": "75, 100",
+            "B": "75, 50",
+            "C": "45, 120",
+            "D": "55, 80"
+        },
+        "correct_option": "B",
+        "answer": "75, 50",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T16-346",
+        "chapter": "Percentage",
+        "type": "Type-XVI (Miscellaneous)",
+        "question_number": 346,
+        "question": "If Ram’s income exceeds Shyam’s by 70% and Shyam’s income is 30% less than Sohan’s income, find ratio of Ram and Sohan.",
+        "options": {
+            "A": "119:100",
+            "B": "119:102",
+            "C": "120:101",
+            "D": "118:99"
+        },
+        "correct_option": "A",
+        "answer": "119:100",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T16-347",
+        "chapter": "Percentage",
+        "type": "Type-XVI (Miscellaneous)",
+        "question_number": 347,
+        "question": "Petrol price increased by 5%. Man travels 3045 km monthly, mileage 15 km/litre. Find increase in monthly expense (nearest ₹).",
+        "options": {
+            "A": "832",
+            "B": "859",
+            "C": "758",
+            "D": "944"
+        },
+        "correct_option": "A",
+        "answer": "832",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T16-348",
+        "chapter": "Percentage",
+        "type": "Type-XVI (Miscellaneous)",
+        "question_number": 348,
+        "question": "45% students passed history, 60% passed Hindi, 8% passed both. Find percent passed in both subjects.",
+        "options": {
+            "A": "15%",
+            "B": "10%",
+            "C": "13%",
+            "D": "12%"
+        },
+        "correct_option": "C",
+        "answer": "13%",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T16-349",
+        "chapter": "Percentage",
+        "type": "Type-XVI (Miscellaneous)",
+        "question_number": 349,
+        "question": "1/10 of total toffees wasted, 35% of rest given to N, 1/8 of total given to S, remaining to N. N has 10 more than S. Find toffees given to S.",
+        "options": {
+            "A": "126",
+            "B": "110",
+            "C": "135",
+            "D": "100"
+        },
+        "correct_option": "A",
+        "answer": "126",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T16-350",
+        "chapter": "Percentage",
+        "type": "Type-XVI (Miscellaneous)",
+        "question_number": 350,
+        "question": "Ravi gave 10% chocolates to sister, Bhanu gave 25% to friend. Bhanu had 54 chocolates left. Find chocolates Ravi gave to sister.",
+        "options": {
+            "A": "3",
+            "B": "6",
+            "C": "5",
+            "D": "4"
+        },
+        "correct_option": "C",
+        "answer": "5",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T16-351",
+        "chapter": "Percentage",
+        "type": "Type-XVI (Miscellaneous)",
+        "question_number": 351,
+        "question": "Mridula started her job with certain monthly salary and earns fixed increment every year. Salary was ₹28400 after 6 years and ₹52997 after 15 years. Find annual increment.",
+        "options": {
+            "A": "₹12002",
+            "B": "₹1200",
+            "C": "₹2733",
+            "D": "₹1824"
+        },
+        "correct_option": "C",
+        "answer": "₹2733",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T16-352",
+        "chapter": "Percentage",
+        "type": "Type-XVI (Miscellaneous)",
+        "question_number": 352,
+        "question": "In group of 250 persons, 40% males and 60% females. If 30 more females join, find percentage of females in group.",
+        "options": {
+            "A": "72.25%",
+            "B": "90.25%",
+            "C": "64.29%",
+            "D": "62.58%"
+        },
+        "correct_option": "C",
+        "answer": "64.29%",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T16-353",
+        "chapter": "Percentage",
+        "type": "Type-XVI (Miscellaneous)",
+        "question_number": 353,
+        "question": "Price increased twice successively. Final price ₹2295 and initial price ₹1000. Second increase percent was twice first increase percent. Find second increase percent.",
+        "options": {
+            "A": "35%",
+            "B": "65%",
+            "C": "70%",
+            "D": "25%"
+        },
+        "correct_option": "C",
+        "answer": "70%",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T16-354",
+        "chapter": "Percentage",
+        "type": "Type-XVI (Miscellaneous)",
+        "question_number": 354,
+        "question": "Price increases by 20% every year. If price at end of third year ₹324, find price at end of second year.",
+        "options": {
+            "A": "1350",
+            "B": "1250",
+            "C": "1260",
+            "D": "1180"
+        },
+        "correct_option": "A",
+        "answer": "1350",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T16-355",
+        "chapter": "Percentage",
+        "type": "Type-XVI (Miscellaneous)",
+        "question_number": 355,
+        "question": "Person buys 10 chairs at ₹4500. Later cost decreases by 20% and buys 10 more chairs. Find total purchase cost.",
+        "options": {
+            "A": "3260",
+            "B": "3960",
+            "C": "4100",
+            "D": "3900"
+        },
+        "correct_option": "B",
+        "answer": "3960",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T16-356",
+        "chapter": "Percentage",
+        "type": "Type-XVI (Miscellaneous)",
+        "question_number": 356,
+        "question": "Population increases annually by 20%. Present population 30 lakh. Find population difference after 3 years.",
+        "options": {
+            "A": "75592.6",
+            "B": "85592.6",
+            "C": "65592.6",
+            "D": "92592.6"
+        },
+        "correct_option": "D",
+        "answer": "92592.6",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T16-357",
+        "chapter": "Percentage",
+        "type": "Type-XVI (Miscellaneous)",
+        "question_number": 357,
+        "question": "Share price increased 10%, then decreased 8%, then decreased 8%. Final value ₹12420. Find purchase value.",
+        "options": {
+            "A": "21080",
+            "B": "21200",
+            "C": "1260",
+            "D": "1140"
+        },
+        "correct_option": "A",
+        "answer": "21080",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T16-358",
+        "chapter": "Percentage",
+        "type": "Type-XVI (Miscellaneous)",
+        "question_number": 358,
+        "question": "Person loses 75% money, then 75% of remaining, then 75% again. If left ₹100, find initial money.",
+        "options": {
+            "A": "6400",
+            "B": "2400",
+            "C": "1600",
+            "D": "3200"
+        },
+        "correct_option": "A",
+        "answer": "6400",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T16-359",
+        "chapter": "Percentage",
+        "type": "Type-XVI (Miscellaneous)",
+        "question_number": 359,
+        "question": "Man spends 60% salary on expenses. Salary increases by 30% and expenses by 60%. Savings increases by 250%. Find expenditure percentage of increased salary.",
+        "options": {
+            "A": "32.7%",
+            "B": "43.6%",
+            "C": "29.5%",
+            "D": "36.6%"
+        },
+        "correct_option": "A",
+        "answer": "32.7%",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T16-360",
+        "chapter": "Percentage",
+        "type": "Type-XVI (Miscellaneous)",
+        "question_number": 360,
+        "question": "Units in Company A decreased from 12500 to 10625. Company B decreased from 34000 to 30600. Find ratio of percentage decreases.",
+        "options": {
+            "A": "5:3",
+            "B": "3:4",
+            "C": "3:2",
+            "D": "8:5"
+        },
+        "correct_option": "C",
+        "answer": "3:2",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T16-361",
+        "chapter": "Percentage",
+        "type": "Type-XVI (Miscellaneous)",
+        "question_number": 361,
+        "question": "Labour cost increased by 25% and labour cost went from 30% to 38% of raw material cost. Find percentage decrease required in raw material cost to keep labour cost same.",
+        "options": {
+            "A": "20.7%",
+            "B": "30.2%",
+            "C": "24.6%",
+            "D": "25.5%"
+        },
+        "correct_option": "C",
+        "answer": "24.6%",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T16-362",
+        "chapter": "Percentage",
+        "type": "Type-XVI (Miscellaneous)",
+        "question_number": 362,
+        "question": "Software company has 3 divisions with employees 20, 30, and 40. Weekend working percentages were 20%, 30%, and 40%. Find overall working percentage.",
+        "options": {
+            "A": "0.0032%",
+            "B": "3.2%",
+            "C": "0.032%",
+            "D": "32%"
+        },
+        "correct_option": "D",
+        "answer": "32%",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T16-363",
+        "chapter": "Percentage",
+        "type": "Type-XVI (Miscellaneous)",
+        "question_number": 363,
+        "question": "Businessman donated 50% profit first year. Remaining capital doubled over next two years. Final amount ₹15360. Find initial investment.",
+        "options": {
+            "A": "20000",
+            "B": "30000",
+            "C": "25000",
+            "D": "32000"
+        },
+        "correct_option": "B",
+        "answer": "30000",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T16-364",
+        "chapter": "Percentage",
+        "type": "Type-XVI (Miscellaneous)",
+        "question_number": 364,
+        "question": "Fruit seller sells 45% oranges. Remaining sold in stages 20%, 90%, and 5. Find initial number of oranges.",
+        "options": {
+            "A": "100",
+            "B": "120",
+            "C": "111",
+            "D": "121"
+        },
+        "correct_option": "B",
+        "answer": "120",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T16-365",
+        "chapter": "Percentage",
+        "type": "Type-XVI (Miscellaneous)",
+        "question_number": 365,
+        "question": "Vipul spends 30% income on rent, 60% of remaining on groceries, 40% of remaining on others. Savings ₹7056. Find total income.",
+        "options": {
+            "A": "18323",
+            "B": "15233",
+            "C": "22386",
+            "D": "17640"
+        },
+        "correct_option": "C",
+        "answer": "22386",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T16-366",
+        "chapter": "Percentage",
+        "type": "Type-XVI (Miscellaneous)",
+        "question_number": 366,
+        "question": "Person spends 10% on groceries, 10% medicines, 20% education, 15% rent and saves remaining. Income ₹30000. Find savings.",
+        "options": {
+            "A": "15500",
+            "B": "13500",
+            "C": "16500",
+            "D": "12500"
+        },
+        "correct_option": "B",
+        "answer": "13500",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T16-367",
+        "chapter": "Percentage",
+        "type": "Type-XVI (Miscellaneous)",
+        "question_number": 367,
+        "question": "Ram spends 30% on food, 10% house rent, 7% entertainment, 6% conveyance. Savings ₹1880. Find total income.",
+        "options": {
+            "A": "4000",
+            "B": "4450",
+            "C": "5000",
+            "D": "5550"
+        },
+        "correct_option": "A",
+        "answer": "4000",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T16-368",
+        "chapter": "Percentage",
+        "type": "Type-XVI (Miscellaneous)",
+        "question_number": 368,
+        "question": "Software engineer spends 15% rent, 25% groceries, 25% income tax, 15% remaining. Savings ₹10404. Find income.",
+        "options": {
+            "A": "22600",
+            "B": "24600",
+            "C": "25600",
+            "D": "23600"
+        },
+        "correct_option": "C",
+        "answer": "25600",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T16-369",
+        "chapter": "Percentage",
+        "type": "Type-XVI (Miscellaneous)",
+        "question_number": 369,
+        "question": "Pranav gave 30% to wife, 86% remaining to children, half remaining spent. Balance ₹98000 deposited. Find initial amount.",
+        "options": {
+            "A": "200000",
+            "B": "400000",
+            "C": "100000",
+            "D": "300000"
+        },
+        "correct_option": "A",
+        "answer": "200000",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T16-370",
+        "chapter": "Percentage",
+        "type": "Type-XVI (Miscellaneous)",
+        "question_number": 370,
+        "question": "Man spends 35% income on food and 4/13 of remaining on transport. Saves ₹6300 equal to 20% of remaining. Find income.",
+        "options": {
+            "A": "67500",
+            "B": "72000",
+            "C": "70000",
+            "D": "63000"
+        },
+        "correct_option": "C",
+        "answer": "70000",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T16-371",
+        "chapter": "Percentage",
+        "type": "Type-XVI (Miscellaneous)",
+        "question_number": 371,
+        "question": "Swati earns ₹40000 and saves 25%. Remaining is spent on food and education in ratio 3:2. Find percentage expenditure on education relative to total income.",
+        "options": {
+            "A": "30%",
+            "B": "20%",
+            "C": "60%",
+            "D": "40%"
+        },
+        "correct_option": "A",
+        "answer": "30%",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T16-372",
+        "chapter": "Percentage",
+        "type": "Type-XVI (Miscellaneous)",
+        "question_number": 372,
+        "question": "Person spends 40% salary on food, 50% of remaining on transport, and 30% of remaining on clothes. Saves ₹1260. Find monthly salary.",
+        "options": {
+            "A": "10000",
+            "B": "6000",
+            "C": "7000",
+            "D": "8000"
+        },
+        "correct_option": "B",
+        "answer": "6000",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T16-373",
+        "chapter": "Percentage",
+        "type": "Type-XVI (Miscellaneous)",
+        "question_number": 373,
+        "question": "Swastik saves 20%, spends remaining in ratio food:education:shopping = 3:2:2. If food expense ₹7200, find monthly income.",
+        "options": {
+            "A": "9600",
+            "B": "12000",
+            "C": "15000",
+            "D": "10800"
+        },
+        "correct_option": "B",
+        "answer": "12000",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T16-374",
+        "chapter": "Percentage",
+        "type": "Type-XVI (Miscellaneous)",
+        "question_number": 374,
+        "question": "Family earns ₹75000, saves 10%. Remaining expenditure on education ₹30375, rest on food. Find food expenditure percentage.",
+        "options": {
+            "A": "20%",
+            "B": "21.5%",
+            "C": "31.5%",
+            "D": "32.5%"
+        },
+        "correct_option": "C",
+        "answer": "31.5%",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T16-375",
+        "chapter": "Percentage",
+        "type": "Type-XVI (Miscellaneous)",
+        "question_number": 375,
+        "question": "Akshay spends 25% food, 26% recreation, 23% education. Remaining ₹26600 saved. Find total income.",
+        "options": {
+            "A": "195000",
+            "B": "183000",
+            "C": "162000",
+            "D": "171000"
+        },
+        "correct_option": "D",
+        "answer": "171000",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T16-376",
+        "chapter": "Percentage",
+        "type": "Type-XVI (Miscellaneous)",
+        "question_number": 376,
+        "question": "Family saves 15% and spends rest in ratio health:education:food = 17:34:34. If education expense ₹3300 less than savings, find health expenditure.",
+        "options": {
+            "A": "300",
+            "B": "350",
+            "C": "250",
+            "D": "500"
+        },
+        "correct_option": "A",
+        "answer": "300",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T16-377",
+        "chapter": "Percentage",
+        "type": "Type-XVI (Miscellaneous)",
+        "question_number": 377,
+        "question": "Monthly income ₹80000. Expenses include education, household, savings, GPF, EMI. EMI equals savings. Find EMI.",
+        "options": {
+            "A": "14000",
+            "B": "16000",
+            "C": "20000",
+            "D": "18000"
+        },
+        "correct_option": "B",
+        "answer": "16000",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T16-378",
+        "chapter": "Percentage",
+        "type": "Type-XVI (Miscellaneous)",
+        "question_number": 378,
+        "question": "Bhavani spends 15% kids education, 20% food, 40% house rent, 30% transport. Left ₹10257. Find total income.",
+        "options": {
+            "A": "45800",
+            "B": "48000",
+            "C": "52600",
+            "D": "81965"
+        },
+        "correct_option": "C",
+        "answer": "52600",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T16-379",
+        "chapter": "Percentage",
+        "type": "Type-XVI (Miscellaneous)",
+        "question_number": 379,
+        "question": "Shiva salary ₹75000. Expenses and savings given. Savings ₹21000. Rest donated. Find donation percentage.",
+        "options": {
+            "A": "3%",
+            "B": "6%",
+            "C": "8%",
+            "D": "4%"
+        },
+        "correct_option": "D",
+        "answer": "4%",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T16-380",
+        "chapter": "Percentage",
+        "type": "Type-XVI (Miscellaneous)",
+        "question_number": 380,
+        "question": "Raju spends 10% transport, 20% food, 30% clothing. Savings ₹26460. Find total food and clothing expenditure.",
+        "options": {
+            "A": "26420",
+            "B": "22140",
+            "C": "23440",
+            "D": "24480"
+        },
+        "correct_option": "B",
+        "answer": "22140",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T16-381",
+        "chapter": "Percentage",
+        "type": "Type-XVI (Miscellaneous Questions)",
+        "question_number": 381,
+        "question": "A family saves 30% of total income and savings amount ₹600 is less than half of expenditure. Expenditure is spent on health, food, and education in ratio 3:5:6. Find amount spent on education.",
+        "options": {
+            "A": "3600",
+            "B": "1800",
+            "C": "7200",
+            "D": "8400"
+        },
+        "correct_option": "A",
+        "answer": "3600",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T16-382",
+        "chapter": "Percentage",
+        "type": "Type-XVI (Miscellaneous Questions)",
+        "question_number": 382,
+        "question": "Mr. Stark gave 30% of money to Bruce. He gave 30% of remaining amount to Natasha, Captain and Vision each. Half of remaining amount spent and remaining ₹14000 deposited. Find initial money.",
+        "options": {
+            "A": "390000",
+            "B": "400000",
+            "C": "370000",
+            "D": "300000"
+        },
+        "correct_option": "B",
+        "answer": "400000",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T16-383",
+        "chapter": "Percentage",
+        "type": "Type-XVI (Miscellaneous Questions)",
+        "question_number": 383,
+        "question": "Aman gave 30% income to father. Of remaining, 30% to daughter and 25% to wife. Remaining equally invested in 3 schemes giving ₹42000 each. Find total income.",
+        "options": {
+            "A": "300000",
+            "B": "400000",
+            "C": "200000",
+            "D": "500000"
+        },
+        "correct_option": "B",
+        "answer": "400000",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T16-384",
+        "chapter": "Percentage",
+        "type": "Type-XVI (Miscellaneous Questions)",
+        "question_number": 384,
+        "question": "Ramesh spends 40% salary on food, 18% rent, 12% entertainment, and 5% conveyance. He borrowed ₹16000 to meet total expenses ₹20000. Find salary.",
+        "options": {
+            "A": "18000",
+            "B": "16500",
+            "C": "16000",
+            "D": "15000"
+        },
+        "correct_option": "C",
+        "answer": "16000",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T16-385",
+        "chapter": "Percentage",
+        "type": "Type-XVI (Miscellaneous Questions)",
+        "question_number": 385,
+        "question": "Family income ₹35000. Health expense 50% more than food. Food half of entertainment. Health half of education. Education one-third of total expenditure. Find education expense.",
+        "options": {
+            "A": "12600",
+            "B": "8400",
+            "C": "13200",
+            "D": "7700"
+        },
+        "correct_option": "A",
+        "answer": "12600",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T16-386",
+        "chapter": "Percentage",
+        "type": "Type-XVI (Miscellaneous Questions)",
+        "question_number": 386,
+        "question": "Passing marks 32 for exam of 80 marks. Find student scoring minimum marks if conditions given.",
+        "options": {
+            "A": "19%",
+            "B": "17%",
+            "C": "72%",
+            "D": "160%"
+        },
+        "correct_option": "A",
+        "answer": "19%",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T16-387",
+        "chapter": "Percentage",
+        "type": "Type-XVI (Miscellaneous Questions)",
+        "question_number": 387,
+        "question": "Students passed 30%, failed 20%. From passed group 30% appeared second exam. If 90% passed both, find percentage who failed first exam.",
+        "options": {
+            "A": "8.3%",
+            "B": "10%",
+            "C": "6.4%",
+            "D": "5.7%"
+        },
+        "correct_option": "D",
+        "answer": "5.7%",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T16-388",
+        "chapter": "Percentage",
+        "type": "Type-XVI (Miscellaneous Questions)",
+        "question_number": 388,
+        "question": "Two papers equal marks. Weight ratio 2:1. Student scored 8/10 in paper B. Find score in paper A.",
+        "options": {
+            "A": "6.5",
+            "B": "5.5",
+            "C": "5",
+            "D": "6"
+        },
+        "correct_option": "A",
+        "answer": "6.5",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T16-389",
+        "chapter": "Percentage",
+        "type": "Type-XVI (Miscellaneous Questions)",
+        "question_number": 389,
+        "question": "Vikas marks ratio in exams 3:5:6. Percentage ratio 7:11:10. Find number of exams scoring more than 50%.",
+        "options": {
+            "A": "None",
+            "B": "2",
+            "C": "3",
+            "D": "1"
+        },
+        "correct_option": "B",
+        "answer": "2",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T16-390",
+        "chapter": "Percentage",
+        "type": "Type-XVI (Miscellaneous Questions)",
+        "question_number": 390,
+        "question": "Grade based on Internal 30%, Assignment 30%, External 40%. Student scored 90%, 95%, 75%. Find overall grade.",
+        "options": {
+            "A": "86.25%",
+            "B": "85.25%",
+            "C": "86%",
+            "D": "85.50%"
+        },
+        "correct_option": "D",
+        "answer": "85.50%",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T16-391",
+        "chapter": "Percentage",
+        "type": "Type-XVI (Miscellaneous Questions)",
+        "question_number": 391,
+        "question": "Some students appeared for an Olympiad exam. 20% of boys and 15% of girls failed. Number of boys passed was 70 more than girls passed. Total failed students were 90. Find total students.",
+        "options": {
+            "A": "420",
+            "B": "400",
+            "C": "500",
+            "D": "350"
+        },
+        "correct_option": "C",
+        "answer": "500",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T16-392",
+        "chapter": "Percentage",
+        "type": "Type-XVI (Miscellaneous Questions)",
+        "question_number": 392,
+        "question": "B obtained 20% more marks than A. A obtained 10% less than C. D obtained 20% more than B. Find percentage D more than A.",
+        "options": {
+            "A": "33 1/3%",
+            "B": "13 1/3%",
+            "C": "15 1/3%",
+            "D": "23 1/3%"
+        },
+        "correct_option": "A",
+        "answer": "33 1/3%",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T16-393",
+        "chapter": "Percentage",
+        "type": "Type-XVI (Miscellaneous Questions)",
+        "question_number": 393,
+        "question": "Students counts are 25, 30, 45, 60 with pass percentages 20%, 30%, 35%, 40%. Find overall pass percentage.",
+        "options": {
+            "A": "67%",
+            "B": "63%",
+            "C": "53%",
+            "D": "79%"
+        },
+        "correct_option": "C",
+        "answer": "53%",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T16-394",
+        "chapter": "Percentage",
+        "type": "Type-XVI (Miscellaneous Questions)",
+        "question_number": 394,
+        "question": "Students appeared from X and Y. 50% from X failed. 150% more from Y than X. If 60% of total appeared from X passed, find percentage failed from Y.",
+        "options": {
+            "A": "18%",
+            "B": "20%",
+            "C": "16%",
+            "D": "24%"
+        },
+        "correct_option": "C",
+        "answer": "16%",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T16-395",
+        "chapter": "Percentage",
+        "type": "Type-XVI (Miscellaneous Questions)",
+        "question_number": 395,
+        "question": "Income of A is 45% more than B. B is 60% less than sum of A and B. D is 20% more than C. Find income of D.",
+        "options": {
+            "A": "75000",
+            "B": "73500",
+            "C": "72500",
+            "D": "72000"
+        },
+        "correct_option": "B",
+        "answer": "73500",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T16-396",
+        "chapter": "Percentage",
+        "type": "Type-XVI (Miscellaneous Questions)",
+        "question_number": 396,
+        "question": "Three persons donate 10%, 7%, and 9%. Monthly salary A and B equal. Difference in donation ₹900. Total donation ₹600 more than C. Find salary of C.",
+        "options": {
+            "A": "60000",
+            "B": "50000",
+            "C": "45000",
+            "D": "55000"
+        },
+        "correct_option": "B",
+        "answer": "50000",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T16-397",
+        "chapter": "Percentage",
+        "type": "Type-XVI (Miscellaneous Questions)",
+        "question_number": 397,
+        "question": "Workshop with 80 students and 10 resources. Sweet amount equals amount per resource person which equals 40% of total students. Find sweet distribution total.",
+        "options": {
+            "A": "2420",
+            "B": "2240",
+            "C": "2400",
+            "D": "2240"
+        },
+        "correct_option": "D",
+        "answer": "2240",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T16-398",
+        "chapter": "Percentage",
+        "type": "Type-XVI (Miscellaneous Questions)",
+        "question_number": 398,
+        "question": "Salary last year ₹12000 and ₹10000. This year ₹14400 and ₹12500. Find (x−y)/y × 100.",
+        "options": {
+            "A": "24",
+            "B": "25",
+            "C": "26",
+            "D": "28"
+        },
+        "correct_option": "D",
+        "answer": "28",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T16-399",
+        "chapter": "Percentage",
+        "type": "Type-XVI (Miscellaneous Questions)",
+        "question_number": 399,
+        "question": "Decreasing 180 by x% equals increasing 60 by x%. Find x% of 410 more than (x+20)% of 210.",
+        "options": {
+            "A": "37.57%",
+            "B": "36.57%",
+            "C": "39.46%",
+            "D": "31.67%"
+        },
+        "correct_option": "C",
+        "answer": "39.46%",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T16-400",
+        "chapter": "Percentage",
+        "type": "Type-XVI (Miscellaneous Questions)",
+        "question_number": 400,
+        "question": "Decreasing 110 by x% equals increasing 50 by x%. Find x% of 650 more than (x+20)% of 108.",
+        "options": {
+            "A": "80%",
+            "B": "90%",
+            "C": "136%",
+            "D": "154%"
+        },
+        "correct_option": "C",
+        "answer": "136%",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T16-401",
+        "chapter": "Percentage",
+        "type": "Type-XVI (Miscellaneous Questions)",
+        "question_number": 401,
+        "question": "If (x + 20)% of 250 is 25% more than x% of 220, then 10% of (x + 50) is what percent less than 15% of x?",
+        "options": {
+            "A": "13 1/3%",
+            "B": "8 1/3%",
+            "C": "16 2/3%",
+            "D": "33 1/3%"
+        },
+        "correct_option": "C",
+        "answer": "16 2/3%",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T16-402",
+        "chapter": "Percentage",
+        "type": "Type-XVI (Miscellaneous Questions)",
+        "question_number": 402,
+        "question": "Pranjal division mistake: divisor 25% more, dividend 10% less. Wrong quotient 25 remainder 0. Find correct quotient.",
+        "options": {
+            "A": "21.75",
+            "B": "22",
+            "C": "28.75",
+            "D": "22.25"
+        },
+        "correct_option": "D",
+        "answer": "22.25",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T16-403",
+        "chapter": "Percentage",
+        "type": "Type-XVI (Miscellaneous Questions)",
+        "question_number": 403,
+        "question": "Mistaken dividend 10% less, divisor 20% less. Wrong quotient 24 remainder 0. Find correct quotient.",
+        "options": {
+            "A": "27",
+            "B": "30",
+            "C": "26.4",
+            "D": "31.6"
+        },
+        "correct_option": "A",
+        "answer": "27",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T16-404",
+        "chapter": "Percentage",
+        "type": "Type-XVI (Miscellaneous Questions)",
+        "question_number": 404,
+        "question": "42% income equals 56% Bhaskar income. Bhaskar raised ₹200 weekly. Find Ranjita income.",
+        "options": {
+            "A": "4200",
+            "B": "3600",
+            "C": "3000",
+            "D": "4000"
+        },
+        "correct_option": "D",
+        "answer": "4000",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T16-405",
+        "chapter": "Percentage",
+        "type": "Type-XVI (Miscellaneous Questions)",
+        "question_number": 405,
+        "question": "57% income equals 76% Bhaskar income. Ranjita income reduced ₹400. Find Bhaskar income.",
+        "options": {
+            "A": "2800",
+            "B": "2400",
+            "C": "3000",
+            "D": "3200"
+        },
+        "correct_option": "C",
+        "answer": "3000",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T16-406",
+        "chapter": "Percentage",
+        "type": "Type-XVI (Miscellaneous Questions)",
+        "question_number": 406,
+        "question": "Monthly salary ₹160000. P=50%, E=20%, T=15%, B=5%. Later salary increases 20%, E and T remain percentage. B becomes 20% of E. Find sum of savings.",
+        "options": {
+            "A": "211680",
+            "B": "128160",
+            "C": "118620",
+            "D": "162810"
+        },
+        "correct_option": "B",
+        "answer": "128160",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T16-407",
+        "chapter": "Percentage",
+        "type": "Type-XVI (Miscellaneous Questions)",
+        "question_number": 407,
+        "question": "Salary ₹75000. Expense percentages given. After 40% increase, expense percentages adjusted. Find ratio of old savings to new savings.",
+        "options": {
+            "A": "655:644",
+            "B": "325:337",
+            "C": "644:655",
+            "D": "337:325"
+        },
+        "correct_option": "A",
+        "answer": "655:644",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T16-408",
+        "chapter": "Percentage",
+        "type": "Type-XVI (Miscellaneous Questions)",
+        "question_number": 408,
+        "question": "Population 7640. Male increased 25%, female 15%. Total becomes 9214. Find difference between present male and female.",
+        "options": {
+            "A": "940",
+            "B": "960",
+            "C": "820",
+            "D": "920"
+        },
+        "correct_option": "D",
+        "answer": "920",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T16-409",
+        "chapter": "Percentage",
+        "type": "Type-XVI (Miscellaneous Questions)",
+        "question_number": 409,
+        "question": "Population 18000. Next year male increases 5%, female 7%. Total becomes 19200. Find ratio male:female.",
+        "options": {
+            "A": "2:5",
+            "B": "1:5",
+            "C": "4:3",
+            "D": "3:5"
+        },
+        "correct_option": "B",
+        "answer": "1:5",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T16-410",
+        "chapter": "Percentage",
+        "type": "Type-XVI (Miscellaneous Questions)",
+        "question_number": 410,
+        "question": "Population 15280. Male increases 25%, female 15%. Total becomes 18428. Find difference between present male and female.",
+        "options": {
+            "A": "1840",
+            "B": "1380",
+            "C": "920",
+            "D": "2760"
+        },
+        "correct_option": "A",
+        "answer": "1840",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T16-411",
+        "chapter": "Percentage",
+        "type": "Type-XVI (Miscellaneous Questions)",
+        "question_number": 411,
+        "question": "In a factory with 400 employees, male:female ratio is 5:3. 87.5% employees are regular. 92% male employees are regular. Find percentage of regular female employees.",
+        "options": {
+            "A": "80%",
+            "B": "78%",
+            "C": "87.5%",
+            "D": "85%"
+        },
+        "correct_option": "A",
+        "answer": "80%",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T16-412",
+        "chapter": "Percentage",
+        "type": "Type-XVI (Miscellaneous Questions)",
+        "question_number": 412,
+        "question": "Population of country A decreases by p% and country B decreases by q%, p > q. Let x be ratio of A:B. Find percentage decrease in x.",
+        "options": {
+            "A": "100(p−q)/(100−q)",
+            "B": "100(p−q)/(100+p)",
+            "C": "100(p−q)/(100−p)",
+            "D": "100(p−q)/(100+q)"
+        },
+        "correct_option": "A",
+        "answer": "100(p−q)/(100−q)",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T16-413",
+        "chapter": "Percentage",
+        "type": "Type-XVI (Miscellaneous Questions)",
+        "question_number": 413,
+        "question": "Rajesh had 500 eggs. Each day he sold 20% eggs and added b% next morning. After 3 days he had 1024 eggs. Find b.",
+        "options": {
+            "A": "20",
+            "B": "10",
+            "C": "50",
+            "D": "100"
+        },
+        "correct_option": "D",
+        "answer": "100",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T16-414",
+        "chapter": "Percentage",
+        "type": "Type-XVI (Miscellaneous Questions)",
+        "question_number": 414,
+        "question": "35% employees science, 20% arts, rest commerce or illiterate. Illiterate = 300 = half commerce. Find science or arts employees.",
+        "options": {
+            "A": "1500",
+            "B": "1200",
+            "C": "1100",
+            "D": "1300"
+        },
+        "correct_option": "C",
+        "answer": "1100",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T16-415",
+        "chapter": "Percentage",
+        "type": "Type-XVI (Miscellaneous Questions)",
+        "question_number": 415,
+        "question": "Government distributed rice but distributor cheated using 3.75 kg instead of 4.5 kg and sold saved rice at double price. Distributed 2700 kg rice. Find fine amount.",
+        "options": {
+            "A": "36000",
+            "B": "45000",
+            "C": "28000",
+            "D": "54000"
+        },
+        "correct_option": "B",
+        "answer": "45000",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T16-416",
+        "chapter": "Percentage",
+        "type": "Type-XVI (Miscellaneous Questions)",
+        "question_number": 416,
+        "question": "Monthly consumption rice 20kg and wheat 8kg. Rice price 20% of wheat price. Total expense ₹300. Wheat price increases 20%. Find reduction in rice consumption to maintain same expense.",
+        "options": {
+            "A": "40%",
+            "B": "38%",
+            "C": "24%",
+            "D": "22%"
+        },
+        "correct_option": "A",
+        "answer": "40%",
+        "explanation": ""
     }
 ]

@@ -108,6 +108,15 @@ export const useQuiz = create((set, get) => ({
             timePerQuestion: timePerQ,
             totalTime: calculatedTotalTime
         });
+
+        // Check for revision screen requirement (Chapter 1: Percentage)
+        if (filters.chapter === 'Percentage') {
+            set({ quizStatus: 'revision' });
+        }
+    },
+
+    startRealQuiz: () => {
+        set({ quizStatus: 'running' });
     },
 
     submitAnswer: (questionId, selectedOption) => {
