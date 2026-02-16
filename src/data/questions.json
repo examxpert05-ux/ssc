@@ -1,0 +1,4002 @@
+[
+    {
+        "id": "PERC-T1-001",
+        "chapter": "Percentage",
+        "type": "Type-I",
+        "question_number": 1,
+        "question": "12.75% is equivalent to",
+        "options": {
+            "A": "17/200",
+            "B": "41/400",
+            "C": "51/400",
+            "D": "37/400"
+        },
+        "correct_option": "C",
+        "answer": "51/400",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T1-002",
+        "chapter": "Percentage",
+        "type": "Type-I",
+        "question_number": 2,
+        "question": "5% of 2% of 3 is equal to",
+        "options": {
+            "A": "0.03",
+            "B": "0.3",
+            "C": "3",
+            "D": "0.003"
+        },
+        "correct_option": "D",
+        "answer": "0.003",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T1-003",
+        "chapter": "Percentage",
+        "type": "Type-I",
+        "question_number": 3,
+        "question": "Which of the following is the least?",
+        "options": {
+            "A": "12% of 625",
+            "B": "15% of 555",
+            "C": "10% of 720",
+            "D": "9% of 845"
+        },
+        "correct_option": "C",
+        "answer": "10% of 720",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T1-004",
+        "chapter": "Percentage",
+        "type": "Type-I",
+        "question_number": 4,
+        "question": "If 10% of 24% of x is 240, then x = ?",
+        "options": {
+            "A": "10000",
+            "B": "100",
+            "C": "1000",
+            "D": "100000"
+        },
+        "correct_option": "A",
+        "answer": "10000",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T1-005",
+        "chapter": "Percentage",
+        "type": "Type-I",
+        "question_number": 5,
+        "question": "If 45% of 50% of a number is 27, then what is the number?",
+        "options": {
+            "A": "160",
+            "B": "180",
+            "C": "150",
+            "D": "120"
+        },
+        "correct_option": "D",
+        "answer": "120",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T1-006",
+        "chapter": "Percentage",
+        "type": "Type-I",
+        "question_number": 6,
+        "question": "By how much is 60% of 75 greater than 1/5 of 25?",
+        "options": {
+            "A": "37",
+            "B": "38",
+            "C": "40",
+            "D": "34"
+        },
+        "correct_option": "C",
+        "answer": "40",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T1-007",
+        "chapter": "Percentage",
+        "type": "Type-I",
+        "question_number": 7,
+        "question": "What is the ratio between S and T if S is 75% of T?",
+        "options": {
+            "A": "4 : 3",
+            "B": "2 : 3",
+            "C": "75 : 1",
+            "D": "3 : 4"
+        },
+        "correct_option": "D",
+        "answer": "3 : 4",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T1-008",
+        "chapter": "Percentage",
+        "type": "Type-I",
+        "question_number": 8,
+        "question": "If 18 toys out of 75 toys are for boys and the rest are for girls, what is the percentage of girls toys?",
+        "options": {
+            "A": "18%",
+            "B": "67%",
+            "C": "57%",
+            "D": "76%"
+        },
+        "correct_option": "D",
+        "answer": "76%",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T1-009",
+        "chapter": "Percentage",
+        "type": "Type-I",
+        "question_number": 9,
+        "question": "In a class, the numbers of boys and girls are in the ratio of 3 : 5. What is the percentage of boys?",
+        "options": {
+            "A": "37.5%",
+            "B": "60%",
+            "C": "42.5%",
+            "D": "12.5%"
+        },
+        "correct_option": "A",
+        "answer": "37.5%",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T1-010",
+        "chapter": "Percentage",
+        "type": "Type-I",
+        "question_number": 10,
+        "question": "The cost price of an item increased from ₹2,500 to ₹3,000. Find the percentage increase.",
+        "options": {
+            "A": "15%",
+            "B": "20%",
+            "C": "30%",
+            "D": "25%"
+        },
+        "correct_option": "B",
+        "answer": "20%",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T1-011",
+        "chapter": "Percentage",
+        "type": "Type-I",
+        "question_number": 11,
+        "question": "If a person's salary increases from ₹200 per day to ₹234 per day, then the percentage increase in the person's salary is:",
+        "options": {
+            "A": "15%",
+            "B": "17%",
+            "C": "14%",
+            "D": "16%"
+        },
+        "correct_option": "B",
+        "answer": "17%",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T1-012",
+        "chapter": "Percentage",
+        "type": "Type-I",
+        "question_number": 12,
+        "question": "Mahesh's annual salary increased from ₹2,00,000 to ₹2,40,000. Find the percentage increase in the salary.",
+        "options": {
+            "A": "22%",
+            "B": "20%",
+            "C": "24%",
+            "D": "18%"
+        },
+        "correct_option": "B",
+        "answer": "20%",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T1-013",
+        "chapter": "Percentage",
+        "type": "Type-I",
+        "question_number": 13,
+        "question": "Shantanu's income decreased from Rs 42,800 to Rs 37,236. Find the percentage decrease in his income.",
+        "options": {
+            "A": "13%",
+            "B": "14%",
+            "C": "11%",
+            "D": "12%"
+        },
+        "correct_option": "A",
+        "answer": "13%",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T1-014",
+        "chapter": "Percentage",
+        "type": "Type-I",
+        "question_number": 14,
+        "question": "Monthly expenditure of Ritvik decreases from ₹12,800 to ₹11,712. Find the percentage decrease in his expenditure.",
+        "options": {
+            "A": "9.25%",
+            "B": "6.25%",
+            "C": "7.7%",
+            "D": "8.5%"
+        },
+        "correct_option": "D",
+        "answer": "8.5%",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T1-015",
+        "chapter": "Percentage",
+        "type": "Type-I",
+        "question_number": 15,
+        "question": "Last year, Ranjan's monthly salary was ₹34,500 and this year his monthly salary is ₹38,640. What is the percentage increase in Ranjan's monthly salary this year over his monthly salary last year?",
+        "options": {
+            "A": "15%",
+            "B": "13%",
+            "C": "12%",
+            "D": "20%"
+        },
+        "correct_option": "C",
+        "answer": "12%",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T1-016",
+        "chapter": "Percentage",
+        "type": "Type-I",
+        "question_number": 16,
+        "question": "Shiya invests ₹1,53,000, which is 30% of her annual income, in mutual funds. What is her monthly income (in ₹)?",
+        "options": {
+            "A": "52300",
+            "B": "45800",
+            "C": "55600",
+            "D": "42500"
+        },
+        "correct_option": "D",
+        "answer": "42500",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T1-017",
+        "chapter": "Percentage",
+        "type": "Type-I",
+        "question_number": 17,
+        "question": "An interval of 2 hours 25 minutes is wrongly estimated by 2 hours 30.5 minutes. The error percentage is:",
+        "options": {
+            "A": "2 21/29%",
+            "B": "3 19/29%",
+            "C": "3 23/29%",
+            "D": "2 27/29%"
+        },
+        "correct_option": "C",
+        "answer": "3 23/29%",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T1-018",
+        "chapter": "Percentage",
+        "type": "Type-I",
+        "question_number": 18,
+        "question": "The population of a city was 5000000 in 2020. The population grows 7.5% annually. The population in 2022 is:",
+        "options": {
+            "A": "5778125",
+            "B": "5757215",
+            "C": "5558875",
+            "D": "5887125"
+        },
+        "correct_option": "A",
+        "answer": "5778125",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T1-019",
+        "chapter": "Percentage",
+        "type": "Type-I",
+        "question_number": 19,
+        "question": "If an increase of 9% in salary, a person received ₹6300. What was his salary before increase?",
+        "options": {
+            "A": "₹5000",
+            "B": "₹5779",
+            "C": "₹3879",
+            "D": "₹4000"
+        },
+        "correct_option": "B",
+        "answer": "₹5779",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T1-020",
+        "chapter": "Percentage",
+        "type": "Type-I",
+        "question_number": 20,
+        "question": "R gives 3/8 of the toffees he has to S. If now R has k% of the toffees with S, then find the value of k.",
+        "options": {
+            "A": "200/3",
+            "B": "500/3",
+            "C": "140/3",
+            "D": "230/3"
+        },
+        "correct_option": "B",
+        "answer": "500/3",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T1-021",
+        "chapter": "Percentage",
+        "type": "Type-I",
+        "question_number": 21,
+        "question": "If 30% of Ravi's income is equal to 40% of Suresh's income, then 50% of Ravi's income is equal to what percentage of Suresh's income?",
+        "options": {
+            "A": "66 2/3%",
+            "B": "33 2/3%",
+            "C": "66 1/3%",
+            "D": "33 1/3%"
+        },
+        "correct_option": "A",
+        "answer": "66 2/3%",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T1-022",
+        "chapter": "Percentage",
+        "type": "Type-I",
+        "question_number": 22,
+        "question": "A number increased by 20% gives 240. Find the number.",
+        "options": {
+            "A": "200",
+            "B": "280",
+            "C": "240",
+            "D": "250"
+        },
+        "correct_option": "A",
+        "answer": "200",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T1-023",
+        "chapter": "Percentage",
+        "type": "Type-I",
+        "question_number": 23,
+        "question": "When a number is increased by 8, it becomes 120% of itself. The number is:",
+        "options": {
+            "A": "30",
+            "B": "60",
+            "C": "40",
+            "D": "50"
+        },
+        "correct_option": "C",
+        "answer": "40",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T1-024",
+        "chapter": "Percentage",
+        "type": "Type-I",
+        "question_number": 24,
+        "question": "When 12 is subtracted from a number, it reduces to its 40%. Two-fifth of that number is:",
+        "options": {
+            "A": "20",
+            "B": "8",
+            "C": "12",
+            "D": "50"
+        },
+        "correct_option": "C",
+        "answer": "12",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T1-025",
+        "chapter": "Percentage",
+        "type": "Type-I",
+        "question_number": 25,
+        "question": "If 70 is subtracted from 70% of a number, the remainder is 70. What is the number?",
+        "options": {
+            "A": "400",
+            "B": "100",
+            "C": "300",
+            "D": "200"
+        },
+        "correct_option": "D",
+        "answer": "200",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T1-026",
+        "chapter": "Percentage",
+        "type": "Type-I",
+        "question_number": 26,
+        "question": "Two numbers are respectively 10% and 25% more than the third number. Find the ratio of the two numbers.",
+        "options": {
+            "A": "22 : 25",
+            "B": "19 : 25",
+            "C": "23 : 25",
+            "D": "18 : 25"
+        },
+        "correct_option": "A",
+        "answer": "22 : 25",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T1-027",
+        "chapter": "Percentage",
+        "type": "Type-I",
+        "question_number": 27,
+        "question": "Two numbers are respectively 61% and 35% less than a third number. The first number is what percent of the second number?",
+        "options": {
+            "A": "60%",
+            "B": "24%",
+            "C": "48%",
+            "D": "30%"
+        },
+        "correct_option": "A",
+        "answer": "60%",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T1-028",
+        "chapter": "Percentage",
+        "type": "Type-I",
+        "question_number": 28,
+        "question": "In an engineering college, the ratio of students in CS, EC, CE, and ME branches is 11 : 5 : 6 : 7. What is the percentage of students belonging to CS and ME branches together?",
+        "options": {
+            "A": "61.07%",
+            "B": "62.37%",
+            "C": "62.07%",
+            "D": "61.37%"
+        },
+        "correct_option": "B",
+        "answer": "62.37%",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T1-029",
+        "chapter": "Percentage",
+        "type": "Type-I",
+        "question_number": 29,
+        "question": "What number must be added to 20% of 460 to have the sum as 70% of 920?",
+        "options": {
+            "A": "335",
+            "B": "762",
+            "C": "926",
+            "D": "552"
+        },
+        "correct_option": "D",
+        "answer": "552",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T1-030",
+        "chapter": "Percentage",
+        "type": "Type-I",
+        "question_number": 30,
+        "question": "If the income of P is 40% less than Q, then the combined income of P and Q is how much percent more than the income of P?",
+        "options": {
+            "A": "166 2/3%",
+            "B": "164 1/3%",
+            "C": "166 1/3%",
+            "D": "164 2/3%"
+        },
+        "correct_option": "A",
+        "answer": "166 2/3%",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T1-031",
+        "chapter": "Percentage",
+        "type": "Type-I",
+        "question_number": 31,
+        "question": "To increase a number by 25%, by what number should that number be multiplied?",
+        "options": {
+            "A": "3",
+            "B": "2/5",
+            "C": "5/4",
+            "D": "3/4"
+        },
+        "correct_option": "C",
+        "answer": "5/4",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T1-032",
+        "chapter": "Percentage",
+        "type": "Type-I",
+        "question_number": 32,
+        "question": "A man multiplied a number by 8/5 instead of 5/8. What is the percentage error in the calculation?",
+        "options": {
+            "A": "124%",
+            "B": "162%",
+            "C": "156%",
+            "D": "100%"
+        },
+        "correct_option": "C",
+        "answer": "156%",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T1-033",
+        "chapter": "Percentage",
+        "type": "Type-I",
+        "question_number": 33,
+        "question": "A quantity 4/5 is changed to 5/6. How much percentage change is given to the quantity?",
+        "options": {
+            "A": "4.73%",
+            "B": "4.71%",
+            "C": "4.17%",
+            "D": "4.37%"
+        },
+        "correct_option": "C",
+        "answer": "4.17%",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T1-034",
+        "chapter": "Percentage",
+        "type": "Type-I",
+        "question_number": 34,
+        "question": "A pupil multiplied a figure by 3/5 rather than 5/3. What is the percentage error in the calculation?",
+        "options": {
+            "A": "64%",
+            "B": "47%",
+            "C": "58%",
+            "D": "52%"
+        },
+        "correct_option": "A",
+        "answer": "64%",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T1-035",
+        "chapter": "Percentage",
+        "type": "Type-I",
+        "question_number": 35,
+        "question": "By mistake, the reciprocal of a positive fraction got typed in place of itself, and thereby its value got reduced by 175/4%. What was the value of the fraction?",
+        "options": {
+            "A": "1/2",
+            "B": "4/3",
+            "C": "3/4",
+            "D": "1/4"
+        },
+        "correct_option": "B",
+        "answer": "4/3",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T1-036",
+        "chapter": "Percentage",
+        "type": "Type-I",
+        "question_number": 36,
+        "question": "A fraction 3/5 is decreased by 2/5. The resulting fraction is then increased by 20%. What is the percentage decrease/increase in the value of the original fraction?",
+        "options": {
+            "A": "Increase 60%",
+            "B": "Decrease 50%",
+            "C": "Increase 50%",
+            "D": "Decrease 60%"
+        },
+        "correct_option": "D",
+        "answer": "Decrease 60%",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T1-037",
+        "chapter": "Percentage",
+        "type": "Type-I",
+        "question_number": 37,
+        "question": "In a sweet, one-third is sugar. If the price of sugar now is 7/6 of the previous price, what is the effective percentage increase in the cost of the sweet?",
+        "options": {
+            "A": "100/9%",
+            "B": "100/5%",
+            "C": "100/18%",
+            "D": "100/3%"
+        },
+        "correct_option": "C",
+        "answer": "100/18%",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T1-038",
+        "chapter": "Percentage",
+        "type": "Type-I",
+        "question_number": 38,
+        "question": "Ramesh spent ₹30,000 on Diwali shopping and ₹45,000 on buying a TV set, and spent the remaining 40% of his total amount. What was the total amount he had?",
+        "options": {
+            "A": "₹1,22,000",
+            "B": "₹1,25,000",
+            "C": "₹1,35,000",
+            "D": "₹1,10,000"
+        },
+        "correct_option": "B",
+        "answer": "₹1,25,000",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T1-039",
+        "chapter": "Percentage",
+        "type": "Type-I",
+        "question_number": 39,
+        "question": "If the numerator of a fraction is increased by 12% and its denominator is decreased by 8%, it gives a new fraction 16/17. What is the original fraction?",
+        "options": {
+            "A": "92/119",
+            "B": "23/28",
+            "C": "28/23",
+            "D": "119/92"
+        },
+        "correct_option": "A",
+        "answer": "92/119",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T1-040",
+        "chapter": "Percentage",
+        "type": "Type-I",
+        "question_number": 40,
+        "question": "If the numerator of a fraction is increased by 140% and the denominator is decreased by 20%, the resultant fraction is 12/7. Find the original fraction.",
+        "options": {
+            "A": "4/9",
+            "B": "4/7",
+            "C": "7/6",
+            "D": "8/9"
+        },
+        "correct_option": "B",
+        "answer": "4/7",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T1-041",
+        "chapter": "Percentage",
+        "type": "Type-I",
+        "question_number": 41,
+        "question": "If the numerator of a fraction be increased by 50% and denominator be diminished by 28%, the value of the fraction is 25/36. Find the original fraction.",
+        "options": {
+            "A": "5/2",
+            "B": "2/3",
+            "C": "2/5",
+            "D": "1/3"
+        },
+        "correct_option": "D",
+        "answer": "1/3",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T1-042",
+        "chapter": "Percentage",
+        "type": "Type-I",
+        "question_number": 42,
+        "question": "If the numerator of a fraction is increased by 60% and denominator is increased by 40%, the resultant fraction is 16/63. The original fraction is:",
+        "options": {
+            "A": "2/9",
+            "B": "3/9",
+            "C": "2/11",
+            "D": "4/9"
+        },
+        "correct_option": "A",
+        "answer": "2/9",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T2-043",
+        "chapter": "Percentage",
+        "type": "Type-II",
+        "question_number": 43,
+        "question": "The salary of employees in a factory was reduced by 20% due to economic crisis. In order to have their salary back to original amount, it must be raised by:",
+        "options": {
+            "A": "25%",
+            "B": "20%",
+            "C": "4%",
+            "D": "12.5%"
+        },
+        "correct_option": "A",
+        "answer": "25%",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T2-044",
+        "chapter": "Percentage",
+        "type": "Type-II",
+        "question_number": 44,
+        "question": "If Ramu's salary is 30% less than Somu's salary, then by how much percent is Somu's salary more than Ramu's salary?",
+        "options": {
+            "A": "45.47%",
+            "B": "42.86%",
+            "C": "42.67%",
+            "D": "34.56%"
+        },
+        "correct_option": "B",
+        "answer": "42.86%",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T2-045",
+        "chapter": "Percentage",
+        "type": "Type-II",
+        "question_number": 45,
+        "question": "Shyam's income is 20% less than Ram's. How much is Ram's income more than Shyam's income in percentage terms?",
+        "options": {
+            "A": "25%",
+            "B": "80%",
+            "C": "30%",
+            "D": "20%"
+        },
+        "correct_option": "A",
+        "answer": "25%",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T2-046",
+        "chapter": "Percentage",
+        "type": "Type-II",
+        "question_number": 46,
+        "question": "If the income of Neha is 5% more than that of Monica, then the income of Monica is what percentage less than that of Neha?",
+        "options": {
+            "A": "4 13/21%",
+            "B": "4 16/21%",
+            "C": "4 11/21%",
+            "D": "4 5/21%"
+        },
+        "correct_option": "B",
+        "answer": "4 16/21%",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T2-047",
+        "chapter": "Percentage",
+        "type": "Type-II",
+        "question_number": 47,
+        "question": "Ram's income is 2.5% more than Shyam's income. By what percentage is Shyam's income less than Ram's income?",
+        "options": {
+            "A": "2.43%",
+            "B": "3.43%",
+            "C": "1.43%",
+            "D": "4.43%"
+        },
+        "correct_option": "A",
+        "answer": "2.43%",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T2-048",
+        "chapter": "Percentage",
+        "type": "Type-II",
+        "question_number": 48,
+        "question": "What percentage should a racer increase the speed to reduce the time by 25% to cover a fixed distance?",
+        "options": {
+            "A": "33 1/3%",
+            "B": "37 1/3%",
+            "C": "41%",
+            "D": "31%"
+        },
+        "correct_option": "A",
+        "answer": "33 1/3%",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T3-049",
+        "chapter": "Percentage",
+        "type": "Type-III",
+        "question_number": 49,
+        "question": "The radius of a circle is increased by 20%. Find the percentage increase in the circumference of the circle.",
+        "options": {
+            "A": "30%",
+            "B": "20%",
+            "C": "15%",
+            "D": "40%"
+        },
+        "correct_option": "B",
+        "answer": "20%",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T3-050",
+        "chapter": "Percentage",
+        "type": "Type-III",
+        "question_number": 50,
+        "question": "If each side of a cube is decreased by 12%, then the percentage increase in the total surface area is:",
+        "options": {
+            "A": "25.66%",
+            "B": "28.23%",
+            "C": "23.56%",
+            "D": "26.54%"
+        },
+        "correct_option": "C",
+        "answer": "23.56%",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T3-051",
+        "chapter": "Percentage",
+        "type": "Type-III",
+        "question_number": 51,
+        "question": "If the radius of a sphere is increased by 5%, then by what percentage will the surface area of the sphere increase?",
+        "options": {
+            "A": "10.25%",
+            "B": "15.25%",
+            "C": "13.25%",
+            "D": "11.25%"
+        },
+        "correct_option": "D",
+        "answer": "11.25%",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T3-052",
+        "chapter": "Percentage",
+        "type": "Type-III",
+        "question_number": 52,
+        "question": "The radius of a sphere is increased by 25%. What is the increase percent in surface area?",
+        "options": {
+            "A": "56.25%",
+            "B": "15.55%",
+            "C": "25.25%",
+            "D": "36.45%"
+        },
+        "correct_option": "A",
+        "answer": "56.25%",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T3-053",
+        "chapter": "Percentage",
+        "type": "Type-III",
+        "question_number": 53,
+        "question": "If the side of a square is increased by 5%, then the percentage increase in its area will be:",
+        "options": {
+            "A": "10.25%",
+            "B": "11%",
+            "C": "10%",
+            "D": "10.5%"
+        },
+        "correct_option": "C",
+        "answer": "10%",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T3-054",
+        "chapter": "Percentage",
+        "type": "Type-III",
+        "question_number": 54,
+        "question": "The breadth of a rectangular lawn is decreased by 8% and its length is increased by 15%. Find the percentage change in the lawn area.",
+        "options": {
+            "A": "8.5% increase",
+            "B": "8.5% decrease",
+            "C": "5.8% decrease",
+            "D": "5.8% increase"
+        },
+        "correct_option": "C",
+        "answer": "5.8% decrease",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T3-055",
+        "chapter": "Percentage",
+        "type": "Type-III",
+        "question_number": 55,
+        "question": "The radius of a circle is increased in such a way that its circumference increases by 7%. As a result, the area of the circle also increases by:",
+        "options": {
+            "A": "12.20%",
+            "B": "10.25%",
+            "C": "14.49%",
+            "D": "18.49%"
+        },
+        "correct_option": "C",
+        "answer": "14.49%",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T3-056",
+        "chapter": "Percentage",
+        "type": "Type-III",
+        "question_number": 56,
+        "question": "If the length of a rectangle is decreased by 13% and the breadth is increased by 13%, find the change of percentage in its area.",
+        "options": {
+            "A": "1.69% decrease",
+            "B": "1.69% increase",
+            "C": "No change",
+            "D": "13% decrease"
+        },
+        "correct_option": "C",
+        "answer": "No change",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T3-057",
+        "chapter": "Percentage",
+        "type": "Type-III",
+        "question_number": 57,
+        "question": "If radius of a sphere is decreased by 48%, then by what percent does its surface area decrease?",
+        "options": {
+            "A": "82.91%",
+            "B": "72.96%",
+            "C": "78.98%",
+            "D": "86.26%"
+        },
+        "correct_option": "C",
+        "answer": "78.98%",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T3-058",
+        "chapter": "Percentage",
+        "type": "Type-III",
+        "question_number": 58,
+        "question": "The length and breadth of a rectangle are increased by 8% and 5% respectively. By how much percent will the area of the rectangle increase?",
+        "options": {
+            "A": "13.4%",
+            "B": "15.4%",
+            "C": "12.4%",
+            "D": "16.4%"
+        },
+        "correct_option": "B",
+        "answer": "15.4%",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T3-059",
+        "chapter": "Percentage",
+        "type": "Type-III",
+        "question_number": 59,
+        "question": "The length and breadth of a rectangle decrease by 8% and 10% respectively. What is the percentage increase or decrease in its area?",
+        "options": {
+            "A": "Decrease by 1.8%",
+            "B": "Increase by 1.8%",
+            "C": "Increase by 2.8%",
+            "D": "Decrease by 2.8%"
+        },
+        "correct_option": "C",
+        "answer": "Increase by 2.8%",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T3-060",
+        "chapter": "Percentage",
+        "type": "Type-III",
+        "question_number": 60,
+        "question": "The base of a triangle is increased by 40%. By what percentage should its height be increased so that the area increases by 60%?",
+        "options": {
+            "A": "15.54%",
+            "B": "20.01%",
+            "C": "14.28%",
+            "D": "18.62%"
+        },
+        "correct_option": "A",
+        "answer": "15.54%",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T3-061",
+        "chapter": "Percentage",
+        "type": "Type-III",
+        "question_number": 61,
+        "question": "If the radius of a sphere is increased by 16 2/3%, then by what percent would its surface area increase (correct to one decimal place)?",
+        "options": {
+            "A": "33.9%",
+            "B": "35.6%",
+            "C": "34.8%",
+            "D": "36.1%"
+        },
+        "correct_option": "D",
+        "answer": "36.1%",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T3-062",
+        "chapter": "Percentage",
+        "type": "Type-III",
+        "question_number": 62,
+        "question": "Find the percentage increase in surface area of a cube by triple each side.",
+        "options": {
+            "A": "800%",
+            "B": "500%",
+            "C": "700%",
+            "D": "650%"
+        },
+        "correct_option": "A",
+        "answer": "800%",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T3-063",
+        "chapter": "Percentage",
+        "type": "Type-III",
+        "question_number": 63,
+        "question": "If the radius of a sphere is doubled, then its surface area will be increased by:",
+        "options": {
+            "A": "200%",
+            "B": "100%",
+            "C": "300%",
+            "D": "400%"
+        },
+        "correct_option": "C",
+        "answer": "300%",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T3-064",
+        "chapter": "Percentage",
+        "type": "Type-III",
+        "question_number": 64,
+        "question": "If the area of a square is decreased by 19%, then the diagonal of the square is decreased by:",
+        "options": {
+            "A": "15%",
+            "B": "12%",
+            "C": "10%",
+            "D": "5%"
+        },
+        "correct_option": "C",
+        "answer": "10%",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T3-065",
+        "chapter": "Percentage",
+        "type": "Type-III",
+        "question_number": 65,
+        "question": "If the radius of a sphere is increased by 12%, then the volume will be increased by approximately:",
+        "options": {
+            "A": "42.5%",
+            "B": "45.49%",
+            "C": "40.49%",
+            "D": "41.49%"
+        },
+        "correct_option": "C",
+        "answer": "40.49%",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T3-066",
+        "chapter": "Percentage",
+        "type": "Type-III",
+        "question_number": 66,
+        "question": "If the radius of a sphere is increased by 20%, then find the percentage increase in its volume.",
+        "options": {
+            "A": "70.6%",
+            "B": "75.5%",
+            "C": "72.8%",
+            "D": "68.5%"
+        },
+        "correct_option": "C",
+        "answer": "72.8%",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T3-067",
+        "chapter": "Percentage",
+        "type": "Type-III",
+        "question_number": 67,
+        "question": "If the length and breadth of a cuboid are increased by 6% and 8% respectively, then the percentage increase in its volume [correct to two decimal places] is:",
+        "options": {
+            "A": "13.96%",
+            "B": "12.96%",
+            "C": "14.48%",
+            "D": "11.48%"
+        },
+        "correct_option": "C",
+        "answer": "14.48%",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T3-068",
+        "chapter": "Percentage",
+        "type": "Type-III",
+        "question_number": 68,
+        "question": "The radius and the height of a right circular cone is increased by 25%. Find the increase in percentage of volume of the cone (rounded off to 2 decimal places).",
+        "options": {
+            "A": "94.51%",
+            "B": "95.31%",
+            "C": "93.51%",
+            "D": "94.31%"
+        },
+        "correct_option": "B",
+        "answer": "95.31%",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T3-069",
+        "chapter": "Percentage",
+        "type": "Type-III",
+        "question_number": 69,
+        "question": "The diameter of a sphere is increased by 30%. What is the percentage increase in its volume?",
+        "options": {
+            "A": "90.5%",
+            "B": "41.7%",
+            "C": "119.7%",
+            "D": "69%"
+        },
+        "correct_option": "C",
+        "answer": "119.7%",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T3-070",
+        "chapter": "Percentage",
+        "type": "Type-III",
+        "question_number": 70,
+        "question": "If the base radius and height of a right circular cone are increased by 10%, then the percentage increase in the volume is:",
+        "options": {
+            "A": "33.1%",
+            "B": "20.2%",
+            "C": "22.1%",
+            "D": "30.2%"
+        },
+        "correct_option": "A",
+        "answer": "33.1%",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T3-071",
+        "chapter": "Percentage",
+        "type": "Type-III",
+        "question_number": 71,
+        "question": "The length and breadth of a cuboid is increased by 20% and 25%, respectively, while its height is reduced by 30%. What must be the total percentage increase/decrease in the volume of the cuboid?",
+        "options": {
+            "A": "Increase by 5%",
+            "B": "Increase by 3%",
+            "C": "Decrease by 2%",
+            "D": "Decrease by 4%"
+        },
+        "correct_option": "A",
+        "answer": "Increase by 5%",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T3-072",
+        "chapter": "Percentage",
+        "type": "Type-III",
+        "question_number": 72,
+        "question": "The total percentage change in the volume of a cuboid if its length and breadth are decreased by 15% and 25%, respectively, while its height is increased by 60%, is:",
+        "options": {
+            "A": "5% decrease",
+            "B": "2% decrease",
+            "C": "5% increase",
+            "D": "2% increase"
+        },
+        "correct_option": "D",
+        "answer": "2% increase",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T4-073",
+        "chapter": "Percentage",
+        "type": "Type-IV",
+        "question_number": 73,
+        "question": "Ram's salary was decreased by 50% and subsequently increased by 50%, then how much percent did he lose?",
+        "options": {
+            "A": "36%",
+            "B": "10%",
+            "C": "40%",
+            "D": "25%"
+        },
+        "correct_option": "D",
+        "answer": "25%",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T4-074",
+        "chapter": "Percentage",
+        "type": "Type-IV",
+        "question_number": 74,
+        "question": "Two successive price increases of 25% and 25% are equivalent to a single price increase of:",
+        "options": {
+            "A": "52.25%",
+            "B": "50.25%",
+            "C": "56.25%",
+            "D": "48.50%"
+        },
+        "correct_option": "C",
+        "answer": "56.25%",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T4-075",
+        "chapter": "Percentage",
+        "type": "Type-IV",
+        "question_number": 75,
+        "question": "Ravi's salary was increased by 50%. After some time, his new salary was also increased by 50%. Find his gain percent of salary.",
+        "options": {
+            "A": "125%",
+            "B": "100%",
+            "C": "200%",
+            "D": "150%"
+        },
+        "correct_option": "A",
+        "answer": "125%",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T4-076",
+        "chapter": "Percentage",
+        "type": "Type-IV",
+        "question_number": 76,
+        "question": "The salary of an employee is increased by 10% and then the increased salary is reduced by 10%. The percentage loss in the salary of the employee is:",
+        "options": {
+            "A": "1%",
+            "B": "3%",
+            "C": "2%",
+            "D": "4%"
+        },
+        "correct_option": "A",
+        "answer": "1%",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T4-077",
+        "chapter": "Percentage",
+        "type": "Type-IV",
+        "question_number": 77,
+        "question": "A number is increased by 25% and then decreased by 16%. By what percentage is the resulting number less than/more than the original number?",
+        "options": {
+            "A": "Does not change",
+            "B": "Decreases by 5%",
+            "C": "Increases by 5%",
+            "D": "Decreases by 13%"
+        },
+        "correct_option": "C",
+        "answer": "Increases by 5%",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T4-078",
+        "chapter": "Percentage",
+        "type": "Type-IV",
+        "question_number": 78,
+        "question": "The salary of a worker is first increased by 25%, then it is decreased by 12%. The percentage change in his salary is:",
+        "options": {
+            "A": "10% increase",
+            "B": "13% increase",
+            "C": "10% decrease",
+            "D": "13% decrease"
+        },
+        "correct_option": "A",
+        "answer": "10% increase",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T4-079",
+        "chapter": "Percentage",
+        "type": "Type-IV",
+        "question_number": 79,
+        "question": "In a company, all employees are getting equal wages. If the number of employees is increased by 20% and their wage per head decreases by 18%, what is the percentage decrease in total wages?",
+        "options": {
+            "A": "2.4%",
+            "B": "1%",
+            "C": "1.6%",
+            "D": "1.4%"
+        },
+        "correct_option": "C",
+        "answer": "1.6%",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T4-080",
+        "chapter": "Percentage",
+        "type": "Type-IV",
+        "question_number": 80,
+        "question": "If price of an article increases successively by 15% and 10%, respectively, then what is the percentage equivalent to a single price increase?",
+        "options": {
+            "A": "26.5%",
+            "B": "25%",
+            "C": "23.5%",
+            "D": "12.5%"
+        },
+        "correct_option": "A",
+        "answer": "26.5%",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T4-081",
+        "chapter": "Percentage",
+        "type": "Type-IV",
+        "question_number": 81,
+        "question": "The population of a town first decreased by 16% due to migration. The next year, the population increased by 21%. What is the net percentage change (correct to 2 decimal places) in the population?",
+        "options": {
+            "A": "Decrease by 2.54%",
+            "B": "Increase by 2.54%",
+            "C": "Increase by 1.64%",
+            "D": "Decrease by 1.64%"
+        },
+        "correct_option": "C",
+        "answer": "Increase by 1.64%",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T4-082",
+        "chapter": "Percentage",
+        "type": "Type-IV",
+        "question_number": 82,
+        "question": "A number is first increased by 44% and then decreased by 30%. The net percentage change (rounded off to the nearest integer) in the original number is:",
+        "options": {
+            "A": "Increase by 1%",
+            "B": "Decrease by 4%",
+            "C": "Increase by 4%",
+            "D": "Decrease by 1%"
+        },
+        "correct_option": "A",
+        "answer": "Increase by 1%",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T4-083",
+        "chapter": "Percentage",
+        "type": "Type-IV",
+        "question_number": 83,
+        "question": "The price of an article is first increased by 45% and then decreased by 45%. Due to reduction in sales, find the net percentage change in the final price of the article.",
+        "options": {
+            "A": "-12%",
+            "B": "13%",
+            "C": "-23%",
+            "D": "23%"
+        },
+        "correct_option": "C",
+        "answer": "-23%",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T4-084",
+        "chapter": "Percentage",
+        "type": "Type-IV",
+        "question_number": 84,
+        "question": "A number is first decreased by 18% and then increased by 25%. What is the overall percentage change in the original number?",
+        "options": {
+            "A": "Decrease by 2.5%",
+            "B": "Increase by 3.5%",
+            "C": "Increase by 2.5%",
+            "D": "Decrease by 3.5%"
+        },
+        "correct_option": "C",
+        "answer": "Increase by 2.5%",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T4-085",
+        "chapter": "Percentage",
+        "type": "Type-IV",
+        "question_number": 85,
+        "question": "Sumit's income in 2020 was ₹21,000. He gets an increment of income in 2022. What was his income in 2022?",
+        "options": {
+            "A": "₹25,410",
+            "B": "₹26,530",
+            "C": "₹23,100",
+            "D": "₹29,100"
+        },
+        "correct_option": "A",
+        "answer": "₹25,410",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T4-086",
+        "chapter": "Percentage",
+        "type": "Type-IV",
+        "question_number": 86,
+        "question": "Rakesh is the owner of a rectangular field. Because of construction, the length and breadth of his field were reduced by 30% and 20% respectively. What is the percentage decrease in the area of his field?",
+        "options": {
+            "A": "40%",
+            "B": "33%",
+            "C": "35%",
+            "D": "37%"
+        },
+        "correct_option": "C",
+        "answer": "35%",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T4-087",
+        "chapter": "Percentage",
+        "type": "Type-IV",
+        "question_number": 87,
+        "question": "The price of a product increases by 10% in the first year and 20% in the second year. What is the overall percentage increase in the price?",
+        "options": {
+            "A": "28%",
+            "B": "32%",
+            "C": "30%",
+            "D": "36%"
+        },
+        "correct_option": "B",
+        "answer": "32%",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T4-088",
+        "chapter": "Percentage",
+        "type": "Type-IV",
+        "question_number": 88,
+        "question": "Ramesh's pocket money was reduced by 25%, and then the reduced money was increased by 20%. Find the net increase or decrease in his original pocket money.",
+        "options": {
+            "A": "Decrease 12%",
+            "B": "Increase 12%",
+            "C": "Increase 10%",
+            "D": "Decrease 10%"
+        },
+        "correct_option": "D",
+        "answer": "Decrease 10%",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T4-089",
+        "chapter": "Percentage",
+        "type": "Type-IV",
+        "question_number": 89,
+        "question": "The price of a car is decreased by 15% and 20% successively. What percentage is the decrease after two years?",
+        "options": {
+            "A": "32%",
+            "B": "15%",
+            "C": "40%",
+            "D": "25%"
+        },
+        "correct_option": "A",
+        "answer": "32%",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T4-090",
+        "chapter": "Percentage",
+        "type": "Type-IV",
+        "question_number": 90,
+        "question": "The strength of a school increases and decreases every alternate year by 20%. What is the strength of the school in 2022 compared to 2018?",
+        "options": {
+            "A": "Decrease by 16.2%",
+            "B": "Increase by 15.2%",
+            "C": "Decrease by 15.2%",
+            "D": "Increase by 16.2%"
+        },
+        "correct_option": "B",
+        "answer": "Increase by 15.2%",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T4-091",
+        "chapter": "Percentage",
+        "type": "Type-IV",
+        "question_number": 91,
+        "question": "When the price of an article was increased by 5% it reduced by 10%. What was net effect on the revenue?",
+        "options": {
+            "A": "5% increase",
+            "B": "5.5% decrease",
+            "C": "5.5% increase",
+            "D": "5% decrease"
+        },
+        "correct_option": "B",
+        "answer": "5.5% decrease",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T4-092",
+        "chapter": "Percentage",
+        "type": "Type-IV",
+        "question_number": 92,
+        "question": "The price of a car is first increased by 35% and after that the price is decreased by 25%. What is the net percentage change in final price of the car?",
+        "options": {
+            "A": "Decrease by 2 1/5%",
+            "B": "Increase by 2 1/5%",
+            "C": "Decrease by 1 3/5%",
+            "D": "Increase by 1 1/4%"
+        },
+        "correct_option": "D",
+        "answer": "Increase by 1 1/4%",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T4-093",
+        "chapter": "Percentage",
+        "type": "Type-IV",
+        "question_number": 93,
+        "question": "The price of a scooter increases successively by 10%, 5% and 15%. What is the total percentage increase in price?",
+        "options": {
+            "A": "33 33/40%",
+            "B": "34 21/40%",
+            "C": "36 11/40%",
+            "D": "36 31/40%"
+        },
+        "correct_option": "A",
+        "answer": "33 33/40%",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T4-094",
+        "chapter": "Percentage",
+        "type": "Type-IV",
+        "question_number": 94,
+        "question": "Instead of increasing a number successively by 20 percent and 30 percent, it is decreased by 22 percent. Resultant value is what percentage of the required correct value?",
+        "options": {
+            "A": "53%",
+            "B": "60%",
+            "C": "48%",
+            "D": "50%"
+        },
+        "correct_option": "D",
+        "answer": "50%",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T4-095",
+        "chapter": "Percentage",
+        "type": "Type-IV",
+        "question_number": 95,
+        "question": "The price of an electronic machine decreased by 5%, 10% and 15% during the first three years. What will be the price at the beginning was Rs.80000?",
+        "options": {
+            "A": "Rs.68000",
+            "B": "Rs.67210",
+            "C": "Rs.70000",
+            "D": "Rs.58140"
+        },
+        "correct_option": "D",
+        "answer": "Rs.58140",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T4-096",
+        "chapter": "Percentage",
+        "type": "Type-IV",
+        "question_number": 96,
+        "question": "A number is first decreased by 10%, then increased by 30%, and then further decreased by 20%. What is the net decrease percentage in the number?",
+        "options": {
+            "A": "4 1/5%",
+            "B": "6 2/5%",
+            "C": "5 3/8%",
+            "D": "3 4/5%"
+        },
+        "correct_option": "B",
+        "answer": "6 2/5%",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T4-097",
+        "chapter": "Percentage",
+        "type": "Type-IV",
+        "question_number": 97,
+        "question": "A number is first increased by 12% and then increased by 23%. The number so obtained is now decreased by 34%. What is the net increase or decrease percent in the original number?",
+        "options": {
+            "A": "10% increase",
+            "B": "9% decrease",
+            "C": "10% decrease",
+            "D": "9% increase"
+        },
+        "correct_option": "B",
+        "answer": "9% decrease",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T4-098",
+        "chapter": "Percentage",
+        "type": "Type-IV",
+        "question_number": 98,
+        "question": "The price of an AC increases and decreases in every alternate year by 1 3/5%. It started with an increase in 2004. The price of the AC in 2007 compared to that in 2004 is:",
+        "options": {
+            "A": "Decreased by 2.57%",
+            "B": "Decreased by 1.57%",
+            "C": "Increased by 1.57%",
+            "D": "Increased by 2.57%"
+        },
+        "correct_option": "C",
+        "answer": "Increased by 1.57%",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T4-099",
+        "chapter": "Percentage",
+        "type": "Type-IV",
+        "question_number": 99,
+        "question": "Two successive percentage decrease of 25% each is by what percentage less than two successive percentage increase of 25% each?",
+        "options": {
+            "A": "50%",
+            "B": "43.75%",
+            "C": "22.22%",
+            "D": "56.25%"
+        },
+        "correct_option": "C",
+        "answer": "22.22%",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T4-100",
+        "chapter": "Percentage",
+        "type": "Type-IV",
+        "question_number": 100,
+        "question": "Two successive increments of 30% each is by what percentage more than two successive decrements of 30% each?",
+        "options": {
+            "A": "32.54%",
+            "B": "28.15%",
+            "C": "25.25%",
+            "D": "35.29%"
+        },
+        "correct_option": "D",
+        "answer": "35.29%",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T4-101",
+        "chapter": "Percentage",
+        "type": "Type-IV",
+        "question_number": 101,
+        "question": "An investor invested ₹2,00,000 in shares. The shares rose by 18% on the first day, fell by 15% on the second day, and then fell by 3% on the third day. What is the net percentage increase or decrease in the value of the investor's shares?",
+        "options": {
+            "A": "Increase by 2.2%",
+            "B": "Increase by 2.7%",
+            "C": "Decrease by 2.7%",
+            "D": "Decrease by 2.2%"
+        },
+        "correct_option": "C",
+        "answer": "Decrease by 2.7%",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T4-102",
+        "chapter": "Percentage",
+        "type": "Type-IV",
+        "question_number": 102,
+        "question": "The population of a town is 15000. If the population increases by 15% in the first year, by 25% in the second year and decreases by 6% in the third year, what will be its population after 3 years?",
+        "options": {
+            "A": "20269",
+            "B": "15269",
+            "C": "25269",
+            "D": "28269"
+        },
+        "correct_option": "A",
+        "answer": "20269",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T4-103",
+        "chapter": "Percentage",
+        "type": "Type-IV",
+        "question_number": 103,
+        "question": "An employee gets two successive increments in his salary, as a result of which his salary becomes 2.5 times the initial salary. What was his first percentage increment, if the second percentage increment was 4 times as high as the first?",
+        "options": {
+            "A": "25%",
+            "B": "50%",
+            "C": "12%",
+            "D": "10%"
+        },
+        "correct_option": "A",
+        "answer": "25%",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T5-104",
+        "chapter": "Percentage",
+        "type": "Type-V",
+        "question_number": 104,
+        "question": "If the price of petrol is increased by 7%, then by what percentage should the consumption be decreased so that expenditure remains unchanged?",
+        "options": {
+            "A": "6 54/107%",
+            "B": "11 17/107%",
+            "C": "4 49/107%",
+            "D": "4 99/107%"
+        },
+        "correct_option": "A",
+        "answer": "6 54/107%",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T5-105",
+        "chapter": "Percentage",
+        "type": "Type-V",
+        "question_number": 105,
+        "question": "If price is decreased by 25%, then by how much percentage consumption should be increased, so that the expenditure remains same?",
+        "options": {
+            "A": "20%",
+            "B": "37.5%",
+            "C": "40%",
+            "D": "33.33%"
+        },
+        "correct_option": "D",
+        "answer": "33.33%",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T5-106",
+        "chapter": "Percentage",
+        "type": "Type-V",
+        "question_number": 106,
+        "question": "If the price of rice is raised by 20%, then by what percentage should consumption be reduced so that expenditure remains same?",
+        "options": {
+            "A": "14.7%",
+            "B": "18.7%",
+            "C": "16.7%",
+            "D": "12.7%"
+        },
+        "correct_option": "C",
+        "answer": "16.7%",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T5-107",
+        "chapter": "Percentage",
+        "type": "Type-V",
+        "question_number": 107,
+        "question": "If the price of pulses has increased by 45%, by what percentage should consumption be reduced so that expenditure remains same?",
+        "options": {
+            "A": "35%",
+            "B": "41%",
+            "C": "31%",
+            "D": "45%"
+        },
+        "correct_option": "C",
+        "answer": "31%",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T5-108",
+        "chapter": "Percentage",
+        "type": "Type-V",
+        "question_number": 108,
+        "question": "If the rate is increased by 40%, by how much percentage must consumption decrease so that expenditure remains same?",
+        "options": {
+            "A": "31 2/9%",
+            "B": "35 5/9%",
+            "C": "28 4/9%",
+            "D": "28 4/7%"
+        },
+        "correct_option": "D",
+        "answer": "28 4/7%",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T5-109",
+        "chapter": "Percentage",
+        "type": "Type-V",
+        "question_number": 109,
+        "question": "If the price of an article is raised by 35%, by how much percent must a householder reduce his consumption so that his expenditure remains same?",
+        "options": {
+            "A": "25 23/27%",
+            "B": "25 22/27%",
+            "C": "25 24/27%",
+            "D": "25 25/27%"
+        },
+        "correct_option": "D",
+        "answer": "25 25/27%",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T5-110",
+        "chapter": "Percentage",
+        "type": "Type-V",
+        "question_number": 110,
+        "question": "Due to decrease in many power, the production in a factory decreases by 25%. By what percent should the working hours be increased to restore the original production?",
+        "options": {
+            "A": "43 5/7%",
+            "B": "50%",
+            "C": "25%",
+            "D": "33 1/3%"
+        },
+        "correct_option": "D",
+        "answer": "33 1/3%",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T5-111",
+        "chapter": "Percentage",
+        "type": "Type-V",
+        "question_number": 111,
+        "question": "The cost of CNG per liter is increased by 65%. By what percentage must Manish reduce his consumption so that his expenditure remains unchanged?",
+        "options": {
+            "A": "39.39%",
+            "B": "30.13%",
+            "C": "45.13%",
+            "D": "25.39%"
+        },
+        "correct_option": "A",
+        "answer": "39.39%",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T5-112",
+        "chapter": "Percentage",
+        "type": "Type-V",
+        "question_number": 112,
+        "question": "If the price of a movie ticket increased by 12.5% and the sale of tickets also increased by 8 1/3%, then find % change in income.",
+        "options": {
+            "A": "21.875%",
+            "B": "22.875%",
+            "C": "20.675%",
+            "D": "22.0625%"
+        },
+        "correct_option": "D",
+        "answer": "22.0625%",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T5-113",
+        "chapter": "Percentage",
+        "type": "Type-V",
+        "question_number": 113,
+        "question": "On reducing the entry fee by 25%, the number of people coming to the museum increased by 50%. Find the percentage increase in the collection.",
+        "options": {
+            "A": "10% decrease",
+            "B": "12.5% decrease",
+            "C": "12% increase",
+            "D": "12.5% increase"
+        },
+        "correct_option": "D",
+        "answer": "12.5% increase",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T5-114",
+        "chapter": "Percentage",
+        "type": "Type-V",
+        "question_number": 114,
+        "question": "Ramanujan's salary was reduced by 3 1/8% and then increased by 7 2/5%. By what percentage is his new salary more or less than his original salary?",
+        "options": {
+            "A": "3.03% less",
+            "B": "4.04% more",
+            "C": "4.04% less",
+            "D": "3.03% more"
+        },
+        "correct_option": "B",
+        "answer": "4.04% more",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T5-115",
+        "chapter": "Percentage",
+        "type": "Type-V",
+        "question_number": 115,
+        "question": "A worker has an increase of 12.5% in her wages rate per hour but there is a drop of 10% in number of hours worked per week. If her original weekly wages were ₹38400, then the percentage increase in her weekly wages is:",
+        "options": {
+            "A": "1.25%",
+            "B": "1%",
+            "C": "2.25%",
+            "D": "2%"
+        },
+        "correct_option": "A",
+        "answer": "1.25%",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T5-116",
+        "chapter": "Percentage",
+        "type": "Type-V",
+        "question_number": 116,
+        "question": "When the price of an item was reduced by 20%, its sale increased by 25%. In receipt of revenue, then the value of revenue is:",
+        "options": {
+            "A": "58.35",
+            "B": "57.75",
+            "C": "54.35",
+            "D": "60"
+        },
+        "correct_option": "C",
+        "answer": "54.35",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T5-117",
+        "chapter": "Percentage",
+        "type": "Type-V",
+        "question_number": 117,
+        "question": "The income of A is 80% of B and expenditure of A is 60% of B. If A saves 20% of his income and B saves 10% of his income, then by what percentage are the savings of A more than B?",
+        "options": {
+            "A": "100%",
+            "B": "140%",
+            "C": "125%",
+            "D": "150%"
+        },
+        "correct_option": "B",
+        "answer": "140%",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T5-118",
+        "chapter": "Percentage",
+        "type": "Type-V",
+        "question_number": 118,
+        "question": "A's income is equal to 125% of the income of B, while B's savings are 120% of the savings of A. If the expenditure of B is 75% of the expenditure of A, then how much are B's savings as a percentage of her expenditure?",
+        "options": {
+            "A": "20%",
+            "B": "22.5%",
+            "C": "18.75%",
+            "D": "16.67%"
+        },
+        "correct_option": "A",
+        "answer": "20%",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T6-119",
+        "chapter": "Percentage",
+        "type": "Type-VI",
+        "question_number": 119,
+        "question": "The value of a washing machine depreciated from ₹40,960 to ₹21,970 in 3 years. Find the yearly rate of depreciation.",
+        "options": {
+            "A": "18.75%",
+            "B": "16.25%",
+            "C": "20%",
+            "D": "25%"
+        },
+        "correct_option": "A",
+        "answer": "18.75%",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T6-120",
+        "chapter": "Percentage",
+        "type": "Type-VI",
+        "question_number": 120,
+        "question": "The population of a town increased from 100000 to 250000 in 5 years. What is the approximate compounded percent increase of population per year?",
+        "options": {
+            "A": "20%",
+            "B": "30%",
+            "C": "10%",
+            "D": "40%"
+        },
+        "correct_option": "A",
+        "answer": "20%",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T7-121",
+        "chapter": "Percentage",
+        "type": "Type-VII",
+        "question_number": 121,
+        "question": "After decreasing 30%, an article costs Rs.3,500. Find its actual cost.",
+        "options": {
+            "A": "Rs.5,000",
+            "B": "Rs.4,500",
+            "C": "Rs.5,500",
+            "D": "Rs.6,500"
+        },
+        "correct_option": "A",
+        "answer": "Rs.5,000",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T7-122",
+        "chapter": "Percentage",
+        "type": "Type-VII",
+        "question_number": 122,
+        "question": "The price of an electric bike was ₹1,25,000 last year. This year, its price got decreased by 30%. What is the price this year?",
+        "options": {
+            "A": "₹87,000",
+            "B": "₹86,000",
+            "C": "₹87,500",
+            "D": "₹86,500"
+        },
+        "correct_option": "C",
+        "answer": "₹87,500",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T7-123",
+        "chapter": "Percentage",
+        "type": "Type-VII",
+        "question_number": 123,
+        "question": "A car is sold for ₹5,00,000 which is 20% less than its original price. What was the original price of the car?",
+        "options": {
+            "A": "₹6,25,000",
+            "B": "₹6,50,000",
+            "C": "₹6,75,000",
+            "D": "₹6,00,000"
+        },
+        "correct_option": "A",
+        "answer": "₹6,25,000",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T7-124",
+        "chapter": "Percentage",
+        "type": "Type-VII",
+        "question_number": 124,
+        "question": "If 20% of 35% of a number is 240.8, then 18% of that number (rounded off to 1 decimal place) is:",
+        "options": {
+            "A": "621.8",
+            "B": "619.2",
+            "C": "623.2",
+            "D": "618.2"
+        },
+        "correct_option": "B",
+        "answer": "619.2",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T7-125",
+        "chapter": "Percentage",
+        "type": "Type-VII",
+        "question_number": 125,
+        "question": "During the first year the population of a village increased by 5% and during the second year it diminished by 5%. At the end of the second year its population was 47,880. What was the population at the beginning of the first year?",
+        "options": {
+            "A": "48000",
+            "B": "43500",
+            "C": "53000",
+            "D": "45000"
+        },
+        "correct_option": "A",
+        "answer": "48000",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T7-126",
+        "chapter": "Percentage",
+        "type": "Type-VII",
+        "question_number": 126,
+        "question": "Monthly salary of Jitvik in December 2020 was ₹24,800. Every year his salary increases by 5% from January. What was his salary in February 2022?",
+        "options": {
+            "A": "27342",
+            "B": "27180",
+            "C": "27486",
+            "D": "26485"
+        },
+        "correct_option": "A",
+        "answer": "27342",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T7-127",
+        "chapter": "Percentage",
+        "type": "Type-VII",
+        "question_number": 127,
+        "question": "Mohan gets 12% increase in his sale amount in the first year and 15% increase in the second year, with that his present sale is ₹1,28,800. What was his sale two years ago?",
+        "options": {
+            "A": "₹1,75,000",
+            "B": "₹1,25,000",
+            "C": "₹1,50,000",
+            "D": "₹1,00,000"
+        },
+        "correct_option": "D",
+        "answer": "₹1,00,000",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T7-128",
+        "chapter": "Percentage",
+        "type": "Type-VII",
+        "question_number": 128,
+        "question": "The value of a machine depreciates every year by 5%. If the present value of the machine is ₹80,000, what will be its value after 2 years?",
+        "options": {
+            "A": "₹72,200",
+            "B": "₹72,000",
+            "C": "₹74,400",
+            "D": "₹74,000"
+        },
+        "correct_option": "A",
+        "answer": "₹72,200",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T7-129",
+        "chapter": "Percentage",
+        "type": "Type-VII",
+        "question_number": 129,
+        "question": "The price of a motorcycle was $750 last year. The price increased by 20% this year. What is the price this year?",
+        "options": {
+            "A": "$600",
+            "B": "$750",
+            "C": "$900",
+            "D": "$790"
+        },
+        "correct_option": "C",
+        "answer": "$900",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T7-130",
+        "chapter": "Percentage",
+        "type": "Type-VII",
+        "question_number": 130,
+        "question": "The population of a town increases 8% annually. If its present population is 1,42,560, what was the population one year ago?",
+        "options": {
+            "A": "1,34,000",
+            "B": "1,33,000",
+            "C": "1,31,000",
+            "D": "1,30,000"
+        },
+        "correct_option": "C",
+        "answer": "1,31,000",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T7-131",
+        "chapter": "Percentage",
+        "type": "Type-VII",
+        "question_number": 131,
+        "question": "Two years ago, the population of a town was 9,487,500. Due to migration to big cities, it decreases every year at the rate of 8%. The present population of the town is:",
+        "options": {
+            "A": "9060110",
+            "B": "7060320",
+            "C": "8070120",
+            "D": "8030220"
+        },
+        "correct_option": "D",
+        "answer": "8030220",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T7-132",
+        "chapter": "Percentage",
+        "type": "Type-VII",
+        "question_number": 132,
+        "question": "Amit gets 6% increase in his sale amount in the first year and 20% in the second year, with that his present sale is Rs.254400, what was his sale two years ago?",
+        "options": {
+            "A": "200000",
+            "B": "180000",
+            "C": "212000",
+            "D": "240000"
+        },
+        "correct_option": "A",
+        "answer": "200000",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T7-133",
+        "chapter": "Percentage",
+        "type": "Type-VII",
+        "question_number": 133,
+        "question": "The price of an article is increased by r%. The new price was decreased by r% later. Now the latest price is ₹1. What was the original price of the article?",
+        "options": {
+            "A": "10000 / (10000 - r²)",
+            "B": "(10000 - r²) / 10000",
+            "C": "100 / (100 - r²)",
+            "D": "100 / (1 - r²)"
+        },
+        "correct_option": "A",
+        "answer": "10000 / (10000 - r²)",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T7-134",
+        "chapter": "Percentage",
+        "type": "Type-VII",
+        "question_number": 134,
+        "question": "The population of a city increases every year at the rate of 5%. If the population of the city is 16000, what will be the population after 2 years?",
+        "options": {
+            "A": "17640",
+            "B": "17000",
+            "C": "17700",
+            "D": "17600"
+        },
+        "correct_option": "A",
+        "answer": "17640",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T7-135",
+        "chapter": "Percentage",
+        "type": "Type-VII",
+        "question_number": 135,
+        "question": "The population of a village was 4,00,000. It increased by 20% in the first year and increased by 30% in the second year. Its population after two years is:",
+        "options": {
+            "A": "540000",
+            "B": "625000",
+            "C": "624000",
+            "D": "520000"
+        },
+        "correct_option": "C",
+        "answer": "624000",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T7-136",
+        "chapter": "Percentage",
+        "type": "Type-VII",
+        "question_number": 136,
+        "question": "The population of a city was 1,75,000 two years ago. If it had increased by 4% and 5% in the last two years, find the present population of the city.",
+        "options": {
+            "A": "192100",
+            "B": "189200",
+            "C": "191100",
+            "D": "193200"
+        },
+        "correct_option": "C",
+        "answer": "191100",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T7-137",
+        "chapter": "Percentage",
+        "type": "Type-VII",
+        "question_number": 137,
+        "question": "A number is first decreased by 28% and then increased by 28%. The number so obtained is 784 less than the original number. Find the value of the original number.",
+        "options": {
+            "A": "1500",
+            "B": "10000",
+            "C": "10000",
+            "D": "1000"
+        },
+        "correct_option": "C",
+        "answer": "10000",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T7-138",
+        "chapter": "Percentage",
+        "type": "Type-VII",
+        "question_number": 138,
+        "question": "A city has 10,24,000 inhabitants. If the population increases at the rate of 2.5% per annum, find the number of inhabitants at the end of three years.",
+        "options": {
+            "A": "1120736",
+            "B": "1102736",
+            "C": "1075840",
+            "D": "1064850"
+        },
+        "correct_option": "B",
+        "answer": "1102736",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T7-139",
+        "chapter": "Percentage",
+        "type": "Type-VII",
+        "question_number": 139,
+        "question": "The price of an electronic watch is first reduced by 25% and then increased by 50%. If the resulting price of the watch is ₹7650, then what was its original price?",
+        "options": {
+            "A": "6900",
+            "B": "6800",
+            "C": "6500",
+            "D": "6600"
+        },
+        "correct_option": "B",
+        "answer": "6800",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T7-140",
+        "chapter": "Percentage",
+        "type": "Type-VII",
+        "question_number": 140,
+        "question": "On Monday, the sale was decreased by 10% compared to Sunday. On Tuesday, the sale was increased by 10% compared to Monday. If the sale on Tuesday was Rs.1485, what was the sale on Sunday?",
+        "options": {
+            "A": "1495",
+            "B": "1485",
+            "C": "1475",
+            "D": "1500"
+        },
+        "correct_option": "D",
+        "answer": "1500",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T7-141",
+        "chapter": "Percentage",
+        "type": "Type-VII",
+        "question_number": 141,
+        "question": "During the first year, the population of a town increased by 12%. The next year, it decreased by 8%. At the end of the second year, the population was 64,400. Find the population of the town at the beginning of the first year.",
+        "options": {
+            "A": "50000",
+            "B": "54750",
+            "C": "62500",
+            "D": "50500"
+        },
+        "correct_option": "C",
+        "answer": "62500",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T7-142",
+        "chapter": "Percentage",
+        "type": "Type-VII",
+        "question_number": 142,
+        "question": "20% of the inhabitants of a village having domicile malaria, a panic of the inhabitants left the village. Population was then reduced to 12,000. What was the number of inhabitants before the epidemic?",
+        "options": {
+            "A": "21000",
+            "B": "21428",
+            "C": "21500",
+            "D": "30428"
+        },
+        "correct_option": "B",
+        "answer": "21428",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T7-143",
+        "chapter": "Percentage",
+        "type": "Type-VII",
+        "question_number": 143,
+        "question": "On account of corona virus, 5% of the population of a village died, 20% of the remaining population fled due to panic. If the present population is 46,552, then what was the population before the attack?",
+        "options": {
+            "A": "5995",
+            "B": "61225",
+            "C": "6000",
+            "D": "5985"
+        },
+        "correct_option": "B",
+        "answer": "61225",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T7-144",
+        "chapter": "Percentage",
+        "type": "Type-VII",
+        "question_number": 144,
+        "question": "The population of a town is 1,25,000. If the annual birth rate is 12.7% and death rate is 2.7%, how much will the population increase after 3 years?",
+        "options": {
+            "A": "43285",
+            "B": "41375",
+            "C": "42565",
+            "D": "40275"
+        },
+        "correct_option": "B",
+        "answer": "41375",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T7-145",
+        "chapter": "Percentage",
+        "type": "Type-VII",
+        "question_number": 145,
+        "question": "The number of tourists increased by a machine in 2018 was 25,000, which increased by 20% in 2019. In 2020, the production was reduced by 15%. How many total toys were manufactured in three years?",
+        "options": {
+            "A": "25500",
+            "B": "80000",
+            "C": "89500",
+            "D": "90000"
+        },
+        "correct_option": "C",
+        "answer": "89500",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T7-146",
+        "chapter": "Percentage",
+        "type": "Type-VII",
+        "question_number": 146,
+        "question": "During 2021, the population of a city increased by 8% and in 2022, it increased by 10%. At the end of 2022, its population was 47,520. The population of the city at the end of 2021 was:",
+        "options": {
+            "A": "40000",
+            "B": "43200",
+            "C": "42300",
+            "D": "44000"
+        },
+        "correct_option": "B",
+        "answer": "43200",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T7-147",
+        "chapter": "Percentage",
+        "type": "Type-VII",
+        "question_number": 147,
+        "question": "Two years ago, the population of a small town was 60,000. It increased by 5% in the first year but decreased by 10% in the second year. What is its present population?",
+        "options": {
+            "A": "56700",
+            "B": "56900",
+            "C": "33500",
+            "D": "35700"
+        },
+        "correct_option": "A",
+        "answer": "56700",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T7-148",
+        "chapter": "Percentage",
+        "type": "Type-VII",
+        "question_number": 148,
+        "question": "The rate of annual growth of a city is 2%. If its population in 2020 was 1,50,000, then what would be its population in 2023?",
+        "options": {
+            "A": "159000",
+            "B": "159181",
+            "C": "158413",
+            "D": "158765"
+        },
+        "correct_option": "B",
+        "answer": "159181",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T7-149",
+        "chapter": "Percentage",
+        "type": "Type-VII",
+        "question_number": 149,
+        "question": "In the first year, the population of a town decreased by 5%. In the next year it decreased again by 5% and in the third year it increased by 5%. At the end of the third year the population was 9,47,625. Find the population at the beginning of the first year.",
+        "options": {
+            "A": "700000",
+            "B": "1000000",
+            "C": "897993",
+            "D": "992519"
+        },
+        "correct_option": "B",
+        "answer": "1000000",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T7-150",
+        "chapter": "Percentage",
+        "type": "Type-VII",
+        "question_number": 150,
+        "question": "The strength of a school increases and decreases every alternate year by 15%. If it started with an increase in 2012, then the strength of the school in the beginning of 2015, compared to that in 2012, had:",
+        "options": {
+            "A": "Decreased by 12.41%",
+            "B": "Increased by 12.41%",
+            "C": "Decreased by 13.85%",
+            "D": "Increased by 13.85%"
+        },
+        "correct_option": "B",
+        "answer": "Increased by 12.41%",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T7-151",
+        "chapter": "Percentage",
+        "type": "Type-VII",
+        "question_number": 151,
+        "question": "If the number of school going children in a town is 64000 and it is increasing annually by 10%, then what will be the number of school going children in the town at the end of 3 years?",
+        "options": {
+            "A": "85100",
+            "B": "85184",
+            "C": "85000",
+            "D": "80000"
+        },
+        "correct_option": "B",
+        "answer": "85184",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T7-152",
+        "chapter": "Percentage",
+        "type": "Type-VII",
+        "question_number": 152,
+        "question": "The strength of a school increases and decreases every alternate year by 20%. It started with an increase in the year 2015 and the initial strength was 3000. Find the strength of the school in the year 2017 and also the percentage increase strength, respectively.",
+        "options": {
+            "A": "4556, 17.2%",
+            "B": "3556, 16.2%",
+            "C": "3456, 15.2%",
+            "D": "4456, 14.2%"
+        },
+        "correct_option": "C",
+        "answer": "3456, 15.2%",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T7-153",
+        "chapter": "Percentage",
+        "type": "Type-VII",
+        "question_number": 153,
+        "question": "The population of a place increased to 50,000 from 2016 to 2018 at the rate of 6% per annum, and continued at the same trend for the next 3 years. If A is the population in 2016 and B is the population in 2020, both approximated to the next possible integer, then the value of B - A is:",
+        "options": {
+            "A": "11680",
+            "B": "16270",
+            "C": "13320",
+            "D": "12850"
+        },
+        "correct_option": "A",
+        "answer": "11680",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T7-154",
+        "chapter": "Percentage",
+        "type": "Type-VII",
+        "question_number": 154,
+        "question": "Ramgya spends 22% of his salary on house rent and 75% of the rest on household expenses. If he saves ₹3705, find his total income (in ₹).",
+        "options": {
+            "A": "17000",
+            "B": "18000",
+            "C": "21000",
+            "D": "19000"
+        },
+        "correct_option": "D",
+        "answer": "19000",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T7-155",
+        "chapter": "Percentage",
+        "type": "Type-VII",
+        "question_number": 155,
+        "question": "A man spent 60% of his salary on household expenses, 20% on rent and out of remaining salary, he donated 80% to a trust. If he is left with ₹20000, then what is his salary?",
+        "options": {
+            "A": "400000",
+            "B": "500000",
+            "C": "750000",
+            "D": "50000"
+        },
+        "correct_option": "B",
+        "answer": "500000",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T7-156",
+        "chapter": "Percentage",
+        "type": "Type-VII",
+        "question_number": 156,
+        "question": "A person spends 60% of his salary on family expenses, 10% on medical expenses, 5% on charity, and saves the remaining amount. If the amount on savings is ₹4000, find his monthly salary.",
+        "options": {
+            "A": "16000",
+            "B": "15000",
+            "C": "14000",
+            "D": "12000"
+        },
+        "correct_option": "A",
+        "answer": "16000",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T7-157",
+        "chapter": "Percentage",
+        "type": "Type-VII",
+        "question_number": 157,
+        "question": "Nazeer spends 20% of his monthly income on housing, 25% of the remaining on education, and saves 10% of the remaining. If his monthly salary is ₹52600, how much money does he save every month?",
+        "options": {
+            "A": "5260",
+            "B": "1578",
+            "C": "2367",
+            "D": "3156"
+        },
+        "correct_option": "D",
+        "answer": "3156",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T7-158",
+        "chapter": "Percentage",
+        "type": "Type-VII",
+        "question_number": 158,
+        "question": "A man spent 30% of his monthly income on rent. He spent 15% of the remaining amount on food. 35% of the remaining amount was used for all other expenses. If ₹164235 was left with him, find his monthly income.",
+        "options": {
+            "A": "480000",
+            "B": "420000",
+            "C": "360000",
+            "D": "540000"
+        },
+        "correct_option": "B",
+        "answer": "420000",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T7-159",
+        "chapter": "Percentage",
+        "type": "Type-VII",
+        "question_number": 159,
+        "question": "A person spends 25% of his income on goods of daily use. Furthermore, he spends 18% of the rest on house rent and 16% of the rest on travel. After that, only ₹861 is left with him. What is his salary?",
+        "options": {
+            "A": "1852 1/3",
+            "B": "1666 2/3",
+            "C": "1563 1/3",
+            "D": "1426 1/3"
+        },
+        "correct_option": "B",
+        "answer": "1666 2/3",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T7-160",
+        "chapter": "Percentage",
+        "type": "Type-VII",
+        "question_number": 160,
+        "question": "A father gives 8% of his monthly income to both his sons as pocket money. The elder son gets 85% of the total amount given to both sons. He spends 90% of the amount and saves ₹17. What is the monthly income of the father?",
+        "options": {
+            "A": "5000",
+            "B": "4500",
+            "C": "3500",
+            "D": "2500"
+        },
+        "correct_option": "D",
+        "answer": "2500",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T7-161",
+        "chapter": "Percentage",
+        "type": "Type-VII",
+        "question_number": 161,
+        "question": "Three years ago, Raman’s salary was ₹45000. His salary is increased by 10%, 10% and 20% in the first, second and third year respectively. Raman’s present salary is ₹83160. What is the value of A?",
+        "options": {
+            "A": "50%",
+            "B": "40%",
+            "C": "54%",
+            "D": "30%"
+        },
+        "correct_option": "B",
+        "answer": "40%",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T7-162",
+        "chapter": "Percentage",
+        "type": "Type-VII",
+        "question_number": 162,
+        "question": "70% of students in a class are girls and 70% of girls have chosen soccer as their favourite sport. If 98 girls have chosen soccer as their favourite sport, what is the total number of students in the class?",
+        "options": {
+            "A": "180",
+            "B": "225",
+            "C": "175",
+            "D": "200"
+        },
+        "correct_option": "D",
+        "answer": "200",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T8-163",
+        "chapter": "Percentage",
+        "type": "Type-VIII",
+        "question_number": 163,
+        "question": "If the price of a commodity is increased by 36%, by what percentage should its consumption be decreased so that the expenditure remains the same?",
+        "options": {
+            "A": "32%",
+            "B": "38%",
+            "C": "26%",
+            "D": "26.5%"
+        },
+        "correct_option": "D",
+        "answer": "26.5%",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T8-164",
+        "chapter": "Percentage",
+        "type": "Type-VIII",
+        "question_number": 164,
+        "question": "The price of tomatoes per kg is increased by 300%. A housewife reduces her consumption by 70%. By what percentage does her expenditure on tomatoes increase or decrease?",
+        "options": {
+            "A": "Decrease 30%",
+            "B": "Decrease 20%",
+            "C": "Increase 30%",
+            "D": "Increase 20%"
+        },
+        "correct_option": "D",
+        "answer": "Increase 20%",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T8-165",
+        "chapter": "Percentage",
+        "type": "Type-VIII",
+        "question_number": 165,
+        "question": "The cost of rice is increased by 25% but its consumption is decreased by 30%. Find the percentage increase or decrease in expenditure.",
+        "options": {
+            "A": "Increase 12 1/2%",
+            "B": "Increase 13 1/3%",
+            "C": "Decrease 12 1/2%",
+            "D": "Decrease 13 1/3%"
+        },
+        "correct_option": "C",
+        "answer": "Decrease 12 1/2%",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T8-166",
+        "chapter": "Percentage",
+        "type": "Type-VIII",
+        "question_number": 166,
+        "question": "When price of a commodity increases by 23%, consumption reduces so that expenditure increases by 5%. By what percentage is consumption reduced?",
+        "options": {
+            "A": "14.20%",
+            "B": "14.6%",
+            "C": "15.8%",
+            "D": "15.2%"
+        },
+        "correct_option": "C",
+        "answer": "15.8%",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T8-167",
+        "chapter": "Percentage",
+        "type": "Type-VIII",
+        "question_number": 167,
+        "question": "The price of diesel is increased by 26%. A person decreases his expenditure by 15% only. By what percentage is consumption decreased?",
+        "options": {
+            "A": "7.2%",
+            "B": "6.5%",
+            "C": "9.5%",
+            "D": "9.3%"
+        },
+        "correct_option": "C",
+        "answer": "9.5%",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T8-168",
+        "chapter": "Percentage",
+        "type": "Type-VIII",
+        "question_number": 168,
+        "question": "The price of a commodity is decreased by 25%. By how much should consumption increase so that expenditure remains the same?",
+        "options": {
+            "A": "60 kg",
+            "B": "55 kg",
+            "C": "50 kg",
+            "D": "45 kg"
+        },
+        "correct_option": "A",
+        "answer": "60 kg",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T8-169",
+        "chapter": "Percentage",
+        "type": "Type-VIII",
+        "question_number": 169,
+        "question": "If price of rice is reduced by 24%, by how much should consumption increase so that expenditure remains the same?",
+        "options": {
+            "A": "₹25",
+            "B": "₹50",
+            "C": "₹60",
+            "D": "₹75"
+        },
+        "correct_option": "C",
+        "answer": "₹60",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T8-170",
+        "chapter": "Percentage",
+        "type": "Type-VIII",
+        "question_number": 170,
+        "question": "A reduction of 15% in the price of washing powder enables a purchaser to obtain 5 kg more for ₹1275. What is the original price per kg?",
+        "options": {
+            "A": "₹40",
+            "B": "₹35",
+            "C": "₹45",
+            "D": "₹50"
+        },
+        "correct_option": "C",
+        "answer": "₹45",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T8-171",
+        "chapter": "Percentage",
+        "type": "Type-VIII",
+        "question_number": 171,
+        "question": "The reduction of 20% in the price of rice enables a person to obtain 50 kg more for ₹450. Find the original price per kg.",
+        "options": {
+            "A": "₹1",
+            "B": "₹2.25",
+            "C": "₹2.50",
+            "D": "₹2.25"
+        },
+        "correct_option": "C",
+        "answer": "₹2.50",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T8-172",
+        "chapter": "Percentage",
+        "type": "Type-VIII",
+        "question_number": 172,
+        "question": "Price of rice decreases by 25 percent and therefore a person can purchase 30 kg more rice in the same expenditure. If expenditure is ₹5400, then what was the original price of rice per kg?",
+        "options": {
+            "A": "₹90 per kg",
+            "B": "₹75 per kg",
+            "C": "₹50 per kg",
+            "D": "₹60 per kg"
+        },
+        "correct_option": "D",
+        "answer": "₹60 per kg",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T8-173",
+        "chapter": "Percentage",
+        "type": "Type-VIII",
+        "question_number": 173,
+        "question": "If a reduction of 10% in the price of rice enables a person to obtain 22 kg more for ₹250, then find the original price per kg.",
+        "options": {
+            "A": "₹1.26",
+            "B": "₹1.24",
+            "C": "₹1.22",
+            "D": "₹1.20"
+        },
+        "correct_option": "C",
+        "answer": "₹1.22",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T8-174",
+        "chapter": "Percentage",
+        "type": "Type-VIII",
+        "question_number": 174,
+        "question": "The reduction of 15% in the price of salt enables a person to buy 2 kg more for ₹272. The reduced price of salt per kg is:",
+        "options": {
+            "A": "₹20.40",
+            "B": "₹21.60",
+            "C": "₹24.25",
+            "D": "₹25.00"
+        },
+        "correct_option": "D",
+        "answer": "₹25.00",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T8-175",
+        "chapter": "Percentage",
+        "type": "Type-VIII",
+        "question_number": 175,
+        "question": "A reduction of 20% in the price of bananas enables a customer to buy 6 more bananas for ₹80. What is the reduced price per dozen bananas?",
+        "options": {
+            "A": "₹32",
+            "B": "₹36",
+            "C": "₹35",
+            "D": "₹40"
+        },
+        "correct_option": "A",
+        "answer": "₹32",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T8-176",
+        "chapter": "Percentage",
+        "type": "Type-VIII",
+        "question_number": 176,
+        "question": "If due to 12% decrease in the price of sugar, a person can buy 7 kg more sugar for ₹1200, then find the actual price per kg.",
+        "options": {
+            "A": "23.38",
+            "B": "25.79",
+            "C": "26.35",
+            "D": "28.25"
+        },
+        "correct_option": "D",
+        "answer": "28.25",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T9-177",
+        "chapter": "Percentage",
+        "type": "Type-IX",
+        "question_number": 177,
+        "question": "If an employee’s income is ₹72000 and his expenditure is 40% higher than his savings, find his savings.",
+        "options": {
+            "A": "30000",
+            "B": "34000",
+            "C": "32000",
+            "D": "28000"
+        },
+        "correct_option": "B",
+        "answer": "34000",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T9-178",
+        "chapter": "Percentage",
+        "type": "Type-IX",
+        "question_number": 178,
+        "question": "Total savings of X and Y is 40% of their total income. Their average expenditure is ₹21000. What is total salary of X and Y?",
+        "options": {
+            "A": "₹55000",
+            "B": "₹65000",
+            "C": "₹60000",
+            "D": "₹70000"
+        },
+        "correct_option": "D",
+        "answer": "₹70000",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T10-179",
+        "chapter": "Percentage",
+        "type": "Type-X",
+        "question_number": 179,
+        "question": "Raman spends 75% of his income. If his income increases by 20% and expenditure also increases by 10%, how much percent Raman’s saving increases?",
+        "options": {
+            "A": "35%",
+            "B": "40%",
+            "C": "50%",
+            "D": "45%"
+        },
+        "correct_option": "B",
+        "answer": "40%",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T10-180",
+        "chapter": "Percentage",
+        "type": "Type-X",
+        "question_number": 180,
+        "question": "The ratio of Richard’s expenditure and savings is 2:1. If his income and expenditure decrease by 15% and 10% respectively, find percentage increase in his savings.",
+        "options": {
+            "A": "20%",
+            "B": "35%",
+            "C": "25%",
+            "D": "30%"
+        },
+        "correct_option": "C",
+        "answer": "25%",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T9-181",
+        "chapter": "Percentage",
+        "type": "Type-IX",
+        "question_number": 181,
+        "question": "A woman spends 2/3 of her income. If her income increases by 18% and expenditure increases by 24%, then the percentage increase in her saving will be:",
+        "options": {
+            "A": "6%",
+            "B": "3%",
+            "C": "5%",
+            "D": "4%"
+        },
+        "correct_option": "C",
+        "answer": "5%",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T9-182",
+        "chapter": "Percentage",
+        "type": "Type-IX",
+        "question_number": 182,
+        "question": "The proportion of Suresh’s spending to saving is 3:1. His salary rises by 25%. What percentage of his expenditure will increase if his saving grows by 10%?",
+        "options": {
+            "A": "40%",
+            "B": "20%",
+            "C": "10%",
+            "D": "30%"
+        },
+        "correct_option": "D",
+        "answer": "30%",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T9-183",
+        "chapter": "Percentage",
+        "type": "Type-IX",
+        "question_number": 183,
+        "question": "Kalyan spends 80% of his income. His income increases by 15% and his expenditure also increases by 5%. The percentage increase in his savings is:",
+        "options": {
+            "A": "50%",
+            "B": "20%",
+            "C": "55%",
+            "D": "40%"
+        },
+        "correct_option": "C",
+        "answer": "55%",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T9-184",
+        "chapter": "Percentage",
+        "type": "Type-IX",
+        "question_number": 184,
+        "question": "Rahul spends 70% of his income. His income increases by 15% and his expenditure increases by 7.5%. What is the percentage increase in his savings?",
+        "options": {
+            "A": "50%",
+            "B": "30.5%",
+            "C": "25.5%",
+            "D": "32.5%"
+        },
+        "correct_option": "D",
+        "answer": "32.5%",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T9-185",
+        "chapter": "Percentage",
+        "type": "Type-IX",
+        "question_number": 185,
+        "question": "Ramana spends 75% of his income. His income increases by 25% and he increases his expenditure by 10%. By what percentage are his savings increased?",
+        "options": {
+            "A": "70%",
+            "B": "40%",
+            "C": "60%",
+            "D": "50%"
+        },
+        "correct_option": "A",
+        "answer": "70%",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T9-186",
+        "chapter": "Percentage",
+        "type": "Type-IX",
+        "question_number": 186,
+        "question": "Rajiv spends 80% of his income. His income increases by 20%, while his spending rises by 10%. What is the percentage increase in his savings?",
+        "options": {
+            "A": "30%",
+            "B": "48%",
+            "C": "40%",
+            "D": "80%"
+        },
+        "correct_option": "D",
+        "answer": "80%",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T9-187",
+        "chapter": "Percentage",
+        "type": "Type-IX",
+        "question_number": 187,
+        "question": "Bhavani spends 68% of her income. Her income increases by 15% and her expenditure increases by 10%. How much is the increase in percentage of saving?",
+        "options": {
+            "A": "20.57%",
+            "B": "25.62%",
+            "C": "28.42%",
+            "D": "24.80%"
+        },
+        "correct_option": "B",
+        "answer": "25.62%",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T9-188",
+        "chapter": "Percentage",
+        "type": "Type-IX",
+        "question_number": 188,
+        "question": "Ramesh spends 50% of his income. If his income increases by 30% and his expenditure increases by 20%, then the percentage increase in his savings will be:",
+        "options": {
+            "A": "35%",
+            "B": "30%",
+            "C": "45%",
+            "D": "50%"
+        },
+        "correct_option": "C",
+        "answer": "45%",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T9-189",
+        "chapter": "Percentage",
+        "type": "Type-IX",
+        "question_number": 189,
+        "question": "Anita saves 20% of her income. If her income increases by 30% and she saves 25% of the new income, by what percentage will her actual savings increase?",
+        "options": {
+            "A": "83%",
+            "B": "62.50%",
+            "C": "65.20%",
+            "D": "70%"
+        },
+        "correct_option": "D",
+        "answer": "70%",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T9-190",
+        "chapter": "Percentage",
+        "type": "Type-IX",
+        "question_number": 190,
+        "question": "Suresh could save 20% of his income. But 4 years later, when his income increased by 40%, he could save the same amount only as before. By how much percentage did his expenditure increase?",
+        "options": {
+            "A": "22%",
+            "B": "23%",
+            "C": "50%",
+            "D": "45%"
+        },
+        "correct_option": "C",
+        "answer": "50%",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T9-191",
+        "chapter": "Percentage",
+        "type": "Type-IX",
+        "question_number": 191,
+        "question": "Ajay spends 66 2/3% of his income on household items. If his income increases by 25% and expenditure increases by 20%, then the effect on his savings will be:",
+        "options": {
+            "A": "28%",
+            "B": "61%",
+            "C": "49%",
+            "D": "35%"
+        },
+        "correct_option": "D",
+        "answer": "35%",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T9-192",
+        "chapter": "Percentage",
+        "type": "Type-IX",
+        "question_number": 192,
+        "question": "The income of a person is ₹16,500, and his expenditure is ₹12,000. Next year, his income increases by 24% but his expenditure decreases by 10%. The percentage increase (rounded off to nearest integer) in his savings is:",
+        "options": {
+            "A": "90%",
+            "B": "120%",
+            "C": "115%",
+            "D": "95%"
+        },
+        "correct_option": "C",
+        "answer": "115%",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T9-193",
+        "chapter": "Percentage",
+        "type": "Type-IX",
+        "question_number": 193,
+        "question": "The ratio of expenditure to savings of a woman is 4:1. If her income and expenditure increased by 20% and 10%, respectively, find the percentage change in her savings.",
+        "options": {
+            "A": "40%",
+            "B": "50%",
+            "C": "60%",
+            "D": "30%"
+        },
+        "correct_option": "C",
+        "answer": "60%",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T9-194",
+        "chapter": "Percentage",
+        "type": "Type-IX",
+        "question_number": 194,
+        "question": "The monthly income of Ramesh in 2021 was ₹18,600 and his monthly expenditure was ₹12,400. In 2022 his income increased by 15% and his expenditure increased by 8%. Find the percentage increase in his savings.",
+        "options": {
+            "A": "29%",
+            "B": "32%",
+            "C": "25%",
+            "D": "27%"
+        },
+        "correct_option": "A",
+        "answer": "29%",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T9-195",
+        "chapter": "Percentage",
+        "type": "Type-IX",
+        "question_number": 195,
+        "question": "Suresh’s expenditure and savings are in the ratio 3:1. His income increases by 25%. If his savings increase by 20%, then by how much percentage does his expenditure increase?",
+        "options": {
+            "A": "27 2/3%",
+            "B": "25%",
+            "C": "28 2/3%",
+            "D": "26 2/3%"
+        },
+        "correct_option": "D",
+        "answer": "26 2/3%",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T9-196",
+        "chapter": "Percentage",
+        "type": "Type-IX",
+        "question_number": 196,
+        "question": "The monthly expenditure of a person is 40% more than his monthly savings. If his monthly income increases by 40% and monthly expenditure by 60%, he saves ₹2,070 more now. What is his initial monthly income?",
+        "options": {
+            "A": "20250",
+            "B": "19320",
+            "C": "24150",
+            "D": "22425"
+        },
+        "correct_option": "C",
+        "answer": "24150",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T9-197",
+        "chapter": "Percentage",
+        "type": "Type-IX",
+        "question_number": 197,
+        "question": "Ramesh saves 26 2/3% of his monthly salary. When his expenses increase by 20%, he is able to save ₹4,080 per month. Find his monthly salary.",
+        "options": {
+            "A": "30000",
+            "B": "34000",
+            "C": "35000",
+            "D": "38000"
+        },
+        "correct_option": "B",
+        "answer": "34000",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T9-198",
+        "chapter": "Percentage",
+        "type": "Type-IX",
+        "question_number": 198,
+        "question": "Ramu spends 72% of his income. His income increases by 12%, and he increases his saved portion by 5%. If Ramu earlier saved y and after increase now saves x, then what is the value of ((x-y)/y) × 100?",
+        "options": {
+            "A": "25%",
+            "B": "22%",
+            "C": "27%",
+            "D": "30%"
+        },
+        "correct_option": "D",
+        "answer": "30%",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T9-199",
+        "chapter": "Percentage",
+        "type": "Type-IX",
+        "question_number": 199,
+        "question": "A person saves 45% of his income. Next year, his income increases by 200%. He increases his savings by five times the previous year's savings. By what percentage has his income increased or decreased?",
+        "options": {
+            "A": "Decreased by 63.4%",
+            "B": "Decreased by 36.4%",
+            "C": "Increased by 63.4%",
+            "D": "Increased by 36.4%"
+        },
+        "correct_option": "D",
+        "answer": "Increased by 36.4%",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T9-200",
+        "chapter": "Percentage",
+        "type": "Type-IX",
+        "question_number": 200,
+        "question": "Rumi used to save 20% of her income. If her income went up by 30% and her expenditure went up by 40%, her nominal saving went down by ₹750. Find Rumi’s initial income.",
+        "options": {
+            "A": "36000",
+            "B": "37500",
+            "C": "35000",
+            "D": "38500"
+        },
+        "correct_option": "B",
+        "answer": "37500",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T10-201",
+        "chapter": "Percentage",
+        "type": "Type-X",
+        "question_number": 201,
+        "question": "If the income of a person increases by 20% and expenditure increases by 10%, what is the percentage increase in savings?",
+        "options": {
+            "A": "20%",
+            "B": "25%",
+            "C": "30%",
+            "D": "40%"
+        },
+        "correct_option": "D",
+        "answer": "40%",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T10-202",
+        "chapter": "Percentage",
+        "type": "Type-X",
+        "question_number": 202,
+        "question": "If the expenditure of a person decreases by 20% and income increases by 10%, what is the percentage increase in savings?",
+        "options": {
+            "A": "15%",
+            "B": "18%",
+            "C": "25%",
+            "D": "30%"
+        },
+        "correct_option": "C",
+        "answer": "25%",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T10-203",
+        "chapter": "Percentage",
+        "type": "Type-X",
+        "question_number": 203,
+        "question": "If the income increases by 25% and savings increase by 50%, what is the percentage increase in expenditure?",
+        "options": {
+            "A": "10%",
+            "B": "20%",
+            "C": "25%",
+            "D": "30%"
+        },
+        "correct_option": "B",
+        "answer": "20%",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T10-204",
+        "chapter": "Percentage",
+        "type": "Type-X",
+        "question_number": 204,
+        "question": "If the savings increase by 40% and income increases by 20%, what is the percentage increase in expenditure?",
+        "options": {
+            "A": "10%",
+            "B": "15%",
+            "C": "20%",
+            "D": "25%"
+        },
+        "correct_option": "C",
+        "answer": "20%",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T10-205",
+        "chapter": "Percentage",
+        "type": "Type-X",
+        "question_number": 205,
+        "question": "If income increases by 30% and expenditure increases by 20%, what is the percentage increase in savings?",
+        "options": {
+            "A": "50%",
+            "B": "40%",
+            "C": "30%",
+            "D": "20%"
+        },
+        "correct_option": "A",
+        "answer": "50%",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T10-206",
+        "chapter": "Percentage",
+        "type": "Type-X",
+        "question_number": 206,
+        "question": "If income increases by 15% and expenditure increases by 10%, what is the percentage increase in savings?",
+        "options": {
+            "A": "20%",
+            "B": "25%",
+            "C": "30%",
+            "D": "35%"
+        },
+        "correct_option": "B",
+        "answer": "25%",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T10-207",
+        "chapter": "Percentage",
+        "type": "Type-X",
+        "question_number": 207,
+        "question": "If savings increase by 25% and income increases by 10%, what is the percentage increase in expenditure?",
+        "options": {
+            "A": "10%",
+            "B": "15%",
+            "C": "20%",
+            "D": "25%"
+        },
+        "correct_option": "B",
+        "answer": "15%",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T10-208",
+        "chapter": "Percentage",
+        "type": "Type-X",
+        "question_number": 208,
+        "question": "The income of Raju is 25% more than that of Monju. Raju gets a 25% rise in income and Monju gets a 40% rise in income. What is the percentage increase in their combined income?",
+        "options": {
+            "A": "51.72%",
+            "B": "31.67%",
+            "C": "22.43%",
+            "D": "41.26%"
+        },
+        "correct_option": "B",
+        "answer": "31.67%",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T10-209",
+        "chapter": "Percentage",
+        "type": "Type-X",
+        "question_number": 209,
+        "question": "The ratio of number of boys and girls in a school is 3:4. If number of boys increases by 10% and number of girls increases by 15%, what will be the new ratio of boys to girls?",
+        "options": {
+            "A": "33:45",
+            "B": "35:46",
+            "C": "33:46",
+            "D": "35:33"
+        },
+        "correct_option": "C",
+        "answer": "33:46",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T10-210",
+        "chapter": "Percentage",
+        "type": "Type-X",
+        "question_number": 210,
+        "question": "In a class, the ratio of boys to girls is 11:9. 30% of boys and 20% of girls passed an exam. Find the percentage of students who passed the exam.",
+        "options": {
+            "A": "3.92%",
+            "B": "20%",
+            "C": "24.5%",
+            "D": "25.5%"
+        },
+        "correct_option": "D",
+        "answer": "25.5%",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T10-211",
+        "chapter": "Percentage",
+        "type": "Type-X",
+        "question_number": 211,
+        "question": "In an institute, 35% are boys and the rest are girls. If 30% of the boys failed and 60% of the girls passed an examination, then the percentage of students who failed is:",
+        "options": {
+            "A": "35.5%",
+            "B": "36.5%",
+            "C": "35%",
+            "D": "40%"
+        },
+        "correct_option": "B",
+        "answer": "36.5%",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T10-212",
+        "chapter": "Percentage",
+        "type": "Type-X",
+        "question_number": 212,
+        "question": "In an examination, 45% of all students are boys and the rest are girls. If 60% of the boys and 70% of the girls passed, what is the percentage of students who failed?",
+        "options": {
+            "A": "36%",
+            "B": "35.4%",
+            "C": "40%",
+            "D": "34.5%"
+        },
+        "correct_option": "D",
+        "answer": "34.5%",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T10-213",
+        "chapter": "Percentage",
+        "type": "Type-X",
+        "question_number": 213,
+        "question": "In a class, 60% of the students are girls and the rest are boys. 45% of the girls pass an examination and 40% of the boys fail. If the number of girls who failed is 66, find the number of boys who passed the examination.",
+        "options": {
+            "A": "36",
+            "B": "48",
+            "C": "54",
+            "D": "60"
+        },
+        "correct_option": "B",
+        "answer": "48",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T10-214",
+        "chapter": "Percentage",
+        "type": "Type-X",
+        "question_number": 214,
+        "question": "The average pass percentage of girls in class X examination in a school is 85% and that of boys is 83%. The overall pass percentage is 83.7%. Find the percentage of girls in class X of that school.",
+        "options": {
+            "A": "45%",
+            "B": "40%",
+            "C": "30%",
+            "D": "35%"
+        },
+        "correct_option": "D",
+        "answer": "35%",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T10-215",
+        "chapter": "Percentage",
+        "type": "Type-X",
+        "question_number": 215,
+        "question": "In a class, out of the total number of students, 8 1/3% are girls and the remaining are boys. If 60% of boys and 80% of girls are present, then what percentage of total students are absent?",
+        "options": {
+            "A": "26 2/3%",
+            "B": "22 2/3%",
+            "C": "23 1/3%",
+            "D": "12 1/3%"
+        },
+        "correct_option": "C",
+        "answer": "23 1/3%",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T10-216",
+        "chapter": "Percentage",
+        "type": "Type-X",
+        "question_number": 216,
+        "question": "In January 2022, Kriti paid an EMI which was 22% of her monthly salary. She spent the remaining salary on shopping in the ratio 7:5. If her February salary increased by 16%, then what was her salary in February?",
+        "options": {
+            "A": "66350",
+            "B": "68520",
+            "C": "70250",
+            "D": "64960"
+        },
+        "correct_option": "D",
+        "answer": "64960",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T10-217",
+        "chapter": "Percentage",
+        "type": "Type-X",
+        "question_number": 217,
+        "question": "Sunita pays tax at 30% on her entire income of ₹90,000. Ritu pays tax at 40% on her entire income of ₹70,000. If overall tax rate on combined income is 37%, find the value of Y.",
+        "options": {
+            "A": "204000",
+            "B": "216000",
+            "C": "213000",
+            "D": "210000"
+        },
+        "correct_option": "D",
+        "answer": "210000",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T11-218",
+        "chapter": "Percentage",
+        "type": "Type-XI",
+        "question_number": 218,
+        "question": "Pass percentage of an examination is 35%. If a student who got 210 marks failed by 14 marks, then what are the maximum marks of the examination?",
+        "options": {
+            "A": "660",
+            "B": "640",
+            "C": "620",
+            "D": "600"
+        },
+        "correct_option": "C",
+        "answer": "620",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T11-219",
+        "chapter": "Percentage",
+        "type": "Type-XI",
+        "question_number": 219,
+        "question": "John got 20% marks and failed by 10 marks. In the same examination, Jack got 35% marks which is 20 more than minimum passing marks. Find the percentage marks required to pass.",
+        "options": {
+            "A": "30%",
+            "B": "35%",
+            "C": "25%",
+            "D": "20%"
+        },
+        "correct_option": "C",
+        "answer": "25%",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T11-220",
+        "chapter": "Percentage",
+        "type": "Type-XI",
+        "question_number": 220,
+        "question": "In an examination, a student who got 20% marks failed by 30 marks. But another student who got 32% marks got 42 marks more than required to pass. Find the maximum marks.",
+        "options": {
+            "A": "500",
+            "B": "700",
+            "C": "600",
+            "D": "400"
+        },
+        "correct_option": "A",
+        "answer": "500",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T11-221",
+        "chapter": "Percentage",
+        "type": "Type-XI",
+        "question_number": 221,
+        "question": "Rajiv scored 20 percent marks in an exam and failed by 25 marks. If he scores 50 percent marks, then he gets 20 marks more than passing marks. What is the passing marks for the exam?",
+        "options": {
+            "A": "40",
+            "B": "35",
+            "C": "45",
+            "D": "55"
+        },
+        "correct_option": "C",
+        "answer": "45",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T11-222",
+        "chapter": "Percentage",
+        "type": "Type-XI",
+        "question_number": 222,
+        "question": "R targets to score 85% marks in exams. He scores 450 marks and misses the target by 35%. How much increment in percentage should be there in his target?",
+        "options": {
+            "A": "70%",
+            "B": "35%",
+            "C": "53%",
+            "D": "45%"
+        },
+        "correct_option": "A",
+        "answer": "70%",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T12-223",
+        "chapter": "Percentage",
+        "type": "Type-XII",
+        "question_number": 223,
+        "question": "Two persons contest an election and got 1136 and 7636 votes respectively. What was the winning candidate's percentage of the total votes?",
+        "options": {
+            "A": "57%",
+            "B": "59%",
+            "C": "52%",
+            "D": "61%"
+        },
+        "correct_option": "A",
+        "answer": "57%",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T12-224",
+        "chapter": "Percentage",
+        "type": "Type-XII",
+        "question_number": 224,
+        "question": "The difference between 31% and 26% of the votes for the same party at two different places is 2350. What is 7% of the votes?",
+        "options": {
+            "A": "2270",
+            "B": "3090",
+            "C": "4090",
+            "D": "3290"
+        },
+        "correct_option": "D",
+        "answer": "3290",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T12-225",
+        "chapter": "Percentage",
+        "type": "Type-XII",
+        "question_number": 225,
+        "question": "Two candidates contested an election. One of them got 64% of the votes and won by 434 votes. What was the total number of votes polled?",
+        "options": {
+            "A": "1550",
+            "B": "1345",
+            "C": "1680",
+            "D": "1684"
+        },
+        "correct_option": "A",
+        "answer": "1550",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T12-226",
+        "chapter": "Percentage",
+        "type": "Type-XII",
+        "question_number": 226,
+        "question": "In an election between two candidates, the one who gets 88% of the votes is elected by a majority of 634 votes. What is the total number of votes polled?",
+        "options": {
+            "A": "900",
+            "B": "800",
+            "C": "850",
+            "D": "750"
+        },
+        "correct_option": "A",
+        "answer": "900",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T12-227",
+        "chapter": "Percentage",
+        "type": "Type-XII",
+        "question_number": 227,
+        "question": "In an election, a candidate secured 41% of the votes polled and lost the election by 97,632 votes. What is the number of votes obtained by the winning candidate?",
+        "options": {
+            "A": "320016",
+            "B": "542400",
+            "C": "222384",
+            "D": "360072"
+        },
+        "correct_option": "A",
+        "answer": "320016",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T12-228",
+        "chapter": "Percentage",
+        "type": "Type-XII",
+        "question_number": 228,
+        "question": "In an election between two candidates A and B, A got 33% of total votes casted and still lost by 55,522 votes. Find the total number of votes cast.",
+        "options": {
+            "A": "109114",
+            "B": "109141",
+            "C": "104911",
+            "D": "109411"
+        },
+        "correct_option": "D",
+        "answer": "109411",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T12-229",
+        "chapter": "Percentage",
+        "type": "Type-XII",
+        "question_number": 229,
+        "question": "In an election between two candidates, one candidate gets 72% of the total votes cast. If total votes are 1000, how many votes does the winner get?",
+        "options": {
+            "A": "360",
+            "B": "250",
+            "C": "720",
+            "D": "440"
+        },
+        "correct_option": "D",
+        "answer": "440",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T12-230",
+        "chapter": "Percentage",
+        "type": "Type-XII",
+        "question_number": 230,
+        "question": "In an election between two candidates, a candidate who gets 78% of the votes is elected by a majority of 448 votes. What is the total number of votes polled?",
+        "options": {
+            "A": "800",
+            "B": "750",
+            "C": "850",
+            "D": "700"
+        },
+        "correct_option": "A",
+        "answer": "800",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T12-231",
+        "chapter": "Percentage",
+        "type": "Type-XII",
+        "question_number": 231,
+        "question": "In an election contested by two candidates, one candidate got 42% of the total votes and still lost by 800 votes. Find the total number of votes cast.",
+        "options": {
+            "A": "2000",
+            "B": "5000",
+            "C": "8000",
+            "D": "7000"
+        },
+        "correct_option": "B",
+        "answer": "5000",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T12-232",
+        "chapter": "Percentage",
+        "type": "Type-XII",
+        "question_number": 232,
+        "question": "In an election there were only two candidates. One candidate secured 35% of the votes and was defeated by the other candidate by 381 votes. Find the total number of votes polled.",
+        "options": {
+            "A": "1270",
+            "B": "1028",
+            "C": "635",
+            "D": "514"
+        },
+        "correct_option": "A",
+        "answer": "1270",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T12-233",
+        "chapter": "Percentage",
+        "type": "Type-XII",
+        "question_number": 233,
+        "question": "In an election, candidate secures 40% of the votes, but is defeated by the only other candidate with a majority of 298 votes. Find the total number of votes recorded.",
+        "options": {
+            "A": "1470",
+            "B": "1490",
+            "C": "1270",
+            "D": "1290"
+        },
+        "correct_option": "B",
+        "answer": "1490",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T12-234",
+        "chapter": "Percentage",
+        "type": "Type-XII",
+        "question_number": 234,
+        "question": "In an election, there were only two candidates. One of the candidates secured 44% of the votes and was defeated by the other candidate by 1440 votes. If there were no invalid votes, find the total number of votes polled.",
+        "options": {
+            "A": "14000",
+            "B": "12000",
+            "C": "15000",
+            "D": "13000"
+        },
+        "correct_option": "B",
+        "answer": "12000",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T12-235",
+        "chapter": "Percentage",
+        "type": "Type-XII",
+        "question_number": 235,
+        "question": "In an election a candidate secured 47% of the votes and lost his only opponent by 276 votes. Find the total number of votes polled.",
+        "options": {
+            "A": "4000",
+            "B": "3800",
+            "C": "4600",
+            "D": "4600"
+        },
+        "correct_option": "D",
+        "answer": "4600",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T12-236",
+        "chapter": "Percentage",
+        "type": "Type-XII",
+        "question_number": 236,
+        "question": "In an election there were three candidates. The first candidate got 40% votes and second candidate got 35% votes. If total votes in the election were 50,000, find the number of votes obtained by the third candidate.",
+        "options": {
+            "A": "13500",
+            "B": "12500",
+            "C": "12000",
+            "D": "13000"
+        },
+        "correct_option": "B",
+        "answer": "12500",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T12-237",
+        "chapter": "Percentage",
+        "type": "Type-XII",
+        "question_number": 237,
+        "question": "In an election, the candidate who gets 35% of the votes polled is defeated by 15,900 votes. Find the total number of votes polled.",
+        "options": {
+            "A": "53000",
+            "B": "45000",
+            "C": "35000",
+            "D": "43000"
+        },
+        "correct_option": "A",
+        "answer": "53000",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T12-238",
+        "chapter": "Percentage",
+        "type": "Type-XII",
+        "question_number": 238,
+        "question": "Vinod and Sanjay were fighting against each other for the post of a village Pradhan. Sanjay got 47.5% votes and lost the election by 270 votes. How many votes did Vinod get?",
+        "options": {
+            "A": "2385",
+            "B": "2835",
+            "C": "2565",
+            "D": "2655"
+        },
+        "correct_option": "B",
+        "answer": "2835",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T12-239",
+        "chapter": "Percentage",
+        "type": "Type-XII",
+        "question_number": 239,
+        "question": "In an election, the candidate who gets 90% votes is elected by a margin of 800 votes. What is the total number of votes cast?",
+        "options": {
+            "A": "900",
+            "B": "1000",
+            "C": "1050",
+            "D": "950"
+        },
+        "correct_option": "B",
+        "answer": "1000",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T12-240",
+        "chapter": "Percentage",
+        "type": "Type-XII",
+        "question_number": 240,
+        "question": "In an election between R and S, R gets 110% of the votes of S and beats S by 770 votes. If there were no invalid votes, then the total number of votes polled is:",
+        "options": {
+            "A": "17610",
+            "B": "17160",
+            "C": "16170",
+            "D": "16710"
+        },
+        "correct_option": "C",
+        "answer": "16170",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T12-241",
+        "chapter": "Percentage",
+        "type": "Type-XII",
+        "question_number": 241,
+        "question": "A total of 7,50,000 voters participated in an election. A candidate received 3,82,500 votes which was 60% of the total valid votes. What was the percentage of invalid votes in the election?",
+        "options": {
+            "A": "15%",
+            "B": "20%",
+            "C": "12%",
+            "D": "18%"
+        },
+        "correct_option": "A",
+        "answer": "15%",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T12-242",
+        "chapter": "Percentage",
+        "type": "Type-XII",
+        "question_number": 242,
+        "question": "In an election, 95% of the total voters cast their votes. There were only two candidates. The winner obtained 75% of the total votes and defeated his contestant by 5500 votes. Find the total number of voters.",
+        "options": {
+            "A": "11000",
+            "B": "10000",
+            "C": "13000",
+            "D": "12000"
+        },
+        "correct_option": "B",
+        "answer": "10000",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T12-243",
+        "chapter": "Percentage",
+        "type": "Type-XII",
+        "question_number": 243,
+        "question": "In an election, A received 27% of the votes and B received 1,25,982 votes. 19% did not cast their votes. Find the number of votes received by A.",
+        "options": {
+            "A": "44327",
+            "B": "188973",
+            "C": "57827",
+            "D": "62991"
+        },
+        "correct_option": "D",
+        "answer": "62991",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T12-244",
+        "chapter": "Percentage",
+        "type": "Type-XII",
+        "question_number": 244,
+        "question": "In an election between two candidates, one got 60% of the total valid votes, and 90% of the votes were valid. If total votes were 12,000, find the number of valid votes that the other candidate got.",
+        "options": {
+            "A": "8840",
+            "B": "4320",
+            "C": "10800",
+            "D": "6200"
+        },
+        "correct_option": "B",
+        "answer": "4320",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T12-245",
+        "chapter": "Percentage",
+        "type": "Type-XII",
+        "question_number": 245,
+        "question": "In an election between two candidates, 15% of the votes were invalid and one candidate got 52% of the total valid votes. If total votes were 8000, find the number of valid votes that the other candidate got.",
+        "options": {
+            "A": "3840",
+            "B": "3536",
+            "C": "6800",
+            "D": "3264"
+        },
+        "correct_option": "D",
+        "answer": "3264",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T12-246",
+        "chapter": "Percentage",
+        "type": "Type-XII",
+        "question_number": 246,
+        "question": "In an election between two candidates, 10% of registered voters did not vote. The winning candidate got 60% of the votes cast and defeated the other candidate by 1242 votes. Find the total number of registered voters.",
+        "options": {
+            "A": "8640",
+            "B": "9600",
+            "C": "6200",
+            "D": "6900"
+        },
+        "correct_option": "D",
+        "answer": "6900",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T12-247",
+        "chapter": "Percentage",
+        "type": "Type-XII",
+        "question_number": 247,
+        "question": "In an election between two candidates, one got 65% of the total valid votes. 20% of the votes were invalid. If total votes were 7500, find the number of valid votes that the other candidate got.",
+        "options": {
+            "A": "4300",
+            "B": "1700",
+            "C": "1900",
+            "D": "2100"
+        },
+        "correct_option": "D",
+        "answer": "2100",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T12-248",
+        "chapter": "Percentage",
+        "type": "Type-XII",
+        "question_number": 248,
+        "question": "In an election between two candidates, Anant got 55% of the total valid votes and 20% of votes were invalid. If total votes were 30000, find the number of valid votes that Arvind got.",
+        "options": {
+            "A": "10800",
+            "B": "1080",
+            "C": "13200",
+            "D": "24000"
+        },
+        "correct_option": "A",
+        "answer": "10800",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T12-249",
+        "chapter": "Percentage",
+        "type": "Type-XII",
+        "question_number": 249,
+        "question": "In an election between two candidates, one got 60% of the total valid votes and 15% votes were invalid. If total votes were 8400, find the number of valid votes that the other candidate got.",
+        "options": {
+            "A": "2998",
+            "B": "2856",
+            "C": "3213",
+            "D": "3117"
+        },
+        "correct_option": "B",
+        "answer": "2856",
+        "explanation": ""
+    },
+    {
+        "id": "PERC-T12-250",
+        "chapter": "Percentage",
+        "type": "Type-XII",
+        "question_number": 250,
+        "question": "In an election between two candidates, one got 60% of total valid votes and 25% votes were invalid. If total votes were 15000, find the number of valid votes that the other candidate got.",
+        "options": {
+            "A": "5550",
+            "B": "4500",
+            "C": "6750",
+            "D": "5000"
+        },
+        "correct_option": "B",
+        "answer": "4500",
+        "explanation": ""
+    }
+]
