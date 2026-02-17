@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { cn } from '../../lib/utils';
 import { Check, X, BookOpen } from 'lucide-react';
+import MathText from '../ui/MathText';
 
 export default function QuestionCard({ question, selectedOption, onSelect }) {
     const options = ['A', 'B', 'C', 'D'];
@@ -26,7 +27,7 @@ export default function QuestionCard({ question, selectedOption, onSelect }) {
                 </div>
 
                 <h2 className="text-xl md:text-2xl font-semibold text-slate-100 leading-relaxed">
-                    {question.question}
+                    <MathText text={question.question} />
                 </h2>
             </motion.div>
 
