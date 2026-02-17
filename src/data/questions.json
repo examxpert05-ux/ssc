@@ -10638,5 +10638,3077 @@
         "correct_option": "A",
         "answer": "5%",
         "explanation": ""
+    },
+    {
+        "id": "DISC-T01-01",
+        "chapter": "Discount",
+        "type": "Type-I (Basic Questions)",
+        "question_number": 1,
+        "question": "In a clearance sale, a sari whose marked price was \u20b910,490 is now sold for \u20b99,441. What is the discount percentage on the sari?",
+        "options": {
+            "A": "10%",
+            "B": "15%",
+            "C": "18%",
+            "D": "12%"
+        },
+        "correct_option": "A",
+        "answer": "10%",
+        "explanation": ""
+    },
+    {
+        "id": "DISC-T01-02",
+        "chapter": "Discount",
+        "type": "Type-I (Basic Questions)",
+        "question_number": 2,
+        "question": "In a store, an item with marked price of \u20b982,500 is available at a discounted price of \u20b979,200. What is the percentage of discount given on that item?",
+        "options": {
+            "A": "4%",
+            "B": "3%",
+            "C": "1%",
+            "D": "2%"
+        },
+        "correct_option": "A",
+        "answer": "4%",
+        "explanation": ""
+    },
+    {
+        "id": "DISC-T01-03",
+        "chapter": "Discount",
+        "type": "Type-I (Basic Questions)",
+        "question_number": 3,
+        "question": "A coat marked at Rs. 145 is offered at Rs. 127.6. The rate of retail discount offered is:",
+        "options": {
+            "A": "11%",
+            "B": "12%",
+            "C": "10%",
+            "D": "13%"
+        },
+        "correct_option": "B",
+        "answer": "12%",
+        "explanation": ""
+    },
+    {
+        "id": "DISC-T01-04",
+        "chapter": "Discount",
+        "type": "Type-I (Basic Questions)",
+        "question_number": 4,
+        "question": "The marked price of a table lamp is Rs. 2,165. During the festive season, it is sold for Rs. 1,710.35. Find the percentage discount offered.",
+        "options": {
+            "A": "21%",
+            "B": "20.5%",
+            "C": "18%",
+            "D": "22.5%"
+        },
+        "correct_option": "A",
+        "answer": "21%",
+        "explanation": ""
+    },
+    {
+        "id": "DISC-T01-05",
+        "chapter": "Discount",
+        "type": "Type-I (Basic Questions)",
+        "question_number": 5,
+        "question": "A merchant advertise 10% off on the items bought from his store. Find the discount got by a customer who bought a bag worth \u20b9560, an exercise book worth \u20b990 and a pen worth \u20b945.",
+        "options": {
+            "A": "\u20b959",
+            "B": "\u20b969.50",
+            "C": "\u20b965",
+            "D": "\u20b967.50"
+        },
+        "correct_option": "B",
+        "answer": "\u20b969.50",
+        "explanation": ""
+    },
+    {
+        "id": "DISC-T01-06",
+        "chapter": "Discount",
+        "type": "Type-I (Basic Questions)",
+        "question_number": 6,
+        "question": "The marked price of an electronic watch in a store is Rs. 15,620 and it is available at a discount of 27%. What is the price (in Rs., to the nearest tens) that a customer pays if he buys from the store?",
+        "options": {
+            "A": "\u20b912,500",
+            "B": "\u20b911,400",
+            "C": "\u20b99,880",
+            "D": "\u20b910,880"
+        },
+        "correct_option": "B",
+        "answer": "\u20b911,400",
+        "explanation": ""
+    },
+    {
+        "id": "DISC-T01-07",
+        "chapter": "Discount",
+        "type": "Type-I (Basic Questions)",
+        "question_number": 7,
+        "question": "The marked price of an immersion rod in an electronic store is \u20b9900. The store offers a discount of 12% on its sale. At what price (in \u20b9) can a customer buy it from the electronic store?",
+        "options": {
+            "A": "787",
+            "B": "792",
+            "C": "782",
+            "D": "797"
+        },
+        "correct_option": "B",
+        "answer": "792",
+        "explanation": ""
+    },
+    {
+        "id": "DISC-T01-08",
+        "chapter": "Discount",
+        "type": "Type-I (Basic Questions)",
+        "question_number": 8,
+        "question": "At a clearance sale, a shopkeeper gives 45% discount. If a customer paid \u20b9330 during the sale, then what is the marked price of that shirt?",
+        "options": {
+            "A": "\u20b9550",
+            "B": "\u20b9600",
+            "C": "\u20b9500",
+            "D": "\u20b9650"
+        },
+        "correct_option": "B",
+        "answer": "\u20b9600",
+        "explanation": ""
+    },
+    {
+        "id": "DISC-T01-09",
+        "chapter": "Discount",
+        "type": "Type-I (Basic Questions)",
+        "question_number": 9,
+        "question": "If the selling price of an article is \u20b91,792 after a 20% discount, then the marked price of the article is:",
+        "options": {
+            "A": "\u20b92,140",
+            "B": "\u20b92,240",
+            "C": "\u20b92,160",
+            "D": "\u20b92,260"
+        },
+        "correct_option": "B",
+        "answer": "\u20b92,240",
+        "explanation": ""
+    },
+    {
+        "id": "DISC-T01-10",
+        "chapter": "Discount",
+        "type": "Type-I (Basic Questions)",
+        "question_number": 10,
+        "question": "A shopkeeper announced 17% rebate on the marked price of an article. If the selling price of the article is \u20b91,245, then the marked price (in \u20b9) of the article is :",
+        "options": {
+            "A": "1500",
+            "B": "1820",
+            "C": "1780",
+            "D": "1600"
+        },
+        "correct_option": "A",
+        "answer": "1500",
+        "explanation": ""
+    },
+    {
+        "id": "DISC-T01-11",
+        "chapter": "Discount",
+        "type": "Type-I (Basic Questions)",
+        "question_number": 11,
+        "question": "The marked price of one pen is \u20b9x. The selling price of one packet of x pens, after a discount of 15%, is \u20b91,360. What is the value of 'x'?",
+        "options": {
+            "A": "20",
+            "B": "40",
+            "C": "30",
+            "D": "45"
+        },
+        "correct_option": "B",
+        "answer": "40",
+        "explanation": ""
+    },
+    {
+        "id": "DISC-T01-12",
+        "chapter": "Discount",
+        "type": "Type-I (Basic Questions)",
+        "question_number": 12,
+        "question": "The MP of an article was Rs. 180 and it was sold at a discount of 15%, the discount in Rs. is:",
+        "options": {
+            "A": "12",
+            "B": "15",
+            "C": "27",
+            "D": "18"
+        },
+        "correct_option": "C",
+        "answer": "27",
+        "explanation": ""
+    },
+    {
+        "id": "DISC-T01-13",
+        "chapter": "Discount",
+        "type": "Type-I (Basic Questions)",
+        "question_number": 13,
+        "question": "On the occasion of Republic Day, a retail store offers a scheme where customers can avail a discount of 26% on their total purchase. If Manish buys items worth Rs. 2,050, how much money (in) will he save through the scheme discount?",
+        "options": {
+            "A": "533",
+            "B": "544",
+            "C": "522",
+            "D": "511"
+        },
+        "correct_option": "A",
+        "answer": "533",
+        "explanation": ""
+    },
+    {
+        "id": "DISC-T01-14",
+        "chapter": "Discount",
+        "type": "Type-I (Basic Questions)",
+        "question_number": 14,
+        "question": "A shopkeeper has announced a 25% rebate on the prices of stationery items. If anyone needs to have a rebate of \u20b940, then how many stationery items costing \u20b932 should be purchased?",
+        "options": {
+            "A": "5 items",
+            "B": "6 items",
+            "C": "4 items",
+            "D": "3 items"
+        },
+        "correct_option": "A",
+        "answer": "5 items",
+        "explanation": ""
+    },
+    {
+        "id": "DISC-T01-15",
+        "chapter": "Discount",
+        "type": "Type-I (Basic Questions)",
+        "question_number": 15,
+        "question": "Lakshita purchased a sofa set at discount of 25%. As per her calculations, she noticed that if she would have not been given this discount, she would have paid \u20b922,400 more as the cost of this sofa set. How much did Lakshita pay for the sofa set?",
+        "options": {
+            "A": "\u20b922,400",
+            "B": "\u20b933,600",
+            "C": "\u20b967,200",
+            "D": "\u20b967,000"
+        },
+        "correct_option": "C",
+        "answer": "\u20b967,200",
+        "explanation": ""
+    },
+    {
+        "id": "DISC-T01-16",
+        "chapter": "Discount",
+        "type": "Type-I (Basic Questions)",
+        "question_number": 16,
+        "question": "A seller marks up his goods at 40% over the cost price. If the difference between the profits if he allows a 15% discount on the marked price and if he allows a discount of 20% on the marked price is \u20b994.85, find the cost price (in \u20b9).",
+        "options": {
+            "A": "1295",
+            "B": "1326",
+            "C": "1355",
+            "D": "1254"
+        },
+        "correct_option": "C",
+        "answer": "1355",
+        "explanation": ""
+    },
+    {
+        "id": "DISC-T02-17",
+        "chapter": "Discount",
+        "type": "Type-II (Buy X Get Y Free)",
+        "question_number": 17,
+        "question": "Murlidhar, the owner of a grocery store, offers a discount scheme 'buy 5 water bottles get 1 for free' to his customers. What is the effective percentage discount offered by Murlidhar? (correct up to two decimal places)",
+        "options": {
+            "A": "13.67%",
+            "B": "20.00%",
+            "C": "13.33%",
+            "D": "16.67%"
+        },
+        "correct_option": "D",
+        "answer": "16.67%",
+        "explanation": ""
+    },
+    {
+        "id": "DISC-T02-18",
+        "chapter": "Discount",
+        "type": "Type-II (Buy X Get Y Free)",
+        "question_number": 18,
+        "question": "During a new-year sale, a shopkeeper offers a discount scheme to his customers, 'Buy 5 Sweaters, Get 2 Sweaters Free'. Find the effective percentage discount given by the shopkeeper.",
+        "options": {
+            "A": "28 4/7%",
+            "B": "25%",
+            "C": "22 2/9%",
+            "D": "21%"
+        },
+        "correct_option": "A",
+        "answer": "28 4/7%",
+        "explanation": ""
+    },
+    {
+        "id": "DISC-T02-19",
+        "chapter": "Discount",
+        "type": "Type-II (Buy X Get Y Free)",
+        "question_number": 19,
+        "question": "On buying 24 bangles Meena gets 6 bangles free of cost. By what percentage does Meena get a discount?",
+        "options": {
+            "A": "15%",
+            "B": "25%",
+            "C": "20%",
+            "D": "10%"
+        },
+        "correct_option": "C",
+        "answer": "20%",
+        "explanation": ""
+    },
+    {
+        "id": "DISC-T02-20",
+        "chapter": "Discount",
+        "type": "Type-II (Buy X Get Y Free)",
+        "question_number": 20,
+        "question": "To clear the old stock, Arshad offers a discount scheme to his customers - on buying 24 glass tumblers get 12 glass tumblers free. What is the effective percentage discount given by Arshad to his customers?",
+        "options": {
+            "A": "32 2/3%",
+            "B": "30 1/3%",
+            "C": "34 2/3%",
+            "D": "33 1/3%"
+        },
+        "correct_option": "D",
+        "answer": "33 1/3%",
+        "explanation": ""
+    },
+    {
+        "id": "DISC-T02-22",
+        "chapter": "Discount",
+        "type": "Type-II (Buy X Get Y Free)",
+        "question_number": 22,
+        "question": "A shopkeeper offers the following two discount schemes. A. Buy 3 get 4 free B. Buy 5 get 6 free. Which scheme has the maximum discount percentage?",
+        "options": {
+            "A": "A",
+            "B": "A does not give any discount",
+            "C": "A and B both have the same discount percentage",
+            "D": "B"
+        },
+        "correct_option": "A",
+        "answer": "A",
+        "explanation": ""
+    },
+    {
+        "id": "DISC-T03-23",
+        "chapter": "Discount",
+        "type": "Type-III (Equivalent Discount of Two Successive Discounts)",
+        "question_number": 23,
+        "question": "Two successive discounts of 40% and 30% are equal to a single discount of:",
+        "options": {
+            "A": "70%",
+            "B": "35%",
+            "C": "58%",
+            "D": "60%"
+        },
+        "correct_option": "C",
+        "answer": "58%",
+        "explanation": ""
+    },
+    {
+        "id": "DISC-T03-24",
+        "chapter": "Discount",
+        "type": "Type-III (Equivalent Discount of Two Successive Discounts)",
+        "question_number": 24,
+        "question": "A single discount equivalent to two successive discount of 20% and 10% on the marked price of an article is?",
+        "options": {
+            "A": "18%",
+            "B": "28%",
+            "C": "24%",
+            "D": "22%"
+        },
+        "correct_option": "B",
+        "answer": "28%",
+        "explanation": ""
+    },
+    {
+        "id": "DISC-T03-25",
+        "chapter": "Discount",
+        "type": "Type-III (Equivalent Discount of Two Successive Discounts)",
+        "question_number": 25,
+        "question": "If the successive discount of 10%, 15%, then the single equivalent rate of discount is:",
+        "options": {
+            "A": "32.3%",
+            "B": "24.2%",
+            "C": "43.4%",
+            "D": "23.5%"
+        },
+        "correct_option": "D",
+        "answer": "23.5%",
+        "explanation": ""
+    },
+    {
+        "id": "DISC-T03-26",
+        "chapter": "Discount",
+        "type": "Type-III (Equivalent Discount of Two Successive Discounts)",
+        "question_number": 26,
+        "question": "A discount series of 10% and 16% on an invoice is the same as a single discount of:",
+        "options": {
+            "A": "24.4%",
+            "B": "22.4%",
+            "C": "21.4%",
+            "D": "23.4%"
+        },
+        "correct_option": "A",
+        "answer": "24.4%",
+        "explanation": ""
+    },
+    {
+        "id": "DISC-T03-27",
+        "chapter": "Discount",
+        "type": "Type-III (Equivalent Discount of Two Successive Discounts)",
+        "question_number": 27,
+        "question": "A shopkeeper allows 40% discount on his goods. He further gives 20% discount. What is the single discount equivalent to these two successive discounts?",
+        "options": {
+            "A": "62%",
+            "B": "52%",
+            "C": "60%",
+            "D": "50%"
+        },
+        "correct_option": "B",
+        "answer": "52%",
+        "explanation": ""
+    },
+    {
+        "id": "DISC-T03-28",
+        "chapter": "Discount",
+        "type": "Type-III (Equivalent Discount of Two Successive Discounts)",
+        "question_number": 28,
+        "question": "A person first increases the price of a commodity by 8% and then he announces a discount of 18%. The actual discount (in %) on the original price is?",
+        "options": {
+            "A": "11.44",
+            "B": "14.44",
+            "C": "9.44",
+            "D": "8.44"
+        },
+        "correct_option": "A",
+        "answer": "11.44",
+        "explanation": ""
+    },
+    {
+        "id": "DISC-T03-29",
+        "chapter": "Discount",
+        "type": "Type-III (Equivalent Discount of Two Successive Discounts)",
+        "question_number": 29,
+        "question": "The marked price of an article is \u20b950,000. From three shopkeepers, the first one allows two successive discounts of 25% and 15%. The second one allows two successive discounts 20% and 20%. The third shopkeeper allows two successive discounts of 30% and 10%. From which shopkeeper does the customer get more profit?",
+        "options": {
+            "A": "First",
+            "B": "Same for all the shopkeepers",
+            "C": "Third",
+            "D": "Second"
+        },
+        "correct_option": "C",
+        "answer": "Third",
+        "explanation": ""
+    },
+    {
+        "id": "DISC-T03-30",
+        "chapter": "Discount",
+        "type": "Type-III (Equivalent Discount of Two Successive Discounts)",
+        "question_number": 30,
+        "question": "A shopkeeper offers the following discount schemes for buyers on an article: I. Two successive discounts of 15% each II. A discount of 25% followed by a discount of 5% III. Two successive discounts of 20% and 10% IV. A discount of 30%. Under which scheme will the selling price be maximum?",
+        "options": {
+            "A": "Scheme IV",
+            "B": "Scheme III",
+            "C": "Scheme II",
+            "D": "Scheme I"
+        },
+        "correct_option": "D",
+        "answer": "Scheme I",
+        "explanation": ""
+    },
+    {
+        "id": "DISC-T03-31",
+        "chapter": "Discount",
+        "type": "Type-III (Equivalent Discount of Two Successive Discounts)",
+        "question_number": 31,
+        "question": "A trader offers the following discount schemes on the purchase of a refrigerator. (i) A discount of 10% followed by a discount of 8% (ii) Successive discounts of 12% and 10% (iii) Two successive discounts of 12% (iv) A discount of 20%. In which scheme is the selling price the lowest?",
+        "options": {
+            "A": "(iv)",
+            "B": "(i)",
+            "C": "(ii)",
+            "D": "(iii)"
+        },
+        "correct_option": "D",
+        "answer": "(iii)",
+        "explanation": ""
+    },
+    {
+        "id": "DISC-T03-32",
+        "chapter": "Discount",
+        "type": "Type-III (Equivalent Discount of Two Successive Discounts)",
+        "question_number": 32,
+        "question": "A shopkeeper offers the following discount schemes for buyers. I. Two successive discounts of 15% and 20% II. successive discount of 25% and 10% III. A discount of 33%. The selling price will be minimum under the scheme:",
+        "options": {
+            "A": "I",
+            "B": "I or II",
+            "C": "III",
+            "D": "II"
+        },
+        "correct_option": "C",
+        "answer": "III",
+        "explanation": ""
+    },
+    {
+        "id": "DISC-T03-33",
+        "chapter": "Discount",
+        "type": "Type-III (Equivalent Discount of Two Successive Discounts)",
+        "question_number": 33,
+        "question": "A shopkeeper offers 3 schemes of discounts to his customers. Which of the following schemes will fetch the minimum discount percentage? (A) Two successive discounts of 24% and 27%. (B) Buy 5 get three free. (C) Buy 6 and get 10.",
+        "options": {
+            "A": "A",
+            "B": "C",
+            "C": "Both A and C",
+            "D": "B"
+        },
+        "correct_option": "D",
+        "answer": "B",
+        "explanation": ""
+    },
+    {
+        "id": "DISC-T03-34",
+        "chapter": "Discount",
+        "type": "Type-III (Equivalent Discount of Two Successive Discounts)",
+        "question_number": 34,
+        "question": "Which of the following schemes will yield maximum discount on purchase of \u20b9x? (1) 2 successive discounts of 25% and 15% (2) Single discount of 20% (3) 2 free on purchase of 3 items (4) 3 free on purchase of 7 items",
+        "options": {
+            "A": "Scheme 2",
+            "B": "Scheme 3",
+            "C": "Scheme 4",
+            "D": "Scheme 1"
+        },
+        "correct_option": "B",
+        "answer": "Scheme 3",
+        "explanation": ""
+    },
+    {
+        "id": "DISC-T03-35",
+        "chapter": "Discount",
+        "type": "Type-III (Equivalent Discount of Two Successive Discounts)",
+        "question_number": 35,
+        "question": "A shopkeeper offers the following discount schemes for the purchase of his goods. Find the schemes which has the maximum discount. (i) Two successive discounts of 20% and 10% (ii) Discount of 10% (iii) Buy 8 and get 4 free (iv) Buy 9 and get 6 free",
+        "options": {
+            "A": "(iii)",
+            "B": "(ii)",
+            "C": "(i)",
+            "D": "(iv)"
+        },
+        "correct_option": "D",
+        "answer": "(iv)",
+        "explanation": ""
+    },
+    {
+        "id": "DISC-T03-36",
+        "chapter": "Discount",
+        "type": "Type-III (Equivalent Discount of Two Successive Discounts)",
+        "question_number": 36,
+        "question": "A shopping mart offers four different discounts schemes on the sale of an object as follows: (1) A discount of 30% (2) Two successive discounts of 15% (3) Buy 2, get 1 free (4) Buy 5, get 3 free. Which discount scheme offers the maximum discount to a customer?",
+        "options": {
+            "A": "1",
+            "B": "4",
+            "C": "2",
+            "D": "3"
+        },
+        "correct_option": "B",
+        "answer": "4",
+        "explanation": ""
+    },
+    {
+        "id": "DISC-T03-37",
+        "chapter": "Discount",
+        "type": "Type-III (Equivalent Discount of Two Successive Discounts)",
+        "question_number": 37,
+        "question": "Kamlesh offers the following two discount schemes to his customers on the sale of an article: (i) Two successive discounts of 25% and 5% (ii) Two successive discounts of 20% and 10%. What is the difference between the selling price (Rs. in) of the article under these two discount schemes if its marked price is Rs. 1,000?",
+        "options": {
+            "A": "6.5",
+            "B": "8.0",
+            "C": "7.5",
+            "D": "7.0"
+        },
+        "correct_option": "C",
+        "answer": "7.5",
+        "explanation": ""
+    },
+    {
+        "id": "DISC-T03-38",
+        "chapter": "Discount",
+        "type": "Type-III (Equivalent Discount of Two Successive Discounts)",
+        "question_number": 38,
+        "question": "Marked price of an article is \u20b928000. It can be sold at one of the following ways: Way A : A single discount of 24 percent. Way B : Two successive discounts of 16 percent and 10 percent. Which way will have lowest selling price and what will be the value of it?",
+        "options": {
+            "A": "Way B, \u20b921168",
+            "B": "Way B, \u20b921280",
+            "C": "Way A, \u20b921168",
+            "D": "Way A, \u20b921280"
+        },
+        "correct_option": "A",
+        "answer": "Way B, \u20b921168",
+        "explanation": ""
+    },
+    {
+        "id": "DISC-T03-39",
+        "chapter": "Discount",
+        "type": "Type-III (Equivalent Discount of Two Successive Discounts)",
+        "question_number": 39,
+        "question": "A shopkeeper offers the following two discount schemes on the sale a watch having marked price \u20b93,600. (1) Two successive discounts of 15%. (2) A discount of 10% followed by a discount of 20%. What is the difference between the selling price of the watch in case (1) and case (2)?",
+        "options": {
+            "A": "\u20b911",
+            "B": "\u20b99",
+            "C": "\u20b98",
+            "D": "\u20b910"
+        },
+        "correct_option": "B",
+        "answer": "\u20b99",
+        "explanation": ""
+    },
+    {
+        "id": "DISC-T03-40",
+        "chapter": "Discount",
+        "type": "Type-III (Equivalent Discount of Two Successive Discounts)",
+        "question_number": 40,
+        "question": "A shopkeeper offers three schemes as given below to sell a particular type of product. Which of the following schemes offer(s) the maximum discount percentage? A. Buy 6, get 4 free B. Buy 5, get 5 free C. Two successive discounts of 18% and 24%",
+        "options": {
+            "A": "Only B",
+            "B": "Only B and C",
+            "C": "Only A and C",
+            "D": "Only A"
+        },
+        "correct_option": "A",
+        "answer": "Only B",
+        "explanation": ""
+    },
+    {
+        "id": "DISC-T03-41",
+        "chapter": "Discount",
+        "type": "Type-III (Equivalent Discount of Two Successive Discounts)",
+        "question_number": 41,
+        "question": "A retailer offers the following discount schemes for buyers on an item. (i) Two successive discount of 20%. (ii) A discount of 25% followed by a discount of 15%. (iii) A discount of 40%. Under which scheme will the selling price be minimum?",
+        "options": {
+            "A": "(i) and (ii)",
+            "B": "(iii)",
+            "C": "(ii)",
+            "D": "(i)"
+        },
+        "correct_option": "B",
+        "answer": "(iii)",
+        "explanation": ""
+    },
+    {
+        "id": "DISC-T03-42",
+        "chapter": "Discount",
+        "type": "Type-III (Equivalent Discount of Two Successive Discounts)",
+        "question_number": 42,
+        "question": "The company offers the following four types of successive discounts on a computer which is listed at \u20b9 6000. (i) 25% and 15% (ii) 30% and 10% (iii) 35% and 5% (iv) 20% and 20% Which of these offers is best for a customer?",
+        "options": {
+            "A": "Fourth offer",
+            "B": "First offer",
+            "C": "Third offer",
+            "D": "Second offer"
+        },
+        "correct_option": "C",
+        "answer": "Third offer",
+        "explanation": ""
+    },
+    {
+        "id": "DISC-T03-43",
+        "chapter": "Discount",
+        "type": "Type-III (Equivalent Discount of Two Successive Discounts)",
+        "question_number": 43,
+        "question": "A trader offers to sell a commodity under any of the two schemes mentioned below: Scheme 1: The trader offers two successive discounts of 20% and 12.5% on the sale of each unit. Scheme 2: The trader offers the buyer an option to 'pay for y units, get z units free'. The buyer realizes that if he needs to buy (y+z) units, it does not matter to him which of the two schemes he opts for. Which of the following options gives a correct ordered pair of (y, z)?",
+        "options": {
+            "A": "(3, 7)",
+            "B": "(7, 10)",
+            "C": "(10, 7)",
+            "D": "(7, 3)"
+        },
+        "correct_option": "D",
+        "answer": "(7, 3)",
+        "explanation": ""
+    },
+    {
+        "id": "DISC-T03-44",
+        "chapter": "Discount",
+        "type": "Type-III (Equivalent Discount of Two Successive Discounts)",
+        "question_number": 44,
+        "question": "If, on a marked price, the difference between selling prices with a discount of 65% and with two successive discounts of 30% and 40% is \u20b9 105, then the marked price (in \u20b9) is:",
+        "options": {
+            "A": "Rs. 1,650",
+            "B": "Rs. 1,050",
+            "C": "Rs. 1,500",
+            "D": "Rs. 1,320"
+        },
+        "correct_option": "C",
+        "answer": "Rs. 1,500",
+        "explanation": ""
+    },
+    {
+        "id": "DISC-T03-45",
+        "chapter": "Discount",
+        "type": "Type-III (Equivalent Discount of Two Successive Discounts)",
+        "question_number": 45,
+        "question": "The difference between a discount of 25% and two successive discounts of 15% and 20% on a certain bill was Rs. 28. Find the amount of the bill?",
+        "options": {
+            "A": "Rs. 500",
+            "B": "Rs. 400",
+            "C": "Rs. 450",
+            "D": "Rs. 550"
+        },
+        "correct_option": "B",
+        "answer": "Rs. 400",
+        "explanation": ""
+    },
+    {
+        "id": "DISC-T04-50",
+        "chapter": "Discount",
+        "type": "Type-IV (Equivalent Discount of Three Successive Discounts)",
+        "question_number": 50,
+        "question": "The single discount equivalent to a series discount of 60%, 70% and 80%.",
+        "options": {
+            "A": "97.6%",
+            "B": "70%",
+            "C": "85%",
+            "D": "95.5%"
+        },
+        "correct_option": "A",
+        "answer": "97.6%",
+        "explanation": ""
+    },
+    {
+        "id": "DISC-T04-51",
+        "chapter": "Discount",
+        "type": "Type-IV (Equivalent Discount of Three Successive Discounts)",
+        "question_number": 51,
+        "question": "The single discount equivalent to the discount series of 15%, 20% and 5% is:",
+        "options": {
+            "A": "35.4%",
+            "B": "20%",
+            "C": "32%",
+            "D": "32.5%"
+        },
+        "correct_option": "A",
+        "answer": "35.4%",
+        "explanation": ""
+    },
+    {
+        "id": "DISC-T05-56",
+        "chapter": "Discount",
+        "type": "Type-V (Series Concept)",
+        "question_number": 56,
+        "question": "The marked price of a bed sheet is Rs. 500. At the time of its sale, two successive discounts of 10% and 5% are available. Find the selling price (in Rs.) of the bed sheet?",
+        "options": {
+            "A": "Rs. 432.50",
+            "B": "Rs. 427.50",
+            "C": "Rs. 445.00",
+            "D": "Rs. 430.00"
+        },
+        "correct_option": "B",
+        "answer": "Rs. 427.50",
+        "explanation": ""
+    },
+    {
+        "id": "DISC-T05-57",
+        "chapter": "Discount",
+        "type": "Type-V (Series Concept)",
+        "question_number": 57,
+        "question": "The marked price of a revolving chair is Rs. 15,000. It is available on two successive discounts of 20% and 12%. What is its selling price (in Rs.)?",
+        "options": {
+            "A": "Rs. 9560",
+            "B": "Rs. 10560",
+            "C": "Rs. 9230",
+            "D": "Rs. 10230"
+        },
+        "correct_option": "B",
+        "answer": "Rs. 10560",
+        "explanation": ""
+    },
+    {
+        "id": "DISC-T05-62",
+        "chapter": "Discount",
+        "type": "Type-V (Series Concept)",
+        "question_number": 62,
+        "question": "Ramesh gives 15% additional discount along with a discount of 25% on the marked price of a sofa set. If the selling price of the sofa set is \u20b9 12,750, then find the marked price of the sofa set.",
+        "options": {
+            "A": "\u20b9 22,000",
+            "B": "\u20b9 23,000",
+            "C": "\u20b9 24,000",
+            "D": "\u20b9 20,000"
+        },
+        "correct_option": "D",
+        "answer": "\u20b9 20,000",
+        "explanation": ""
+    },
+    {
+        "id": "DISC-T05-63",
+        "chapter": "Discount",
+        "type": "Type-V (Series Concept)",
+        "question_number": 63,
+        "question": "A shopkeeper charges \u20b91.50 to photocopy a sheet of paper and a discount of 5.5% is given on all photocopies done after 400 sheets. How much will it cost to photocopy 800 sheets of paper?",
+        "options": {
+            "A": "\u20b91,160",
+            "B": "\u20b91,167",
+            "C": "\u20b91,276",
+            "D": "\u20b91,176"
+        },
+        "correct_option": "B",
+        "answer": "\u20b91,167",
+        "explanation": ""
+    },
+    {
+        "id": "DISC-T05-64",
+        "chapter": "Discount",
+        "type": "Type-V (Series Concept)",
+        "question_number": 64,
+        "question": "On an item, there is an 18% discount on the marked price of \u20b926,000. After giving an additional season's discount, the item is sold at \u20b916,000. How much was the season's discount correct upto two places of decimal?",
+        "options": {
+            "A": "24.95%",
+            "B": "22.45%",
+            "C": "24.65%",
+            "D": "35.25%"
+        },
+        "correct_option": "A",
+        "answer": "24.95%",
+        "explanation": ""
+    },
+    {
+        "id": "DISC-T05-65",
+        "chapter": "Discount",
+        "type": "Type-V (Series Concept)",
+        "question_number": 65,
+        "question": "If the price item is increased by 70% and then allows a scheme discount of 5% and 20% on this marked price. If price is paid in cash and additional discount of 20% is allowed then what is his gain percentage?",
+        "options": {
+            "A": "2.25%",
+            "B": "3.25%",
+            "C": "4.36%",
+            "D": "3.36%"
+        },
+        "correct_option": "D",
+        "answer": "3.36%",
+        "explanation": ""
+    },
+    {
+        "id": "DISC-T05-66",
+        "chapter": "Discount",
+        "type": "Type-V (Series Concept)",
+        "question_number": 66,
+        "question": "The list price of a hand mixer at a showroom is Rs 2,000 and it is being sold at successive discounts of 15% and 10%. What is its net selling price in rupees?",
+        "options": {
+            "A": "1,530",
+            "B": "1,560",
+            "C": "1,440",
+            "D": "1,600"
+        },
+        "correct_option": "A",
+        "answer": "1,530",
+        "explanation": ""
+    },
+    {
+        "id": "DISC-T05-67",
+        "chapter": "Discount",
+        "type": "Type-V (Series Concept)",
+        "question_number": 67,
+        "question": "A doll is marked for \u20b92,500. A customer pays \u20b91,800 for it. If the customer got a series of two discounts and the rate of the first discount is 10%, then the rate of the second discount is:",
+        "options": {
+            "A": "25%",
+            "B": "18%",
+            "C": "15%",
+            "D": "20%"
+        },
+        "correct_option": "D",
+        "answer": "20%",
+        "explanation": ""
+    },
+    {
+        "id": "DISC-T05-68",
+        "chapter": "Discount",
+        "type": "Type-V (Series Concept)",
+        "question_number": 68,
+        "question": "A shopkeeper, on the eve of Diwali, allowed a series of discounts on television sets. Find the selling price of a television set, if the marked price of television is Rs. 1,200 and successive discounts are 15% and 10%.",
+        "options": {
+            "A": "Rs. 945",
+            "B": "Rs. 918",
+            "C": "Rs. 975",
+            "D": "Rs. 965"
+        },
+        "correct_option": "B",
+        "answer": "Rs. 918",
+        "explanation": ""
+    },
+    {
+        "id": "DISC-T05-69",
+        "chapter": "Discount",
+        "type": "Type-V (Series Concept)",
+        "question_number": 69,
+        "question": "Successive discounts of 10% and 20% are given on the purchase of a purse. If the marked price of the purse is Rs. 2,250, find the selling price.",
+        "options": {
+            "A": "Rs. 1320",
+            "B": "Rs. 1620",
+            "C": "Rs. 1290",
+            "D": "Rs. 1520"
+        },
+        "correct_option": "B",
+        "answer": "Rs. 1620",
+        "explanation": ""
+    },
+    {
+        "id": "DISC-T05-70",
+        "chapter": "Discount",
+        "type": "Type-V (Series Concept)",
+        "question_number": 70,
+        "question": "A shopkeeper gives a discount of 24% on the marked price. On a special sale day, he offers a coupon of additional 30% discount after the first discount. If the item is sold for \u20b9 7,700.70, what is the marked price (in \u20b9) of the item?",
+        "options": {
+            "A": "14475",
+            "B": "17475",
+            "C": "14745",
+            "D": "17745"
+        },
+        "correct_option": "A",
+        "answer": "14475",
+        "explanation": ""
+    },
+    {
+        "id": "DISC-T05-71",
+        "chapter": "Discount",
+        "type": "Type-V (Series Concept)",
+        "question_number": 71,
+        "question": "A product was offered at a 10% trade discount on the marked price. After a cash discount of 10%, the product was sold for \u20b97,290. The marked price (in \u20b9) is:",
+        "options": {
+            "A": "9,000",
+            "B": "8,900",
+            "C": "8,510",
+            "D": "8,720"
+        },
+        "correct_option": "A",
+        "answer": "9,000",
+        "explanation": ""
+    },
+    {
+        "id": "DISC-T05-72",
+        "chapter": "Discount",
+        "type": "Type-V (Series Concept)",
+        "question_number": 72,
+        "question": "The price of one shirt is \u20b9700 in a shop, on which 10% discount is available for all customers. An additional 20% discount is there for the customers who pay in cash. What is the amount a customer has to pay for a shirt if he pays in cash?",
+        "options": {
+            "A": "\u20b9 432",
+            "B": "\u20b9 504",
+            "C": "\u20b9 523",
+            "D": "\u20b9 514"
+        },
+        "correct_option": "B",
+        "answer": "\u20b9 504",
+        "explanation": ""
+    },
+    {
+        "id": "DISC-T05-73",
+        "chapter": "Discount",
+        "type": "Type-V (Series Concept)",
+        "question_number": 73,
+        "question": "A vendor bought a book marked at \u20b9850 at successive discounts of 20% and 10%, respectively. He spent \u20b955 on transport and sold the book for \u20b9980. What will be his profit percentage (rounded off to 2 decimal places)?",
+        "options": {
+            "A": "46.93%",
+            "B": "50.65%",
+            "C": "48.25%",
+            "D": "45.65%"
+        },
+        "correct_option": "A",
+        "answer": "46.93%",
+        "explanation": ""
+    },
+    {
+        "id": "DISC-T05-74",
+        "chapter": "Discount",
+        "type": "Type-V (Series Concept)",
+        "question_number": 74,
+        "question": "After offering two successive discounts a toy with a marked price of \u20b9150 is sold at \u20b9105. If the value of the first discount is 12.5%, what is the value of the second discount?",
+        "options": {
+            "A": "21%",
+            "B": "18%",
+            "C": "20%",
+            "D": "22%"
+        },
+        "correct_option": "C",
+        "answer": "20%",
+        "explanation": ""
+    },
+    {
+        "id": "DISC-T05-75",
+        "chapter": "Discount",
+        "type": "Type-V (Series Concept)",
+        "question_number": 75,
+        "question": "An article is sold for Rs.747 after successive discounts of 17% and x%. If the marked price of the article is Rs. 1,600, what is the value of x?",
+        "options": {
+            "A": "32.26",
+            "B": "43.75",
+            "C": "22.12",
+            "D": "40.28"
+        },
+        "correct_option": "B",
+        "answer": "43.75",
+        "explanation": ""
+    },
+    {
+        "id": "DISC-T05-76",
+        "chapter": "Discount",
+        "type": "Type-V (Series Concept)",
+        "question_number": 76,
+        "question": "An electronic store owner allows two successive discounts of 20% and 25% on each item. The store has a reward points scheme which enables a customer to get free shopping worth \u20b90.10 on every 1 reward point credited to the customer's account on previous purchases from the store. A customer decides to buy a laptop that is marked at \u20b972,000. What will be its net selling price if he has 2850 reward points to his credit?",
+        "options": {
+            "A": "\u20b943,200",
+            "B": "\u20b942,915",
+            "C": "\u20b942,215",
+            "D": "\u20b942,942"
+        },
+        "correct_option": "B",
+        "answer": "\u20b942,915",
+        "explanation": ""
+    },
+    {
+        "id": "DISC-T05-77",
+        "chapter": "Discount",
+        "type": "Type-V (Series Concept)",
+        "question_number": 77,
+        "question": "Two successive discounts, each of x% on the marked price of an article, are equal to a single discount of \u20b9331.20. If the marked price of the article is 920, then the value of x is:",
+        "options": {
+            "A": "20",
+            "B": "18",
+            "C": "15",
+            "D": "25"
+        },
+        "correct_option": "A",
+        "answer": "20",
+        "explanation": ""
+    },
+    {
+        "id": "DISC-T05-78",
+        "chapter": "Discount",
+        "type": "Type-V (Series Concept)",
+        "question_number": 78,
+        "question": "The marked price of an article is \u20b91500. If two successive discounts, each of x%, on the marked price is equal to a single discount of \u20b9587.40, then what will be the selling price of the article if a single discount of x% is given on the marked price?",
+        "options": {
+            "A": "\u20b91025",
+            "B": "\u20b91155",
+            "C": "\u20b91170",
+            "D": "\u20b91200"
+        },
+        "correct_option": "C",
+        "answer": "\u20b91170",
+        "explanation": ""
+    },
+    {
+        "id": "DISC-T05-79",
+        "chapter": "Discount",
+        "type": "Type-V (Series Concept)",
+        "question_number": 79,
+        "question": "An article is listed at \u20b97,600 and the discount offered unit is 10%. What additional discount must be given to bring the net selling price to 5814?",
+        "options": {
+            "A": "10%",
+            "B": "8%",
+            "C": "15%",
+            "D": "12%"
+        },
+        "correct_option": "C",
+        "answer": "15%",
+        "explanation": ""
+    },
+    {
+        "id": "DISC-T05-80",
+        "chapter": "Discount",
+        "type": "Type-V (Series Concept)",
+        "question_number": 80,
+        "question": "After giving two successive discounts, each of x%, on the market price of an article, the total discount is \u20b9259.20. If the marked price of the article is \u20b9720, then the value of x is :",
+        "options": {
+            "A": "18",
+            "B": "24",
+            "C": "25",
+            "D": "20"
+        },
+        "correct_option": "D",
+        "answer": "20",
+        "explanation": ""
+    },
+    {
+        "id": "DISC-T05-81",
+        "chapter": "Discount",
+        "type": "Type-V (Series Concept)",
+        "question_number": 81,
+        "question": "After getting two successive discounts, a calculator with a list price for \u20b9900 is available at \u20b9612. If the value of the second discount is 15%, what is the value of the first discount?",
+        "options": {
+            "A": "20%",
+            "B": "10%",
+            "C": "12.5%",
+            "D": "15%"
+        },
+        "correct_option": "A",
+        "answer": "20%",
+        "explanation": ""
+    },
+    {
+        "id": "DISC-T05-82",
+        "chapter": "Discount",
+        "type": "Type-V (Series Concept)",
+        "question_number": 82,
+        "question": "Three shopkeepers A, B and C marked an identical article at \u20b94820. A, B and C sold their article on successive discounts of 20% and 20%; 25% and 15%; 30% and 10% respectively. Which shopkeeper gives the maximum discount and how much (in \u20b9)?",
+        "options": {
+            "A": "C, 1780",
+            "B": "A, 1735.20",
+            "C": "B, 1800",
+            "D": "C, 1783.40"
+        },
+        "correct_option": "D",
+        "answer": "C, 1783.40",
+        "explanation": ""
+    },
+    {
+        "id": "DISC-T05-83",
+        "chapter": "Discount",
+        "type": "Type-V (Series Concept)",
+        "question_number": 83,
+        "question": "At a factory outlet of a footwear company, every item is available at a discount of 10%. Charu selected footwear marked for \u20b9900. While paying the bill, it was found that the footwear was slightly damaged for which she got another discount of 10%. How much did she pay for the footwear?",
+        "options": {
+            "A": "\u20b9720",
+            "B": "\u20b9729",
+            "C": "\u20b9810",
+            "D": "\u20b9801"
+        },
+        "correct_option": "B",
+        "answer": "\u20b9729",
+        "explanation": ""
+    },
+    {
+        "id": "DISC-T05-84",
+        "chapter": "Discount",
+        "type": "Type-V (Series Concept)",
+        "question_number": 84,
+        "question": "On an item having a marked price of \u20b91600. Successive discounts of Y% and Z% were offered. As a result, the item was sold for \u20b91056. Which of the options below cannot be a set of values for Y and Z?",
+        "options": {
+            "A": "Y = 22, Z = 15.5",
+            "B": "Y = 4, Z = 31.25",
+            "C": "Y = 20, Z = 17.5",
+            "D": "Y = 12, Z = 25"
+        },
+        "correct_option": "A",
+        "answer": "Y = 22, Z = 15.5",
+        "explanation": ""
+    },
+    {
+        "id": "DISC-T05-85",
+        "chapter": "Discount",
+        "type": "Type-V (Series Concept)",
+        "question_number": 85,
+        "question": "Two offers were being made to Swaroop for a watch with a marked price of Rs.1,600. Either two successive discounts of 20%, or two discounts of 30% and 10% after each other is offered. If Swaroop opted for the better plan over the other, how much more must he have saved?",
+        "options": {
+            "A": "Rs.22",
+            "B": "Rs.30",
+            "C": "Rs.16",
+            "D": "Rs.35"
+        },
+        "correct_option": "C",
+        "answer": "Rs.16",
+        "explanation": ""
+    },
+    {
+        "id": "DISC-T05-86",
+        "chapter": "Discount",
+        "type": "Type-V (Series Concept)",
+        "question_number": 86,
+        "question": "A article is sold at three successive discounts of 10%, 20% and 25%. If the selling price of the article is \u20b92,592 then what is the marked price of the article?",
+        "options": {
+            "A": "\u20b95,200",
+            "B": "\u20b94,800",
+            "C": "\u20b94,900",
+            "D": "\u20b95,000"
+        },
+        "correct_option": "B",
+        "answer": "\u20b94,800",
+        "explanation": ""
+    },
+    {
+        "id": "DISC-T05-87",
+        "chapter": "Discount",
+        "type": "Type-V (Series Concept)",
+        "question_number": 87,
+        "question": "A bronze article having a marked price of Rs.1,000 is sold during a festive season sale after three successive discounts of 20% and 30% and 10%. What will be the amount (in Rs.) to be paid by a customer if he buys the article during the festival season?",
+        "options": {
+            "A": "Rs 508",
+            "B": "Rs 564",
+            "C": "Rs 504",
+            "D": "Rs 496"
+        },
+        "correct_option": "C",
+        "answer": "Rs 504",
+        "explanation": ""
+    },
+    {
+        "id": "DISC-T05-88",
+        "chapter": "Discount",
+        "type": "Type-V (Series Concept)",
+        "question_number": 88,
+        "question": "The marked price of an article is Rs. 2,800. It is sold at three successive discounts of 15%, 8% and 5%. Find the selling price of the article (in Rs.).",
+        "options": {
+            "A": "1997.26",
+            "B": "1923.56",
+            "C": "2080.12",
+            "D": "1890.20"
+        },
+        "correct_option": "C",
+        "answer": "2080.12",
+        "explanation": ""
+    },
+    {
+        "id": "DISC-T05-89",
+        "chapter": "Discount",
+        "type": "Type-V (Series Concept)",
+        "question_number": 89,
+        "question": "A shopkeeper marked an article at \u20b95,000. The shopkeeper allows successive discounts of 20%, 15% and 10%. The selling price of the article is:",
+        "options": {
+            "A": "\u20b92,750",
+            "B": "\u20b93,000",
+            "C": "\u20b92,800",
+            "D": "\u20b93,060"
+        },
+        "correct_option": "D",
+        "answer": "\u20b93,060",
+        "explanation": ""
+    },
+    {
+        "id": "DISC-T05-90",
+        "chapter": "Discount",
+        "type": "Type-V (Series Concept)",
+        "question_number": 90,
+        "question": "A cooker is marked at \u20b912,500. The dealer allows successive discounts of 6%, 6% and 4% on it. What is the net selling price of the cooker?",
+        "options": {
+            "A": "\u20b910,603.20",
+            "B": "\u20b910,306",
+            "C": "\u20b912,230",
+            "D": "\u20b912,320.60"
+        },
+        "correct_option": "A",
+        "answer": "\u20b910,603.20",
+        "explanation": ""
+    },
+    {
+        "id": "DISC-T05-91",
+        "chapter": "Discount",
+        "type": "Type-V (Series Concept)",
+        "question_number": 91,
+        "question": "A coffee maker with marked price Rs.4,000 is available on successive discounts of 15%, 10% and 5%. Find the selling price of the coffee maker.",
+        "options": {
+            "A": "Rs.2,900",
+            "B": "Rs.2,903",
+            "C": "Rs.2,905",
+            "D": "Rs.2,907"
+        },
+        "correct_option": "D",
+        "answer": "Rs.2,907",
+        "explanation": ""
+    },
+    {
+        "id": "DISC-T05-92",
+        "chapter": "Discount",
+        "type": "Type-V (Series Concept)",
+        "question_number": 92,
+        "question": "The cost price of an article is \u20b9214. After allowing three successive discounts of 15%, 20% and 10% on its list price, it is sold for \u20b9153. If it is sold at the list price, then the profit (in \u20b9) will be:",
+        "options": {
+            "A": "49",
+            "B": "39",
+            "C": "36",
+            "D": "45"
+        },
+        "correct_option": "C",
+        "answer": "36",
+        "explanation": ""
+    },
+    {
+        "id": "DISC-T05-93",
+        "chapter": "Discount",
+        "type": "Type-V (Series Concept)",
+        "question_number": 93,
+        "question": "The selling price of an article marked for \u20b910000 after giving three discounts, 20%, 10% and k% is \u20b96120. What will be selling price (in \u20b9) of the same article if a single discount of (k+20)% is allowed?",
+        "options": {
+            "A": "6500",
+            "B": "8500",
+            "C": "6800",
+            "D": "8000"
+        },
+        "correct_option": "A",
+        "answer": "6500",
+        "explanation": ""
+    },
+    {
+        "id": "DISC-T05-94",
+        "chapter": "Discount",
+        "type": "Type-V (Series Concept)",
+        "question_number": 94,
+        "question": "The marked price of an article is \u20b9300. It is sold for \u20b9177.84 after giving three successive discounts of 20%, x% and 5%. What is the value of x?",
+        "options": {
+            "A": "15",
+            "B": "22",
+            "C": "24",
+            "D": "18"
+        },
+        "correct_option": "B",
+        "answer": "22",
+        "explanation": ""
+    },
+    {
+        "id": "DISC-T05-95",
+        "chapter": "Discount",
+        "type": "Type-V (Series Concept)",
+        "question_number": 95,
+        "question": "The marked price of an article is \u20b920,000. The article is sold after three successive discounts for \u20b910,166. The value of the second and third successive rates is 35% and 15%, respectively. What is the value of the first rate?",
+        "options": {
+            "A": "6%",
+            "B": "9%",
+            "C": "8%",
+            "D": "15%"
+        },
+        "correct_option": "C",
+        "answer": "8%",
+        "explanation": ""
+    },
+    {
+        "id": "DISC-T05-96",
+        "chapter": "Discount",
+        "type": "Type-V (Series Concept)",
+        "question_number": 96,
+        "question": "The marked price of an article is \u20b91,000. It is sold for \u20b9712.89 after three successive discounts on the marked price, one of 10% and two of x% each. What is the value of x?",
+        "options": {
+            "A": "15",
+            "B": "11",
+            "C": "12",
+            "D": "13"
+        },
+        "correct_option": "B",
+        "answer": "11",
+        "explanation": ""
+    },
+    {
+        "id": "DISC-T05-97",
+        "chapter": "Discount",
+        "type": "Type-V (Series Concept)",
+        "question_number": 97,
+        "question": "A tractor manufacturing company sells each tractor for \u20b95,00,000. Assuming that KISAN firm buys 50 tractors from them as a part of an annual contract, the company offers a trade discount of 10% to KISAN and an additional 2% discount if the payment is made within 30 days. What will be the amount payable by KISAN within 30 days for the consignment?",
+        "options": {
+            "A": "\u20b922,051,000",
+            "B": "\u20b922,050,000",
+            "C": "\u20b924,050,020",
+            "D": "\u20b922,080,100"
+        },
+        "correct_option": "B",
+        "answer": "\u20b922,050,000",
+        "explanation": ""
+    },
+    {
+        "id": "DISC-T05-98",
+        "chapter": "Discount",
+        "type": "Type-V (Series Concept)",
+        "question_number": 98,
+        "question": "Ramesh purchased some items from a dealer on 19 November 2019. The bill generated was for \u20b95,480. He had also purchased some items on 10 November 2019 having the bill value of \u20b99,800. He cleared both the bills this time and paid the total amount in cash. If the dealer gives a scheme of 2% discount on the payments done within 10 days and 5% for the payments made in cash at the time of purchase, then find the amount paid by Ramesh on 19 November 2019?",
+        "options": {
+            "A": "\u20b914,850",
+            "B": "\u20b914,810",
+            "C": "\u20b914,890",
+            "D": "\u20b914,950"
+        },
+        "correct_option": "B",
+        "answer": "\u20b914,810",
+        "explanation": ""
+    },
+    {
+        "id": "DISC-T05-99",
+        "chapter": "Discount",
+        "type": "Type-V (Series Concept)",
+        "question_number": 99,
+        "question": "Raghav went to a shopping mall to purchase clothes. He had two coupons with him, but only one can be used on a single day. Using the first coupon, a total discount of 30% could be obtained on the total amount. Using the second coupon, he will get 80% off on the price of the costliest shirt if he buys at least 3 shirts. What is the price at which Raghav can purchase 3 shirts at a minimum price if the prices of the three shirts are \u20b91,250, \u20b91,540 and \u20b91,375?",
+        "options": {
+            "A": "\u20b92,760",
+            "B": "\u20b92,915.50",
+            "C": "\u20b92,775",
+            "D": "\u20b92,933"
+        },
+        "correct_option": "B",
+        "answer": "\u20b92,915.50",
+        "explanation": ""
+    },
+    {
+        "id": "DISC-T05-100",
+        "chapter": "Discount",
+        "type": "Type-V (Series Concept)",
+        "question_number": 100,
+        "question": "The price of a mobile is \u20b920,000. On Sundays, the shopkeeper offers a cash discount of \u20b91,000 on the purchase of the mobile. Further, if someone purchases it through a credit card, he gives 5% additional discount. If someone is purchasing the mobile on a Sunday through a credit card, then how much does he/she have to pay?",
+        "options": {
+            "A": "\u20b918,350",
+            "B": "\u20b918,900",
+            "C": "\u20b918,050",
+            "D": "\u20b918,500"
+        },
+        "correct_option": "C",
+        "answer": "\u20b918,050",
+        "explanation": ""
+    },
+    {
+        "id": "DISC-T06-101",
+        "chapter": "Discount",
+        "type": "Type-VI (Mumtaz Concept)",
+        "question_number": 101,
+        "question": "A shopkeeper allows a discount of 15% on an article and still makes a profit of 20%. What does the shopkeeper pay for an article whose marked price is \u20b97,200?",
+        "options": {
+            "A": "\u20b95,100",
+            "B": "\u20b95,120",
+            "C": "\u20b96,100",
+            "D": "\u20b95,100"
+        },
+        "correct_option": "A",
+        "answer": "\u20b95,100",
+        "explanation": ""
+    },
+    {
+        "id": "DISC-T06-102",
+        "chapter": "Discount",
+        "type": "Type-VI (Mumtaz Concept)",
+        "question_number": 102,
+        "question": "An article is marked at \u20b9550. If it is sold at a discount of 40%, then the selling price becomes 10% more than its cost price. What is the cost price (in \u20b9)?",
+        "options": {
+            "A": "Rs.220",
+            "B": "Rs.330",
+            "C": "Rs.300",
+            "D": "Rs.200"
+        },
+        "correct_option": "C",
+        "answer": "Rs.300",
+        "explanation": ""
+    },
+    {
+        "id": "DISC-T06-103",
+        "chapter": "Discount",
+        "type": "Type-VI (Mumtaz Concept)",
+        "question_number": 103,
+        "question": "A shopkeeper allows a discount of 20% on the marked price of an item and thus gains 10%. What is the ratio of the cost price to the marked price of the item?",
+        "options": {
+            "A": "8 : 11",
+            "B": "7 : 10",
+            "C": "9 : 13",
+            "D": "11 : 14"
+        },
+        "correct_option": "A",
+        "answer": "8 : 11",
+        "explanation": ""
+    },
+    {
+        "id": "DISC-T06-104",
+        "chapter": "Discount",
+        "type": "Type-VI (Mumtaz Concept)",
+        "question_number": 104,
+        "question": "A shopkeeper marked the price 20% more than its cost price. If he allows a discount of 30%, then find his loss percent.",
+        "options": {
+            "A": "20%",
+            "B": "16%",
+            "C": "25%",
+            "D": "15%"
+        },
+        "correct_option": "B",
+        "answer": "16%",
+        "explanation": ""
+    },
+    {
+        "id": "DISC-T06-105",
+        "chapter": "Discount",
+        "type": "Type-VI (Mumtaz Concept)",
+        "question_number": 105,
+        "question": "An article marked for \u20b9275 is sold at 5% discount. The seller still gains 4.5%. What did he pay for it?",
+        "options": {
+            "A": "\u20b9250",
+            "B": "\u20b9125",
+            "C": "\u20b9200",
+            "D": "\u20b9225"
+        },
+        "correct_option": "A",
+        "answer": "\u20b9250",
+        "explanation": ""
+    },
+    {
+        "id": "DISC-T06-106",
+        "chapter": "Discount",
+        "type": "Type-VI (Mumtaz Concept)",
+        "question_number": 106,
+        "question": "A shopkeeper gives a 10% discount and still earns 10% profit. The marked price of the item is how many times (correct to 2 decimal places) the cost price?",
+        "options": {
+            "A": "1.22",
+            "B": "1.24",
+            "C": "1.28",
+            "D": "1.20"
+        },
+        "correct_option": "A",
+        "answer": "1.22",
+        "explanation": ""
+    },
+    {
+        "id": "DISC-T06-107",
+        "chapter": "Discount",
+        "type": "Type-VI (Mumtaz Concept)",
+        "question_number": 107,
+        "question": "By selling an article at 66% of its marked price, a merchant makes a profit of 10%. If he sells the article at 80% of its marked price, then the profit percentage will be.",
+        "options": {
+            "A": "20%",
+            "B": "33 1/3 %",
+            "C": "25%",
+            "D": "33 2/3 %"
+        },
+        "correct_option": "B",
+        "answer": "33 1/3 %",
+        "explanation": ""
+    },
+    {
+        "id": "DISC-T06-108",
+        "chapter": "Discount",
+        "type": "Type-VI (Mumtaz Concept)",
+        "question_number": 108,
+        "question": "A 35% profit made when a discount of 35% is given on the marked price of an item. When the discount is 45%, then the profit percentage will be:",
+        "options": {
+            "A": "17 1/13 %",
+            "B": "11 3/13 %",
+            "C": "14 3/13 %",
+            "D": "13 3/17 %"
+        },
+        "correct_option": "C",
+        "answer": "14 3/13 %",
+        "explanation": ""
+    },
+    {
+        "id": "DISC-T06-109",
+        "chapter": "Discount",
+        "type": "Type-VI (Mumtaz Concept)",
+        "question_number": 109,
+        "question": "Anu allows a 20% discount on the marked price of an article and still makes a profit of 25%. If she gains \u20b944.80 on the sale of the article, then the cost price of the article is:",
+        "options": {
+            "A": "\u20b9188.80",
+            "B": "\u20b9192.80",
+            "C": "\u20b9184.20",
+            "D": "\u20b9179.20"
+        },
+        "correct_option": "D",
+        "answer": "\u20b9179.20",
+        "explanation": ""
+    },
+    {
+        "id": "DISC-T06-110",
+        "chapter": "Discount",
+        "type": "Type-VI (Mumtaz Concept)",
+        "question_number": 110,
+        "question": "A shopkeeper allows a discount of 22% to his customers and still gains 36%. Find the marked price (in Rs) of an article which costs Rs 1,092 to the shopkeeper.",
+        "options": {
+            "A": "1,792",
+            "B": "2,024",
+            "C": "1,872",
+            "D": "1,904"
+        },
+        "correct_option": "D",
+        "answer": "1,904",
+        "explanation": ""
+    },
+    {
+        "id": "DISC-T06-111",
+        "chapter": "Discount",
+        "type": "Type-VI (Mumtaz Concept)",
+        "question_number": 111,
+        "question": "Ramesh sells an article for Rs 34,440, after allowing an 18% discount on the marked price and still manages to gain 40% profit. If Ramesh sold the article at a 12% discount on the marked price, then what will be his profit, correct to two places of decimals?",
+        "options": {
+            "A": "50.42%",
+            "B": "48.24%",
+            "C": "50.24%",
+            "D": "48.42%"
+        },
+        "correct_option": "C",
+        "answer": "50.24%",
+        "explanation": ""
+    },
+    {
+        "id": "DISC-T06-112",
+        "chapter": "Discount",
+        "type": "Type-VI (Mumtaz Concept)",
+        "question_number": 112,
+        "question": "A shopkeeper sells an item at 20% discount on the marked price and earns a profit of 90%. If he sells the same item at 40% discount, then his new profit percentage will be:",
+        "options": {
+            "A": "48.2%",
+            "B": "45.8%",
+            "C": "41.8%",
+            "D": "42.5%"
+        },
+        "correct_option": "D",
+        "answer": "42.5%",
+        "explanation": ""
+    },
+    {
+        "id": "DISC-T06-113",
+        "chapter": "Discount",
+        "type": "Type-VI (Mumtaz Concept)",
+        "question_number": 113,
+        "question": "By selling an article for Rs 2,160, Prashant allows a 20% discount and earns 28% profit. If the article is sold without any discount, the profit will be:",
+        "options": {
+            "A": "55%",
+            "B": "60%",
+            "C": "65%",
+            "D": "50%"
+        },
+        "correct_option": "B",
+        "answer": "60%",
+        "explanation": ""
+    },
+    {
+        "id": "DISC-T06-114",
+        "chapter": "Discount",
+        "type": "Type-VI (Mumtaz Concept)",
+        "question_number": 114,
+        "question": "The cost price of a fan is Rs 4,400. A merchant wants to make a 24% profit by selling it. At the time of sale, merchant declares a discount of 12% on the marked price. Find the marked price.",
+        "options": {
+            "A": "Rs. 2,600",
+            "B": "Rs. 2,060",
+            "C": "Rs. 6,200",
+            "D": "Rs. 6,020"
+        },
+        "correct_option": "C",
+        "answer": "Rs. 6,200",
+        "explanation": ""
+    },
+    {
+        "id": "DISC-T06-115",
+        "chapter": "Discount",
+        "type": "Type-VI (Mumtaz Concept)",
+        "question_number": 115,
+        "question": "A shopkeeper offers a 10% discount on dairy products and still manages to make a 20% profit. What is the actual cost (in \u20b9) to the shopkeeper of a dairy product marked \u20b9420?",
+        "options": {
+            "A": "315",
+            "B": "340",
+            "C": "350",
+            "D": "325"
+        },
+        "correct_option": "A",
+        "answer": "315",
+        "explanation": ""
+    },
+    {
+        "id": "DISC-T06-116",
+        "chapter": "Discount",
+        "type": "Type-VI (Mumtaz Concept)",
+        "question_number": 116,
+        "question": "The price of a treadmill is marked at \u20b91,250. A shopkeeper earns a profit of 14% after allowing a discount of 14% on the marked price. Find the cost price (to the nearest rupee) of the treadmill.",
+        "options": {
+            "A": "\u20b9943",
+            "B": "\u20b91,043",
+            "C": "\u20b9840",
+            "D": "\u20b9845"
+        },
+        "correct_option": "A",
+        "answer": "\u20b9943",
+        "explanation": ""
+    },
+    {
+        "id": "DISC-T06-117",
+        "chapter": "Discount",
+        "type": "Type-VI (Mumtaz Concept)",
+        "question_number": 117,
+        "question": "In a showroom, the marked prices of various items are displayed in such manner that after giving a 10% discount to the customers, the owner of the showroom earns a profit of 20%. What is the ratio of the marked price and cost price of each item?",
+        "options": {
+            "A": "3 : 4",
+            "B": "4 : 3",
+            "C": "5 : 2",
+            "D": "2 : 5"
+        },
+        "correct_option": "B",
+        "answer": "4 : 3",
+        "explanation": ""
+    },
+    {
+        "id": "DISC-T06-118",
+        "chapter": "Discount",
+        "type": "Type-VI (Mumtaz Concept)",
+        "question_number": 118,
+        "question": "A retailer buys 50 pens at the marked price of 44 pens. If he sells these pen at a discount of 1% on the marked price, what is profit percentage?",
+        "options": {
+            "A": "10%",
+            "B": "12.5%",
+            "C": "12%",
+            "D": "15%"
+        },
+        "correct_option": "B",
+        "answer": "12.5%",
+        "explanation": ""
+    },
+    {
+        "id": "DISC-T06-119",
+        "chapter": "Discount",
+        "type": "Type-VI (Mumtaz Concept)",
+        "question_number": 119,
+        "question": "The marked price of a television set is \u20b918,000. A shopkeeper gives a discount of 40% and makes a profit of 10%. Find the cost price of the television set.",
+        "options": {
+            "A": "\u20b97,821 3/11",
+            "B": "\u20b99,531 5/11",
+            "C": "\u20b99,818 2/11",
+            "D": "\u20b98,181 1/11"
+        },
+        "correct_option": "C",
+        "answer": "\u20b99,818 2/11",
+        "explanation": ""
+    },
+    {
+        "id": "DISC-T06-120",
+        "chapter": "Discount",
+        "type": "Type-VI (Mumtaz Concept)",
+        "question_number": 120,
+        "question": "A shopkeeper gives 20% commission on the retail price of one article and earns 5% profit. If his commission is reduced by 10%, then what is his approximate profit percentage? (Nearest integral value)",
+        "options": {
+            "A": "18%",
+            "B": "10%",
+            "C": "15%",
+            "D": "8%"
+        },
+        "correct_option": "A",
+        "answer": "18%",
+        "explanation": ""
+    },
+    {
+        "id": "DISC-T06-121",
+        "chapter": "Discount",
+        "type": "Type-VI (Mumtaz Concept)",
+        "question_number": 121,
+        "question": "A shopkeeper earns a profit of 12% on selling a book at 10% discount on the printed price. The ratio of the cost price to the printed price is:",
+        "options": {
+            "A": "38 : 55",
+            "B": "45 : 56",
+            "C": "55 : 38",
+            "D": "56 : 45"
+        },
+        "correct_option": "B",
+        "answer": "45 : 56",
+        "explanation": ""
+    },
+    {
+        "id": "DISC-T06-122",
+        "chapter": "Discount",
+        "type": "Type-VI (Mumtaz Concept)",
+        "question_number": 122,
+        "question": "A shopkeeper marks an article x% above the cost price and sells it by allowing 30% discount on the marked price. If there is a loss of 4.8%, then what is the value of x?",
+        "options": {
+            "A": "36%",
+            "B": "30%",
+            "C": "40%",
+            "D": "60%"
+        },
+        "correct_option": "A",
+        "answer": "36%",
+        "explanation": ""
+    },
+    {
+        "id": "DISC-T06-123",
+        "chapter": "Discount",
+        "type": "Type-VI (Mumtaz Concept)",
+        "question_number": 123,
+        "question": "A dealer sells an article by allowing a 20% discount on its marked price and still gains 12%. If the cost price of the article is 750, then its marked price (in \u20b9) is:",
+        "options": {
+            "A": "1125",
+            "B": "1150",
+            "C": "1050",
+            "D": "1025"
+        },
+        "correct_option": "C",
+        "answer": "1050",
+        "explanation": ""
+    },
+    {
+        "id": "DISC-T06-124",
+        "chapter": "Discount",
+        "type": "Type-VI (Mumtaz Concept)",
+        "question_number": 124,
+        "question": "A merchant fixes the sale price of his goods at 42% above the cost price. He sells his goods at a 15% discount marked price. His percentage of profit (rounded off to the nearest integer) is:",
+        "options": {
+            "A": "21%",
+            "B": "35%",
+            "C": "27%",
+            "D": "42%"
+        },
+        "correct_option": "A",
+        "answer": "21%",
+        "explanation": ""
+    },
+    {
+        "id": "DISC-T06-125",
+        "chapter": "Discount",
+        "type": "Type-VI (Mumtaz Concept)",
+        "question_number": 125,
+        "question": "The cost price and the marked price of an item are \u20b9720 and \u20b9900 respectively. When it is sold at a discount of x%, then profit is 5x/3%. What is the value of x?",
+        "options": {
+            "A": "7 4/7",
+            "B": "8 4/7",
+            "C": "5 5/7",
+            "D": "5 4/7"
+        },
+        "correct_option": "B",
+        "answer": "8 4/7",
+        "explanation": ""
+    },
+    {
+        "id": "DISC-T06-126",
+        "chapter": "Discount",
+        "type": "Type-VI (Mumtaz Concept)",
+        "question_number": 126,
+        "question": "A shopkeeper marks an article at a price such that after giving a discount of x%, he gains 20%. If the cost price and the marked price of the article are \u20b9920 and \u20b91472 respectively, then what is the value of x?",
+        "options": {
+            "A": "18",
+            "B": "20",
+            "C": "25",
+            "D": "30"
+        },
+        "correct_option": "C",
+        "answer": "25",
+        "explanation": ""
+    },
+    {
+        "id": "DISC-T06-127",
+        "chapter": "Discount",
+        "type": "Type-VI (Mumtaz Concept)",
+        "question_number": 127,
+        "question": "The cost price of a bat is 75% of the marked price. Calculate the gain percentage after allowing a discount of 15%?",
+        "options": {
+            "A": "25.6%",
+            "B": "13.33%",
+            "C": "18.16%",
+            "D": "21.33%"
+        },
+        "correct_option": "B",
+        "answer": "13.33%",
+        "explanation": ""
+    },
+    {
+        "id": "DISC-T06-128",
+        "chapter": "Discount",
+        "type": "Type-VI (Mumtaz Concept)",
+        "question_number": 128,
+        "question": "The marked price of an article is 26% more than its cost price. If a discount of 32% is given, what will be the loss percentage?",
+        "options": {
+            "A": "18.64%",
+            "B": "15.25%",
+            "C": "12.26%",
+            "D": "14.32%"
+        },
+        "correct_option": "D",
+        "answer": "14.32%",
+        "explanation": ""
+    },
+    {
+        "id": "DISC-T06-129",
+        "chapter": "Discount",
+        "type": "Type-VI (Mumtaz Concept)",
+        "question_number": 129,
+        "question": "The marked price of 55 items was equal to the cost price of 99 items. The selling price of 56 items was equal to the marked price of 35 items. Calculate the profit or loss percentage from the sale of each item?",
+        "options": {
+            "A": "15% profit",
+            "B": "12.25% profit",
+            "C": "12.5% profit",
+            "D": "12.5% loss"
+        },
+        "correct_option": "C",
+        "answer": "12.5% profit",
+        "explanation": ""
+    },
+    {
+        "id": "DISC-T06-130",
+        "chapter": "Discount",
+        "type": "Type-VI (Mumtaz Concept)",
+        "question_number": 130,
+        "question": "If the market price of a bag is 25% above the cost price, and a discount of 18% is declared on it, then find the gain percentage?",
+        "options": {
+            "A": "1.5%",
+            "B": "2.0%",
+            "C": "3.0%",
+            "D": "2.5%"
+        },
+        "correct_option": "D",
+        "answer": "2.5%",
+        "explanation": ""
+    },
+    {
+        "id": "DISC-T06-131",
+        "chapter": "Discount",
+        "type": "Type-VI (Mumtaz Concept)",
+        "question_number": 131,
+        "question": "A shopkeeper decides to raise the marked price of an article by 40%. How much percentage discount should he allow to be able to sell the article at the original marked price?",
+        "options": {
+            "A": "28 4/7 %",
+            "B": "31 2/7 %",
+            "C": "24 3/7 %",
+            "D": "26 3/7 %"
+        },
+        "correct_option": "A",
+        "answer": "28 4/7 %",
+        "explanation": ""
+    },
+    {
+        "id": "DISC-T06-132",
+        "chapter": "Discount",
+        "type": "Type-VI (Mumtaz Concept)",
+        "question_number": 132,
+        "question": "Gaurav marks his goods 50% above the cost price and offers a discount of 30% on the marked price to his customers. What is his percentage gain?",
+        "options": {
+            "A": "2%",
+            "B": "3%",
+            "C": "4%",
+            "D": "5%"
+        },
+        "correct_option": "D",
+        "answer": "5%",
+        "explanation": ""
+    },
+    {
+        "id": "DISC-T06-133",
+        "chapter": "Discount",
+        "type": "Type-VI (Mumtaz Concept)",
+        "question_number": 133,
+        "question": "The marked price of an article is 25% more than its cost price. If a scheme discount of 40% is given, then the loss percentage is:",
+        "options": {
+            "A": "15%",
+            "B": "25%",
+            "C": "20%",
+            "D": "30%"
+        },
+        "correct_option": "B",
+        "answer": "25%",
+        "explanation": ""
+    },
+    {
+        "id": "DISC-T06-134",
+        "chapter": "Discount",
+        "type": "Type-VI (Mumtaz Concept)",
+        "question_number": 134,
+        "question": "The marked price of an item is 1.4 times the cost price. In order to earn 23.2% profit, what per cent discount can a shopkeeper allow?",
+        "options": {
+            "A": "13%",
+            "B": "17%",
+            "C": "15%",
+            "D": "12%"
+        },
+        "correct_option": "D",
+        "answer": "12%",
+        "explanation": ""
+    },
+    {
+        "id": "DISC-T06-135",
+        "chapter": "Discount",
+        "type": "Type-VI (Mumtaz Concept)",
+        "question_number": 135,
+        "question": "The marked price of an article is \u20b9660. A shopkeeper allows a discount of 20% and still gets a profit of 10%. If he sells it for \u20b9470, his profit or loss percent, correct to two decimal places will be:",
+        "options": {
+            "A": "Profit 3.06%",
+            "B": "Loss 2.08%",
+            "C": "Profit 7.59%",
+            "D": "Loss 5.43%"
+        },
+        "correct_option": "B",
+        "answer": "Loss 2.08%",
+        "explanation": ""
+    },
+    {
+        "id": "DISC-T07-136",
+        "chapter": "Discount",
+        "type": "Type-VII (Miscellaneous Questions)",
+        "question_number": 136,
+        "question": "The marked price of an article is 20 percent more than its cost price. What minimum discount percentage can be offered by the shopkeeper to sell his article so that there is no loss?",
+        "options": {
+            "A": "16.66%",
+            "B": "12.56%",
+            "C": "15.33%",
+            "D": "13.33%"
+        },
+        "correct_option": "A",
+        "answer": "16.66%",
+        "explanation": ""
+    },
+    {
+        "id": "DISC-T07-137",
+        "chapter": "Discount",
+        "type": "Type-VII (Miscellaneous Questions)",
+        "question_number": 137,
+        "question": "The marked price of mustard oil is 10% more than its cost price. At what per cent less than the marked price should it be sold, to have no profit and no loss?",
+        "options": {
+            "A": "9 2/11 %",
+            "B": "9 1/11 %",
+            "C": "9 3/11 %",
+            "D": "9 4/11 %"
+        },
+        "correct_option": "B",
+        "answer": "9 1/11 %",
+        "explanation": ""
+    },
+    {
+        "id": "DISC-T07-138",
+        "chapter": "Discount",
+        "type": "Type-VII (Miscellaneous Questions)",
+        "question_number": 138,
+        "question": "An article is market at \u20b9450. If it is sold at a discount of 20%, then the selling price becomes 1.5 times of its cost price. What is the cost price (in \u20b9)?",
+        "options": {
+            "A": "360",
+            "B": "240",
+            "C": "330",
+            "D": "270"
+        },
+        "correct_option": "B",
+        "answer": "240",
+        "explanation": ""
+    },
+    {
+        "id": "DISC-T07-139",
+        "chapter": "Discount",
+        "type": "Type-VII (Miscellaneous Questions)",
+        "question_number": 139,
+        "question": "The marked price of an article is \u20b910,927. Due to festive season, a certain percentage of discount is declared. Raju buys an article at reduced price and sells it at \u20b910,927 and makes a profit of 11.5%. What was the percentage discount offered?",
+        "options": {
+            "A": "10.3%",
+            "B": "11.3%",
+            "C": "11.5%",
+            "D": "10.9%"
+        },
+        "correct_option": "A",
+        "answer": "10.3%",
+        "explanation": ""
+    },
+    {
+        "id": "DISC-T07-140",
+        "chapter": "Discount",
+        "type": "Type-VII (Miscellaneous Questions)",
+        "question_number": 140,
+        "question": "A shopkeeper bought a machine for \u20b94600 and spent \u20b9500 on its repairs and transport. He marked the machine at 8% above the overall cost price. If he sold the machine for \u20b94681.80 after giving x% discount, then the value of x is:",
+        "options": {
+            "A": "18",
+            "B": "15",
+            "C": "20",
+            "D": "12"
+        },
+        "correct_option": "B",
+        "answer": "15",
+        "explanation": ""
+    },
+    {
+        "id": "DISC-T07-141",
+        "chapter": "Discount",
+        "type": "Type-VII (Miscellaneous Questions)",
+        "question_number": 141,
+        "question": "A retailer announces a discount of 30% for selling an air-conditioner marked at \u20b992,000. The cost price of the air-conditioner is 70% below the marked price. He offers a further discount of 20% if the buyer presents his membership card of the retailer's store. The profit of the retailer with the membership card scheme is what percentage of the profit of the retailer without the membership card scheme?",
+        "options": {
+            "A": "62%",
+            "B": "65%",
+            "C": "70%",
+            "D": "74%"
+        },
+        "correct_option": "B",
+        "answer": "65%",
+        "explanation": ""
+    },
+    {
+        "id": "DISC-T07-142",
+        "chapter": "Discount",
+        "type": "Type-VII (Miscellaneous Questions)",
+        "question_number": 142,
+        "question": "A shopkeeper buys three varieties of pulses at \u20b9132, \u20b9160 and \u20b9y per kg respectively and mixes them in the ratio 9 : 2 : 1. The marked price per kg of the blended pulses is fixed at \u20b9238, the shopkeeper gives a discount equal to 1/6 of the marked price and still earns a profit of 40%. What is the value of y?",
+        "options": {
+            "A": "192",
+            "B": "200",
+            "C": "184",
+            "D": "196"
+        },
+        "correct_option": "A",
+        "answer": "192",
+        "explanation": ""
+    },
+    {
+        "id": "DISC-T07-143",
+        "chapter": "Discount",
+        "type": "Type-VII (Miscellaneous Questions)",
+        "question_number": 143,
+        "question": "Amit and Bilal buy goods for \u20b91,500 and \u20b92,000, respectively. Amit marks his goods up by y%, while Bilal marks his goods up by 2y% and offers a discount of y%. If both make the same profit, then find the value of y?",
+        "options": {
+            "A": "10.5%",
+            "B": "12%",
+            "C": "11.5%",
+            "D": "12.5%"
+        },
+        "correct_option": "D",
+        "answer": "12.5%",
+        "explanation": ""
+    },
+    {
+        "id": "DISC-T07-144",
+        "chapter": "Discount",
+        "type": "Type-VII (Miscellaneous Questions)",
+        "question_number": 144,
+        "question": "Rohini purchases a Bluetooth headphone set from a wholesale shop for Rs. 1,700 and fixes its marked price at Rs. 2,000. Later, she allows a discount of 40% on its sale. What is her loss or profit percentage (correct to two decimal places)?",
+        "options": {
+            "A": "25.19% loss",
+            "B": "29.41% gain",
+            "C": "29.41% loss",
+            "D": "25.19% gain"
+        },
+        "correct_option": "C",
+        "answer": "29.41% loss",
+        "explanation": ""
+    },
+    {
+        "id": "DISC-T07-145",
+        "chapter": "Discount",
+        "type": "Type-VII (Miscellaneous Questions)",
+        "question_number": 145,
+        "question": "An article costs Rs. 1,000 for a salesman. He fixes its marked price as Rs. 1,500. He sells it to a customer at a discount of 20%. He gives a further discount of 10% for each cash payment. Find the percentage of loss or gain that the salesman makes on sale?",
+        "options": {
+            "A": "gain 8%",
+            "B": "gain 10%",
+            "C": "loss 8%",
+            "D": "loss 10%"
+        },
+        "correct_option": "A",
+        "answer": "gain 8%",
+        "explanation": ""
+    },
+    {
+        "id": "DISC-T07-146",
+        "chapter": "Discount",
+        "type": "Type-VII (Miscellaneous Questions)",
+        "question_number": 146,
+        "question": "A shopkeeper marks up the price of the oil by 40% and used a faulty machine which measures 15% less. If the shopkeeper gives a discount of 32%, the profit/loss percentage is:",
+        "options": {
+            "A": "15% Loss",
+            "B": "25% Profit",
+            "C": "18% Loss",
+            "D": "12% Profit"
+        },
+        "correct_option": "D",
+        "answer": "12% Profit",
+        "explanation": ""
+    },
+    {
+        "id": "DISC-T07-147",
+        "chapter": "Discount",
+        "type": "Type-VII (Miscellaneous Questions)",
+        "question_number": 147,
+        "question": "One company is offering a 25% discount on a particular product. Anurag visited a store. He was trying to find a deal that would allow him to save at least Rs 390. How many minimum items should he purchase if each item costs Rs 340?",
+        "options": {
+            "A": "7",
+            "B": "4",
+            "C": "6",
+            "D": "5"
+        },
+        "correct_option": "D",
+        "answer": "5",
+        "explanation": ""
+    },
+    {
+        "id": "DISC-T07-148",
+        "chapter": "Discount",
+        "type": "Type-VII (Miscellaneous Questions)",
+        "question_number": 148,
+        "question": "A dozen pairs of gloves of Rs 180 are available at a discount of 10%. How many pairs of gloves can be bought for Rs. 54?",
+        "options": {
+            "A": "2",
+            "B": "8",
+            "C": "4",
+            "D": "6"
+        },
+        "correct_option": "C",
+        "answer": "4",
+        "explanation": ""
+    },
+    {
+        "id": "DISC-T07-149",
+        "chapter": "Discount",
+        "type": "Type-VII (Miscellaneous Questions)",
+        "question_number": 149,
+        "question": "A shopkeeper marks an article at Rs 150 and sells it at a discount of 25%. He also gives a gift worth Rs 2.5. If he still makes a 10% profit, then the cost price (in Rs) of the article is:",
+        "options": {
+            "A": "100",
+            "B": "175",
+            "C": "112",
+            "D": "125"
+        },
+        "correct_option": "A",
+        "answer": "100",
+        "explanation": ""
+    },
+    {
+        "id": "DISC-T07-150",
+        "chapter": "Discount",
+        "type": "Type-VII (Miscellaneous Questions)",
+        "question_number": 150,
+        "question": "What is the discount that Rohan should offer on the remaining Rs 8,000 of a laptop priced at Rs 48,000, given that, he has already given a 12% discount on the first Rs 28,000 and 8% discount on the next Rs 12,000 to match the discount amount of 9.5% given on the total price?",
+        "options": {
+            "A": "402",
+            "B": "420",
+            "C": "240",
+            "D": "204"
+        },
+        "correct_option": "C",
+        "answer": "240",
+        "explanation": ""
+    },
+    {
+        "id": "DISC-T07-151",
+        "chapter": "Discount",
+        "type": "Type-VII (Miscellaneous Questions)",
+        "question_number": 151,
+        "question": "A company sells goods at a markup of 25% above the cost price. During a sale, the company offers a 10% discount on the marked price. If the customer pays Rs 540 after the discount, then what was the original cost price of the goods?",
+        "options": {
+            "A": "Rs. 460",
+            "B": "Rs. 450",
+            "C": "Rs. 470",
+            "D": "Rs. 480"
+        },
+        "correct_option": "D",
+        "answer": "Rs. 480",
+        "explanation": ""
+    },
+    {
+        "id": "DISC-T07-152",
+        "chapter": "Discount",
+        "type": "Type-VII (Miscellaneous Questions)",
+        "question_number": 152,
+        "question": "A shopkeeper marks up his goods 32% above the cost price and gives a discount of 21% on the marked price. Find his gain percentage on the goods.",
+        "options": {
+            "A": "4.28%",
+            "B": "8.42%",
+            "C": "4.82%",
+            "D": "8.24%"
+        },
+        "correct_option": "A",
+        "answer": "4.28%",
+        "explanation": ""
+    },
+    {
+        "id": "DISC-T07-153",
+        "chapter": "Discount",
+        "type": "Type-VII (Miscellaneous Questions)",
+        "question_number": 153,
+        "question": "A retailer gets a discount of 40% on the printed price of an article. If the retailer sells it at the printed price, his gain percentage is:",
+        "options": {
+            "A": "66 2/3%",
+            "B": "37 3/5%",
+            "C": "66 1/3%",
+            "D": "33 1/3%"
+        },
+        "correct_option": "C",
+        "answer": "66 1/3%",
+        "explanation": ""
+    },
+    {
+        "id": "DISC-T07-154",
+        "chapter": "Discount",
+        "type": "Type-VII",
+        "question_number": 154,
+        "question": "In a showroom the price of a washing machine is \u20b9650. The customer gets cash discount of \u20b92,000 and gets a scratch card promising percentage discount of 10% to 15%. Determine the difference between the least and maximum selling price of this washing machine.",
+        "options": {
+            "A": "\u20b93,150",
+            "B": "\u20b93,570",
+            "C": "\u20b93,200",
+            "D": "\u20b93,650"
+        },
+        "correct_option": "A",
+        "answer": "\u20b93,150",
+        "explanation": ""
+    },
+    {
+        "id": "DISC-T07-155",
+        "chapter": "Discount",
+        "type": "Type-VII",
+        "question_number": 155,
+        "question": "The marked price of every item being sold by a wholesaler was \u20b9400. The wholesaler was offering clearance sale under which a customer buying four items paid for one item and further 5% discount on the amount payable under 'Buy 4 Get 1 Free'. What was the effective discount percentage?",
+        "options": {
+            "A": "30%",
+            "B": "25%",
+            "C": "28.75%",
+            "D": "24%"
+        },
+        "correct_option": "D",
+        "answer": "24%",
+        "explanation": ""
+    },
+    {
+        "id": "DISC-T07-156",
+        "chapter": "Discount",
+        "type": "Type-VII",
+        "question_number": 156,
+        "question": "A hotel is giving discount of 12% on room rent. Additionally, the hotel is offering a 5% discount on payment using SBI Silver Card. Find the amount paid by the customer if rent is \u20b91,500 per room per day.",
+        "options": {
+            "A": "\u20b92,496",
+            "B": "\u20b92,544",
+            "C": "\u20b92,508",
+            "D": "\u20b92,616"
+        },
+        "correct_option": "C",
+        "answer": "\u20b92,508",
+        "explanation": ""
+    },
+    {
+        "id": "DISC-T07-157",
+        "chapter": "Discount",
+        "type": "Type-VII",
+        "question_number": 157,
+        "question": "In a shop, a discount of 5% is given and if purchase amount is more than \u20b92,000, an additional discount of 10% is given. Find the final amount paid by customer if bill is \u20b92,500.",
+        "options": {
+            "A": "\u20b92,500",
+            "B": "\u20b92,225.5",
+            "C": "\u20b92,375.5",
+            "D": "\u20b92,137.5"
+        },
+        "correct_option": "D",
+        "answer": "\u20b92,137.5",
+        "explanation": ""
+    },
+    {
+        "id": "DISC-T07-158",
+        "chapter": "Discount",
+        "type": "Type-VII",
+        "question_number": 158,
+        "question": "If Ram purchases items on which successive discounts of 6%, 8%, and 12% are offered, and he pays \u20b92,550, find the marked price.",
+        "options": {
+            "A": "\u20b92,400",
+            "B": "\u20b92,500",
+            "C": "\u20b92,450",
+            "D": "\u20b92,550"
+        },
+        "correct_option": "B",
+        "answer": "\u20b92,500",
+        "explanation": ""
+    },
+    {
+        "id": "DISC-T07-159",
+        "chapter": "Discount",
+        "type": "Type-VII",
+        "question_number": 159,
+        "question": "Rakhi purchased a basket, wallet and belt. Discounts were 8%, 10% and 8% respectively. If she paid \u20b9350, find original amount.",
+        "options": {
+            "A": "\u20b9510",
+            "B": "\u20b9580",
+            "C": "\u20b9600",
+            "D": "\u20b9519"
+        },
+        "correct_option": "B",
+        "answer": "\u20b9580",
+        "explanation": ""
+    },
+    {
+        "id": "DISC-T07-160",
+        "chapter": "Discount",
+        "type": "Type-VII",
+        "question_number": 160,
+        "question": "Electricity bill paid before due date gives 10% reduction. If reduction is \u20b923, find bill amount.",
+        "options": {
+            "A": "\u20b9230",
+            "B": "\u20b9250",
+            "C": "\u20b9380",
+            "D": "\u20b9520"
+        },
+        "correct_option": "A",
+        "answer": "\u20b9230",
+        "explanation": ""
+    },
+    {
+        "id": "DISC-T07-161",
+        "chapter": "Discount",
+        "type": "Type-VII",
+        "question_number": 161,
+        "question": "Vikram allows discounts of 20% and 10%. If marked price \u20b9600, find profit.",
+        "options": {
+            "A": "\u20b972",
+            "B": "\u20b948",
+            "C": "\u20b954",
+            "D": "\u20b934"
+        },
+        "correct_option": "C",
+        "answer": "\u20b954",
+        "explanation": ""
+    },
+    {
+        "id": "DISC-T07-162",
+        "chapter": "Discount",
+        "type": "Type-VII",
+        "question_number": 162,
+        "question": "Neeraj gives successive discounts 15% and 20%. If selling price \u20b94,496, find profit percentage.",
+        "options": {
+            "A": "12%",
+            "B": "15%",
+            "C": "12.4%",
+            "D": "15.6%"
+        },
+        "correct_option": "C",
+        "answer": "12.4%",
+        "explanation": ""
+    },
+    {
+        "id": "DISC-T07-163",
+        "chapter": "Discount",
+        "type": "Type-VII",
+        "question_number": 163,
+        "question": "Dealer buys article at \u20b9100 and gives successive discounts 10% and 20%. Find marked price.",
+        "options": {
+            "A": "\u20b9576.07",
+            "B": "\u20b9581.07",
+            "C": "\u20b9576.00",
+            "D": "\u20b9581.00"
+        },
+        "correct_option": "D",
+        "answer": "\u20b9581.00",
+        "explanation": ""
+    },
+    {
+        "id": "DISC-T07-164",
+        "chapter": "Discount",
+        "type": "Type-VII",
+        "question_number": 164,
+        "question": "Marked price \u20b9600. Two successive discounts 10% and 20%. Find gain percentage.",
+        "options": {
+            "A": "25%",
+            "B": "15%",
+            "C": "18%",
+            "D": "20%"
+        },
+        "correct_option": "C",
+        "answer": "18%",
+        "explanation": ""
+    },
+    {
+        "id": "DISC-T07-165",
+        "chapter": "Discount",
+        "type": "Type-VII",
+        "question_number": 165,
+        "question": "Marked price \u20b960% above CP. Successive discounts 10% and 20%. Find loss percentage.",
+        "options": {
+            "A": "3.5%",
+            "B": "2.4%",
+            "C": "3%",
+            "D": "2%"
+        },
+        "correct_option": "B",
+        "answer": "2.4%",
+        "explanation": ""
+    },
+    {
+        "id": "DISC-T07-166",
+        "chapter": "Discount",
+        "type": "Type-VII",
+        "question_number": 166,
+        "question": "Marked price of 85 items equals cost price of 153 items. Selling price of 100 items equals marked price of 65 items. Find profit percentage.",
+        "options": {
+            "A": "12.5% loss",
+            "B": "12.5% profit",
+            "C": "15% profit",
+            "D": "12.75% profit"
+        },
+        "correct_option": "B",
+        "answer": "12.5% profit",
+        "explanation": ""
+    },
+    {
+        "id": "DISC-T07-167",
+        "chapter": "Discount",
+        "type": "Type-VII",
+        "question_number": 167,
+        "question": "Article costs \u20b94,000 and marked \u20b94,400. Discount 25% and extra 15%. Find profit percentage.",
+        "options": {
+            "A": "34%",
+            "B": "32%",
+            "C": "43%",
+            "D": "36%"
+        },
+        "correct_option": "A",
+        "answer": "34%",
+        "explanation": ""
+    },
+    {
+        "id": "DISC-T07-168",
+        "chapter": "Discount",
+        "type": "Type-VII",
+        "question_number": 168,
+        "question": "Ram marks goods 35% above CP and gives discounts 40% and 15%. Find overall discount percentage.",
+        "options": {
+            "A": "12.75",
+            "B": "11.25",
+            "C": "11.75",
+            "D": "10"
+        },
+        "correct_option": "B",
+        "answer": "11.25",
+        "explanation": ""
+    },
+    {
+        "id": "DISC-T07-169",
+        "chapter": "Discount",
+        "type": "Type-VII",
+        "question_number": 169,
+        "question": "Shop offers discounts 10%, 5%, and 50%. Find cash paid for biscuits costing \u20b930 each.",
+        "options": {
+            "A": "\u20b9670.25",
+            "B": "\u20b9608.25",
+            "C": "\u20b9675",
+            "D": "\u20b9667.05"
+        },
+        "correct_option": "B",
+        "answer": "\u20b9608.25",
+        "explanation": ""
+    },
+    {
+        "id": "DISC-T07-170",
+        "chapter": "Discount",
+        "type": "Type-VII",
+        "question_number": 170,
+        "question": "Book marked \u20b9300. Discount and free scheme applied. Find effective discount percentage.",
+        "options": {
+            "A": "32%",
+            "B": "31.5%",
+            "C": "32.5%",
+            "D": "32.75%"
+        },
+        "correct_option": "C",
+        "answer": "32.5%",
+        "explanation": ""
+    },
+    {
+        "id": "DISC-T07-171",
+        "chapter": "Discount",
+        "type": "Type-VII (Miscellaneous Questions)",
+        "question_number": 171,
+        "question": "A discount of 20% is given for the purchase of two books by a bookseller and a discount of 25% is offered if a customer buys more than two books. A 10% discount is being offered to all the customers on purchase of one book. An additional 5% discount is given to students. Sohan, a student of M.Com, buys a book for \u20b9513. What was the marked price of the book?",
+        "options": {
+            "A": "\u20b9650",
+            "B": "\u20b9540",
+            "C": "\u20b9600",
+            "D": "\u20b9605"
+        },
+        "correct_option": "C",
+        "answer": "\u20b9600",
+        "explanation": ""
+    },
+    {
+        "id": "DISC-T07-172",
+        "chapter": "Discount",
+        "type": "Type-VII",
+        "question_number": 172,
+        "question": "Ramanna purchased raw materials for producing sewing machine of Talbot, 22.5% of the raw materials could not be utilised and got wasted. 80% of the cost of raw materials used was added as manufacturing cost. If Ramanna could sell his product at a price equal to overall profit of 20% after offering a discount of 20%, how many times of the total cost was the raw material purchased?",
+        "options": {
+            "A": "2.44 times",
+            "B": "2.40 times",
+            "C": "2.43 times",
+            "D": "2.40 times"
+        },
+        "correct_option": "D",
+        "answer": "2.40 times",
+        "explanation": ""
+    },
+    {
+        "id": "DISC-T07-173",
+        "chapter": "Discount",
+        "type": "Type-VII",
+        "question_number": 173,
+        "question": "A manufacturer announces trade discount of 30% on his products for his dealers. One of the dealers purchased products manufactured by the company at \u20b925,000. What is the amount of trade discount?",
+        "options": {
+            "A": "\u20b935,000",
+            "B": "\u20b945,000",
+            "C": "\u20b910,500",
+            "D": "\u20b945,000"
+        },
+        "correct_option": "C",
+        "answer": "\u20b910,500",
+        "explanation": ""
+    },
+    {
+        "id": "DISC-T07-174",
+        "chapter": "Discount",
+        "type": "Type-VII",
+        "question_number": 174,
+        "question": "Shopkeeper marks up his price for an item at 25% less offers discount of 15%. The same item is marked at 20% by another shopkeeper and sold at a discount of 12%. Who gets a better deal in terms of % profit and by what percent?",
+        "options": {
+            "A": "By B, 5.6%",
+            "B": "By B, 0.65%",
+            "C": "By A, 0.55%",
+            "D": "By A, 6.25%"
+        },
+        "correct_option": "D",
+        "answer": "By A, 6.25%",
+        "explanation": ""
+    },
+    {
+        "id": "DISC-T07-175",
+        "chapter": "Discount",
+        "type": "Type-VII",
+        "question_number": 175,
+        "question": "A seller offers discount of 12% if total sale price of different products purchased by a single customer is below \u20b93,000, and discount of 15% if total sale value is above \u20b93,000. A shirt costing \u20b9900 and a saree costing \u20b91,900 are sold after discount. How much discount did Ramana get?",
+        "options": {
+            "A": "\u20b92,953.60",
+            "B": "\u20b93,005.40",
+            "C": "\u20b92,645.60",
+            "D": "\u20b92,635.60"
+        },
+        "correct_option": "C",
+        "answer": "\u20b92,645.60",
+        "explanation": ""
+    },
+    {
+        "id": "DISC-T07-176",
+        "chapter": "Discount",
+        "type": "Type-VII",
+        "question_number": 176,
+        "question": "On the tag price, seller offers 10% discount and a cashback of \u20b9250. He still earns 10% profit. If cost price is \u20b91,200, find marked price.",
+        "options": {
+            "A": "\u20b91447.44",
+            "B": "\u20b91777.44",
+            "C": "\u20b91744.44",
+            "D": "\u20b91774.44"
+        },
+        "correct_option": "C",
+        "answer": "\u20b91744.44",
+        "explanation": ""
+    },
+    {
+        "id": "DISC-T07-177",
+        "chapter": "Discount",
+        "type": "Type-VII",
+        "question_number": 177,
+        "question": "A shopkeeper gives discount of 12% on purchase of 10 kg of sugar. Cost price of sugar is \u20b930/kg and machine weight shows 900 g for 1 kg. Find profit percentage.",
+        "options": {
+            "A": "30.18%",
+            "B": "12.0%",
+            "C": "22.25%",
+            "D": "23.85%"
+        },
+        "correct_option": "D",
+        "answer": "23.85%",
+        "explanation": ""
+    },
+    {
+        "id": "DISC-T07-178",
+        "chapter": "Discount",
+        "type": "Type-VII",
+        "question_number": 178,
+        "question": "Dealer sells article at 85% after offering 15% discount. Without discount he earns \u20b925. Find cost price.",
+        "options": {
+            "A": "\u20b9950",
+            "B": "\u20b91000",
+            "C": "\u20b9900",
+            "D": "\u20b91000"
+        },
+        "correct_option": "B",
+        "answer": "\u20b91000",
+        "explanation": ""
+    },
+    {
+        "id": "DISC-T07-179",
+        "chapter": "Discount",
+        "type": "Type-VII",
+        "question_number": 179,
+        "question": "Seller gives 8% discount on marked price. He spends \u20b9X on promotion and gets total cost \u20b92,50,000 and marked price is 10% more than cost price. Find X.",
+        "options": {
+            "A": "7500",
+            "B": "3000",
+            "C": "6000",
+            "D": "4500"
+        },
+        "correct_option": "D",
+        "answer": "4500",
+        "explanation": ""
+    },
+    {
+        "id": "DISC-T07-180",
+        "chapter": "Discount",
+        "type": "Type-VII",
+        "question_number": 180,
+        "question": "Kavita bought table at 30% discount and sold at 48% increase. If original price \u20b98,000, find extra amount earned.",
+        "options": {
+            "A": "\u20b95.6%",
+            "B": "\u20b9280",
+            "C": "\u20b96%",
+            "D": "\u20b9360"
+        },
+        "correct_option": "D",
+        "answer": "\u20b9360",
+        "explanation": ""
+    },
+    {
+        "id": "DISC-T07-181",
+        "chapter": "Discount",
+        "type": "Type-VII (Miscellaneous Questions)",
+        "question_number": 181,
+        "question": "A bookseller supplies books to a book-seller at a 20% discount on the list price of \u20b91,574.08. If the book seller sells books at the list price and his net profit is \u20b945.40, determine his profit percentage.",
+        "options": {
+            "A": "285.34%",
+            "B": "285.52%",
+            "C": "273.50%",
+            "D": "282.22%"
+        },
+        "correct_option": "D",
+        "answer": "282.22%",
+        "explanation": ""
+    },
+    {
+        "id": "DISC-T07-182",
+        "chapter": "Discount",
+        "type": "Type-VII",
+        "question_number": 182,
+        "question": "The ratio of cost price (CP) and marked price (MP) of an article is 4 : 7. A discount of 20% is given on MP and the shopkeeper made a profit of \u20b980. Find the CP of the article.",
+        "options": {
+            "A": "\u20b9190",
+            "B": "\u20b9170",
+            "C": "\u20b9200",
+            "D": "\u20b9180"
+        },
+        "correct_option": "B",
+        "answer": "\u20b9170",
+        "explanation": ""
+    },
+    {
+        "id": "DISC-T07-183",
+        "chapter": "Discount",
+        "type": "Type-VII",
+        "question_number": 183,
+        "question": "A dealer gives a discount of 7% on the marked price and gives an article free for every 25 articles purchased. Find the increase in marked price.",
+        "options": {
+            "A": "38.42%",
+            "B": "34.84%",
+            "C": "34.48%",
+            "D": "38.24%"
+        },
+        "correct_option": "C",
+        "answer": "34.48%",
+        "explanation": ""
+    },
+    {
+        "id": "DISC-T07-184",
+        "chapter": "Discount",
+        "type": "Type-VII",
+        "question_number": 184,
+        "question": "Shyam purchased a packet of 16 pens and got 4 pens free. He marked the price 20% more than CP. If he did not allow any discount and sold all pens at this price, find profit percentage.",
+        "options": {
+            "A": "37.1%",
+            "B": "50%",
+            "C": "36.5%",
+            "D": "48%"
+        },
+        "correct_option": "A",
+        "answer": "37.1%",
+        "explanation": ""
+    },
+    {
+        "id": "DISC-T07-185",
+        "chapter": "Discount",
+        "type": "Type-VII",
+        "question_number": 185,
+        "question": "Arun purchased 50 kg rice at 15% discount and got 5 kg free. If he sold rice at marked price, find approximate profit percentage.",
+        "options": {
+            "A": "24.7%",
+            "B": "25.2%",
+            "C": "22.8%",
+            "D": "23.5%"
+        },
+        "correct_option": "B",
+        "answer": "25.2%",
+        "explanation": ""
+    },
+    {
+        "id": "DISC-T07-186",
+        "chapter": "Discount",
+        "type": "Type-VII",
+        "question_number": 186,
+        "question": "On purchase of articles worth \u20b910,000, shopkeeper offers flat discount of \u20b9500 and additional 7% discount on credit card. Find amount paid.",
+        "options": {
+            "A": "\u20b98,835",
+            "B": "\u20b99,000",
+            "C": "\u20b98,815",
+            "D": "\u20b99,300"
+        },
+        "correct_option": "A",
+        "answer": "\u20b98,835",
+        "explanation": ""
+    },
+    {
+        "id": "DISC-T07-187",
+        "chapter": "Discount",
+        "type": "Type-VII",
+        "question_number": 187,
+        "question": "Marked price is 40% above cost price. Selling price is 73 1/2% of marked price. Find profit percentage.",
+        "options": {
+            "A": "2.9%",
+            "B": "2.7%",
+            "C": "2.6%",
+            "D": "2.5%"
+        },
+        "correct_option": "C",
+        "answer": "2.6%",
+        "explanation": ""
+    },
+    {
+        "id": "DISC-T07-188",
+        "chapter": "Discount",
+        "type": "Type-VII",
+        "question_number": 188,
+        "question": "Store declares discount of 60% on one shampoo bottle and same discount on another. Find profit percentage if cost price is 60% below marked price.",
+        "options": {
+            "A": "60%",
+            "B": "64%",
+            "C": "75%",
+            "D": "54%"
+        },
+        "correct_option": "C",
+        "answer": "75%",
+        "explanation": ""
+    },
+    {
+        "id": "DISC-T07-189",
+        "chapter": "Discount",
+        "type": "Type-VII",
+        "question_number": 189,
+        "question": "Virendra purchased items worth \u20b9400,000 and got discount and paid through credit card including surcharge. Find actual cost including surcharge.",
+        "options": {
+            "A": "\u20b91,53,000",
+            "B": "\u20b91,58,100",
+            "C": "\u20b91,63,200",
+            "D": "\u20b91,47,900"
+        },
+        "correct_option": "C",
+        "answer": "\u20b91,63,200",
+        "explanation": ""
+    },
+    {
+        "id": "DISC-T07-190",
+        "chapter": "Discount",
+        "type": "Type-VII",
+        "question_number": 190,
+        "question": "A dishonest trader marks goods 50% above CP and allows 20% discount. He uses faulty weight of 900g for 1kg. Find profit percentage.",
+        "options": {
+            "A": "33%",
+            "B": "36%",
+            "C": "27%",
+            "D": "24%"
+        },
+        "correct_option": "B",
+        "answer": "36%",
+        "explanation": ""
+    },
+    {
+        "id": "DISC-T07-191",
+        "chapter": "Discount",
+        "type": "Type-VII",
+        "question_number": 191,
+        "question": "Marked price of chair is 10% more than CP. After 10% discount, selling price \u20b9300. Find loss percentage.",
+        "options": {
+            "A": "20%",
+            "B": "12.5%",
+            "C": "25%",
+            "D": "17%"
+        },
+        "correct_option": "D",
+        "answer": "17%",
+        "explanation": ""
+    },
+    {
+        "id": "DISC-T07-192",
+        "chapter": "Discount",
+        "type": "Type-VII",
+        "question_number": 192,
+        "question": "Marked prices of trouser and jacket ratio is 1:3. Discount 20% and overall discount 30%. Find jacket discount percentage.",
+        "options": {
+            "A": "28.56%",
+            "B": "41.25%",
+            "C": "33.33%",
+            "D": "16.66%"
+        },
+        "correct_option": "D",
+        "answer": "16.66%",
+        "explanation": ""
+    },
+    {
+        "id": "DISC-T07-193",
+        "chapter": "Discount",
+        "type": "Type-VII",
+        "question_number": 193,
+        "question": "A shop gives 8% discount and additional 20% if bill exceeds \u20b95,000. Find amount paid for goods worth \u20b96,750.",
+        "options": {
+            "A": "\u20b96,724",
+            "B": "\u20b96,824",
+            "C": "\u20b96,624",
+            "D": "\u20b96,524"
+        },
+        "correct_option": "D",
+        "answer": "\u20b96,524",
+        "explanation": ""
+    },
+    {
+        "id": "DISC-T07-194",
+        "chapter": "Discount",
+        "type": "Type-VII",
+        "question_number": 194,
+        "question": "Marked price of pen is 25% above CP. After \u20b930 discount, SP \u20b9220. Find profit percentage.",
+        "options": {
+            "A": "10%",
+            "B": "15%",
+            "C": "20%",
+            "D": "17.5%"
+        },
+        "correct_option": "C",
+        "answer": "20%",
+        "explanation": ""
+    },
+    {
+        "id": "DISC-T07-195",
+        "chapter": "Discount",
+        "type": "Type-VII",
+        "question_number": 195,
+        "question": "Shopkeeper marks goods 30% above CP and gives 10% discount. Also gives free 1kg sugar worth \u20b970. Find net profit percentage.",
+        "options": {
+            "A": "7%",
+            "B": "7.2%",
+            "C": "6%",
+            "D": "6.3%"
+        },
+        "correct_option": "D",
+        "answer": "6.3%",
+        "explanation": ""
+    },
+    {
+        "id": "DISC-T07-196",
+        "chapter": "Discount",
+        "type": "Type-VII",
+        "question_number": 196,
+        "question": "Shopkeeper gives 18% discount and sells for \u20b948,380. Without discount profit is 18%. Find cost price.",
+        "options": {
+            "A": "\u20b955,000",
+            "B": "\u20b950,000",
+            "C": "\u20b948,500",
+            "D": "\u20b959,000"
+        },
+        "correct_option": "A",
+        "answer": "\u20b955,000",
+        "explanation": ""
+    },
+    {
+        "id": "DISC-T07-197",
+        "chapter": "Discount",
+        "type": "Type-VII",
+        "question_number": 197,
+        "question": "Trader sold article for \u20b9440 after 12% discount. Without discount profit 25%. Find cost price.",
+        "options": {
+            "A": "420",
+            "B": "350",
+            "C": "400",
+            "D": "380"
+        },
+        "correct_option": "C",
+        "answer": "400",
+        "explanation": ""
+    },
+    {
+        "id": "DISC-T07-198",
+        "chapter": "Discount",
+        "type": "Type-VII",
+        "question_number": 198,
+        "question": "Trader gives 25% discount. If CP increases 30%, find new discount for 15% profit.",
+        "options": {
+            "A": "4.87%",
+            "B": "5.08%",
+            "C": "4.32%",
+            "D": "5.12%"
+        },
+        "correct_option": "D",
+        "answer": "5.12%",
+        "explanation": ""
+    },
+    {
+        "id": "DISC-T07-199",
+        "chapter": "Discount",
+        "type": "Type-VII",
+        "question_number": 199,
+        "question": "Shopkeeper sold article at 4/5 marked price and suffered 3 1/3% loss. Find profit percent if sold at marked price.",
+        "options": {
+            "A": "20",
+            "B": "22",
+            "C": "18",
+            "D": "21"
+        },
+        "correct_option": "A",
+        "answer": "20",
+        "explanation": ""
+    },
+    {
+        "id": "DISC-T07-200",
+        "chapter": "Discount",
+        "type": "Type-VII",
+        "question_number": 200,
+        "question": "Marked price is 25% above CP. Discount given and loss 8%. Find discount percent.",
+        "options": {
+            "A": "25.6%",
+            "B": "25.2%",
+            "C": "26.8%",
+            "D": "26.4%"
+        },
+        "correct_option": "C",
+        "answer": "26.8%",
+        "explanation": ""
+    },
+    {
+        "id": "DISC-T07-201",
+        "chapter": "Discount",
+        "type": "Type-VII",
+        "question_number": 201,
+        "question": "Shopkeeper allows 18% discount and still gains 23%. If gain \u20b918.40, find marked price.",
+        "options": {
+            "A": "\u20b9140",
+            "B": "\u20b9125",
+            "C": "\u20b9120",
+            "D": "\u20b9146"
+        },
+        "correct_option": "D",
+        "answer": "\u20b9146",
+        "explanation": ""
+    },
+    {
+        "id": "DISC-T07-202",
+        "chapter": "Discount",
+        "type": "Type-VII",
+        "question_number": 202,
+        "question": "Trader marks goods 40% above CP. Sells 70% at marked price and rest at 40% discount. Find profit percentage.",
+        "options": {
+            "A": "23.4",
+            "B": "24.2",
+            "C": "23.2",
+            "D": "24.4"
+        },
+        "correct_option": "B",
+        "answer": "24.2",
+        "explanation": ""
+    },
+    {
+        "id": "DISC-T07-203",
+        "chapter": "Discount",
+        "type": "Type-VII",
+        "question_number": 203,
+        "question": "Marked price of 42 items equals cost price of 70 items. Selling price of 25 items equals marked price of 21 items. Find profit or loss percentage.",
+        "options": {
+            "A": "42% profit",
+            "B": "29% profit",
+            "C": "29% loss",
+            "D": "40% profit"
+        },
+        "correct_option": "B",
+        "answer": "29% profit",
+        "explanation": ""
+    },
+    {
+        "id": "DISC-T07-204",
+        "chapter": "Discount",
+        "type": "Type-VII",
+        "question_number": 204,
+        "question": "Rohan purchased an item with 13.5% discount on cash and 6.25% surcharge on credit card. Paid \u20b940,964. Find marked price.",
+        "options": {
+            "A": "35700",
+            "B": "38752",
+            "C": "32988",
+            "D": "38554"
+        },
+        "correct_option": "B",
+        "answer": "38752",
+        "explanation": ""
+    },
+    {
+        "id": "DISC-T07-205",
+        "chapter": "Discount",
+        "type": "Type-VII",
+        "question_number": 205,
+        "question": "Retailer buys 220 chocolates at marked price of 198 items and sells each at 3.7% discount. Find profit percentage.",
+        "options": {
+            "A": "7%",
+            "B": "7.2%",
+            "C": "6%",
+            "D": "6.3%"
+        },
+        "correct_option": "B",
+        "answer": "7.2%",
+        "explanation": ""
     }
 ]
