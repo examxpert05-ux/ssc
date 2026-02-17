@@ -30,7 +30,10 @@ export default function QuestionCard({ question, selectedOption, onSelect }) {
                 </h2>
             </motion.div>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <div className={cn(
+                "grid gap-4",
+                question.chapter === 'English' ? "grid-cols-1" : "grid-cols-1 md:grid-cols-2"
+            )}>
                 <AnimatePresence mode='wait'>
                     {options.map((opt, index) => {
                         const isSelected = selectedOption === opt;
