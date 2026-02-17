@@ -1,13 +1,11 @@
 import React from 'react';
 import { useQuiz } from '../../store/quizStore';
 import { motion } from 'framer-motion';
-import { Play, Clock, BookOpen, Filter, Settings, History, ArrowLeft, LayoutDashboard } from 'lucide-react';
+import { Play, Clock, BookOpen, Filter, Settings, History, ArrowLeft, LayoutDashboard, BrainCircuit } from 'lucide-react';
 import { cn } from '../../lib/utils';
 
 export default function StartScreen() {
     const {
-        chapters,
-        types, // Global types list - we need to derived filtered types
         questions,
         filters,
         setFilter,
@@ -16,34 +14,54 @@ export default function StartScreen() {
         questionCount,
         setQuestionCount,
         startQuiz,
-        setCurrentView
+        setCurrentView,
+        mathsChapters,
+        mathsTypes,
+        englishTopics
     } = useQuiz();
 
-    // Derived state for Linked Filters
+    // Derived state for Linked Filters (Maths Only)
     const availableTypes = ['All', ...new Set(questions
         .filter(q => filters.chapter === 'All' || q.chapter === filters.chapter)
         .map(q => q.type)
     )];
 
     // Derived state for Attempt Info
-    const attemptKey = `attempt-${filters.chapter}-${filters.type}`;
+    let attemptKey = '';
+    if (filters.subject === 'Maths') {
+        attemptKey = `attempt-${filters.chapter}-${filters.type}`;
+    } else {
+        attemptKey = `attempt-English-${filters.topic}`;
+    }
     const previousAttempts = parseInt(localStorage.getItem(attemptKey) || '0', 10);
+
+    // Display Time Per Question
     let timePerQ = 60;
-    if (previousAttempts === 1) timePerQ = 45;
-    if (previousAttempts >= 2) timePerQ = 30;
+    if (filters.subject === 'Maths') {
+        if (previousAttempts === 1) timePerQ = 45;
+        if (previousAttempts >= 2) timePerQ = 30;
+    } else {
+        timePerQ = 30; // Fixed for English
+    }
 
     const handleStart = () => {
         startQuiz();
     };
 
     const getQuestionCount = () => {
-        const filteredCount = questions.filter(q =>
-            (filters.chapter === 'All' || q.chapter === filters.chapter) &&
-            (filters.type === 'All' || q.type === filters.type)
-        ).length;
-
-        if (questionCount === 'all') return filteredCount;
-        return Math.min(filteredCount, questionCount);
+        if (filters.subject === 'Maths') {
+            const filteredCount = questions.filter(q =>
+                (filters.chapter === 'All' || q.chapter === filters.chapter) &&
+                (filters.type === 'All' || q.type === filters.type)
+            ).length;
+            if (questionCount === 'all') return filteredCount;
+            return Math.min(filteredCount, questionCount);
+        } else {
+            // For English, we generate questions on the fly, so count isn't strictly limited by a static list length in the same way,
+            // but effectively it's the length of the source array.
+            // Simplified display for now
+            return questionCount === 'all' ? 'All' : questionCount;
+        }
     };
 
     return (
@@ -70,44 +88,89 @@ export default function StartScreen() {
                 initial={{ scale: 0.95, opacity: 0 }}
                 animate={{ scale: 1, opacity: 1 }}
             >
+                {/* Subject Selection - Top Level */}
+                <div className="space-y-2">
+                    <label className="flex items-center gap-2 text-sm font-medium text-slate-300">
+                        <BrainCircuit size={16} className="text-green-400" />
+                        Subject
+                    </label>
+                    <div className="flex bg-slate-800/50 rounded-xl p-1">
+                        {['Maths', 'English'].map(subject => (
+                            <button
+                                key={subject}
+                                onClick={() => setFilter('subject', subject)}
+                                className={cn(
+                                    "flex-1 py-3 text-sm font-bold rounded-lg transition-all",
+                                    filters.subject === subject
+                                        ? "bg-slate-700 text-white shadow-lg ring-1 ring-white/10"
+                                        : "text-slate-400 hover:text-slate-200 hover:bg-white/5"
+                                )}
+                            >
+                                {subject}
+                            </button>
+                        ))}
+                    </div>
+                </div>
+
+
                 {/* Filters Section */}
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                    <div className="space-y-2">
-                        <label className="flex items-center gap-2 text-sm font-medium text-slate-300">
-                            <BookOpen size={16} className="text-blue-400" />
-                            Chapter
-                        </label>
-                        <select
-                            value={filters.chapter}
-                            onChange={(e) => setFilter('chapter', e.target.value)}
-                            className="w-full bg-slate-900/50 border border-slate-700 rounded-xl px-4 py-3 text-slate-200 focus:outline-none focus:ring-2 focus:ring-blue-500/50 transition-all"
-                        >
-                            {chapters.map(c => (
-                                <option key={c} value={c}>{c}</option>
-                            ))}
-                        </select>
-                    </div>
+                    {filters.subject === 'Maths' ? (
+                        <>
+                            <div className="space-y-2">
+                                <label className="flex items-center gap-2 text-sm font-medium text-slate-300">
+                                    <BookOpen size={16} className="text-blue-400" />
+                                    Chapter
+                                </label>
+                                <select
+                                    value={filters.chapter}
+                                    onChange={(e) => setFilter('chapter', e.target.value)}
+                                    className="w-full bg-slate-900/50 border border-slate-700 rounded-xl px-4 py-3 text-slate-200 focus:outline-none focus:ring-2 focus:ring-blue-500/50 transition-all"
+                                >
+                                    {mathsChapters.map(c => (
+                                        <option key={c} value={c}>{c}</option>
+                                    ))}
+                                </select>
+                            </div>
 
-                    <div className="space-y-2">
-                        <label className="flex items-center gap-2 text-sm font-medium text-slate-300">
-                            <Filter size={16} className="text-purple-400" />
-                            Type
-                        </label>
-                        <select
-                            value={filters.type}
-                            onChange={(e) => setFilter('type', e.target.value)}
-                            disabled={filters.chapter === 'All'}
-                            className="w-full bg-slate-900/50 border border-slate-700 rounded-xl px-4 py-3 text-slate-200 focus:outline-none focus:ring-2 focus:ring-purple-500/50 transition-all disabled:opacity-50 disabled:cursor-not-allowed"
-                        >
-                            <option value="All">All Types</option>
-                            {availableTypes.filter(t => t !== 'All').map(t => (
-                                <option key={t} value={t}>{t}</option>
-                            ))}
-                        </select>
-                        {filters.chapter === 'All' && (
-                            <p className="text-xs text-slate-500">Select a chapter first</p>
-                        )}
-                    </div>
+                            <div className="space-y-2">
+                                <label className="flex items-center gap-2 text-sm font-medium text-slate-300">
+                                    <Filter size={16} className="text-purple-400" />
+                                    Type
+                                </label>
+                                <select
+                                    value={filters.type}
+                                    onChange={(e) => setFilter('type', e.target.value)}
+                                    disabled={filters.chapter === 'All'}
+                                    className="w-full bg-slate-900/50 border border-slate-700 rounded-xl px-4 py-3 text-slate-200 focus:outline-none focus:ring-2 focus:ring-purple-500/50 transition-all disabled:opacity-50 disabled:cursor-not-allowed"
+                                >
+                                    <option value="All">All Types</option>
+                                    {availableTypes.filter(t => t !== 'All').map(t => (
+                                        <option key={t} value={t}>{t}</option>
+                                    ))}
+                                </select>
+                                {filters.chapter === 'All' && (
+                                    <p className="text-xs text-slate-500">Select a chapter first</p>
+                                )}
+                            </div>
+                        </>
+                    ) : (
+                        <div className="space-y-2 col-span-2">
+                            <label className="flex items-center gap-2 text-sm font-medium text-slate-300">
+                                <BookOpen size={16} className="text-blue-400" />
+                                Topic
+                            </label>
+                            <select
+                                value={filters.topic}
+                                onChange={(e) => setFilter('topic', e.target.value)}
+                                className="w-full bg-slate-900/50 border border-slate-700 rounded-xl px-4 py-3 text-slate-200 focus:outline-none focus:ring-2 focus:ring-blue-500/50 transition-all"
+                            >
+                                {englishTopics.map(t => (
+                                    <option key={t} value={t}>{t}</option>
+                                ))}
+                            </select>
+                        </div>
+                    )}
                 </div>
 
                 {/* Info & Settings Grid */}
@@ -137,18 +200,22 @@ export default function StartScreen() {
                         <div className="flex bg-slate-800/50 rounded-lg p-1">
                             <button
                                 onClick={() => setTimerMode('question')}
+                                disabled={filters.subject === 'English'}
                                 className={cn(
                                     "flex-1 py-1.5 text-xs font-medium rounded-md transition-all",
-                                    timerMode === 'question' ? "bg-blue-600 text-white shadow" : "text-slate-400 hover:text-slate-200"
+                                    timerMode === 'question' ? "bg-blue-600 text-white shadow" : "text-slate-400 hover:text-slate-200",
+                                    filters.subject === 'English' && "opacity-50 cursor-not-allowed"
                                 )}
                             >
                                 Per Question
                             </button>
                             <button
                                 onClick={() => setTimerMode('overall')}
+                                disabled={filters.subject === 'English'}
                                 className={cn(
                                     "flex-1 py-1.5 text-xs font-medium rounded-md transition-all",
-                                    timerMode === 'overall' ? "bg-blue-600 text-white shadow" : "text-slate-400 hover:text-slate-200"
+                                    timerMode === 'overall' ? "bg-blue-600 text-white shadow" : "text-slate-400 hover:text-slate-200",
+                                    filters.subject === 'English' && "opacity-50 cursor-not-allowed"
                                 )}
                             >
                                 Overall Time
@@ -156,24 +223,22 @@ export default function StartScreen() {
                         </div>
 
                         {/* Question Count */}
-                        {timerMode === 'overall' && (
-                            <div className="flex gap-2">
-                                {[10, 20, 30, 'all'].map(count => (
-                                    <button
-                                        key={count}
-                                        onClick={() => setQuestionCount(count)}
-                                        className={cn(
-                                            "flex-1 py-1.5 text-xs font-medium rounded-md border transition-all",
-                                            questionCount === count
-                                                ? "bg-purple-600/20 border-purple-500/50 text-purple-300"
-                                                : "bg-transparent border-slate-700 text-slate-500 hover:border-slate-500"
-                                        )}
-                                    >
-                                        {count === 'all' ? 'All' : count}
-                                    </button>
-                                ))}
-                            </div>
-                        )}
+                        <div className="flex gap-2">
+                            {[10, 20, 30, 'all'].map(count => (
+                                <button
+                                    key={count}
+                                    onClick={() => setQuestionCount(count)}
+                                    className={cn(
+                                        "flex-1 py-1.5 text-xs font-medium rounded-md border transition-all",
+                                        questionCount === count
+                                            ? "bg-purple-600/20 border-purple-500/50 text-purple-300"
+                                            : "bg-transparent border-slate-700 text-slate-500 hover:border-slate-500"
+                                    )}
+                                >
+                                    {count === 'all' ? 'All' : count}
+                                </button>
+                            ))}
+                        </div>
                     </div>
                 </div>
 
@@ -184,7 +249,7 @@ export default function StartScreen() {
                         className="w-full bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-500 hover:to-purple-500 text-white font-bold py-4 rounded-xl shadow-lg shadow-blue-900/20 flex items-center justify-center gap-3 transition-all transform hover:scale-[1.02] active:scale-[0.98]"
                     >
                         <Play fill="currentColor" size={20} />
-                        Start Quiz ({getQuestionCount()} Qs • {timerMode === 'overall' ? Math.floor((getQuestionCount() * timePerQ) / 60) + ' min' : timePerQ + 's/Q'})
+                        Start Quiz ({getQuestionCount()} Qs)
                     </button>
                 </div>
             </motion.div>

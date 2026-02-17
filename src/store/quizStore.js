@@ -1,5 +1,8 @@
 import { create } from 'zustand';
 import questionsData from '../data/questions.json';
+import idiomsData from '../data/idioms.json';
+import oneWordData from '../data/oneWordSubs.json';
+import synoAntoData from '../data/synoAnto.json';
 
 // Helper to shuffle array (Fisher-Yates)
 const shuffleArray = (array) => {
@@ -11,19 +14,166 @@ const shuffleArray = (array) => {
     return newArray;
 };
 
-// Extract unique chapters and types for filters
-const allChapters = ['All', ...new Set(questionsData.map(q => q.chapter))];
-const allTypes = ['All', ...new Set(questionsData.map(q => q.type))];
+// Helper to clean word from Hindi meaning (e.g., "Desert (छोड़ देना)" -> "Desert")
+const cleanWord = (text) => {
+    if (!text) return '';
+    return text.split('(')[0].trim();
+};
+
+// Helper to generate distractors
+const getDistractors = (correctAnswer, allPossibleAnswers, count = 3) => {
+    const distractors = [];
+    const available = allPossibleAnswers.filter(a => a !== correctAnswer);
+
+    while (distractors.length < count && available.length > 0) {
+        const randomIndex = Math.floor(Math.random() * available.length);
+        const randomDistractor = available[randomIndex];
+        if (!distractors.includes(randomDistractor)) {
+            distractors.push(randomDistractor);
+        }
+    }
+    return distractors;
+};
+
+// Generators for English Questions
+const generateIdiomQuestions = () => {
+    const allMeanings = idiomsData.map(item => item.meaning);
+    return idiomsData.map((item, index) => {
+        const distractors = getDistractors(item.meaning, allMeanings);
+        const options = shuffleArray([item.meaning, ...distractors]);
+        const correctOptionIndex = options.indexOf(item.meaning);
+        const optionKeys = ['A', 'B', 'C', 'D'];
+
+        return {
+            id: `IDIOM-${index}`,
+            chapter: 'English',
+            type: 'Idioms',
+            question: `What is the meaning of the idiom: "${item.idiom_phrase}"?`,
+            options: {
+                A: options[0],
+                B: options[1],
+                C: options[2],
+                D: options[3]
+            },
+            correct_option: optionKeys[correctOptionIndex],
+            answer: item.meaning,
+            explanation: `Hindi Meaning: ${item.hindi_meaning}`
+        };
+    });
+};
+
+const generateOneWordQuestions = () => {
+    const allWords = oneWordData.map(item => cleanWord(item.one_word));
+    return oneWordData.map((item, index) => {
+        const correctWord = cleanWord(item.one_word);
+        const distractors = getDistractors(correctWord, allWords);
+        const options = shuffleArray([correctWord, ...distractors]);
+        const correctOptionIndex = options.indexOf(correctWord);
+        const optionKeys = ['A', 'B', 'C', 'D'];
+
+        return {
+            id: `OWS-${index}`,
+            chapter: 'English',
+            type: 'One Word Substitution',
+            question: `Substitute one word for: "${item.phrases}"`,
+            options: {
+                A: options[0],
+                B: options[1],
+                C: options[2],
+                D: options[3]
+            },
+            correct_option: optionKeys[correctOptionIndex],
+            answer: correctWord,
+            explanation: `Hindi: ${item.hindi}`
+        };
+    });
+};
+
+const generateSynoAntoQuestions = () => {
+    const questions = [];
+    const allWords = [];
+
+    // Collect all unique words for distractors
+    synoAntoData.forEach(item => {
+        if (item.synonyms) item.synonyms.split(',').forEach(w => allWords.push(cleanWord(w)));
+        if (item.antonyms) item.antonyms.split(',').forEach(w => allWords.push(cleanWord(w)));
+    });
+
+    synoAntoData.forEach((item, index) => {
+        const word = cleanWord(item.word);
+
+        // 1. Synonym Question (if available)
+        if (item.synonyms) {
+            const synonymsList = item.synonyms.split(',').map(cleanWord);
+            if (synonymsList.length > 0) {
+                const correctSynonym = synonymsList[0]; // Take first for simplicity, or random
+                const distractors = getDistractors(correctSynonym, allWords);
+                const options = shuffleArray([correctSynonym, ...distractors]);
+                const correctOptionIndex = options.indexOf(correctSynonym);
+                const optionKeys = ['A', 'B', 'C', 'D'];
+
+                questions.push({
+                    id: `SYNO-${index}`,
+                    chapter: 'English',
+                    type: 'Synonyms',
+                    question: `What is a synonym for "${word}"?`,
+                    options: { A: options[0], B: options[1], C: options[2], D: options[3] },
+                    correct_option: optionKeys[correctOptionIndex],
+                    answer: correctSynonym,
+                    explanation: `Hindi: ${item.hindi}`
+                });
+            }
+        }
+
+        // 2. Antonym Question (if available)
+        if (item.antonyms && item.antonyms.trim() !== '') {
+            const antonymsList = item.antonyms.split(',').map(cleanWord);
+            if (antonymsList.length > 0) {
+                const correctAntonym = antonymsList[0];
+                const distractors = getDistractors(correctAntonym, allWords);
+                const options = shuffleArray([correctAntonym, ...distractors]);
+                const correctOptionIndex = options.indexOf(correctAntonym);
+                const optionKeys = ['A', 'B', 'C', 'D'];
+
+                questions.push({
+                    id: `ANTO-${index}`,
+                    chapter: 'English',
+                    type: 'Antonyms',
+                    question: `What is an antonym for "${word}"?`,
+                    options: { A: options[0], B: options[1], C: options[2], D: options[3] },
+                    correct_option: optionKeys[correctOptionIndex],
+                    answer: correctAntonym,
+                    explanation: `Hindi: ${item.hindi}`
+                });
+            }
+        }
+    });
+
+    return questions;
+};
+
+
+// Extract unique chapters and types for Maths filters
+const mathsChapters = ['All', ...new Set(questionsData.map(q => q.chapter))];
+const mathsTypes = ['All', ...new Set(questionsData.map(q => q.type))];
 
 export const useQuiz = create((set, get) => ({
     // Data
     questions: questionsData,
     filteredQuestions: [],
-    chapters: allChapters,
-    types: allTypes,
+
+    // Filter Options
+    mathsChapters: mathsChapters,
+    mathsTypes: mathsTypes,
+    englishTopics: ['Idioms', 'One Word Substitution', 'Synonyms', 'Antonyms'], // Broken out Syno/Anto for clarity
 
     // Settings
-    filters: { chapter: 'All', type: 'All' },
+    filters: {
+        subject: 'Maths', // 'Maths' | 'English'
+        chapter: 'All',   // For Maths
+        type: 'All',      // For Maths
+        topic: 'Idioms'   // For English
+    },
 
     // New V2 Settings
     timerMode: 'question', // 'question' | 'overall'
@@ -43,11 +193,21 @@ export const useQuiz = create((set, get) => ({
     score: 0,
 
     // Actions
-    setFilter: (key, value) => set((state) => ({
-        filters: { ...state.filters, [key]: value },
-        // Reset type if chapter changes to avoid invalid combinations
-        ...(key === 'chapter' ? { filters: { ...state.filters, chapter: value, type: 'All' } } : {})
-    })),
+    setFilter: (key, value) => set((state) => {
+        const newFilters = { ...state.filters, [key]: value };
+
+        // Reset dependent filters
+        if (key === 'subject') {
+            newFilters.chapter = 'All';
+            newFilters.type = 'All';
+            newFilters.topic = 'Idioms'; // Default topic
+        }
+        if (key === 'chapter') {
+            newFilters.type = 'All';
+        }
+
+        return { filters: newFilters };
+    }),
 
     setTimerMode: (mode) => set({ timerMode: mode }),
     setQuestionCount: (count) => set({ questionCount: count }),
@@ -63,7 +223,7 @@ export const useQuiz = create((set, get) => ({
 
     saveResult: (result) => {
         const { user, history } = get();
-        if (!user) return; // Should not happen if enforced
+        if (!user) return;
 
         const newHistory = [result, ...history];
         set({ history: newHistory });
@@ -72,28 +232,50 @@ export const useQuiz = create((set, get) => ({
 
     startQuiz: () => {
         const { questions, filters, questionCount, timerMode } = get();
+        let filtered = [];
+        let timePerQ = 60;
+        let attemptKey = '';
 
-        // 1. Filter Questions
-        let filtered = questions.filter(q => {
-            const chapterMatch = filters.chapter === 'All' || q.chapter === filters.chapter;
-            const typeMatch = filters.type === 'All' || q.type === filters.type;
-            return chapterMatch && typeMatch;
-        });
+        if (filters.subject === 'Maths') {
+            // MATHS LOGIC
+            filtered = questions.filter(q => {
+                const chapterMatch = filters.chapter === 'All' || q.chapter === filters.chapter;
+                const typeMatch = filters.type === 'All' || q.type === filters.type;
+                return chapterMatch && typeMatch;
+            });
 
-        // 2. Logic for Attempts & Adaptive Time
-        const attemptKey = `attempt-${filters.chapter}-${filters.type}`;
-        const previousAttempts = parseInt(localStorage.getItem(attemptKey) || '0', 10);
+            attemptKey = `attempt-${filters.chapter}-${filters.type}`;
+            const previousAttempts = parseInt(localStorage.getItem(attemptKey) || '0', 10);
 
-        let timePerQ = 60; // Default 1st try
-        if (previousAttempts === 1) timePerQ = 45; // 2nd try
-        if (previousAttempts >= 2) timePerQ = 30; // 3rd+ try
+            // Adaptive time for Maths
+            if (previousAttempts === 1) timePerQ = 45;
+            if (previousAttempts >= 2) timePerQ = 30;
+
+        } else {
+            // ENGLISH LOGIC
+            if (filters.topic === 'Idioms') {
+                filtered = generateIdiomQuestions();
+            } else if (filters.topic === 'One Word Substitution') {
+                filtered = generateOneWordQuestions();
+            } else if (filters.topic === 'Synonyms' || filters.topic === 'Antonyms') {
+                // For now, let's mix them or filter if we want specific
+                const allSynoAnto = generateSynoAntoQuestions();
+                filtered = allSynoAnto.filter(q => filters.topic === 'Synonyms' ? q.type === 'Synonyms' : q.type === 'Antonyms');
+            }
+
+            // Fixed time for English
+            timePerQ = 30;
+            attemptKey = `attempt-English-${filters.topic}`; // Just for tracking, not adaptive time yet
+        }
 
         // 3. Handle Question Count Limit
         if (questionCount !== 'all') {
             filtered = shuffleArray(filtered).slice(0, typeof questionCount === 'string' ? filtered.length : questionCount);
         } else {
-            // Optional: shuffle even for 'all' to keep it fresh?
-            // filtered = shuffleArray(filtered);
+            // Always shuffle for English since it's generated from a list
+            if (filters.subject === 'English') {
+                filtered = shuffleArray(filtered);
+            }
         }
 
         // 4. Calculate Total Time (if Overall mode)
@@ -105,12 +287,18 @@ export const useQuiz = create((set, get) => ({
             currentQuestionIndex: 0,
             answers: {},
             score: 0,
-            timePerQuestion: timePerQ,
-            totalTime: calculatedTotalTime
+            timePerQuestion: timePerQ, // Will be ignored if timerMode is 'overall' but good to have
+            totalTime: calculatedTotalTime,
+            // Force question timer for English if requested? Plan said "Enforce 30s timer per question"
+            timerMode: filters.subject === 'English' ? 'question' : timerMode
         });
 
         // Check for revision screen requirement (Chapter 1: Percentage)
-        if (filters.chapter === 'Percentage') {
+        if (filters.subject === 'Maths' && filters.chapter === 'Percentage') {
+            // For now, keeping this logic, but might need adjustment if RevisionScreen isn't compatible with "All"
+            // actually standard startQuiz is fine for now.
+            // set({ quizStatus: 'revision' }); // Disable revision screen for now to test standard flow first? 
+            // Logic in StartScreen calls startQuiz. App.jsx switches view.
             set({ quizStatus: 'revision' });
         }
     },
@@ -153,23 +341,30 @@ export const useQuiz = create((set, get) => ({
         const totalQ = filteredQuestions.length;
         const answeredCount = Object.keys(answers).length;
         const correctCount = filteredQuestions.filter(q => answers[q.id] === q.correct_option).length;
-        const accuracy = totalQ > 0 ? Math.round((correctCount / totalQ) * 100) : 0; // Usage based accuracy? Or Attempted? Usually Total.
+        const accuracy = totalQ > 0 ? Math.round((correctCount / totalQ) * 100) : 0;
 
-        // Increment attempt counter locally for adaptive time
-        const attemptKey = `attempt-${filters.chapter}-${filters.type}`;
+        // Increment attempt counter
+        let attemptKey = '';
+        if (filters.subject === 'Maths') {
+            attemptKey = `attempt-${filters.chapter}-${filters.type}`;
+        } else {
+            attemptKey = `attempt-English-${filters.topic}`;
+        }
+
         const currentAttempts = parseInt(localStorage.getItem(attemptKey) || '0', 10);
         localStorage.setItem(attemptKey, (currentAttempts + 1).toString());
 
         // Save to User History
         saveResult({
             date: new Date().toISOString(),
-            chapter: filters.chapter,
-            type: filters.type,
+            subject: filters.subject,
+            chapter: filters.subject === 'Maths' ? filters.chapter : filters.topic,
+            type: filters.subject === 'Maths' ? filters.type : 'N/A',
             score,
             totalQuestions: totalQ,
             accuracy,
             correct: correctCount,
-            wrong: answeredCount - correctCount, // Approximation if we don't count skipped as wrong explicitly here
+            wrong: answeredCount - correctCount,
         });
 
         set({ quizStatus: 'completed' });
@@ -180,6 +375,6 @@ export const useQuiz = create((set, get) => ({
         currentQuestionIndex: 0,
         answers: {},
         score: 0,
-        // Keep filters and settings for UX
     })
 }));
+

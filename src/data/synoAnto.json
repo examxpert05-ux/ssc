@@ -1,0 +1,794 @@
+[
+    {
+        "sn": 1,
+        "word": "Abandon (N./V.)",
+        "hindi": "छोड़ देना",
+        "repetition": "15 (6)",
+        "synonyms": "Desert (छोड़ देना), Forsake (त्यागना), Dereliction (उपेक्षा, कर्तव्य का त्याग), Discontinue (बंद करना), Leave (छोड़ना), Unrestraint (अनियंत्रित)",
+        "antonyms": "Retain (बनाये रखना), Support (समर्थन), Constraint (बाध्यता), Continue (जारी रखना), Kept (रखा हुआ)"
+    },
+    {
+        "sn": 2,
+        "word": "Abundant (Adj.)",
+        "hindi": "प्रचुर",
+        "repetition": "15 (9)",
+        "synonyms": "Plentiful (प्रचुर), Ample (काफ़ी), Plenty (प्रचुर), Copious (अधिक)",
+        "antonyms": "Meagre (अल्प), Scarce (कम), Insufficient (अपर्याप्त), Scant (अपर्याप्त)"
+    },
+    {
+        "sn": 3,
+        "word": "Timid (Adj.)",
+        "hindi": "डरपोक",
+        "repetition": "11 (12)",
+        "synonyms": "Coward (कायर), Shy (शर्मीला), Humble (विनम्र), Fearful (भयभीत), Nervous (घबराया हुआ), Meek (विनम्र)",
+        "antonyms": "Brave (साहसी), Bold (साहसिक), Courageous (वीर), Venturesome (साहसिक), Confident (आत्मविश्वासी)"
+    },
+    {
+        "sn": 4,
+        "word": "Candid (Adj.)",
+        "hindi": "निष्कपट, स्पष्ट",
+        "repetition": "13 (8)",
+        "synonyms": "Frank (स्पष्टवादी), Honest (ईमानदार), Forthright (निष्कपट), Blunt (स्पष्टवादी), Direct (प्रत्यक्ष), Outspoken (मुखर), Bluff (धोखा), Straightforward (सीधा)",
+        "antonyms": "Devious (कपटी), Cunning (चालाक), Artful (धूर्त), Deceitful (धोखेबाज), Biased (पक्षपाती), Tactful (चतुर), Guarded (सतर्क)"
+    },
+    {
+        "sn": 5,
+        "word": "Barren (Adj.)",
+        "hindi": "बांझ",
+        "repetition": "12 (7)",
+        "synonyms": "Unproductive (अनुत्पादक), Infertile (बंजर), Fruitless (निष्फल), Desolate (उजड़ा हुआ), Unfruitful (फलहीन)",
+        "antonyms": "Fertile (उपजाऊ)"
+    },
+    {
+        "sn": 6,
+        "word": "Dubious (Adj.)",
+        "hindi": "संदिग्ध",
+        "repetition": "10 (8)",
+        "synonyms": "Doubtful (संदेहपूर्ण), Fishy (संदेहजनक), Uncertain (अनिश्चित), Unclear (अस्पष्ट)",
+        "antonyms": "Likely (संभवतः), Certain (निश्चित), Indisputable (अविवादित), Trustworthy (विश्वसनीय), Incontestable (निस्संदेह)"
+    },
+    {
+        "sn": 7,
+        "word": "Feeble (Adj.)",
+        "hindi": "कमजोर",
+        "repetition": "10 (8)",
+        "synonyms": "Weak (दुर्बल), Wimpy (कमजोर)",
+        "antonyms": "Strong (मजबूत), Effective (प्रभावी), Sturdy (मजबूत), Powerful (शक्तिशाली), Competent (सक्षम), Durable (टिकाऊ)"
+    },
+    {
+        "sn": 8,
+        "word": "Frugal/Frugality (Adj./N.)",
+        "hindi": "अल्पव्ययी",
+        "repetition": "13 (8)",
+        "synonyms": "Economical (किफायती)",
+        "antonyms": "Extravagant (फिजूलखर्ची), Prodigality (फिजूलखर्च), Generosity (उदारता), Luxury (विलासिता), Extravagance (अतिव्यय)"
+    },
+    {
+        "sn": 9,
+        "word": "Spurious (Adj.)",
+        "hindi": "जाली",
+        "repetition": "10 (8)",
+        "synonyms": "Fake (नकली), Fraudulent (धोखाधड़ी), Feigned (बनावटी)",
+        "antonyms": "Authentic (वास्तविक), Genuine (असली), Real (वास्तविक)"
+    },
+    {
+        "sn": 10,
+        "word": "Absurd (Adj.)",
+        "hindi": "बेतुका",
+        "repetition": "10 (8)",
+        "synonyms": "Ridiculous (ऊटपटाँग), Foolish (मूर्ख), Senseless (निरर्थक), Unreasonable (अतार्किक)",
+        "antonyms": "Sensible (समझदार), Reasonable (उचित), Realistic (वास्तविक), Rational (तर्कसंगत)"
+    },
+    {
+        "sn": 11,
+        "word": "Baffle (V.)",
+        "hindi": "चकित करना",
+        "repetition": "16 (2)",
+        "synonyms": "Puzzle (पहेली), Perplex (उलझन में डालना), Amaze (आश्चर्यचकित करना), Confusion (भ्रम)",
+        "antonyms": "Composed (बेफिक्र), Comprehensible (समझने योग्य), Enlighten (जागरूक करना), Facilitate (सुगम बनाना)"
+    },
+    {
+        "sn": 12,
+        "word": "Colossal (Adj.)",
+        "hindi": "विशाल",
+        "repetition": "9 (10)",
+        "synonyms": "Enormous (विशाल), Gigantic (बहुत बड़ा), Immense (अपार), Huge (विशाल)",
+        "antonyms": "Small (छोटा), Minimal (न्यूनतम), Tiny (बहुत ही छोटा), Petite (बहुत ही छोटी), Short (छोटा)"
+    },
+    {
+        "sn": 13,
+        "word": "Diligent (Adj.)",
+        "hindi": "परिश्रमी",
+        "repetition": "11 (7)",
+        "synonyms": "Industrious (परिश्रमी), Hardworking (मेहनती), Assiduous (परिश्रमी), Untiring (न थकने वाला), Careful (सावधान), Conscientious (ईमानदार), Meticulous (सूक्ष्म)",
+        "antonyms": "Lazy (आलसी), Careless (लापरवाह), Idle (निष्क्रिय)"
+    },
+    {
+        "sn": 14,
+        "word": "Harmony (N.)",
+        "hindi": "सामंजस्य",
+        "repetition": "12 (6)",
+        "synonyms": "Consensus (सहमति), Peace (शांति), Unity (एकता), Accord (समझौता)",
+        "antonyms": "Strife (संघर्ष), Conflict (विवाद), Hatred (घृणा), Discord (कलह), Discordance (असामंजस्य), Incoherence (असंगति)"
+    },
+    {
+        "sn": 15,
+        "word": "Eccentric (Adj./N.)",
+        "hindi": "विचित्र, सनकी",
+        "repetition": "10 (7)",
+        "synonyms": "Queer (अजीब), Peculiar (विशेष), Bizarre (अजीब), Idiosyncratic (विशिष्ट स्वभाव वाला), Unconventional (अपरंपरागत), Abnormal (असामान्य), Strange (अजीब)",
+        "antonyms": "Customary (पारंपरिक), Normal (सामान्य)"
+    },
+    {
+        "sn": 16,
+        "word": "Mitigate (V.)",
+        "hindi": "कम करना",
+        "repetition": "12 (5)",
+        "synonyms": "Lessen (कम करना), Reduce (घटाना), Allay (कम करना), Alleviate (कम करना), Relieve (राहत देना), Diminish (कम करना)",
+        "antonyms": "Enhance (बढ़ाना), Intensify (तीव्र करना), Increase (बढ़ाना)"
+    },
+    {
+        "sn": 17,
+        "word": "Trivial (Adj.)",
+        "hindi": "तुच्छ",
+        "repetition": "9 (8)",
+        "synonyms": "Superficial (सतही), Small (छोटा), Minor (छोटा), Insignificant (महत्वहीन), Unimportant (महत्वहीन)",
+        "antonyms": "Profound (गहन), Significant (महत्वपूर्ण), Important (महत्वपूर्ण)"
+    },
+    {
+        "sn": 18,
+        "word": "Coarse (Adj.)",
+        "hindi": "खुरदुरा, अशोधित",
+        "repetition": "8 (8)",
+        "synonyms": "Rough (खुरदरा), Crude (असभ्य), Scratchy (खुरदुरा)",
+        "antonyms": "Smooth (चिकना), Gentle (कोमल), Refined (सस्कारित), Buttery (मक्खन जैसा), Soft (कोमल), Delicate (नाजुक), Fine (महीन), Chaste (पवित्र)"
+    },
+    {
+        "sn": 19,
+        "word": "Sporadic (Adj.)",
+        "hindi": "छिटपुट",
+        "repetition": "10 (6)",
+        "synonyms": "Scattered (बिखरे हुए), Occasional (कभी-कभार), Infrequent (दुर्लभ), Intermittent (अंतरायिक)",
+        "antonyms": "Systematic (नियमित), Frequent (बार-बार), Persistent (दृढ़), Regular (नियमित), Constant (स्थिर)"
+    },
+    {
+        "sn": 20,
+        "word": "Transient (Adj./N.)",
+        "hindi": "क्षणिक",
+        "repetition": "10 (6)",
+        "synonyms": "Transitory (अस्थायी), Fleeting (फुर्तीला), Temporary (अस्थायी)",
+        "antonyms": "Permanent (स्थायी), Lasting (स्थायी), Eternal (अनन्त), Perpetual (निरंतर)"
+    },
+    {
+        "sn": 21,
+        "word": "Apparent (Adj.)",
+        "hindi": "स्पष्ट",
+        "repetition": "9 (6)",
+        "synonyms": "Obvious (स्पष्ट), Manifest (स्पष्ट), Seemingly (जाहिर तौर पर), Evident (स्पष्ट), Presumed (माना जाता है)",
+        "antonyms": "Ambiguous (अस्पष्ट), Hidden (छिपा), Vague (अस्पष्ट), Substantiated (सिद्ध)"
+    },
+    {
+        "sn": 22,
+        "word": "Benevolent (Adj.)",
+        "hindi": "परोपकारी",
+        "repetition": "9 (6)",
+        "synonyms": "Kind (दयालु), Generous (उदार), Gracious (कृपालु), Compassionate (करुणामय)",
+        "antonyms": "Malevolent (दुर्भावनापूर्ण), Merciless (निर्दयी), Stingy (कंजूस), Selfish (स्वार्थी), Miserly (कंजूस)"
+    },
+    {
+        "sn": 23,
+        "word": "Clandestine (Adj.)",
+        "hindi": "गुप्त",
+        "repetition": "6 (9)",
+        "synonyms": "Secret (गुप्त), Covert (गुप्त)",
+        "antonyms": "Open (खुला), Honest (निष्कपट), Overt (प्रत्यक्ष), Known (ज्ञात), Conspicuous (स्पष्ट), Public (सार्वजनिक), Legal (कानूनी)"
+    },
+    {
+        "sn": 24,
+        "word": "Gloomy (Adj.)",
+        "hindi": "उदास",
+        "repetition": "11 (4)",
+        "synonyms": "Murky (गहरा), Dull (सुस्त), Unhappy (असंतुष्ट), Cloudy (बादल छाये), Depressed (उदास)",
+        "antonyms": "Bright (उज्ज्वल), Radiant (चमकदार), Buoyant (प्रसन्न), Cheerful (खुश)"
+    },
+    {
+        "sn": 25,
+        "word": "Morose (Adj.)",
+        "hindi": "उदास",
+        "repetition": "9 (6)",
+        "synonyms": "Gloomy (उदास), Sullen (बदमिजाज), Ill-Tempered (बदमिजाज)",
+        "antonyms": "Cheerful (खुश), Uplifted (उत्साहित)"
+    },
+    {
+        "sn": 26,
+        "word": "Obscure (Adj./V.)",
+        "hindi": "अस्पष्ट",
+        "repetition": "6 (9)",
+        "synonyms": "Uncertain (अस्पष्ट), Conceal (छिपाना)",
+        "antonyms": "Clear (स्पष्ट), Well Known (प्रसिद्ध)"
+    },
+    {
+        "sn": 27,
+        "word": "Perilous (Adj.)",
+        "hindi": "खतरनाक",
+        "repetition": "12 (3)",
+        "synonyms": "Hazardous (खतरनाक), Dangerous (खतरनाक), Risky (जोखिम भरा)",
+        "antonyms": "Safe (सुरक्षित)"
+    },
+    {
+        "sn": 28,
+        "word": "Authentic (Adj.)",
+        "hindi": "विश्वसनीय",
+        "repetition": "9 (5)",
+        "synonyms": "Certain (निश्चित), Genuine (वास्तविक)",
+        "antonyms": "False (असत्य), Fake (नकली), Disprove (झूठा ठहराना), Corrupt (दूषित), Falsified (झूठा)"
+    },
+    {
+        "sn": 29,
+        "word": "Awkward (Adj.)",
+        "hindi": "बेढंगा",
+        "repetition": "10 (4)",
+        "synonyms": "Clumsy (अनाड़ी), Unskilful (अकुशल)",
+        "antonyms": "Convenient (सुविधाजनक), Graceful (गरिमापूर्ण), Clever (चतुर)"
+    },
+    {
+        "sn": 30,
+        "word": "Conceal (V.)",
+        "hindi": "छिपाना",
+        "repetition": "9 (5)",
+        "synonyms": "Hide (छुपाना), Disguised (वेश बदलना)",
+        "antonyms": "Reveal (दिखाना), Unwrap (खोलना)"
+    },
+    {
+        "sn": 31,
+        "word": "Generous (Adj.)",
+        "hindi": "उदार",
+        "repetition": "7 (7)",
+        "synonyms": "Benevolent (दयालु), Magnanimous (उदार)",
+        "antonyms": "Stingy (कंजूस), Miserly (कंजूसी), Inconsiderate (विचारहीन), Selfish (स्वार्थी), Greedy (लालची), Uncharitable (कृपाहीन), Niggard (कंजूस)"
+    },
+    {
+        "sn": 32,
+        "word": "Modest (Adj.)",
+        "hindi": "विनम्र",
+        "repetition": "9 (5)",
+        "synonyms": "Humble (नम्र), Shy (शर्मीला), Demure (संकोची)",
+        "antonyms": "Vain (अहंकारी), Conceited (घमंडी), Arrogant (अकड़बाज), Immodest (अशिष्ट)"
+    },
+    {
+        "sn": 33,
+        "word": "Transparent (Adj.)",
+        "hindi": "पारदर्शी",
+        "repetition": "10 (4)",
+        "synonyms": "Lucid (स्पष्ट), Clear (साफ)",
+        "antonyms": "Opaque (अपार्दशी)"
+    },
+    {
+        "sn": 34,
+        "word": "Vigilant (Adj.)",
+        "hindi": "सावधान",
+        "repetition": "9 (5)",
+        "synonyms": "Watchful (चौकस), Cautious (सतर्क), Alert (सतर्क), Aware (जागरूक)",
+        "antonyms": "Rash (अविवेकी), Careless (लापरवाह), Inattentive (असावधान)"
+    },
+    {
+        "sn": 35,
+        "word": "Alleviate (V.)",
+        "hindi": "कम करना",
+        "repetition": "4 (9)",
+        "synonyms": "Mitigate (कम करना), Relieve (राहत देता), Diminish (कम होना), Lessen (कम करना), Mollify (मनाना)",
+        "antonyms": "Aggravate (बढ़ाना), Exaggerate (अतिशय करना), Ameliorate (सुधारना)"
+    },
+    {
+        "sn": 36,
+        "word": "Dismal (Adj.)",
+        "hindi": "निराशाजनक",
+        "repetition": "N/A",
+        "synonyms": "Gloomy (उदास), Dejected (निराश)",
+        "antonyms": "Cheerful (प्रसन्न), Intelligent (बुद्धिमान), Lively (जीवंत), Bright (उज्ज्वल), Animated (जीवंत), Positive (सकारात्मक), Pleasant (सुखद)"
+    },
+    {
+        "sn": 37,
+        "word": "Erudite (Adj.)",
+        "hindi": "विद्वान",
+        "repetition": "11 (2)",
+        "synonyms": "Scholarly (विद्वतापूर्ण), Learned (ज्ञानी), Knowledgeable (जानकार)",
+        "antonyms": "Unscholarly (अविद्वान), Ignorant (अज्ञानी)"
+    },
+    {
+        "sn": 38,
+        "word": "Genuine (Adj.)",
+        "hindi": "असली",
+        "repetition": "11/2",
+        "synonyms": "Original (मूल), Authentic (वास्तविक), Real (वास्तविक), True (सच)",
+        "antonyms": "Fake (नकली), Spurious (जाली), Dubious (संदिग्ध)"
+    },
+    {
+        "sn": 39,
+        "word": "Humble (Adj.)",
+        "hindi": "विनम्र",
+        "repetition": "11 (2)",
+        "synonyms": "Meek (दब्बू), Modest (सादगी), Unassuming (विनम्र)",
+        "antonyms": "Arrogant (अभिमानी), Assertive (आत्मविश्वासी), Pompous (आत्मप्रशंसक)"
+    },
+    {
+        "sn": 40,
+        "word": "Insipid (Adj.)",
+        "hindi": "फीका",
+        "repetition": "6 (7)",
+        "synonyms": "Bland (बेस्वाद), Plain (सादा), Flat (समतल), Dull (नीरस), Prosaic (सामान्य)",
+        "antonyms": "Tasty (स्वादिष्ट), Interesting (रोचक), Delicious (स्वादिष्ट)"
+    },
+    {
+        "sn": 41,
+        "word": "Judicious (Adj.)",
+        "hindi": "विवेकी",
+        "repetition": "10 (3)",
+        "synonyms": "Wise (बुद्धिमान), Cautious (सतर्क), Prudent (चतुर), Thoughtful (विचारशील), Sensible (समझदार), Reasonable (तर्कसंगत)",
+        "antonyms": "Rash (उतावला), Unwise (मूर्ख)"
+    },
+    {
+        "sn": 42,
+        "word": "Lucid (Adj.)",
+        "hindi": "स्पष्ट",
+        "repetition": "12 (1)",
+        "synonyms": "Clear (स्पष्ट)",
+        "antonyms": "Vague (अस्पष्ट), Confusing (भ्रमित), Dark (अंधेरा), Ambiguous (अस्पष्ट), Obscure (अस्पष्ट)"
+    },
+    {
+        "sn": 43,
+        "word": "Meagre (Adj.)",
+        "hindi": "अपर्याप्त",
+        "repetition": "5 (7)",
+        "synonyms": "Inadequate (अपर्याप्त), Scanty (कम), Insufficient (अपर्याप्त), Scarce (दुर्लभ)",
+        "antonyms": "Plentiful (प्रचुर), Sufficient (पर्याप्त), Abundant (प्रचुर)"
+    },
+    {
+        "sn": 44,
+        "word": "Meticulous (Adj.)",
+        "hindi": "सावधान",
+        "repetition": "7 (6)",
+        "synonyms": "Careful (सावधान), Methodical (नियमित), Perfectionist (पूर्णतावादी), Scrupulous (नैतिकतापूर्ण), Conscientious (अंतरात्मा के अनुसार)",
+        "antonyms": "Careless (लापरवाह), Chaotic (अराजकता), Haphazard (अव्यवस्थित), Sloppy (लापरवाह)"
+    },
+    {
+        "sn": 45,
+        "word": "Obstinate (Adj.)",
+        "hindi": "जिद्दी",
+        "repetition": "10 (3)",
+        "synonyms": "Stubborn (जिद्दी), Adamant (अडिग), Tenacious (हठी)",
+        "antonyms": "Flexible (लचीला), Docile (दब्बू), Obedient (आज्ञाकारी), Amenable (आज्ञाकारी)"
+    },
+    {
+        "sn": 46,
+        "word": "Persuade (V.)",
+        "hindi": "राजी करना",
+        "repetition": "12 (1)",
+        "synonyms": "Coax (फुसलाना), Convince (समझाना)",
+        "antonyms": "Dissuade (मना करना), Prevent (रोकना), Halt (रुकना), Deter (हतोत्साहित करना), Discourage (हतोत्साहित करना)"
+    },
+    {
+        "sn": 47,
+        "word": "Reluctant (Adj.)",
+        "hindi": "अनिच्छुक",
+        "repetition": "7 (6)",
+        "synonyms": "Hesitant (हिचकिचाता हुआ), Unwilling (अनिच्छुक), Averse (विरुद्ध), Disinclined (अनिच्छुक)",
+        "antonyms": "Eager (उत्सुक), Willing (इच्छुक), Inclined (इच्छुक), Enthusiastic (उत्साही)"
+    },
+    {
+        "sn": 48,
+        "word": "Accomplish (V.)",
+        "hindi": "सफल होना",
+        "repetition": "6 (6)",
+        "synonyms": "Achieve (प्राप्त करना), Attain (हासिल करना)",
+        "antonyms": "Fail (असफल होना), Miss (छूट जाना), Fiasco (असफलता)"
+    },
+    {
+        "sn": 50,
+        "word": "Admonish (V.)",
+        "hindi": "डाँटना",
+        "repetition": "7 (5)",
+        "synonyms": "Chide (डाँटना), Reprimand (डाँटना), Warning (चेतावनी), Counsel (सलाह देना), Censure (निंदा करना)",
+        "antonyms": "Praise (प्रशंसा), Applaud (तालियाँ बजाना), Compliment (प्रशंसा)"
+    },
+    {
+        "sn": 51,
+        "word": "Affluence (N.)",
+        "hindi": "समृद्धि",
+        "repetition": "N/A",
+        "synonyms": "Wealth (धन) , Richness (धनी)",
+        "antonyms": "Poverty (गरीबी) , Indigence (दरिद्रता) , Destitution (निर्धनता)"
+    },
+    {
+        "sn": 52,
+        "word": "Affluent (Adj.)",
+        "hindi": "धनी",
+        "repetition": "8 (4)",
+        "synonyms": "Prosperous (समृद्ध) , Wealthy (धनी)",
+        "antonyms": "Poor (गरीब) , Deprived (वंचित) , Failing (विफल)"
+    },
+    {
+        "sn": 53,
+        "word": "Amiable/Amicable (Adj.)",
+        "hindi": "मिलनसार",
+        "repetition": "12",
+        "synonyms": "Friendly (मित्रभावपूर्ण)",
+        "antonyms": "Hostile (शत्रुतापूर्ण) , Unfriendly (अमित्रभावपूर्ण)"
+    },
+    {
+        "sn": 54,
+        "word": "Arrogant (Adj.)",
+        "hindi": "अभिमानी",
+        "repetition": "9 (3)",
+        "synonyms": "Haughty (घमंडी)",
+        "antonyms": "Modest (विनम्र) , Humble (विनम्र) , Humility (विनम्रता)"
+    },
+    {
+        "sn": 55,
+        "word": "Barbaric (Adj.)",
+        "hindi": "क्रूर, निर्दय",
+        "repetition": "7 (5)",
+        "synonyms": "Uncivilized (असभ्य) , Crude (अशिष्ट) , Brutal (निर्दयी)",
+        "antonyms": "Civilized (सभ्य)"
+    },
+    {
+        "sn": 56,
+        "word": "Bleak (Adj.)",
+        "hindi": "उदास",
+        "repetition": "6 (6)",
+        "synonyms": "Depressing (उदासीन) , Grim (भयानक) , Gloomy (उदास)",
+        "antonyms": "Bright (प्रफुल्लित) , Cordial (सौहार्दपूर्ण) , Verdant (हरा-भरा)"
+    },
+    {
+        "sn": 57,
+        "word": "Boisterous (Adj.)",
+        "hindi": "कोलाहलपूर्ण",
+        "repetition": "N/A",
+        "synonyms": "Noisy (शोरगुल) , Clamorous (कोलाहलपूर्ण) , Rowdy (उपद्रवी)",
+        "antonyms": "Calm (शांत) , Peaceful (शांतिपूर्ण) , Restrained (संयमित) , Silent (मौन) , Solemn (गंभीर) , Phlegmatic (शांत)"
+    },
+    {
+        "sn": 58,
+        "word": "Copious (Adj.)",
+        "hindi": "प्रचुर",
+        "repetition": "6 (6)",
+        "synonyms": "Plentiful (प्रचुर) , Profuse (अत्यधिक) , Extensive (व्यापक)",
+        "antonyms": "Scarce (दुर्लभ) , Meagre (अल्प) , Shortage (कमी)"
+    },
+    {
+        "sn": 59,
+        "word": "Fickle (Adj.)",
+        "hindi": "चंचल",
+        "repetition": "4 (8)",
+        "synonyms": "Unstable (अस्थिर) , Inconsistent (अनिरंतर) , Vacillating (विचलित)",
+        "antonyms": "Constant (स्थायी) , Stable (स्थिर) , Firm (मजबूत) , Certain (निश्चित)"
+    },
+    {
+        "sn": 60,
+        "word": "Futile/Futility (Adj./N.)",
+        "hindi": "व्यर्थ",
+        "repetition": "8 (4)",
+        "synonyms": "Useless (बेकार) , Unsuccessful (असफल) , Pointless (निरर्थक)",
+        "antonyms": "Worthy (योग्य) , Productive (उत्पादक) , Fruitful (फलदायक) , Useful (उपयोगी)"
+    },
+    {
+        "sn": 61,
+        "word": "Insolent (Adj.)",
+        "hindi": "अभद्र",
+        "repetition": "9 (3)",
+        "synonyms": "Disrespectful (असम्मानजनक) , Rude (अशिष्ट) , Bold (साहसी) , Insulting (अपमानजनक)",
+        "antonyms": "Humble (विनम्र) , Submissive (आज्ञाकारी) , Mannerly (शिष्ट) , Courteous (विनम्र) , Affable (मिलनसार)"
+    },
+    {
+        "sn": 62,
+        "word": "Malice (N.)",
+        "hindi": "द्वेष",
+        "repetition": "8 (4)",
+        "synonyms": "Bitterness (कड़वाहट) , Ill Will (दुर्भावना) , Grudge (मनमुटाव)",
+        "antonyms": "Goodwill (सद्भावना) , Kindness (दयालुता) , Sympathy (सहानुभूति)"
+    },
+    {
+        "sn": 63,
+        "word": "Opaque (Adj.)",
+        "hindi": "अपारदर्शी",
+        "repetition": "7 (5)",
+        "synonyms": "Arcane (गुप्त)",
+        "antonyms": "Transparent (पारदर्शी) , Clear (स्पष्ट) , Pellucid (पारदर्शी) , Intelligible (समझ में आने योग्य)"
+    },
+    {
+        "sn": 64,
+        "word": "Profound (Adj.)",
+        "hindi": "गहरा",
+        "repetition": "6 (6)",
+        "synonyms": "Deep (गहरा) , Extreme (अत्यधिक)",
+        "antonyms": "Superficial (ऊपरी) , Ignorant (अज्ञानी) , Shallow (उथला)"
+    },
+    {
+        "sn": 65,
+        "word": "Prudent (Adj.)",
+        "hindi": "विवेकी",
+        "repetition": "11 (1)",
+        "synonyms": "Cautious (सावधान) , Wise (बुद्धिमान) , Frugal (मितव्ययी) , Careful (सावधान)",
+        "antonyms": "Unwise (अविवेकी) , Careless (लापरवाह) , Indiscreet (अविवेकी) , Wasteful (अपव्ययी) , Stupid (मूर्ख)"
+    },
+    {
+        "sn": 66,
+        "word": "Reprimand (N./V.)",
+        "hindi": "फटकार",
+        "repetition": "8 (4)",
+        "synonyms": "Rebuke (निंदा) , Reproach (उलाहना) , Condemnation (निंदा) , Admonished (डाँटा गया) , Scolded Severely (कड़ी फटकार)",
+        "antonyms": "Reward (पुरस्कार) , Forgiveness (क्षमा) , Compliment (प्रशंसा) , Praise (प्रशंसा)"
+    },
+    {
+        "sn": 67,
+        "word": "Severe (Adj.)",
+        "hindi": "कठोर",
+        "repetition": "6 (6)",
+        "synonyms": "Strong (मजबूत) , Harsh (कठोर) , Difficult (मुश्किल)",
+        "antonyms": "Mild (हल्का) , Gentle (कोमल) , Tolerant (सहिष्णु)"
+    },
+    {
+        "sn": 68,
+        "word": "Triumph (N./V.)",
+        "hindi": "विजय",
+        "repetition": "8 (4)",
+        "synonyms": "Victory (विजय)",
+        "antonyms": "Defeat (हार) , Sorrow (दुख) , Failure (असफलता)"
+    },
+    {
+        "sn": 69,
+        "word": "Turbulent (Adj.)",
+        "hindi": "अशांत",
+        "repetition": "9 (3)",
+        "synonyms": "Violent (हिंसक) , Agitation (उत्तेजना) , Stormy (तूफानी)",
+        "antonyms": "Placid (शांत) , Calm (शांत) , Peaceful (शांतिपूर्ण)"
+    },
+    {
+        "sn": 70,
+        "word": "Abstain (V.)",
+        "hindi": "परहेज करना",
+        "repetition": "5 (6)",
+        "synonyms": "Refrain (बचना) , Resist (प्रतिरोध करना)",
+        "antonyms": "Indulge (भोगना) , Pursue (पीछा करना) , Continue (जारी रखना)"
+    },
+    {
+        "sn": 71,
+        "word": "Adversity (N.)",
+        "hindi": "विपत्ति",
+        "repetition": "8 (3)",
+        "synonyms": "Misfortune (दुर्भाग्य) , Hardships (कठिनाई) , Misery (दुख) , Time of Trouble (संकट का समय)",
+        "antonyms": "Prosperity (समृद्धि)"
+    },
+    {
+        "sn": 72,
+        "word": "Anxious (Adj.)",
+        "hindi": "चिंतित",
+        "repetition": "6 (5)",
+        "synonyms": "Nervous (बेचैन) , Apprehensive (चिंताजनक) , Eager (उत्सुक) , Worried (चिंतित) , Scared (डरा हुआ)",
+        "antonyms": "Calm (शांत) , Unconcerned (बेपरवाह) , Composed (शांत)"
+    },
+    {
+        "sn": 73,
+        "word": "Attract (V.)",
+        "hindi": "आकर्षित करना",
+        "repetition": "9 (2)",
+        "synonyms": "Fascinate (मोहित करना) , Entice (लुभाना) , Engage (लगना)",
+        "antonyms": "Repel (पीछे हटाना) , Deters (बाधक) , Repulse (प्रतिरोध करना)"
+    },
+    {
+        "sn": 74,
+        "word": "Conceit (N.)",
+        "hindi": "अहंकार",
+        "repetition": "10 (1)",
+        "synonyms": "Vanity (अहंकार) , Egotism (अभिमान) , Proud (गर्वित) , Smug (अहंकारी) , Arrogant (घमंडी) , Pomposity (दिखावा)",
+        "antonyms": "Modesty (विनम्रता) , Humility (नम्रता)"
+    },
+    {
+        "sn": 75,
+        "word": "Cordial (Adj.)",
+        "hindi": "दोस्ताना",
+        "repetition": "N/A",
+        "synonyms": "Friendly (मैत्रीपूर्ण) , Amicable (सौहार्दपूर्ण) , Warm (गर्मजोशी भरा)",
+        "antonyms": "Hostile (शत्रुतापूर्ण)"
+    },
+    {
+        "sn": 76,
+        "word": "Demolish (V.)",
+        "hindi": "ध्वस्त करना",
+        "repetition": "9 (2)",
+        "synonyms": "Dismantle (टुकड़े टुकड़े करना) , Destroy (नष्ट करना) , Wreck (बर्बाद करना)",
+        "antonyms": "Build (निर्माण) , Establish (स्थापित करना) , Construct (निर्माण) , Fabricate (बनाना)"
+    },
+    {
+        "sn": 77,
+        "word": "Despair (N./V.)",
+        "hindi": "निराशा",
+        "repetition": "8 (3)",
+        "synonyms": "Misery (दुर्दशा) , Sad (दुखी) , Sorrow (दुख)",
+        "antonyms": "Hope (आशा) , Optimism (आशावाद) , Elation (उत्साह)"
+    },
+    {
+        "sn": 78,
+        "word": "Disdain (N./V.)",
+        "hindi": "तिरस्कार",
+        "repetition": "4 (7)",
+        "synonyms": "Contempt (अवमानना) , Hate (घृणा) , Scorn (उपेक्षा) , Disregard (उपेक्षा)",
+        "antonyms": "Admiration (प्रशंसा) , Favour (अनुकूलता) , Respect (सम्मान) , Praise (प्रशंसा)"
+    },
+    {
+        "sn": 79,
+        "word": "Emerge (V.)",
+        "hindi": "प्रकट होना",
+        "repetition": "9 (2)",
+        "synonyms": "Appear (दिखाई देना) , Arise (उठना)",
+        "antonyms": "Vanish (गायब होना) , Disappear (लुप्त होना)"
+    },
+    {
+        "sn": 80,
+        "word": "Exaggerate (V.)",
+        "hindi": "अतिशयोक्ति करना",
+        "repetition": "8 (3)",
+        "synonyms": "Magnify (बढ़ा-चढ़ाकर कहना) , Overstate (अतिरंजित करना)",
+        "antonyms": "Understate (कम करके कहना) , Compress (संकुचित करना)"
+    },
+    {
+        "sn": 81,
+        "word": "Extravagant (Adj.)",
+        "hindi": "फिजूलखर्ची",
+        "repetition": "5 (6)",
+        "synonyms": "Expensively (महंगा)",
+        "antonyms": "Economical (किफायती) , Thrifty (कमखर्च करना) , Miserly (कंजूस) , Meagre (अल्प) , Reasonable (तर्कसंगत)"
+    },
+    {
+        "sn": 82,
+        "word": "Garrulous (Adj.)",
+        "hindi": "बातूनी",
+        "repetition": "9 (2)",
+        "synonyms": "Talkative (बातूनी) , Voluble (वाचाल)",
+        "antonyms": "Taciturn (मौन) , Reticent (अल्पभाषी) , Tiresome (थकाऊ) , Quiet (शांत)"
+    },
+    {
+        "sn": 83,
+        "word": "Lavish (Adj./V.)",
+        "hindi": "विलासितापूर्ण",
+        "repetition": "8 (3)",
+        "synonyms": "Expensive (महंगा) , Bountiful (उदार) , Generous (उदार) , Affluent (समृद्ध) , Luxurious (विलासी) , Grand (भव्य)",
+        "antonyms": "Scarce (दुर्लभ) , Frugal (मितव्ययी) , Moderate (संयमित)"
+    },
+    {
+        "sn": 84,
+        "word": "Liberty (N.)",
+        "hindi": "स्वतंत्रता",
+        "repetition": "9 (2)",
+        "synonyms": "Freedom (आजादी) , Autarchy (स्वराज्य)",
+        "antonyms": "Dependence (निर्भरता) , Slavery (गुलामी) , Bondage (बंधन)"
+    },
+    {
+        "sn": 85,
+        "word": "Naive (Adj.)",
+        "hindi": "अनुभवहीन",
+        "repetition": "9 (2)",
+        "synonyms": "Ingenuous (निष्कपट) , Gullible (सीधा)",
+        "antonyms": "Artful (चालाक) , Experienced (अनुभवी) , Sophisticated (परिष्कृत) , Cynical (निंदक) , Expert (विशेषज्ञ) , Wise (बुद्धिमान)"
+    },
+    {
+        "sn": 86,
+        "word": "Opulent (Adj.)",
+        "hindi": "धनी",
+        "repetition": "9 (2)",
+        "synonyms": "Rich (अमीर) , Luxurious (विलासितापूर्ण) , Sumptuous (भव्य) , Wealthy (धनी)",
+        "antonyms": "Poor (गरीब) , Economical (सस्ता) , Sparse (अपर्याप्त)"
+    },
+    {
+        "sn": 87,
+        "word": "Rectify (V.)",
+        "hindi": "सुधारना",
+        "repetition": "8 (3)",
+        "synonyms": "Correct (सही करना) , Amend (संशोधन करना)",
+        "antonyms": "Falsify (झूठा बनाना) , Worsen (बदतर करना)"
+    },
+    {
+        "sn": 88,
+        "word": "Taciturn (Adj.)",
+        "hindi": "अल्पभाषी",
+        "repetition": "6 (5)",
+        "synonyms": "Silent (मौन) , Reticent (संकोची) , Uncommunicative (असंवादी) , Unresponsive (प्रतिक्रियाहीन)",
+        "antonyms": "Talkative (बातूनी) , Loquacious (वाचाल) , Extrovert (बहिर्मुखी)"
+    },
+    {
+        "sn": 89,
+        "word": "Tedious (Adj.)",
+        "hindi": "उबाऊ",
+        "repetition": "7 (4)",
+        "synonyms": "Dull (नीरस) , Tiresome (थकाऊ) , Dreary",
+        "antonyms": "Interesting (रोचक) , Exciting (रोमांचक)"
+    },
+    {
+        "sn": 90,
+        "word": "Terse (Adj.)",
+        "hindi": "संक्षिप्त, रुखापन से",
+        "repetition": "3 (8)",
+        "synonyms": "Brief (लघु) , Incisive (तीक्ष्ण) , Compact (संक्षिप्त) , Brusque (रुखा) , Laconic (संक्षिप्त)",
+        "antonyms": "Polite (विनम्र) , Verbose (शब्दाडंबरपूर्ण) , Detailed (विस्तृत) , Gentle (कोमल)"
+    },
+    {
+        "sn": 91,
+        "word": "Tranquil (Adj.)",
+        "hindi": "शांत",
+        "repetition": "9 (2)",
+        "synonyms": "Peaceful (शांतिपूर्ण) , Calm (शांत) , Sober (गंभीर)",
+        "antonyms": "Stormy (तूफानी) , Disturbed (परेशान) , Violent (हिंसक) , Excited (उत्साहित)"
+    },
+    {
+        "sn": 92,
+        "word": "Vulnerable (Adj.)",
+        "hindi": "असुरक्षित",
+        "repetition": "5 (6)",
+        "synonyms": "Exposed (असुरक्षित) , At Risk (जोखिम में) , Defenceless (रक्षाहीन) , Susceptible (संवेदनशील)",
+        "antonyms": "Secure (सुरक्षित) , Impervious (अप्रभावित) , Stoicism (संयम)"
+    },
+    {
+        "sn": 93,
+        "word": "Abolish (V.)",
+        "hindi": "हटाना",
+        "repetition": "6 (4)",
+        "synonyms": "Eliminate (हटाना) , Cancellation (रद्द करना) , Eradicate (उन्मूलन करना) , Destroy (नष्ट करना)",
+        "antonyms": "Continue (जारी रखना) , Build (बनाना) , Construct (निर्माण करना) , Formalize (औपचारिक बनाना) , Create (सृजन करना) , Restore (पुनर्स्थापित करना)"
+    },
+    {
+        "sn": 94,
+        "word": "Abundance (N.)",
+        "hindi": "प्रचुरता",
+        "repetition": "6 (4)",
+        "synonyms": "Plethora (बहुतायत)",
+        "antonyms": "Scarcity (कमी) , Dearth (अभाव) , Meagreness (कमी) , Scanty (अपर्याप्त) , Shortage (कमी)"
+    },
+    {
+        "sn": 95,
+        "word": "Altruistic/Altruist/Altruism (Adj./N.)",
+        "hindi": "परोपकारी",
+        "repetition": "6 (4)",
+        "synonyms": "Philanthropic (परोपकारी) , Philanthropist (दानी व्यक्ति) , Humanitarian (मानवतावादी) , Selflessness (निस्वार्थता)",
+        "antonyms": "Selfish (स्वार्थी) , Spite (द्वेष)"
+    },
+    {
+        "sn": 96,
+        "word": "Annoy (V.)",
+        "hindi": "झुंझला देना",
+        "repetition": "9 (1)",
+        "synonyms": "Offend (अपमानित करना) , Irritate (चिढ़ाना) , Anger (क्रोध) , Disturbing (परेशान करने वाला)",
+        "antonyms": "Satisfy (संतुष्ट) , Comfort (आराम) , Gratify (संतुष्टि देना) , Delightful (आनंदप्रद) , Please (कृपया)"
+    },
+    {
+        "sn": 97,
+        "word": "Audacious (Adj.)",
+        "hindi": "साहसी",
+        "repetition": "N/A",
+        "synonyms": "Bold (साहसी) , Daring (साहसी) , Brave , Courage (साहस) , Cheeky (मुंहफट)",
+        "antonyms": "Cowardly (कायर) , Timid (डरपोक)"
+    },
+    {
+        "sn": 98,
+        "word": "Audacity (N.)",
+        "hindi": "धृष्टता",
+        "repetition": "6",
+        "synonyms": "Boldness (साहस) , Unexpectedly (अनपेक्षित रूप से) , Nerve (साहस)",
+        "antonyms": "Cowardice (कायरता) , Timidity (डरपोकपन) , Politeness (विनम्रता) , Gentility (शिष्टता)"
+    },
+    {
+        "sn": 99,
+        "word": "Benign (Adj.)",
+        "hindi": "दयालु",
+        "repetition": "N/A",
+        "synonyms": "Favourable (हितकारी)",
+        "antonyms": "Malignant (घातक) , Wicked (दुष्ट)"
+    },
+    {
+        "sn": 100,
+        "word": "Blunt (Adj./V.)",
+        "hindi": "कम धार वाला, मंदबुद्धि",
+        "repetition": "6 (4)",
+        "synonyms": "Dull (सुस्त) , Snippy (शिष्टाचार रहित)",
+        "antonyms": "Sharp (तेज)"
+    }
+]

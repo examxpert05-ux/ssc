@@ -1,0 +1,1402 @@
+[
+    {
+        "sn": 1,
+        "phrases": "A person who loves all mankind // Someone who freely gives money and help to people who need it",
+        "one_word": "Philanthropist (N.)",
+        "hindi": "मानव प्रेमी, परोपकारी",
+        "repetition": "17 (8)"
+    },
+    {
+        "sn": 2,
+        "phrases": "An inscription on a tombstone in the memory of the person who has died",
+        "one_word": "Epitaph (N.)",
+        "hindi": "समाधि-लेख",
+        "repetition": "14 (8)"
+    },
+    {
+        "sn": 3,
+        "phrases": "Something no longer in use",
+        "one_word": "Obsolete (Adj.)",
+        "hindi": "अप्रचलित",
+        "repetition": "15 (5)"
+    },
+    {
+        "sn": 4,
+        "phrases": "Handwriting which is difficult or impossible to read",
+        "one_word": "Illegible (Adj.)",
+        "hindi": "अपठनीय",
+        "repetition": "13 (6)"
+    },
+    {
+        "sn": 5,
+        "phrases": "Something that cannot be avoided // Certain to happen",
+        "one_word": "Inevitable (Adj.)",
+        "hindi": "अटल",
+        "repetition": "13 (6)"
+    },
+    {
+        "sn": 6,
+        "phrases": "A place for keeping the birds in a confined space",
+        "one_word": "Aviary (N.)",
+        "hindi": "पक्षीशाला/चिड़ियाघर",
+        "repetition": "14 (4)"
+    },
+    {
+        "sn": 7,
+        "phrases": "Belonging to the same time // A person living in the same age with another",
+        "one_word": "Contemporary (Adj.)",
+        "hindi": "समकालीन",
+        "repetition": "13 (5)"
+    },
+    {
+        "sn": 8,
+        "phrases": "A person who can endure pain or hardship without showing his feelings/complaining",
+        "one_word": "Stoic (N.)",
+        "hindi": "सहनशील, भावहीन",
+        "repetition": "14 (4)"
+    },
+    {
+        "sn": 9,
+        "phrases": "One who doesn't believe in the existence of God",
+        "one_word": "Atheist (N.)",
+        "hindi": "नास्तिक",
+        "repetition": "14 (3)"
+    },
+    {
+        "sn": 10,
+        "phrases": "A person who draws or makes maps",
+        "one_word": "Cartographer (N.)",
+        "hindi": "मानचित्रकार",
+        "repetition": "12 (5)"
+    },
+    {
+        "sn": 11,
+        "phrases": "An extreme fear of being in a small confined place",
+        "one_word": "Claustrophobia (N.)",
+        "hindi": "छोटे जगह में होने का अत्यधिक डर",
+        "repetition": "11 (6)"
+    },
+    {
+        "sn": 12,
+        "phrases": "One who knows everything",
+        "one_word": "Omniscient (Adj.)",
+        "hindi": "सर्वज्ञानी",
+        "repetition": "12 (5)"
+    },
+    {
+        "sn": 13,
+        "phrases": "A solution for all difficulties or diseases",
+        "one_word": "Panacea (N.)",
+        "hindi": "रामबाण इलाज",
+        "repetition": "16 (1)"
+    },
+    {
+        "sn": 14,
+        "phrases": "A person who knows and is able to use several languages",
+        "one_word": "Polyglot (N.)",
+        "hindi": "बहुभाषी",
+        "repetition": "8 (8)"
+    },
+    {
+        "sn": 15,
+        "phrases": "An arrangement of events or dates in the order of their occurrence",
+        "one_word": "Chronology (N.)",
+        "hindi": "कालक्रम",
+        "repetition": "10 (5)"
+    },
+    {
+        "sn": 16,
+        "phrases": "A speech or a presentation made without previous preparation",
+        "one_word": "Extempore (Adj.)",
+        "hindi": "बिना तैयारी के",
+        "repetition": "11 (4)"
+    },
+    {
+        "sn": 17,
+        "phrases": "One who is difficult to please",
+        "one_word": "Fastidious (Adj.)",
+        "hindi": "तुनुक मिज़ाज/हठी",
+        "repetition": "11 (4)"
+    },
+    {
+        "sn": 18,
+        "phrases": "An imagined society where everything is perfect and everyone is happy",
+        "one_word": "Utopia (N.)",
+        "hindi": "आदर्शवादी काल्पनिक समाज/राज्य",
+        "repetition": "9 (6)"
+    },
+    {
+        "sn": 19,
+        "phrases": "One who plays for pleasure rather than as a profession // A non-professional who is inept at a particular activity",
+        "one_word": "Amateur (N.)",
+        "hindi": "शौक़ीन",
+        "repetition": "11 (3)"
+    },
+    {
+        "sn": 20,
+        "phrases": "Able to use the left hand and right hand equally well",
+        "one_word": "Ambidextrous (N.)",
+        "hindi": "उभयहस्त",
+        "repetition": "12 (2)"
+    },
+    {
+        "sn": 21,
+        "phrases": "A person who attacks or criticizes cherished beliefs or institutions",
+        "one_word": "Iconoclast (N.)",
+        "hindi": "रिवाज तोड़नेवाला",
+        "repetition": "10 (4)"
+    },
+    {
+        "sn": 22,
+        "phrases": "One who cannot make mistake",
+        "one_word": "Infallible (Adj.)",
+        "hindi": "अचूक",
+        "repetition": "10 (4)"
+    },
+    {
+        "sn": 23,
+        "phrases": "Someone who makes charitable donations intended to the welfare of other people",
+        "one_word": "Altruist (N.)",
+        "hindi": "परोपकारी",
+        "repetition": "10 (3)"
+    },
+    {
+        "sn": 24,
+        "phrases": "The place where public, government or historical records are kept",
+        "one_word": "Archive (N.)",
+        "hindi": "अभिलेखागार",
+        "repetition": "9 (4)"
+    },
+    {
+        "sn": 25,
+        "phrases": "A person who loves or collects books",
+        "one_word": "Bibliophile (N.)",
+        "hindi": "पुस्तक प्रेमी",
+        "repetition": "10 (3)"
+    },
+    {
+        "sn": 26,
+        "phrases": "The murder of a whole race or a group of people",
+        "one_word": "Genocide (N.)",
+        "hindi": "नरसंहार",
+        "repetition": "9 (4)"
+    },
+    {
+        "sn": 27,
+        "phrases": "A sound that cannot be heard",
+        "one_word": "Inaudible (Adj.)",
+        "hindi": "अश्राव्य",
+        "repetition": "10 (3)"
+    },
+    {
+        "sn": 28,
+        "phrases": "One who cannot be corrected // One who is beyond reform",
+        "one_word": "Incorrigible (Adj.)",
+        "hindi": "असंशोधनीय",
+        "repetition": "12 (1)"
+    },
+    {
+        "sn": 29,
+        "phrases": "A person who writes and edits dictionaries",
+        "one_word": "Lexicographer (N.)",
+        "hindi": "शब्दकोश के लेखक",
+        "repetition": "9 (4)"
+    },
+    {
+        "sn": 30,
+        "phrases": "Someone working or acting merely for money or other rewards // A soldier who fights for the sake of money",
+        "one_word": "Mercenary (N.)",
+        "hindi": "किराये का सैनिक",
+        "repetition": "8 (5)"
+    },
+    {
+        "sn": 31,
+        "phrases": "A person who hates and avoids other people",
+        "one_word": "Misanthrope (N.)",
+        "hindi": "मानवद्वेषी",
+        "repetition": "7 (6)"
+    },
+    {
+        "sn": 32,
+        "phrases": "Sentimental longing for a period in the past",
+        "one_word": "Nostalgia (N.)",
+        "hindi": "अतीत की घटनाओं की यादें",
+        "repetition": "10 (3)"
+    },
+    {
+        "sn": 33,
+        "phrases": "Animal that can live both on land and in water",
+        "one_word": "Amphibians (N.)",
+        "hindi": "उभयचर जन्तु",
+        "repetition": "8 (4)"
+    },
+    {
+        "sn": 34,
+        "phrases": "The life history of a person written by himself",
+        "one_word": "Autobiography (N.)",
+        "hindi": "आत्मकथा",
+        "repetition": "9 (3)"
+    },
+    {
+        "sn": 35,
+        "phrases": "A person who eats human flesh",
+        "one_word": "Cannibal (N.)",
+        "hindi": "नरभक्षक",
+        "repetition": "10 (2)"
+    },
+    {
+        "sn": 36,
+        "phrases": "A person employed to drive a private or hired car",
+        "one_word": "Chauffeur (N.)",
+        "hindi": "मोटर-चालक",
+        "repetition": "9 (3)"
+    },
+    {
+        "sn": 37,
+        "phrases": "The scientific study of worms and insects",
+        "one_word": "Entomology (N.)",
+        "hindi": "कीटविज्ञान",
+        "repetition": "9 (3)"
+    },
+    {
+        "sn": 38,
+        "phrases": "One who is unable to pay debts",
+        "one_word": "Insolvent (Adj.)",
+        "hindi": "दिवालिया",
+        "repetition": "5 (7)"
+    },
+    {
+        "sn": 39,
+        "phrases": "A person with strong desire to steal",
+        "one_word": "Kleptomania (N.)",
+        "hindi": "चोरी करने की बीमारी",
+        "repetition": "7 (5)"
+    },
+    {
+        "sn": 40,
+        "phrases": "Government or rule by a small group of people",
+        "one_word": "Oligarchy (N.)",
+        "hindi": "अल्पतंत्र",
+        "repetition": "5 (7)"
+    },
+    {
+        "sn": 41,
+        "phrases": "One who is all powerful",
+        "one_word": "Omnipotent (Adj.)",
+        "hindi": "सर्वशक्तिमान",
+        "repetition": "7 (5)"
+    },
+    {
+        "sn": 42,
+        "phrases": "A person who collects or studies stamps",
+        "one_word": "Philatelist (N.)",
+        "hindi": "डाक के टिकट का संग्रहक",
+        "repetition": "8 (4)"
+    },
+    {
+        "sn": 43,
+        "phrases": "A person who never takes alcoholic drinks",
+        "one_word": "Teetotaller (N.)",
+        "hindi": "पूर्णतया मद्यत्यागी",
+        "repetition": "8 (4)"
+    },
+    {
+        "sn": 44,
+        "phrases": "Someone having many skills",
+        "one_word": "Versatile (Adj.)",
+        "hindi": "सर्वगुण सम्पन्न",
+        "repetition": "9 (3)"
+    },
+    {
+        "sn": 45,
+        "phrases": "A person who believes that laws and governments are not necessary",
+        "one_word": "Anarchist (N.)",
+        "hindi": "अराजकतावादी",
+        "repetition": "5 (6)"
+    },
+    {
+        "sn": 46,
+        "phrases": "The art of beautiful handwriting",
+        "one_word": "Calligraphy (N.)",
+        "hindi": "सुलेख",
+        "repetition": "5 (6)"
+    },
+    {
+        "sn": 47,
+        "phrases": "A group of stars that forms a shape in the sky and has a name",
+        "one_word": "Constellation (N.)",
+        "hindi": "नक्षत्र",
+        "repetition": "8 (3)"
+    },
+    {
+        "sn": 48,
+        "phrases": "An animal that lives in groups // Tending to associate with others of one's kind",
+        "one_word": "Gregarious (Adj.)",
+        "hindi": "झुण्ड में रहनेवाला",
+        "repetition": "9 (2)"
+    },
+    {
+        "sn": 49,
+        "phrases": "A quiet person who is more interested in his own thoughts and feelings than in spending time with other people",
+        "one_word": "Introvert (N.)",
+        "hindi": "अन्तर्मुखी व्यक्ति",
+        "repetition": "7 (4)"
+    },
+    {
+        "sn": 50,
+        "phrases": "A piece of land/garden, in which fruit trees are grown",
+        "one_word": "Orchard (N.)",
+        "hindi": "फलोद्यान",
+        "repetition": "7 (4)"
+    },
+    {
+        "sn": 51,
+        "phrases": "Fit to drink (water)",
+        "one_word": "Potable (Adj.)",
+        "hindi": "पीने योग्य",
+        "repetition": "6 (5)"
+    },
+    {
+        "sn": 52,
+        "phrases": "A person who helps another to commit a crime or to do something morally wrong// A partner in crime",
+        "one_word": "Accomplice (N.)",
+        "hindi": "सह-अपराधी",
+        "repetition": "8 (2)"
+    },
+    {
+        "sn": 53,
+        "phrases": "One who is not sure about God's existence",
+        "one_word": "Agnostic (N.)",
+        "hindi": "ईश्वर के बारे में संशयवादी व्यक्ति",
+        "repetition": "2 (8)"
+    },
+    {
+        "sn": 54,
+        "phrases": "A partial or total loss of memory",
+        "one_word": "Amnesia (N.)",
+        "hindi": "भूलने की बीमारी",
+        "repetition": "6 (4)"
+    },
+    {
+        "sn": 55,
+        "phrases": "A situation in a country, an organization, etc. In which there is no government, order/control",
+        "one_word": "Anarchy (N.)",
+        "hindi": "अव्यवस्था/अराजकता",
+        "repetition": "8 (2)"
+    },
+    {
+        "sn": 56,
+        "phrases": "A person who regards the whole world as his country // One who is a citizen not of a country but of the world",
+        "one_word": "Cosmopolitan (Adj.)",
+        "hindi": "समस्त संसार का, विश्व नागरिक",
+        "repetition": "7 (3)"
+    },
+    {
+        "sn": 57,
+        "phrases": "A person who leaves his country to live in another",
+        "one_word": "Emigrant (N.)",
+        "hindi": "अपने देश को छोड़ने वाला",
+        "repetition": "9 (1)"
+    },
+    {
+        "sn": 58,
+        "phrases": "Lasting for a very short time",
+        "one_word": "Ephemeral (Adj.)",
+        "hindi": "छणिक",
+        "repetition": "6 (4)"
+    },
+    {
+        "sn": 59,
+        "phrases": "To free somebody from all blame",
+        "one_word": "Exonerate (V.)",
+        "hindi": "दोषमुक्त करना",
+        "repetition": "7 (3)"
+    },
+    {
+        "sn": 60,
+        "phrases": "One who is easily deceived",
+        "one_word": "Gullible (Adj.)",
+        "hindi": "भोला भाला",
+        "repetition": "8 (2)"
+    },
+    {
+        "sn": 61,
+        "phrases": "Holding an office without receiving a pay",
+        "one_word": "Honorary (Adj.)",
+        "hindi": "अवैतनिक",
+        "repetition": "5 (5)"
+    },
+    {
+        "sn": 62,
+        "phrases": "A person who suffers from an imaginary illness // A person who is abnormally anxious about his health",
+        "one_word": "Hypochondriac (N.)",
+        "hindi": "रोगभ्रमी",
+        "repetition": "7 (3)"
+    },
+    {
+        "sn": 63,
+        "phrases": "A person pretending to be somebody he isn't",
+        "one_word": "Hypocrite (N.)",
+        "hindi": "पाखंडी",
+        "repetition": "8 (2)"
+    },
+    {
+        "sn": 64,
+        "phrases": "That which cannot be conquered",
+        "one_word": "Invincible (Adj.)",
+        "hindi": "अजेय",
+        "repetition": "5 (5)"
+    },
+    {
+        "sn": 65,
+        "phrases": "A place where money is coined by authority of the government",
+        "one_word": "Mint (N.)",
+        "hindi": "टंकणशाला",
+        "repetition": "10"
+    },
+    {
+        "sn": 66,
+        "phrases": "A person who admires himself/herself too much, especially his appearance",
+        "one_word": "Narcissist (N.)",
+        "hindi": "आत्ममुग्ध",
+        "repetition": "6 (4)"
+    },
+    {
+        "sn": 67,
+        "phrases": "Well-known for being bad // A person of evil reputation",
+        "one_word": "Notorious (Adj.)",
+        "hindi": "कुख्यात",
+        "repetition": "9 (1)"
+    },
+    {
+        "sn": 68,
+        "phrases": "A person who collects coins",
+        "one_word": "Numismatist (N.)",
+        "hindi": "मुद्राशास्त्री",
+        "repetition": "6 (4)"
+    },
+    {
+        "sn": 69,
+        "phrases": "A large number of fish swimming together",
+        "one_word": "Shoal (N.)",
+        "hindi": "मछलियों का समुदाय",
+        "repetition": "8 (2)"
+    },
+    {
+        "sn": 70,
+        "phrases": "A place where bees are kept",
+        "one_word": "Apiary (N.)",
+        "hindi": "मधुमक्खियों के पालने का स्थान",
+        "repetition": "5 (4)"
+    },
+    {
+        "sn": 71,
+        "phrases": "A military structure where arms and ammunition and other military equipment are stored",
+        "one_word": "Arsenal (N.)",
+        "hindi": "शस्त्रागार",
+        "repetition": "5 (4)"
+    },
+    {
+        "sn": 72,
+        "phrases": "The story of a person's life written by somebody else",
+        "one_word": "Biography (N.)",
+        "hindi": "जीवनी",
+        "repetition": "3 (6)"
+    },
+    {
+        "sn": 73,
+        "phrases": "House or shelter of a gipsy // A group of people, especially traders or pilgrims, travelling together across a desert",
+        "one_word": "Caravan (N.)",
+        "hindi": "काफिला",
+        "repetition": "8 (1)"
+    },
+    {
+        "sn": 74,
+        "phrases": "A man who knows a lot about things like food, music and art",
+        "one_word": "Connoisseur (N.)",
+        "hindi": "विशेषज्ञ, पारखी",
+        "repetition": "6 (3)"
+    },
+    {
+        "sn": 75,
+        "phrases": "Man behaving more like a woman than as a man",
+        "one_word": "Effeminate (Adj.)",
+        "hindi": "नारी जैसा",
+        "repetition": "6 (3)"
+    },
+    {
+        "sn": 76,
+        "phrases": "A poem that express lament for the dead",
+        "one_word": "Elegy (N.)",
+        "hindi": "शोकगीत",
+        "repetition": "5 (4)"
+    },
+    {
+        "sn": 77,
+        "phrases": "A short speech at the end of a play",
+        "one_word": "Epilogue (N.)",
+        "hindi": "उपसंहार",
+        "repetition": "6 (3)"
+    },
+    {
+        "sn": 78,
+        "phrases": "A person who believes that all events are predetermined or subject to fate",
+        "one_word": "Fatalist (N.)",
+        "hindi": "भाग्यवादी",
+        "repetition": "8 (1)"
+    },
+    {
+        "sn": 79,
+        "phrases": "A person who sells and arranges cut flowers",
+        "one_word": "Florist (N.)",
+        "hindi": "फूलवाला",
+        "repetition": "8 (1)"
+    },
+    {
+        "sn": 80,
+        "phrases": "Extreme fear of water",
+        "one_word": "Hydrophobia (N.)",
+        "hindi": "पानी का डर",
+        "repetition": "8 (1)"
+    },
+    {
+        "sn": 81,
+        "phrases": "A plan of a journey, including the route and the places that will be visited",
+        "one_word": "Itinerary (N.)",
+        "hindi": "यात्रा कार्यक्रम",
+        "repetition": "7 (2)"
+    },
+    {
+        "sn": 82,
+        "phrases": "A copy of a book, piece of music, etc. Before it has been printed // A paper written by hand",
+        "one_word": "Manuscript (N.)",
+        "hindi": "हस्तलिखित",
+        "repetition": "6 (3)"
+    },
+    {
+        "sn": 83,
+        "phrases": "A person who dislikes women",
+        "one_word": "Misogynist (N.)",
+        "hindi": "स्त्री द्वेषी",
+        "repetition": "7 (2)"
+    },
+    {
+        "sn": 84,
+        "phrases": "A person who walks on foot and not travelling in a vehicle",
+        "one_word": "Pedestrian (N.)",
+        "hindi": "पैदल यात्री",
+        "repetition": "7 (2)"
+    },
+    {
+        "sn": 85,
+        "phrases": "A person who always expects bad things to happen or something not to be successful",
+        "one_word": "Pessimist (N.)",
+        "hindi": "निराशावादी",
+        "repetition": "7 (2)"
+    },
+    {
+        "sn": 86,
+        "phrases": "Occurring or coming into existence after a person's death",
+        "one_word": "Posthumous (Adj.)",
+        "hindi": "मरणोपरांत",
+        "repetition": "4 (5)"
+    },
+    {
+        "sn": 87,
+        "phrases": "The murder of a king",
+        "one_word": "Regicide (N.)",
+        "hindi": "राज-हत्या",
+        "repetition": "5 (4)"
+    },
+    {
+        "sn": 88,
+        "phrases": "Someone who walks about in sleep",
+        "one_word": "Somnambulist (N.)",
+        "hindi": "नींद में चलने वाला",
+        "repetition": "7 (2)"
+    },
+    {
+        "sn": 89,
+        "phrases": "The scientific study of sound",
+        "one_word": "Acoustics (N.)",
+        "hindi": "ध्वनि-विज्ञान",
+        "repetition": "7 (1)"
+    },
+    {
+        "sn": 90,
+        "phrases": "The money paid to former wife, husband or partner when the marriage is ended",
+        "one_word": "Alimony (N.)",
+        "hindi": "गुजारा भत्ता",
+        "repetition": "6 (2)"
+    },
+    {
+        "sn": 91,
+        "phrases": "The study of human race, especially of its origin, development, customs and beliefs",
+        "one_word": "Anthropology (N.)",
+        "hindi": "मानव विज्ञान",
+        "repetition": "5 (3)"
+    },
+    {
+        "sn": 92,
+        "phrases": "A glass tank where fish and water plants are kept",
+        "one_word": "Aquarium (N.)",
+        "hindi": "मछलीघर",
+        "repetition": "7 (1)"
+    },
+    {
+        "sn": 93,
+        "phrases": "A person who is chosen to settle a disagreement // a person appointed by two parties to resolve a dispute",
+        "one_word": "Arbitrator (N.)",
+        "hindi": "पंच/माध्यस्थ",
+        "repetition": "5 (3)"
+    },
+    {
+        "sn": 94,
+        "phrases": "The study of human history and prehistory through the excavation of sites",
+        "one_word": "Archaeology (N.)",
+        "hindi": "पुरातत्त्व",
+        "repetition": "6 (2)"
+    },
+    {
+        "sn": 95,
+        "phrases": "A government by the nobles/government by person of highest social order",
+        "one_word": "Aristocracy (N.)",
+        "hindi": "श्रेष्ठ जनों के द्वारा राज्य शासन",
+        "repetition": "5 (3)"
+    },
+    {
+        "sn": 96,
+        "phrases": "Hard but easily broken // liable to break easily",
+        "one_word": "Brittle (Adj.)",
+        "hindi": "भंगुर/आसानी से टूटने योग्य",
+        "repetition": "6 (2)"
+    },
+    {
+        "sn": 97,
+        "phrases": "An assembly of worshippers // A group of people who have come together in a religious building for worship and prayer",
+        "one_word": "Congregation (N.)",
+        "hindi": "धार्मिक सभा",
+        "repetition": "6 (2)"
+    },
+    {
+        "sn": 98,
+        "phrases": "A keeper or custodian of a museum or other collection",
+        "one_word": "Curator (N.)",
+        "hindi": "संग्रहालय अध्यक्ष",
+        "repetition": "6 (2)"
+    },
+    {
+        "sn": 99,
+        "phrases": "The scientific study of skin diseases",
+        "one_word": "Dermatology (N.)",
+        "hindi": "त्वचाविज्ञान",
+        "repetition": "7 (1)"
+    },
+    {
+        "sn": 100,
+        "phrases": "Causing or ending in death",
+        "one_word": "Fatal (Adj.)",
+        "hindi": "घातक",
+        "repetition": "6 (2)"
+    },
+    {
+        "sn": 101,
+        "phrases": "One who eats too much",
+        "one_word": "Glutton (N.)",
+        "hindi": "खाऊ, पेटू",
+        "repetition": "6 (2)"
+    },
+    {
+        "sn": 102,
+        "phrases": "A person who cannot read or write",
+        "one_word": "Illiterate (Adj.)",
+        "hindi": "अनपढ़",
+        "repetition": "6 (2)"
+    },
+    {
+        "sn": 103,
+        "phrases": "The condition of being unable to sleep over a period of time",
+        "one_word": "Insomnia (N.)",
+        "hindi": "अनिद्रा",
+        "repetition": "6 (2)"
+    },
+    {
+        "sn": 104,
+        "phrases": "A person who supervises during an examination",
+        "one_word": "Invigilator (N.)",
+        "hindi": "निरीक्षक",
+        "repetition": "7 (1)"
+    },
+    {
+        "sn": 105,
+        "phrases": "That through which light cannot pass",
+        "one_word": "Opaque (Adj.)",
+        "hindi": "अपारदर्शी",
+        "repetition": "7 (1)"
+    },
+    {
+        "sn": 106,
+        "phrases": "Violation of something holy or sacred",
+        "one_word": "Sacrilege (N.)",
+        "hindi": "अपवित्रीकरण",
+        "repetition": "7 (1)"
+    },
+    {
+        "sn": 107,
+        "phrases": "A speech made to oneself",
+        "one_word": "Soliloquy (N.)",
+        "hindi": "आत्मभाषण",
+        "repetition": "3 (5)"
+    },
+    {
+        "sn": 108,
+        "phrases": "One who lends money on high rates of interest",
+        "one_word": "Usurer (N.)",
+        "hindi": "सूदखोर",
+        "repetition": "6 (2)"
+    },
+    {
+        "sn": 109,
+        "phrases": "One who offers one's services without being forced",
+        "one_word": "Volunteer (N.)",
+        "hindi": "स्वयं सेवक",
+        "repetition": "5 (3)"
+    },
+    {
+        "sn": 110,
+        "phrases": "To give up one's authority or throne",
+        "one_word": "Abdicate (V.)",
+        "hindi": "अपना पद (या दावा) छोड़ देना",
+        "repetition": "7"
+    },
+    {
+        "sn": 111,
+        "phrases": "A publication containing astronomical or meteorological annual calendar that contains important dates and time",
+        "one_word": "Almanac (N.)",
+        "hindi": "पंचांग",
+        "repetition": "2 (5)"
+    },
+    {
+        "sn": 112,
+        "phrases": "Capable of being understood in either of two or more possible senses, and therefore not definite",
+        "one_word": "Ambiguous (Adj.)",
+        "hindi": "संदिग्धार्थी/अस्पष्ट",
+        "repetition": "6 (1)"
+    },
+    {
+        "sn": 113,
+        "phrases": "Whose names are not known // An unknown author",
+        "one_word": "Anonymous (Adj.)",
+        "hindi": "बेनाम/गुमनाम",
+        "repetition": "6 (1)"
+    },
+    {
+        "sn": 114,
+        "phrases": "A person who renounces a religious or political belief or principle",
+        "one_word": "Apostate (N.)",
+        "hindi": "त्यागी",
+        "repetition": "3 (4)"
+    },
+    {
+        "sn": 115,
+        "phrases": "One who makes an official examination of accounts/financial records",
+        "one_word": "Auditor (N.)",
+        "hindi": "हिसाब किताब की जांच करने वाला",
+        "repetition": "6 (1)"
+    },
+    {
+        "sn": 116,
+        "phrases": "A person who can speak only two languages",
+        "one_word": "Bilingual (Adj.)",
+        "hindi": "द्विभाषिक",
+        "repetition": "5 (2)"
+    },
+    {
+        "sn": 117,
+        "phrases": "Words uttered impiously about God // The act of speaking irreverently about sacred things",
+        "one_word": "Blasphemy (N.)",
+        "hindi": "ईश्वर की निंदा",
+        "repetition": "7"
+    },
+    {
+        "sn": 118,
+        "phrases": "The scientific study of plants and their structure",
+        "one_word": "Botany (N.)",
+        "hindi": "वनस्पति विज्ञान",
+        "repetition": "6 (1)"
+    },
+    {
+        "sn": 119,
+        "phrases": "An arrangement of flowers that is usually given as a present",
+        "one_word": "Bouquet (N.)",
+        "hindi": "गुलदस्ता",
+        "repetition": "7"
+    },
+    {
+        "sn": 120,
+        "phrases": "A person that one works with at the same place, in a profession or a business",
+        "one_word": "Colleague (N.)",
+        "hindi": "सहकर्मी",
+        "repetition": "5 (2)"
+    },
+    {
+        "sn": 121,
+        "phrases": "Gradual recovery of health and strength",
+        "one_word": "Convalescence (N.)",
+        "hindi": "बीमारी से ठीक होना",
+        "repetition": "6 (1)"
+    },
+    {
+        "sn": 122,
+        "phrases": "A person who readily believes others easily",
+        "one_word": "Credulous (Adj.)",
+        "hindi": "भोला-भाला",
+        "repetition": "5 (2)"
+    },
+    {
+        "sn": 123,
+        "phrases": "A doctor who studies and treats skin diseases",
+        "one_word": "Dermatologist (N.)",
+        "hindi": "त्वचा विशेषज्ञ",
+        "repetition": "3 (4)"
+    },
+    {
+        "sn": 124,
+        "phrases": "A thing fit to be eaten",
+        "one_word": "Edible (Adj.)",
+        "hindi": "खाद्य",
+        "repetition": "6 (1)"
+    },
+    {
+        "sn": 125,
+        "phrases": "Widespread outbreak of a disease which affects large populations at the same time",
+        "one_word": "Epidemic (N.)",
+        "hindi": "महामारी",
+        "repetition": "5 (2)"
+    },
+    {
+        "sn": 126,
+        "phrases": "A person motivated by irrational enthusiasm",
+        "one_word": "Fanatic (N.)",
+        "hindi": "कट्टरपंथी",
+        "repetition": "3 (4)"
+    },
+    {
+        "sn": 127,
+        "phrases": "The plants and vegetation of a particular region",
+        "one_word": "Flora (N.)",
+        "hindi": "वनस्पति",
+        "repetition": "5 (2)"
+    },
+    {
+        "sn": 128,
+        "phrases": "A person who has escaped from captivity or is in hiding",
+        "one_word": "Fugitive (N.)",
+        "hindi": "भगोड़ा",
+        "repetition": "6 (1)"
+    },
+    {
+        "sn": 129,
+        "phrases": "The study of earth, including the origin and history of the rocks and soil of which the earth is made",
+        "one_word": "Geology (N.)",
+        "hindi": "भूगर्भशास्त्र",
+        "repetition": "3 (4)"
+    },
+    {
+        "sn": 130,
+        "phrases": "That which cannot be believed",
+        "one_word": "Incredible (Adj.)",
+        "hindi": "अविश्वसनीय",
+        "repetition": "5 (2)"
+    },
+    {
+        "sn": 131,
+        "phrases": "Incapable of feeling tired or exhausted",
+        "one_word": "Indefatigable (Adj.)",
+        "hindi": "न थकनेवाला",
+        "repetition": "5 (2)"
+    },
+    {
+        "sn": 132,
+        "phrases": "That can burn/catches fire easily",
+        "one_word": "Inflammable (Adj.)",
+        "hindi": "ज्वलनशील",
+        "repetition": "7"
+    },
+    {
+        "sn": 133,
+        "phrases": "That which cannot be called back",
+        "one_word": "Irrevocable (Adj.)",
+        "hindi": "अटल",
+        "repetition": "7"
+    },
+    {
+        "sn": 134,
+        "phrases": "Giving undue favours to one's own kith and kin",
+        "one_word": "Nepotism (N.)",
+        "hindi": "भाई-भतीजावाद",
+        "repetition": "6 (1)"
+    },
+    {
+        "sn": 135,
+        "phrases": "A person who is new to a profession without training or experience in a skill or subject",
+        "one_word": "Novice (N.)",
+        "hindi": "नौसिखिया",
+        "repetition": "4 (3)"
+    },
+    {
+        "sn": 136,
+        "phrases": "The study or collection of coins",
+        "one_word": "Numismatics (N.)",
+        "hindi": "मुद्राशास्त्र",
+        "repetition": "3 (4)"
+    },
+    {
+        "sn": 137,
+        "phrases": "A notice of a person's death",
+        "one_word": "Obituary (N.)",
+        "hindi": "शोक सन्देश",
+        "repetition": "7"
+    },
+    {
+        "sn": 138,
+        "phrases": "One who sees the bright side of things",
+        "one_word": "Optimist (N.)",
+        "hindi": "आशावादी",
+        "repetition": "6 (1)"
+    },
+    {
+        "sn": 139,
+        "phrases": "A person who opposes war or use of military force",
+        "one_word": "Pacifist (N.)",
+        "hindi": "शांतिवादी",
+        "repetition": "7"
+    },
+    {
+        "sn": 140,
+        "phrases": "A person who does not like, understand or enjoy the beauty of art, literature, music, etc.",
+        "one_word": "Philistine (N.)",
+        "hindi": "अशिक्षित",
+        "repetition": "5 (2)"
+    },
+    {
+        "sn": 141,
+        "phrases": "Stealing of ideas or writings of someone else",
+        "one_word": "Plagiarism (N.)",
+        "hindi": "साहित्यिक चोरी",
+        "repetition": "5 (2)"
+    },
+    {
+        "sn": 142,
+        "phrases": "Government by the richest people of a country",
+        "one_word": "Plutocracy (N.)",
+        "hindi": "धनिक तन्त्र",
+        "repetition": "5 (2)"
+    },
+    {
+        "sn": 143,
+        "phrases": "The scientific study of the mind and how it influences behaviour",
+        "one_word": "Psychology (N.)",
+        "hindi": "मनोविज्ञान",
+        "repetition": "6 (1)"
+    },
+    {
+        "sn": 144,
+        "phrases": "A person who withdraws from the world to live in seclusion and often in solitude",
+        "one_word": "Recluse (N.)",
+        "hindi": "वैरागी",
+        "repetition": "5 (2)"
+    },
+    {
+        "sn": 145,
+        "phrases": "A close-fitting cover for a sword or knife // Cover for the blade of a weapon or a tool",
+        "one_word": "Sheath (N.)",
+        "hindi": "म्यान",
+        "repetition": "6 (1)"
+    },
+    {
+        "sn": 146,
+        "phrases": "Something kept as a reminder of an event",
+        "one_word": "Souvenir (N.)",
+        "hindi": "निशानी",
+        "repetition": "4 (3)"
+    },
+    {
+        "sn": 147,
+        "phrases": "In exactly the same words as were used originally",
+        "one_word": "Verbatim (Adj.)",
+        "hindi": "शब्द प्रति शब्द",
+        "repetition": "6 (1)"
+    },
+    {
+        "sn": 148,
+        "phrases": "A person who is long experienced or practiced in an activity",
+        "one_word": "Veteran (N.)",
+        "hindi": "अनुभवी",
+        "repetition": "6 (1)"
+    },
+    {
+        "sn": 149,
+        "phrases": "A decorative ring of flowers and leaves",
+        "one_word": "Wreath (N.)",
+        "hindi": "फूलों की माला",
+        "repetition": "5 (2)"
+    },
+    {
+        "sn": 150,
+        "phrases": "Fear of great heights",
+        "one_word": "Acrophobia (N.)",
+        "hindi": "ऊँचाई का डर",
+        "repetition": "3 (3)"
+    },
+    {
+        "sn": 151,
+        "phrases": "Concerned with beauty or the appreciation of beauty",
+        "one_word": "Aesthetic (Adj.)",
+        "hindi": "सौंदर्य संबंधी",
+        "repetition": "4 (2)"
+    },
+    {
+        "sn": 152,
+        "phrases": "A list of items to be discussed at a meeting",
+        "one_word": "Agenda (N.)",
+        "hindi": "कार्यसूची",
+        "repetition": "4 (2)"
+    },
+    {
+        "sn": 153,
+        "phrases": "A medicine to nullify the effect of poison or another medicine",
+        "one_word": "Antidote (N.)",
+        "hindi": "विष नाशक",
+        "repetition": "6"
+    },
+    {
+        "sn": 154,
+        "phrases": "Animals and plants growing or living in, or near water",
+        "one_word": "Aquatic (Adj.)",
+        "hindi": "जलीय",
+        "repetition": "6"
+    },
+    {
+        "sn": 155,
+        "phrases": "One who denies oneself ordinary bodily pleasures",
+        "one_word": "Ascetic (N.)",
+        "hindi": "सन्यासी",
+        "repetition": "5 (1)"
+    },
+    {
+        "sn": 156,
+        "phrases": "A person engaged in or trained for spaceflight",
+        "one_word": "Astronaut (N.)",
+        "hindi": "अन्तरिक्ष यात्री",
+        "repetition": "5 (1)"
+    },
+    {
+        "sn": 157,
+        "phrases": "The scientific study of celestial bodies like sun, moon, stars, planets, etc.",
+        "one_word": "Astronomy (N.)",
+        "hindi": "खगोल शास्त्र",
+        "repetition": "6"
+    },
+    {
+        "sn": 158,
+        "phrases": "A doctor who specializes in the study or treatment of heart diseases",
+        "one_word": "Cardiologist (N.)",
+        "hindi": "हृदय रोग विशेषज्ञ",
+        "repetition": "5 (1)"
+    },
+    {
+        "sn": 159,
+        "phrases": "Animals that eat meat",
+        "one_word": "Carnivorous (N.)",
+        "hindi": "मांसभक्षी",
+        "repetition": "4 (2)"
+    },
+    {
+        "sn": 160,
+        "phrases": "A place where gambling games are played",
+        "one_word": "Casino (N.)",
+        "hindi": "जुआखाना",
+        "repetition": "3 (3)"
+    },
+    {
+        "sn": 161,
+        "phrases": "A list or collection of books or informative graphics",
+        "one_word": "Catalogue (N.)",
+        "hindi": "सूची",
+        "repetition": "6"
+    },
+    {
+        "sn": 162,
+        "phrases": "A funeral procession",
+        "one_word": "Cortege (N.)",
+        "hindi": "शव-यात्रा",
+        "repetition": "1 (5)"
+    },
+    {
+        "sn": 163,
+        "phrases": "Centre of attraction",
+        "one_word": "Cynosure (N.)",
+        "hindi": "आकर्षण-बिन्दु",
+        "repetition": "3 (3)"
+    },
+    {
+        "sn": 164,
+        "phrases": "A leader who sways his followers by his oratory",
+        "one_word": "Demagogue (N.)",
+        "hindi": "जनोत्तेजक नेता",
+        "repetition": "2 (4)"
+    },
+    {
+        "sn": 165,
+        "phrases": "The study of population and its dynamics",
+        "one_word": "Demography (N.)",
+        "hindi": "जनसांख्यिकी",
+        "repetition": "5 (1)"
+    },
+    {
+        "sn": 166,
+        "phrases": "A large bedroom for a number of people in a school or institution",
+        "one_word": "Dormitory (N.)",
+        "hindi": "शयनागार",
+        "repetition": "5 (1)"
+    },
+    {
+        "sn": 167,
+        "phrases": "A game in which no one wins",
+        "one_word": "Draw (V.)",
+        "hindi": "अनिर्णित",
+        "repetition": "6"
+    },
+    {
+        "sn": 168,
+        "phrases": "A book or set of books giving information about all areas of knowledge",
+        "one_word": "Encyclopedia (N.)",
+        "hindi": "विश्वकोश",
+        "repetition": "5 (1)"
+    },
+    {
+        "sn": 169,
+        "phrases": "Murder of one's brother or sister",
+        "one_word": "Fratricide (N.)",
+        "hindi": "भ्रातृहत्या",
+        "repetition": "4 (2)"
+    },
+    {
+        "sn": 170,
+        "phrases": "A very small village",
+        "one_word": "Hamlet (N.)",
+        "hindi": "छोटा गांव",
+        "repetition": "3 (3)"
+    },
+    {
+        "sn": 171,
+        "phrases": "A building in which aircraft are housed",
+        "one_word": "Hangar (N.)",
+        "hindi": "विमानशाला",
+        "repetition": "6"
+    },
+    {
+        "sn": 172,
+        "phrases": "All (things or people) of the same or similar kind or nature",
+        "one_word": "Homogeneous (Adj.)",
+        "hindi": "सजातीय",
+        "repetition": "5 (1)"
+    },
+    {
+        "sn": 173,
+        "phrases": "The study of growing garden plants",
+        "one_word": "Horticulture (N.)",
+        "hindi": "उद्यान-विज्ञान",
+        "repetition": "5 (1)"
+    },
+    {
+        "sn": 174,
+        "phrases": "That which cannot be satisfied",
+        "one_word": "Insatiable (Adj.)",
+        "hindi": "लालची",
+        "repetition": "5 (1)"
+    },
+    {
+        "sn": 175,
+        "phrases": "Someone who is killed fighting for the cause of religion or faith",
+        "one_word": "Martyr (N.)",
+        "hindi": "शहीद",
+        "repetition": "4 (2)"
+    },
+    {
+        "sn": 176,
+        "phrases": "A place for keeping dead bodies before burial or cremation",
+        "one_word": "Mortuary (N.)",
+        "hindi": "शवगृह",
+        "repetition": "4 (2)"
+    },
+    {
+        "sn": 177,
+        "phrases": "Present everywhere",
+        "one_word": "Omnipresent (Adj.)",
+        "hindi": "सर्वव्यापक",
+        "repetition": "2 (4)"
+    },
+    {
+        "sn": 178,
+        "phrases": "The scientific study of birds",
+        "one_word": "Ornithology (N.)",
+        "hindi": "पक्षीविज्ञान",
+        "repetition": "3 (3)"
+    },
+    {
+        "sn": 179,
+        "phrases": "A fictitious name especially one assumed by an author",
+        "one_word": "Pseudonym (N.)",
+        "hindi": "उपनाम",
+        "repetition": "5 (1)"
+    },
+    {
+        "sn": 180,
+        "phrases": "Dress with medals, ribbons worn at official ceremony // symbols of royalty",
+        "one_word": "Regalia (N.)",
+        "hindi": "राजचिह्न, पदक",
+        "repetition": "3 (3)"
+    },
+    {
+        "sn": 181,
+        "phrases": "A person very reserved in speech",
+        "one_word": "Reticent (Adj.)",
+        "hindi": "अल्पभाषी",
+        "repetition": "4 (2)"
+    },
+    {
+        "sn": 182,
+        "phrases": "One who helps a person in need",
+        "one_word": "Samaritan (N.)",
+        "hindi": "नेक आदमी",
+        "repetition": "5 (1)"
+    },
+    {
+        "sn": 183,
+        "phrases": "An office with high salary but no work",
+        "one_word": "Sinecure (N.)",
+        "hindi": "आराम की नौकरी",
+        "repetition": "4 (2)"
+    },
+    {
+        "sn": 184,
+        "phrases": "The study of the nature of god and religious beliefs // The study of religion",
+        "one_word": "Theology (N.)",
+        "hindi": "ब्रह्मविद्या",
+        "repetition": "6"
+    },
+    {
+        "sn": 185,
+        "phrases": "A place where animals are slaughtered for consumption as food",
+        "one_word": "Abattoir (N.)",
+        "hindi": "कसाईखाना",
+        "repetition": "4 (1)"
+    },
+    {
+        "sn": 186,
+        "phrases": "An official pardon // the formal act of liberating someone",
+        "one_word": "Amnesty (N.)",
+        "hindi": "राज-क्षमा",
+        "repetition": "4 (1)"
+    },
+    {
+        "sn": 187,
+        "phrases": "A system of government of a country in which one person has complete power",
+        "one_word": "Autocracy (N.)",
+        "hindi": "तानाशाही",
+        "repetition": "3 (2)"
+    },
+    {
+        "sn": 188,
+        "phrases": "A large bundle bound for storage or transport",
+        "one_word": "Bale (N.)",
+        "hindi": "गठरी/गट्टा",
+        "repetition": "4 (1)"
+    },
+    {
+        "sn": 189,
+        "phrases": "One who is unable to pay his debts",
+        "one_word": "Bankrupt (N.)",
+        "hindi": "दिवालिया",
+        "repetition": "3 (2)"
+    },
+    {
+        "sn": 190,
+        "phrases": "An instrument used for measuring atmospheric pressure",
+        "one_word": "Barometer (N.)",
+        "hindi": "वायु-दाब-मापक",
+        "repetition": "3 (2)"
+    },
+    {
+        "sn": 191,
+        "phrases": "A group of girls/boys/birds etc",
+        "one_word": "Bevy (N.)",
+        "hindi": "झुंड",
+        "repetition": "2 (3)"
+    },
+    {
+        "sn": 192,
+        "phrases": "A list of the books referred to in a scholarly work",
+        "one_word": "Bibliography (N.)",
+        "hindi": "संदर्भ ग्रंथसूची",
+        "repetition": "5"
+    },
+    {
+        "sn": 193,
+        "phrases": "A government run by officials in a state",
+        "one_word": "Bureaucracy (N.)",
+        "hindi": "नौकरशाही",
+        "repetition": "4 (1)"
+    },
+    {
+        "sn": 194,
+        "phrases": "Harsh or discordant sound // Loud confusing disagreeable sounds",
+        "one_word": "Cacophony (N.)",
+        "hindi": "कोलाहल, कर्कश ध्वनि",
+        "repetition": "3 (2)"
+    },
+    {
+        "sn": 195,
+        "phrases": "A person who is skilled at producing beautiful handwriting",
+        "one_word": "Calligrapher (N.)",
+        "hindi": "सुलेखक",
+        "repetition": "4 (1)"
+    },
+    {
+        "sn": 196,
+        "phrases": "The art or process of drawing or making maps",
+        "one_word": "Cartography (N.)",
+        "hindi": "मानचित्रकारी",
+        "repetition": "4 (1)"
+    },
+    {
+        "sn": 197,
+        "phrases": "One who plans the steps and moves in a dance",
+        "one_word": "Choreographer (N.)",
+        "hindi": "नृत्य-निर्देशक",
+        "repetition": "5"
+    },
+    {
+        "sn": 198,
+        "phrases": "Easily spread from one person to another (disease)",
+        "one_word": "Contagious (Adj.)",
+        "hindi": "संक्रामक",
+        "repetition": "4 (1)"
+    },
+    {
+        "sn": 199,
+        "phrases": "One who sneers at the aims and beliefs of his fellow men // A person who believes that only selfishness motivates human actions",
+        "one_word": "Cynic (N.)",
+        "hindi": "निंदक, मानवद्वेषी",
+        "repetition": "2 (3)"
+    },
+    {
+        "sn": 200,
+        "phrases": "A system of government in which all the people of a country can vote to elect their representatives",
+        "one_word": "Democracy (N.)",
+        "hindi": "लोकतंत्र/प्रजातंत्र/जनतंत्र",
+        "repetition": "4 (1)"
+    }
+]
