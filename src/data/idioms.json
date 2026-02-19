@@ -1,1202 +1,1402 @@
 [
     {
         "sn": 1,
-        "idiom_phrase": "Beat about/around the bush",
+        "idiom": "Beat about/around the bush",
         "meaning": "Avoiding the main topic // Speak in a round-about manner // speaking vaguely to avoid talking about it",
-        "hindi_meaning": "घुमा-फिराकर बात करना"
+        "hindi": "घुमा-फिराकर बात करना",
+        "repetition": "18 (15)"
     },
     {
         "sn": 2,
-        "idiom_phrase": "Spill the beans",
+        "idiom": "Spill the beans",
         "meaning": "Disclose the secrets accidentally",
-        "hindi_meaning": "अनजाने में भेद खोल देना"
+        "hindi": "अनजाने में भेद खोल देना",
+        "repetition": "20 (10)"
     },
     {
         "sn": 3,
-        "idiom_phrase": "Cost an arm and a leg",
+        "idiom": "Cost an arm and a leg",
         "meaning": "Very expensive // A large amount of money",
-        "hindi_meaning": "बहुत महंगा पड़ना"
+        "hindi": "बहुत महंगा पड़ना",
+        "repetition": "20 (8)"
     },
     {
         "sn": 4,
-        "idiom_phrase": "Once in a blue moon",
+        "idiom": "Once in a blue moon",
         "meaning": "Rarely and infrequently // occasionally",
-        "hindi_meaning": "ईद का चाँद होना (कभी कभार)"
+        "hindi": "ईद का चाँद होना (कभी कभार)",
+        "repetition": "18 (8)"
     },
     {
         "sn": 5,
-        "idiom_phrase": "Face the music",
+        "idiom": "Face the music",
         "meaning": "To accept punishment for mistake // Get reprimanded // to bear the consequences // Accept the blame",
-        "hindi_meaning": "किये का परिणाम भुगतना"
+        "hindi": "किये का परिणाम भुगतना",
+        "repetition": "16 (7)"
     },
     {
         "sn": 6,
-        "idiom_phrase": "Under the weather",
+        "idiom": "Under the weather",
         "meaning": "To not feel well // To feel sick or unhealthy // To be in low spirits",
-        "hindi_meaning": "बीमार होना"
+        "hindi": "बीमार होना",
+        "repetition": "17 (6)"
     },
     {
         "sn": 7,
-        "idiom_phrase": "A bolt from the blue",
+        "idiom": "A bolt from the blue",
         "meaning": "Something unexpected and unpleasant // A complete surprise // A sudden calamity // An unexpected disaster",
-        "hindi_meaning": "आकस्मिक घटना"
+        "hindi": "आकस्मिक घटना",
+        "repetition": "12 (10)"
     },
     {
         "sn": 8,
-        "idiom_phrase": "Bury the hatchet",
+        "idiom": "Bury the hatchet",
         "meaning": "To make peace // To end a quarrel",
-        "hindi_meaning": "झगड़ा खत्म करना"
+        "hindi": "झगड़ा खत्म करना",
+        "repetition": "14 (8)"
     },
     {
         "sn": 9,
-        "idiom_phrase": "Wild goose chase",
+        "idiom": "Wild goose chase",
         "meaning": "A worthless hunt or chase // Futile search // Unprofitable adventure",
-        "hindi_meaning": "निरर्थक खोज"
+        "hindi": "निरर्थक खोज",
+        "repetition": "13 (8)"
     },
     {
         "sn": 10,
-        "idiom_phrase": "At the eleventh hour",
+        "idiom": "At the eleventh hour",
         "meaning": "At the very last moment // Just before the deadline",
-        "hindi_meaning": "आखिरी मौके पर"
+        "hindi": "आखिरी मौके पर",
+        "repetition": "12 (8)"
     },
     {
         "sn": 11,
-        "idiom_phrase": "Blow one's own trumpet",
+        "idiom": "Blow one's own trumpet",
         "meaning": "Praise oneself // Talk boastfully about oneself // to boast about their achievements",
-        "hindi_meaning": "अपने मुंह मियां मिट्टू बनना (खुद की तारीफ खुद करना)"
+        "hindi": "अपने मुंह मियाँ मिट्ठू बनना",
+        "repetition": "15 (5)"
     },
     {
         "sn": 12,
-        "idiom_phrase": "Break the ice",
+        "idiom": "Break the ice",
         "meaning": "Initiate something // to start a conversation // To make someone comfortable // To break a painful silence",
-        "hindi_meaning": "चुप्पी तोड़ना (बातचीत शुरू करना)"
+        "hindi": "चुप्पी तोड़ना (बातचीत शुरू करना)",
+        "repetition": "11 (9)"
     },
     {
         "sn": 13,
-        "idiom_phrase": "Get into hot water",
+        "idiom": "Get into hot water",
         "meaning": "To get into trouble // To be in a difficult situation in which you can be criticised",
-        "hindi_meaning": "मुसीबत में पड़ना"
+        "hindi": "मुसीबत में पड़ना",
+        "repetition": "13 (7)"
     },
     {
         "sn": 14,
-        "idiom_phrase": "Hit the nail on the head",
+        "idiom": "Hit the nail on the head",
         "meaning": "Say or do something exactly right // to find exactly the right answer",
-        "hindi_meaning": "सटीक जवाब देना, बिल्कुल सही होना"
+        "hindi": "सटीक जवाब देना, बिल्कुल सही होना",
+        "repetition": "12 (8)"
     },
     {
         "sn": 15,
-        "idiom_phrase": "Have an axe to grind",
+        "idiom": "Have an axe to grind",
         "meaning": "A private interest to serve // To have an ulterior motive",
-        "hindi_meaning": "अपना उल्लू सीधा करना (निजी स्वार्थ)"
+        "hindi": "अपना उल्लू सीधा करना (निजी स्वार्थ)",
+        "repetition": "9 (10)"
     },
     {
         "sn": 16,
-        "idiom_phrase": "To smell a rat",
+        "idiom": "To smell a rat",
         "meaning": "Suspect a trick or deceit // detected something wrong",
-        "hindi_meaning": "दाल में काला होना (संदेह होना)"
+        "hindi": "दाल में काला होना (संदेह होना)",
+        "repetition": "14 (5)"
     },
     {
         "sn": 17,
-        "idiom_phrase": "Call it a day",
-        "meaning": "Decide or agree to stop doing something // to give up work and go home",
-        "hindi_meaning": "आज के लिए इतना ही"
+        "idiom": "Call it a day",
+        "meaning": "Decide or agree to stop doing something // to give up work and go back to home",
+        "hindi": "आज के लिए इतना ही",
+        "repetition": "10 (8)"
     },
     {
         "sn": 18,
-        "idiom_phrase": "Gift of the gab",
+        "idiom": "Gift of the gab",
         "meaning": "Ability to speak eloquently // Talks well and persuasively // Ability to convince",
-        "hindi_meaning": "जिह्वा पर सरस्वती का वास (वाक्पटुता की क्षमता)"
+        "hindi": "वाक्पटुता की क्षमता",
+        "repetition": "15 (3)"
     },
     {
         "sn": 19,
-        "idiom_phrase": "See eye to eye",
+        "idiom": "See eye to eye",
         "meaning": "Be in full agreement",
-        "hindi_meaning": "पूर्णतः सहमत होना"
+        "hindi": "पूर्णतः सहमत होना",
+        "repetition": "9 (9)"
     },
     {
         "sn": 20,
-        "idiom_phrase": "Sit on the fence",
+        "idiom": "Sit on the fence",
         "meaning": "To remain neutral, to refuse to take sides in a dispute // halting between two opinions",
-        "hindi_meaning": "तटस्थ रहना // दुविधा में होना"
+        "hindi": "तटस्थ रहना // दुविधा में होना",
+        "repetition": "11 (7)"
     },
     {
         "sn": 21,
-        "idiom_phrase": "To flog/beat a dead horse",
+        "idiom": "To flog/beat a dead horse",
         "meaning": "To attempt to do the impossible // waste energy on an unalterable situation // a futile effort",
-        "hindi_meaning": "मुर्दे में जान डालने की कोशिश करना (असंभव काम करना)"
+        "hindi": "मुर्दे में जान डालने की कोशिश करना",
+        "repetition": "11 (7)"
     },
     {
         "sn": 22,
-        "idiom_phrase": "A Blessing/boon in disguise",
+        "idiom": "A blessing/boon in disguise",
         "meaning": "An apparent misfortune that eventually has good results // A hidden favour",
-        "hindi_meaning": "दुख के भेष में सुख"
+        "hindi": "दुख के भेष में सुख",
+        "repetition": "14 (3)"
     },
     {
         "sn": 23,
-        "idiom_phrase": "A fish out of water",
+        "idiom": "A fish out of water",
         "meaning": "An uncomfortable, unfamiliar or unsuitable position or situation // A person out of accustomed",
-        "hindi_meaning": "असहज परिस्थिति"
+        "hindi": "असहज परिस्थिति",
+        "repetition": "13 (4)"
     },
     {
         "sn": 24,
-        "idiom_phrase": "At the drop of a hat/dime",
+        "idiom": "At the drop of a hat/dime",
         "meaning": "Without any hesitation // instantly // without having planned beforehand",
-        "hindi_meaning": "बहुत तेजी से बिना किसी हिचकिचाहट के तुरन्त घटित होना"
+        "hindi": "बहुत तेजी से बिना किसी हिचकिचाहट के",
+        "repetition": "10 (7)"
     },
     {
         "sn": 25,
-        "idiom_phrase": "Hold your horses",
+        "idiom": "Hold your horses",
         "meaning": "Be patient // Slow down // To restrain oneself",
-        "hindi_meaning": "धैर्य रखना"
+        "hindi": "धैर्य रखना",
+        "repetition": "10 (7)"
     },
     {
         "sn": 26,
-        "idiom_phrase": "It's Raining cats and dogs",
+        "idiom": "It's Raining cats and dogs",
         "meaning": "Raining extremely heavily // A very heavy downpour",
-        "hindi_meaning": "मूसलाधार बारिश होना"
+        "hindi": "मूसलाधार बारिश होना",
+        "repetition": "11 (6)"
     },
     {
         "sn": 27,
-        "idiom_phrase": "Leave no stone unturned",
+        "idiom": "Leave no stone unturned",
         "meaning": "Try every possible course of action in order to achieve something",
-        "hindi_meaning": "खून पसीना एक करना (हर मुमकिन प्रयास करना)"
+        "hindi": "हर मुमकिन प्रयास करना",
+        "repetition": "11 (6)"
     },
     {
         "sn": 28,
-        "idiom_phrase": "Let the cat out of the bag",
+        "idiom": "Let the cat out of the bag",
         "meaning": "Reveal a secret carelessly or by mistake",
-        "hindi_meaning": "भेद खोलना"
+        "hindi": "भेद खोलना",
+        "repetition": "9 (8)"
     },
     {
         "sn": 29,
-        "idiom_phrase": "A hard nut to crack",
+        "idiom": "A hard nut to crack",
         "meaning": "Difficult task // A tough challenge // A difficult person // An inflexible person who is hard to convince",
-        "hindi_meaning": "लोहे के चने चबाना (मुश्किल काम)"
+        "hindi": "लोहे के चने चबाना (मुश्किल काम)",
+        "repetition": "15 (1)"
     },
     {
         "sn": 30,
-        "idiom_phrase": "A red letter day",
+        "idiom": "A red letter day",
         "meaning": "An important day // a day that is pleasantly noteworthy or memorable // happy and significant day",
-        "hindi_meaning": "महत्वपूर्ण दिन"
+        "hindi": "महत्वपूर्ण दिन",
+        "repetition": "13 (3)"
     },
     {
         "sn": 31,
-        "idiom_phrase": "Add fuel to the fire/flames",
+        "idiom": "Add fuel to the fire/flames",
         "meaning": "Make things worse // worsened the difficult situation",
-        "hindi_meaning": "आग में घी डालना (किसी के गुस्से को और अधिक भड़काना)"
+        "hindi": "आग में घी डालना",
+        "repetition": "11 (5)"
     },
     {
         "sn": 32,
-        "idiom_phrase": "Cry over spilt milk",
+        "idiom": "Cry over spilt milk",
         "meaning": "To complain about a loss from the past // Feeling sorry over a mistake that cannot be changed or rectified",
-        "hindi_meaning": "अब पछताए होत क्या जब चिड़िया चुग गई खेत (बीती बातों पर अफ़सोस करना)"
+        "hindi": "अब पछताए होत क्या जब चिड़िया चुग गई खेत",
+        "repetition": "11 (5)"
     },
     {
         "sn": 33,
-        "idiom_phrase": "Through thick and thin",
+        "idiom": "Through thick and thin",
         "meaning": "Support under all circumstances // in times of good and bad fortune",
-        "hindi_meaning": "हर हाल में"
+        "hindi": "हर हाल में",
+        "repetition": "13 (3)"
     },
     {
         "sn": 34,
-        "idiom_phrase": "To end in smoke",
+        "idiom": "To end in smoke",
         "meaning": "To come to nothing // end without any practical result",
-        "hindi_meaning": "धुवें में उड़ना (कोई परिणाम न निकलना)"
+        "hindi": "धुवें में उड़ना (कोई परिणाम न निकलना)",
+        "repetition": "8 (8)"
     },
     {
         "sn": 35,
-        "idiom_phrase": "All at sea // Feel at sea",
+        "idiom": "All at sea // Feel at sea",
         "meaning": "Puzzled // state of confusion // lost and confused",
-        "hindi_meaning": "असमंजस की स्थिति"
+        "hindi": "असमंजस की स्थिति",
+        "repetition": "12 (3)"
     },
     {
         "sn": 36,
-        "idiom_phrase": "Bite off more than one can chew",
+        "idiom": "Bite off more than one can chew",
         "meaning": "Take on more responsibility than one can handle",
-        "hindi_meaning": "अपनी क्षमता से अधिक काम लेना"
+        "hindi": "अपनी क्षमता से अधिक काम लेना",
+        "repetition": "11 (4)"
     },
     {
         "sn": 37,
-        "idiom_phrase": "Bite the bullet",
+        "idiom": "Bite the bullet",
         "meaning": "To force yourself to do something unpleasant // To get something over with because it is inevitable",
-        "hindi_meaning": "मजबूरी में स्वीकार करना"
+        "hindi": "मजबूरी में स्वीकार करना",
+        "repetition": "10 (5)"
     },
     {
         "sn": 38,
-        "idiom_phrase": "On cloud nine",
+        "idiom": "On cloud nine",
         "meaning": "Extremely happy and excited",
-        "hindi_meaning": "सातवें आसमान पर (अत्यंत प्रसन्न होना)"
+        "hindi": "सातवें आसमान पर (अत्यंत प्रसन्न होना)",
+        "repetition": "12 (3)"
     },
     {
         "sn": 39,
-        "idiom_phrase": "Snake in the grass",
+        "idiom": "Snake in the grass",
         "meaning": "An unreliable and deceitful person // A treacherous person // A secret enemy",
-        "hindi_meaning": "आस्तीन का साँप (गुप्त शत्रु)"
+        "hindi": "आस्तीन का साँप",
+        "repetition": "12 (3)"
     },
     {
         "sn": 40,
-        "idiom_phrase": "To miss the boat/bus",
+        "idiom": "To miss the boat/bus",
         "meaning": "To miss an opportunity // lose an opportunity",
-        "hindi_meaning": "मौका गँवा बैठना"
+        "hindi": "मौका गँवा बैठना",
+        "repetition": "11 (4)"
     },
     {
         "sn": 41,
-        "idiom_phrase": "To turn a deaf ear",
+        "idiom": "To turn a deaf ear",
         "meaning": "Disregard // refused to obey // to be indifferent // neglect",
-        "hindi_meaning": "कान पर जूँ तक न रेंगना (सुनी-अनसुनी कर देना)"
+        "hindi": "अनसुनी कर देना",
+        "repetition": "10 (5)"
     },
     {
         "sn": 42,
-        "idiom_phrase": "Read between the lines",
+        "idiom": "Read between the lines",
         "meaning": "Understand the hidden meaning // find more meaning than the words appear to express",
-        "hindi_meaning": "छिपा हुआ अर्थ समझना // अनकहे भाव को समझना"
+        "hindi": "छिपा हुआ अर्थ समझना",
+        "repetition": "12 (2)"
     },
     {
         "sn": 43,
-        "idiom_phrase": "A piece of cake",
+        "idiom": "A piece of cake",
         "meaning": "A very easy task",
-        "hindi_meaning": "बच्चों का खेल (आसान काम)"
+        "hindi": "बच्चों का खेल (आसान काम)",
+        "repetition": "11 (2)"
     },
     {
         "sn": 44,
-        "idiom_phrase": "By fits and starts",
+        "idiom": "By fits and starts",
         "meaning": "Unsteady // irregularly",
-        "hindi_meaning": "अनियमित रूप से"
+        "hindi": "अनियमित रूप से",
+        "repetition": "9 (4)"
     },
     {
         "sn": 45,
-        "idiom_phrase": "By leaps and bounds",
+        "idiom": "By leaps and bounds",
         "meaning": "Very quickly // rapidly // Swiftly",
-        "hindi_meaning": "दिन दुगनी रात चौगुनी (बहुत तेजी से)"
+        "hindi": "दिन दुगनी रात चौगुनी",
+        "repetition": "13"
     },
     {
         "sn": 46,
-        "idiom_phrase": "Cock and bull story",
+        "idiom": "Cock and bull story",
         "meaning": "An unbelievable or absurd story",
-        "hindi_meaning": "अविश्वसनीय या बेतुकी कहानी"
+        "hindi": "अविश्वसनीय या बेतुकी कहानी",
+        "repetition": "10 (3)"
     },
     {
         "sn": 47,
-        "idiom_phrase": "Give someone the cold shoulder",
+        "idiom": "Give someone the cold shoulder",
         "meaning": "Deliberately ignore, avoid or be unfriendly towards someone",
-        "hindi_meaning": "जान बूझ कर नज़रअंदाज़ करना"
+        "hindi": "जान बुझ कर नज़रअंदाज़ करना",
+        "repetition": "7 (6)"
     },
     {
         "sn": 48,
-        "idiom_phrase": "In a nutshell",
+        "idiom": "In a nutshell",
         "meaning": "Briefly and concisely // In a short, clear way // To describe in few words",
-        "hindi_meaning": "संक्षेप में और सटीक रूप से"
+        "hindi": "संक्षेप में और सटीक रूप से",
+        "repetition": "10 (3)"
     },
     {
         "sn": 49,
-        "idiom_phrase": "In the same boat",
+        "idiom": "In the same boat",
         "meaning": "In the same unpleasant or difficult situation",
-        "hindi_meaning": "एक जैसी कठिन परिस्थिति में होना"
+        "hindi": "एक जैसी कठिन परिस्थिति में होना",
+        "repetition": "9 (4)"
     },
     {
         "sn": 50,
-        "idiom_phrase": "Pull yourself together",
+        "idiom": "Pull yourself together",
         "meaning": "To calm oneself down and begin to think or act appropriately",
-        "hindi_meaning": "शांत होना, भावनाओं पर नियंत्रण रखकर काम करना"
+        "hindi": "शांत होना, भावनाओं पर नियंत्रण रखना",
+        "repetition": "9 (4)"
     },
     {
         "sn": 51,
-        "idiom_phrase": "A dark horse",
+        "idiom": "A dark horse",
         "meaning": "An unexpected winner // someone who unexpectedly succeeds // an unknown entry // a competitor of unknown capabilities",
-        "hindi_meaning": "अप्रत्याशित विजेता"
+        "hindi": "अप्रत्याशित विजेता",
+        "repetition": "8 (4)"
     },
     {
         "sn": 52,
-        "idiom_phrase": "A dime a dozen",
+        "idiom": "A dime a dozen",
         "meaning": "Very common and of no particular value // Anything that is common and easy to get",
-        "hindi_meaning": "कौड़ी के भाव (बेहद सस्ते)"
+        "hindi": "कौड़ी के भाव (बेहद सस्ते)",
+        "repetition": "6 (6)"
     },
     {
         "sn": 53,
-        "idiom_phrase": "A stone’s throw away",
+        "idiom": "A stone's throw away",
         "meaning": "A very short distance",
-        "hindi_meaning": "थोड़ी दूरी पर"
+        "hindi": "थोड़ी दूरी पर",
+        "repetition": "11 (1)"
     },
     {
         "sn": 54,
-        "idiom_phrase": "Back to the drawing board",
+        "idiom": "Back to the drawing board",
         "meaning": "An idea has been unsuccessful and that a new one must be devised // plan it all over again",
-        "hindi_meaning": "नये सिरे से बनाना"
+        "hindi": "नये सिरे से बनाना",
+        "repetition": "8 (4)"
     },
     {
         "sn": 55,
-        "idiom_phrase": "Barking up the wrong tree",
+        "idiom": "Barking up the wrong tree",
         "meaning": "Trying to do something in a way that will not work // accuse or denounce the wrong person",
-        "hindi_meaning": "निरर्थक प्रयास"
+        "hindi": "निरर्थक प्रयास",
+        "repetition": "10 (2)"
     },
     {
         "sn": 56,
-        "idiom_phrase": "Be all ears",
+        "idiom": "Be all ears",
         "meaning": "Listening intently // To be ready and eager to listen",
-        "hindi_meaning": "गौर से सुनना"
+        "hindi": "गौर से सुनना",
+        "repetition": "11 (1)"
     },
     {
         "sn": 57,
-        "idiom_phrase": "Burn the midnight oil",
+        "idiom": "Burn the midnight oil",
         "meaning": "To work or study till very late in the night // To work very hard",
-        "hindi_meaning": "रात-दिन एक करना (देर रात्रि तक काम करना)"
+        "hindi": "रात-दिन एक करना",
+        "repetition": "8 (4)"
     },
     {
         "sn": 58,
-        "idiom_phrase": "Chip off the old block",
-        "meaning": "Reminds them of one's father // someone similar in character or behaviour to one's father // Resembling parents",
-        "hindi_meaning": "जैसा बाप वैसा बेटा"
+        "idiom": "Chip off the old block",
+        "meaning": "Reminds them of one’s father // someone similar in character or behaviour to one’s father",
+        "hindi": "जैसा बाप वैसा बेटा",
+        "repetition": "8 (4)"
     },
     {
         "sn": 59,
-        "idiom_phrase": "Get out of hand",
+        "idiom": "Get out of hand",
         "meaning": "To become uncontrollable // get out of control",
-        "hindi_meaning": "हाथ से निकलना (बेकाबू होना)"
+        "hindi": "हाथ से निकलना (बेकाबू होना)",
+        "repetition": "10 (2)"
     },
     {
         "sn": 60,
-        "idiom_phrase": "Pull someone's leg",
+        "idiom": "Pull someone’s leg",
         "meaning": "To make fool of // playing a joke with someone // To tease someone",
-        "hindi_meaning": "किसी की टांग खींचना (मज़ाक उड़ाना)"
+        "hindi": "किसी की टांग खींचना",
+        "repetition": "11 (1)"
     },
     {
         "sn": 61,
-        "idiom_phrase": "Take with a pinch/grain of salt",
+        "idiom": "Take with a pinch/grain of salt",
         "meaning": "Not believe completely something that you are told // To listen to something with considerable doubt",
-        "hindi_meaning": "आँख मूँदकर विश्वास न करना (सन्देह होना)"
+        "hindi": "आँख मूंदकर विश्वास न करना",
+        "repetition": "8 (4)"
     },
     {
         "sn": 62,
-        "idiom_phrase": "The Lion's share",
-        "meaning": "The biggest and best part of a whole // The greatest and most desirable portion of something",
-        "hindi_meaning": "सबसे बड़ा और बेहतर हिस्सा"
+        "idiom": "The Lion’s share",
+        "meaning": "The biggest and best part of a whole // The greatest and most desirable portion",
+        "hindi": "सबसे बड़ा और बेहतर हिस्सा",
+        "repetition": "6 (6)"
     },
     {
         "sn": 63,
-        "idiom_phrase": "To fight tooth and nail",
-        "meaning": "To make every possible effort // To fight furiously and fiercely, with all one's strength and effort",
-        "hindi_meaning": "एड़ी चोटी का जोर लगाना (पूरी ताकत से)"
+        "idiom": "To fight tooth and nail",
+        "meaning": "To make every possible effort // To fight furiously and fiercely",
+        "hindi": "एड़ी चोटी का जोर लगाना",
+        "repetition": "7 (5)"
     },
     {
         "sn": 64,
-        "idiom_phrase": "To hit the sack",
+        "idiom": "To hit the sack",
         "meaning": "To prepare for sleep // to go to bed",
-        "hindi_meaning": "सोने की तैयारी करना"
+        "hindi": "सोने की तैयारी करना",
+        "repetition": "8 (4)"
     },
     {
         "sn": 65,
-        "idiom_phrase": "Under a cloud",
+        "idiom": "Under a cloud",
         "meaning": "Under suspicion",
-        "hindi_meaning": "शक के दायरे में"
+        "hindi": "शक के दायरे में",
+        "repetition": "8 (4)"
     },
     {
         "sn": 66,
-        "idiom_phrase": "As fit as a fiddle",
+        "idiom": "As fit as a fiddle",
         "meaning": "Strong and healthy // In a perfectly healthy condition",
-        "hindi_meaning": "बहुत अच्छे स्वास्थ्य में"
+        "hindi": "बहुत अच्छे स्वास्थ्य में",
+        "repetition": "8 (3)"
     },
     {
         "sn": 67,
-        "idiom_phrase": "Best of both worlds",
-        "meaning": "A situation wherein someone has the privilege of enjoying two different opportunities // all the advantages // An ideal situation",
-        "hindi_meaning": "दोनों हाथों में लड्डू (हर प्रकार से लाभ होना)"
+        "idiom": "Best of both worlds",
+        "meaning": "A situation wherein someone has the privilege of enjoying two different opportunities",
+        "hindi": "दोनों हाथों में लड्डू",
+        "repetition": "9 (2)"
     },
     {
         "sn": 68,
-        "idiom_phrase": "By hook or by crook",
-        "meaning": "By any means, good or bad // Using whatever methods are necessary // In whatever way one can",
-        "hindi_meaning": "कैसे भी करके"
+        "idiom": "By hook or by crook",
+        "meaning": "By any means, good or bad // Using whatever methods are necessary",
+        "hindi": "कैसे भी करके",
+        "repetition": "5 (6)"
     },
     {
         "sn": 69,
-        "idiom_phrase": "By the skin of one's teeth",
-        "meaning": "By the narrowest margin // Having a narrow escape // To just barely manage to achieve something",
-        "hindi_meaning": "बहुत कम अंतर से"
+        "idiom": "By the skin of one's teeth",
+        "meaning": "By the narrowest margin // Having a narrow escape",
+        "hindi": "बहुत कम अंतर से",
+        "repetition": "9 (2)"
     },
     {
         "sn": 70,
-        "idiom_phrase": "Every cloud has a silver lining",
-        "meaning": "Every unpleasant situation has a positive side // Something promising is there in any difficult situation",
-        "hindi_meaning": "निराशा में भी आशा की झलक होती है"
+        "idiom": "Every cloud has a silver lining",
+        "meaning": "Every unpleasant situation has a positive side // Something promising in any difficult situation",
+        "hindi": "निराशा में भी आशा की झलक",
+        "repetition": "5 (6)"
     },
     {
         "sn": 71,
-        "idiom_phrase": "Grease the palm",
+        "idiom": "Grease the palm",
         "meaning": "To bribe discreetly // to bribe someone",
-        "hindi_meaning": "मुट्ठी गरम करना (रिश्वत देना)"
+        "hindi": "मुट्ठी गरम करना (रिश्वत देना)",
+        "repetition": "9 (2)"
     },
     {
         "sn": 72,
-        "idiom_phrase": "Hand in glove // Hand and glove",
-        "meaning": "In close association // in partnership for something dishonest // Very intimate terms",
-        "hindi_meaning": "घनिष्ठ सम्बन्ध"
+        "idiom": "Hand in glove",
+        "meaning": "In close association // in partnership for something dishonest",
+        "hindi": "घनिष्ठ सम्बन्ध",
+        "repetition": "8 (3)"
     },
     {
         "sn": 73,
-        "idiom_phrase": "In high/good spirits",
+        "idiom": "In high/good spirits",
         "meaning": "Full of hope and enthusiasm // Joyful // Cheerful and elated",
-        "hindi_meaning": "उत्साह से भरपूर"
+        "hindi": "उत्साह से भरपूर",
+        "repetition": "7 (4)"
     },
     {
         "sn": 74,
-        "idiom_phrase": "Keep at arm's length",
+        "idiom": "Keep at arm's length",
         "meaning": "To be at a distance with someone // Avoid being friendly with someone",
-        "hindi_meaning": "दूर से सलाम करना (दूरी बनाना)"
+        "hindi": "दूर से सलाम करना",
+        "repetition": "9 (2)"
     },
     {
         "sn": 75,
-        "idiom_phrase": "Strain every nerve",
+        "idiom": "Strain every nerve",
         "meaning": "Work very hard // to make utmost efforts",
-        "hindi_meaning": "खून पसीना एक करना (कठिन परिश्रम करना)"
+        "hindi": "खून पसीना एक करना",
+        "repetition": "5 (6)"
     },
     {
         "sn": 76,
-        "idiom_phrase": "Throw caution to the wind",
+        "idiom": "Throw caution to the wind",
         "meaning": "To do something without worrying about the risk // To behave recklessly",
-        "hindi_meaning": "जोखिम भरा काम करना"
+        "hindi": "जोखिम भरा काम करना",
+        "repetition": "8 (3)"
     },
     {
         "sn": 77,
-        "idiom_phrase": "To eat a humble pie",
-        "meaning": "To accept defeat // suffer humiliation // had to yield under pressure // To apologise humbly",
-        "hindi": "नाक रगड़ना (हार मानना)"
+        "idiom": "To eat a humble pie",
+        "meaning": "To accept defeat // suffer humiliation // had to yield under pressure",
+        "hindi": "नाक रगड़ना (हार मानना)",
+        "repetition": "9 (2)"
     },
     {
         "sn": 78,
-        "idiom_phrase": "At one's wit's end",
+        "idiom": "At one’s wit’s end",
         "meaning": "Completely confused or perplexed",
-        "hindi": "पूरी तरह से उलझन में"
+        "hindi": "पूरी तरह से उलझन में",
+        "repetition": "7 (3)"
     },
     {
         "sn": 79,
-        "idiom_phrase": "Build castles in the air",
-        "meaning": "Daydream // Have unrealistic ideas // to create impossible dreams or hopes",
-        "hindi": "हवाई किले बनाना (असंभव सपने देखना)"
+        "idiom": "Build castles in the air",
+        "meaning": "Daydream // Have unrealistic ideas // to create impossible dreams",
+        "hindi": "हवाई किले बनाना",
+        "repetition": "7 (3)"
     },
     {
         "sn": 80,
-        "idiom_phrase": "Burn one's bridges/boats",
-        "meaning": "To destroy all relations // to make it impossible to return to the previous situation later",
-        "hindi": "पीछे लौटने के सभी रास्ते बंद करना"
+        "idiom": "Burn one’s bridges/boats",
+        "meaning": "To destroy all relations // to make it impossible to return to the previous situation",
+        "hindi": "पीछे लौटने के सभी रास्ते बंद करना",
+        "repetition": "6 (4)"
     },
     {
         "sn": 81,
-        "idiom_phrase": "Catch red-handed",
-        "meaning": "To catch someone doing something illegal // Caught in the act of committing the crime",
-        "hindi": "रंगे हाथ (अपराध करते हुए) पकड़ना"
+        "idiom": "Catch red-handed",
+        "meaning": "To catch someone doing something illegal // Caught in the act",
+        "hindi": "रंगे हाथ पकड़ना",
+        "repetition": "7 (3)"
     },
     {
         "sn": 82,
-        "idiom_phrase": "Close shave",
+        "idiom": "Close shave",
         "meaning": "Narrow escape from danger or disaster",
-        "hindi": "बाल-बाल बचना"
+        "hindi": "बाल-बाल बचना",
+        "repetition": "7 (3)"
     },
     {
         "sn": 83,
-        "idiom_phrase": "Don't count your chickens before they hatch",
-        "meaning": "Don't make plans based on events that have not yet happened",
-        "hindi": "सफलता मिलने से पहले जश्न न मानना"
+        "idiom": "Don’t count your chickens before they hatch",
+        "meaning": "Don’t make plans based on events that have not yet happened",
+        "hindi": "सफलता मिलने से पहले जश्न न मानना",
+        "repetition": "2 (8)"
     },
     {
         "sn": 84,
-        "idiom_phrase": "Full of beans",
+        "idiom": "Full of beans",
         "meaning": "Lively and energetic // Full of energy",
-        "hindi": "जोश से भरा हुआ"
+        "hindi": "जोश से भरा हुआ",
+        "repetition": "9 (1)"
     },
     {
         "sn": 85,
-        "idiom_phrase": "Go the extra mile",
-        "meaning": "Going above and beyond whatever is required for the task at hand // To make an extra effort",
-        "hindi": "आवश्यकता से अधिक प्रयास"
+        "idiom": "Go the extra mile",
+        "meaning": "Going above and beyond whatever is required for the task at hand",
+        "hindi": "आवश्यकता से अधिक प्रयास",
+        "repetition": "5 (5)"
     },
     {
         "sn": 86,
-        "idiom_phrase": "Ins and outs",
+        "idiom": "Ins and outs",
         "meaning": "Secrets; the detailed or complicated facts of something // Full details",
-        "hindi": "पूरा विवरण"
+        "hindi": "पूरा विवरण",
+        "repetition": "8 (2)"
     },
     {
         "sn": 87,
-        "idiom_phrase": "Spick and span",
+        "idiom": "Spick and span",
         "meaning": "Very neat, clean, or tidy",
-        "hindi": "बहुत साफ़-सुथरा"
+        "hindi": "बहुत साफ़-सुथरा",
+        "repetition": "9 (1)"
     },
     {
         "sn": 88,
-        "idiom_phrase": "To get cold feet",
+        "idiom": "To get cold feet",
         "meaning": "To experience nervousness or anxiety before one attempts to do something",
-        "hindi": "घबराहट होना"
+        "hindi": "घबराहट होना",
+        "repetition": "8 (2)"
     },
     {
         "sn": 89,
-        "idiom_phrase": "Turn a blind eye",
+        "idiom": "Turn a blind eye",
         "meaning": "To ignore a situation, facts or reality",
-        "hindi": "अँधा बन जाना (अनदेखा करना)"
+        "hindi": "अँधा बन जाना (अनदेखा करना)",
+        "repetition": "5 (5)"
     },
     {
         "sn": 90,
-        "idiom_phrase": "Up in arms",
+        "idiom": "Up in arms",
         "meaning": "To be angry // protesting vigorously about something // In rebellion",
-        "hindi": "खीजा हुआ, कड़ा विरोध करना"
+        "hindi": "कड़ा विरोध करना",
+        "repetition": "5 (5)"
     },
     {
         "sn": 91,
-        "idiom_phrase": "Wears his heart on his sleeve",
+        "idiom": "Wears his heart on his sleeve",
         "meaning": "Expresses his feelings openly // To show your true emotions",
-        "hindi": "दिल खोल कर रख देना (अपनी भावनाओं को खुल कर बता देना)"
+        "hindi": "दिल खोल कर रख देना",
+        "repetition": "7 (3)"
     },
     {
         "sn": 92,
-        "idiom_phrase": "White elephant",
+        "idiom": "White elephant",
         "meaning": "Costly and troublesome possession useless to its owner",
-        "hindi": "महंगा और परेशानी का स्रोत"
+        "hindi": "महंगा और परेशानी का स्रोत",
+        "repetition": "6 (4)"
     },
     {
         "sn": 93,
-        "idiom_phrase": "A man of letters",
+        "idiom": "A man of letters",
         "meaning": "Proficient in literary art // Scholar // A well educated and a wise person",
-        "hindi": "विद्वान"
+        "hindi": "विद्वान",
+        "repetition": "4 (5)"
     },
     {
         "sn": 94,
-        "idiom_phrase": "A storm in a teacup",
-        "meaning": "Big fuss over a small matter // A lot of anger/excitement or worry about trivial things",
-        "hindi": "बात का बतंगड़"
+        "idiom": "A storm in a teacup",
+        "meaning": "Big fuss over a small matter // A lot of anger/excitement over trivial things",
+        "hindi": "बात का बतंगड़",
+        "repetition": "8 (1)"
     },
     {
         "sn": 95,
-        "idiom_phrase": "Add insult to injury",
-        "meaning": "To further a loss with mockery to worsen an unfavourable situation // Make a bad situation even worse",
-        "hindi": "जले पर नमक छिड़कना (दुःख बढ़ाना)"
+        "idiom": "Add insult to injury",
+        "meaning": "To further a loss with mockery to worsen an unfavourable situation",
+        "hindi": "जले पर नमक छिड़कना",
+        "repetition": "7 (2)"
     },
     {
         "sn": 96,
-        "idiom_phrase": "Apple of one's eye",
+        "idiom": "Apple of one’s eye",
         "meaning": "Someone very precious or dear",
-        "hindi": "आँखों का तारा (बहुत प्यारा)"
+        "hindi": "आँखों का तारा",
+        "repetition": "8 (1)"
     },
     {
         "sn": 97,
-        "idiom_phrase": "Back to square one",
+        "idiom": "Back to square one",
         "meaning": "To return to the starting point // Having to start all over again",
-        "hindi": "जहाँ के तहाँ (प्रारम्भिक बिंदु)"
+        "hindi": "जहाँ के तहाँ (प्रारंभिक बिंदु पर लौटना)",
+        "repetition": "5 (4)"
     },
     {
         "sn": 98,
-        "idiom_phrase": "Bad blood",
+        "idiom": "Bad blood",
         "meaning": "Angry feeling // enmity // ill feeling // Hostility between people",
-        "hindi_meaning": "आपसी दुश्मनी"
+        "hindi": "आपसी दुश्मनी",
+        "repetition": "9"
     },
     {
         "sn": 99,
-        "idiom_phrase": "Ball is in your court",
-        "meaning": "It is up to you to make the next decision or step // To be responsible for further action",
-        "hindi_meaning": "जिम्मेदार होना"
+        "idiom": "Ball is in your court",
+        "meaning": "It is up to you to make the next decision or step",
+        "hindi": "ज़िम्मेदार होना",
+        "repetition": "5 (4)"
     },
     {
         "sn": 100,
-        "idiom_phrase": "Black sheep",
-        "meaning": "one who is not accepted as part of a family or group because of one's bad conduct // Person with bad reputation",
-        "hindi_meaning": "कुल-कलंक (बुरी प्रतिष्ठा वाला व्यक्ति)"
+        "idiom": "Black sheep",
+        "meaning": "One who is not accepted as part of a family or group because of bad conduct",
+        "hindi": "कुल-कलंक",
+        "repetition": "5 (4)"
     },
     {
         "sn": 101,
-        "idiom_phrase": "Chicken-hearted",
+        "idiom": "Chicken-hearted",
         "meaning": "Timid // Cowardly // Easily frightened",
-        "hindi_meaning": "डरपोक"
+        "hindi": "डरपोक",
+        "repetition": "6 (3)"
     },
     {
         "sn": 102,
-        "idiom_phrase": "Fair weather friends",
+        "idiom": "Fair weather friends",
         "meaning": "Friends in good times // supports only when easy and convenient",
-        "hindi_meaning": "स्वार्थी मित्र"
+        "hindi": "स्वार्थी मित्र",
+        "repetition": "9"
     },
     {
         "sn": 103,
-        "idiom_phrase": "For good",
+        "idiom": "For good",
         "meaning": "Permanently // forever",
-        "hindi_meaning": "सदा के लिए"
+        "hindi": "सदा के लिए",
+        "repetition": "5 (4)"
     },
     {
         "sn": 104,
-        "idiom_phrase": "In black and white",
+        "idiom": "In black and white",
         "meaning": "In writing // written down or in print",
-        "hindi_meaning": "लिखित रूप में"
+        "hindi": "लिखित रूप में",
+        "repetition": "8 (1)"
     },
     {
         "sn": 105,
-        "idiom_phrase": "In the nick of time",
+        "idiom": "In the nick of time",
         "meaning": "Just in time // At the last possible moment",
-        "hindi_meaning": "सही समय पर"
+        "hindi": "सही समय पर",
+        "repetition": "4 (5)"
     },
     {
         "sn": 106,
-        "idiom_phrase": "Leaves you in the lurch",
+        "idiom": "Leaves you in the lurch",
         "meaning": "Leave someone in a helpless condition // desert someone in his difficulties",
-        "hindi_meaning": "बीच मझधार में छोड़ देना"
+        "hindi": "बीच मझधार में छोड़ देना",
+        "repetition": "6 (3)"
     },
     {
         "sn": 107,
-        "idiom_phrase": "Out of the blue",
+        "idiom": "Out of the blue",
         "meaning": "Completely unexpectedly // Suddenly and without prior warning",
-        "hindi_meaning": "बिल्कुल अचानक"
+        "hindi": "बिल्कुल अचानक",
+        "repetition": "8 (1)"
     },
     {
         "sn": 108,
-        "idiom_phrase": "Take to one's heels",
+        "idiom": "Take to one's heels",
         "meaning": "To run away // ran away in fear // ran off",
-        "hindi_meaning": "दुम दबाकर भागना (डर कर भाग जाना)"
+        "hindi": "दुम दबाकर भागना",
+        "repetition": "5 (4)"
     },
     {
         "sn": 109,
-        "idiom_phrase": "To jump on the bandwagon",
+        "idiom": "To jump on the bandwagon",
         "meaning": "To follow popular trends // Get involved in an activity because it is likely to succeed",
-        "hindi_meaning": "बहती गंगा में हाथ धोना (लोकप्रिय प्रवृत्तियों को अपनाना)"
+        "hindi": "बहती गंगा में हाथ धोना",
+        "repetition": "6 (3)"
     },
     {
         "sn": 110,
-        "idiom_phrase": "A bird's eye view",
-        "meaning": "A general view from above // Aerial view // Good and comprehensive idea // An overall view",
-        "hindi_meaning": "ऊंचाई से विस्तृत दृश्य"
+        "idiom": "A bird’s eye view",
+        "meaning": "A general view from above // Aerial view // Good and comprehensive idea",
+        "hindi": "ऊंचाई से विस्तृत दृश्य",
+        "repetition": "5 (3)"
     },
     {
         "sn": 111,
-        "idiom_phrase": "A cakewalk",
+        "idiom": "A cakewalk",
         "meaning": "An easy achievement // An easy task or victory",
-        "hindi_meaning": "अत्यंत सरल"
+        "hindi": "अत्यंत सरल",
+        "repetition": "7 (1)"
     },
     {
         "sn": 112,
-        "idiom_phrase": "A fool's paradise",
+        "idiom": "A fool’s paradise",
         "meaning": "Being happy for foolish reasons // a state of happiness based on a person's not knowing about potential trouble",
-        "hindi_meaning": "हवाई महल (संभावित परेशानी नहीं जानने पर खुशी की स्थिति)"
+        "hindi": "हवाई महल",
+        "repetition": "6 (2)"
     },
     {
         "sn": 113,
-        "idiom_phrase": "A leopard can’t change its spots",
-        "meaning": "It is impossible for one to change one's character",
-        "hindi_meaning": "कुत्ते की पूंछ टेढ़ी की टेढ़ी (किसी के चरित्र को बदलना असंभव है)"
+        "idiom": "A leopard can’t change its spots",
+        "meaning": "It is impossible for one to change one’s character",
+        "hindi": "कुत्ते की पूंछ टेढ़ी की टेढ़ी",
+        "repetition": "3 (5)"
     },
     {
         "sn": 114,
-        "idiom_phrase": "A man of straw",
+        "idiom": "A man of straw",
         "meaning": "A man of no substance // A weak or cowardly person",
-        "hindi_meaning": "कमजोर व्यक्ति"
+        "hindi": "कमजोर व्यक्ति",
+        "repetition": "5 (3)"
     },
     {
         "sn": 115,
-        "idiom_phrase": "A wolf in sheep's clothing",
+        "idiom": "A wolf in sheep’s clothing",
         "meaning": "Hypocrite // a dangerous person pretending to be harmless",
-        "hindi_meaning": "भेड़ की खाल में भेड़िया (खतरनाक व्यक्ति)"
+        "hindi": "भेड़ की खाल में भेड़िया",
+        "repetition": "2 (6)"
     },
     {
         "sn": 116,
-        "idiom_phrase": "Child's play",
+        "idiom": "Child’s play",
         "meaning": "Something that is very easy to do // a very easy task",
-        "hindi_meaning": "बच्चों का खेल (आसान काम)"
+        "hindi": "बच्चों का खेल",
+        "repetition": "7 (1)"
     },
     {
         "sn": 117,
-        "idiom_phrase": "Cool as a cucumber",
-        "meaning": "Not nervous or emotional // to be calm and composed // cool as ice",
-        "hindi_meaning": "धैर्यवान"
+        "idiom": "Cool as a cucumber",
+        "meaning": "Not nervous or emotional // to be calm and composed",
+        "hindi": "धैर्यवान",
+        "repetition": "7 (1)"
     },
     {
         "sn": 118,
-        "idiom_phrase": "Cut corners",
-        "meaning": "To save money, time or effort when doing something by not including some parts // Do something",
-        "hindi_meaning": "सबसे आसान या तेज (गलत) तरीके से करना"
+        "idiom": "Cut corners",
+        "meaning": "To save money, time or effort when doing something by not including some parts",
+        "hindi": "सबसे आसान या तेज (गलत) तरीके से करना",
+        "repetition": "7 (1)"
     },
     {
         "sn": 119,
-        "idiom_phrase": "Cut the mustard",
+        "idiom": "Cut the mustard",
         "meaning": "To perform well // To succeed",
-        "hindi_meaning": "अच्छा प्रदर्शन करना"
+        "hindi": "अच्छा प्रदर्शन करना",
+        "repetition": "2 (6)"
     },
     {
         "sn": 120,
-        "idiom_phrase": "Draw a line",
-        "meaning": "To fix a limit // Accept something up to a particular point // To stop before a point where something okay gets not okay",
-        "hindi_meaning": "सीमा निर्धारित करना"
+        "idiom": "Draw a line",
+        "meaning": "To fix a limit // To stop before a point where something okay gets not okay",
+        "hindi": "सीमा निर्धारित करना",
+        "repetition": "5 (3)"
     },
     {
         "sn": 121,
-        "idiom_phrase": "Feather one's own nest",
-        "meaning": "Make money in an improper way // to profit in a dishonest way // promote their own interest",
-        "hindi_meaning": "बेईमानी करके धनी होना"
+        "idiom": "Feather one's own nest",
+        "meaning": "Make money in an improper way // to profit in a dishonest way",
+        "hindi": "बेईमानी करके धनी होना",
+        "repetition": "7 (1)"
     },
     {
         "sn": 122,
-        "idiom_phrase": "Get a taste of your own medicine",
+        "idiom": "Get a taste of your own medicine",
         "meaning": "To be given the same treatment that you have given to others",
-        "hindi_meaning": "जैसे को तैसा (दूसरों के साथ किए व्यवहार का अनुभव करना)"
+        "hindi": "जैसे को तैसा",
+        "repetition": "3 (5)"
     },
     {
         "sn": 123,
-        "idiom_phrase": "Have bigger/other fish to fry",
+        "idiom": "Have bigger/other fish to fry",
         "meaning": "Some more important work to attend to",
-        "hindi_meaning": "अन्य महत्वपूर्ण काम होना"
+        "hindi": "अन्य महत्वपूर्ण काम होना",
+        "repetition": "6 (2)"
     },
     {
         "sn": 124,
-        "idiom_phrase": "Herculean task",
+        "idiom": "Herculean task",
         "meaning": "Very difficult task",
-        "hindi_meaning": "मुश्किल काम"
+        "hindi": "मुश्किल काम",
+        "repetition": "7 (1)"
     },
     {
         "sn": 125,
-        "idiom_phrase": "Kick the bucket",
+        "idiom": "Kick the bucket",
         "meaning": "To die",
-        "hindi_meaning": "चल बसना (निधन होना)"
+        "hindi": "चल बसना (निधन होना)",
+        "repetition": "5 (3)"
     },
     {
         "sn": 126,
-        "idiom_phrase": "Kill two birds with one stone",
+        "idiom": "Kill two birds with one stone",
         "meaning": "To serve two purposes at one time // To achieve two results with a single effort",
-        "hindi_meaning": "एक तीर से दो शिकार करना"
+        "hindi": "एक तीर से दो शिकार",
+        "repetition": "6 (2)"
     },
     {
         "sn": 127,
-        "idiom_phrase": "Nip in the bud",
+        "idiom": "Nip in the bud",
         "meaning": "To stop something at the start // To stop something before it has an opportunity to develop",
-        "hindi_meaning": "शुरुआती समय में ही कुचल देना या नष्ट कर देना"
+        "hindi": "शुरुआत में ही कुचल देना",
+        "repetition": "4 (4)"
     },
     {
         "sn": 128,
-        "idiom_phrase": "Selling like hot cakes",
+        "idiom": "Selling like hot cakes",
         "meaning": "To have a very good sale // To sell quickly",
-        "hindi_meaning": "बहुत अच्छी बिक्री होना"
+        "hindi": "बहुत अच्छी बिक्री होना",
+        "repetition": "4 (4)"
     },
     {
         "sn": 129,
-        "idiom_phrase": "Shed crocodile tears",
+        "idiom": "Shed crocodile tears",
         "meaning": "To pretend to be sympathetic // to pretend grief // False tears",
-        "hindi_meaning": "मगरमच्छ के आँसू बहाना (सहानुभूति का नाटक करना)"
+        "hindi": "मगरमच्छ के आँसू बहाना",
+        "repetition": "6 (2)"
     },
     {
         "sn": 130,
-        "idiom_phrase": "Take the bull by the horns",
+        "idiom": "Take the bull by the horns",
         "meaning": "To handle difficulties // To deal with a difficult or danger situation in a very direct or confident way",
-        "hindi_meaning": "साहसपूर्वक मुसीबतों का सामना करना"
+        "hindi": "साहसपूर्वक मुसीबतों का सामना करना",
+        "repetition": "7 (1)"
     },
     {
         "sn": 131,
-        "idiom_phrase": "The last straw",
+        "idiom": "The last straw",
         "meaning": "Final problem in the series // A minor difficulty but coming on top of a series of difficulties, that makes a situation unbearable",
-        "hindi_meaning": "समस्याओं की एक श्रृंखला में अंतिम समस्या जो किसी को धैर्य खोने का कारण बनती है"
+        "hindi": "अंतिम समस्या जो धैर्य खोने का कारण बनती है",
+        "repetition": "5 (3)"
     },
     {
         "sn": 132,
-        "idiom_phrase": "To call a spade a spade",
+        "idiom": "To call a spade a spade",
         "meaning": "To be frank // Say the truth about something, even if it is not pleasant",
-        "hindi_meaning": "स्पष्ट व सीधे तौर पर बोलना"
+        "hindi": "स्पष्ट व सीधे तौर पर बोलना",
+        "repetition": "4 (4)"
     },
     {
         "sn": 133,
-        "idiom_phrase": "To keep an eye on",
+        "idiom": "To keep an eye on",
         "meaning": "To watch someone or something carefully // To be cautious",
-        "hindi_meaning": "नजर रखना (ध्यान रखना)"
+        "hindi": "नजर रखना",
+        "repetition": "5 (3)"
     },
     {
         "sn": 134,
-        "idiom_phrase": "A bird in the hand is worth two in the bush",
+        "idiom": "A bird in the hand is worth two in the bush",
         "meaning": "Having something for certain is better than the possibility of getting something better",
-        "hindi_meaning": "कुछ निश्चित रूप से होना, कुछ बेहतर पाने की उम्मीद से अच्छा है"
+        "hindi": "कुछ निश्चित रूप से होना बेहतर है",
+        "repetition": "2 (5)"
     },
     {
         "sn": 135,
-        "idiom_phrase": "A bone of contention",
+        "idiom": "A bone of contention",
         "meaning": "Cause of dispute/quarrel // Point of an argument",
-        "hindi_meaning": "झगड़े का कारण"
+        "hindi": "झगड़े का कारण",
+        "repetition": "6 (1)"
     },
     {
         "sn": 136,
-        "idiom_phrase": "A green horn",
+        "idiom": "A green horn",
         "meaning": "An inexperienced man",
-        "hindi_meaning": "अनुभवहीन व्यक्ति"
+        "hindi": "अनुभवहीन व्यक्ति",
+        "repetition": "6 (1)"
     },
     {
         "sn": 137,
-        "idiom_phrase": "A mare's nest",
+        "idiom": "A mare's nest",
         "meaning": "A difficult/complicated situation // A false invention",
-        "hindi_meaning": "जटिल या भ्रामक स्थिति"
+        "hindi": "जटिल या भ्रामक स्थिति",
+        "repetition": "5 (2)"
     },
     {
         "sn": 138,
-        "idiom_phrase": "Actions speak louder than words",
-        "meaning": "What you do is more important than what you say // What you do reveals the real you // Intentions can be judged by people's actions",
-        "hindi_meaning": "कथनी से अधिक करनी बोलती है"
+        "idiom": "Actions speak louder than words",
+        "meaning": "What you do is more important than what you say // Intentions can be judged by people's actions",
+        "hindi": "कथनी से अधिक करनी बोलती है",
+        "repetition": "3 (4)"
     },
     {
         "sn": 139,
-        "idiom_phrase": "All and sundry",
+        "idiom": "All and sundry",
         "meaning": "Everybody without distinction // All included",
-        "hindi_meaning": "हर कोई बिना भेद के"
+        "hindi": "हर कोई बिना भेद के",
+        "repetition": "4 (3)"
     },
     {
         "sn": 140,
-        "idiom_phrase": "At a snail's pace",
+        "idiom": "At a snail's pace",
         "meaning": "Do something very slowly",
-        "hindi_meaning": "बहुत धीरे-धीरे"
+        "hindi": "बहुत धीरे-धीरे",
+        "repetition": "6 (1)"
     },
     {
         "sn": 141,
-        "idiom_phrase": "At daggers drawn",
+        "idiom": "At daggers drawn",
         "meaning": "Enemies // To be bitterly hostile // Being at loggerheads",
-        "hindi_meaning": "शत्रुता या संघर्ष की स्थिति में"
+        "hindi": "शत्रुता या संघर्ष की स्थिति",
+        "repetition": "4 (3)"
     },
     {
         "sn": 142,
-        "idiom_phrase": "Backseat driver",
+        "idiom": "Backseat driver",
         "meaning": "Interfering in affairs without having knowledge // A person who offers unsolicited advice",
-        "hindi_meaning": "अनावश्यक सलाह देने वाला"
+        "hindi": "अनावश्यक सलाह देने वाला",
+        "repetition": "5 (2)"
     },
     {
         "sn": 143,
-        "idiom_phrase": "Blaze a trail",
-        "meaning": "To lead the way as a pioneer // to initiate something new // To start a movement",
-        "hindi_meaning": "नई राह दिखाना"
+        "idiom": "Blaze a trail",
+        "meaning": "To lead the way as a pioneer // to initiate something new",
+        "hindi": "नई राह दिखाना",
+        "repetition": "5 (2)"
     },
     {
         "sn": 144,
-        "idiom_phrase": "Break a leg",
+        "idiom": "Break a leg",
         "meaning": "To wish good luck // Perform well",
-        "hindi_meaning": "भाग्य साथ होना"
+        "hindi": "भाग्य साथ होना",
+        "repetition": "6 (1)"
     },
     {
         "sn": 145,
-        "idiom_phrase": "Cut to the chase",
+        "idiom": "Cut to the chase",
         "meaning": "To start talking about the important aspects of something // come to the point",
-        "hindi_meaning": "मुद्दे पर आना"
+        "hindi": "मुद्दे पर आना",
+        "repetition": "5 (2)"
     },
     {
         "sn": 146,
-        "idiom_phrase": "Eats like a horse",
+        "idiom": "Eats like a horse",
         "meaning": "Eats a lot of food",
-        "hindi_meaning": "बहुत सारा खाना खाने वाला"
+        "hindi": "बहुत सारा खाना खाने वाला",
+        "repetition": "5 (2)"
     },
     {
         "sn": 147,
-        "idiom_phrase": "Eye wash",
+        "idiom": "Eye wash",
         "meaning": "A deception // A pretence",
-        "hindi_meaning": "आंखों में धूल झोंकना (धोखा देना)"
+        "hindi": "धोखा देना",
+        "repetition": "5 (2)"
     },
     {
         "sn": 148,
-        "idiom_phrase": "Have a chip on one's shoulder",
-        "meaning": "To be upset for something that happened in the past // nurse a grudge // a feeling of relentless // To be easily angered",
-        "hindi_meaning": "पुरानी घटना पर अभी तक गुस्सा रहना"
+        "idiom": "Have a chip on one's shoulder",
+        "meaning": "To be upset for something that happened in the past // nurse a grudge // easily angered",
+        "hindi": "पुरानी घटना पर अभी तक गुस्सा",
+        "repetition": "4 (3)"
     },
     {
         "sn": 149,
-        "idiom_phrase": "Hobson's choice",
+        "idiom": "Hobson's choice",
         "meaning": "No real choice at all // An apparently free choice where there is no real alternative",
-        "hindi_meaning": "कोई विकल्प नहीं"
+        "hindi": "कोई विकल्प नहीं",
+        "repetition": "4 (3)"
     },
     {
         "sn": 150,
-        "idiom_phrase": "In seventh heaven",
+        "idiom": "In seventh heaven",
         "meaning": "Extremely happy // in delight",
-        "hindi_meaning": "बेहद खुश"
+        "hindi": "बेहद खुश",
+        "repetition": "3 (4)"
     },
     {
         "sn": 151,
-        "idiom_phrase": "In the long run",
-        "meaning": "Eventually, after a long period of time // Ultimately // In the end",
-        "hindi_meaning": "आखिरकार"
+        "idiom": "In the long run",
+        "meaning": "Eventually, after a long period of time // ultimately // in the end",
+        "hindi": "आखिरकार",
+        "repetition": "6 (1)"
     },
     {
         "sn": 152,
-        "idiom_phrase": "It's Greek to me",
+        "idiom": "It's Greek to me",
         "meaning": "Incomprehensible // I cannot understand anything",
-        "hindi_meaning": "समझ से बाहर"
+        "hindi": "समझ से बाहर",
+        "repetition": "4 (3)"
     },
     {
         "sn": 153,
-        "idiom_phrase": "Jump the gun",
+        "idiom": "Jump the gun",
         "meaning": "Start something too soon or act hastily // said it before it was the right time",
-        "hindi_meaning": "जल्दबाजी करना"
+        "hindi": "जल्दबाजी करना",
+        "repetition": "4 (3)"
     },
     {
         "sn": 154,
-        "idiom_phrase": "Let sleeping dogs lie",
+        "idiom": "Let sleeping dogs lie",
         "meaning": "Do not bring up an old controversial issue // To leave things as they are in order to avoid trouble",
-        "hindi_meaning": "सोते शेर को मत छेड़ो"
+        "hindi": "सोते शेर को मत छेड़ो",
+        "repetition": "5 (2)"
     },
     {
         "sn": 155,
-        "idiom_phrase": "Live from hand to mouth",
-        "meaning": "To have enough money to live on and nothing extra // miserably // consuming daily what little is earned",
-        "hindi_meaning": "जैसे तैसे गुजर बसर करना"
+        "idiom": "Live from hand to mouth",
+        "meaning": "To have enough money to live on and nothing extra // consuming daily what little is earned",
+        "hindi": "जैसे तैसे गुजर बसर करना",
+        "repetition": "5 (2)"
     },
     {
         "sn": 156,
-        "idiom_phrase": "Make no bones about",
+        "idiom": "Make no bones about",
         "meaning": "Did not have any hesitation in // To state something clearly",
-        "hindi_meaning": "ज़रा भी नहीं हिचकिचाना"
+        "hindi": "ज़रा भी नहीं हिचकिचाना",
+        "repetition": "4 (3)"
     },
     {
         "sn": 157,
-        "idiom_phrase": "On tenterhooks",
+        "idiom": "On tenterhooks",
         "meaning": "In suspense and anxiety // anxious",
-        "hindi_meaning": "चिंता में"
+        "hindi": "चिंता में",
+        "repetition": "5 (2)"
     },
     {
         "sn": 158,
-        "idiom_phrase": "Play it by ear",
+        "idiom": "Play it by ear",
         "meaning": "To do something without special preparation // To improvise",
-        "hindi_meaning": "बिना किसी विशेष तैयारी के कुछ करना"
+        "hindi": "बिना किसी विशेष तैयारी के करना",
+        "repetition": "3 (4)"
     },
     {
         "sn": 159,
-        "idiom_phrase": "Pour/Throw cold water",
+        "idiom": "Pour/Throw cold water",
         "meaning": "To discourage by showing indifference",
-        "hindi_meaning": "पानी फेर देना (हतोत्साहित करना)"
+        "hindi": "पानी फेर देना (हतोत्साहित करना)",
+        "repetition": "5 (2)"
     },
     {
         "sn": 160,
-        "idiom_phrase": "To burn one's fingers",
+        "idiom": "To burn one's fingers",
         "meaning": "To suffer unpleasant consequences as a result of one's actions",
-        "hindi_meaning": "अपने ही पैरों पर कुल्हाड़ी मारना (खुद को हानि पहुंचाना)"
+        "hindi": "अपने ही पैरों पर कुल्हाड़ी मारना",
+        "repetition": "4 (3)"
     },
     {
         "sn": 161,
-        "idiom_phrase": "To cry wolf",
+        "idiom": "To cry wolf",
         "meaning": "To ask for help when you don't need it // To raise a false alarm",
-        "hindi_meaning": "झूठमूठ का शोर मचाना"
+        "hindi": "झूठमूठ का शोर मचाना",
+        "repetition": "3 (4)"
     },
     {
         "sn": 162,
-        "idiom_phrase": "To go/run around in circles",
-        "meaning": "To waste one's time and energy doing trivial things // To keep doing something without achieving much // Make no progress in an argument or discussion",
-        "hindi_meaning": "फालतू काम मे समय बर्बाद करना"
+        "idiom": "To go/run around in circles",
+        "meaning": "To waste one's time and energy doing trivial things // Make no progress",
+        "hindi": "फालतू काम में समय बर्बाद करना",
+        "repetition": "7"
     },
     {
         "sn": 163,
-        "idiom_phrase": "To keep the wolf away from the door",
+        "idiom": "To keep the wolf away from the door",
         "meaning": "To keep off starvation",
-        "hindi_meaning": "भुखमरी से बचना"
+        "hindi": "भुखमरी से बचना",
+        "repetition": "7"
     },
     {
         "sn": 164,
-        "idiom_phrase": "To make up one's mind",
+        "idiom": "To make up one's mind",
         "meaning": "To decide what to do // Decide firmly",
-        "hindi_meaning": "निश्चय करना"
+        "hindi": "निश्चय करना",
+        "repetition": "6 (1)"
     },
     {
         "sn": 165,
-        "idiom_phrase": "To put a spoke in one's wheel",
+        "idiom": "To put a spoke in one's wheel",
         "meaning": "To put a difficulty in the way of progress // thwarted in the execution of the plan",
-        "hindi_meaning": "टाँग अड़ाना (बाधा डालना)"
+        "hindi": "टाँग अड़ाना (बाधा डालना)",
+        "repetition": "4 (3)"
     },
     {
         "sn": 166,
-        "idiom_phrase": "To take to task",
-        "meaning": "Punished // to rebuke // to scold someone // get an official reprimand",
-        "hindi_meaning": "किसी गलती के लिए कड़ी फटकार लगाना"
+        "idiom": "To take to task",
+        "meaning": "Punished // to rebuke // to scold someone",
+        "hindi": "कड़ी फटकार लगाना",
+        "repetition": "6 (1)"
     },
     {
         "sn": 167,
-        "idiom_phrase": "To turn over a new leaf",
+        "idiom": "To turn over a new leaf",
         "meaning": "To change one's behaviour for better // To begin again",
-        "hindi_meaning": "नया जीवन शुरू करना"
+        "hindi": "नया जीवन शुरू करना",
+        "repetition": "5 (2)"
     },
     {
         "sn": 168,
-        "idiom_phrase": "A close-fisted person",
+        "idiom": "A close-fisted person",
         "meaning": "A miser",
-        "hindi_meaning": "कंजूस आदमी"
+        "hindi": "कंजूस आदमी",
+        "repetition": "4 (2)"
     },
     {
         "sn": 169,
-        "idiom_phrase": "A sea change",
+        "idiom": "A sea change",
         "meaning": "A profound or notable transformation // Complete transformation",
-        "hindi_meaning": "पूर्ण परिवर्तन"
+        "hindi": "पूर्ण परिवर्तन",
+        "repetition": "4 (2)"
     },
     {
         "sn": 170,
-        "idiom_phrase": "A wet blanket",
-        "meaning": "A person who discourages enjoyment or enthusiasm // someone who prevents other people from having fun",
-        "hindi_meaning": "कबाब में हड्डी (मजा किरकिरा करने वाला)"
+        "idiom": "A wet blanket",
+        "meaning": "A person who discourages enjoyment or enthusiasm // prevents other people from having fun",
+        "hindi": "मज़ा किरकिरा करने वाला",
+        "repetition": "4 (2)"
     },
     {
         "sn": 171,
-        "idiom_phrase": "Above board",
+        "idiom": "Above board",
         "meaning": "Honest and frank // without any secret",
-        "hindi_meaning": "ईमानदार"
+        "hindi": "ईमानदार",
+        "repetition": "3 (3)"
     },
     {
         "sn": 172,
-        "idiom_phrase": "Achilles' heel",
+        "idiom": "Achilles' heel",
         "meaning": "A weakness or vulnerable point",
-        "hindi_meaning": "कमजोरी"
+        "hindi": "कमजोरी",
+        "repetition": "6"
     },
     {
         "sn": 173,
-        "idiom_phrase": "Against the clock",
-        "meaning": "Work very fast to complete something within a deadline // work in great hurry, as fast as possible",
-        "hindi_meaning": "बहुत तेजी से काम करना"
+        "idiom": "Against the clock",
+        "meaning": "Work very fast to complete something within a deadline // as fast as possible",
+        "hindi": "बहुत तेजी से काम करना",
+        "repetition": "4 (2)"
     },
     {
         "sn": 174,
-        "idiom_phrase": "Be in the red",
+        "idiom": "Be in the red",
         "meaning": "To be in a loss or debt // To owe money to a bank",
-        "hindi_meaning": "हानि में होना"
+        "hindi": "हानि में होना",
+        "repetition": "4 (2)"
     },
     {
         "sn": 175,
-        "idiom_phrase": "Bed of roses",
+        "idiom": "Bed of roses",
         "meaning": "A pleasant situation // An enjoyable state",
-        "hindi_meaning": "सुखद स्थिति"
+        "hindi": "सुखद स्थिति",
+        "repetition": "5 (1)"
     },
     {
         "sn": 176,
-        "idiom_phrase": "Birds of the same feather",
+        "idiom": "Birds of the same feather",
         "meaning": "Persons of same character or interests // similar in many ways",
-        "hindi_meaning": "एक ही थाली के चट्टे-बट्टे (समान चरित्र के लोग)"
+        "hindi": "एक ही थाली के चट्टे-बट्टे",
+        "repetition": "4 (2)"
     },
     {
         "sn": 177,
-        "idiom_phrase": "Bite the dust",
+        "idiom": "Bite the dust",
         "meaning": "Suffer a defeat // to die",
-        "hindi_meaning": "धूल चाटना (हार जाना)"
+        "hindi": "धूल चाटना (हार जाना)",
+        "repetition": "5 (1)"
     },
     {
         "sn": 178,
-        "idiom_phrase": "Carry the day",
+        "idiom": "Carry the day",
         "meaning": "win a victory // becomes the winner",
-        "hindi_meaning": "जीत हासिल करना"
+        "hindi": "जीत हासिल करना",
+        "repetition": "5 (1)"
     },
     {
         "sn": 179,
-        "idiom_phrase": "Catch a tartar",
-        "meaning": "To deal with someone or something that proves unexpectedly troublesome or powerful // To catch a dangerous person",
-        "hindi_meaning": "अपने से बलवान से जा भिड़ना"
+        "idiom": "Catch a tartar",
+        "meaning": "To deal with someone or something that proves unexpectedly troublesome or powerful",
+        "hindi": "अपने से बलवान से जा भिड़ना",
+        "repetition": "3 (3)"
     },
     {
         "sn": 180,
-        "idiom_phrase": "Cross that bridge when you come to it",
+        "idiom": "Cross that bridge when you come to it",
         "meaning": "Deal with something only when necessary // deal with a problem when and if it arises",
-        "hindi_meaning": "समस्या उत्पन्न होने पर ही उसे निपटाना"
+        "hindi": "समस्या उत्पन्न होने पर ही निपटाना",
+        "repetition": "3 (3)"
     },
     {
         "sn": 181,
-        "idiom_phrase": "Cross your fingers",
-        "meaning": "To hope that things will happen in the way that you want them to // To wish for good luck or success",
-        "hindi_meaning": "आशा करना कि चीजें उस तरह से होंगी जैसे आप चाहते हैं"
+        "idiom": "Cross your fingers",
+        "meaning": "To hope that things will happen in the way that you want them to // wish for good luck",
+        "hindi": "आशा करना कि चीजें सही होंगी",
+        "repetition": "1 (5)"
     },
     {
         "sn": 182,
-        "idiom_phrase": "Cry for the moon",
-        "meaning": "To make an impractical, unreasonable or unattainable request // To aspire to possess something beyond one's reach",
-        "hindi_meaning": "अव्यवहारिक या अनुचित अनुरोध करना"
+        "idiom": "Cry for the moon",
+        "meaning": "To make an impractical, unreasonable or unattainable request",
+        "hindi": "अव्यवहारिक अनुरोध करना",
+        "repetition": "2 (4)"
     },
     {
         "sn": 183,
-        "idiom_phrase": "Don't (or never) judge a book by its cover",
+        "idiom": "Don’t judge a book by its cover",
         "meaning": "We should not judge something primarily by its outward appearance",
-        "hindi_meaning": "केवल बाहरी दिखावे से पूर्वानुमान नहीं लगाना चाहिए"
+        "hindi": "केवल बाहरी दिखावे से नहीं आंकना",
+        "repetition": "5 (1)"
     },
     {
         "sn": 184,
-        "idiom_phrase": "Donkey's years",
+        "idiom": "Donkey’s years",
         "meaning": "A very long time",
-        "hindi_meaning": "बहुत लंबा समय"
+        "hindi": "बहुत लंबा समय",
+        "repetition": "5 (1)"
     },
     {
         "sn": 185,
-        "idiom_phrase": "Easier said than done",
-        "meaning": "Be more easily talked about than put into practice // Not as easy as it appears to be",
-        "hindi_meaning": "कहना आसान है करना मुश्किल"
+        "idiom": "Easier said than done",
+        "meaning": "Be more easily talked about than put into practice",
+        "hindi": "कहना आसान है करना मुश्किल",
+        "repetition": "5 (1)"
     },
     {
         "sn": 186,
-        "idiom_phrase": "Fall flat",
-        "meaning": "To fail to produce intended effect // to have no effect // Unsuccessful",
-        "hindi_meaning": "असफल होना"
+        "idiom": "Fall flat",
+        "meaning": "To fail to produce intended effect // have no effect",
+        "hindi": "असफल होना",
+        "repetition": "5 (1)"
     },
     {
         "sn": 187,
-        "idiom_phrase": "Feather in one's cap",
+        "idiom": "Feather in one’s cap",
         "meaning": "A new and additional distinction // an accomplishment to be proud of",
-        "hindi_meaning": "चार चाँद लगाना (गर्व करने योग्य उपलब्धि)"
+        "hindi": "योग्य उपलब्धि (गर्व करने योग्य)",
+        "repetition": "4 (2)"
     },
     {
         "sn": 188,
-        "idiom_phrase": "Forty winks",
+        "idiom": "Forty winks",
         "meaning": "A short nap/sleep during the day",
-        "hindi_meaning": "झपकी"
+        "hindi": "झपकी",
+        "repetition": "5 (1)"
     },
     {
         "sn": 189,
-        "idiom_phrase": "From rags to riches",
+        "idiom": "From rags to riches",
         "meaning": "To go from very poor to being very wealthy",
-        "hindi_meaning": "रंक से राजा (दरिद्र से धनवान होना)"
+        "hindi": "रंक से राजा होना",
+        "repetition": "2 (4)"
     },
     {
         "sn": 190,
-        "idiom_phrase": "Get on somebody's nerves",
+        "idiom": "Get on somebody's nerves",
         "meaning": "To be an irritant // annoys me",
-        "hindi_meaning": "किसी का दिमाग खराब करना"
+        "hindi": "किसी का दिमाग खराब करना",
+        "repetition": "6"
     },
     {
         "sn": 191,
-        "idiom_phrase": "Give a piece of one's mind",
-        "meaning": "To rebuke someone strongly // speaking sharply // scolding // To reprimand",
-        "hindi_meaning": "डाँटना"
+        "idiom": "Give a piece of one's mind",
+        "meaning": "To rebuke someone strongly // speaking sharply // scolding",
+        "hindi": "डाँटना",
+        "repetition": "6"
     },
     {
         "sn": 192,
-        "idiom_phrase": "Go down like a lead balloon",
+        "idiom": "Go down like a lead balloon",
         "meaning": "To be received badly by an audience",
-        "hindi_meaning": "दर्शकों द्वारा बुरी तरह से नकारा जाना (पूरी तरह से विफल होना)"
+        "hindi": "पूरी तरह से विफल होना",
+        "repetition": "3 (3)"
     },
     {
         "sn": 193,
-        "idiom_phrase": "Go to the dogs",
+        "idiom": "Go to the dogs",
         "meaning": "To be ruined // Deteriorate shockingly",
-        "hindi_meaning": "बरबाद हो जाना"
+        "hindi": "बर्बाद हो जाना",
+        "repetition": "6"
     },
     {
         "sn": 194,
-        "idiom_phrase": "Green thumb",
+        "idiom": "Green thumb",
         "meaning": "To have a natural interest in gardening",
-        "hindi_meaning": "बागवानी में रुचि"
+        "hindi": "बागवानी में रुचि",
+        "repetition": "2 (4)"
     },
     {
         "sn": 195,
-        "idiom_phrase": "Hue and cry",
+        "idiom": "Hue and cry",
         "meaning": "A noisy expression of anger // Protest // loud clamour",
-        "hindi_meaning": "कोलाहल"
+        "hindi": "कोलाहल",
+        "repetition": "3 (3)"
     },
     {
         "sn": 196,
-        "idiom_phrase": "Ill at ease",
+        "idiom": "Ill at ease",
         "meaning": "to feel uncomfortable or worried in a situation",
-        "hindi_meaning": "असहज होना"
+        "hindi": "असहज होना",
+        "repetition": "4 (2)"
     },
     {
         "sn": 197,
-        "idiom_phrase": "Learn/Know the ropes",
-        "meaning": "Learn to do particular jobs // Be informed about the details // To know how to do a job or task properly",
-        "hindi_meaning": "काम के तरीके समझना"
+        "idiom": "Learn/Know the ropes",
+        "meaning": "Learn to do particular jobs // Be informed about the details",
+        "hindi": "काम के तरीके समझना",
+        "repetition": "3 (3)"
     },
     {
         "sn": 198,
-        "idiom_phrase": "Lend me your ear",
+        "idiom": "Lend me your ear",
         "meaning": "To politely ask for someone's full attention // to pay attention to",
-        "hindi_meaning": "कान लगाकर सुनना (ध्यान से सुनना)"
+        "hindi": "कान लगाकर सुनना",
+        "repetition": "5 (1)"
     },
     {
         "sn": 199,
-        "idiom_phrase": "Lose your marbles",
+        "idiom": "Lose your marbles",
         "meaning": "To become mentally deficient // Become insane",
-        "hindi_meaning": "पागल हो जाना"
+        "hindi": "पागल हो जाना",
+        "repetition": "3 (3)"
     },
     {
         "sn": 200,
-        "idiom_phrase": "On thin ice",
+        "idiom": "On thin ice",
         "meaning": "In a precarious/dangerous or risky situation",
-        "hindi_meaning": "जोखिम भरी स्थिति में"
+        "hindi": "जोखिम भरी स्थिति में",
+        "repetition": "5 (1)"
     }
 ]
