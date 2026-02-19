@@ -3,6 +3,7 @@ import questionsData from '../data/questions.json';
 import idiomsData from '../data/idioms.json';
 import oneWordData from '../data/oneWordSubs.json';
 import synoAntoData from '../data/synoAnto.json';
+import polityData from '../data/polity.json';
 
 // Helper to shuffle array (Fisher-Yates)
 const shuffleArray = (array) => {
@@ -166,13 +167,14 @@ export const useQuiz = create((set, get) => ({
     mathsChapters: mathsChapters,
     mathsTypes: mathsTypes,
     englishTopics: ['Idioms', 'One Word Substitution', 'Synonyms', 'Antonyms'], // Broken out Syno/Anto for clarity
+    gkgsTopics: ['Polity'],
 
     // Settings
     filters: {
-        subject: 'Maths', // 'Maths' | 'English'
+        subject: 'Maths', // 'Maths' | 'English' | 'GK/GS'
         chapter: 'All',   // For Maths
         type: 'All',      // For Maths
-        topic: 'Idioms'   // For English
+        topic: 'Idioms'   // For English and GK/GS
     },
 
     // New V2 Settings
@@ -200,7 +202,11 @@ export const useQuiz = create((set, get) => ({
         if (key === 'subject') {
             newFilters.chapter = 'All';
             newFilters.type = 'All';
-            newFilters.topic = 'Idioms'; // Default topic
+            if (value === 'GK/GS') {
+                newFilters.topic = 'Polity';
+            } else {
+                newFilters.topic = 'Idioms'; // Default topic for English
+            }
         }
         if (key === 'chapter') {
             newFilters.type = 'All';
@@ -251,7 +257,7 @@ export const useQuiz = create((set, get) => ({
             if (previousAttempts === 1) timePerQ = 45;
             if (previousAttempts >= 2) timePerQ = 30;
 
-        } else {
+        } else if (filters.subject === 'English') {
             // ENGLISH LOGIC
             if (filters.topic === 'Idioms') {
                 filtered = generateIdiomQuestions();
@@ -266,14 +272,23 @@ export const useQuiz = create((set, get) => ({
             // Fixed time for English
             timePerQ = 30;
             attemptKey = `attempt-English-${filters.topic}`; // Just for tracking, not adaptive time yet
+        } else if (filters.subject === 'GK/GS') {
+            // GK/GS LOGIC
+            if (filters.topic === 'Polity') {
+                filtered = polityData;
+            }
+
+            // Fixed time for GK/GS
+            timePerQ = 30;
+            attemptKey = `attempt-GKGS-${filters.topic}`;
         }
 
         // 3. Handle Question Count Limit
         if (questionCount !== 'all') {
             filtered = shuffleArray(filtered).slice(0, typeof questionCount === 'string' ? filtered.length : questionCount);
         } else {
-            // Always shuffle for English since it's generated from a list
-            if (filters.subject === 'English') {
+            // Always shuffle for English and GK/GS since it's generated from a list
+            if (filters.subject === 'English' || filters.subject === 'GK/GS') {
                 filtered = shuffleArray(filtered);
             }
         }
@@ -289,8 +304,8 @@ export const useQuiz = create((set, get) => ({
             score: 0,
             timePerQuestion: timePerQ, // Will be ignored if timerMode is 'overall' but good to have
             totalTime: calculatedTotalTime,
-            // Force question timer for English if requested? Plan said "Enforce 30s timer per question"
-            timerMode: filters.subject === 'English' ? 'question' : timerMode
+            // Force question timer for English and GK/GS if requested? Plan said "Enforce 30s timer per question"
+            timerMode: (filters.subject === 'English' || filters.subject === 'GK/GS') ? 'question' : timerMode
         });
 
         // Check for revision screen requirement (Chapter 1: Percentage)
@@ -347,8 +362,10 @@ export const useQuiz = create((set, get) => ({
         let attemptKey = '';
         if (filters.subject === 'Maths') {
             attemptKey = `attempt-${filters.chapter}-${filters.type}`;
-        } else {
+        } else if (filters.subject === 'English') {
             attemptKey = `attempt-English-${filters.topic}`;
+        } else if (filters.subject === 'GK/GS') {
+            attemptKey = `attempt-GKGS-${filters.topic}`;
         }
 
         const currentAttempts = parseInt(localStorage.getItem(attemptKey) || '0', 10);

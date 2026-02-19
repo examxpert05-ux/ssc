@@ -17,7 +17,8 @@ export default function StartScreen() {
         setCurrentView,
         mathsChapters,
         mathsTypes,
-        englishTopics
+        englishTopics,
+        gkgsTopics
     } = useQuiz();
 
     // Derived state for Linked Filters (Maths Only)
@@ -40,8 +41,10 @@ export default function StartScreen() {
     if (filters.subject === 'Maths') {
         if (previousAttempts === 1) timePerQ = 45;
         if (previousAttempts >= 2) timePerQ = 30;
-    } else {
+    } else if (filters.subject === 'English') {
         timePerQ = 30; // Fixed for English
+    } else if (filters.subject === 'GK/GS') {
+        timePerQ = 30; // Fixed for GK/GS
     }
 
     const handleStart = () => {
@@ -57,7 +60,7 @@ export default function StartScreen() {
             if (questionCount === 'all') return filteredCount;
             return Math.min(filteredCount, questionCount);
         } else {
-            // For English, we generate questions on the fly, so count isn't strictly limited by a static list length in the same way,
+            // For English and GK/GS, we generate questions on the fly or load from a list, so count isn't strictly limited by a static list length in the same way,
             // but effectively it's the length of the source array.
             // Simplified display for now
             return questionCount === 'all' ? 'All' : questionCount;
@@ -95,7 +98,7 @@ export default function StartScreen() {
                         Subject
                     </label>
                     <div className="flex bg-slate-800/50 rounded-xl p-1">
-                        {['Maths', 'English'].map(subject => (
+                        {['Maths', 'English', 'GK/GS'].map(subject => (
                             <button
                                 key={subject}
                                 onClick={() => setFilter('subject', subject)}
@@ -165,7 +168,7 @@ export default function StartScreen() {
                                 onChange={(e) => setFilter('topic', e.target.value)}
                                 className="w-full bg-slate-900/50 border border-slate-700 rounded-xl px-4 py-3 text-slate-200 focus:outline-none focus:ring-2 focus:ring-blue-500/50 transition-all"
                             >
-                                {englishTopics.map(t => (
+                                {(filters.subject === 'English' ? englishTopics : gkgsTopics).map(t => (
                                     <option key={t} value={t}>{t}</option>
                                 ))}
                             </select>
@@ -200,22 +203,22 @@ export default function StartScreen() {
                         <div className="flex bg-slate-800/50 rounded-lg p-1">
                             <button
                                 onClick={() => setTimerMode('question')}
-                                disabled={filters.subject === 'English'}
+                                disabled={filters.subject !== 'Maths'}
                                 className={cn(
                                     "flex-1 py-1.5 text-xs font-medium rounded-md transition-all",
                                     timerMode === 'question' ? "bg-blue-600 text-white shadow" : "text-slate-400 hover:text-slate-200",
-                                    filters.subject === 'English' && "opacity-50 cursor-not-allowed"
+                                    filters.subject !== 'Maths' && "opacity-50 cursor-not-allowed"
                                 )}
                             >
                                 Per Question
                             </button>
                             <button
                                 onClick={() => setTimerMode('overall')}
-                                disabled={filters.subject === 'English'}
+                                disabled={filters.subject !== 'Maths'}
                                 className={cn(
                                     "flex-1 py-1.5 text-xs font-medium rounded-md transition-all",
                                     timerMode === 'overall' ? "bg-blue-600 text-white shadow" : "text-slate-400 hover:text-slate-200",
-                                    filters.subject === 'English' && "opacity-50 cursor-not-allowed"
+                                    filters.subject !== 'Maths' && "opacity-50 cursor-not-allowed"
                                 )}
                             >
                                 Overall Time
