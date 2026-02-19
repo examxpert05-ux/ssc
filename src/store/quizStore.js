@@ -310,10 +310,8 @@ export const useQuiz = create((set, get) => ({
 
         // Check for revision screen requirement (Chapter 1: Percentage)
         if (filters.subject === 'Maths' && filters.chapter === 'Percentage') {
-            // For now, keeping this logic, but might need adjustment if RevisionScreen isn't compatible with "All"
-            // actually standard startQuiz is fine for now.
-            // set({ quizStatus: 'revision' }); // Disable revision screen for now to test standard flow first? 
-            // Logic in StartScreen calls startQuiz. App.jsx switches view.
+            set({ quizStatus: 'revision' });
+        } else if (filters.subject === 'GK/GS' && filters.topic === 'Polity') {
             set({ quizStatus: 'revision' });
         }
     },

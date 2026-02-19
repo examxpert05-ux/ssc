@@ -1,0 +1,86 @@
+[
+    {
+        "category": "Important Schedules",
+        "points": [
+            {
+                "title": "1st Schedule",
+                "desc": "States and Union Territories"
+            },
+            {
+                "title": "7th Schedule",
+                "desc": "Union, State & Concurrent Lists"
+            },
+            {
+                "title": "8th Schedule",
+                "desc": "Official Languages (22 Languages)"
+            },
+            {
+                "title": "10th Schedule",
+                "desc": "Anti-Defection Law (52nd Amendment)"
+            }
+        ]
+    },
+    {
+        "category": "Key Parts of the Constitution",
+        "points": [
+            {
+                "title": "Part III",
+                "desc": "Fundamental Rights (Articles 12-35)"
+            },
+            {
+                "title": "Part IV",
+                "desc": "Directive Principles (Articles 36-51)"
+            },
+            {
+                "title": "Part IVA",
+                "desc": "Fundamental Duties (Article 51A)"
+            },
+            {
+                "title": "Part V",
+                "desc": "The Union (Articles 52-151)"
+            }
+        ]
+    },
+    {
+        "category": "Borrowed Features",
+        "points": [
+            {
+                "title": "Britain",
+                "desc": "Parliamentary Govt, Single Citizenship, Rule of Law"
+            },
+            {
+                "title": "USA",
+                "desc": "Fundamental Rights, Judicial Review, Impeachment"
+            },
+            {
+                "title": "Ireland",
+                "desc": "Directive Principles of State Policy (DPSP)"
+            },
+            {
+                "title": "Australia",
+                "desc": "Concurrent List, Joint Sitting"
+            }
+        ]
+    },
+    {
+        "category": "Important Articles",
+        "points": [
+            {
+                "title": "Article 14",
+                "desc": "Equality before the law"
+            },
+            {
+                "title": "Article 21",
+                "desc": "Protection of life and personal liberty"
+            },
+            {
+                "title": "Article 32",
+                "desc": "Right to Constitutional Remedies (Heart & Soul)"
+            },
+            {
+                "title": "Article 352-360",
+                "desc": "Emergency Provisions"
+            }
+        ]
+    }
+]

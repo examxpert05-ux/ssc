@@ -1,7 +1,8 @@
 import React from 'react';
 import { useQuiz } from '../../store/quizStore';
-import { PlayCircle, GraduationCap } from 'lucide-react';
+import { PlayCircle, GraduationCap, BookOpen, AlertCircle } from 'lucide-react';
 import { motion } from 'framer-motion';
+import polityRevisionData from '../../data/polityRevision.json';
 
 const fractionData = [
     { fraction: "1/1", percentage: "100%" },
@@ -25,7 +26,9 @@ const fractionData = [
 ];
 
 export default function RevisionScreen() {
-    const { startRealQuiz } = useQuiz();
+    const { startRealQuiz, filters } = useQuiz();
+
+    const isPolity = filters.subject === 'GK/GS' && filters.topic === 'Polity';
 
     return (
         <div className="flex flex-col items-center justify-center min-h-[80vh] w-full max-w-4xl mx-auto p-6">
@@ -36,29 +39,58 @@ export default function RevisionScreen() {
             >
                 <div className="text-center mb-8">
                     <div className="flex justify-center items-center gap-3 mb-2">
-                        <GraduationCap size={40} className="text-yellow-400" />
+                        {isPolity ? <BookOpen size={40} className="text-blue-400" /> : <GraduationCap size={40} className="text-yellow-400" />}
                         <h1 className="text-4xl font-black text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-orange-500 uppercase tracking-wider">
-                            Speed Booster Hacks
+                            {isPolity ? 'Polity Quick Revision' : 'Speed Booster Hacks'}
                         </h1>
                     </div>
-                    <p className="text-slate-400 text-lg">Fraction to Percentage Conversion</p>
+                    <p className="text-slate-400 text-lg">
+                        {isPolity ? 'Quickly review these key points before starting the quiz.' : 'Fraction to Percentage Conversion'}
+                    </p>
                 </div>
 
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mb-8">
-                    {fractionData.map((item, index) => (
-                        <motion.div
-                            key={index}
-                            initial={{ opacity: 0, scale: 0.9 }}
-                            animate={{ opacity: 1, scale: 1 }}
-                            transition={{ delay: index * 0.05 }}
-                            className="flex justify-between items-center bg-slate-800/50 border border-white/5 rounded-xl px-6 py-4 hover:bg-slate-800 hover:border-blue-500/30 transition-all group"
-                        >
-                            <span className="text-xl font-bold text-blue-400 font-mono group-hover:text-blue-300 mx-auto">{item.fraction}</span>
-                            <span className="text-slate-600 font-bold">=</span>
-                            <span className="text-xl font-bold text-white font-mono group-hover:text-yellow-400 mx-auto">{item.percentage}</span>
-                        </motion.div>
-                    ))}
-                </div>
+                {!isPolity ? (
+                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mb-8">
+                        {fractionData.map((item, index) => (
+                            <motion.div
+                                key={index}
+                                initial={{ opacity: 0, scale: 0.9 }}
+                                animate={{ opacity: 1, scale: 1 }}
+                                transition={{ delay: index * 0.05 }}
+                                className="flex justify-between items-center bg-slate-800/50 border border-white/5 rounded-xl px-6 py-4 hover:bg-slate-800 hover:border-blue-500/30 transition-all group"
+                            >
+                                <span className="text-xl font-bold text-blue-400 font-mono group-hover:text-blue-300 mx-auto">{item.fraction}</span>
+                                <span className="text-slate-600 font-bold">=</span>
+                                <span className="text-xl font-bold text-white font-mono group-hover:text-yellow-400 mx-auto">{item.percentage}</span>
+                            </motion.div>
+                        ))}
+                    </div>
+                ) : (
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-8">
+                        {polityRevisionData.map((section, index) => (
+                            <motion.div
+                                key={index}
+                                initial={{ opacity: 0, y: 10 }}
+                                animate={{ opacity: 1, y: 0 }}
+                                transition={{ delay: index * 0.1 }}
+                                className="bg-slate-800/50 border border-slate-700/50 rounded-xl p-5 hover:border-blue-500/30 transition-all text-left"
+                            >
+                                <div className="flex items-center gap-2 mb-3 pb-2 border-b border-slate-700/50">
+                                    <AlertCircle size={18} className="text-blue-400" />
+                                    <h3 className="text-lg font-bold text-white">{section.category}</h3>
+                                </div>
+                                <ul className="space-y-3">
+                                    {section.points.map((pt, ptIdx) => (
+                                        <li key={ptIdx} className="text-sm">
+                                            <span className="text-yellow-400 font-semibold">{pt.title}: </span>
+                                            <span className="text-slate-300">{pt.desc}</span>
+                                        </li>
+                                    ))}
+                                </ul>
+                            </motion.div>
+                        ))}
+                    </div>
+                )}
 
                 <div className="flex justify-center pt-4">
                     <button
