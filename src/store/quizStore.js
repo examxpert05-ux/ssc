@@ -48,7 +48,7 @@ const generateIdiomQuestions = () => {
             id: `IDIOM-${index}`,
             chapter: 'English',
             type: 'Idioms',
-            question: `What is the meaning of the idiom: "${item.idiom_phrase}"?`,
+            question: `What is the meaning of the idiom: "${item.idiom}"?`,
             options: {
                 A: options[0],
                 B: options[1],
@@ -57,7 +57,7 @@ const generateIdiomQuestions = () => {
             },
             correct_option: optionKeys[correctOptionIndex],
             answer: item.meaning,
-            explanation: `Hindi Meaning: ${item.hindi_meaning}`
+            explanation: `Hindi Meaning: ${item.hindi}`
         };
     });
 };
