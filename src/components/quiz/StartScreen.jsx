@@ -19,7 +19,8 @@ export default function StartScreen() {
         mathsTypes,
         englishTopics,
         gkgsSubjects,
-        polityTopics
+        polityTopics,
+        staticGkTopics
     } = useQuiz();
 
     // Derived state for Linked Filters (Maths Only)
@@ -27,6 +28,8 @@ export default function StartScreen() {
         .filter(q => filters.chapter === 'All' || q.chapter === filters.chapter)
         .map(q => q.type)
     )];
+
+    const currentGkgsTopics = filters.gkgsSubject === 'Polity' ? polityTopics : staticGkTopics;
 
     // Derived state for Attempt Info
     let attemptKey = '';
@@ -188,7 +191,7 @@ export default function StartScreen() {
                                 )}
                             </div>
 
-                            {filters.subject === 'GK/GS' && filters.gkgsSubject === 'Polity' && (
+                            {filters.subject === 'GK/GS' && (
                                 <div className="space-y-2 col-span-2">
                                     <label className="flex items-center gap-2 text-sm font-medium text-slate-300">
                                         <Filter size={16} className="text-purple-400" />
@@ -206,7 +209,7 @@ export default function StartScreen() {
                                             />
                                             <span className="text-sm text-slate-200 font-medium">All Topics</span>
                                         </label>
-                                        {polityTopics.map(t => (
+                                        {currentGkgsTopics.map(t => (
                                             <label key={t} className="flex items-center gap-3 p-2 hover:bg-white/5 rounded-lg cursor-pointer transition-colors">
                                                 <input
                                                     type="checkbox"

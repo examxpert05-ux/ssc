@@ -4,6 +4,8 @@ import oneWordData from '../data/oneWordSubs.json';
 import synoAntoData from '../data/synoAnto.json';
 import polityData from '../data/polity.json';
 import polityNotesData from '../data/polityNotes.json';
+import staticGkData from '../data/staticGk.json';
+import staticGkNotesData from '../data/staticGkNotes.json';
 
 // Helper to shuffle array (Fisher-Yates)
 const shuffleArray = (array) => {
@@ -167,18 +169,20 @@ export const useQuiz = create((set, get) => ({
     mathsChapters: mathsChapters,
     mathsTypes: mathsTypes,
     englishTopics: ['Idioms', 'One Word Substitution', 'Synonyms', 'Antonyms'], // Broken out Syno/Anto for clarity
-    gkgsSubjects: ['Polity'],
+    gkgsSubjects: ['Static GK', 'Polity'],
     polityTopics: polityData.map(p => p.topic),
+    staticGkTopics: staticGkData.map(p => p.topic),
 
-    // Polity Notes mapping
+    // Notes mapping
     polityNotes: polityNotesData,
+    staticGkNotes: staticGkNotesData,
 
     // Settings
     filters: {
         subject: 'Maths', // 'Maths' | 'English' | 'GK/GS'
         chapter: 'All',   // For Maths
         type: 'All',      // For Maths
-        gkgsSubject: 'Polity', // Default GK/GS Subject
+        gkgsSubject: 'Static GK', // Default GK/GS Subject
         gkgsTopics: [],    // Array of selected topics for GK/GS
         topic: 'Idioms'   // For English
     },
@@ -209,7 +213,7 @@ export const useQuiz = create((set, get) => ({
             newFilters.chapter = 'All';
             newFilters.type = 'All';
             if (value === 'GK/GS') {
-                newFilters.gkgsSubject = 'Polity';
+                newFilters.gkgsSubject = 'Static GK';
                 newFilters.gkgsTopics = []; // Default: Select none (or handle 'All' in UI)
             } else {
                 newFilters.topic = 'Idioms'; // Default topic for English
@@ -285,28 +289,28 @@ export const useQuiz = create((set, get) => ({
         } else if (filters.subject === 'GK/GS') {
             // GK/GS LOGIC
             let selectedTopicsData = [];
-            if (filters.gkgsSubject === 'Polity') {
-                if (!filters.gkgsTopics || filters.gkgsTopics.length === 0 || filters.gkgsTopics.includes('All')) {
-                    selectedTopicsData = polityData;
-                } else {
-                    selectedTopicsData = polityData.filter(p => filters.gkgsTopics.includes(p.topic));
-                }
+            let sourceData = filters.gkgsSubject === 'Polity' ? polityData : staticGkData;
+
+            if (!filters.gkgsTopics || filters.gkgsTopics.length === 0 || filters.gkgsTopics.includes('All')) {
+                selectedTopicsData = sourceData;
+            } else {
+                selectedTopicsData = sourceData.filter(p => filters.gkgsTopics.includes(p.topic));
             }
 
             selectedTopicsData.forEach(topicObj => {
                 const mappedQuestions = topicObj.questions.map(q => {
                     const mappedOption = q.answer.toUpperCase();
+
+                    const optionsObj = Array.isArray(q.options)
+                        ? { A: q.options[0], B: q.options[1], C: q.options[2], D: q.options[3] }
+                        : { A: q.options.a, B: q.options.b, C: q.options.c, D: q.options.d };
+
                     return {
                         ...q,
                         chapter: 'GK/GS',
                         type: topicObj.topic,
                         correct_option: mappedOption,
-                        options: {
-                            A: q.options.a,
-                            B: q.options.b,
-                            C: q.options.c,
-                            D: q.options.d
-                        }
+                        options: optionsObj
                     };
                 });
                 filtered = [...filtered, ...mappedQuestions];

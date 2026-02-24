@@ -25,20 +25,21 @@ const fractionData = [
 ];
 
 export default function RevisionScreen() {
-    const { startRealQuiz, filters, polityNotes } = useQuiz();
+    const { startRealQuiz, filters, polityNotes, staticGkNotes } = useQuiz();
     const [isExpanded, setIsExpanded] = React.useState(false);
 
-    const isPolity = filters.subject === 'GK/GS';
+    const isGkGs = filters.subject === 'GK/GS';
 
     // Get notes for the selected topics
     let selectedTopicsNotes = [];
-    if (isPolity) {
+    if (isGkGs) {
+        let currentNotesSource = filters.gkgsSubject === 'Polity' ? polityNotes : staticGkNotes;
         let topicsToFetch = filters.gkgsTopics || [];
         if (topicsToFetch.length === 0 || topicsToFetch.includes('All')) {
-            // If all, get all polity topics
-            topicsToFetch = polityNotes.map(n => n.topic);
+            // If all, get all topics
+            topicsToFetch = currentNotesSource.map(n => n.topic);
         }
-        selectedTopicsNotes = polityNotes.filter(n => topicsToFetch.includes(n.topic));
+        selectedTopicsNotes = currentNotesSource.filter(n => topicsToFetch.includes(n.topic));
     }
 
     return (
@@ -59,17 +60,17 @@ export default function RevisionScreen() {
                 </div>
                 <div className="text-center mb-8">
                     <div className="flex justify-center items-center gap-3 mb-2">
-                        {isPolity ? <BookOpen size={40} className="text-blue-400" /> : <GraduationCap size={40} className="text-yellow-400" />}
+                        {isGkGs ? <BookOpen size={40} className="text-blue-400" /> : <GraduationCap size={40} className="text-yellow-400" />}
                         <h1 className="text-4xl font-black text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-orange-500 uppercase tracking-wider">
-                            {isPolity ? `${filters.gkgsSubject} Quick Revision` : 'Speed Booster Hacks'}
+                            {isGkGs ? `${filters.gkgsSubject} Quick Revision` : 'Speed Booster Hacks'}
                         </h1>
                     </div>
                     <p className="text-slate-400 text-lg">
-                        {isPolity ? 'Quickly review these key points before starting the quiz.' : 'Fraction to Percentage Conversion'}
+                        {isGkGs ? 'Quickly review these key points before starting the quiz.' : 'Fraction to Percentage Conversion'}
                     </p>
                 </div>
 
-                {!isPolity ? (
+                {!isGkGs ? (
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mb-8">
                         {fractionData.map((item, index) => (
                             <motion.div
