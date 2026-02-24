@@ -1,9 +1,9 @@
 import { create } from 'zustand';
-import questionsData from '../data/questions.json';
 import idiomsData from '../data/idioms.json';
 import oneWordData from '../data/oneWordSubs.json';
 import synoAntoData from '../data/synoAnto.json';
 import polityData from '../data/polity.json';
+import polityNotesData from '../data/polityNotes.json';
 
 // Helper to shuffle array (Fisher-Yates)
 const shuffleArray = (array) => {
@@ -155,19 +155,22 @@ const generateSynoAntoQuestions = () => {
 
 
 // Extract unique chapters and types for Maths filters
-const mathsChapters = ['All', ...new Set(questionsData.map(q => q.chapter))];
-const mathsTypes = ['All', ...new Set(questionsData.map(q => q.type))];
+const mathsChapters = ['All'];
+const mathsTypes = ['All'];
 
 export const useQuiz = create((set, get) => ({
     // Data
-    questions: questionsData,
+    questions: [],
     filteredQuestions: [],
 
     // Filter Options
     mathsChapters: mathsChapters,
     mathsTypes: mathsTypes,
     englishTopics: ['Idioms', 'One Word Substitution', 'Synonyms', 'Antonyms'], // Broken out Syno/Anto for clarity
-    gkgsTopics: ['Polity'],
+    gkgsTopics: polityData.map(p => p.topic),
+
+    // Polity Notes mapping
+    polityNotes: polityNotesData,
 
     // Settings
     filters: {
@@ -203,7 +206,7 @@ export const useQuiz = create((set, get) => ({
             newFilters.chapter = 'All';
             newFilters.type = 'All';
             if (value === 'GK/GS') {
-                newFilters.topic = 'Polity';
+                newFilters.topic = get().gkgsTopics[0]; // Select the first topic by default
             } else {
                 newFilters.topic = 'Idioms'; // Default topic for English
             }
@@ -274,8 +277,25 @@ export const useQuiz = create((set, get) => ({
             attemptKey = `attempt-English-${filters.topic}`; // Just for tracking, not adaptive time yet
         } else if (filters.subject === 'GK/GS') {
             // GK/GS LOGIC
-            if (filters.topic === 'Polity') {
-                filtered = polityData;
+            const selectedTopicObj = polityData.find(p => p.topic === filters.topic);
+            if (selectedTopicObj) {
+                // Ensure correct_option field exists, mapping answer to correct_option
+                filtered = selectedTopicObj.questions.map(q => {
+                    const optionKeys = ['A', 'B', 'C', 'D'];
+                    const mappedOption = q.answer.toUpperCase();
+                    return {
+                        ...q,
+                        chapter: 'GK/GS',
+                        type: filters.topic,
+                        correct_option: mappedOption,
+                        options: {
+                            A: q.options.a,
+                            B: q.options.b,
+                            C: q.options.c,
+                            D: q.options.d
+                        }
+                    };
+                });
             }
 
             // Fixed time for GK/GS
@@ -308,11 +328,11 @@ export const useQuiz = create((set, get) => ({
             timerMode: (filters.subject === 'English' || filters.subject === 'GK/GS') ? 'question' : timerMode
         });
 
-        // Check for revision screen requirement (Chapter 1: Percentage)
+        // Check for revision screen requirement
         if (filters.subject === 'Maths' && filters.chapter === 'Percentage') {
             set({ quizStatus: 'revision' });
-        } else if (filters.subject === 'GK/GS' && filters.topic === 'Polity') {
-            set({ quizStatus: 'revision' });
+        } else if (filters.subject === 'GK/GS') {
+            set({ quizStatus: 'revision' }); // Always show revision for GK/GS topics
         }
     },
 

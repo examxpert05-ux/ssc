@@ -2,7 +2,6 @@ import React from 'react';
 import { useQuiz } from '../../store/quizStore';
 import { PlayCircle, GraduationCap, BookOpen, AlertCircle } from 'lucide-react';
 import { motion } from 'framer-motion';
-import polityRevisionData from '../../data/polityRevision.json';
 
 const fractionData = [
     { fraction: "1/1", percentage: "100%" },
@@ -26,9 +25,15 @@ const fractionData = [
 ];
 
 export default function RevisionScreen() {
-    const { startRealQuiz, filters } = useQuiz();
+    const { startRealQuiz, filters, polityNotes } = useQuiz();
 
-    const isPolity = filters.subject === 'GK/GS' && filters.topic === 'Polity';
+    const isPolity = filters.subject === 'GK/GS';
+
+    // Get notes for the selected topic
+    let topicNotes = null;
+    if (isPolity) {
+        topicNotes = polityNotes.find(n => n.topic === filters.topic);
+    }
 
     return (
         <div className="flex flex-col items-center justify-center min-h-[80vh] w-full max-w-4xl mx-auto p-6">
@@ -41,7 +46,7 @@ export default function RevisionScreen() {
                     <div className="flex justify-center items-center gap-3 mb-2">
                         {isPolity ? <BookOpen size={40} className="text-blue-400" /> : <GraduationCap size={40} className="text-yellow-400" />}
                         <h1 className="text-4xl font-black text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-orange-500 uppercase tracking-wider">
-                            {isPolity ? 'Polity Quick Revision' : 'Speed Booster Hacks'}
+                            {isPolity ? `${filters.topic} Quick Revision` : 'Speed Booster Hacks'}
                         </h1>
                     </div>
                     <p className="text-slate-400 text-lg">
@@ -66,29 +71,26 @@ export default function RevisionScreen() {
                         ))}
                     </div>
                 ) : (
-                    <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-8">
-                        {polityRevisionData.map((section, index) => (
+                    <div className="w-full mb-8 max-h-[50vh] overflow-y-auto pr-4 custom-scrollbar">
+                        {topicNotes ? (
                             <motion.div
-                                key={index}
                                 initial={{ opacity: 0, y: 10 }}
                                 animate={{ opacity: 1, y: 0 }}
-                                transition={{ delay: index * 0.1 }}
-                                className="bg-slate-800/50 border border-slate-700/50 rounded-xl p-5 hover:border-blue-500/30 transition-all text-left"
+                                className="bg-slate-800/50 border border-slate-700/50 rounded-xl p-6 text-left"
                             >
-                                <div className="flex items-center gap-2 mb-3 pb-2 border-b border-slate-700/50">
-                                    <AlertCircle size={18} className="text-blue-400" />
-                                    <h3 className="text-lg font-bold text-white">{section.category}</h3>
+                                <div className="flex items-center gap-2 mb-4 pb-3 border-b border-slate-700/50">
+                                    <AlertCircle size={24} className="text-blue-400" />
+                                    <h3 className="text-xl font-bold text-white">Notes: {filters.topic}</h3>
                                 </div>
-                                <ul className="space-y-3">
-                                    {section.points.map((pt, ptIdx) => (
-                                        <li key={ptIdx} className="text-sm">
-                                            <span className="text-yellow-400 font-semibold">{pt.title}: </span>
-                                            <span className="text-slate-300">{pt.desc}</span>
-                                        </li>
-                                    ))}
-                                </ul>
+                                <div className="whitespace-pre-wrap text-slate-300 text-sm leading-relaxed">
+                                    {topicNotes.notes || "No notes available for this topic."}
+                                </div>
                             </motion.div>
-                        ))}
+                        ) : (
+                            <div className="text-center text-slate-400 py-8">
+                                No revision notes available for {filters.topic}.
+                            </div>
+                        )}
                     </div>
                 )}
 
