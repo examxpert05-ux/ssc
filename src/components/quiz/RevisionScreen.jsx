@@ -90,11 +90,28 @@ export default function RevisionScreen() {
                                         <AlertCircle size={24} className="text-blue-400" />
                                         <h3 className="text-xl font-bold text-white">Notes: {topicNode.topic}</h3>
                                     </div>
-                                    <ul className="list-disc pl-5 space-y-3 text-slate-300 text-sm leading-relaxed">
-                                        {Array.isArray(topicNode.notes) ? topicNode.notes.map((note, i) => (
-                                            <li key={i}>{note}</li>
-                                        )) : <p>{topicNode.notes}</p>}
-                                    </ul>
+                                    <div className="space-y-4">
+                                        {Array.isArray(topicNode.notes) ? topicNode.notes.map((note, i) => {
+                                            if (typeof note === 'object' && note.subtopic) {
+                                                return (
+                                                    <div key={i} className="mb-4">
+                                                        <h4 className="text-blue-300 font-semibold mb-2">{note.subtopic}</h4>
+                                                        <ul className="list-disc pl-5 space-y-2 text-slate-300 text-sm leading-relaxed">
+                                                            {note.points.map((point, j) => (
+                                                                <li key={j}>{point}</li>
+                                                            ))}
+                                                        </ul>
+                                                    </div>
+                                                );
+                                            } else {
+                                                return (
+                                                    <ul key={i} className="list-disc pl-5 text-slate-300 text-sm leading-relaxed">
+                                                        <li>{note}</li>
+                                                    </ul>
+                                                );
+                                            }
+                                        }) : <p>{topicNode.notes}</p>}
+                                    </div>
                                 </motion.div>
                             ))
                         ) : (
