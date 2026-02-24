@@ -8,6 +8,8 @@ import staticGkData from '../data/staticGk.json';
 import staticGkNotesData from '../data/staticGkNotes.json';
 import historyData from '../data/history.json';
 import historyNotesData from '../data/historyNotes.json';
+import geographyData from '../data/geography.json';
+import geographyNotesData from '../data/geographyNotes.json';
 
 // Helper to shuffle array (Fisher-Yates)
 const shuffleArray = (array) => {
@@ -171,9 +173,10 @@ export const useQuiz = create((set, get) => ({
     mathsChapters: mathsChapters,
     mathsTypes: mathsTypes,
     englishTopics: ['Idioms', 'One Word Substitution', 'Synonyms', 'Antonyms'], // Broken out Syno/Anto for clarity
-    gkgsSubjects: ['Static GK', 'Polity', 'History'],
+    gkgsSubjects: ['Static GK', 'Polity', 'History', 'Geography'],
     polityTopics: polityData.map(p => p.topic),
     staticGkTopics: staticGkData.map(p => p.topic),
+    geographyTopics: geographyData.map(p => p.topic),
 
     // History specific
     historyCategories: [...new Set(historyData.map(p => p.category))],
@@ -183,6 +186,7 @@ export const useQuiz = create((set, get) => ({
     polityNotes: polityNotesData,
     staticGkNotes: staticGkNotesData,
     historyNotes: historyNotesData,
+    geographyNotes: geographyNotesData,
 
     // Settings
     filters: {
@@ -303,7 +307,7 @@ export const useQuiz = create((set, get) => ({
         } else if (filters.subject === 'GK/GS') {
             // GK/GS LOGIC
             let selectedTopicsData = [];
-            let sourceData = filters.gkgsSubject === 'History' ? historyData : (filters.gkgsSubject === 'Polity' ? polityData : staticGkData);
+            let sourceData = filters.gkgsSubject === 'History' ? historyData : (filters.gkgsSubject === 'Polity' ? polityData : (filters.gkgsSubject === 'Geography' ? geographyData : staticGkData));
 
             if (filters.gkgsSubject === 'History') {
                 sourceData = sourceData.filter(d => d.category === filters.historyCategory);

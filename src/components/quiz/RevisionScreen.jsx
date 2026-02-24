@@ -25,7 +25,7 @@ const fractionData = [
 ];
 
 export default function RevisionScreen() {
-    const { startRealQuiz, filters, polityNotes, staticGkNotes } = useQuiz();
+    const { startRealQuiz, filters, polityNotes, staticGkNotes, historyNotes, geographyNotes } = useQuiz();
     const [isExpanded, setIsExpanded] = React.useState(false);
 
     const isGkGs = filters.subject === 'GK/GS';
@@ -33,7 +33,12 @@ export default function RevisionScreen() {
     // Get notes for the selected topics
     let selectedTopicsNotes = [];
     if (isGkGs) {
-        let currentNotesSource = filters.gkgsSubject === 'Polity' ? polityNotes : staticGkNotes;
+        let currentNotesSource = filters.gkgsSubject === 'History' ? historyNotes : (filters.gkgsSubject === 'Polity' ? polityNotes : (filters.gkgsSubject === 'Geography' ? geographyNotes : staticGkNotes));
+
+        if (filters.gkgsSubject === 'History') {
+            currentNotesSource = currentNotesSource.filter(n => n.category === filters.historyCategory);
+        }
+
         let topicsToFetch = filters.gkgsTopics || [];
         if (topicsToFetch.length === 0 || topicsToFetch.includes('All')) {
             // If all, get all topics
