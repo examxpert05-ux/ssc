@@ -308,6 +308,7 @@ export const useQuiz = create((set, get) => ({
 
                     return {
                         ...q,
+                        question: `Q.${q.id}. ${q.question}`,
                         // Fix for missing question IDs applying selected option to all
                         id: q.id !== undefined ? q.id : `gkgs-${topicIndex}-${qIndex}-${globalIndex++}`,
                         chapter: 'GK/GS',
