@@ -297,8 +297,9 @@ export const useQuiz = create((set, get) => ({
                 selectedTopicsData = sourceData.filter(p => filters.gkgsTopics.includes(p.topic));
             }
 
-            selectedTopicsData.forEach(topicObj => {
-                const mappedQuestions = topicObj.questions.map(q => {
+            let globalIndex = 0;
+            selectedTopicsData.forEach((topicObj, topicIndex) => {
+                const mappedQuestions = topicObj.questions.map((q, qIndex) => {
                     const mappedOption = q.answer.toUpperCase();
 
                     const optionsObj = Array.isArray(q.options)
@@ -307,6 +308,8 @@ export const useQuiz = create((set, get) => ({
 
                     return {
                         ...q,
+                        // Fix for missing question IDs applying selected option to all
+                        id: q.id !== undefined ? q.id : `gkgs-${topicIndex}-${qIndex}-${globalIndex++}`,
                         chapter: 'GK/GS',
                         type: topicObj.topic,
                         correct_option: mappedOption,
