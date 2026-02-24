@@ -16,6 +16,8 @@ import physicsData from '../data/physics.json';
 import physicsNotesData from '../data/physicsNotes.json';
 import chemistryData from '../data/chemistry.json';
 import chemistryNotesData from '../data/chemistryNotes.json';
+import biologyData from '../data/biology.json';
+import biologyNotesData from '../data/biologyNotes.json';
 
 // Helper to shuffle array (Fisher-Yates)
 const shuffleArray = (array) => {
@@ -179,13 +181,14 @@ export const useQuiz = create((set, get) => ({
     mathsChapters: mathsChapters,
     mathsTypes: mathsTypes,
     englishTopics: ['Idioms', 'One Word Substitution', 'Synonyms', 'Antonyms'], // Broken out Syno/Anto for clarity
-    gkgsSubjects: ['Static GK', 'Polity', 'History', 'Geography', 'Economics', 'Physics', 'Chemistry'],
+    gkgsSubjects: ['Static GK', 'Polity', 'History', 'Geography', 'Economics', 'Physics', 'Chemistry', 'Biology'],
     polityTopics: polityData.map(p => p.topic),
     staticGkTopics: staticGkData.map(p => p.topic),
     geographyTopics: geographyData.map(p => p.topic),
     economicsTopics: economicsData.map(p => p.topic),
     physicsTopics: physicsData.map(p => p.topic),
     chemistryTopics: chemistryData.map(p => p.topic),
+    biologyTopics: biologyData.map(p => p.topic),
 
     // History specific
     historyCategories: [...new Set(historyData.map(p => p.category))],
@@ -199,6 +202,7 @@ export const useQuiz = create((set, get) => ({
     economicsNotes: economicsNotesData,
     physicsNotes: physicsNotesData,
     chemistryNotes: chemistryNotesData,
+    biologyNotes: biologyNotesData,
 
     // Settings
     filters: {
@@ -319,7 +323,7 @@ export const useQuiz = create((set, get) => ({
         } else if (filters.subject === 'GK/GS') {
             // GK/GS LOGIC
             let selectedTopicsData = [];
-            let sourceData = filters.gkgsSubject === 'History' ? historyData : (filters.gkgsSubject === 'Polity' ? polityData : (filters.gkgsSubject === 'Geography' ? geographyData : (filters.gkgsSubject === 'Economics' ? economicsData : (filters.gkgsSubject === 'Physics' ? physicsData : (filters.gkgsSubject === 'Chemistry' ? chemistryData : staticGkData)))));
+            let sourceData = filters.gkgsSubject === 'History' ? historyData : (filters.gkgsSubject === 'Polity' ? polityData : (filters.gkgsSubject === 'Geography' ? geographyData : (filters.gkgsSubject === 'Economics' ? economicsData : (filters.gkgsSubject === 'Physics' ? physicsData : (filters.gkgsSubject === 'Chemistry' ? chemistryData : (filters.gkgsSubject === 'Biology' ? biologyData : staticGkData))))));
 
             if (filters.gkgsSubject === 'History') {
                 sourceData = sourceData.filter(d => d.category === filters.historyCategory);
