@@ -1,6 +1,6 @@
 import React from 'react';
 import { useQuiz } from '../../store/quizStore';
-import { PlayCircle, GraduationCap, BookOpen, AlertCircle } from 'lucide-react';
+import { PlayCircle, GraduationCap, BookOpen, AlertCircle, Maximize2, Minimize2 } from 'lucide-react';
 import { motion } from 'framer-motion';
 
 const fractionData = [
@@ -26,6 +26,7 @@ const fractionData = [
 
 export default function RevisionScreen() {
     const { startRealQuiz, filters, polityNotes } = useQuiz();
+    const [isExpanded, setIsExpanded] = React.useState(false);
 
     const isPolity = filters.subject === 'GK/GS';
 
@@ -41,12 +42,21 @@ export default function RevisionScreen() {
     }
 
     return (
-        <div className="flex flex-col items-center justify-center min-h-[80vh] w-full max-w-4xl mx-auto p-6">
+        <div className={`flex flex-col items-center justify-center min-h-[80vh] w-full mx-auto p-6 transition-all duration-300 ${isExpanded ? 'max-w-7xl' : 'max-w-4xl'}`}>
             <motion.div
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 className="bg-slate-900/80 backdrop-blur-xl border border-white/10 rounded-3xl p-8 w-full shadow-2xl"
             >
+                <div className="flex justify-end mb-2">
+                    <button
+                        onClick={() => setIsExpanded(!isExpanded)}
+                        className="p-2 bg-slate-800/80 hover:bg-slate-700/80 text-slate-300 rounded-lg border border-slate-600/50 transition-colors flex items-center gap-2"
+                        title={isExpanded ? "Minimize view" : "Expand for easier reading"}
+                    >
+                        {isExpanded ? <><Minimize2 size={18} /> <span className="text-sm font-medium">Minimize</span></> : <><Maximize2 size={18} /> <span className="text-sm font-medium">Expand Notes</span></>}
+                    </button>
+                </div>
                 <div className="text-center mb-8">
                     <div className="flex justify-center items-center gap-3 mb-2">
                         {isPolity ? <BookOpen size={40} className="text-blue-400" /> : <GraduationCap size={40} className="text-yellow-400" />}
@@ -76,7 +86,7 @@ export default function RevisionScreen() {
                         ))}
                     </div>
                 ) : (
-                    <div className="w-full mb-8 max-h-[50vh] overflow-y-auto pr-4 custom-scrollbar space-y-6">
+                    <div className={`w-full mb-8 overflow-y-auto pr-4 custom-scrollbar space-y-6 transition-all duration-300 ${isExpanded ? 'max-h-[70vh]' : 'max-h-[50vh]'}`}>
                         {selectedTopicsNotes.length > 0 ? (
                             selectedTopicsNotes.map((topicNode, idx) => (
                                 <motion.div
