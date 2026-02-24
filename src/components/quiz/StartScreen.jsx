@@ -20,7 +20,9 @@ export default function StartScreen() {
         englishTopics,
         gkgsSubjects,
         polityTopics,
-        staticGkTopics
+        staticGkTopics,
+        historyCategories,
+        historyData
     } = useQuiz();
 
     // Derived state for Linked Filters (Maths Only)
@@ -29,7 +31,9 @@ export default function StartScreen() {
         .map(q => q.type)
     )];
 
-    const currentGkgsTopics = filters.gkgsSubject === 'Polity' ? polityTopics : staticGkTopics;
+    const currentGkgsTopics = filters.gkgsSubject === 'History' && historyData
+        ? [...new Set(historyData.filter(d => d.category === filters.historyCategory).map(d => d.topic))]
+        : (filters.gkgsSubject === 'Polity' ? polityTopics : staticGkTopics);
 
     // Derived state for Attempt Info
     let attemptKey = '';
@@ -179,15 +183,35 @@ export default function StartScreen() {
                                         ))}
                                     </select>
                                 ) : (
-                                    <select
-                                        value={filters.gkgsSubject}
-                                        onChange={(e) => setFilter('gkgsSubject', e.target.value)}
-                                        className="w-full bg-slate-900/50 border border-slate-700 rounded-xl px-4 py-3 text-slate-200 focus:outline-none focus:ring-2 focus:ring-blue-500/50 transition-all"
-                                    >
-                                        {gkgsSubjects.map(t => (
-                                            <option key={t} value={t}>{t}</option>
-                                        ))}
-                                    </select>
+                                    <>
+                                        <select
+                                            value={filters.gkgsSubject}
+                                            onChange={(e) => setFilter('gkgsSubject', e.target.value)}
+                                            className="w-full bg-slate-900/50 border border-slate-700 rounded-xl px-4 py-3 text-slate-200 focus:outline-none focus:ring-2 focus:ring-blue-500/50 transition-all"
+                                        >
+                                            {gkgsSubjects.map(t => (
+                                                <option key={t} value={t}>{t}</option>
+                                            ))}
+                                        </select>
+
+                                        {filters.gkgsSubject === 'History' && (
+                                            <div className="mt-4 space-y-2">
+                                                <label className="flex items-center gap-2 text-sm font-medium text-slate-300">
+                                                    <BookOpen size={16} className="text-orange-400" />
+                                                    History Category
+                                                </label>
+                                                <select
+                                                    value={filters.historyCategory}
+                                                    onChange={(e) => setFilter('historyCategory', e.target.value)}
+                                                    className="w-full bg-slate-900/50 border border-slate-700 rounded-xl px-4 py-3 text-slate-200 focus:outline-none focus:ring-2 focus:ring-orange-500/50 transition-all"
+                                                >
+                                                    {historyCategories.map(c => (
+                                                        <option key={c} value={c}>{c}</option>
+                                                    ))}
+                                                </select>
+                                            </div>
+                                        )}
+                                    </>
                                 )}
                             </div>
 

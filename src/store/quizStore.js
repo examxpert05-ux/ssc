@@ -6,6 +6,8 @@ import polityData from '../data/polity.json';
 import polityNotesData from '../data/polityNotes.json';
 import staticGkData from '../data/staticGk.json';
 import staticGkNotesData from '../data/staticGkNotes.json';
+import historyData from '../data/history.json';
+import historyNotesData from '../data/historyNotes.json';
 
 // Helper to shuffle array (Fisher-Yates)
 const shuffleArray = (array) => {
@@ -169,13 +171,18 @@ export const useQuiz = create((set, get) => ({
     mathsChapters: mathsChapters,
     mathsTypes: mathsTypes,
     englishTopics: ['Idioms', 'One Word Substitution', 'Synonyms', 'Antonyms'], // Broken out Syno/Anto for clarity
-    gkgsSubjects: ['Static GK', 'Polity'],
+    gkgsSubjects: ['Static GK', 'Polity', 'History'],
     polityTopics: polityData.map(p => p.topic),
     staticGkTopics: staticGkData.map(p => p.topic),
+
+    // History specific
+    historyCategories: [...new Set(historyData.map(p => p.category))],
+    historyData: historyData,
 
     // Notes mapping
     polityNotes: polityNotesData,
     staticGkNotes: staticGkNotesData,
+    historyNotes: historyNotesData,
 
     // Settings
     filters: {
@@ -184,6 +191,7 @@ export const useQuiz = create((set, get) => ({
         type: 'All',      // For Maths
         gkgsSubject: 'Static GK', // Default GK/GS Subject
         gkgsTopics: [],    // Array of selected topics for GK/GS
+        historyCategory: 'Ancient',
         topic: 'Idioms'   // For English
     },
 
@@ -223,6 +231,12 @@ export const useQuiz = create((set, get) => ({
             newFilters.type = 'All';
         }
         if (key === 'gkgsSubject') {
+            newFilters.gkgsTopics = [];
+            if (value === 'History') {
+                newFilters.historyCategory = 'Ancient';
+            }
+        }
+        if (key === 'historyCategory') {
             newFilters.gkgsTopics = [];
         }
 
@@ -289,7 +303,11 @@ export const useQuiz = create((set, get) => ({
         } else if (filters.subject === 'GK/GS') {
             // GK/GS LOGIC
             let selectedTopicsData = [];
-            let sourceData = filters.gkgsSubject === 'Polity' ? polityData : staticGkData;
+            let sourceData = filters.gkgsSubject === 'History' ? historyData : (filters.gkgsSubject === 'Polity' ? polityData : staticGkData);
+
+            if (filters.gkgsSubject === 'History') {
+                sourceData = sourceData.filter(d => d.category === filters.historyCategory);
+            }
 
             if (!filters.gkgsTopics || filters.gkgsTopics.length === 0 || filters.gkgsTopics.includes('All')) {
                 selectedTopicsData = sourceData;
