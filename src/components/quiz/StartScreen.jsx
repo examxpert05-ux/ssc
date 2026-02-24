@@ -22,6 +22,7 @@ export default function StartScreen() {
         polityTopics,
         staticGkTopics,
         geographyTopics,
+        economicsTopics,
         historyCategories,
         historyData
     } = useQuiz();
@@ -34,7 +35,7 @@ export default function StartScreen() {
 
     const currentGkgsTopics = filters.gkgsSubject === 'History' && historyData
         ? [...new Set(historyData.filter(d => d.category === filters.historyCategory).map(d => d.topic))]
-        : (filters.gkgsSubject === 'Polity' ? polityTopics : (filters.gkgsSubject === 'Geography' ? geographyTopics : staticGkTopics));
+        : (filters.gkgsSubject === 'Polity' ? polityTopics : (filters.gkgsSubject === 'Geography' ? geographyTopics : (filters.gkgsSubject === 'Economics' ? economicsTopics : staticGkTopics)));
 
     // Derived state for Attempt Info
     let attemptKey = '';
