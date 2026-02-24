@@ -1,11 +1,13 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import { useQuiz } from '../../store/quizStore';
 import confetti from 'canvas-confetti';
 import { motion } from 'framer-motion';
-import { RefreshCw, XCircle, CheckCircle, Home, MinusCircle, Target } from 'lucide-react';
+import { RefreshCw, XCircle, CheckCircle, Home, MinusCircle, Target, BookOpen } from 'lucide-react';
+import MathText from '../ui/MathText';
 
 export default function ResultScreen() {
     const { score, filteredQuestions, answers, resetQuiz, setCurrentView } = useQuiz();
+    const [showReview, setShowReview] = useState(false);
 
     const totalQuestions = filteredQuestions.length;
     const correctCount = filteredQuestions.filter(q => q.correct_option === answers[q.id]).length;
@@ -101,6 +103,83 @@ export default function ResultScreen() {
                     Play Again
                 </button>
             </div>
+
+            <div className="pt-8 border-t border-white/5">
+                <button
+                    onClick={() => setShowReview(!showReview)}
+                    className="flex items-center gap-2 mx-auto px-6 py-3 bg-white/5 hover:bg-white/10 text-slate-300 rounded-xl transition-all font-medium border border-white/10"
+                >
+                    <BookOpen size={18} />
+                    {showReview ? 'Hide Review' : 'Review Answers'}
+                </button>
+            </div>
+
+            {showReview && (
+                <motion.div
+                    initial={{ opacity: 0, y: 20 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    className="mt-8 space-y-6 text-left"
+                >
+                    {filteredQuestions.map((q, idx) => {
+                        const isSkipped = !answers[q.id];
+                        return (
+                            <div key={q.id} className="bg-white/5 border border-white/10 p-6 md:p-8 rounded-2xl space-y-4 shadow-lg">
+                                <div className="flex gap-3 text-slate-200 font-medium text-lg">
+                                    <span className="text-blue-400 shrink-0">Q{idx + 1}.</span>
+                                    <div><MathText text={q.question} /></div>
+                                </div>
+                                {isSkipped && (
+                                    <div className="text-sm font-semibold text-orange-400 bg-orange-400/10 inline-block px-3 py-1 rounded border border-orange-400/20">
+                                        Skipped
+                                    </div>
+                                )}
+                                <div className="grid gap-3 col-span-1">
+                                    {['A', 'B', 'C', 'D'].map(opt => {
+                                        const isCorrect = q.correct_option === opt;
+                                        const isSelected = answers[q.id] === opt;
+
+                                        let bg = "bg-slate-800/50";
+                                        let border = "border-slate-700";
+                                        let text = "text-slate-400";
+
+                                        if (isCorrect) {
+                                            bg = "bg-green-500/20";
+                                            border = "border-green-500/50";
+                                            text = "text-green-300";
+                                        } else if (isSelected && !isCorrect) {
+                                            bg = "bg-red-500/20";
+                                            border = "border-red-500/50";
+                                            text = "text-red-300";
+                                        }
+
+                                        const optText = q.options[opt] || q.options[opt.toLowerCase()];
+
+                                        return (
+                                            <div key={opt} className={`p-4 rounded-xl border ${bg} ${border} ${text} flex gap-4 transition-all items-center`}>
+                                                <span className="font-bold bg-white/5 w-8 h-8 flex items-center justify-center rounded-lg shrink-0">{opt}</span>
+                                                <span className="text-md leading-relaxed">{optText}</span>
+                                                {isCorrect && <CheckCircle size={20} className="ml-auto text-green-400 shrink-0" />}
+                                                {isSelected && !isCorrect && <XCircle size={20} className="ml-auto text-red-400 shrink-0" />}
+                                            </div>
+                                        )
+                                    })}
+                                </div>
+                                {q.explanation && (
+                                    <div className="mt-4 p-5 bg-blue-900/20 border border-blue-500/30 rounded-xl space-y-2">
+                                        <div className="flex items-center gap-2 text-blue-400 font-bold mb-1">
+                                            <BookOpen size={16} />
+                                            <span>Explanation</span>
+                                        </div>
+                                        <p className="text-slate-300 leading-relaxed text-sm">
+                                            {q.explanation}
+                                        </p>
+                                    </div>
+                                )}
+                            </div>
+                        )
+                    })}
+                </motion.div>
+            )}
         </motion.div>
     );
 }

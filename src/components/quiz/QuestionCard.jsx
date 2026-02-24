@@ -21,9 +21,16 @@ export default function QuestionCard({ question, selectedOption, onSelect }) {
                     <span className="text-sm font-medium text-slate-400 bg-slate-900/50 px-3 py-1 rounded-full">
                         Question {question.question_number || '?'}
                     </span>
-                    <span className="text-sm font-medium text-slate-500">
-                        {question.type}
-                    </span>
+                    <div className="flex flex-col items-end gap-1">
+                        <span className="text-sm font-medium text-slate-500">
+                            {question.type}
+                        </span>
+                        {question.source && (
+                            <span className="text-xs font-semibold text-blue-400 bg-blue-900/30 px-2 py-0.5 rounded">
+                                {question.source}
+                            </span>
+                        )}
+                    </div>
                 </div>
 
                 <h2 className="text-xl md:text-2xl font-semibold text-slate-100 leading-relaxed">
@@ -31,10 +38,7 @@ export default function QuestionCard({ question, selectedOption, onSelect }) {
                 </h2>
             </motion.div>
 
-            <div className={cn(
-                "grid gap-4",
-                question.chapter === 'English' ? "grid-cols-1" : "grid-cols-1 md:grid-cols-2"
-            )}>
+            <div className="grid gap-4 grid-cols-1">
                 <AnimatePresence mode='wait'>
                     {options.map((opt, index) => {
                         const isSelected = selectedOption === opt;

@@ -167,7 +167,8 @@ export const useQuiz = create((set, get) => ({
     mathsChapters: mathsChapters,
     mathsTypes: mathsTypes,
     englishTopics: ['Idioms', 'One Word Substitution', 'Synonyms', 'Antonyms'], // Broken out Syno/Anto for clarity
-    gkgsTopics: polityData.map(p => p.topic),
+    gkgsSubjects: ['Polity'],
+    polityTopics: polityData.map(p => p.topic),
 
     // Polity Notes mapping
     polityNotes: polityNotesData,
@@ -177,7 +178,9 @@ export const useQuiz = create((set, get) => ({
         subject: 'Maths', // 'Maths' | 'English' | 'GK/GS'
         chapter: 'All',   // For Maths
         type: 'All',      // For Maths
-        topic: 'Idioms'   // For English and GK/GS
+        gkgsSubject: 'Polity', // Default GK/GS Subject
+        gkgsTopics: [],    // Array of selected topics for GK/GS
+        topic: 'Idioms'   // For English
     },
 
     // New V2 Settings
@@ -206,13 +209,17 @@ export const useQuiz = create((set, get) => ({
             newFilters.chapter = 'All';
             newFilters.type = 'All';
             if (value === 'GK/GS') {
-                newFilters.topic = get().gkgsTopics[0]; // Select the first topic by default
+                newFilters.gkgsSubject = 'Polity';
+                newFilters.gkgsTopics = []; // Default: Select none (or handle 'All' in UI)
             } else {
                 newFilters.topic = 'Idioms'; // Default topic for English
             }
         }
         if (key === 'chapter') {
             newFilters.type = 'All';
+        }
+        if (key === 'gkgsSubject') {
+            newFilters.gkgsTopics = [];
         }
 
         return { filters: newFilters };
@@ -277,16 +284,22 @@ export const useQuiz = create((set, get) => ({
             attemptKey = `attempt-English-${filters.topic}`; // Just for tracking, not adaptive time yet
         } else if (filters.subject === 'GK/GS') {
             // GK/GS LOGIC
-            const selectedTopicObj = polityData.find(p => p.topic === filters.topic);
-            if (selectedTopicObj) {
-                // Ensure correct_option field exists, mapping answer to correct_option
-                filtered = selectedTopicObj.questions.map(q => {
-                    const optionKeys = ['A', 'B', 'C', 'D'];
+            let selectedTopicsData = [];
+            if (filters.gkgsSubject === 'Polity') {
+                if (!filters.gkgsTopics || filters.gkgsTopics.length === 0 || filters.gkgsTopics.includes('All')) {
+                    selectedTopicsData = polityData;
+                } else {
+                    selectedTopicsData = polityData.filter(p => filters.gkgsTopics.includes(p.topic));
+                }
+            }
+
+            selectedTopicsData.forEach(topicObj => {
+                const mappedQuestions = topicObj.questions.map(q => {
                     const mappedOption = q.answer.toUpperCase();
                     return {
                         ...q,
                         chapter: 'GK/GS',
-                        type: filters.topic,
+                        type: topicObj.topic,
                         correct_option: mappedOption,
                         options: {
                             A: q.options.a,
@@ -296,11 +309,12 @@ export const useQuiz = create((set, get) => ({
                         }
                     };
                 });
-            }
+                filtered = [...filtered, ...mappedQuestions];
+            });
 
             // Fixed time for GK/GS
             timePerQ = 30;
-            attemptKey = `attempt-GKGS-${filters.topic}`;
+            attemptKey = `attempt-GKGS-${filters.gkgsSubject}`;
         }
 
         // 3. Handle Question Count Limit
@@ -383,7 +397,7 @@ export const useQuiz = create((set, get) => ({
         } else if (filters.subject === 'English') {
             attemptKey = `attempt-English-${filters.topic}`;
         } else if (filters.subject === 'GK/GS') {
-            attemptKey = `attempt-GKGS-${filters.topic}`;
+            attemptKey = `attempt-GKGS-${filters.gkgsSubject}`;
         }
 
         const currentAttempts = parseInt(localStorage.getItem(attemptKey) || '0', 10);
@@ -393,8 +407,8 @@ export const useQuiz = create((set, get) => ({
         saveResult({
             date: new Date().toISOString(),
             subject: filters.subject,
-            chapter: filters.subject === 'Maths' ? filters.chapter : filters.topic,
-            type: filters.subject === 'Maths' ? filters.type : 'N/A',
+            chapter: filters.subject === 'Maths' ? filters.chapter : (filters.subject === 'GK/GS' ? filters.gkgsSubject : filters.topic),
+            type: filters.subject === 'Maths' ? filters.type : (filters.subject === 'GK/GS' ? filters.gkgsTopics.join(', ') || 'All' : 'N/A'),
             score,
             totalQuestions: totalQ,
             accuracy,

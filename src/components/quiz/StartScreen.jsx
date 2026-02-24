@@ -18,7 +18,8 @@ export default function StartScreen() {
         mathsChapters,
         mathsTypes,
         englishTopics,
-        gkgsTopics
+        gkgsSubjects,
+        polityTopics
     } = useQuiz();
 
     // Derived state for Linked Filters (Maths Only)
@@ -158,21 +159,77 @@ export default function StartScreen() {
                             </div>
                         </>
                     ) : (
-                        <div className="space-y-2 col-span-2">
-                            <label className="flex items-center gap-2 text-sm font-medium text-slate-300">
-                                <BookOpen size={16} className="text-blue-400" />
-                                Topic
-                            </label>
-                            <select
-                                value={filters.topic}
-                                onChange={(e) => setFilter('topic', e.target.value)}
-                                className="w-full bg-slate-900/50 border border-slate-700 rounded-xl px-4 py-3 text-slate-200 focus:outline-none focus:ring-2 focus:ring-blue-500/50 transition-all"
-                            >
-                                {(filters.subject === 'English' ? englishTopics : gkgsTopics).map(t => (
-                                    <option key={t} value={t}>{t}</option>
-                                ))}
-                            </select>
-                        </div>
+                        <>
+                            <div className="space-y-2 col-span-2">
+                                <label className="flex items-center gap-2 text-sm font-medium text-slate-300">
+                                    <BookOpen size={16} className="text-blue-400" />
+                                    {filters.subject === 'English' ? 'Topic' : 'GK/GS Subject'}
+                                </label>
+                                {filters.subject === 'English' ? (
+                                    <select
+                                        value={filters.topic}
+                                        onChange={(e) => setFilter('topic', e.target.value)}
+                                        className="w-full bg-slate-900/50 border border-slate-700 rounded-xl px-4 py-3 text-slate-200 focus:outline-none focus:ring-2 focus:ring-blue-500/50 transition-all"
+                                    >
+                                        {englishTopics.map(t => (
+                                            <option key={t} value={t}>{t}</option>
+                                        ))}
+                                    </select>
+                                ) : (
+                                    <select
+                                        value={filters.gkgsSubject}
+                                        onChange={(e) => setFilter('gkgsSubject', e.target.value)}
+                                        className="w-full bg-slate-900/50 border border-slate-700 rounded-xl px-4 py-3 text-slate-200 focus:outline-none focus:ring-2 focus:ring-blue-500/50 transition-all"
+                                    >
+                                        {gkgsSubjects.map(t => (
+                                            <option key={t} value={t}>{t}</option>
+                                        ))}
+                                    </select>
+                                )}
+                            </div>
+
+                            {filters.subject === 'GK/GS' && filters.gkgsSubject === 'Polity' && (
+                                <div className="space-y-2 col-span-2">
+                                    <label className="flex items-center gap-2 text-sm font-medium text-slate-300">
+                                        <Filter size={16} className="text-purple-400" />
+                                        Select Topics
+                                    </label>
+                                    <div className="bg-slate-900/50 border border-slate-700 rounded-xl p-4 max-h-48 overflow-y-auto space-y-2">
+                                        <label className="flex items-center gap-3 p-2 hover:bg-white/5 rounded-lg cursor-pointer transition-colors">
+                                            <input
+                                                type="checkbox"
+                                                checked={filters.gkgsTopics.length === 0 || filters.gkgsTopics.includes('All')}
+                                                onChange={(e) => {
+                                                    if (e.target.checked) setFilter('gkgsTopics', ['All']);
+                                                }}
+                                                className="w-4 h-4 rounded border-slate-500 text-blue-500 focus:ring-blue-500/50 bg-slate-800"
+                                            />
+                                            <span className="text-sm text-slate-200 font-medium">All Topics</span>
+                                        </label>
+                                        {polityTopics.map(t => (
+                                            <label key={t} className="flex items-center gap-3 p-2 hover:bg-white/5 rounded-lg cursor-pointer transition-colors">
+                                                <input
+                                                    type="checkbox"
+                                                    checked={!filters.gkgsTopics.includes('All') && filters.gkgsTopics.includes(t)}
+                                                    onChange={(e) => {
+                                                        let newTopics = filters.gkgsTopics.filter(topic => topic !== 'All');
+                                                        if (e.target.checked) {
+                                                            newTopics.push(t);
+                                                        } else {
+                                                            newTopics = newTopics.filter(topic => topic !== t);
+                                                        }
+                                                        if (newTopics.length === 0) newTopics = ['All'];
+                                                        setFilter('gkgsTopics', newTopics);
+                                                    }}
+                                                    className="w-4 h-4 rounded border-slate-500 text-blue-500 focus:ring-blue-500/50 bg-slate-800"
+                                                />
+                                                <span className="text-sm text-slate-300">{t}</span>
+                                            </label>
+                                        ))}
+                                    </div>
+                                </div>
+                            )}
+                        </>
                     )}
                 </div>
 
