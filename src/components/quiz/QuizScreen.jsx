@@ -86,11 +86,11 @@ export default function QuizScreen() {
                     </div>
                 </div>
 
-                {/* Question Card */}
                 <div className="min-h-[400px]">
                     <QuestionCard
                         key={currentQuestion.id}
                         question={currentQuestion}
+                        questionIndex={currentQuestionIndex + 1}
                         selectedOption={selectedOption}
                         onSelect={handleOptionSelect}
                     />

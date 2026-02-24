@@ -4,7 +4,7 @@ import { cn } from '../../lib/utils';
 import { Check, X, BookOpen } from 'lucide-react';
 import MathText from '../ui/MathText';
 
-export default function QuestionCard({ question, selectedOption, onSelect }) {
+export default function QuestionCard({ question, selectedOption, onSelect, questionIndex }) {
     const options = ['A', 'B', 'C', 'D'];
     const isAnswered = !!selectedOption;
 
@@ -19,7 +19,7 @@ export default function QuestionCard({ question, selectedOption, onSelect }) {
             >
                 <div className="flex justify-between items-start mb-4">
                     <span className="text-sm font-medium text-slate-400 bg-slate-900/50 px-3 py-1 rounded-full">
-                        Question {question.question_number || '?'}
+                        Question {questionIndex || question.question_number || '?'}
                     </span>
                     <div className="flex flex-col items-end gap-1">
                         <span className="text-sm font-medium text-slate-500">
@@ -34,7 +34,7 @@ export default function QuestionCard({ question, selectedOption, onSelect }) {
                 </div>
 
                 <h2 className="text-xl md:text-2xl font-semibold text-slate-100 leading-relaxed">
-                    <MathText text={question.question} />
+                    <MathText text={question.question.replace(/^Q\.\d+\.\s*/, '')} />
                 </h2>
             </motion.div>
 
