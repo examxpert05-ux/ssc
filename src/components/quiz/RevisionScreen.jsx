@@ -29,10 +29,15 @@ export default function RevisionScreen() {
 
     const isPolity = filters.subject === 'GK/GS';
 
-    // Get notes for the selected topic
-    let topicNotes = null;
+    // Get notes for the selected topics
+    let selectedTopicsNotes = [];
     if (isPolity) {
-        topicNotes = polityNotes.find(n => n.topic === filters.topic);
+        let topicsToFetch = filters.gkgsTopics || [];
+        if (topicsToFetch.length === 0 || topicsToFetch.includes('All')) {
+            // If all, get all polity topics
+            topicsToFetch = polityNotes.map(n => n.topic);
+        }
+        selectedTopicsNotes = polityNotes.filter(n => topicsToFetch.includes(n.topic));
     }
 
     return (
@@ -46,7 +51,7 @@ export default function RevisionScreen() {
                     <div className="flex justify-center items-center gap-3 mb-2">
                         {isPolity ? <BookOpen size={40} className="text-blue-400" /> : <GraduationCap size={40} className="text-yellow-400" />}
                         <h1 className="text-4xl font-black text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-orange-500 uppercase tracking-wider">
-                            {isPolity ? `${filters.topic} Quick Revision` : 'Speed Booster Hacks'}
+                            {isPolity ? `${filters.gkgsSubject} Quick Revision` : 'Speed Booster Hacks'}
                         </h1>
                     </div>
                     <p className="text-slate-400 text-lg">
@@ -71,24 +76,30 @@ export default function RevisionScreen() {
                         ))}
                     </div>
                 ) : (
-                    <div className="w-full mb-8 max-h-[50vh] overflow-y-auto pr-4 custom-scrollbar">
-                        {topicNotes ? (
-                            <motion.div
-                                initial={{ opacity: 0, y: 10 }}
-                                animate={{ opacity: 1, y: 0 }}
-                                className="bg-slate-800/50 border border-slate-700/50 rounded-xl p-6 text-left"
-                            >
-                                <div className="flex items-center gap-2 mb-4 pb-3 border-b border-slate-700/50">
-                                    <AlertCircle size={24} className="text-blue-400" />
-                                    <h3 className="text-xl font-bold text-white">Notes: {filters.topic}</h3>
-                                </div>
-                                <div className="whitespace-pre-wrap text-slate-300 text-sm leading-relaxed">
-                                    {topicNotes.notes || "No notes available for this topic."}
-                                </div>
-                            </motion.div>
+                    <div className="w-full mb-8 max-h-[50vh] overflow-y-auto pr-4 custom-scrollbar space-y-6">
+                        {selectedTopicsNotes.length > 0 ? (
+                            selectedTopicsNotes.map((topicNode, idx) => (
+                                <motion.div
+                                    key={topicNode.topic}
+                                    initial={{ opacity: 0, y: 10 }}
+                                    animate={{ opacity: 1, y: 0 }}
+                                    transition={{ delay: idx * 0.1 }}
+                                    className="bg-slate-800/50 border border-slate-700/50 rounded-xl p-6 text-left"
+                                >
+                                    <div className="flex items-center gap-2 mb-4 pb-3 border-b border-slate-700/50">
+                                        <AlertCircle size={24} className="text-blue-400" />
+                                        <h3 className="text-xl font-bold text-white">Notes: {topicNode.topic}</h3>
+                                    </div>
+                                    <ul className="list-disc pl-5 space-y-3 text-slate-300 text-sm leading-relaxed">
+                                        {Array.isArray(topicNode.notes) ? topicNode.notes.map((note, i) => (
+                                            <li key={i}>{note}</li>
+                                        )) : <p>{topicNode.notes}</p>}
+                                    </ul>
+                                </motion.div>
+                            ))
                         ) : (
                             <div className="text-center text-slate-400 py-8">
-                                No revision notes available for {filters.topic}.
+                                No revision notes available for the selected topics.
                             </div>
                         )}
                     </div>
