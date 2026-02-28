@@ -20,8 +20,10 @@ import biologyData from '../data/biology.json';
 import biologyNotesData from '../data/biologyNotes.json';
 import currentAffairsData from '../data/currentAffairs.json';
 import currentAffairsNotesData from '../data/currentAffairsNotes.json';
-import mathsData from '../data/maths.json';
-import mathsNotesData from '../data/mathsNotes.json';
+import math1Data from '../data/math1.json';
+import math1NotesData from '../data/math1Notes.json';
+import math2Data from '../data/math2.json';
+import math2NotesData from '../data/math2Notes.json';
 
 // Helper to shuffle array (Fisher-Yates)
 const shuffleArray = (array) => {
@@ -173,17 +175,23 @@ const generateSynoAntoQuestions = () => {
 
 
 // Extract unique chapters and types for Maths filters
-const mathsChapters = ['All', ...new Set(mathsData.map(q => q.chapter))];
-const mathsTypes = ['All', ...new Set(mathsData.map(q => q.type))];
+const math1Chapters = ['All', ...new Set(math1Data.map(q => q.chapter))];
+const math1Types = ['All', ...new Set(math1Data.map(q => q.type))];
+const math2Chapters = ['All', ...new Set(math2Data.map(q => q.chapter))];
+const math2Types = ['All', ...new Set(math2Data.map(q => q.type))];
 
 export const useQuiz = create((set, get) => ({
     // Data
-    questions: mathsData,
+    questions: [], // Handled dynamically
+    math1Data: math1Data,
+    math2Data: math2Data,
     filteredQuestions: [],
 
     // Filter Options
-    mathsChapters: mathsChapters,
-    mathsTypes: mathsTypes,
+    math1Chapters: math1Chapters,
+    math1Types: math1Types,
+    math2Chapters: math2Chapters,
+    math2Types: math2Types,
     englishTopics: ['Idioms', 'One Word Substitution', 'Synonyms', 'Antonyms'], // Broken out Syno/Anto for clarity
     gkgsSubjects: ['Static GK', 'Polity', 'History', 'Geography', 'Economics', 'Physics', 'Chemistry', 'Biology', 'Current Affairs'],
     polityTopics: polityData.map(p => p.topic),
@@ -209,11 +217,12 @@ export const useQuiz = create((set, get) => ({
     chemistryNotes: chemistryNotesData,
     biologyNotes: biologyNotesData,
     currentAffairsNotes: currentAffairsNotesData,
-    mathsNotes: mathsNotesData,
+    math1Notes: math1NotesData,
+    math2Notes: math2NotesData,
 
     // Settings
     filters: {
-        subject: 'Maths', // 'Maths' | 'English' | 'GK/GS'
+        subject: 'Maths 2', // 'Maths 1' | 'Maths 2' | 'English' | 'GK/GS'
         chapter: 'All',   // For Maths
         type: 'All',      // For Maths
         gkgsSubject: 'Static GK', // Default GK/GS Subject
@@ -255,7 +264,7 @@ export const useQuiz = create((set, get) => ({
             if (value === 'GK/GS') {
                 newFilters.gkgsSubject = 'Static GK';
                 newFilters.gkgsTopics = []; // Default: Select none (or handle 'All' in UI)
-            } else {
+            } else if (value === 'English') {
                 newFilters.topic = 'Idioms'; // Default topic for English
             }
         }
@@ -302,15 +311,16 @@ export const useQuiz = create((set, get) => ({
         let timePerQ = 60;
         let attemptKey = '';
 
-        if (filters.subject === 'Maths') {
+        if (filters.subject === 'Maths 1' || filters.subject === 'Maths 2') {
             // MATHS LOGIC
-            filtered = questions.filter(q => {
+            const currentMathsData = filters.subject === 'Maths 1' ? get().math1Data : get().math2Data;
+            filtered = currentMathsData.filter(q => {
                 const chapterMatch = filters.chapter === 'All' || q.chapter === filters.chapter;
                 const typeMatch = filters.type === 'All' || q.type === filters.type;
                 return chapterMatch && typeMatch;
             });
 
-            attemptKey = `attempt-${filters.chapter}-${filters.type}`;
+            attemptKey = `attempt-${filters.subject}-${filters.chapter}-${filters.type}`;
             const previousAttempts = parseInt(localStorage.getItem(attemptKey) || '0', 10);
 
             // Adaptive time for Maths
@@ -401,8 +411,9 @@ export const useQuiz = create((set, get) => ({
         });
 
         // Check for revision screen requirement
-        if (filters.subject === 'Maths') {
-            const hasNotes = get().mathsNotes?.some(n => n.topic === filters.chapter || n.chapter === filters.chapter);
+        if (filters.subject === 'Maths 1' || filters.subject === 'Maths 2') {
+            const currentNotes = filters.subject === 'Maths 1' ? get().math1Notes : get().math2Notes;
+            const hasNotes = currentNotes?.some(n => n.topic === filters.chapter || n.chapter === filters.chapter);
             if (hasNotes || filters.chapter === 'Percentage') {
                 set({ quizStatus: 'revision' });
             }
@@ -453,8 +464,8 @@ export const useQuiz = create((set, get) => ({
 
         // Increment attempt counter
         let attemptKey = '';
-        if (filters.subject === 'Maths') {
-            attemptKey = `attempt-${filters.chapter}-${filters.type}`;
+        if (filters.subject === 'Maths 1' || filters.subject === 'Maths 2') {
+            attemptKey = `attempt-${filters.subject}-${filters.chapter}-${filters.type}`;
         } else if (filters.subject === 'English') {
             attemptKey = `attempt-English-${filters.topic}`;
         } else if (filters.subject === 'GK/GS') {
@@ -468,8 +479,8 @@ export const useQuiz = create((set, get) => ({
         saveResult({
             date: new Date().toISOString(),
             subject: filters.subject,
-            chapter: filters.subject === 'Maths' ? filters.chapter : (filters.subject === 'GK/GS' ? filters.gkgsSubject : filters.topic),
-            type: filters.subject === 'Maths' ? filters.type : (filters.subject === 'GK/GS' ? filters.gkgsTopics.join(', ') || 'All' : 'N/A'),
+            chapter: (filters.subject === 'Maths 1' || filters.subject === 'Maths 2') ? filters.chapter : (filters.subject === 'GK/GS' ? filters.gkgsSubject : filters.topic),
+            type: (filters.subject === 'Maths 1' || filters.subject === 'Maths 2') ? filters.type : (filters.subject === 'GK/GS' ? filters.gkgsTopics.join(', ') || 'All' : 'N/A'),
             score,
             totalQuestions: totalQ,
             accuracy,

@@ -25,11 +25,11 @@ const fractionData = [
 ];
 
 export default function RevisionScreen() {
-    const { startRealQuiz, filters, polityNotes, staticGkNotes, historyNotes, geographyNotes, economicsNotes, physicsNotes, chemistryNotes, biologyNotes, currentAffairsNotes, mathsNotes } = useQuiz();
+    const { startRealQuiz, filters, polityNotes, staticGkNotes, historyNotes, geographyNotes, economicsNotes, physicsNotes, chemistryNotes, biologyNotes, currentAffairsNotes, math1Notes, math2Notes } = useQuiz();
     const [isExpanded, setIsExpanded] = React.useState(false);
 
     const isGkGs = filters.subject === 'GK/GS';
-    const isMaths = filters.subject === 'Maths';
+    const isMaths = filters.subject === 'Maths 1' || filters.subject === 'Maths 2';
 
     // Get notes for the selected topics
     let selectedTopicsNotes = [];
@@ -46,8 +46,11 @@ export default function RevisionScreen() {
             topicsToFetch = currentNotesSource.map(n => n.topic);
         }
         selectedTopicsNotes = currentNotesSource.filter(n => topicsToFetch.includes(n.topic));
-    } else if (isMaths && mathsNotes) {
-        selectedTopicsNotes = mathsNotes.filter(n => n.topic === filters.chapter || n.chapter === filters.chapter);
+    } else if (isMaths) {
+        const currentNotes = filters.subject === 'Maths 1' ? math1Notes : math2Notes;
+        if (currentNotes) {
+            selectedTopicsNotes = currentNotes.filter(n => n.topic === filters.chapter || n.chapter === filters.chapter);
+        }
     }
 
     return (

@@ -15,8 +15,12 @@ export default function StartScreen() {
         setQuestionCount,
         startQuiz,
         setCurrentView,
-        mathsChapters,
-        mathsTypes,
+        math1Data,
+        math2Data,
+        math1Chapters,
+        math1Types,
+        math2Chapters,
+        math2Types,
         englishTopics,
         gkgsSubjects,
         polityTopics,
@@ -32,7 +36,11 @@ export default function StartScreen() {
     } = useQuiz();
 
     // Derived state for Linked Filters (Maths Only)
-    const availableTypes = ['All', ...new Set(questions
+    const isMaths = filters.subject === 'Maths 1' || filters.subject === 'Maths 2';
+    const currentMathsData = filters.subject === 'Maths 1' ? math1Data : (filters.subject === 'Maths 2' ? math2Data : []);
+    const currentMathsChapters = filters.subject === 'Maths 1' ? math1Chapters : (filters.subject === 'Maths 2' ? math2Chapters : []);
+
+    const availableTypes = ['All', ...new Set(currentMathsData
         .filter(q => filters.chapter === 'All' || q.chapter === filters.chapter)
         .map(q => q.type)
     )];
@@ -43,8 +51,8 @@ export default function StartScreen() {
 
     // Derived state for Attempt Info
     let attemptKey = '';
-    if (filters.subject === 'Maths') {
-        attemptKey = `attempt-${filters.chapter}-${filters.type}`;
+    if (isMaths) {
+        attemptKey = `attempt-${filters.subject}-${filters.chapter}-${filters.type}`;
     } else {
         attemptKey = `attempt-English-${filters.topic}`;
     }
@@ -52,7 +60,7 @@ export default function StartScreen() {
 
     // Display Time Per Question
     let timePerQ = 60;
-    if (filters.subject === 'Maths') {
+    if (isMaths) {
         if (previousAttempts === 1) timePerQ = 45;
         if (previousAttempts >= 2) timePerQ = 30;
     } else if (filters.subject === 'English') {
@@ -66,8 +74,8 @@ export default function StartScreen() {
     };
 
     const getQuestionCount = () => {
-        if (filters.subject === 'Maths') {
-            const filteredCount = questions.filter(q =>
+        if (isMaths) {
+            const filteredCount = currentMathsData.filter(q =>
                 (filters.chapter === 'All' || q.chapter === filters.chapter) &&
                 (filters.type === 'All' || q.type === filters.type)
             ).length;
@@ -112,7 +120,7 @@ export default function StartScreen() {
                         Subject
                     </label>
                     <div className="flex bg-slate-800/50 rounded-xl p-1">
-                        {['Maths', 'English', 'GK/GS'].map(subject => (
+                        {['Maths 1', 'Maths 2', 'English', 'GK/GS'].map(subject => (
                             <button
                                 key={subject}
                                 onClick={() => setFilter('subject', subject)}
@@ -132,7 +140,7 @@ export default function StartScreen() {
 
                 {/* Filters Section */}
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                    {filters.subject === 'Maths' ? (
+                    {isMaths ? (
                         <>
                             <div className="space-y-2">
                                 <label className="flex items-center gap-2 text-sm font-medium text-slate-300">
@@ -144,7 +152,7 @@ export default function StartScreen() {
                                     onChange={(e) => setFilter('chapter', e.target.value)}
                                     className="w-full bg-slate-900/50 border border-slate-700 rounded-xl px-4 py-3 text-slate-200 focus:outline-none focus:ring-2 focus:ring-blue-500/50 transition-all"
                                 >
-                                    {mathsChapters.map(c => (
+                                    {currentMathsChapters.map(c => (
                                         <option key={c} value={c}>{c}</option>
                                     ))}
                                 </select>
@@ -293,22 +301,22 @@ export default function StartScreen() {
                         <div className="flex bg-slate-800/50 rounded-lg p-1">
                             <button
                                 onClick={() => setTimerMode('question')}
-                                disabled={filters.subject !== 'Maths'}
+                                disabled={!isMaths}
                                 className={cn(
                                     "flex-1 py-1.5 text-xs font-medium rounded-md transition-all",
                                     timerMode === 'question' ? "bg-blue-600 text-white shadow" : "text-slate-400 hover:text-slate-200",
-                                    filters.subject !== 'Maths' && "opacity-50 cursor-not-allowed"
+                                    !isMaths && "opacity-50 cursor-not-allowed"
                                 )}
                             >
                                 Per Question
                             </button>
                             <button
                                 onClick={() => setTimerMode('overall')}
-                                disabled={filters.subject !== 'Maths'}
+                                disabled={!isMaths}
                                 className={cn(
                                     "flex-1 py-1.5 text-xs font-medium rounded-md transition-all",
                                     timerMode === 'overall' ? "bg-blue-600 text-white shadow" : "text-slate-400 hover:text-slate-200",
-                                    filters.subject !== 'Maths' && "opacity-50 cursor-not-allowed"
+                                    !isMaths && "opacity-50 cursor-not-allowed"
                                 )}
                             >
                                 Overall Time
