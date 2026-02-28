@@ -4,9 +4,15 @@ import { cn } from '../../lib/utils';
 import { Check, X, BookOpen } from 'lucide-react';
 import MathText from '../ui/MathText';
 
+import { useQuiz } from '../../store/quizStore';
+
 export default function QuestionCard({ question, selectedOption, onSelect, questionIndex }) {
     const options = ['A', 'B', 'C', 'D'];
     const isAnswered = !!selectedOption;
+    const appLanguage = useQuiz(state => state.appLanguage);
+
+    // Determine the text to show based on language preference
+    const questionText = question.question || (appLanguage === 'Hindi' && question.hindi ? question.hindi : question.english) || '';
 
     return (
         <div className="w-full space-y-6">
@@ -34,7 +40,7 @@ export default function QuestionCard({ question, selectedOption, onSelect, quest
                 </div>
 
                 <h2 className="text-xl md:text-2xl font-semibold text-slate-100 leading-relaxed">
-                    <MathText text={question.question.replace(/^Q\.\d+\.\s*/, '')} />
+                    <MathText text={questionText.replace(/^Q\.\d+\.\s*/, '')} />
                 </h2>
             </motion.div>
 

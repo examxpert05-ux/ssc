@@ -20,6 +20,8 @@ import biologyData from '../data/biology.json';
 import biologyNotesData from '../data/biologyNotes.json';
 import currentAffairsData from '../data/currentAffairs.json';
 import currentAffairsNotesData from '../data/currentAffairsNotes.json';
+import mathsData from '../data/maths.json';
+import mathsNotesData from '../data/mathsNotes.json';
 
 // Helper to shuffle array (Fisher-Yates)
 const shuffleArray = (array) => {
@@ -171,12 +173,12 @@ const generateSynoAntoQuestions = () => {
 
 
 // Extract unique chapters and types for Maths filters
-const mathsChapters = ['All'];
-const mathsTypes = ['All'];
+const mathsChapters = ['All', ...new Set(mathsData.map(q => q.chapter))];
+const mathsTypes = ['All', ...new Set(mathsData.map(q => q.type))];
 
 export const useQuiz = create((set, get) => ({
     // Data
-    questions: [],
+    questions: mathsData,
     filteredQuestions: [],
 
     // Filter Options
@@ -207,6 +209,7 @@ export const useQuiz = create((set, get) => ({
     chemistryNotes: chemistryNotesData,
     biologyNotes: biologyNotesData,
     currentAffairsNotes: currentAffairsNotesData,
+    mathsNotes: mathsNotesData,
 
     // Settings
     filters: {
@@ -230,6 +233,9 @@ export const useQuiz = create((set, get) => ({
     history: [], // Array of past results
     currentView: 'dashboard', // 'dashboard' | 'start'
 
+    // UI State
+    appLanguage: 'English', // 'English' | 'Hindi'
+
     // Quiz State
     quizStatus: 'idle', // 'idle' | 'running' | 'completed'
     currentQuestionIndex: 0,
@@ -237,6 +243,8 @@ export const useQuiz = create((set, get) => ({
     score: 0,
 
     // Actions
+    setAppLanguage: (lang) => set({ appLanguage: lang }),
+
     setFilter: (key, value) => set((state) => {
         const newFilters = { ...state.filters, [key]: value };
 
@@ -393,8 +401,11 @@ export const useQuiz = create((set, get) => ({
         });
 
         // Check for revision screen requirement
-        if (filters.subject === 'Maths' && filters.chapter === 'Percentage') {
-            set({ quizStatus: 'revision' });
+        if (filters.subject === 'Maths') {
+            const hasNotes = get().mathsNotes?.some(n => n.topic === filters.chapter || n.chapter === filters.chapter);
+            if (hasNotes || filters.chapter === 'Percentage') {
+                set({ quizStatus: 'revision' });
+            }
         } else if (filters.subject === 'GK/GS') {
             set({ quizStatus: 'revision' }); // Always show revision for GK/GS topics
         }

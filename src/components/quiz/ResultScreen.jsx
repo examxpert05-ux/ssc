@@ -6,7 +6,7 @@ import { RefreshCw, XCircle, CheckCircle, Home, MinusCircle, Target, BookOpen } 
 import MathText from '../ui/MathText';
 
 export default function ResultScreen() {
-    const { score, filteredQuestions, answers, resetQuiz, setCurrentView } = useQuiz();
+    const { score, filteredQuestions, answers, resetQuiz, setCurrentView, appLanguage } = useQuiz();
     const [showReview, setShowReview] = useState(false);
 
     const totalQuestions = filteredQuestions.length;
@@ -126,7 +126,7 @@ export default function ResultScreen() {
                             <div key={q.id} className="bg-white/5 border border-white/10 p-6 md:p-8 rounded-2xl space-y-4 shadow-lg">
                                 <div className="flex gap-3 text-slate-200 font-medium text-lg">
                                     <span className="text-blue-400 shrink-0">Q{idx + 1}.</span>
-                                    <div><MathText text={q.question.replace(/^Q\.\d+\.\s*/, '')} /></div>
+                                    <div><MathText text={(q.question || (appLanguage === 'Hindi' && q.hindi ? q.hindi : q.english) || '').replace(/^Q\.\d+\.\s*/, '')} /></div>
                                 </div>
                                 {isSkipped && (
                                     <div className="text-sm font-semibold text-orange-400 bg-orange-400/10 inline-block px-3 py-1 rounded border border-orange-400/20">

@@ -25,10 +25,11 @@ const fractionData = [
 ];
 
 export default function RevisionScreen() {
-    const { startRealQuiz, filters, polityNotes, staticGkNotes, historyNotes, geographyNotes, economicsNotes, physicsNotes, chemistryNotes, biologyNotes, currentAffairsNotes } = useQuiz();
+    const { startRealQuiz, filters, polityNotes, staticGkNotes, historyNotes, geographyNotes, economicsNotes, physicsNotes, chemistryNotes, biologyNotes, currentAffairsNotes, mathsNotes } = useQuiz();
     const [isExpanded, setIsExpanded] = React.useState(false);
 
     const isGkGs = filters.subject === 'GK/GS';
+    const isMaths = filters.subject === 'Maths';
 
     // Get notes for the selected topics
     let selectedTopicsNotes = [];
@@ -45,6 +46,8 @@ export default function RevisionScreen() {
             topicsToFetch = currentNotesSource.map(n => n.topic);
         }
         selectedTopicsNotes = currentNotesSource.filter(n => topicsToFetch.includes(n.topic));
+    } else if (isMaths && mathsNotes) {
+        selectedTopicsNotes = mathsNotes.filter(n => n.topic === filters.chapter || n.chapter === filters.chapter);
     }
 
     return (
@@ -65,17 +68,17 @@ export default function RevisionScreen() {
                 </div>
                 <div className="text-center mb-8">
                     <div className="flex justify-center items-center gap-3 mb-2">
-                        {isGkGs ? <BookOpen size={40} className="text-blue-400" /> : <GraduationCap size={40} className="text-yellow-400" />}
+                        {isGkGs || selectedTopicsNotes.length > 0 ? <BookOpen size={40} className="text-blue-400" /> : <GraduationCap size={40} className="text-yellow-400" />}
                         <h1 className="text-4xl font-black text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-orange-500 uppercase tracking-wider">
-                            {isGkGs ? `${filters.gkgsSubject} Quick Revision` : 'Speed Booster Hacks'}
+                            {isGkGs ? `${filters.gkgsSubject} Quick Revision` : (selectedTopicsNotes.length > 0 ? `${filters.chapter} Notes` : 'Speed Booster Hacks')}
                         </h1>
                     </div>
                     <p className="text-slate-400 text-lg">
-                        {isGkGs ? 'Quickly review these key points before starting the quiz.' : 'Fraction to Percentage Conversion'}
+                        {isGkGs || selectedTopicsNotes.length > 0 ? 'Quickly review these key points before starting the quiz.' : 'Fraction to Percentage Conversion'}
                     </p>
                 </div>
 
-                {!isGkGs ? (
+                {!isGkGs && selectedTopicsNotes.length === 0 ? (
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mb-8">
                         {fractionData.map((item, index) => (
                             <motion.div
