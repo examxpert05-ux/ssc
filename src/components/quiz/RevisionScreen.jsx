@@ -29,7 +29,7 @@ export default function RevisionScreen() {
     const [isExpanded, setIsExpanded] = React.useState(false);
 
     const isGkGs = filters.subject === 'GK/GS';
-    const isMaths = filters.subject === 'Maths 1' || filters.subject === 'Maths 2';
+    const isMaths = filters.subject === 'Maths';
 
     // Get notes for the selected topics
     let selectedTopicsNotes = [];
@@ -47,7 +47,7 @@ export default function RevisionScreen() {
         }
         selectedTopicsNotes = currentNotesSource.filter(n => topicsToFetch.includes(n.topic));
     } else if (isMaths) {
-        const currentNotes = filters.subject === 'Maths 1' ? math1Notes : math2Notes;
+        const currentNotes = filters.mathsVersion === 'Maths 1' ? math1Notes : math2Notes;
         if (currentNotes) {
             selectedTopicsNotes = currentNotes.filter(n => n.topic === filters.chapter || n.chapter === filters.chapter);
         }

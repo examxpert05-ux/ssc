@@ -36,9 +36,9 @@ export default function StartScreen() {
     } = useQuiz();
 
     // Derived state for Linked Filters (Maths Only)
-    const isMaths = filters.subject === 'Maths 1' || filters.subject === 'Maths 2';
-    const currentMathsData = filters.subject === 'Maths 1' ? math1Data : (filters.subject === 'Maths 2' ? math2Data : []);
-    const currentMathsChapters = filters.subject === 'Maths 1' ? math1Chapters : (filters.subject === 'Maths 2' ? math2Chapters : []);
+    const isMaths = filters.subject === 'Maths';
+    const currentMathsData = filters.mathsVersion === 'Maths 1' ? math1Data : (filters.mathsVersion === 'Maths 2' ? math2Data : []);
+    const currentMathsChapters = filters.mathsVersion === 'Maths 1' ? math1Chapters : (filters.mathsVersion === 'Maths 2' ? math2Chapters : []);
 
     const availableTypes = ['All', ...new Set(currentMathsData
         .filter(q => filters.chapter === 'All' || q.chapter === filters.chapter)
@@ -52,7 +52,7 @@ export default function StartScreen() {
     // Derived state for Attempt Info
     let attemptKey = '';
     if (isMaths) {
-        attemptKey = `attempt-${filters.subject}-${filters.chapter}-${filters.type}`;
+        attemptKey = `attempt-${filters.mathsVersion}-${filters.chapter}-${filters.type}`;
     } else {
         attemptKey = `attempt-English-${filters.topic}`;
     }
@@ -120,7 +120,7 @@ export default function StartScreen() {
                         Subject
                     </label>
                     <div className="flex bg-slate-800/50 rounded-xl p-1">
-                        {['Maths 1', 'Maths 2', 'English', 'GK/GS'].map(subject => (
+                        {['Maths', 'English', 'GK/GS'].map(subject => (
                             <button
                                 key={subject}
                                 onClick={() => setFilter('subject', subject)}
@@ -142,6 +142,29 @@ export default function StartScreen() {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                     {isMaths ? (
                         <>
+                            <div className="space-y-2 col-span-1 md:col-span-2">
+                                <label className="flex items-center gap-2 text-sm font-medium text-slate-300">
+                                    <BrainCircuit size={16} className="text-green-400" />
+                                    Maths Version
+                                </label>
+                                <div className="flex bg-slate-800/50 rounded-xl p-1">
+                                    {['Maths 1', 'Maths 2'].map(version => (
+                                        <button
+                                            key={version}
+                                            onClick={() => setFilter('mathsVersion', version)}
+                                            className={cn(
+                                                "flex-1 py-2 text-sm font-bold rounded-lg transition-all",
+                                                filters.mathsVersion === version
+                                                    ? "bg-slate-700 text-white shadow-lg ring-1 ring-white/10"
+                                                    : "text-slate-400 hover:text-slate-200 hover:bg-white/5"
+                                            )}
+                                        >
+                                            {version}
+                                        </button>
+                                    ))}
+                                </div>
+                            </div>
+
                             <div className="space-y-2">
                                 <label className="flex items-center gap-2 text-sm font-medium text-slate-300">
                                     <BookOpen size={16} className="text-blue-400" />

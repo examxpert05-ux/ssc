@@ -222,7 +222,8 @@ export const useQuiz = create((set, get) => ({
 
     // Settings
     filters: {
-        subject: 'Maths 2', // 'Maths 1' | 'Maths 2' | 'English' | 'GK/GS'
+        subject: 'Maths', // 'Maths' | 'English' | 'GK/GS'
+        mathsVersion: 'Maths 2', // 'Maths 1' | 'Maths 2'
         chapter: 'All',   // For Maths
         type: 'All',      // For Maths
         gkgsSubject: 'Static GK', // Default GK/GS Subject
@@ -261,12 +262,18 @@ export const useQuiz = create((set, get) => ({
         if (key === 'subject') {
             newFilters.chapter = 'All';
             newFilters.type = 'All';
-            if (value === 'GK/GS') {
+            if (value === 'Maths') {
+                newFilters.mathsVersion = 'Maths 2'; // Default
+            } else if (value === 'GK/GS') {
                 newFilters.gkgsSubject = 'Static GK';
                 newFilters.gkgsTopics = []; // Default: Select none (or handle 'All' in UI)
             } else if (value === 'English') {
                 newFilters.topic = 'Idioms'; // Default topic for English
             }
+        }
+        if (key === 'mathsVersion') {
+            newFilters.chapter = 'All';
+            newFilters.type = 'All';
         }
         if (key === 'chapter') {
             newFilters.type = 'All';
@@ -311,16 +318,16 @@ export const useQuiz = create((set, get) => ({
         let timePerQ = 60;
         let attemptKey = '';
 
-        if (filters.subject === 'Maths 1' || filters.subject === 'Maths 2') {
+        if (filters.subject === 'Maths') {
             // MATHS LOGIC
-            const currentMathsData = filters.subject === 'Maths 1' ? get().math1Data : get().math2Data;
+            const currentMathsData = filters.mathsVersion === 'Maths 1' ? get().math1Data : get().math2Data;
             filtered = currentMathsData.filter(q => {
                 const chapterMatch = filters.chapter === 'All' || q.chapter === filters.chapter;
                 const typeMatch = filters.type === 'All' || q.type === filters.type;
                 return chapterMatch && typeMatch;
             });
 
-            attemptKey = `attempt-${filters.subject}-${filters.chapter}-${filters.type}`;
+            attemptKey = `attempt-${filters.mathsVersion}-${filters.chapter}-${filters.type}`;
             const previousAttempts = parseInt(localStorage.getItem(attemptKey) || '0', 10);
 
             // Adaptive time for Maths
@@ -411,8 +418,8 @@ export const useQuiz = create((set, get) => ({
         });
 
         // Check for revision screen requirement
-        if (filters.subject === 'Maths 1' || filters.subject === 'Maths 2') {
-            const currentNotes = filters.subject === 'Maths 1' ? get().math1Notes : get().math2Notes;
+        if (filters.subject === 'Maths') {
+            const currentNotes = filters.mathsVersion === 'Maths 1' ? get().math1Notes : get().math2Notes;
             const hasNotes = currentNotes?.some(n => n.topic === filters.chapter || n.chapter === filters.chapter);
             if (hasNotes || filters.chapter === 'Percentage') {
                 set({ quizStatus: 'revision' });
@@ -464,8 +471,8 @@ export const useQuiz = create((set, get) => ({
 
         // Increment attempt counter
         let attemptKey = '';
-        if (filters.subject === 'Maths 1' || filters.subject === 'Maths 2') {
-            attemptKey = `attempt-${filters.subject}-${filters.chapter}-${filters.type}`;
+        if (filters.subject === 'Maths') {
+            attemptKey = `attempt-${filters.mathsVersion}-${filters.chapter}-${filters.type}`;
         } else if (filters.subject === 'English') {
             attemptKey = `attempt-English-${filters.topic}`;
         } else if (filters.subject === 'GK/GS') {
@@ -479,8 +486,8 @@ export const useQuiz = create((set, get) => ({
         saveResult({
             date: new Date().toISOString(),
             subject: filters.subject,
-            chapter: (filters.subject === 'Maths 1' || filters.subject === 'Maths 2') ? filters.chapter : (filters.subject === 'GK/GS' ? filters.gkgsSubject : filters.topic),
-            type: (filters.subject === 'Maths 1' || filters.subject === 'Maths 2') ? filters.type : (filters.subject === 'GK/GS' ? filters.gkgsTopics.join(', ') || 'All' : 'N/A'),
+            chapter: filters.subject === 'Maths' ? filters.chapter : (filters.subject === 'GK/GS' ? filters.gkgsSubject : filters.topic),
+            type: filters.subject === 'Maths' ? filters.type : (filters.subject === 'GK/GS' ? filters.gkgsTopics.join(', ') || 'All' : 'N/A'),
             score,
             totalQuestions: totalQ,
             accuracy,
