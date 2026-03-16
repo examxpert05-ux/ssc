@@ -1,144 +1,147 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { cn } from '../../lib/utils';
-import { Check, X, BookOpen } from 'lucide-react';
+import { Check, X, BookOpen, Lock } from 'lucide-react';
 import MathText from '../ui/MathText';
-
 import { useQuiz } from '../../store/quizStore';
 
-export default function QuestionCard({ question, selectedOption, onSelect, questionIndex }) {
+export default function QuestionCard({ question, selectedOption, onSelect, questionIndex, isPaused }) {
     const options = ['A', 'B', 'C', 'D'];
     const isAnswered = !!selectedOption;
     const appLanguage = useQuiz(state => state.appLanguage);
 
-    // Determine the text to show based on language preference
     const questionText = question.question || (appLanguage === 'Hindi' && question.hindi ? question.hindi : question.english) || '';
 
     return (
-        <div className="w-full space-y-6">
+        <div className="w-full max-w-3xl mx-auto space-y-5">
+
+            {/* Question Box */}
             <motion.div
                 key={question.id}
-                initial={{ opacity: 0, x: 20 }}
-                animate={{ opacity: 1, x: 0 }}
-                exit={{ opacity: 0, x: -20 }}
-                className="bg-white/5 backdrop-blur-md border border-white/10 rounded-2xl p-6 md:p-8 shadow-lg"
+                initial={{ opacity: 0, y: 16 }}
+                animate={{ opacity: 1, y: 0 }}
+                exit={{ opacity: 0, y: -16 }}
+                transition={{ duration: 0.25 }}
+                className="bg-slate-800/60 border border-slate-700 rounded-2xl p-6 md:p-8 shadow-lg"
             >
-                <div className="flex justify-between items-start mb-4">
-                    <span className="text-sm font-medium text-slate-400 bg-slate-900/50 px-3 py-1 rounded-full">
-                        Question {questionIndex || question.question_number || '?'}
-                    </span>
-                    <div className="flex flex-col items-end gap-1">
-                        <span className="text-sm font-medium text-slate-500">
-                            {question.type}
+                {/* Meta row */}
+                <div className="flex items-center justify-between mb-5">
+                    <div className="flex items-center gap-2">
+                        <span className="bg-blue-600 text-white text-xs font-bold px-3 py-1 rounded-full">
+                            Q. {questionIndex}
                         </span>
+                        {question.type && (
+                            <span className="text-xs text-slate-400 bg-slate-700 px-2 py-1 rounded-full">
+                                {question.type}
+                            </span>
+                        )}
+                    </div>
+                    <div className="flex items-center gap-2">
                         {question.source && (
                             <span className="text-xs font-semibold text-blue-400 bg-blue-900/30 px-2 py-0.5 rounded">
                                 {question.source}
                             </span>
                         )}
+                        <div className="text-xs text-slate-500 flex items-center gap-1">
+                            <span className="text-green-400 font-bold">+2</span>
+                            <span>/</span>
+                            <span className="text-red-400 font-bold">-0.5</span>
+                        </div>
                     </div>
                 </div>
 
-                <h2 className="text-xl md:text-2xl font-semibold text-slate-100 leading-relaxed">
+                {/* Question Text */}
+                <p className="text-white text-lg md:text-xl font-medium leading-relaxed">
                     <MathText text={questionText.replace(/^Q\.\d+\.\s*/, '')} />
-                </h2>
+                </p>
             </motion.div>
 
-            <div className="grid gap-4 grid-cols-1">
-                <AnimatePresence mode='wait'>
-                    {options.map((opt, index) => {
-                        const isSelected = selectedOption === opt;
-                        const isCorrect = opt === question.correct_option;
-                        const showCorrect = isAnswered && isCorrect;
-                        const showWrong = isAnswered && isSelected && !isCorrect;
+            {/* Options — OMR style */}
+            <div className="space-y-3">
+                {options.map((opt, index) => {
+                    const isSelected = selectedOption === opt;
+                    const isCorrect = opt === question.correct_option;
+                    const showCorrect = isAnswered && isCorrect;
+                    const showWrong = isAnswered && isSelected && !isCorrect;
 
-                        let borderColor = "border-white/5";
-                        let bgColor = "bg-white/5";
-                        let textColor = "text-slate-300";
+                    let containerClass = "border-slate-700 bg-slate-800/40 hover:bg-slate-700/50 hover:border-slate-500";
+                    let circleClass = "border-slate-600 text-slate-400";
+                    let labelClass = "text-slate-300";
 
-                        if (showCorrect) {
-                            borderColor = "border-green-500/50";
-                            bgColor = "bg-green-500/20";
-                            textColor = "text-green-100";
-                        } else if (showWrong) {
-                            borderColor = "border-red-500/50";
-                            bgColor = "bg-red-500/20";
-                            textColor = "text-red-100";
-                        } else if (isSelected) {
-                            // Selected but we don't know yet? check handled above.
-                            // If we want to show selected state BEFORE submit?
-                            // But usually onSelect submits immediately in this app based on QuizScreen logic.
-                            borderColor = "border-blue-500/50";
-                            bgColor = "bg-blue-600/20";
-                            textColor = "text-blue-100";
-                        }
+                    if (showCorrect) {
+                        containerClass = "border-green-500/60 bg-green-500/10";
+                        circleClass = "border-green-500 bg-green-500 text-white";
+                        labelClass = "text-green-100";
+                    } else if (showWrong) {
+                        containerClass = "border-red-500/60 bg-red-500/10";
+                        circleClass = "border-red-500 bg-red-500 text-white";
+                        labelClass = "text-red-100";
+                    } else if (isSelected) {
+                        containerClass = "border-blue-500/60 bg-blue-500/10";
+                        circleClass = "border-blue-500 bg-blue-500 text-white";
+                        labelClass = "text-blue-100";
+                    }
 
-                        return (
-                            <motion.button
-                                key={question.id + opt}
-                                initial={{ opacity: 0, y: 10 }}
-                                animate={{ opacity: 1, y: 0, transition: { delay: index * 0.1 } }}
-                                onClick={() => !isAnswered && onSelect(opt)}
-                                disabled={isAnswered}
-                                className={cn(
-                                    "relative group w-full p-4 text-left rounded-xl border transition-all duration-200",
-                                    borderColor, bgColor,
-                                    !isAnswered && "hover:bg-white/10 hover:border-white/20"
-                                )}
-                            >
-                                <div className="flex items-center gap-3">
-                                    <span className={cn(
-                                        "flex items-center justify-center w-8 h-8 rounded-lg text-sm font-bold border transition-colors",
-                                        showCorrect ? "bg-green-500 text-white border-green-400" :
-                                            showWrong ? "bg-red-500 text-white border-red-400" :
-                                                isSelected ? "bg-blue-500 text-white border-blue-400" :
-                                                    "bg-slate-800 text-slate-400 border-slate-700 group-hover:border-slate-500"
-                                    )}>
-                                        {opt}
-                                    </span>
-                                    <span className={cn("text-lg font-medium", textColor)}>
-                                        {question.options[opt]}
-                                    </span>
-                                </div>
+                    return (
+                        <motion.button
+                            key={question.id + opt}
+                            initial={{ opacity: 0, x: -8 }}
+                            animate={{ opacity: 1, x: 0, transition: { delay: index * 0.06 } }}
+                            onClick={() => !isAnswered && !isPaused && onSelect(opt)}
+                            disabled={isAnswered || isPaused}
+                            className={cn(
+                                "relative w-full flex items-center gap-4 p-4 rounded-xl border-2 transition-all duration-200 text-left group cursor-pointer disabled:cursor-default",
+                                containerClass
+                            )}
+                        >
+                            {/* OMR Circle */}
+                            <span className={cn(
+                                "flex-none flex items-center justify-center w-9 h-9 rounded-full border-2 text-sm font-bold transition-all",
+                                circleClass
+                            )}>
+                                {showCorrect ? <Check size={16} strokeWidth={3} /> : showWrong ? <X size={16} strokeWidth={3} /> : opt}
+                            </span>
 
-                                {showCorrect && (
-                                    <motion.div
-                                        initial={{ scale: 0 }} animate={{ scale: 1 }}
-                                        className="absolute right-4 top-1/2 -translate-y-1/2 text-green-400"
-                                    >
-                                        <Check size={20} />
-                                    </motion.div>
-                                )}
-                                {showWrong && (
-                                    <motion.div
-                                        initial={{ scale: 0 }} animate={{ scale: 1 }}
-                                        className="absolute right-4 top-1/2 -translate-y-1/2 text-red-400"
-                                    >
-                                        <X size={20} />
-                                    </motion.div>
-                                )}
-                            </motion.button>
-                        );
-                    })}
-                </AnimatePresence>
+                            {/* Option Text */}
+                            <span className={cn("flex-1 text-base font-medium leading-snug", labelClass)}>
+                                <MathText text={question.options[opt] ?? ''} />
+                            </span>
+
+                            {/* Right status icon */}
+                            {showCorrect && (
+                                <motion.span initial={{ scale: 0 }} animate={{ scale: 1 }} className="flex-none text-green-400 font-bold text-sm">
+                                    Correct ✓
+                                </motion.span>
+                            )}
+                            {showWrong && (
+                                <motion.span initial={{ scale: 0 }} animate={{ scale: 1 }} className="flex-none text-red-400 font-bold text-sm">
+                                    Wrong ✗
+                                </motion.span>
+                            )}
+                        </motion.button>
+                    );
+                })}
             </div>
 
-            {/* Explanation Section */}
-            {isAnswered && question.explanation && (
-                <motion.div
-                    initial={{ opacity: 0, y: 20 }}
-                    animate={{ opacity: 1, y: 0 }}
-                    className="bg-blue-900/20 border border-blue-500/30 rounded-xl p-6 space-y-2"
-                >
-                    <div className="flex items-center gap-2 text-blue-400 font-bold mb-2">
-                        <BookOpen size={18} />
-                        <span>Explanation</span>
-                    </div>
-                    <p className="text-slate-300 leading-relaxed">
-                        {question.explanation}
-                    </p>
-                </motion.div>
-            )}
+            {/* Explanation */}
+            <AnimatePresence>
+                {isAnswered && question.explanation && question.explanation !== 'NA' && (
+                    <motion.div
+                        initial={{ opacity: 0, y: 12 }}
+                        animate={{ opacity: 1, y: 0 }}
+                        exit={{ opacity: 0 }}
+                        className="bg-indigo-900/20 border border-indigo-500/30 rounded-xl p-5 space-y-2"
+                    >
+                        <div className="flex items-center gap-2 text-indigo-300 font-semibold text-sm">
+                            <BookOpen size={15} />
+                            <span>Explanation</span>
+                        </div>
+                        <p className="text-slate-300 text-sm leading-relaxed">
+                            <MathText text={question.explanation} />
+                        </p>
+                    </motion.div>
+                )}
+            </AnimatePresence>
         </div>
     );
 }

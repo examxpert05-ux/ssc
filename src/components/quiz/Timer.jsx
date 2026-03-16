@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { motion } from 'framer-motion';
 
-export default function Timer({ duration, onTimeout, onTick }) {
+export default function Timer({ duration, onTimeout, onTick, isPaused = false }) {
     const [timeLeft, setTimeLeft] = useState(duration);
 
     useEffect(() => {
@@ -9,6 +9,8 @@ export default function Timer({ duration, onTimeout, onTick }) {
     }, [duration]);
 
     useEffect(() => {
+        if (isPaused) return;
+
         if (timeLeft <= 0) {
             onTimeout();
             return;
@@ -23,28 +25,31 @@ export default function Timer({ duration, onTimeout, onTick }) {
         }, 1000);
 
         return () => clearInterval(timer);
-    }, [timeLeft, onTimeout, onTick]);
+    }, [timeLeft, onTimeout, onTick, isPaused]);
 
     const progress = (timeLeft / duration) * 100;
+    const mins = String(Math.floor(timeLeft / 60)).padStart(2, '0');
+    const secs = String(timeLeft % 60).padStart(2, '0');
 
-    // Color logic
-    let color = 'bg-green-500';
-    if (progress < 60) color = 'bg-yellow-500';
-    if (progress < 30) color = 'bg-red-500';
+    // Color thresholds
+    let barColor = 'bg-green-500';
+    let textColor = 'text-green-400';
+    if (progress < 60) { barColor = 'bg-yellow-400'; textColor = 'text-yellow-400'; }
+    if (progress < 30) { barColor = 'bg-red-500'; textColor = 'text-red-400'; }
 
     return (
-        <div className="w-full flex items-center gap-3">
-            <div className="h-2 flex-grow bg-slate-800 rounded-full overflow-hidden relative">
+        <div className="flex items-center gap-3 min-w-[140px]">
+            <div className="flex-1 h-2 bg-slate-700 rounded-full overflow-hidden">
                 <motion.div
-                    className={`h-full ${color} shadow-[0_0_10px_currentColor]`}
+                    className={`h-full ${barColor}`}
                     initial={{ width: '100%' }}
                     animate={{ width: `${progress}%` }}
                     transition={{ duration: 1, ease: 'linear' }}
                 />
             </div>
-            <div className="font-mono text-sm md:text-xl font-bold tabular-nums text-slate-200 min-w-[60px] text-right">
-                {String(Math.floor(timeLeft / 60)).padStart(2, '0')}:{String(timeLeft % 60).padStart(2, '0')}
-            </div>
+            <span className={`font-mono text-lg font-bold tabular-nums ${textColor}`}>
+                {mins}:{secs}
+            </span>
         </div>
     );
 }
