@@ -1,73 +1,64 @@
 import React from 'react';
 import { useQuiz } from '../../store/quizStore';
 import { motion } from 'framer-motion';
-import { Play, Clock, BookOpen, Filter, Settings, History, ArrowLeft, LayoutDashboard, BrainCircuit } from 'lucide-react';
+import { Play, Clock, BookOpen, Filter, Settings, RotateCcw, ArrowLeft, BrainCircuit, SlidersHorizontal, Hash } from 'lucide-react';
 import { cn } from '../../lib/utils';
 
 export default function StartScreen() {
     const {
-        questions,
-        filters,
-        setFilter,
-        timerMode,
-        setTimerMode,
-        questionCount,
-        setQuestionCount,
-        startQuiz,
-        setCurrentView,
-        math1Data,
-        math2Data,
-        math1Chapters,
-        math1Types,
-        math2Chapters,
-        math2Types,
-        englishTopics,
-        gkgsSubjects,
-        polityTopics,
-        staticGkTopics,
-        geographyTopics,
-        economicsTopics,
-        physicsTopics,
-        chemistryTopics,
-        biologyTopics,
-        currentAffairsTopics,
-        historyCategories,
-        historyData
+        filters, setFilter,
+        timerMode, setTimerMode,
+        questionCount, setQuestionCount,
+        startQuiz, setCurrentView,
+        math1Data, math2Data,
+        math1Chapters, math1Types,
+        math2Chapters, math2Types,
+        englishTopics, gkgsSubjects,
+        polityTopics, staticGkTopics,
+        geographyTopics, economicsTopics,
+        physicsTopics, chemistryTopics,
+        biologyTopics, currentAffairsTopics,
+        historyCategories, historyData,
     } = useQuiz();
 
-    // Derived state for Linked Filters (Maths Only)
     const isMaths = filters.subject === 'Maths';
-    const currentMathsData = filters.mathsVersion === 'Maths 1' ? math1Data : (filters.mathsVersion === 'Maths 2' ? math2Data : []);
-    const currentMathsChapters = filters.mathsVersion === 'Maths 1' ? math1Chapters : (filters.mathsVersion === 'Maths 2' ? math2Chapters : []);
+    const isEnglish = filters.subject === 'English';
+    const isGkGs = filters.subject === 'GK/GS';
 
-    const availableTypes = ['All', ...new Set(currentMathsData
-        .filter(q => filters.chapter === 'All' || q.chapter === filters.chapter)
-        .map(q => q.type)
+    const currentMathsData = filters.mathsVersion === 'Maths 1' ? math1Data : math2Data;
+    const currentMathsChapters = filters.mathsVersion === 'Maths 1' ? math1Chapters : math2Chapters;
+
+    const availableTypes = ['All', ...new Set(
+        currentMathsData.filter(q => filters.chapter === 'All' || q.chapter === filters.chapter).map(q => q.type)
     )];
 
     const currentGkgsTopics = filters.gkgsSubject === 'History' && historyData
         ? [...new Set(historyData.filter(d => d.category === filters.historyCategory).map(d => d.topic))]
-        : (filters.gkgsSubject === 'Polity' ? polityTopics : (filters.gkgsSubject === 'Geography' ? geographyTopics : (filters.gkgsSubject === 'Economics' ? economicsTopics : (filters.gkgsSubject === 'Physics' ? physicsTopics : (filters.gkgsSubject === 'Chemistry' ? chemistryTopics : (filters.gkgsSubject === 'Biology' ? biologyTopics : (filters.gkgsSubject === 'Current Affairs' ? currentAffairsTopics : staticGkTopics)))))));
+        : filters.gkgsSubject === 'Polity' ? polityTopics
+        : filters.gkgsSubject === 'Geography' ? geographyTopics
+        : filters.gkgsSubject === 'Economics' ? economicsTopics
+        : filters.gkgsSubject === 'Physics' ? physicsTopics
+        : filters.gkgsSubject === 'Chemistry' ? chemistryTopics
+        : filters.gkgsSubject === 'Biology' ? biologyTopics
+        : filters.gkgsSubject === 'Current Affairs' ? currentAffairsTopics
+        : staticGkTopics;
 
-    // Derived state for Attempt Info
-    let attemptKey = '';
-    if (isMaths) {
-        attemptKey = `attempt-${filters.mathsVersion}-${filters.chapter}-${filters.type}`;
-    } else {
-        attemptKey = `attempt-English-${filters.topic}`;
-    }
+    let attemptKey = isMaths
+        ? `attempt-${filters.mathsVersion}-${filters.chapter}-${filters.type}`
+        : `attempt-English-${filters.topic}`;
     const previousAttempts = parseInt(localStorage.getItem(attemptKey) || '0', 10);
+    let timePerQ = isMaths ? (previousAttempts >= 2 ? 30 : previousAttempts === 1 ? 45 : 60) : 30;
 
-    // Display Time Per Question
-    let timePerQ = 60;
-    if (isMaths) {
-        if (previousAttempts === 1) timePerQ = 45;
-        if (previousAttempts >= 2) timePerQ = 30;
-    } else if (filters.subject === 'English') {
-        timePerQ = 30; // Fixed for English
-    } else if (filters.subject === 'GK/GS') {
-        timePerQ = 30; // Fixed for GK/GS
-    }
+    const getCount = () => {
+        if (isMaths) {
+            const n = currentMathsData.filter(q =>
+                (filters.chapter === 'All' || q.chapter === filters.chapter) &&
+                (filters.type === 'All' || q.type === filters.type)
+            ).length;
+            return questionCount === 'all' ? n : Math.min(n, questionCount);
+        }
+        return questionCount === 'all' ? 'All' : questionCount;
+    };
 
     const handleStart = () => {
         const el = document.documentElement;
@@ -76,310 +67,262 @@ export default function StartScreen() {
         startQuiz();
     };
 
-    const getQuestionCount = () => {
-        if (isMaths) {
-            const filteredCount = currentMathsData.filter(q =>
-                (filters.chapter === 'All' || q.chapter === filters.chapter) &&
-                (filters.type === 'All' || q.type === filters.type)
-            ).length;
-            if (questionCount === 'all') return filteredCount;
-            return Math.min(filteredCount, questionCount);
-        } else {
-            // For English and GK/GS, we generate questions on the fly or load from a list, so count isn't strictly limited by a static list length in the same way,
-            // but effectively it's the length of the source array.
-            // Simplified display for now
-            return questionCount === 'all' ? 'All' : questionCount;
-        }
-    };
+    const SectionLabel = ({ icon: Icon, color, children }) => (
+        <div className="flex items-center gap-2 text-sm font-semibold text-slate-300 mb-2">
+            <Icon size={15} className={color} />
+            {children}
+        </div>
+    );
+
+    const TabBar = ({ options, value, onChange, getLabel }) => (
+        <div className="flex bg-slate-800 rounded-xl p-1 gap-1">
+            {options.map(opt => (
+                <button
+                    key={opt}
+                    onClick={() => onChange(opt)}
+                    className={cn(
+                        "flex-1 py-2 text-sm font-bold rounded-lg transition-all",
+                        value === opt
+                            ? "bg-slate-600 text-white shadow"
+                            : "text-slate-500 hover:text-slate-200 hover:bg-white/5"
+                    )}
+                >
+                    {getLabel ? getLabel(opt) : opt}
+                </button>
+            ))}
+        </div>
+    );
 
     return (
-        <div className="w-full max-w-2xl mx-auto space-y-8 relative">
+        <div className="w-full max-w-2xl mx-auto pb-16 pt-4 relative">
+
+            {/* Back to Dashboard */}
             <button
                 onClick={() => setCurrentView('dashboard')}
-                className="absolute left-0 -top-16 lg:-left-20 lg:top-0 p-2 text-slate-400 hover:text-white transition-colors bg-white/5 rounded-full border border-white/5 hover:bg-white/10"
-                title="Back to Dashboard"
+                className="flex items-center gap-2 text-slate-400 hover:text-white text-sm font-medium mb-6 transition-colors group"
             >
-                <ArrowLeft size={24} />
+                <ArrowLeft size={16} className="group-hover:-translate-x-0.5 transition-transform" />
+                Back to Dashboard
             </button>
 
-            <div className="text-center space-y-4">
-                <h1 className="text-5xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-400">
-                    Mastery Quiz
-                </h1>
-                <p className="text-slate-400 text-lg">
-                    Adaptive Difficulty & Precision Testing
-                </p>
+            {/* Title */}
+            <div className="mb-6">
+                <h1 className="text-3xl font-black text-white">Configure Test</h1>
+                <p className="text-slate-400 mt-1 text-sm">Select your subject, topic, and timer settings.</p>
             </div>
 
-            <motion.div
-                className="bg-white/5 backdrop-blur-xl border border-white/10 rounded-3xl p-8 space-y-8 shadow-2xl"
-                initial={{ scale: 0.95, opacity: 0 }}
-                animate={{ scale: 1, opacity: 1 }}
-            >
-                {/* Subject Selection - Top Level */}
-                <div className="space-y-2">
-                    <label className="flex items-center gap-2 text-sm font-medium text-slate-300">
-                        <BrainCircuit size={16} className="text-green-400" />
-                        Subject
-                    </label>
-                    <div className="flex bg-slate-800/50 rounded-xl p-1">
-                        {['Maths', 'English', 'GK/GS'].map(subject => (
-                            <button
-                                key={subject}
-                                onClick={() => setFilter('subject', subject)}
-                                className={cn(
-                                    "flex-1 py-3 text-sm font-bold rounded-lg transition-all",
-                                    filters.subject === subject
-                                        ? "bg-slate-700 text-white shadow-lg ring-1 ring-white/10"
-                                        : "text-slate-400 hover:text-slate-200 hover:bg-white/5"
-                                )}
-                            >
-                                {subject}
-                            </button>
-                        ))}
-                    </div>
-                </div>
+            <div className="space-y-4">
 
+                {/* Subject Selection */}
+                <motion.div
+                    initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }}
+                    className="bg-slate-900/70 border border-slate-700 rounded-2xl p-5"
+                >
+                    <SectionLabel icon={BrainCircuit} color="text-green-400">Subject</SectionLabel>
+                    <TabBar
+                        options={['Maths', 'English', 'GK/GS']}
+                        value={filters.subject}
+                        onChange={v => setFilter('subject', v)}
+                    />
+                </motion.div>
 
-                {/* Filters Section */}
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                    {isMaths ? (
-                        <>
-                            <div className="space-y-2 col-span-1 md:col-span-2">
-                                <label className="flex items-center gap-2 text-sm font-medium text-slate-300">
-                                    <BrainCircuit size={16} className="text-green-400" />
-                                    Maths Version
-                                </label>
-                                <div className="flex bg-slate-800/50 rounded-xl p-1">
-                                    {['Maths 1', 'Maths 2'].map(version => (
-                                        <button
-                                            key={version}
-                                            onClick={() => setFilter('mathsVersion', version)}
-                                            className={cn(
-                                                "flex-1 py-2 text-sm font-bold rounded-lg transition-all",
-                                                filters.mathsVersion === version
-                                                    ? "bg-slate-700 text-white shadow-lg ring-1 ring-white/10"
-                                                    : "text-slate-400 hover:text-slate-200 hover:bg-white/5"
-                                            )}
-                                        >
-                                            {version}
-                                        </button>
-                                    ))}
-                                </div>
-                            </div>
-
-                            <div className="space-y-2">
-                                <label className="flex items-center gap-2 text-sm font-medium text-slate-300">
-                                    <BookOpen size={16} className="text-blue-400" />
-                                    Chapter
-                                </label>
+                {/* Maths Filters */}
+                {isMaths && (
+                    <motion.div
+                        key="maths"
+                        initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }}
+                        className="bg-slate-900/70 border border-slate-700 rounded-2xl p-5 space-y-5"
+                    >
+                        <div>
+                            <SectionLabel icon={BookOpen} color="text-blue-400">Version</SectionLabel>
+                            <TabBar
+                                options={['Maths 1', 'Maths 2']}
+                                value={filters.mathsVersion}
+                                onChange={v => setFilter('mathsVersion', v)}
+                            />
+                        </div>
+                        <div className="grid grid-cols-2 gap-4">
+                            <div>
+                                <SectionLabel icon={BookOpen} color="text-purple-400">Chapter</SectionLabel>
                                 <select
                                     value={filters.chapter}
-                                    onChange={(e) => setFilter('chapter', e.target.value)}
-                                    className="w-full bg-slate-900/50 border border-slate-700 rounded-xl px-4 py-3 text-slate-200 focus:outline-none focus:ring-2 focus:ring-blue-500/50 transition-all"
+                                    onChange={e => setFilter('chapter', e.target.value)}
+                                    className="w-full bg-slate-800 border border-slate-700 rounded-xl px-3 py-2.5 text-slate-200 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500/40 transition-all"
                                 >
-                                    {currentMathsChapters.map(c => (
-                                        <option key={c} value={c}>{c}</option>
-                                    ))}
+                                    {currentMathsChapters.map(c => <option key={c} value={c}>{c}</option>)}
                                 </select>
                             </div>
-
-                            <div className="space-y-2">
-                                <label className="flex items-center gap-2 text-sm font-medium text-slate-300">
-                                    <Filter size={16} className="text-purple-400" />
-                                    Type
-                                </label>
+                            <div>
+                                <SectionLabel icon={Filter} color="text-pink-400">Type</SectionLabel>
                                 <select
                                     value={filters.type}
-                                    onChange={(e) => setFilter('type', e.target.value)}
+                                    onChange={e => setFilter('type', e.target.value)}
                                     disabled={filters.chapter === 'All'}
-                                    className="w-full bg-slate-900/50 border border-slate-700 rounded-xl px-4 py-3 text-slate-200 focus:outline-none focus:ring-2 focus:ring-purple-500/50 transition-all disabled:opacity-50 disabled:cursor-not-allowed"
+                                    className="w-full bg-slate-800 border border-slate-700 rounded-xl px-3 py-2.5 text-slate-200 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500/40 transition-all disabled:opacity-40 disabled:cursor-not-allowed"
                                 >
-                                    <option value="All">All Types</option>
-                                    {availableTypes.filter(t => t !== 'All').map(t => (
-                                        <option key={t} value={t}>{t}</option>
-                                    ))}
+                                    {availableTypes.map(t => <option key={t} value={t}>{t}</option>)}
                                 </select>
-                                {filters.chapter === 'All' && (
-                                    <p className="text-xs text-slate-500">Select a chapter first</p>
-                                )}
+                                {filters.chapter === 'All' && <p className="text-xs text-slate-600 mt-1">Select a chapter first</p>}
                             </div>
-                        </>
-                    ) : (
-                        <>
-                            <div className="space-y-2 col-span-2">
-                                <label className="flex items-center gap-2 text-sm font-medium text-slate-300">
-                                    <BookOpen size={16} className="text-blue-400" />
-                                    {filters.subject === 'English' ? 'Topic' : 'GK/GS Subject'}
-                                </label>
-                                {filters.subject === 'English' ? (
-                                    <select
-                                        value={filters.topic}
-                                        onChange={(e) => setFilter('topic', e.target.value)}
-                                        className="w-full bg-slate-900/50 border border-slate-700 rounded-xl px-4 py-3 text-slate-200 focus:outline-none focus:ring-2 focus:ring-blue-500/50 transition-all"
-                                    >
-                                        {englishTopics.map(t => (
-                                            <option key={t} value={t}>{t}</option>
-                                        ))}
-                                    </select>
-                                ) : (
-                                    <>
-                                        <select
-                                            value={filters.gkgsSubject}
-                                            onChange={(e) => setFilter('gkgsSubject', e.target.value)}
-                                            className="w-full bg-slate-900/50 border border-slate-700 rounded-xl px-4 py-3 text-slate-200 focus:outline-none focus:ring-2 focus:ring-blue-500/50 transition-all"
-                                        >
-                                            {gkgsSubjects.map(t => (
-                                                <option key={t} value={t}>{t}</option>
-                                            ))}
-                                        </select>
-
-                                        {filters.gkgsSubject === 'History' && (
-                                            <div className="mt-4 space-y-2">
-                                                <label className="flex items-center gap-2 text-sm font-medium text-slate-300">
-                                                    <BookOpen size={16} className="text-orange-400" />
-                                                    History Category
-                                                </label>
-                                                <select
-                                                    value={filters.historyCategory}
-                                                    onChange={(e) => setFilter('historyCategory', e.target.value)}
-                                                    className="w-full bg-slate-900/50 border border-slate-700 rounded-xl px-4 py-3 text-slate-200 focus:outline-none focus:ring-2 focus:ring-orange-500/50 transition-all"
-                                                >
-                                                    {historyCategories.map(c => (
-                                                        <option key={c} value={c}>{c}</option>
-                                                    ))}
-                                                </select>
-                                            </div>
-                                        )}
-                                    </>
-                                )}
-                            </div>
-
-                            {filters.subject === 'GK/GS' && (
-                                <div className="space-y-2 col-span-2">
-                                    <label className="flex items-center gap-2 text-sm font-medium text-slate-300">
-                                        <Filter size={16} className="text-purple-400" />
-                                        Select Topics
-                                    </label>
-                                    <div className="bg-slate-900/50 border border-slate-700 rounded-xl p-4 max-h-48 overflow-y-auto space-y-2">
-                                        <label className="flex items-center gap-3 p-2 hover:bg-white/5 rounded-lg cursor-pointer transition-colors">
-                                            <input
-                                                type="checkbox"
-                                                checked={filters.gkgsTopics.length === 0 || filters.gkgsTopics.includes('All')}
-                                                onChange={(e) => {
-                                                    if (e.target.checked) setFilter('gkgsTopics', ['All']);
-                                                }}
-                                                className="w-4 h-4 rounded border-slate-500 text-blue-500 focus:ring-blue-500/50 bg-slate-800"
-                                            />
-                                            <span className="text-sm text-slate-200 font-medium">All Topics</span>
-                                        </label>
-                                        {currentGkgsTopics.map(t => (
-                                            <label key={t} className="flex items-center gap-3 p-2 hover:bg-white/5 rounded-lg cursor-pointer transition-colors">
-                                                <input
-                                                    type="checkbox"
-                                                    checked={!filters.gkgsTopics.includes('All') && filters.gkgsTopics.includes(t)}
-                                                    onChange={(e) => {
-                                                        let newTopics = filters.gkgsTopics.filter(topic => topic !== 'All');
-                                                        if (e.target.checked) {
-                                                            newTopics.push(t);
-                                                        } else {
-                                                            newTopics = newTopics.filter(topic => topic !== t);
-                                                        }
-                                                        if (newTopics.length === 0) newTopics = ['All'];
-                                                        setFilter('gkgsTopics', newTopics);
-                                                    }}
-                                                    className="w-4 h-4 rounded border-slate-500 text-blue-500 focus:ring-blue-500/50 bg-slate-800"
-                                                />
-                                                <span className="text-sm text-slate-300">{t}</span>
-                                            </label>
-                                        ))}
-                                    </div>
-                                </div>
-                            )}
-                        </>
-                    )}
-                </div>
-
-                {/* Info & Settings Grid */}
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-6 p-4 bg-slate-900/40 rounded-2xl border border-white/5">
-                    {/* Attempt Info */}
-                    <div className="space-y-2">
-                        <div className="flex items-center gap-2 text-sm font-medium text-slate-300">
-                            <History size={16} className="text-orange-400" />
-                            Attempt History
                         </div>
-                        <div className="text-sm text-slate-400">
-                            Attempt: <span className="text-white font-bold">#{previousAttempts + 1}</span>
-                        </div>
-                        <div className="text-sm text-slate-400">
-                            Time per Question: <span className="text-green-400 font-bold">{timePerQ}s</span>
-                        </div>
-                    </div>
+                    </motion.div>
+                )}
 
-                    {/* Quiz Settings */}
-                    <div className="space-y-4">
-                        <div className="flex items-center gap-2 text-sm font-medium text-slate-300">
-                            <Settings size={16} className="text-slate-400" />
-                            Settings
-                        </div>
-
-                        {/* Timer Mode */}
-                        <div className="flex bg-slate-800/50 rounded-lg p-1">
-                            <button
-                                onClick={() => setTimerMode('question')}
-                                disabled={!isMaths}
-                                className={cn(
-                                    "flex-1 py-1.5 text-xs font-medium rounded-md transition-all",
-                                    timerMode === 'question' ? "bg-blue-600 text-white shadow" : "text-slate-400 hover:text-slate-200",
-                                    !isMaths && "opacity-50 cursor-not-allowed"
-                                )}
-                            >
-                                Per Question
-                            </button>
-                            <button
-                                onClick={() => setTimerMode('overall')}
-                                disabled={!isMaths}
-                                className={cn(
-                                    "flex-1 py-1.5 text-xs font-medium rounded-md transition-all",
-                                    timerMode === 'overall' ? "bg-blue-600 text-white shadow" : "text-slate-400 hover:text-slate-200",
-                                    !isMaths && "opacity-50 cursor-not-allowed"
-                                )}
-                            >
-                                Overall Time
-                            </button>
-                        </div>
-
-                        {/* Question Count */}
-                        <div className="flex gap-2">
-                            {[10, 20, 30, 'all'].map(count => (
+                {/* English Filters */}
+                {isEnglish && (
+                    <motion.div
+                        key="english"
+                        initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }}
+                        className="bg-slate-900/70 border border-slate-700 rounded-2xl p-5"
+                    >
+                        <SectionLabel icon={BookOpen} color="text-blue-400">Topic</SectionLabel>
+                        <div className="grid grid-cols-2 gap-2">
+                            {englishTopics.map(t => (
                                 <button
-                                    key={count}
-                                    onClick={() => setQuestionCount(count)}
+                                    key={t}
+                                    onClick={() => setFilter('topic', t)}
                                     className={cn(
-                                        "flex-1 py-1.5 text-xs font-medium rounded-md border transition-all",
-                                        questionCount === count
-                                            ? "bg-purple-600/20 border-purple-500/50 text-purple-300"
-                                            : "bg-transparent border-slate-700 text-slate-500 hover:border-slate-500"
+                                        "py-2.5 px-3 rounded-xl text-sm font-semibold border transition-all text-left",
+                                        filters.topic === t
+                                            ? "bg-blue-600/20 border-blue-500/50 text-blue-300"
+                                            : "bg-slate-800 border-slate-700 text-slate-400 hover:bg-slate-700 hover:text-slate-200"
                                     )}
                                 >
-                                    {count === 'all' ? 'All' : count}
+                                    {t}
+                                </button>
+                            ))}
+                        </div>
+                    </motion.div>
+                )}
+
+                {/* GK/GS Filters */}
+                {isGkGs && (
+                    <motion.div
+                        key="gkgs"
+                        initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }}
+                        className="bg-slate-900/70 border border-slate-700 rounded-2xl p-5 space-y-4"
+                    >
+                        <div>
+                            <SectionLabel icon={BookOpen} color="text-blue-400">Subject</SectionLabel>
+                            <div className="grid grid-cols-3 gap-2">
+                                {gkgsSubjects.map(s => (
+                                    <button
+                                        key={s}
+                                        onClick={() => setFilter('gkgsSubject', s)}
+                                        className={cn(
+                                            "py-2 px-2 rounded-xl text-xs font-semibold border transition-all",
+                                            filters.gkgsSubject === s
+                                                ? "bg-indigo-600/20 border-indigo-500/50 text-indigo-300"
+                                                : "bg-slate-800 border-slate-700 text-slate-400 hover:bg-slate-700 hover:text-slate-200"
+                                        )}
+                                    >
+                                        {s}
+                                    </button>
+                                ))}
+                            </div>
+                        </div>
+
+                        {filters.gkgsSubject === 'History' && (
+                            <div>
+                                <SectionLabel icon={BookOpen} color="text-orange-400">Category</SectionLabel>
+                                <TabBar
+                                    options={historyCategories}
+                                    value={filters.historyCategory}
+                                    onChange={v => setFilter('historyCategory', v)}
+                                />
+                            </div>
+                        )}
+
+                        <div>
+                            <SectionLabel icon={Filter} color="text-purple-400">Topics</SectionLabel>
+                            <div className="bg-slate-800 border border-slate-700 rounded-xl p-3 max-h-44 overflow-y-auto space-y-1 custom-scrollbar">
+                                <label className="flex items-center gap-3 px-2 py-1.5 hover:bg-white/5 rounded-lg cursor-pointer">
+                                    <input
+                                        type="checkbox"
+                                        checked={!filters.gkgsTopics.length || filters.gkgsTopics.includes('All')}
+                                        onChange={() => setFilter('gkgsTopics', ['All'])}
+                                        className="w-4 h-4 accent-blue-500"
+                                    />
+                                    <span className="text-sm text-slate-200 font-semibold">All Topics</span>
+                                </label>
+                                {currentGkgsTopics.map(t => (
+                                    <label key={t} className="flex items-center gap-3 px-2 py-1.5 hover:bg-white/5 rounded-lg cursor-pointer">
+                                        <input
+                                            type="checkbox"
+                                            checked={!filters.gkgsTopics.includes('All') && filters.gkgsTopics.includes(t)}
+                                            onChange={e => {
+                                                let next = filters.gkgsTopics.filter(x => x !== 'All');
+                                                if (e.target.checked) next.push(t); else next = next.filter(x => x !== t);
+                                                setFilter('gkgsTopics', next.length ? next : ['All']);
+                                            }}
+                                            className="w-4 h-4 accent-blue-500"
+                                        />
+                                        <span className="text-sm text-slate-300">{t}</span>
+                                    </label>
+                                ))}
+                            </div>
+                        </div>
+                    </motion.div>
+                )}
+
+                {/* Settings — Timer + Count */}
+                <motion.div
+                    initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }}
+                    className="bg-slate-900/70 border border-slate-700 rounded-2xl p-5 space-y-5"
+                >
+                    <div>
+                        <SectionLabel icon={Clock} color="text-yellow-400">Timer Mode</SectionLabel>
+                        <TabBar
+                            options={['question', 'overall']}
+                            value={isMaths ? timerMode : 'question'}
+                            onChange={v => setTimerMode(v)}
+                            getLabel={v => v === 'question' ? 'Per Question' : 'Overall Time'}
+                        />
+                        {!isMaths && <p className="text-xs text-slate-600 mt-1.5">Timer mode is fixed for English & GK/GS</p>}
+                    </div>
+                    <div>
+                        <SectionLabel icon={Hash} color="text-cyan-400">Number of Questions</SectionLabel>
+                        <div className="flex gap-2">
+                            {[10, 20, 30, 'all'].map(c => (
+                                <button
+                                    key={c}
+                                    onClick={() => setQuestionCount(c)}
+                                    className={cn(
+                                        "flex-1 py-2 text-sm font-bold rounded-xl border transition-all",
+                                        questionCount === c
+                                            ? "bg-purple-600/20 border-purple-500/50 text-purple-300"
+                                            : "bg-slate-800 border-slate-700 text-slate-500 hover:text-slate-200 hover:border-slate-500"
+                                    )}
+                                >
+                                    {c === 'all' ? 'All' : c}
                                 </button>
                             ))}
                         </div>
                     </div>
+                </motion.div>
+
+                {/* Info row */}
+                <div className="flex items-center justify-between px-1 text-sm text-slate-500">
+                    <div className="flex items-center gap-1.5">
+                        <Clock size={14} /> {timePerQ}s per question
+                        {previousAttempts > 0 && <span className="text-slate-600 ml-1">(Attempt #{previousAttempts + 1})</span>}
+                    </div>
+                    <div className="flex items-center gap-1.5">
+                        <Hash size={14} /> {getCount()} questions
+                    </div>
                 </div>
 
                 {/* Start Button */}
-                <div className="pt-4">
-                    <button
-                        onClick={handleStart}
-                        className="w-full bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-500 hover:to-purple-500 text-white font-bold py-4 rounded-xl shadow-lg shadow-blue-900/20 flex items-center justify-center gap-3 transition-all transform hover:scale-[1.02] active:scale-[0.98]"
-                    >
-                        <Play fill="currentColor" size={20} />
-                        Start Quiz ({getQuestionCount()} Qs)
-                    </button>
-                </div>
-            </motion.div>
+                <motion.button
+                    onClick={handleStart}
+                    whileHover={{ scale: 1.01 }}
+                    whileTap={{ scale: 0.99 }}
+                    className="w-full bg-gradient-to-r from-blue-600 via-indigo-600 to-purple-600 hover:brightness-110 text-white font-black py-4 rounded-2xl shadow-xl shadow-blue-900/30 flex items-center justify-center gap-3 text-lg transition-all"
+                >
+                    <Play fill="currentColor" size={20} />
+                    Start Test — {getCount()} Questions
+                </motion.button>
+            </div>
         </div>
     );
 }

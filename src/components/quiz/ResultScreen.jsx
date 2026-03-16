@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import { useQuiz } from '../../store/quizStore';
 import confetti from 'canvas-confetti';
-import { motion } from 'framer-motion';
-import { RefreshCw, XCircle, CheckCircle, Home, MinusCircle, Target, BookOpen } from 'lucide-react';
+import { motion, AnimatePresence } from 'framer-motion';
+import { RefreshCw, XCircle, CheckCircle, Home, MinusCircle, Target, BookOpen, Award, ChevronDown, ChevronUp } from 'lucide-react';
 import MathText from '../ui/MathText';
 
 export default function ResultScreen() {
@@ -13,16 +13,16 @@ export default function ResultScreen() {
     const correctCount = filteredQuestions.filter(q => q.correct_option === answers[q.id]).length;
     const wrongCount = filteredQuestions.filter(q => answers[q.id] && q.correct_option !== answers[q.id]).length;
     const skippedCount = totalQuestions - correctCount - wrongCount;
-
     const accuracy = totalQuestions > 0 ? Math.round((correctCount / totalQuestions) * 100) : 0;
+
+    const grade = accuracy >= 90 ? { label: 'Excellent!', color: 'text-green-400', bg: 'from-green-500/20 to-emerald-500/10', border: 'border-green-500/30' }
+        : accuracy >= 70 ? { label: 'Great Job!', color: 'text-blue-400', bg: 'from-blue-500/20 to-indigo-500/10', border: 'border-blue-500/30' }
+        : accuracy >= 50 ? { label: 'Good Effort', color: 'text-yellow-400', bg: 'from-yellow-500/20 to-orange-500/10', border: 'border-yellow-500/30' }
+        : { label: 'Keep Practicing', color: 'text-red-400', bg: 'from-red-500/20 to-rose-500/10', border: 'border-red-500/30' };
 
     useEffect(() => {
         if (accuracy > 50) {
-            confetti({
-                particleCount: 100,
-                spread: 70,
-                origin: { y: 0.6 }
-            });
+            confetti({ particleCount: 150, spread: 80, origin: { y: 0.5 } });
         }
     }, [accuracy]);
 
@@ -33,153 +33,179 @@ export default function ResultScreen() {
 
     return (
         <motion.div
-            initial={{ opacity: 0, scale: 0.9 }}
-            animate={{ opacity: 1, scale: 1 }}
-            className="w-full max-w-2xl mx-auto space-y-8 text-center"
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            className="w-full max-w-2xl mx-auto space-y-6 pb-16"
         >
-            <div className="space-y-2">
-                <h2 className="text-3xl font-bold text-white">Quiz Completed!</h2>
-                <p className="text-slate-400">Here's how you performed</p>
-            </div>
+            {/* Result Hero */}
+            <div className={`relative bg-gradient-to-b ${grade.bg} border ${grade.border} rounded-3xl p-8 text-center overflow-hidden shadow-2xl`}>
+                <div className="absolute inset-0 opacity-5" style={{ backgroundImage: 'radial-gradient(circle at 50% 50%, white 1px, transparent 1px)', backgroundSize: '24px 24px' }} />
 
-            <div className="bg-white/5 backdrop-blur-xl border border-white/10 rounded-3xl p-8 shadow-2xl space-y-8">
-                {/* Score Display */}
-                <div className="flex flex-col items-center justify-center space-y-2">
-                    <span className="text-slate-400 text-sm uppercase tracking-wider font-bold">Total Score</span>
-                    <span className="text-6xl font-black bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-green-400">
-                        {score}
-                    </span>
-                </div>
+                <motion.div
+                    initial={{ scale: 0 }}
+                    animate={{ scale: 1 }}
+                    transition={{ type: 'spring', damping: 12, delay: 0.1 }}
+                    className="relative"
+                >
+                    <div className="text-6xl mb-3">
+                        {accuracy >= 90 ? '🏆' : accuracy >= 70 ? '🎯' : accuracy >= 50 ? '💪' : '📚'}
+                    </div>
+                    <h2 className={`text-3xl font-black ${grade.color}`}>{grade.label}</h2>
+                    <p className="text-slate-400 mt-1 text-sm">Test completed · {totalQuestions} Questions</p>
+                </motion.div>
 
-                {/* Stats Grid */}
-                <div className="grid grid-cols-3 gap-4">
-                    <div className="p-4 rounded-2xl bg-green-500/10 border border-green-500/20 flex flex-col items-center">
-                        <Target className="text-green-400 mb-2" size={24} />
-                        <span className="text-2xl font-bold text-green-400">{correctCount}</span>
-                        <span className="text-xs text-slate-400 font-medium">Correct</span>
+                {/* Score ring */}
+                <div className="mt-8 flex items-center justify-center gap-10">
+                    <div className="text-center">
+                        <div className="text-5xl font-black text-white">{score}</div>
+                        <div className="text-slate-400 text-xs uppercase tracking-widest mt-1 font-semibold">Score</div>
                     </div>
-                    <div className="p-4 rounded-2xl bg-red-500/10 border border-red-500/20 flex flex-col items-center">
-                        <XCircle className="text-red-400 mb-2" size={24} />
-                        <span className="text-2xl font-bold text-red-400">{wrongCount}</span>
-                        <span className="text-xs text-slate-400 font-medium">Wrong</span>
-                    </div>
-                    <div className="p-4 rounded-2xl bg-slate-500/10 border border-slate-500/20 flex flex-col items-center">
-                        <MinusCircle className="text-slate-400 mb-2" size={24} />
-                        <span className="text-2xl font-bold text-slate-400">{skippedCount}</span>
-                        <span className="text-xs text-slate-400 font-medium">Skipped</span>
-                    </div>
-                </div>
-
-                {/* Accuracy Bar */}
-                <div className="space-y-2 text-left">
-                    <div className="flex justify-between text-sm font-medium text-slate-400">
-                        <span>Accuracy</span>
-                        <span>{accuracy}%</span>
-                    </div>
-                    <div className="w-full h-3 bg-slate-800 rounded-full overflow-hidden">
-                        <motion.div
-                            initial={{ width: 0 }}
-                            animate={{ width: `${accuracy}%` }}
-                            transition={{ delay: 0.5, duration: 1 }}
-                            className="h-full bg-gradient-to-r from-blue-500 to-purple-500"
-                        />
+                    <div className="w-px h-12 bg-white/10" />
+                    <div className="text-center">
+                        <div className={`text-5xl font-black ${grade.color}`}>{accuracy}%</div>
+                        <div className="text-slate-400 text-xs uppercase tracking-widest mt-1 font-semibold">Accuracy</div>
                     </div>
                 </div>
             </div>
 
-            <div className="flex gap-4 justify-center">
+            {/* Stats Row */}
+            <div className="grid grid-cols-3 gap-4">
+                {[
+                    { label: 'Correct', value: correctCount, icon: CheckCircle, color: 'text-green-400', bg: 'bg-green-500/10 border-green-500/20' },
+                    { label: 'Wrong', value: wrongCount, icon: XCircle, color: 'text-red-400', bg: 'bg-red-500/10 border-red-500/20' },
+                    { label: 'Skipped', value: skippedCount, icon: MinusCircle, color: 'text-slate-400', bg: 'bg-slate-700/40 border-slate-600/30' },
+                ].map(({ label, value, icon: Icon, color, bg }) => (
+                    <motion.div
+                        key={label}
+                        initial={{ opacity: 0, y: 10 }}
+                        animate={{ opacity: 1, y: 0 }}
+                        transition={{ delay: 0.2 }}
+                        className={`flex flex-col items-center gap-2 p-5 rounded-2xl border ${bg}`}
+                    >
+                        <Icon size={22} className={color} />
+                        <span className={`text-2xl font-black ${color}`}>{value}</span>
+                        <span className="text-xs text-slate-500 font-semibold uppercase tracking-wider">{label}</span>
+                    </motion.div>
+                ))}
+            </div>
+
+            {/* Accuracy bar */}
+            <div className="bg-slate-900/60 border border-slate-700 rounded-2xl p-5 space-y-3">
+                <div className="flex justify-between text-sm font-semibold">
+                    <span className="text-slate-400">Overall Accuracy</span>
+                    <span className={grade.color}>{accuracy}%</span>
+                </div>
+                <div className="w-full h-3 bg-slate-800 rounded-full overflow-hidden">
+                    <motion.div
+                        initial={{ width: 0 }}
+                        animate={{ width: `${accuracy}%` }}
+                        transition={{ delay: 0.4, duration: 1, ease: 'easeOut' }}
+                        className="h-full bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 rounded-full"
+                    />
+                </div>
+                <div className="flex justify-between text-xs text-slate-600">
+                    <span>0%</span><span>50%</span><span>100%</span>
+                </div>
+            </div>
+
+            {/* Scoring breakdown */}
+            <div className="bg-slate-900/60 border border-slate-700 rounded-2xl p-5">
+                <h3 className="text-sm font-semibold text-slate-400 mb-3">Scoring Breakdown</h3>
+                <div className="flex gap-6 text-sm">
+                    <div className="flex items-center gap-2"><span className="text-green-400 font-bold">+2</span> <span className="text-slate-500">per correct</span></div>
+                    <div className="flex items-center gap-2"><span className="text-red-400 font-bold">-0.5</span> <span className="text-slate-500">per wrong</span></div>
+                    <div className="flex items-center gap-2"><span className="text-slate-400 font-bold">0</span> <span className="text-slate-500">skipped</span></div>
+                </div>
+            </div>
+
+            {/* Action buttons */}
+            <div className="flex gap-3">
                 <button
                     onClick={handleHome}
-                    className="flex items-center gap-2 px-8 py-4 bg-slate-800 hover:bg-slate-700 text-slate-300 rounded-xl transition-all font-bold border border-white/5"
+                    className="flex-1 flex items-center justify-center gap-2 py-3.5 bg-slate-800 hover:bg-slate-700 border border-slate-600 text-slate-200 rounded-xl font-bold transition-all"
                 >
-                    <Home size={20} />
-                    Dashboard
+                    <Home size={18} /> Dashboard
                 </button>
                 <button
                     onClick={resetQuiz}
-                    className="flex items-center gap-2 px-8 py-4 bg-blue-600 hover:bg-blue-500 text-white rounded-xl transition-all font-bold shadow-lg shadow-blue-600/20"
+                    className="flex-1 flex items-center justify-center gap-2 py-3.5 bg-blue-600 hover:bg-blue-500 text-white rounded-xl font-bold shadow-lg shadow-blue-900/30 transition-all hover:-translate-y-0.5"
                 >
-                    <RefreshCw size={20} />
-                    Play Again
+                    <RefreshCw size={18} /> Try Again
                 </button>
             </div>
 
-            <div className="pt-8 border-t border-white/5">
+            {/* Answer Review */}
+            <div className="border-t border-slate-800 pt-4">
                 <button
-                    onClick={() => setShowReview(!showReview)}
-                    className="flex items-center gap-2 mx-auto px-6 py-3 bg-white/5 hover:bg-white/10 text-slate-300 rounded-xl transition-all font-medium border border-white/10"
+                    onClick={() => setShowReview(v => !v)}
+                    className="w-full flex items-center justify-between px-5 py-3.5 bg-slate-800/60 hover:bg-slate-800 border border-slate-700 text-slate-300 rounded-xl font-semibold transition-all"
                 >
-                    <BookOpen size={18} />
-                    {showReview ? 'Hide Review' : 'Review Answers'}
+                    <div className="flex items-center gap-2">
+                        <BookOpen size={18} className="text-blue-400" />
+                        Review All Answers
+                    </div>
+                    {showReview ? <ChevronUp size={18} /> : <ChevronDown size={18} />}
                 </button>
-            </div>
 
-            {showReview && (
-                <motion.div
-                    initial={{ opacity: 0, y: 20 }}
-                    animate={{ opacity: 1, y: 0 }}
-                    className="mt-8 space-y-6 text-left"
-                >
-                    {filteredQuestions.map((q, idx) => {
-                        const isSkipped = !answers[q.id];
-                        return (
-                            <div key={q.id} className="bg-white/5 border border-white/10 p-6 md:p-8 rounded-2xl space-y-4 shadow-lg">
-                                <div className="flex gap-3 text-slate-200 font-medium text-lg">
-                                    <span className="text-blue-400 shrink-0">Q{idx + 1}.</span>
-                                    <div><MathText text={(q.question || (appLanguage === 'Hindi' && q.hindi ? q.hindi : q.english) || '').replace(/^Q\.\d+\.\s*/, '')} /></div>
-                                </div>
-                                {isSkipped && (
-                                    <div className="text-sm font-semibold text-orange-400 bg-orange-400/10 inline-block px-3 py-1 rounded border border-orange-400/20">
-                                        Skipped
-                                    </div>
-                                )}
-                                <div className="grid gap-3 col-span-1">
-                                    {['A', 'B', 'C', 'D'].map(opt => {
-                                        const isCorrect = q.correct_option === opt;
-                                        const isSelected = answers[q.id] === opt;
+                <AnimatePresence>
+                    {showReview && (
+                        <motion.div
+                            initial={{ opacity: 0, height: 0 }}
+                            animate={{ opacity: 1, height: 'auto' }}
+                            exit={{ opacity: 0, height: 0 }}
+                            className="mt-4 space-y-4 overflow-hidden"
+                        >
+                            {filteredQuestions.map((q, idx) => {
+                                const isSkipped = !answers[q.id];
+                                const isCorrect = answers[q.id] === q.correct_option;
+                                const statusColor = isSkipped ? 'border-l-slate-500' : isCorrect ? 'border-l-green-500' : 'border-l-red-500';
 
-                                        let bg = "bg-slate-800/50";
-                                        let border = "border-slate-700";
-                                        let text = "text-slate-400";
-
-                                        if (isCorrect) {
-                                            bg = "bg-green-500/20";
-                                            border = "border-green-500/50";
-                                            text = "text-green-300";
-                                        } else if (isSelected && !isCorrect) {
-                                            bg = "bg-red-500/20";
-                                            border = "border-red-500/50";
-                                            text = "text-red-300";
-                                        }
-
-                                        const optText = q.options[opt] || q.options[opt.toLowerCase()];
-
-                                        return (
-                                            <div key={opt} className={`p-4 rounded-xl border ${bg} ${border} ${text} flex gap-4 transition-all items-center`}>
-                                                <span className="font-bold bg-white/5 w-8 h-8 flex items-center justify-center rounded-lg shrink-0">{opt}</span>
-                                                <span className="text-md leading-relaxed">{optText}</span>
-                                                {isCorrect && <CheckCircle size={20} className="ml-auto text-green-400 shrink-0" />}
-                                                {isSelected && !isCorrect && <XCircle size={20} className="ml-auto text-red-400 shrink-0" />}
-                                            </div>
-                                        )
-                                    })}
-                                </div>
-                                {q.explanation && (
-                                    <div className="mt-4 p-5 bg-blue-900/20 border border-blue-500/30 rounded-xl space-y-2">
-                                        <div className="flex items-center gap-2 text-blue-400 font-bold mb-1">
-                                            <BookOpen size={16} />
-                                            <span>Explanation</span>
+                                return (
+                                    <div key={q.id} className={`bg-slate-900/60 border border-slate-700 border-l-4 ${statusColor} p-5 rounded-2xl space-y-4`}>
+                                        <div className="flex items-start gap-3">
+                                            <span className="bg-blue-600 text-white text-xs font-bold px-2.5 py-1 rounded-full shrink-0 mt-0.5">Q{idx + 1}</span>
+                                            <p className="text-slate-200 font-medium leading-relaxed">
+                                                <MathText text={(q.question || (appLanguage === 'Hindi' && q.hindi ? q.hindi : q.english) || '').replace(/^Q\.\d+\.\s*/, '')} />
+                                            </p>
                                         </div>
-                                        <p className="text-slate-300 leading-relaxed text-sm">
-                                            {q.explanation}
-                                        </p>
+                                        {isSkipped && (
+                                            <span className="text-xs font-bold text-orange-400 bg-orange-400/10 px-3 py-1 rounded-full border border-orange-400/20">⚠ Skipped</span>
+                                        )}
+                                        <div className="grid gap-2">
+                                            {['A', 'B', 'C', 'D'].map(opt => {
+                                                const isOptCorrect = q.correct_option === opt;
+                                                const isOptSelected = answers[q.id] === opt;
+                                                const optText = q.options[opt] || q.options[opt.toLowerCase()];
+
+                                                let cls = 'border-slate-700 bg-slate-800/40 text-slate-500';
+                                                if (isOptCorrect) cls = 'border-green-500/50 bg-green-500/10 text-green-300';
+                                                else if (isOptSelected && !isOptCorrect) cls = 'border-red-500/50 bg-red-500/10 text-red-300';
+
+                                                return (
+                                                    <div key={opt} className={`flex items-center gap-3 p-3 rounded-xl border ${cls}`}>
+                                                        <span className="font-bold text-sm w-7 h-7 flex items-center justify-center rounded-full border border-current shrink-0">{opt}</span>
+                                                        <span className="text-sm flex-1"><MathText text={optText ?? ''} /></span>
+                                                        {isOptCorrect && <CheckCircle size={16} className="text-green-400 shrink-0" />}
+                                                        {isOptSelected && !isOptCorrect && <XCircle size={16} className="text-red-400 shrink-0" />}
+                                                    </div>
+                                                );
+                                            })}
+                                        </div>
+                                        {q.explanation && q.explanation !== 'NA' && (
+                                            <div className="p-4 bg-indigo-900/20 border border-indigo-500/30 rounded-xl">
+                                                <div className="flex items-center gap-2 text-indigo-300 font-semibold text-xs mb-2">
+                                                    <BookOpen size={13} /> Explanation
+                                                </div>
+                                                <p className="text-slate-300 text-sm leading-relaxed"><MathText text={q.explanation} /></p>
+                                            </div>
+                                        )}
                                     </div>
-                                )}
-                            </div>
-                        )
-                    })}
-                </motion.div>
-            )}
+                                );
+                            })}
+                        </motion.div>
+                    )}
+                </AnimatePresence>
+            </div>
         </motion.div>
     );
 }
