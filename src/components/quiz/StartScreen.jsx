@@ -70,6 +70,9 @@ export default function StartScreen() {
     }
 
     const handleStart = () => {
+        const el = document.documentElement;
+        if (el.requestFullscreen) el.requestFullscreen().catch(() => {});
+        else if (el.webkitRequestFullscreen) el.webkitRequestFullscreen();
         startQuiz();
     };
 

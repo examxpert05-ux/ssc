@@ -38,7 +38,7 @@ export default function QuizScreen() {
     const timerKey = timerMode === 'question' ? currentQuestion?.id : 'overall-timer';
     const timerDuration = timerMode === 'question' ? timePerQuestion : totalTime;
 
-    // --- Fullscreen helpers ---
+    // --- Fullscreen helpers (used by pause/resume/finish) ---
     const enterFullscreen = useCallback(() => {
         const el = document.documentElement;
         if (el.requestFullscreen) el.requestFullscreen().catch(() => {});
@@ -52,11 +52,10 @@ export default function QuizScreen() {
         }
     }, []);
 
-    // Mandatory fullscreen on mount; cleanup on unmount
+    // Exit fullscreen on unmount (e.g. back navigation)
     useEffect(() => {
-        enterFullscreen();
         return () => exitFullscreen();
-    }, [enterFullscreen, exitFullscreen]);
+    }, [exitFullscreen]);
 
     // --- Keyboard Shortcuts ---
     useEffect(() => {

@@ -146,7 +146,12 @@ export default function RevisionScreen() {
 
                 <div className="flex justify-center pt-4">
                     <button
-                        onClick={startRealQuiz}
+                        onClick={() => {
+                            const el = document.documentElement;
+                            if (el.requestFullscreen) el.requestFullscreen().catch(() => {});
+                            else if (el.webkitRequestFullscreen) el.webkitRequestFullscreen();
+                            startRealQuiz();
+                        }}
                         className="group relative px-8 py-4 bg-gradient-to-r from-blue-600 to-indigo-600 rounded-xl font-bold text-white shadow-lg hover:shadow-blue-500/25 transition-all transform hover:-translate-y-1 overflow-hidden"
                     >
                         <div className="absolute inset-0 bg-white/20 translate-y-full group-hover:translate-y-0 transition-transform duration-300" />
