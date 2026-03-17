@@ -9,6 +9,7 @@ export default function QuestionCard({ question, selectedOption, onSelect, quest
     const options = ['A', 'B', 'C', 'D'];
     const isAnswered = !!selectedOption;
     const appLanguage = useQuiz(state => state.appLanguage);
+    const zoomLevel = useQuiz(state => state.zoomLevel);
 
     const questionText = question.question || (appLanguage === 'Hindi' && question.hindi ? question.hindi : question.english) || '';
 
@@ -51,7 +52,10 @@ export default function QuestionCard({ question, selectedOption, onSelect, quest
                 </div>
 
                 {/* Question Text */}
-                <p className="text-white text-lg md:text-xl font-medium leading-relaxed">
+                <p 
+                    className="text-white font-medium leading-relaxed transition-all duration-200"
+                    style={{ fontSize: `${(zoomLevel / 100) * 1.25}rem` }}
+                >
                     <MathText text={questionText.replace(/^Q\.\d+\.\s*/, '')} />
                 </p>
             </motion.div>
@@ -103,7 +107,10 @@ export default function QuestionCard({ question, selectedOption, onSelect, quest
                             </span>
 
                             {/* Option Text */}
-                            <span className={cn("flex-1 text-base font-medium leading-snug", labelClass)}>
+                            <span 
+                                className={cn("flex-1 font-medium leading-snug transition-all duration-200", labelClass)}
+                                style={{ fontSize: `${(zoomLevel / 100) * 1.125}rem` }}
+                            >
                                 <MathText text={question.options[opt] ?? ''} />
                             </span>
 
@@ -136,7 +143,10 @@ export default function QuestionCard({ question, selectedOption, onSelect, quest
                             <BookOpen size={15} />
                             <span>Explanation</span>
                         </div>
-                        <p className="text-slate-300 text-sm leading-relaxed">
+                        <p 
+                            className="text-slate-300 leading-relaxed transition-all duration-200"
+                            style={{ fontSize: `${(zoomLevel / 100) * 1}rem` }}
+                        >
                             <MathText text={question.explanation} />
                         </p>
                     </motion.div>

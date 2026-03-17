@@ -21,7 +21,10 @@ export default function QuizScreen() {
         timerMode,
         timePerQuestion,
         totalTime,
-        finishQuiz
+        finishQuiz,
+        zoomLevel,
+        increaseZoom,
+        decreaseZoom
     } = useQuiz();
 
     const [isPaused, setIsPaused] = useState(false);
@@ -141,6 +144,13 @@ export default function QuizScreen() {
 
                 {/* Right: Controls */}
                 <div className="flex items-center gap-2 flex-shrink-0">
+                    {/* Font Size Controls */}
+                    <div className="hidden sm:flex items-center gap-1 bg-slate-800 rounded-lg p-0.5 border border-slate-700 mr-2 shadow-inner">
+                        <button onClick={decreaseZoom} className="px-2.5 py-1 text-slate-400 hover:text-white hover:bg-slate-700 rounded transition-colors font-bold text-sm" title="Decrease Font Size">A-</button>
+                        <span className="text-xs text-slate-500 w-9 text-center font-mono select-none">{zoomLevel}%</span>
+                        <button onClick={increaseZoom} className="px-2.5 py-1 text-slate-400 hover:text-white hover:bg-slate-700 rounded transition-colors font-bold text-base leading-none" title="Increase Font Size">A+</button>
+                    </div>
+
                     {/* Question Navigator toggle (mobile) */}
                     <button
                         onClick={() => setShowNav(v => !v)}

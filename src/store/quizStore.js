@@ -50,6 +50,7 @@ export const useQuiz = create((set, get) => ({
 
     // UI State
     appLanguage: 'English', // 'English' | 'Hindi'
+    zoomLevel: 100, // percentage baseline
 
     // Quiz State
     quizStatus: 'idle', // 'idle' | 'running' | 'completed' | 'revision'
@@ -75,6 +76,8 @@ export const useQuiz = create((set, get) => ({
     },
 
     setAppLanguage: (lang) => set({ appLanguage: lang }),
+    increaseZoom: () => set(state => ({ zoomLevel: Math.min(state.zoomLevel + 10, 200) })),
+    decreaseZoom: () => set(state => ({ zoomLevel: Math.max(state.zoomLevel - 10, 80) })),
 
     setFilter: (key, value) => set((state) => {
         const newFilters = { ...state.filters, [key]: value };
