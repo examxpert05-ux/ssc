@@ -1,29 +1,4 @@
 import { create } from 'zustand';
-import idiomsData from '../data/idioms.json';
-import oneWordData from '../data/oneWordSubs.json';
-import synoAntoData from '../data/synoAnto.json';
-import polityData from '../data/polity.json';
-import polityNotesData from '../data/polityNotes.json';
-import staticGkData from '../data/staticGk.json';
-import staticGkNotesData from '../data/staticGkNotes.json';
-import historyData from '../data/history.json';
-import historyNotesData from '../data/historyNotes.json';
-import geographyData from '../data/geography.json';
-import geographyNotesData from '../data/geographyNotes.json';
-import economicsData from '../data/economics.json';
-import economicsNotesData from '../data/economicsNotes.json';
-import physicsData from '../data/physics.json';
-import physicsNotesData from '../data/physicsNotes.json';
-import chemistryData from '../data/chemistry.json';
-import chemistryNotesData from '../data/chemistryNotes.json';
-import biologyData from '../data/biology.json';
-import biologyNotesData from '../data/biologyNotes.json';
-import currentAffairsData from '../data/currentAffairs.json';
-import currentAffairsNotesData from '../data/currentAffairsNotes.json';
-import math1Data from '../data/math1.json';
-import math1NotesData from '../data/math1Notes.json';
-import math2Data from '../data/math2.json';
-import math2NotesData from '../data/math2Notes.json';
 
 // Helper to shuffle array (Fisher-Yates)
 const shuffleArray = (array) => {
@@ -35,190 +10,20 @@ const shuffleArray = (array) => {
     return newArray;
 };
 
-// Helper to clean word from Hindi meaning (e.g., "Desert (छोड़ देना)" -> "Desert")
-const cleanWord = (text) => {
-    if (!text) return '';
-    return text.split('(')[0].trim();
-};
-
-// Helper to generate distractors
-const getDistractors = (correctAnswer, allPossibleAnswers, count = 3) => {
-    const distractors = [];
-    const available = allPossibleAnswers.filter(a => a !== correctAnswer);
-
-    while (distractors.length < count && available.length > 0) {
-        const randomIndex = Math.floor(Math.random() * available.length);
-        const randomDistractor = available[randomIndex];
-        if (!distractors.includes(randomDistractor)) {
-            distractors.push(randomDistractor);
-        }
-    }
-    return distractors;
-};
-
-// Generators for English Questions
-const generateIdiomQuestions = () => {
-    const allMeanings = idiomsData.map(item => item.meaning);
-    return idiomsData.map((item, index) => {
-        const distractors = getDistractors(item.meaning, allMeanings);
-        const options = shuffleArray([item.meaning, ...distractors]);
-        const correctOptionIndex = options.indexOf(item.meaning);
-        const optionKeys = ['A', 'B', 'C', 'D'];
-
-        return {
-            id: `IDIOM-${index}`,
-            chapter: 'English',
-            type: 'Idioms',
-            question: `What is the meaning of the idiom: "${item.idiom}"?`,
-            options: {
-                A: options[0],
-                B: options[1],
-                C: options[2],
-                D: options[3]
-            },
-            correct_option: optionKeys[correctOptionIndex],
-            answer: item.meaning,
-            explanation: `Hindi Meaning: ${item.hindi}`
-        };
-    });
-};
-
-const generateOneWordQuestions = () => {
-    const allWords = oneWordData.map(item => cleanWord(item.one_word));
-    return oneWordData.map((item, index) => {
-        const correctWord = cleanWord(item.one_word);
-        const distractors = getDistractors(correctWord, allWords);
-        const options = shuffleArray([correctWord, ...distractors]);
-        const correctOptionIndex = options.indexOf(correctWord);
-        const optionKeys = ['A', 'B', 'C', 'D'];
-
-        return {
-            id: `OWS-${index}`,
-            chapter: 'English',
-            type: 'One Word Substitution',
-            question: `Substitute one word for: "${item.phrases}"`,
-            options: {
-                A: options[0],
-                B: options[1],
-                C: options[2],
-                D: options[3]
-            },
-            correct_option: optionKeys[correctOptionIndex],
-            answer: correctWord,
-            explanation: `Hindi: ${item.hindi}`
-        };
-    });
-};
-
-const generateSynoAntoQuestions = () => {
-    const questions = [];
-    const allWords = [];
-
-    // Collect all unique words for distractors
-    synoAntoData.forEach(item => {
-        if (item.synonyms) item.synonyms.split(',').forEach(w => allWords.push(cleanWord(w)));
-        if (item.antonyms) item.antonyms.split(',').forEach(w => allWords.push(cleanWord(w)));
-    });
-
-    synoAntoData.forEach((item, index) => {
-        const word = cleanWord(item.word);
-
-        // 1. Synonym Question (if available)
-        if (item.synonyms) {
-            const synonymsList = item.synonyms.split(',').map(cleanWord);
-            if (synonymsList.length > 0) {
-                const correctSynonym = synonymsList[0]; // Take first for simplicity, or random
-                const distractors = getDistractors(correctSynonym, allWords);
-                const options = shuffleArray([correctSynonym, ...distractors]);
-                const correctOptionIndex = options.indexOf(correctSynonym);
-                const optionKeys = ['A', 'B', 'C', 'D'];
-
-                questions.push({
-                    id: `SYNO-${index}`,
-                    chapter: 'English',
-                    type: 'Synonyms',
-                    question: `What is a synonym for "${word}"?`,
-                    options: { A: options[0], B: options[1], C: options[2], D: options[3] },
-                    correct_option: optionKeys[correctOptionIndex],
-                    answer: correctSynonym,
-                    explanation: `Hindi: ${item.hindi}`
-                });
-            }
-        }
-
-        // 2. Antonym Question (if available)
-        if (item.antonyms && item.antonyms.trim() !== '') {
-            const antonymsList = item.antonyms.split(',').map(cleanWord);
-            if (antonymsList.length > 0) {
-                const correctAntonym = antonymsList[0];
-                const distractors = getDistractors(correctAntonym, allWords);
-                const options = shuffleArray([correctAntonym, ...distractors]);
-                const correctOptionIndex = options.indexOf(correctAntonym);
-                const optionKeys = ['A', 'B', 'C', 'D'];
-
-                questions.push({
-                    id: `ANTO-${index}`,
-                    chapter: 'English',
-                    type: 'Antonyms',
-                    question: `What is an antonym for "${word}"?`,
-                    options: { A: options[0], B: options[1], C: options[2], D: options[3] },
-                    correct_option: optionKeys[correctOptionIndex],
-                    answer: correctAntonym,
-                    explanation: `Hindi: ${item.hindi}`
-                });
-            }
-        }
-    });
-
-    return questions;
-};
-
-
-// Extract unique chapters and types for Maths filters
-const math1Chapters = ['All', ...new Set(math1Data.map(q => q.chapter))];
-const math1Types = ['All', ...new Set(math1Data.map(q => q.type))];
-const math2Chapters = ['All', ...new Set(math2Data.map(q => q.chapter))];
-const math2Types = ['All', ...new Set(math2Data.map(q => q.type))];
-
 export const useQuiz = create((set, get) => ({
+    // App Initialization State
+    isAppReady: false,
+    quizLoading: false,
+    metadata: null,
+    timerConfig: null,
+
     // Data
-    questions: [], // Handled dynamically
-    math1Data: math1Data,
-    math2Data: math2Data,
     filteredQuestions: [],
+    currentNotes: null,
 
-    // Filter Options
-    math1Chapters: math1Chapters,
-    math1Types: math1Types,
-    math2Chapters: math2Chapters,
-    math2Types: math2Types,
-    englishTopics: ['Idioms', 'One Word Substitution', 'Synonyms', 'Antonyms'], // Broken out Syno/Anto for clarity
+    // Static mappings based on original logic
+    englishTopics: ['Idioms', 'One Word Substitution', 'Synonyms', 'Antonyms'],
     gkgsSubjects: ['Static GK', 'Polity', 'History', 'Geography', 'Economics', 'Physics', 'Chemistry', 'Biology', 'Current Affairs'],
-    polityTopics: polityData.map(p => p.topic),
-    staticGkTopics: staticGkData.map(p => p.topic),
-    geographyTopics: geographyData.map(p => p.topic),
-    economicsTopics: economicsData.map(p => p.topic),
-    physicsTopics: physicsData.map(p => p.topic),
-    chemistryTopics: chemistryData.map(p => p.topic),
-    biologyTopics: biologyData.map(p => p.topic),
-    currentAffairsTopics: currentAffairsData.map(p => p.topic),
-
-    // History specific
-    historyCategories: [...new Set(historyData.map(p => p.category))],
-    historyData: historyData,
-
-    // Notes mapping
-    polityNotes: polityNotesData,
-    staticGkNotes: staticGkNotesData,
-    historyNotes: historyNotesData,
-    geographyNotes: geographyNotesData,
-    economicsNotes: economicsNotesData,
-    physicsNotes: physicsNotesData,
-    chemistryNotes: chemistryNotesData,
-    biologyNotes: biologyNotesData,
-    currentAffairsNotes: currentAffairsNotesData,
-    math1Notes: math1NotesData,
-    math2Notes: math2NotesData,
 
     // Settings
     filters: {
@@ -247,12 +52,28 @@ export const useQuiz = create((set, get) => ({
     appLanguage: 'English', // 'English' | 'Hindi'
 
     // Quiz State
-    quizStatus: 'idle', // 'idle' | 'running' | 'completed'
+    quizStatus: 'idle', // 'idle' | 'running' | 'completed' | 'revision'
     currentQuestionIndex: 0,
     answers: {}, // { questionId: selectedOption }
     score: 0,
 
-    // Actions
+    // --- Actions ---
+
+    initApp: async () => {
+        try {
+            const [metaRes, timerRes] = await Promise.all([
+                fetch('/data/metadata.json'),
+                fetch('/config/timerConfig.json')
+            ]);
+            const metadata = await metaRes.json();
+            const timerConfig = await timerRes.json();
+            set({ metadata, timerConfig, isAppReady: true });
+        } catch (error) {
+            console.error("Failed to initialize app metadata:", error);
+            set({ isAppReady: true }); // Still proceed even if config fails
+        }
+    },
+
     setAppLanguage: (lang) => set({ appLanguage: lang }),
 
     setFilter: (key, value) => set((state) => {
@@ -266,9 +87,9 @@ export const useQuiz = create((set, get) => ({
                 newFilters.mathsVersion = 'Maths 2'; // Default
             } else if (value === 'GK/GS') {
                 newFilters.gkgsSubject = 'Static GK';
-                newFilters.gkgsTopics = []; // Default: Select none (or handle 'All' in UI)
+                newFilters.gkgsTopics = [];
             } else if (value === 'English') {
-                newFilters.topic = 'Idioms'; // Default topic for English
+                newFilters.topic = 'Idioms';
             }
         }
         if (key === 'mathsVersion') {
@@ -306,126 +127,188 @@ export const useQuiz = create((set, get) => ({
     saveResult: (result) => {
         const { user, history } = get();
         if (!user) return;
-
         const newHistory = [result, ...history];
         set({ history: newHistory });
         localStorage.setItem(`quiz_history_${user}`, JSON.stringify(newHistory));
     },
 
-    startQuiz: () => {
-        const { questions, filters, questionCount, timerMode } = get();
-        let filtered = [];
-        let timePerQ = 60;
-        let attemptKey = '';
+    startQuiz: async () => {
+        const { filters, questionCount, timerMode, timerConfig } = get();
+        set({ quizLoading: true });
 
-        if (filters.subject === 'Maths') {
-            // MATHS LOGIC
-            const currentMathsData = filters.mathsVersion === 'Maths 1' ? get().math1Data : get().math2Data;
-            filtered = currentMathsData.filter(q => {
-                const chapterMatch = filters.chapter === 'All' || q.chapter === filters.chapter;
-                const typeMatch = filters.type === 'All' || q.type === filters.type;
-                return chapterMatch && typeMatch;
-            });
+        try {
+            let filtered = [];
+            let timePerQ = timerConfig?.default || 30;
+            let attemptKey = '';
+            let notesData = null;
 
-            attemptKey = `attempt-${filters.mathsVersion}-${filters.chapter}-${filters.type}`;
-            const previousAttempts = parseInt(localStorage.getItem(attemptKey) || '0', 10);
+            if (filters.subject === 'Maths') {
+                const targetFile = filters.mathsVersion === 'Maths 1' ? 'math1.json' : 'math2.json';
+                const notesFile = filters.mathsVersion === 'Maths 1' ? 'math1Notes.json' : 'math2Notes.json';
+                
+                const [dataRes, notesRes] = await Promise.all([
+                    fetch(`/data/${targetFile}`),
+                    fetch(`/data/${notesFile}`).catch(() => null)
+                ]);
 
-            // Adaptive time for Maths
-            if (previousAttempts === 1) timePerQ = 45;
-            if (previousAttempts >= 2) timePerQ = 30;
+                if (!dataRes.ok) throw new Error("Failed to load Math data");
+                const sourceData = await dataRes.json();
+                try { if(notesRes && notesRes.ok) notesData = await notesRes.json(); } catch(e) {}
 
-        } else if (filters.subject === 'English') {
-            // ENGLISH LOGIC
-            if (filters.topic === 'Idioms') {
-                filtered = generateIdiomQuestions();
-            } else if (filters.topic === 'One Word Substitution') {
-                filtered = generateOneWordQuestions();
-            } else if (filters.topic === 'Synonyms' || filters.topic === 'Antonyms') {
-                // For now, let's mix them or filter if we want specific
-                const allSynoAnto = generateSynoAntoQuestions();
-                filtered = allSynoAnto.filter(q => filters.topic === 'Synonyms' ? q.type === 'Synonyms' : q.type === 'Antonyms');
-            }
-
-            // Fixed time for English
-            timePerQ = 30;
-            attemptKey = `attempt-English-${filters.topic}`; // Just for tracking, not adaptive time yet
-        } else if (filters.subject === 'GK/GS') {
-            // GK/GS LOGIC
-            let selectedTopicsData = [];
-            let sourceData = filters.gkgsSubject === 'History' ? historyData : (filters.gkgsSubject === 'Polity' ? polityData : (filters.gkgsSubject === 'Geography' ? geographyData : (filters.gkgsSubject === 'Economics' ? economicsData : (filters.gkgsSubject === 'Physics' ? physicsData : (filters.gkgsSubject === 'Chemistry' ? chemistryData : (filters.gkgsSubject === 'Biology' ? biologyData : (filters.gkgsSubject === 'Current Affairs' ? currentAffairsData : staticGkData)))))));
-
-            if (filters.gkgsSubject === 'History') {
-                sourceData = sourceData.filter(d => d.category === filters.historyCategory);
-            }
-
-            if (!filters.gkgsTopics || filters.gkgsTopics.length === 0 || filters.gkgsTopics.includes('All')) {
-                selectedTopicsData = sourceData;
-            } else {
-                selectedTopicsData = sourceData.filter(p => filters.gkgsTopics.includes(p.topic));
-            }
-
-            let globalIndex = 0;
-            selectedTopicsData.forEach((topicObj, topicIndex) => {
-                const mappedQuestions = topicObj.questions.map((q, qIndex) => {
-                    const mappedOption = q.answer.toUpperCase();
-
-                    const optionsObj = Array.isArray(q.options)
-                        ? { A: q.options[0], B: q.options[1], C: q.options[2], D: q.options[3] }
-                        : { A: q.options.a, B: q.options.b, C: q.options.c, D: q.options.d };
-
-                    return {
-                        ...q,
-                        question: `Q.${q.id}. ${q.question}`,
-                        // Fix for missing question IDs applying selected option to all
-                        id: q.id !== undefined ? q.id : `gkgs-${topicIndex}-${qIndex}-${globalIndex++}`,
-                        chapter: 'GK/GS',
-                        type: topicObj.topic,
-                        correct_option: mappedOption,
-                        options: optionsObj
-                    };
+                filtered = sourceData.filter(q => {
+                    const chapterMatch = filters.chapter === 'All' || q.chapter === filters.chapter;
+                    const typeMatch = filters.type === 'All' || q.type === filters.type;
+                    return chapterMatch && typeMatch;
                 });
-                filtered = [...filtered, ...mappedQuestions];
-            });
 
-            // Fixed time for GK/GS
-            timePerQ = 30;
-            attemptKey = `attempt-GKGS-${filters.gkgsSubject}`;
-        }
+                attemptKey = `attempt-${filters.mathsVersion}-${filters.chapter}-${filters.type}`;
+                const previousAttempts = parseInt(localStorage.getItem(attemptKey) || '0', 10);
 
-        // 3. Handle Question Count Limit
-        if (questionCount !== 'all') {
-            filtered = shuffleArray(filtered).slice(0, typeof questionCount === 'string' ? filtered.length : questionCount);
-        } else {
-            // Always shuffle for English and GK/GS since it's generated from a list
-            if (filters.subject === 'English' || filters.subject === 'GK/GS') {
+                // Math dynamic timer from config
+                const mathTiers = timerConfig?.maths?.penaltyTiers || [];
+                for(const tier of mathTiers) {
+                   if(previousAttempts <= tier.maxAttempts) {
+                       timePerQ = tier.time;
+                       break;
+                   }
+                }
+
+            } else if (filters.subject === 'English') {
+                let targetFile = '';
+                if (filters.topic === 'Idioms') targetFile = 'idioms.json';
+                else if (filters.topic === 'One Word Substitution') targetFile = 'oneWordSubs.json';
+                else if (filters.topic === 'Synonyms' || filters.topic === 'Antonyms') targetFile = 'synoAnto.json';
+
+                const res = await fetch(`/data/${targetFile}`);
+                if (!res.ok) throw new Error("Failed to load English data");
+                let sourceData = await res.json();
+
+                if (filters.topic === 'Synonyms' || filters.topic === 'Antonyms') {
+                    sourceData = sourceData.filter(q => filters.topic === 'Synonyms' ? q.type === 'Synonyms' : q.type === 'Antonyms');
+                }
+                
+                filtered = sourceData;
+                timePerQ = 30; // Fixed for english
+                attemptKey = `attempt-English-${filters.topic}`;
+
+            } else if (filters.subject === 'GK/GS') {
+                // Guard: skip notes fetch for math notes (known empty)
+                let selectedTopicsData = [];
+
+                if (filters.gkgsSubject === 'Static GK') {
+                    // Load only selected topics from per-topic files
+                    const { metadata } = get();
+                    const topicSlugs = metadata?.staticGk?.topicSlugs || {};
+                    const topicsToLoad = (filters.gkgsTopics.length === 0 || filters.gkgsTopics.includes('All'))
+                        ? metadata?.staticGk?.topics || []
+                        : filters.gkgsTopics;
+
+                    const fetchPromises = topicsToLoad.map(topic => {
+                        const slug = topicSlugs[topic];
+                        if (!slug) return Promise.resolve(null);
+                        return fetch(`/data/gk-topics/${slug}.json`).then(r => r.ok ? r.json() : null).catch(() => null);
+                    });
+                    const results = await Promise.all(fetchPromises);
+                    selectedTopicsData = results.filter(Boolean);
+
+                } else if (filters.gkgsSubject === 'History') {
+                    // Load only the selected category file
+                    const { metadata } = get();
+                    const categorySlug = filters.historyCategory.replace(/[^a-zA-Z0-9]/g, '_').replace(/_+/g, '_').toLowerCase();
+                    const res = await fetch(`/data/history-categories/${categorySlug}.json`);
+                    if (!res.ok) throw new Error('Failed to load History category');
+                    let categoryData = await res.json();
+
+                    if (filters.gkgsTopics.length > 0 && !filters.gkgsTopics.includes('All')) {
+                        categoryData = categoryData.filter(t => filters.gkgsTopics.includes(t.topic));
+                    }
+                    selectedTopicsData = categoryData;
+
+                } else {
+                    // Regular subject (Polity, Geography etc.)
+                    const map = {
+                        'Polity': 'polity', 'Geography': 'geography', 'Economics': 'economics',
+                        'Physics': 'physics', 'Chemistry': 'chemistry', 'Biology': 'biology', 'Current Affairs': 'currentAffairs'
+                    };
+                    const prefix = map[filters.gkgsSubject];
+                    const dataRes = await fetch(`/data/${prefix}.json`);
+                    if (!dataRes.ok) throw new Error(`Failed to load ${filters.gkgsSubject} data`);
+                    let sourceData = await dataRes.json();
+
+                    if (filters.gkgsTopics.length > 0 && !filters.gkgsTopics.includes('All')) {
+                        selectedTopicsData = sourceData.filter(p => filters.gkgsTopics.includes(p.topic));
+                    } else {
+                        selectedTopicsData = sourceData;
+                    }
+
+                    // Try to load subject notes (only for subjects that have them)
+                    const notesRes = await fetch(`/data/${prefix}Notes.json`).catch(() => null);
+                    if (notesRes && notesRes.ok) {
+                        try { notesData = await notesRes.json(); } catch(e) {}
+                    }
+                }
+
+
+                let globalIndex = 0;
+                selectedTopicsData.forEach((topicObj, topicIndex) => {
+                    const mappedQuestions = topicObj.questions.map((q, qIndex) => {
+                        const mappedOption = q.answer.toUpperCase();
+                        const optionsObj = Array.isArray(q.options)
+                            ? { A: q.options[0], B: q.options[1], C: q.options[2], D: q.options[3] }
+                            : { A: q.options.a, B: q.options.b, C: q.options.c, D: q.options.d };
+
+                        return {
+                            ...q,
+                            question: `Q.${q.id}. ${q.question}`,
+                            id: q.id !== undefined ? q.id : `gkgs-${topicIndex}-${qIndex}-${globalIndex++}`,
+                            chapter: 'GK/GS',
+                            type: topicObj.topic,
+                            correct_option: mappedOption,
+                            options: optionsObj
+                        };
+                    });
+                    filtered = [...filtered, ...mappedQuestions];
+                });
+
+                timePerQ = 30;
+                attemptKey = `attempt-GKGS-${filters.gkgsSubject}`;
+            }
+
+            // Slice limit & Shuffle
+            if (questionCount !== 'all') {
+                filtered = shuffleArray(filtered).slice(0, parseInt(questionCount, 10));
+            } else if (filters.subject === 'English' || filters.subject === 'GK/GS') {
                 filtered = shuffleArray(filtered);
             }
-        }
 
-        // 4. Calculate Total Time (if Overall mode)
-        const calculatedTotalTime = filtered.length * timePerQ;
+            const calculatedTotalTime = filtered.length * timePerQ;
 
-        set({
-            filteredQuestions: filtered,
-            quizStatus: 'running',
-            currentQuestionIndex: 0,
-            answers: {},
-            score: 0,
-            timePerQuestion: timePerQ, // Will be ignored if timerMode is 'overall' but good to have
-            totalTime: calculatedTotalTime,
-            // Force question timer for English and GK/GS if requested? Plan said "Enforce 30s timer per question"
-            timerMode: (filters.subject === 'English' || filters.subject === 'GK/GS') ? 'question' : timerMode
-        });
-
-        // Check for revision screen requirement
-        if (filters.subject === 'Maths') {
-            const currentNotes = filters.mathsVersion === 'Maths 1' ? get().math1Notes : get().math2Notes;
-            const hasNotes = currentNotes?.some(n => n.topic === filters.chapter || n.chapter === filters.chapter);
-            if (hasNotes || filters.chapter === 'Percentage') {
-                set({ quizStatus: 'revision' });
+            // Check if revision screen is needed based on notes network response
+            let nextStatus = 'running';
+            if (filters.subject === 'Maths') {
+                 const hasNotes = notesData?.some(n => n.topic === filters.chapter || n.chapter === filters.chapter);
+                 if (hasNotes || filters.chapter === 'Percentage') nextStatus = 'revision';
+            } else if (filters.subject === 'GK/GS') {
+                 nextStatus = 'revision';
             }
-        } else if (filters.subject === 'GK/GS') {
-            set({ quizStatus: 'revision' }); // Always show revision for GK/GS topics
+
+            set({
+                filteredQuestions: filtered,
+                currentNotes: notesData,
+                quizStatus: nextStatus,
+                currentQuestionIndex: 0,
+                answers: {},
+                score: 0,
+                timePerQuestion: timePerQ,
+                totalTime: calculatedTotalTime,
+                timerMode: (filters.subject === 'English' || filters.subject === 'GK/GS') ? 'question' : timerMode,
+                quizLoading: false
+            });
+
+        } catch (error) {
+            console.error("Quiz Start Error:", error);
+            set({ quizLoading: false });
+            alert("Failed to load test data. Please check your network.");
         }
     },
 
@@ -463,13 +346,11 @@ export const useQuiz = create((set, get) => ({
     finishQuiz: () => {
         const { filters, score, filteredQuestions, answers, saveResult } = get();
 
-        // Calculate Stats
         const totalQ = filteredQuestions.length;
         const answeredCount = Object.keys(answers).length;
         const correctCount = filteredQuestions.filter(q => answers[q.id] === q.correct_option).length;
         const accuracy = totalQ > 0 ? Math.round((correctCount / totalQ) * 100) : 0;
 
-        // Increment attempt counter
         let attemptKey = '';
         if (filters.subject === 'Maths') {
             attemptKey = `attempt-${filters.mathsVersion}-${filters.chapter}-${filters.type}`;
@@ -482,7 +363,6 @@ export const useQuiz = create((set, get) => ({
         const currentAttempts = parseInt(localStorage.getItem(attemptKey) || '0', 10);
         localStorage.setItem(attemptKey, (currentAttempts + 1).toString());
 
-        // Save to User History
         saveResult({
             date: new Date().toISOString(),
             subject: filters.subject,
@@ -503,6 +383,6 @@ export const useQuiz = create((set, get) => ({
         currentQuestionIndex: 0,
         answers: {},
         score: 0,
+        currentNotes: null
     })
 }));
-

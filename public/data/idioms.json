@@ -1,0 +1,3002 @@
+[
+  {
+    "id": "IDIOM-0",
+    "chapter": "English",
+    "type": "Idioms",
+    "question": "What is the meaning of the idiom: \"Beat about/around the bush\"?",
+    "options": {
+      "A": "To attempt to do the impossible // waste energy on an unalterable situation // a futile effort",
+      "B": "Avoiding the main topic // Speak in a round-about manner // speaking vaguely to avoid talking about it",
+      "C": "In a precarious/dangerous or risky situation",
+      "D": "An apparent misfortune that eventually has good results // A hidden favour"
+    },
+    "correct_option": "B",
+    "answer": "Avoiding the main topic // Speak in a round-about manner // speaking vaguely to avoid talking about it",
+    "explanation": "Hindi Meaning: घुमा-फिराकर बात करना"
+  },
+  {
+    "id": "IDIOM-1",
+    "chapter": "English",
+    "type": "Idioms",
+    "question": "What is the meaning of the idiom: \"Spill the beans\"?",
+    "options": {
+      "A": "Puzzled // state of confusion // lost and confused",
+      "B": "Interfering in affairs without having knowledge // A person who offers unsolicited advice",
+      "C": "To discourage by showing indifference",
+      "D": "Disclose the secrets accidentally"
+    },
+    "correct_option": "D",
+    "answer": "Disclose the secrets accidentally",
+    "explanation": "Hindi Meaning: अनजाने में भेद खोल देना"
+  },
+  {
+    "id": "IDIOM-2",
+    "chapter": "English",
+    "type": "Idioms",
+    "question": "What is the meaning of the idiom: \"Cost an arm and a leg\"?",
+    "options": {
+      "A": "Very expensive // A large amount of money",
+      "B": "A deception // A pretence",
+      "C": "To die",
+      "D": "Full of hope and enthusiasm // Joyful // Cheerful and elated"
+    },
+    "correct_option": "A",
+    "answer": "Very expensive // A large amount of money",
+    "explanation": "Hindi Meaning: बहुत महंगा पड़ना"
+  },
+  {
+    "id": "IDIOM-3",
+    "chapter": "English",
+    "type": "Idioms",
+    "question": "What is the meaning of the idiom: \"Once in a blue moon\"?",
+    "options": {
+      "A": "By any means, good or bad // Using whatever methods are necessary",
+      "B": "To deal with someone or something that proves unexpectedly troublesome or powerful",
+      "C": "Difficult task // A tough challenge // A difficult person // An inflexible person who is hard to convince",
+      "D": "Rarely and infrequently // occasionally"
+    },
+    "correct_option": "D",
+    "answer": "Rarely and infrequently // occasionally",
+    "explanation": "Hindi Meaning: ईद का चाँद होना (कभी कभार)"
+  },
+  {
+    "id": "IDIOM-4",
+    "chapter": "English",
+    "type": "Idioms",
+    "question": "What is the meaning of the idiom: \"Face the music\"?",
+    "options": {
+      "A": "To accept punishment for mistake // Get reprimanded // to bear the consequences // Accept the blame",
+      "B": "Be in full agreement",
+      "C": "To fix a limit // To stop before a point where something okay gets not okay",
+      "D": "Something unexpected and unpleasant // A complete surprise // A sudden calamity // An unexpected disaster"
+    },
+    "correct_option": "A",
+    "answer": "To accept punishment for mistake // Get reprimanded // to bear the consequences // Accept the blame",
+    "explanation": "Hindi Meaning: किये का परिणाम भुगतना"
+  },
+  {
+    "id": "IDIOM-5",
+    "chapter": "English",
+    "type": "Idioms",
+    "question": "What is the meaning of the idiom: \"Under the weather\"?",
+    "options": {
+      "A": "An unreliable and deceitful person // A treacherous person // A secret enemy",
+      "B": "To not feel well // To feel sick or unhealthy // To be in low spirits",
+      "C": "Completely unexpectedly // Suddenly and without prior warning",
+      "D": "One who is not accepted as part of a family or group because of bad conduct"
+    },
+    "correct_option": "B",
+    "answer": "To not feel well // To feel sick or unhealthy // To be in low spirits",
+    "explanation": "Hindi Meaning: बीमार होना"
+  },
+  {
+    "id": "IDIOM-6",
+    "chapter": "English",
+    "type": "Idioms",
+    "question": "What is the meaning of the idiom: \"A bolt from the blue\"?",
+    "options": {
+      "A": "To destroy all relations // to make it impossible to return to the previous situation",
+      "B": "Something unexpected and unpleasant // A complete surprise // A sudden calamity // An unexpected disaster",
+      "C": "To save money, time or effort when doing something by not including some parts",
+      "D": "An inexperienced man"
+    },
+    "correct_option": "B",
+    "answer": "Something unexpected and unpleasant // A complete surprise // A sudden calamity // An unexpected disaster",
+    "explanation": "Hindi Meaning: आकस्मिक घटना"
+  },
+  {
+    "id": "IDIOM-7",
+    "chapter": "English",
+    "type": "Idioms",
+    "question": "What is the meaning of the idiom: \"Bury the hatchet\"?",
+    "options": {
+      "A": "An unexpected winner // someone who unexpectedly succeeds // an unknown entry // a competitor of unknown capabilities",
+      "B": "To calm oneself down and begin to think or act appropriately",
+      "C": "To make peace // To end a quarrel",
+      "D": "To deal with someone or something that proves unexpectedly troublesome or powerful"
+    },
+    "correct_option": "C",
+    "answer": "To make peace // To end a quarrel",
+    "explanation": "Hindi Meaning: झगड़ा खत्म करना"
+  },
+  {
+    "id": "IDIOM-8",
+    "chapter": "English",
+    "type": "Idioms",
+    "question": "What is the meaning of the idiom: \"Wild goose chase\"?",
+    "options": {
+      "A": "A worthless hunt or chase // Futile search // Unprofitable adventure",
+      "B": "Take on more responsibility than one can handle",
+      "C": "A deception // A pretence",
+      "D": "To make every possible effort // To fight furiously and fiercely"
+    },
+    "correct_option": "A",
+    "answer": "A worthless hunt or chase // Futile search // Unprofitable adventure",
+    "explanation": "Hindi Meaning: निरर्थक खोज"
+  },
+  {
+    "id": "IDIOM-9",
+    "chapter": "English",
+    "type": "Idioms",
+    "question": "What is the meaning of the idiom: \"At the eleventh hour\"?",
+    "options": {
+      "A": "To put a difficulty in the way of progress // thwarted in the execution of the plan",
+      "B": "At the very last moment // Just before the deadline",
+      "C": "To come to nothing // end without any practical result",
+      "D": "A very long time"
+    },
+    "correct_option": "B",
+    "answer": "At the very last moment // Just before the deadline",
+    "explanation": "Hindi Meaning: आखिरी मौके पर"
+  },
+  {
+    "id": "IDIOM-10",
+    "chapter": "English",
+    "type": "Idioms",
+    "question": "What is the meaning of the idiom: \"Blow one's own trumpet\"?",
+    "options": {
+      "A": "Deliberately ignore, avoid or be unfriendly towards someone",
+      "B": "To make an impractical, unreasonable or unattainable request",
+      "C": "Praise oneself // Talk boastfully about oneself // to boast about their achievements",
+      "D": "Everybody without distinction // All included"
+    },
+    "correct_option": "C",
+    "answer": "Praise oneself // Talk boastfully about oneself // to boast about their achievements",
+    "explanation": "Hindi Meaning: अपने मुंह मियाँ मिट्ठू बनना"
+  },
+  {
+    "id": "IDIOM-11",
+    "chapter": "English",
+    "type": "Idioms",
+    "question": "What is the meaning of the idiom: \"Break the ice\"?",
+    "options": {
+      "A": "Initiate something // to start a conversation // To make someone comfortable // To break a painful silence",
+      "B": "To accept punishment for mistake // Get reprimanded // to bear the consequences // Accept the blame",
+      "C": "To put a difficulty in the way of progress // thwarted in the execution of the plan",
+      "D": "Having something for certain is better than the possibility of getting something better"
+    },
+    "correct_option": "A",
+    "answer": "Initiate something // to start a conversation // To make someone comfortable // To break a painful silence",
+    "explanation": "Hindi Meaning: चुप्पी तोड़ना (बातचीत शुरू करना)"
+  },
+  {
+    "id": "IDIOM-12",
+    "chapter": "English",
+    "type": "Idioms",
+    "question": "What is the meaning of the idiom: \"Get into hot water\"?",
+    "options": {
+      "A": "To get into trouble // To be in a difficult situation in which you can be criticised",
+      "B": "Briefly and concisely // In a short, clear way // To describe in few words",
+      "C": "Make money in an improper way // to profit in a dishonest way",
+      "D": "Try every possible course of action in order to achieve something"
+    },
+    "correct_option": "A",
+    "answer": "To get into trouble // To be in a difficult situation in which you can be criticised",
+    "explanation": "Hindi Meaning: मुसीबत में पड़ना"
+  },
+  {
+    "id": "IDIOM-13",
+    "chapter": "English",
+    "type": "Idioms",
+    "question": "What is the meaning of the idiom: \"Hit the nail on the head\"?",
+    "options": {
+      "A": "Extremely happy and excited",
+      "B": "It is impossible for one to change one’s character",
+      "C": "Say or do something exactly right // to find exactly the right answer",
+      "D": "A pleasant situation // An enjoyable state"
+    },
+    "correct_option": "C",
+    "answer": "Say or do something exactly right // to find exactly the right answer",
+    "explanation": "Hindi Meaning: सटीक जवाब देना, बिल्कुल सही होना"
+  },
+  {
+    "id": "IDIOM-14",
+    "chapter": "English",
+    "type": "Idioms",
+    "question": "What is the meaning of the idiom: \"Have an axe to grind\"?",
+    "options": {
+      "A": "Initiate something // to start a conversation // To make someone comfortable // To break a painful silence",
+      "B": "A private interest to serve // To have an ulterior motive",
+      "C": "To remain neutral, to refuse to take sides in a dispute // halting between two opinions",
+      "D": "Full of hope and enthusiasm // Joyful // Cheerful and elated"
+    },
+    "correct_option": "B",
+    "answer": "A private interest to serve // To have an ulterior motive",
+    "explanation": "Hindi Meaning: अपना उल्लू सीधा करना (निजी स्वार्थ)"
+  },
+  {
+    "id": "IDIOM-15",
+    "chapter": "English",
+    "type": "Idioms",
+    "question": "What is the meaning of the idiom: \"To smell a rat\"?",
+    "options": {
+      "A": "To complain about a loss from the past // Feeling sorry over a mistake that cannot be changed or rectified",
+      "B": "To be an irritant // annoys me",
+      "C": "Suspect a trick or deceit // detected something wrong",
+      "D": "Something that is very easy to do // a very easy task"
+    },
+    "correct_option": "C",
+    "answer": "Suspect a trick or deceit // detected something wrong",
+    "explanation": "Hindi Meaning: दाल में काला होना (संदेह होना)"
+  },
+  {
+    "id": "IDIOM-16",
+    "chapter": "English",
+    "type": "Idioms",
+    "question": "What is the meaning of the idiom: \"Call it a day\"?",
+    "options": {
+      "A": "To force yourself to do something unpleasant // To get something over with because it is inevitable",
+      "B": "Decide or agree to stop doing something // to give up work and go back to home",
+      "C": "An apparent misfortune that eventually has good results // A hidden favour",
+      "D": "To go from very poor to being very wealthy"
+    },
+    "correct_option": "B",
+    "answer": "Decide or agree to stop doing something // to give up work and go back to home",
+    "explanation": "Hindi Meaning: आज के लिए इतना ही"
+  },
+  {
+    "id": "IDIOM-17",
+    "chapter": "English",
+    "type": "Idioms",
+    "question": "What is the meaning of the idiom: \"Gift of the gab\"?",
+    "options": {
+      "A": "To decide what to do // Decide firmly",
+      "B": "Something that is very easy to do // a very easy task",
+      "C": "To calm oneself down and begin to think or act appropriately",
+      "D": "Ability to speak eloquently // Talks well and persuasively // Ability to convince"
+    },
+    "correct_option": "D",
+    "answer": "Ability to speak eloquently // Talks well and persuasively // Ability to convince",
+    "explanation": "Hindi Meaning: वाक्पटुता की क्षमता"
+  },
+  {
+    "id": "IDIOM-18",
+    "chapter": "English",
+    "type": "Idioms",
+    "question": "What is the meaning of the idiom: \"See eye to eye\"?",
+    "options": {
+      "A": "Without any hesitation // instantly // without having planned beforehand",
+      "B": "To have enough money to live on and nothing extra // consuming daily what little is earned",
+      "C": "To be at a distance with someone // Avoid being friendly with someone",
+      "D": "Be in full agreement"
+    },
+    "correct_option": "D",
+    "answer": "Be in full agreement",
+    "explanation": "Hindi Meaning: पूर्णतः सहमत होना"
+  },
+  {
+    "id": "IDIOM-19",
+    "chapter": "English",
+    "type": "Idioms",
+    "question": "What is the meaning of the idiom: \"Sit on the fence\"?",
+    "options": {
+      "A": "to feel uncomfortable or worried in a situation",
+      "B": "To remain neutral, to refuse to take sides in a dispute // halting between two opinions",
+      "C": "In a precarious/dangerous or risky situation",
+      "D": "To miss an opportunity // lose an opportunity"
+    },
+    "correct_option": "B",
+    "answer": "To remain neutral, to refuse to take sides in a dispute // halting between two opinions",
+    "explanation": "Hindi Meaning: तटस्थ रहना // दुविधा में होना"
+  },
+  {
+    "id": "IDIOM-20",
+    "chapter": "English",
+    "type": "Idioms",
+    "question": "What is the meaning of the idiom: \"To flog/beat a dead horse\"?",
+    "options": {
+      "A": "To accept punishment for mistake // Get reprimanded // to bear the consequences // Accept the blame",
+      "B": "To attempt to do the impossible // waste energy on an unalterable situation // a futile effort",
+      "C": "To get into trouble // To be in a difficult situation in which you can be criticised",
+      "D": "To rebuke someone strongly // speaking sharply // scolding"
+    },
+    "correct_option": "B",
+    "answer": "To attempt to do the impossible // waste energy on an unalterable situation // a futile effort",
+    "explanation": "Hindi Meaning: मुर्दे में जान डालने की कोशिश करना"
+  },
+  {
+    "id": "IDIOM-21",
+    "chapter": "English",
+    "type": "Idioms",
+    "question": "What is the meaning of the idiom: \"A blessing/boon in disguise\"?",
+    "options": {
+      "A": "An apparent misfortune that eventually has good results // A hidden favour",
+      "B": "Someone very precious or dear",
+      "C": "An idea has been unsuccessful and that a new one must be devised // plan it all over again",
+      "D": "Final problem in the series // A minor difficulty but coming on top of a series of difficulties, that makes a situation unbearable"
+    },
+    "correct_option": "A",
+    "answer": "An apparent misfortune that eventually has good results // A hidden favour",
+    "explanation": "Hindi Meaning: दुख के भेष में सुख"
+  },
+  {
+    "id": "IDIOM-22",
+    "chapter": "English",
+    "type": "Idioms",
+    "question": "What is the meaning of the idiom: \"A fish out of water\"?",
+    "options": {
+      "A": "Going above and beyond whatever is required for the task at hand",
+      "B": "Someone very precious or dear",
+      "C": "An uncomfortable, unfamiliar or unsuitable position or situation // A person out of accustomed",
+      "D": "In close association // in partnership for something dishonest"
+    },
+    "correct_option": "C",
+    "answer": "An uncomfortable, unfamiliar or unsuitable position or situation // A person out of accustomed",
+    "explanation": "Hindi Meaning: असहज परिस्थिति"
+  },
+  {
+    "id": "IDIOM-23",
+    "chapter": "English",
+    "type": "Idioms",
+    "question": "What is the meaning of the idiom: \"At the drop of a hat/dime\"?",
+    "options": {
+      "A": "To force yourself to do something unpleasant // To get something over with because it is inevitable",
+      "B": "Unsteady // irregularly",
+      "C": "A very long time",
+      "D": "Without any hesitation // instantly // without having planned beforehand"
+    },
+    "correct_option": "D",
+    "answer": "Without any hesitation // instantly // without having planned beforehand",
+    "explanation": "Hindi Meaning: बहुत तेजी से बिना किसी हिचकिचाहट के"
+  },
+  {
+    "id": "IDIOM-24",
+    "chapter": "English",
+    "type": "Idioms",
+    "question": "What is the meaning of the idiom: \"Hold your horses\"?",
+    "options": {
+      "A": "A new and additional distinction // an accomplishment to be proud of",
+      "B": "Persons of same character or interests // similar in many ways",
+      "C": "To ignore a situation, facts or reality",
+      "D": "Be patient // Slow down // To restrain oneself"
+    },
+    "correct_option": "D",
+    "answer": "Be patient // Slow down // To restrain oneself",
+    "explanation": "Hindi Meaning: धैर्य रखना"
+  },
+  {
+    "id": "IDIOM-25",
+    "chapter": "English",
+    "type": "Idioms",
+    "question": "What is the meaning of the idiom: \"It's Raining cats and dogs\"?",
+    "options": {
+      "A": "To save money, time or effort when doing something by not including some parts",
+      "B": "Interfering in affairs without having knowledge // A person who offers unsolicited advice",
+      "C": "Raining extremely heavily // A very heavy downpour",
+      "D": "To make peace // To end a quarrel"
+    },
+    "correct_option": "C",
+    "answer": "Raining extremely heavily // A very heavy downpour",
+    "explanation": "Hindi Meaning: मूसलाधार बारिश होना"
+  },
+  {
+    "id": "IDIOM-26",
+    "chapter": "English",
+    "type": "Idioms",
+    "question": "What is the meaning of the idiom: \"Leave no stone unturned\"?",
+    "options": {
+      "A": "Try every possible course of action in order to achieve something",
+      "B": "Leave someone in a helpless condition // desert someone in his difficulties",
+      "C": "To deal with someone or something that proves unexpectedly troublesome or powerful",
+      "D": "To not feel well // To feel sick or unhealthy // To be in low spirits"
+    },
+    "correct_option": "A",
+    "answer": "Try every possible course of action in order to achieve something",
+    "explanation": "Hindi Meaning: हर मुमकिन प्रयास करना"
+  },
+  {
+    "id": "IDIOM-27",
+    "chapter": "English",
+    "type": "Idioms",
+    "question": "What is the meaning of the idiom: \"Let the cat out of the bag\"?",
+    "options": {
+      "A": "Reveal a secret carelessly or by mistake",
+      "B": "Work very hard // to make utmost efforts",
+      "C": "To decide what to do // Decide firmly",
+      "D": "To lead the way as a pioneer // to initiate something new"
+    },
+    "correct_option": "A",
+    "answer": "Reveal a secret carelessly or by mistake",
+    "explanation": "Hindi Meaning: भेद खोलना"
+  },
+  {
+    "id": "IDIOM-28",
+    "chapter": "English",
+    "type": "Idioms",
+    "question": "What is the meaning of the idiom: \"A hard nut to crack\"?",
+    "options": {
+      "A": "To start talking about the important aspects of something // come to the point",
+      "B": "Difficult task // A tough challenge // A difficult person // An inflexible person who is hard to convince",
+      "C": "Disregard // refused to obey // to be indifferent // neglect",
+      "D": "A noisy expression of anger // Protest // loud clamour"
+    },
+    "correct_option": "B",
+    "answer": "Difficult task // A tough challenge // A difficult person // An inflexible person who is hard to convince",
+    "explanation": "Hindi Meaning: लोहे के चने चबाना (मुश्किल काम)"
+  },
+  {
+    "id": "IDIOM-29",
+    "chapter": "English",
+    "type": "Idioms",
+    "question": "What is the meaning of the idiom: \"A red letter day\"?",
+    "options": {
+      "A": "In writing // written down or in print",
+      "B": "Timid // Cowardly // Easily frightened",
+      "C": "An important day // a day that is pleasantly noteworthy or memorable // happy and significant day",
+      "D": "To complain about a loss from the past // Feeling sorry over a mistake that cannot be changed or rectified"
+    },
+    "correct_option": "C",
+    "answer": "An important day // a day that is pleasantly noteworthy or memorable // happy and significant day",
+    "explanation": "Hindi Meaning: महत्वपूर्ण दिन"
+  },
+  {
+    "id": "IDIOM-30",
+    "chapter": "English",
+    "type": "Idioms",
+    "question": "What is the meaning of the idiom: \"Add fuel to the fire/flames\"?",
+    "options": {
+      "A": "Learn to do particular jobs // Be informed about the details",
+      "B": "Angry feeling // enmity // ill feeling // Hostility between people",
+      "C": "Make things worse // worsened the difficult situation",
+      "D": "Start something too soon or act hastily // said it before it was the right time"
+    },
+    "correct_option": "C",
+    "answer": "Make things worse // worsened the difficult situation",
+    "explanation": "Hindi Meaning: आग में घी डालना"
+  },
+  {
+    "id": "IDIOM-31",
+    "chapter": "English",
+    "type": "Idioms",
+    "question": "What is the meaning of the idiom: \"Cry over spilt milk\"?",
+    "options": {
+      "A": "Not nervous or emotional // to be calm and composed",
+      "B": "Someone very precious or dear",
+      "C": "To fix a limit // To stop before a point where something okay gets not okay",
+      "D": "To complain about a loss from the past // Feeling sorry over a mistake that cannot be changed or rectified"
+    },
+    "correct_option": "D",
+    "answer": "To complain about a loss from the past // Feeling sorry over a mistake that cannot be changed or rectified",
+    "explanation": "Hindi Meaning: अब पछताए होत क्या जब चिड़िया चुग गई खेत"
+  },
+  {
+    "id": "IDIOM-32",
+    "chapter": "English",
+    "type": "Idioms",
+    "question": "What is the meaning of the idiom: \"Through thick and thin\"?",
+    "options": {
+      "A": "Raining extremely heavily // A very heavy downpour",
+      "B": "Support under all circumstances // in times of good and bad fortune",
+      "C": "To deal with someone or something that proves unexpectedly troublesome or powerful",
+      "D": "To have a natural interest in gardening"
+    },
+    "correct_option": "B",
+    "answer": "Support under all circumstances // in times of good and bad fortune",
+    "explanation": "Hindi Meaning: हर हाल में"
+  },
+  {
+    "id": "IDIOM-33",
+    "chapter": "English",
+    "type": "Idioms",
+    "question": "What is the meaning of the idiom: \"To end in smoke\"?",
+    "options": {
+      "A": "A situation wherein someone has the privilege of enjoying two different opportunities",
+      "B": "To come to nothing // end without any practical result",
+      "C": "To wish good luck // Perform well",
+      "D": "Not believe completely something that you are told // To listen to something with considerable doubt"
+    },
+    "correct_option": "B",
+    "answer": "To come to nothing // end without any practical result",
+    "explanation": "Hindi Meaning: धुवें में उड़ना (कोई परिणाम न निकलना)"
+  },
+  {
+    "id": "IDIOM-34",
+    "chapter": "English",
+    "type": "Idioms",
+    "question": "What is the meaning of the idiom: \"All at sea // Feel at sea\"?",
+    "options": {
+      "A": "Puzzled // state of confusion // lost and confused",
+      "B": "Not nervous or emotional // to be calm and composed",
+      "C": "To not feel well // To feel sick or unhealthy // To be in low spirits",
+      "D": "A miser"
+    },
+    "correct_option": "A",
+    "answer": "Puzzled // state of confusion // lost and confused",
+    "explanation": "Hindi Meaning: असमंजस की स्थिति"
+  },
+  {
+    "id": "IDIOM-35",
+    "chapter": "English",
+    "type": "Idioms",
+    "question": "What is the meaning of the idiom: \"Bite off more than one can chew\"?",
+    "options": {
+      "A": "In close association // in partnership for something dishonest",
+      "B": "Take on more responsibility than one can handle",
+      "C": "Narrow escape from danger or disaster",
+      "D": "Not nervous or emotional // to be calm and composed"
+    },
+    "correct_option": "B",
+    "answer": "Take on more responsibility than one can handle",
+    "explanation": "Hindi Meaning: अपनी क्षमता से अधिक काम लेना"
+  },
+  {
+    "id": "IDIOM-36",
+    "chapter": "English",
+    "type": "Idioms",
+    "question": "What is the meaning of the idiom: \"Bite the bullet\"?",
+    "options": {
+      "A": "To be at a distance with someone // Avoid being friendly with someone",
+      "B": "Be more easily talked about than put into practice",
+      "C": "Briefly and concisely // In a short, clear way // To describe in few words",
+      "D": "To force yourself to do something unpleasant // To get something over with because it is inevitable"
+    },
+    "correct_option": "D",
+    "answer": "To force yourself to do something unpleasant // To get something over with because it is inevitable",
+    "explanation": "Hindi Meaning: मजबूरी में स्वीकार करना"
+  },
+  {
+    "id": "IDIOM-37",
+    "chapter": "English",
+    "type": "Idioms",
+    "question": "What is the meaning of the idiom: \"On cloud nine\"?",
+    "options": {
+      "A": "Listening intently // To be ready and eager to listen",
+      "B": "Extremely happy and excited",
+      "C": "To force yourself to do something unpleasant // To get something over with because it is inevitable",
+      "D": "Having something for certain is better than the possibility of getting something better"
+    },
+    "correct_option": "B",
+    "answer": "Extremely happy and excited",
+    "explanation": "Hindi Meaning: सातवें आसमान पर (अत्यंत प्रसन्न होना)"
+  },
+  {
+    "id": "IDIOM-38",
+    "chapter": "English",
+    "type": "Idioms",
+    "question": "What is the meaning of the idiom: \"Snake in the grass\"?",
+    "options": {
+      "A": "Very quickly // rapidly // Swiftly",
+      "B": "A short nap/sleep during the day",
+      "C": "Proficient in literary art // Scholar // A well educated and a wise person",
+      "D": "An unreliable and deceitful person // A treacherous person // A secret enemy"
+    },
+    "correct_option": "D",
+    "answer": "An unreliable and deceitful person // A treacherous person // A secret enemy",
+    "explanation": "Hindi Meaning: आस्तीन का साँप"
+  },
+  {
+    "id": "IDIOM-39",
+    "chapter": "English",
+    "type": "Idioms",
+    "question": "What is the meaning of the idiom: \"To miss the boat/bus\"?",
+    "options": {
+      "A": "Make money in an improper way // to profit in a dishonest way",
+      "B": "To miss an opportunity // lose an opportunity",
+      "C": "Deliberately ignore, avoid or be unfriendly towards someone",
+      "D": "To keep off starvation"
+    },
+    "correct_option": "B",
+    "answer": "To miss an opportunity // lose an opportunity",
+    "explanation": "Hindi Meaning: मौका गँवा बैठना"
+  },
+  {
+    "id": "IDIOM-40",
+    "chapter": "English",
+    "type": "Idioms",
+    "question": "What is the meaning of the idiom: \"To turn a deaf ear\"?",
+    "options": {
+      "A": "Eats a lot of food",
+      "B": "To come to nothing // end without any practical result",
+      "C": "Disregard // refused to obey // to be indifferent // neglect",
+      "D": "To have a very good sale // To sell quickly"
+    },
+    "correct_option": "C",
+    "answer": "Disregard // refused to obey // to be indifferent // neglect",
+    "explanation": "Hindi Meaning: अनसुनी कर देना"
+  },
+  {
+    "id": "IDIOM-41",
+    "chapter": "English",
+    "type": "Idioms",
+    "question": "What is the meaning of the idiom: \"Read between the lines\"?",
+    "options": {
+      "A": "Something unexpected and unpleasant // A complete surprise // A sudden calamity // An unexpected disaster",
+      "B": "To be given the same treatment that you have given to others",
+      "C": "To calm oneself down and begin to think or act appropriately",
+      "D": "Understand the hidden meaning // find more meaning than the words appear to express"
+    },
+    "correct_option": "D",
+    "answer": "Understand the hidden meaning // find more meaning than the words appear to express",
+    "explanation": "Hindi Meaning: छिपा हुआ अर्थ समझना"
+  },
+  {
+    "id": "IDIOM-42",
+    "chapter": "English",
+    "type": "Idioms",
+    "question": "What is the meaning of the idiom: \"A piece of cake\"?",
+    "options": {
+      "A": "Be more easily talked about than put into practice",
+      "B": "A very easy task",
+      "C": "To destroy all relations // to make it impossible to return to the previous situation",
+      "D": "What you do is more important than what you say // Intentions can be judged by people's actions"
+    },
+    "correct_option": "B",
+    "answer": "A very easy task",
+    "explanation": "Hindi Meaning: बच्चों का खेल (आसान काम)"
+  },
+  {
+    "id": "IDIOM-43",
+    "chapter": "English",
+    "type": "Idioms",
+    "question": "What is the meaning of the idiom: \"By fits and starts\"?",
+    "options": {
+      "A": "Unsteady // irregularly",
+      "B": "Something that is very easy to do // a very easy task",
+      "C": "To be angry // protesting vigorously about something // In rebellion",
+      "D": "To be in a loss or debt // To owe money to a bank"
+    },
+    "correct_option": "A",
+    "answer": "Unsteady // irregularly",
+    "explanation": "Hindi Meaning: अनियमित रूप से"
+  },
+  {
+    "id": "IDIOM-44",
+    "chapter": "English",
+    "type": "Idioms",
+    "question": "What is the meaning of the idiom: \"By leaps and bounds\"?",
+    "options": {
+      "A": "To accept defeat // suffer humiliation // had to yield under pressure",
+      "B": "Very quickly // rapidly // Swiftly",
+      "C": "An inexperienced man",
+      "D": "To make an impractical, unreasonable or unattainable request"
+    },
+    "correct_option": "B",
+    "answer": "Very quickly // rapidly // Swiftly",
+    "explanation": "Hindi Meaning: दिन दुगनी रात चौगुनी"
+  },
+  {
+    "id": "IDIOM-45",
+    "chapter": "English",
+    "type": "Idioms",
+    "question": "What is the meaning of the idiom: \"Cock and bull story\"?",
+    "options": {
+      "A": "Incomprehensible // I cannot understand anything",
+      "B": "An unbelievable or absurd story",
+      "C": "Support under all circumstances // in times of good and bad fortune",
+      "D": "Extremely happy // in delight"
+    },
+    "correct_option": "B",
+    "answer": "An unbelievable or absurd story",
+    "explanation": "Hindi Meaning: अविश्वसनीय या बेतुकी कहानी"
+  },
+  {
+    "id": "IDIOM-46",
+    "chapter": "English",
+    "type": "Idioms",
+    "question": "What is the meaning of the idiom: \"Give someone the cold shoulder\"?",
+    "options": {
+      "A": "Deliberately ignore, avoid or be unfriendly towards someone",
+      "B": "A man of no substance // A weak or cowardly person",
+      "C": "An unreliable and deceitful person // A treacherous person // A secret enemy",
+      "D": "To die"
+    },
+    "correct_option": "A",
+    "answer": "Deliberately ignore, avoid or be unfriendly towards someone",
+    "explanation": "Hindi Meaning: जान बुझ कर नज़रअंदाज़ करना"
+  },
+  {
+    "id": "IDIOM-47",
+    "chapter": "English",
+    "type": "Idioms",
+    "question": "What is the meaning of the idiom: \"In a nutshell\"?",
+    "options": {
+      "A": "Briefly and concisely // In a short, clear way // To describe in few words",
+      "B": "Listening intently // To be ready and eager to listen",
+      "C": "Support under all circumstances // in times of good and bad fortune",
+      "D": "Secrets; the detailed or complicated facts of something // Full details"
+    },
+    "correct_option": "A",
+    "answer": "Briefly and concisely // In a short, clear way // To describe in few words",
+    "explanation": "Hindi Meaning: संक्षेप में और सटीक रूप से"
+  },
+  {
+    "id": "IDIOM-48",
+    "chapter": "English",
+    "type": "Idioms",
+    "question": "What is the meaning of the idiom: \"In the same boat\"?",
+    "options": {
+      "A": "Avoiding the main topic // Speak in a round-about manner // speaking vaguely to avoid talking about it",
+      "B": "To do something without worrying about the risk // To behave recklessly",
+      "C": "In the same unpleasant or difficult situation",
+      "D": "To stop something at the start // To stop something before it has an opportunity to develop"
+    },
+    "correct_option": "C",
+    "answer": "In the same unpleasant or difficult situation",
+    "explanation": "Hindi Meaning: एक जैसी कठिन परिस्थिति में होना"
+  },
+  {
+    "id": "IDIOM-49",
+    "chapter": "English",
+    "type": "Idioms",
+    "question": "What is the meaning of the idiom: \"Pull yourself together\"?",
+    "options": {
+      "A": "To calm oneself down and begin to think or act appropriately",
+      "B": "Make things worse // worsened the difficult situation",
+      "C": "To make every possible effort // To fight furiously and fiercely",
+      "D": "Extremely happy and excited"
+    },
+    "correct_option": "A",
+    "answer": "To calm oneself down and begin to think or act appropriately",
+    "explanation": "Hindi Meaning: शांत होना, भावनाओं पर नियंत्रण रखना"
+  },
+  {
+    "id": "IDIOM-50",
+    "chapter": "English",
+    "type": "Idioms",
+    "question": "What is the meaning of the idiom: \"A dark horse\"?",
+    "options": {
+      "A": "An unexpected winner // someone who unexpectedly succeeds // an unknown entry // a competitor of unknown capabilities",
+      "B": "To be ruined // Deteriorate shockingly",
+      "C": "An unbelievable or absurd story",
+      "D": "Interfering in affairs without having knowledge // A person who offers unsolicited advice"
+    },
+    "correct_option": "A",
+    "answer": "An unexpected winner // someone who unexpectedly succeeds // an unknown entry // a competitor of unknown capabilities",
+    "explanation": "Hindi Meaning: अप्रत्याशित विजेता"
+  },
+  {
+    "id": "IDIOM-51",
+    "chapter": "English",
+    "type": "Idioms",
+    "question": "What is the meaning of the idiom: \"A dime a dozen\"?",
+    "options": {
+      "A": "Very quickly // rapidly // Swiftly",
+      "B": "To ignore a situation, facts or reality",
+      "C": "Very common and of no particular value // Anything that is common and easy to get",
+      "D": "Going above and beyond whatever is required for the task at hand"
+    },
+    "correct_option": "C",
+    "answer": "Very common and of no particular value // Anything that is common and easy to get",
+    "explanation": "Hindi Meaning: कौड़ी के भाव (बेहद सस्ते)"
+  },
+  {
+    "id": "IDIOM-52",
+    "chapter": "English",
+    "type": "Idioms",
+    "question": "What is the meaning of the idiom: \"A stone's throw away\"?",
+    "options": {
+      "A": "A very short distance",
+      "B": "To be angry // protesting vigorously about something // In rebellion",
+      "C": "Incomprehensible // I cannot understand anything",
+      "D": "To attempt to do the impossible // waste energy on an unalterable situation // a futile effort"
+    },
+    "correct_option": "A",
+    "answer": "A very short distance",
+    "explanation": "Hindi Meaning: थोड़ी दूरी पर"
+  },
+  {
+    "id": "IDIOM-53",
+    "chapter": "English",
+    "type": "Idioms",
+    "question": "What is the meaning of the idiom: \"Back to the drawing board\"?",
+    "options": {
+      "A": "To prepare for sleep // to go to bed",
+      "B": "Puzzled // state of confusion // lost and confused",
+      "C": "An idea has been unsuccessful and that a new one must be devised // plan it all over again",
+      "D": "Learn to do particular jobs // Be informed about the details"
+    },
+    "correct_option": "C",
+    "answer": "An idea has been unsuccessful and that a new one must be devised // plan it all over again",
+    "explanation": "Hindi Meaning: नये सिरे से बनाना"
+  },
+  {
+    "id": "IDIOM-54",
+    "chapter": "English",
+    "type": "Idioms",
+    "question": "What is the meaning of the idiom: \"Barking up the wrong tree\"?",
+    "options": {
+      "A": "To waste one's time and energy doing trivial things // Make no progress",
+      "B": "Extremely happy // in delight",
+      "C": "Not believe completely something that you are told // To listen to something with considerable doubt",
+      "D": "Trying to do something in a way that will not work // accuse or denounce the wrong person"
+    },
+    "correct_option": "D",
+    "answer": "Trying to do something in a way that will not work // accuse or denounce the wrong person",
+    "explanation": "Hindi Meaning: निरर्थक प्रयास"
+  },
+  {
+    "id": "IDIOM-55",
+    "chapter": "English",
+    "type": "Idioms",
+    "question": "What is the meaning of the idiom: \"Be all ears\"?",
+    "options": {
+      "A": "Listening intently // To be ready and eager to listen",
+      "B": "A situation wherein someone has the privilege of enjoying two different opportunities",
+      "C": "To watch someone or something carefully // To be cautious",
+      "D": "Very quickly // rapidly // Swiftly"
+    },
+    "correct_option": "A",
+    "answer": "Listening intently // To be ready and eager to listen",
+    "explanation": "Hindi Meaning: गौर से सुनना"
+  },
+  {
+    "id": "IDIOM-56",
+    "chapter": "English",
+    "type": "Idioms",
+    "question": "What is the meaning of the idiom: \"Burn the midnight oil\"?",
+    "options": {
+      "A": "Suspect a trick or deceit // detected something wrong",
+      "B": "Costly and troublesome possession useless to its owner",
+      "C": "To work or study till very late in the night // To work very hard",
+      "D": "To rebuke someone strongly // speaking sharply // scolding"
+    },
+    "correct_option": "C",
+    "answer": "To work or study till very late in the night // To work very hard",
+    "explanation": "Hindi Meaning: रात-दिन एक करना"
+  },
+  {
+    "id": "IDIOM-57",
+    "chapter": "English",
+    "type": "Idioms",
+    "question": "What is the meaning of the idiom: \"Chip off the old block\"?",
+    "options": {
+      "A": "To make every possible effort // To fight furiously and fiercely",
+      "B": "To be angry // protesting vigorously about something // In rebellion",
+      "C": "To change one's behaviour for better // To begin again",
+      "D": "Reminds them of one’s father // someone similar in character or behaviour to one’s father"
+    },
+    "correct_option": "D",
+    "answer": "Reminds them of one’s father // someone similar in character or behaviour to one’s father",
+    "explanation": "Hindi Meaning: जैसा बाप वैसा बेटा"
+  },
+  {
+    "id": "IDIOM-58",
+    "chapter": "English",
+    "type": "Idioms",
+    "question": "What is the meaning of the idiom: \"Get out of hand\"?",
+    "options": {
+      "A": "To keep off starvation",
+      "B": "Disclose the secrets accidentally",
+      "C": "Avoiding the main topic // Speak in a round-about manner // speaking vaguely to avoid talking about it",
+      "D": "To become uncontrollable // get out of control"
+    },
+    "correct_option": "D",
+    "answer": "To become uncontrollable // get out of control",
+    "explanation": "Hindi Meaning: हाथ से निकलना (बेकाबू होना)"
+  },
+  {
+    "id": "IDIOM-59",
+    "chapter": "English",
+    "type": "Idioms",
+    "question": "What is the meaning of the idiom: \"Pull someone’s leg\"?",
+    "options": {
+      "A": "Disregard // refused to obey // to be indifferent // neglect",
+      "B": "Strong and healthy // In a perfectly healthy condition",
+      "C": "To start talking about the important aspects of something // come to the point",
+      "D": "To make fool of // playing a joke with someone // To tease someone"
+    },
+    "correct_option": "D",
+    "answer": "To make fool of // playing a joke with someone // To tease someone",
+    "explanation": "Hindi Meaning: किसी की टांग खींचना"
+  },
+  {
+    "id": "IDIOM-60",
+    "chapter": "English",
+    "type": "Idioms",
+    "question": "What is the meaning of the idiom: \"Take with a pinch/grain of salt\"?",
+    "options": {
+      "A": "Not believe completely something that you are told // To listen to something with considerable doubt",
+      "B": "Reminds them of one’s father // someone similar in character or behaviour to one’s father",
+      "C": "To have a natural interest in gardening",
+      "D": "Make money in an improper way // to profit in a dishonest way"
+    },
+    "correct_option": "A",
+    "answer": "Not believe completely something that you are told // To listen to something with considerable doubt",
+    "explanation": "Hindi Meaning: आँख मूंदकर विश्वास न करना"
+  },
+  {
+    "id": "IDIOM-61",
+    "chapter": "English",
+    "type": "Idioms",
+    "question": "What is the meaning of the idiom: \"The Lion’s share\"?",
+    "options": {
+      "A": "Try every possible course of action in order to achieve something",
+      "B": "A miser",
+      "C": "The biggest and best part of a whole // The greatest and most desirable portion",
+      "D": "A new and additional distinction // an accomplishment to be proud of"
+    },
+    "correct_option": "C",
+    "answer": "The biggest and best part of a whole // The greatest and most desirable portion",
+    "explanation": "Hindi Meaning: सबसे बड़ा और बेहतर हिस्सा"
+  },
+  {
+    "id": "IDIOM-62",
+    "chapter": "English",
+    "type": "Idioms",
+    "question": "What is the meaning of the idiom: \"To fight tooth and nail\"?",
+    "options": {
+      "A": "To make every possible effort // To fight furiously and fiercely",
+      "B": "An idea has been unsuccessful and that a new one must be devised // plan it all over again",
+      "C": "To calm oneself down and begin to think or act appropriately",
+      "D": "An unreliable and deceitful person // A treacherous person // A secret enemy"
+    },
+    "correct_option": "A",
+    "answer": "To make every possible effort // To fight furiously and fiercely",
+    "explanation": "Hindi Meaning: एड़ी चोटी का जोर लगाना"
+  },
+  {
+    "id": "IDIOM-63",
+    "chapter": "English",
+    "type": "Idioms",
+    "question": "What is the meaning of the idiom: \"To hit the sack\"?",
+    "options": {
+      "A": "One who is not accepted as part of a family or group because of bad conduct",
+      "B": "To get into trouble // To be in a difficult situation in which you can be criticised",
+      "C": "Start something too soon or act hastily // said it before it was the right time",
+      "D": "To prepare for sleep // to go to bed"
+    },
+    "correct_option": "D",
+    "answer": "To prepare for sleep // to go to bed",
+    "explanation": "Hindi Meaning: सोने की तैयारी करना"
+  },
+  {
+    "id": "IDIOM-64",
+    "chapter": "English",
+    "type": "Idioms",
+    "question": "What is the meaning of the idiom: \"Under a cloud\"?",
+    "options": {
+      "A": "Do something very slowly",
+      "B": "To perform well // To succeed",
+      "C": "Under suspicion",
+      "D": "To be received badly by an audience"
+    },
+    "correct_option": "C",
+    "answer": "Under suspicion",
+    "explanation": "Hindi Meaning: शक के दायरे में"
+  },
+  {
+    "id": "IDIOM-65",
+    "chapter": "English",
+    "type": "Idioms",
+    "question": "What is the meaning of the idiom: \"As fit as a fiddle\"?",
+    "options": {
+      "A": "Strong and healthy // In a perfectly healthy condition",
+      "B": "Permanently // forever",
+      "C": "To watch someone or something carefully // To be cautious",
+      "D": "To further a loss with mockery to worsen an unfavourable situation"
+    },
+    "correct_option": "A",
+    "answer": "Strong and healthy // In a perfectly healthy condition",
+    "explanation": "Hindi Meaning: बहुत अच्छे स्वास्थ्य में"
+  },
+  {
+    "id": "IDIOM-66",
+    "chapter": "English",
+    "type": "Idioms",
+    "question": "What is the meaning of the idiom: \"Best of both worlds\"?",
+    "options": {
+      "A": "A situation wherein someone has the privilege of enjoying two different opportunities",
+      "B": "Daydream // Have unrealistic ideas // to create impossible dreams",
+      "C": "To make peace // To end a quarrel",
+      "D": "Reminds them of one’s father // someone similar in character or behaviour to one’s father"
+    },
+    "correct_option": "A",
+    "answer": "A situation wherein someone has the privilege of enjoying two different opportunities",
+    "explanation": "Hindi Meaning: दोनों हाथों में लड्डू"
+  },
+  {
+    "id": "IDIOM-67",
+    "chapter": "English",
+    "type": "Idioms",
+    "question": "What is the meaning of the idiom: \"By hook or by crook\"?",
+    "options": {
+      "A": "To miss an opportunity // lose an opportunity",
+      "B": "By any means, good or bad // Using whatever methods are necessary",
+      "C": "Suspect a trick or deceit // detected something wrong",
+      "D": "Lively and energetic // Full of energy"
+    },
+    "correct_option": "B",
+    "answer": "By any means, good or bad // Using whatever methods are necessary",
+    "explanation": "Hindi Meaning: कैसे भी करके"
+  },
+  {
+    "id": "IDIOM-68",
+    "chapter": "English",
+    "type": "Idioms",
+    "question": "What is the meaning of the idiom: \"By the skin of one's teeth\"?",
+    "options": {
+      "A": "By the narrowest margin // Having a narrow escape",
+      "B": "Initiate something // to start a conversation // To make someone comfortable // To break a painful silence",
+      "C": "To further a loss with mockery to worsen an unfavourable situation",
+      "D": "Without any hesitation // instantly // without having planned beforehand"
+    },
+    "correct_option": "A",
+    "answer": "By the narrowest margin // Having a narrow escape",
+    "explanation": "Hindi Meaning: बहुत कम अंतर से"
+  },
+  {
+    "id": "IDIOM-69",
+    "chapter": "English",
+    "type": "Idioms",
+    "question": "What is the meaning of the idiom: \"Every cloud has a silver lining\"?",
+    "options": {
+      "A": "To keep off starvation",
+      "B": "Every unpleasant situation has a positive side // Something promising in any difficult situation",
+      "C": "To return to the starting point // Having to start all over again",
+      "D": "Completely confused or perplexed"
+    },
+    "correct_option": "B",
+    "answer": "Every unpleasant situation has a positive side // Something promising in any difficult situation",
+    "explanation": "Hindi Meaning: निराशा में भी आशा की झलक"
+  },
+  {
+    "id": "IDIOM-70",
+    "chapter": "English",
+    "type": "Idioms",
+    "question": "What is the meaning of the idiom: \"Grease the palm\"?",
+    "options": {
+      "A": "To become uncontrollable // get out of control",
+      "B": "Extremely happy and excited",
+      "C": "To handle difficulties // To deal with a difficult or danger situation in a very direct or confident way",
+      "D": "To bribe discreetly // to bribe someone"
+    },
+    "correct_option": "D",
+    "answer": "To bribe discreetly // to bribe someone",
+    "explanation": "Hindi Meaning: मुट्ठी गरम करना (रिश्वत देना)"
+  },
+  {
+    "id": "IDIOM-71",
+    "chapter": "English",
+    "type": "Idioms",
+    "question": "What is the meaning of the idiom: \"Hand in glove\"?",
+    "options": {
+      "A": "Be in full agreement",
+      "B": "In close association // in partnership for something dishonest",
+      "C": "Timid // Cowardly // Easily frightened",
+      "D": "An unexpected winner // someone who unexpectedly succeeds // an unknown entry // a competitor of unknown capabilities"
+    },
+    "correct_option": "B",
+    "answer": "In close association // in partnership for something dishonest",
+    "explanation": "Hindi Meaning: घनिष्ठ सम्बन्ध"
+  },
+  {
+    "id": "IDIOM-72",
+    "chapter": "English",
+    "type": "Idioms",
+    "question": "What is the meaning of the idiom: \"In high/good spirits\"?",
+    "options": {
+      "A": "Full of hope and enthusiasm // Joyful // Cheerful and elated",
+      "B": "Not nervous or emotional // to be calm and composed",
+      "C": "To catch someone doing something illegal // Caught in the act",
+      "D": "To experience nervousness or anxiety before one attempts to do something"
+    },
+    "correct_option": "A",
+    "answer": "Full of hope and enthusiasm // Joyful // Cheerful and elated",
+    "explanation": "Hindi Meaning: उत्साह से भरपूर"
+  },
+  {
+    "id": "IDIOM-73",
+    "chapter": "English",
+    "type": "Idioms",
+    "question": "What is the meaning of the idiom: \"Keep at arm's length\"?",
+    "options": {
+      "A": "The biggest and best part of a whole // The greatest and most desirable portion",
+      "B": "An unbelievable or absurd story",
+      "C": "To be at a distance with someone // Avoid being friendly with someone",
+      "D": "To do something without worrying about the risk // To behave recklessly"
+    },
+    "correct_option": "C",
+    "answer": "To be at a distance with someone // Avoid being friendly with someone",
+    "explanation": "Hindi Meaning: दूर से सलाम करना"
+  },
+  {
+    "id": "IDIOM-74",
+    "chapter": "English",
+    "type": "Idioms",
+    "question": "What is the meaning of the idiom: \"Strain every nerve\"?",
+    "options": {
+      "A": "Disclose the secrets accidentally",
+      "B": "Work very hard // to make utmost efforts",
+      "C": "Eventually, after a long period of time // ultimately // in the end",
+      "D": "Not nervous or emotional // to be calm and composed"
+    },
+    "correct_option": "B",
+    "answer": "Work very hard // to make utmost efforts",
+    "explanation": "Hindi Meaning: खून पसीना एक करना"
+  },
+  {
+    "id": "IDIOM-75",
+    "chapter": "English",
+    "type": "Idioms",
+    "question": "What is the meaning of the idiom: \"Throw caution to the wind\"?",
+    "options": {
+      "A": "To be at a distance with someone // Avoid being friendly with someone",
+      "B": "To do something without worrying about the risk // To behave recklessly",
+      "C": "To miss an opportunity // lose an opportunity",
+      "D": "In the same unpleasant or difficult situation"
+    },
+    "correct_option": "B",
+    "answer": "To do something without worrying about the risk // To behave recklessly",
+    "explanation": "Hindi Meaning: जोखिम भरा काम करना"
+  },
+  {
+    "id": "IDIOM-76",
+    "chapter": "English",
+    "type": "Idioms",
+    "question": "What is the meaning of the idiom: \"To eat a humble pie\"?",
+    "options": {
+      "A": "Something unexpected and unpleasant // A complete surprise // A sudden calamity // An unexpected disaster",
+      "B": "To be angry // protesting vigorously about something // In rebellion",
+      "C": "We should not judge something primarily by its outward appearance",
+      "D": "To accept defeat // suffer humiliation // had to yield under pressure"
+    },
+    "correct_option": "D",
+    "answer": "To accept defeat // suffer humiliation // had to yield under pressure",
+    "explanation": "Hindi Meaning: नाक रगड़ना (हार मानना)"
+  },
+  {
+    "id": "IDIOM-77",
+    "chapter": "English",
+    "type": "Idioms",
+    "question": "What is the meaning of the idiom: \"At one’s wit’s end\"?",
+    "options": {
+      "A": "A miser",
+      "B": "Permanently // forever",
+      "C": "To have a natural interest in gardening",
+      "D": "Completely confused or perplexed"
+    },
+    "correct_option": "D",
+    "answer": "Completely confused or perplexed",
+    "explanation": "Hindi Meaning: पूरी तरह से उलझन में"
+  },
+  {
+    "id": "IDIOM-78",
+    "chapter": "English",
+    "type": "Idioms",
+    "question": "What is the meaning of the idiom: \"Build castles in the air\"?",
+    "options": {
+      "A": "Daydream // Have unrealistic ideas // to create impossible dreams",
+      "B": "Without any hesitation // instantly // without having planned beforehand",
+      "C": "Eats a lot of food",
+      "D": "By any means, good or bad // Using whatever methods are necessary"
+    },
+    "correct_option": "A",
+    "answer": "Daydream // Have unrealistic ideas // to create impossible dreams",
+    "explanation": "Hindi Meaning: हवाई किले बनाना"
+  },
+  {
+    "id": "IDIOM-79",
+    "chapter": "English",
+    "type": "Idioms",
+    "question": "What is the meaning of the idiom: \"Burn one’s bridges/boats\"?",
+    "options": {
+      "A": "An inexperienced man",
+      "B": "Not nervous or emotional // to be calm and composed",
+      "C": "To be angry // protesting vigorously about something // In rebellion",
+      "D": "To destroy all relations // to make it impossible to return to the previous situation"
+    },
+    "correct_option": "D",
+    "answer": "To destroy all relations // to make it impossible to return to the previous situation",
+    "explanation": "Hindi Meaning: पीछे लौटने के सभी रास्ते बंद करना"
+  },
+  {
+    "id": "IDIOM-80",
+    "chapter": "English",
+    "type": "Idioms",
+    "question": "What is the meaning of the idiom: \"Catch red-handed\"?",
+    "options": {
+      "A": "Something unexpected and unpleasant // A complete surprise // A sudden calamity // An unexpected disaster",
+      "B": "To catch someone doing something illegal // Caught in the act",
+      "C": "To change one's behaviour for better // To begin again",
+      "D": "Disregard // refused to obey // to be indifferent // neglect"
+    },
+    "correct_option": "B",
+    "answer": "To catch someone doing something illegal // Caught in the act",
+    "explanation": "Hindi Meaning: रंगे हाथ पकड़ना"
+  },
+  {
+    "id": "IDIOM-81",
+    "chapter": "English",
+    "type": "Idioms",
+    "question": "What is the meaning of the idiom: \"Close shave\"?",
+    "options": {
+      "A": "Narrow escape from danger or disaster",
+      "B": "Lively and energetic // Full of energy",
+      "C": "To be received badly by an audience",
+      "D": "Permanently // forever"
+    },
+    "correct_option": "A",
+    "answer": "Narrow escape from danger or disaster",
+    "explanation": "Hindi Meaning: बाल-बाल बचना"
+  },
+  {
+    "id": "IDIOM-82",
+    "chapter": "English",
+    "type": "Idioms",
+    "question": "What is the meaning of the idiom: \"Don’t count your chickens before they hatch\"?",
+    "options": {
+      "A": "Timid // Cowardly // Easily frightened",
+      "B": "Completely unexpectedly // Suddenly and without prior warning",
+      "C": "Hypocrite // a dangerous person pretending to be harmless",
+      "D": "Don’t make plans based on events that have not yet happened"
+    },
+    "correct_option": "D",
+    "answer": "Don’t make plans based on events that have not yet happened",
+    "explanation": "Hindi Meaning: सफलता मिलने से पहले जश्न न मानना"
+  },
+  {
+    "id": "IDIOM-83",
+    "chapter": "English",
+    "type": "Idioms",
+    "question": "What is the meaning of the idiom: \"Full of beans\"?",
+    "options": {
+      "A": "To politely ask for someone's full attention // to pay attention to",
+      "B": "Lively and energetic // Full of energy",
+      "C": "Deal with something only when necessary // deal with a problem when and if it arises",
+      "D": "To fail to produce intended effect // have no effect"
+    },
+    "correct_option": "B",
+    "answer": "Lively and energetic // Full of energy",
+    "explanation": "Hindi Meaning: जोश से भरा हुआ"
+  },
+  {
+    "id": "IDIOM-84",
+    "chapter": "English",
+    "type": "Idioms",
+    "question": "What is the meaning of the idiom: \"Go the extra mile\"?",
+    "options": {
+      "A": "One who is not accepted as part of a family or group because of bad conduct",
+      "B": "A situation wherein someone has the privilege of enjoying two different opportunities",
+      "C": "Going above and beyond whatever is required for the task at hand",
+      "D": "Persons of same character or interests // similar in many ways"
+    },
+    "correct_option": "C",
+    "answer": "Going above and beyond whatever is required for the task at hand",
+    "explanation": "Hindi Meaning: आवश्यकता से अधिक प्रयास"
+  },
+  {
+    "id": "IDIOM-85",
+    "chapter": "English",
+    "type": "Idioms",
+    "question": "What is the meaning of the idiom: \"Ins and outs\"?",
+    "options": {
+      "A": "Very difficult task",
+      "B": "Secrets; the detailed or complicated facts of something // Full details",
+      "C": "Support under all circumstances // in times of good and bad fortune",
+      "D": "To start talking about the important aspects of something // come to the point"
+    },
+    "correct_option": "B",
+    "answer": "Secrets; the detailed or complicated facts of something // Full details",
+    "explanation": "Hindi Meaning: पूरा विवरण"
+  },
+  {
+    "id": "IDIOM-86",
+    "chapter": "English",
+    "type": "Idioms",
+    "question": "What is the meaning of the idiom: \"Spick and span\"?",
+    "options": {
+      "A": "Very neat, clean, or tidy",
+      "B": "Full of hope and enthusiasm // Joyful // Cheerful and elated",
+      "C": "A weakness or vulnerable point",
+      "D": "Start something too soon or act hastily // said it before it was the right time"
+    },
+    "correct_option": "A",
+    "answer": "Very neat, clean, or tidy",
+    "explanation": "Hindi Meaning: बहुत साफ़-सुथरा"
+  },
+  {
+    "id": "IDIOM-87",
+    "chapter": "English",
+    "type": "Idioms",
+    "question": "What is the meaning of the idiom: \"To get cold feet\"?",
+    "options": {
+      "A": "An easy achievement // An easy task or victory",
+      "B": "To come to nothing // end without any practical result",
+      "C": "To hope that things will happen in the way that you want them to // wish for good luck",
+      "D": "To experience nervousness or anxiety before one attempts to do something"
+    },
+    "correct_option": "D",
+    "answer": "To experience nervousness or anxiety before one attempts to do something",
+    "explanation": "Hindi Meaning: घबराहट होना"
+  },
+  {
+    "id": "IDIOM-88",
+    "chapter": "English",
+    "type": "Idioms",
+    "question": "What is the meaning of the idiom: \"Turn a blind eye\"?",
+    "options": {
+      "A": "Listening intently // To be ready and eager to listen",
+      "B": "To not feel well // To feel sick or unhealthy // To be in low spirits",
+      "C": "To ignore a situation, facts or reality",
+      "D": "Having something for certain is better than the possibility of getting something better"
+    },
+    "correct_option": "C",
+    "answer": "To ignore a situation, facts or reality",
+    "explanation": "Hindi Meaning: अँधा बन जाना (अनदेखा करना)"
+  },
+  {
+    "id": "IDIOM-89",
+    "chapter": "English",
+    "type": "Idioms",
+    "question": "What is the meaning of the idiom: \"Up in arms\"?",
+    "options": {
+      "A": "To rebuke someone strongly // speaking sharply // scolding",
+      "B": "Interfering in affairs without having knowledge // A person who offers unsolicited advice",
+      "C": "To be angry // protesting vigorously about something // In rebellion",
+      "D": "Ability to speak eloquently // Talks well and persuasively // Ability to convince"
+    },
+    "correct_option": "C",
+    "answer": "To be angry // protesting vigorously about something // In rebellion",
+    "explanation": "Hindi Meaning: कड़ा विरोध करना"
+  },
+  {
+    "id": "IDIOM-90",
+    "chapter": "English",
+    "type": "Idioms",
+    "question": "What is the meaning of the idiom: \"Wears his heart on his sleeve\"?",
+    "options": {
+      "A": "Expresses his feelings openly // To show your true emotions",
+      "B": "Take on more responsibility than one can handle",
+      "C": "No real choice at all // An apparently free choice where there is no real alternative",
+      "D": "Enemies // To be bitterly hostile // Being at loggerheads"
+    },
+    "correct_option": "A",
+    "answer": "Expresses his feelings openly // To show your true emotions",
+    "explanation": "Hindi Meaning: दिल खोल कर रख देना"
+  },
+  {
+    "id": "IDIOM-91",
+    "chapter": "English",
+    "type": "Idioms",
+    "question": "What is the meaning of the idiom: \"White elephant\"?",
+    "options": {
+      "A": "To be an irritant // annoys me",
+      "B": "Say or do something exactly right // to find exactly the right answer",
+      "C": "Costly and troublesome possession useless to its owner",
+      "D": "To make peace // To end a quarrel"
+    },
+    "correct_option": "C",
+    "answer": "Costly and troublesome possession useless to its owner",
+    "explanation": "Hindi Meaning: महंगा और परेशानी का स्रोत"
+  },
+  {
+    "id": "IDIOM-92",
+    "chapter": "English",
+    "type": "Idioms",
+    "question": "What is the meaning of the idiom: \"A man of letters\"?",
+    "options": {
+      "A": "Daydream // Have unrealistic ideas // to create impossible dreams",
+      "B": "Proficient in literary art // Scholar // A well educated and a wise person",
+      "C": "To experience nervousness or anxiety before one attempts to do something",
+      "D": "To pretend to be sympathetic // to pretend grief // False tears"
+    },
+    "correct_option": "B",
+    "answer": "Proficient in literary art // Scholar // A well educated and a wise person",
+    "explanation": "Hindi Meaning: विद्वान"
+  },
+  {
+    "id": "IDIOM-93",
+    "chapter": "English",
+    "type": "Idioms",
+    "question": "What is the meaning of the idiom: \"A storm in a teacup\"?",
+    "options": {
+      "A": "To be given the same treatment that you have given to others",
+      "B": "Final problem in the series // A minor difficulty but coming on top of a series of difficulties, that makes a situation unbearable",
+      "C": "Big fuss over a small matter // A lot of anger/excitement over trivial things",
+      "D": "To politely ask for someone's full attention // to pay attention to"
+    },
+    "correct_option": "C",
+    "answer": "Big fuss over a small matter // A lot of anger/excitement over trivial things",
+    "explanation": "Hindi Meaning: बात का बतंगड़"
+  },
+  {
+    "id": "IDIOM-94",
+    "chapter": "English",
+    "type": "Idioms",
+    "question": "What is the meaning of the idiom: \"Add insult to injury\"?",
+    "options": {
+      "A": "Suffer a defeat // to die",
+      "B": "To further a loss with mockery to worsen an unfavourable situation",
+      "C": "Something unexpected and unpleasant // A complete surprise // A sudden calamity // An unexpected disaster",
+      "D": "Deal with something only when necessary // deal with a problem when and if it arises"
+    },
+    "correct_option": "B",
+    "answer": "To further a loss with mockery to worsen an unfavourable situation",
+    "explanation": "Hindi Meaning: जले पर नमक छिड़कना"
+  },
+  {
+    "id": "IDIOM-95",
+    "chapter": "English",
+    "type": "Idioms",
+    "question": "What is the meaning of the idiom: \"Apple of one’s eye\"?",
+    "options": {
+      "A": "Just in time // At the last possible moment",
+      "B": "Interfering in affairs without having knowledge // A person who offers unsolicited advice",
+      "C": "Someone very precious or dear",
+      "D": "In writing // written down or in print"
+    },
+    "correct_option": "C",
+    "answer": "Someone very precious or dear",
+    "explanation": "Hindi Meaning: आँखों का तारा"
+  },
+  {
+    "id": "IDIOM-96",
+    "chapter": "English",
+    "type": "Idioms",
+    "question": "What is the meaning of the idiom: \"Back to square one\"?",
+    "options": {
+      "A": "By any means, good or bad // Using whatever methods are necessary",
+      "B": "Extremely happy // in delight",
+      "C": "To hope that things will happen in the way that you want them to // wish for good luck",
+      "D": "To return to the starting point // Having to start all over again"
+    },
+    "correct_option": "D",
+    "answer": "To return to the starting point // Having to start all over again",
+    "explanation": "Hindi Meaning: जहाँ के तहाँ (प्रारंभिक बिंदु पर लौटना)"
+  },
+  {
+    "id": "IDIOM-97",
+    "chapter": "English",
+    "type": "Idioms",
+    "question": "What is the meaning of the idiom: \"Bad blood\"?",
+    "options": {
+      "A": "To waste one's time and energy doing trivial things // Make no progress",
+      "B": "Angry feeling // enmity // ill feeling // Hostility between people",
+      "C": "Did not have any hesitation in // To state something clearly",
+      "D": "Do not bring up an old controversial issue // To leave things as they are in order to avoid trouble"
+    },
+    "correct_option": "B",
+    "answer": "Angry feeling // enmity // ill feeling // Hostility between people",
+    "explanation": "Hindi Meaning: आपसी दुश्मनी"
+  },
+  {
+    "id": "IDIOM-98",
+    "chapter": "English",
+    "type": "Idioms",
+    "question": "What is the meaning of the idiom: \"Ball is in your court\"?",
+    "options": {
+      "A": "To prepare for sleep // to go to bed",
+      "B": "It is up to you to make the next decision or step",
+      "C": "To force yourself to do something unpleasant // To get something over with because it is inevitable",
+      "D": "Difficult task // A tough challenge // A difficult person // An inflexible person who is hard to convince"
+    },
+    "correct_option": "B",
+    "answer": "It is up to you to make the next decision or step",
+    "explanation": "Hindi Meaning: ज़िम्मेदार होना"
+  },
+  {
+    "id": "IDIOM-99",
+    "chapter": "English",
+    "type": "Idioms",
+    "question": "What is the meaning of the idiom: \"Black sheep\"?",
+    "options": {
+      "A": "To deal with someone or something that proves unexpectedly troublesome or powerful",
+      "B": "Don’t make plans based on events that have not yet happened",
+      "C": "One who is not accepted as part of a family or group because of bad conduct",
+      "D": "To lead the way as a pioneer // to initiate something new"
+    },
+    "correct_option": "C",
+    "answer": "One who is not accepted as part of a family or group because of bad conduct",
+    "explanation": "Hindi Meaning: कुल-कलंक"
+  },
+  {
+    "id": "IDIOM-100",
+    "chapter": "English",
+    "type": "Idioms",
+    "question": "What is the meaning of the idiom: \"Chicken-hearted\"?",
+    "options": {
+      "A": "Rarely and infrequently // occasionally",
+      "B": "Timid // Cowardly // Easily frightened",
+      "C": "A new and additional distinction // an accomplishment to be proud of",
+      "D": "Deal with something only when necessary // deal with a problem when and if it arises"
+    },
+    "correct_option": "B",
+    "answer": "Timid // Cowardly // Easily frightened",
+    "explanation": "Hindi Meaning: डरपोक"
+  },
+  {
+    "id": "IDIOM-101",
+    "chapter": "English",
+    "type": "Idioms",
+    "question": "What is the meaning of the idiom: \"Fair weather friends\"?",
+    "options": {
+      "A": "It is up to you to make the next decision or step",
+      "B": "A new and additional distinction // an accomplishment to be proud of",
+      "C": "Friends in good times // supports only when easy and convenient",
+      "D": "To make peace // To end a quarrel"
+    },
+    "correct_option": "C",
+    "answer": "Friends in good times // supports only when easy and convenient",
+    "explanation": "Hindi Meaning: स्वार्थी मित्र"
+  },
+  {
+    "id": "IDIOM-102",
+    "chapter": "English",
+    "type": "Idioms",
+    "question": "What is the meaning of the idiom: \"For good\"?",
+    "options": {
+      "A": "Daydream // Have unrealistic ideas // to create impossible dreams",
+      "B": "Permanently // forever",
+      "C": "Something unexpected and unpleasant // A complete surprise // A sudden calamity // An unexpected disaster",
+      "D": "In a precarious/dangerous or risky situation"
+    },
+    "correct_option": "B",
+    "answer": "Permanently // forever",
+    "explanation": "Hindi Meaning: सदा के लिए"
+  },
+  {
+    "id": "IDIOM-103",
+    "chapter": "English",
+    "type": "Idioms",
+    "question": "What is the meaning of the idiom: \"In black and white\"?",
+    "options": {
+      "A": "In writing // written down or in print",
+      "B": "To be in a loss or debt // To owe money to a bank",
+      "C": "To go from very poor to being very wealthy",
+      "D": "Very quickly // rapidly // Swiftly"
+    },
+    "correct_option": "A",
+    "answer": "In writing // written down or in print",
+    "explanation": "Hindi Meaning: लिखित रूप में"
+  },
+  {
+    "id": "IDIOM-104",
+    "chapter": "English",
+    "type": "Idioms",
+    "question": "What is the meaning of the idiom: \"In the nick of time\"?",
+    "options": {
+      "A": "Just in time // At the last possible moment",
+      "B": "Incomprehensible // I cannot understand anything",
+      "C": "Being happy for foolish reasons // a state of happiness based on a person's not knowing about potential trouble",
+      "D": "Understand the hidden meaning // find more meaning than the words appear to express"
+    },
+    "correct_option": "A",
+    "answer": "Just in time // At the last possible moment",
+    "explanation": "Hindi Meaning: सही समय पर"
+  },
+  {
+    "id": "IDIOM-105",
+    "chapter": "English",
+    "type": "Idioms",
+    "question": "What is the meaning of the idiom: \"Leaves you in the lurch\"?",
+    "options": {
+      "A": "It is impossible for one to change one’s character",
+      "B": "To further a loss with mockery to worsen an unfavourable situation",
+      "C": "Friends in good times // supports only when easy and convenient",
+      "D": "Leave someone in a helpless condition // desert someone in his difficulties"
+    },
+    "correct_option": "D",
+    "answer": "Leave someone in a helpless condition // desert someone in his difficulties",
+    "explanation": "Hindi Meaning: बीच मझधार में छोड़ देना"
+  },
+  {
+    "id": "IDIOM-106",
+    "chapter": "English",
+    "type": "Idioms",
+    "question": "What is the meaning of the idiom: \"Out of the blue\"?",
+    "options": {
+      "A": "A man of no substance // A weak or cowardly person",
+      "B": "Ability to speak eloquently // Talks well and persuasively // Ability to convince",
+      "C": "Completely confused or perplexed",
+      "D": "Completely unexpectedly // Suddenly and without prior warning"
+    },
+    "correct_option": "D",
+    "answer": "Completely unexpectedly // Suddenly and without prior warning",
+    "explanation": "Hindi Meaning: बिल्कुल अचानक"
+  },
+  {
+    "id": "IDIOM-107",
+    "chapter": "English",
+    "type": "Idioms",
+    "question": "What is the meaning of the idiom: \"Take to one's heels\"?",
+    "options": {
+      "A": "To serve two purposes at one time // To achieve two results with a single effort",
+      "B": "To run away // ran away in fear // ran off",
+      "C": "Reminds them of one’s father // someone similar in character or behaviour to one’s father",
+      "D": "To do something without special preparation // To improvise"
+    },
+    "correct_option": "B",
+    "answer": "To run away // ran away in fear // ran off",
+    "explanation": "Hindi Meaning: दुम दबाकर भागना"
+  },
+  {
+    "id": "IDIOM-108",
+    "chapter": "English",
+    "type": "Idioms",
+    "question": "What is the meaning of the idiom: \"To jump on the bandwagon\"?",
+    "options": {
+      "A": "To keep off starvation",
+      "B": "Leave someone in a helpless condition // desert someone in his difficulties",
+      "C": "Costly and troublesome possession useless to its owner",
+      "D": "To follow popular trends // Get involved in an activity because it is likely to succeed"
+    },
+    "correct_option": "D",
+    "answer": "To follow popular trends // Get involved in an activity because it is likely to succeed",
+    "explanation": "Hindi Meaning: बहती गंगा में हाथ धोना"
+  },
+  {
+    "id": "IDIOM-109",
+    "chapter": "English",
+    "type": "Idioms",
+    "question": "What is the meaning of the idiom: \"A bird’s eye view\"?",
+    "options": {
+      "A": "An important day // a day that is pleasantly noteworthy or memorable // happy and significant day",
+      "B": "Without any hesitation // instantly // without having planned beforehand",
+      "C": "Eventually, after a long period of time // ultimately // in the end",
+      "D": "A general view from above // Aerial view // Good and comprehensive idea"
+    },
+    "correct_option": "D",
+    "answer": "A general view from above // Aerial view // Good and comprehensive idea",
+    "explanation": "Hindi Meaning: ऊंचाई से विस्तृत दृश्य"
+  },
+  {
+    "id": "IDIOM-110",
+    "chapter": "English",
+    "type": "Idioms",
+    "question": "What is the meaning of the idiom: \"A cakewalk\"?",
+    "options": {
+      "A": "Work very hard // to make utmost efforts",
+      "B": "An easy achievement // An easy task or victory",
+      "C": "One who is not accepted as part of a family or group because of bad conduct",
+      "D": "Initiate something // to start a conversation // To make someone comfortable // To break a painful silence"
+    },
+    "correct_option": "B",
+    "answer": "An easy achievement // An easy task or victory",
+    "explanation": "Hindi Meaning: अत्यंत सरल"
+  },
+  {
+    "id": "IDIOM-111",
+    "chapter": "English",
+    "type": "Idioms",
+    "question": "What is the meaning of the idiom: \"A fool’s paradise\"?",
+    "options": {
+      "A": "win a victory // becomes the winner",
+      "B": "Rarely and infrequently // occasionally",
+      "C": "Being happy for foolish reasons // a state of happiness based on a person's not knowing about potential trouble",
+      "D": "In a precarious/dangerous or risky situation"
+    },
+    "correct_option": "C",
+    "answer": "Being happy for foolish reasons // a state of happiness based on a person's not knowing about potential trouble",
+    "explanation": "Hindi Meaning: हवाई महल"
+  },
+  {
+    "id": "IDIOM-112",
+    "chapter": "English",
+    "type": "Idioms",
+    "question": "What is the meaning of the idiom: \"A leopard can’t change its spots\"?",
+    "options": {
+      "A": "Say or do something exactly right // to find exactly the right answer",
+      "B": "To make an impractical, unreasonable or unattainable request",
+      "C": "It is impossible for one to change one’s character",
+      "D": "We should not judge something primarily by its outward appearance"
+    },
+    "correct_option": "C",
+    "answer": "It is impossible for one to change one’s character",
+    "explanation": "Hindi Meaning: कुत्ते की पूंछ टेढ़ी की टेढ़ी"
+  },
+  {
+    "id": "IDIOM-113",
+    "chapter": "English",
+    "type": "Idioms",
+    "question": "What is the meaning of the idiom: \"A man of straw\"?",
+    "options": {
+      "A": "To stop something at the start // To stop something before it has an opportunity to develop",
+      "B": "To attempt to do the impossible // waste energy on an unalterable situation // a futile effort",
+      "C": "To make every possible effort // To fight furiously and fiercely",
+      "D": "A man of no substance // A weak or cowardly person"
+    },
+    "correct_option": "D",
+    "answer": "A man of no substance // A weak or cowardly person",
+    "explanation": "Hindi Meaning: कमजोर व्यक्ति"
+  },
+  {
+    "id": "IDIOM-114",
+    "chapter": "English",
+    "type": "Idioms",
+    "question": "What is the meaning of the idiom: \"A wolf in sheep’s clothing\"?",
+    "options": {
+      "A": "To calm oneself down and begin to think or act appropriately",
+      "B": "To watch someone or something carefully // To be cautious",
+      "C": "Under suspicion",
+      "D": "Hypocrite // a dangerous person pretending to be harmless"
+    },
+    "correct_option": "D",
+    "answer": "Hypocrite // a dangerous person pretending to be harmless",
+    "explanation": "Hindi Meaning: भेड़ की खाल में भेड़िया"
+  },
+  {
+    "id": "IDIOM-115",
+    "chapter": "English",
+    "type": "Idioms",
+    "question": "What is the meaning of the idiom: \"Child’s play\"?",
+    "options": {
+      "A": "To handle difficulties // To deal with a difficult or danger situation in a very direct or confident way",
+      "B": "Something that is very easy to do // a very easy task",
+      "C": "To follow popular trends // Get involved in an activity because it is likely to succeed",
+      "D": "To make an impractical, unreasonable or unattainable request"
+    },
+    "correct_option": "B",
+    "answer": "Something that is very easy to do // a very easy task",
+    "explanation": "Hindi Meaning: बच्चों का खेल"
+  },
+  {
+    "id": "IDIOM-116",
+    "chapter": "English",
+    "type": "Idioms",
+    "question": "What is the meaning of the idiom: \"Cool as a cucumber\"?",
+    "options": {
+      "A": "To work or study till very late in the night // To work very hard",
+      "B": "Secrets; the detailed or complicated facts of something // Full details",
+      "C": "Not nervous or emotional // to be calm and composed",
+      "D": "Someone very precious or dear"
+    },
+    "correct_option": "C",
+    "answer": "Not nervous or emotional // to be calm and composed",
+    "explanation": "Hindi Meaning: धैर्यवान"
+  },
+  {
+    "id": "IDIOM-117",
+    "chapter": "English",
+    "type": "Idioms",
+    "question": "What is the meaning of the idiom: \"Cut corners\"?",
+    "options": {
+      "A": "Reminds them of one’s father // someone similar in character or behaviour to one’s father",
+      "B": "Just in time // At the last possible moment",
+      "C": "To save money, time or effort when doing something by not including some parts",
+      "D": "Be patient // Slow down // To restrain oneself"
+    },
+    "correct_option": "C",
+    "answer": "To save money, time or effort when doing something by not including some parts",
+    "explanation": "Hindi Meaning: सबसे आसान या तेज (गलत) तरीके से करना"
+  },
+  {
+    "id": "IDIOM-118",
+    "chapter": "English",
+    "type": "Idioms",
+    "question": "What is the meaning of the idiom: \"Cut the mustard\"?",
+    "options": {
+      "A": "To have a very good sale // To sell quickly",
+      "B": "Something unexpected and unpleasant // A complete surprise // A sudden calamity // An unexpected disaster",
+      "C": "A person who discourages enjoyment or enthusiasm // prevents other people from having fun",
+      "D": "To perform well // To succeed"
+    },
+    "correct_option": "D",
+    "answer": "To perform well // To succeed",
+    "explanation": "Hindi Meaning: अच्छा प्रदर्शन करना"
+  },
+  {
+    "id": "IDIOM-119",
+    "chapter": "English",
+    "type": "Idioms",
+    "question": "What is the meaning of the idiom: \"Draw a line\"?",
+    "options": {
+      "A": "To ask for help when you don't need it // To raise a false alarm",
+      "B": "To have enough money to live on and nothing extra // consuming daily what little is earned",
+      "C": "To fix a limit // To stop before a point where something okay gets not okay",
+      "D": "Full of hope and enthusiasm // Joyful // Cheerful and elated"
+    },
+    "correct_option": "C",
+    "answer": "To fix a limit // To stop before a point where something okay gets not okay",
+    "explanation": "Hindi Meaning: सीमा निर्धारित करना"
+  },
+  {
+    "id": "IDIOM-120",
+    "chapter": "English",
+    "type": "Idioms",
+    "question": "What is the meaning of the idiom: \"Feather one's own nest\"?",
+    "options": {
+      "A": "By the narrowest margin // Having a narrow escape",
+      "B": "Make money in an improper way // to profit in a dishonest way",
+      "C": "To have a very good sale // To sell quickly",
+      "D": "Not nervous or emotional // to be calm and composed"
+    },
+    "correct_option": "B",
+    "answer": "Make money in an improper way // to profit in a dishonest way",
+    "explanation": "Hindi Meaning: बेईमानी करके धनी होना"
+  },
+  {
+    "id": "IDIOM-121",
+    "chapter": "English",
+    "type": "Idioms",
+    "question": "What is the meaning of the idiom: \"Get a taste of your own medicine\"?",
+    "options": {
+      "A": "Honest and frank // without any secret",
+      "B": "A weakness or vulnerable point",
+      "C": "To prepare for sleep // to go to bed",
+      "D": "To be given the same treatment that you have given to others"
+    },
+    "correct_option": "D",
+    "answer": "To be given the same treatment that you have given to others",
+    "explanation": "Hindi Meaning: जैसे को तैसा"
+  },
+  {
+    "id": "IDIOM-122",
+    "chapter": "English",
+    "type": "Idioms",
+    "question": "What is the meaning of the idiom: \"Have bigger/other fish to fry\"?",
+    "options": {
+      "A": "Some more important work to attend to",
+      "B": "To stop something at the start // To stop something before it has an opportunity to develop",
+      "C": "Support under all circumstances // in times of good and bad fortune",
+      "D": "Persons of same character or interests // similar in many ways"
+    },
+    "correct_option": "A",
+    "answer": "Some more important work to attend to",
+    "explanation": "Hindi Meaning: अन्य महत्वपूर्ण काम होना"
+  },
+  {
+    "id": "IDIOM-123",
+    "chapter": "English",
+    "type": "Idioms",
+    "question": "What is the meaning of the idiom: \"Herculean task\"?",
+    "options": {
+      "A": "Very difficult task",
+      "B": "Without any hesitation // instantly // without having planned beforehand",
+      "C": "An important day // a day that is pleasantly noteworthy or memorable // happy and significant day",
+      "D": "In suspense and anxiety // anxious"
+    },
+    "correct_option": "A",
+    "answer": "Very difficult task",
+    "explanation": "Hindi Meaning: मुश्किल काम"
+  },
+  {
+    "id": "IDIOM-124",
+    "chapter": "English",
+    "type": "Idioms",
+    "question": "What is the meaning of the idiom: \"Kick the bucket\"?",
+    "options": {
+      "A": "To die",
+      "B": "Going above and beyond whatever is required for the task at hand",
+      "C": "At the very last moment // Just before the deadline",
+      "D": "It is impossible for one to change one’s character"
+    },
+    "correct_option": "A",
+    "answer": "To die",
+    "explanation": "Hindi Meaning: चल बसना (निधन होना)"
+  },
+  {
+    "id": "IDIOM-125",
+    "chapter": "English",
+    "type": "Idioms",
+    "question": "What is the meaning of the idiom: \"Kill two birds with one stone\"?",
+    "options": {
+      "A": "To serve two purposes at one time // To achieve two results with a single effort",
+      "B": "Honest and frank // without any secret",
+      "C": "To catch someone doing something illegal // Caught in the act",
+      "D": "To make fool of // playing a joke with someone // To tease someone"
+    },
+    "correct_option": "A",
+    "answer": "To serve two purposes at one time // To achieve two results with a single effort",
+    "explanation": "Hindi Meaning: एक तीर से दो शिकार"
+  },
+  {
+    "id": "IDIOM-126",
+    "chapter": "English",
+    "type": "Idioms",
+    "question": "What is the meaning of the idiom: \"Nip in the bud\"?",
+    "options": {
+      "A": "Timid // Cowardly // Easily frightened",
+      "B": "To stop something at the start // To stop something before it has an opportunity to develop",
+      "C": "Something that is very easy to do // a very easy task",
+      "D": "It is up to you to make the next decision or step"
+    },
+    "correct_option": "B",
+    "answer": "To stop something at the start // To stop something before it has an opportunity to develop",
+    "explanation": "Hindi Meaning: शुरुआत में ही कुचल देना"
+  },
+  {
+    "id": "IDIOM-127",
+    "chapter": "English",
+    "type": "Idioms",
+    "question": "What is the meaning of the idiom: \"Selling like hot cakes\"?",
+    "options": {
+      "A": "To have a very good sale // To sell quickly",
+      "B": "Did not have any hesitation in // To state something clearly",
+      "C": "Praise oneself // Talk boastfully about oneself // to boast about their achievements",
+      "D": "Daydream // Have unrealistic ideas // to create impossible dreams"
+    },
+    "correct_option": "A",
+    "answer": "To have a very good sale // To sell quickly",
+    "explanation": "Hindi Meaning: बहुत अच्छी बिक्री होना"
+  },
+  {
+    "id": "IDIOM-128",
+    "chapter": "English",
+    "type": "Idioms",
+    "question": "What is the meaning of the idiom: \"Shed crocodile tears\"?",
+    "options": {
+      "A": "To pretend to be sympathetic // to pretend grief // False tears",
+      "B": "What you do is more important than what you say // Intentions can be judged by people's actions",
+      "C": "Every unpleasant situation has a positive side // Something promising in any difficult situation",
+      "D": "A deception // A pretence"
+    },
+    "correct_option": "A",
+    "answer": "To pretend to be sympathetic // to pretend grief // False tears",
+    "explanation": "Hindi Meaning: मगरमच्छ के आँसू बहाना"
+  },
+  {
+    "id": "IDIOM-129",
+    "chapter": "English",
+    "type": "Idioms",
+    "question": "What is the meaning of the idiom: \"Take the bull by the horns\"?",
+    "options": {
+      "A": "To handle difficulties // To deal with a difficult or danger situation in a very direct or confident way",
+      "B": "A man of no substance // A weak or cowardly person",
+      "C": "Incomprehensible // I cannot understand anything",
+      "D": "Praise oneself // Talk boastfully about oneself // to boast about their achievements"
+    },
+    "correct_option": "A",
+    "answer": "To handle difficulties // To deal with a difficult or danger situation in a very direct or confident way",
+    "explanation": "Hindi Meaning: साहसपूर्वक मुसीबतों का सामना करना"
+  },
+  {
+    "id": "IDIOM-130",
+    "chapter": "English",
+    "type": "Idioms",
+    "question": "What is the meaning of the idiom: \"The last straw\"?",
+    "options": {
+      "A": "Do not bring up an old controversial issue // To leave things as they are in order to avoid trouble",
+      "B": "Eats a lot of food",
+      "C": "Final problem in the series // A minor difficulty but coming on top of a series of difficulties, that makes a situation unbearable",
+      "D": "A weakness or vulnerable point"
+    },
+    "correct_option": "C",
+    "answer": "Final problem in the series // A minor difficulty but coming on top of a series of difficulties, that makes a situation unbearable",
+    "explanation": "Hindi Meaning: अंतिम समस्या जो धैर्य खोने का कारण बनती है"
+  },
+  {
+    "id": "IDIOM-131",
+    "chapter": "English",
+    "type": "Idioms",
+    "question": "What is the meaning of the idiom: \"To call a spade a spade\"?",
+    "options": {
+      "A": "To be frank // Say the truth about something, even if it is not pleasant",
+      "B": "Going above and beyond whatever is required for the task at hand",
+      "C": "Persons of same character or interests // similar in many ways",
+      "D": "To become uncontrollable // get out of control"
+    },
+    "correct_option": "A",
+    "answer": "To be frank // Say the truth about something, even if it is not pleasant",
+    "explanation": "Hindi Meaning: स्पष्ट व सीधे तौर पर बोलना"
+  },
+  {
+    "id": "IDIOM-132",
+    "chapter": "English",
+    "type": "Idioms",
+    "question": "What is the meaning of the idiom: \"To keep an eye on\"?",
+    "options": {
+      "A": "To watch someone or something carefully // To be cautious",
+      "B": "A worthless hunt or chase // Futile search // Unprofitable adventure",
+      "C": "Not believe completely something that you are told // To listen to something with considerable doubt",
+      "D": "Completely unexpectedly // Suddenly and without prior warning"
+    },
+    "correct_option": "A",
+    "answer": "To watch someone or something carefully // To be cautious",
+    "explanation": "Hindi Meaning: नजर रखना"
+  },
+  {
+    "id": "IDIOM-133",
+    "chapter": "English",
+    "type": "Idioms",
+    "question": "What is the meaning of the idiom: \"A bird in the hand is worth two in the bush\"?",
+    "options": {
+      "A": "To return to the starting point // Having to start all over again",
+      "B": "Cause of dispute/quarrel // Point of an argument",
+      "C": "Having something for certain is better than the possibility of getting something better",
+      "D": "Without any hesitation // instantly // without having planned beforehand"
+    },
+    "correct_option": "C",
+    "answer": "Having something for certain is better than the possibility of getting something better",
+    "explanation": "Hindi Meaning: कुछ निश्चित रूप से होना बेहतर है"
+  },
+  {
+    "id": "IDIOM-134",
+    "chapter": "English",
+    "type": "Idioms",
+    "question": "What is the meaning of the idiom: \"A bone of contention\"?",
+    "options": {
+      "A": "Unsteady // irregularly",
+      "B": "Be patient // Slow down // To restrain oneself",
+      "C": "In suspense and anxiety // anxious",
+      "D": "Cause of dispute/quarrel // Point of an argument"
+    },
+    "correct_option": "D",
+    "answer": "Cause of dispute/quarrel // Point of an argument",
+    "explanation": "Hindi Meaning: झगड़े का कारण"
+  },
+  {
+    "id": "IDIOM-135",
+    "chapter": "English",
+    "type": "Idioms",
+    "question": "What is the meaning of the idiom: \"A green horn\"?",
+    "options": {
+      "A": "Something unexpected and unpleasant // A complete surprise // A sudden calamity // An unexpected disaster",
+      "B": "An inexperienced man",
+      "C": "Interfering in affairs without having knowledge // A person who offers unsolicited advice",
+      "D": "Leave someone in a helpless condition // desert someone in his difficulties"
+    },
+    "correct_option": "B",
+    "answer": "An inexperienced man",
+    "explanation": "Hindi Meaning: अनुभवहीन व्यक्ति"
+  },
+  {
+    "id": "IDIOM-136",
+    "chapter": "English",
+    "type": "Idioms",
+    "question": "What is the meaning of the idiom: \"A mare's nest\"?",
+    "options": {
+      "A": "To be received badly by an audience",
+      "B": "To watch someone or something carefully // To be cautious",
+      "C": "A difficult/complicated situation // A false invention",
+      "D": "Initiate something // to start a conversation // To make someone comfortable // To break a painful silence"
+    },
+    "correct_option": "C",
+    "answer": "A difficult/complicated situation // A false invention",
+    "explanation": "Hindi Meaning: जटिल या भ्रामक स्थिति"
+  },
+  {
+    "id": "IDIOM-137",
+    "chapter": "English",
+    "type": "Idioms",
+    "question": "What is the meaning of the idiom: \"Actions speak louder than words\"?",
+    "options": {
+      "A": "Strong and healthy // In a perfectly healthy condition",
+      "B": "What you do is more important than what you say // Intentions can be judged by people's actions",
+      "C": "To pretend to be sympathetic // to pretend grief // False tears",
+      "D": "Some more important work to attend to"
+    },
+    "correct_option": "B",
+    "answer": "What you do is more important than what you say // Intentions can be judged by people's actions",
+    "explanation": "Hindi Meaning: कथनी से अधिक करनी बोलती है"
+  },
+  {
+    "id": "IDIOM-138",
+    "chapter": "English",
+    "type": "Idioms",
+    "question": "What is the meaning of the idiom: \"All and sundry\"?",
+    "options": {
+      "A": "To decide what to do // Decide firmly",
+      "B": "Everybody without distinction // All included",
+      "C": "Eventually, after a long period of time // ultimately // in the end",
+      "D": "An apparent misfortune that eventually has good results // A hidden favour"
+    },
+    "correct_option": "B",
+    "answer": "Everybody without distinction // All included",
+    "explanation": "Hindi Meaning: हर कोई बिना भेद के"
+  },
+  {
+    "id": "IDIOM-139",
+    "chapter": "English",
+    "type": "Idioms",
+    "question": "What is the meaning of the idiom: \"At a snail's pace\"?",
+    "options": {
+      "A": "To stop something at the start // To stop something before it has an opportunity to develop",
+      "B": "Full of hope and enthusiasm // Joyful // Cheerful and elated",
+      "C": "Do something very slowly",
+      "D": "Friends in good times // supports only when easy and convenient"
+    },
+    "correct_option": "C",
+    "answer": "Do something very slowly",
+    "explanation": "Hindi Meaning: बहुत धीरे-धीरे"
+  },
+  {
+    "id": "IDIOM-140",
+    "chapter": "English",
+    "type": "Idioms",
+    "question": "What is the meaning of the idiom: \"At daggers drawn\"?",
+    "options": {
+      "A": "Initiate something // to start a conversation // To make someone comfortable // To break a painful silence",
+      "B": "Take on more responsibility than one can handle",
+      "C": "Enemies // To be bitterly hostile // Being at loggerheads",
+      "D": "To accept punishment for mistake // Get reprimanded // to bear the consequences // Accept the blame"
+    },
+    "correct_option": "C",
+    "answer": "Enemies // To be bitterly hostile // Being at loggerheads",
+    "explanation": "Hindi Meaning: शत्रुता या संघर्ष की स्थिति"
+  },
+  {
+    "id": "IDIOM-141",
+    "chapter": "English",
+    "type": "Idioms",
+    "question": "What is the meaning of the idiom: \"Backseat driver\"?",
+    "options": {
+      "A": "Interfering in affairs without having knowledge // A person who offers unsolicited advice",
+      "B": "Just in time // At the last possible moment",
+      "C": "To remain neutral, to refuse to take sides in a dispute // halting between two opinions",
+      "D": "To rebuke someone strongly // speaking sharply // scolding"
+    },
+    "correct_option": "A",
+    "answer": "Interfering in affairs without having knowledge // A person who offers unsolicited advice",
+    "explanation": "Hindi Meaning: अनावश्यक सलाह देने वाला"
+  },
+  {
+    "id": "IDIOM-142",
+    "chapter": "English",
+    "type": "Idioms",
+    "question": "What is the meaning of the idiom: \"Blaze a trail\"?",
+    "options": {
+      "A": "to feel uncomfortable or worried in a situation",
+      "B": "A man of no substance // A weak or cowardly person",
+      "C": "To lead the way as a pioneer // to initiate something new",
+      "D": "To become uncontrollable // get out of control"
+    },
+    "correct_option": "C",
+    "answer": "To lead the way as a pioneer // to initiate something new",
+    "explanation": "Hindi Meaning: नई राह दिखाना"
+  },
+  {
+    "id": "IDIOM-143",
+    "chapter": "English",
+    "type": "Idioms",
+    "question": "What is the meaning of the idiom: \"Break a leg\"?",
+    "options": {
+      "A": "To wish good luck // Perform well",
+      "B": "Friends in good times // supports only when easy and convenient",
+      "C": "Deal with something only when necessary // deal with a problem when and if it arises",
+      "D": "A noisy expression of anger // Protest // loud clamour"
+    },
+    "correct_option": "A",
+    "answer": "To wish good luck // Perform well",
+    "explanation": "Hindi Meaning: भाग्य साथ होना"
+  },
+  {
+    "id": "IDIOM-144",
+    "chapter": "English",
+    "type": "Idioms",
+    "question": "What is the meaning of the idiom: \"Cut to the chase\"?",
+    "options": {
+      "A": "An unreliable and deceitful person // A treacherous person // A secret enemy",
+      "B": "To start talking about the important aspects of something // come to the point",
+      "C": "A very easy task",
+      "D": "Reminds them of one’s father // someone similar in character or behaviour to one’s father"
+    },
+    "correct_option": "B",
+    "answer": "To start talking about the important aspects of something // come to the point",
+    "explanation": "Hindi Meaning: मुद्दे पर आना"
+  },
+  {
+    "id": "IDIOM-145",
+    "chapter": "English",
+    "type": "Idioms",
+    "question": "What is the meaning of the idiom: \"Eats like a horse\"?",
+    "options": {
+      "A": "An easy achievement // An easy task or victory",
+      "B": "Eats a lot of food",
+      "C": "To accept defeat // suffer humiliation // had to yield under pressure",
+      "D": "Rarely and infrequently // occasionally"
+    },
+    "correct_option": "B",
+    "answer": "Eats a lot of food",
+    "explanation": "Hindi Meaning: बहुत सारा खाना खाने वाला"
+  },
+  {
+    "id": "IDIOM-146",
+    "chapter": "English",
+    "type": "Idioms",
+    "question": "What is the meaning of the idiom: \"Eye wash\"?",
+    "options": {
+      "A": "It is impossible for one to change one’s character",
+      "B": "Suffer a defeat // to die",
+      "C": "A deception // A pretence",
+      "D": "No real choice at all // An apparently free choice where there is no real alternative"
+    },
+    "correct_option": "C",
+    "answer": "A deception // A pretence",
+    "explanation": "Hindi Meaning: धोखा देना"
+  },
+  {
+    "id": "IDIOM-147",
+    "chapter": "English",
+    "type": "Idioms",
+    "question": "What is the meaning of the idiom: \"Have a chip on one's shoulder\"?",
+    "options": {
+      "A": "Take on more responsibility than one can handle",
+      "B": "Being happy for foolish reasons // a state of happiness based on a person's not knowing about potential trouble",
+      "C": "An unbelievable or absurd story",
+      "D": "To be upset for something that happened in the past // nurse a grudge // easily angered"
+    },
+    "correct_option": "D",
+    "answer": "To be upset for something that happened in the past // nurse a grudge // easily angered",
+    "explanation": "Hindi Meaning: पुरानी घटना पर अभी तक गुस्सा"
+  },
+  {
+    "id": "IDIOM-148",
+    "chapter": "English",
+    "type": "Idioms",
+    "question": "What is the meaning of the idiom: \"Hobson's choice\"?",
+    "options": {
+      "A": "Narrow escape from danger or disaster",
+      "B": "Say or do something exactly right // to find exactly the right answer",
+      "C": "No real choice at all // An apparently free choice where there is no real alternative",
+      "D": "Very common and of no particular value // Anything that is common and easy to get"
+    },
+    "correct_option": "C",
+    "answer": "No real choice at all // An apparently free choice where there is no real alternative",
+    "explanation": "Hindi Meaning: कोई विकल्प नहीं"
+  },
+  {
+    "id": "IDIOM-149",
+    "chapter": "English",
+    "type": "Idioms",
+    "question": "What is the meaning of the idiom: \"In seventh heaven\"?",
+    "options": {
+      "A": "Extremely happy // in delight",
+      "B": "To do something without special preparation // To improvise",
+      "C": "In close association // in partnership for something dishonest",
+      "D": "Costly and troublesome possession useless to its owner"
+    },
+    "correct_option": "A",
+    "answer": "Extremely happy // in delight",
+    "explanation": "Hindi Meaning: बेहद खुश"
+  },
+  {
+    "id": "IDIOM-150",
+    "chapter": "English",
+    "type": "Idioms",
+    "question": "What is the meaning of the idiom: \"In the long run\"?",
+    "options": {
+      "A": "To waste one's time and energy doing trivial things // Make no progress",
+      "B": "Eventually, after a long period of time // ultimately // in the end",
+      "C": "Permanently // forever",
+      "D": "Suspect a trick or deceit // detected something wrong"
+    },
+    "correct_option": "B",
+    "answer": "Eventually, after a long period of time // ultimately // in the end",
+    "explanation": "Hindi Meaning: आखिरकार"
+  },
+  {
+    "id": "IDIOM-151",
+    "chapter": "English",
+    "type": "Idioms",
+    "question": "What is the meaning of the idiom: \"It's Greek to me\"?",
+    "options": {
+      "A": "To do something without special preparation // To improvise",
+      "B": "To fail to produce intended effect // have no effect",
+      "C": "To accept defeat // suffer humiliation // had to yield under pressure",
+      "D": "Incomprehensible // I cannot understand anything"
+    },
+    "correct_option": "D",
+    "answer": "Incomprehensible // I cannot understand anything",
+    "explanation": "Hindi Meaning: समझ से बाहर"
+  },
+  {
+    "id": "IDIOM-152",
+    "chapter": "English",
+    "type": "Idioms",
+    "question": "What is the meaning of the idiom: \"Jump the gun\"?",
+    "options": {
+      "A": "To return to the starting point // Having to start all over again",
+      "B": "To deal with someone or something that proves unexpectedly troublesome or powerful",
+      "C": "Start something too soon or act hastily // said it before it was the right time",
+      "D": "To bribe discreetly // to bribe someone"
+    },
+    "correct_option": "C",
+    "answer": "Start something too soon or act hastily // said it before it was the right time",
+    "explanation": "Hindi Meaning: जल्दबाजी करना"
+  },
+  {
+    "id": "IDIOM-153",
+    "chapter": "English",
+    "type": "Idioms",
+    "question": "What is the meaning of the idiom: \"Let sleeping dogs lie\"?",
+    "options": {
+      "A": "Do not bring up an old controversial issue // To leave things as they are in order to avoid trouble",
+      "B": "Raining extremely heavily // A very heavy downpour",
+      "C": "To destroy all relations // to make it impossible to return to the previous situation",
+      "D": "To save money, time or effort when doing something by not including some parts"
+    },
+    "correct_option": "A",
+    "answer": "Do not bring up an old controversial issue // To leave things as they are in order to avoid trouble",
+    "explanation": "Hindi Meaning: सोते शेर को मत छेड़ो"
+  },
+  {
+    "id": "IDIOM-154",
+    "chapter": "English",
+    "type": "Idioms",
+    "question": "What is the meaning of the idiom: \"Live from hand to mouth\"?",
+    "options": {
+      "A": "Narrow escape from danger or disaster",
+      "B": "To make every possible effort // To fight furiously and fiercely",
+      "C": "Extremely happy and excited",
+      "D": "To have enough money to live on and nothing extra // consuming daily what little is earned"
+    },
+    "correct_option": "D",
+    "answer": "To have enough money to live on and nothing extra // consuming daily what little is earned",
+    "explanation": "Hindi Meaning: जैसे तैसे गुजर बसर करना"
+  },
+  {
+    "id": "IDIOM-155",
+    "chapter": "English",
+    "type": "Idioms",
+    "question": "What is the meaning of the idiom: \"Make no bones about\"?",
+    "options": {
+      "A": "Someone very precious or dear",
+      "B": "Did not have any hesitation in // To state something clearly",
+      "C": "Extremely happy and excited",
+      "D": "To change one's behaviour for better // To begin again"
+    },
+    "correct_option": "B",
+    "answer": "Did not have any hesitation in // To state something clearly",
+    "explanation": "Hindi Meaning: ज़रा भी नहीं हिचकिचाना"
+  },
+  {
+    "id": "IDIOM-156",
+    "chapter": "English",
+    "type": "Idioms",
+    "question": "What is the meaning of the idiom: \"On tenterhooks\"?",
+    "options": {
+      "A": "In suspense and anxiety // anxious",
+      "B": "Eats a lot of food",
+      "C": "To be at a distance with someone // Avoid being friendly with someone",
+      "D": "To do something without worrying about the risk // To behave recklessly"
+    },
+    "correct_option": "A",
+    "answer": "In suspense and anxiety // anxious",
+    "explanation": "Hindi Meaning: चिंता में"
+  },
+  {
+    "id": "IDIOM-157",
+    "chapter": "English",
+    "type": "Idioms",
+    "question": "What is the meaning of the idiom: \"Play it by ear\"?",
+    "options": {
+      "A": "Honest and frank // without any secret",
+      "B": "To do something without special preparation // To improvise",
+      "C": "Interfering in affairs without having knowledge // A person who offers unsolicited advice",
+      "D": "To politely ask for someone's full attention // to pay attention to"
+    },
+    "correct_option": "B",
+    "answer": "To do something without special preparation // To improvise",
+    "explanation": "Hindi Meaning: बिना किसी विशेष तैयारी के करना"
+  },
+  {
+    "id": "IDIOM-158",
+    "chapter": "English",
+    "type": "Idioms",
+    "question": "What is the meaning of the idiom: \"Pour/Throw cold water\"?",
+    "options": {
+      "A": "To discourage by showing indifference",
+      "B": "Completely unexpectedly // Suddenly and without prior warning",
+      "C": "To ask for help when you don't need it // To raise a false alarm",
+      "D": "A very short distance"
+    },
+    "correct_option": "A",
+    "answer": "To discourage by showing indifference",
+    "explanation": "Hindi Meaning: पानी फेर देना (हतोत्साहित करना)"
+  },
+  {
+    "id": "IDIOM-159",
+    "chapter": "English",
+    "type": "Idioms",
+    "question": "What is the meaning of the idiom: \"To burn one's fingers\"?",
+    "options": {
+      "A": "Work very fast to complete something within a deadline // as fast as possible",
+      "B": "To suffer unpleasant consequences as a result of one's actions",
+      "C": "To destroy all relations // to make it impossible to return to the previous situation",
+      "D": "Ability to speak eloquently // Talks well and persuasively // Ability to convince"
+    },
+    "correct_option": "B",
+    "answer": "To suffer unpleasant consequences as a result of one's actions",
+    "explanation": "Hindi Meaning: अपने ही पैरों पर कुल्हाड़ी मारना"
+  },
+  {
+    "id": "IDIOM-160",
+    "chapter": "English",
+    "type": "Idioms",
+    "question": "What is the meaning of the idiom: \"To cry wolf\"?",
+    "options": {
+      "A": "Going above and beyond whatever is required for the task at hand",
+      "B": "To ask for help when you don't need it // To raise a false alarm",
+      "C": "Unsteady // irregularly",
+      "D": "No real choice at all // An apparently free choice where there is no real alternative"
+    },
+    "correct_option": "B",
+    "answer": "To ask for help when you don't need it // To raise a false alarm",
+    "explanation": "Hindi Meaning: झूठमूठ का शोर मचाना"
+  },
+  {
+    "id": "IDIOM-161",
+    "chapter": "English",
+    "type": "Idioms",
+    "question": "What is the meaning of the idiom: \"To go/run around in circles\"?",
+    "options": {
+      "A": "Rarely and infrequently // occasionally",
+      "B": "Cause of dispute/quarrel // Point of an argument",
+      "C": "To serve two purposes at one time // To achieve two results with a single effort",
+      "D": "To waste one's time and energy doing trivial things // Make no progress"
+    },
+    "correct_option": "D",
+    "answer": "To waste one's time and energy doing trivial things // Make no progress",
+    "explanation": "Hindi Meaning: फालतू काम में समय बर्बाद करना"
+  },
+  {
+    "id": "IDIOM-162",
+    "chapter": "English",
+    "type": "Idioms",
+    "question": "What is the meaning of the idiom: \"To keep the wolf away from the door\"?",
+    "options": {
+      "A": "To become uncontrollable // get out of control",
+      "B": "Disclose the secrets accidentally",
+      "C": "A profound or notable transformation // Complete transformation",
+      "D": "To keep off starvation"
+    },
+    "correct_option": "D",
+    "answer": "To keep off starvation",
+    "explanation": "Hindi Meaning: भुखमरी से बचना"
+  },
+  {
+    "id": "IDIOM-163",
+    "chapter": "English",
+    "type": "Idioms",
+    "question": "What is the meaning of the idiom: \"To make up one's mind\"?",
+    "options": {
+      "A": "To decide what to do // Decide firmly",
+      "B": "To prepare for sleep // to go to bed",
+      "C": "Suspect a trick or deceit // detected something wrong",
+      "D": "Permanently // forever"
+    },
+    "correct_option": "A",
+    "answer": "To decide what to do // Decide firmly",
+    "explanation": "Hindi Meaning: निश्चय करना"
+  },
+  {
+    "id": "IDIOM-164",
+    "chapter": "English",
+    "type": "Idioms",
+    "question": "What is the meaning of the idiom: \"To put a spoke in one's wheel\"?",
+    "options": {
+      "A": "To be upset for something that happened in the past // nurse a grudge // easily angered",
+      "B": "Interfering in affairs without having knowledge // A person who offers unsolicited advice",
+      "C": "No real choice at all // An apparently free choice where there is no real alternative",
+      "D": "To put a difficulty in the way of progress // thwarted in the execution of the plan"
+    },
+    "correct_option": "D",
+    "answer": "To put a difficulty in the way of progress // thwarted in the execution of the plan",
+    "explanation": "Hindi Meaning: टाँग अड़ाना (बाधा डालना)"
+  },
+  {
+    "id": "IDIOM-165",
+    "chapter": "English",
+    "type": "Idioms",
+    "question": "What is the meaning of the idiom: \"To take to task\"?",
+    "options": {
+      "A": "To perform well // To succeed",
+      "B": "Punished // to rebuke // to scold someone",
+      "C": "To have a very good sale // To sell quickly",
+      "D": "Every unpleasant situation has a positive side // Something promising in any difficult situation"
+    },
+    "correct_option": "B",
+    "answer": "Punished // to rebuke // to scold someone",
+    "explanation": "Hindi Meaning: कड़ी फटकार लगाना"
+  },
+  {
+    "id": "IDIOM-166",
+    "chapter": "English",
+    "type": "Idioms",
+    "question": "What is the meaning of the idiom: \"To turn over a new leaf\"?",
+    "options": {
+      "A": "To catch someone doing something illegal // Caught in the act",
+      "B": "Very neat, clean, or tidy",
+      "C": "To change one's behaviour for better // To begin again",
+      "D": "What you do is more important than what you say // Intentions can be judged by people's actions"
+    },
+    "correct_option": "C",
+    "answer": "To change one's behaviour for better // To begin again",
+    "explanation": "Hindi Meaning: नया जीवन शुरू करना"
+  },
+  {
+    "id": "IDIOM-167",
+    "chapter": "English",
+    "type": "Idioms",
+    "question": "What is the meaning of the idiom: \"A close-fisted person\"?",
+    "options": {
+      "A": "A miser",
+      "B": "Punished // to rebuke // to scold someone",
+      "C": "To become uncontrollable // get out of control",
+      "D": "Disregard // refused to obey // to be indifferent // neglect"
+    },
+    "correct_option": "A",
+    "answer": "A miser",
+    "explanation": "Hindi Meaning: कंजूस आदमी"
+  },
+  {
+    "id": "IDIOM-168",
+    "chapter": "English",
+    "type": "Idioms",
+    "question": "What is the meaning of the idiom: \"A sea change\"?",
+    "options": {
+      "A": "Interfering in affairs without having knowledge // A person who offers unsolicited advice",
+      "B": "In suspense and anxiety // anxious",
+      "C": "A profound or notable transformation // Complete transformation",
+      "D": "Take on more responsibility than one can handle"
+    },
+    "correct_option": "C",
+    "answer": "A profound or notable transformation // Complete transformation",
+    "explanation": "Hindi Meaning: पूर्ण परिवर्तन"
+  },
+  {
+    "id": "IDIOM-169",
+    "chapter": "English",
+    "type": "Idioms",
+    "question": "What is the meaning of the idiom: \"A wet blanket\"?",
+    "options": {
+      "A": "To be in a loss or debt // To owe money to a bank",
+      "B": "To destroy all relations // to make it impossible to return to the previous situation",
+      "C": "To become uncontrollable // get out of control",
+      "D": "A person who discourages enjoyment or enthusiasm // prevents other people from having fun"
+    },
+    "correct_option": "D",
+    "answer": "A person who discourages enjoyment or enthusiasm // prevents other people from having fun",
+    "explanation": "Hindi Meaning: मज़ा किरकिरा करने वाला"
+  },
+  {
+    "id": "IDIOM-170",
+    "chapter": "English",
+    "type": "Idioms",
+    "question": "What is the meaning of the idiom: \"Above board\"?",
+    "options": {
+      "A": "To catch someone doing something illegal // Caught in the act",
+      "B": "Honest and frank // without any secret",
+      "C": "To be angry // protesting vigorously about something // In rebellion",
+      "D": "Costly and troublesome possession useless to its owner"
+    },
+    "correct_option": "B",
+    "answer": "Honest and frank // without any secret",
+    "explanation": "Hindi Meaning: ईमानदार"
+  },
+  {
+    "id": "IDIOM-171",
+    "chapter": "English",
+    "type": "Idioms",
+    "question": "What is the meaning of the idiom: \"Achilles' heel\"?",
+    "options": {
+      "A": "Briefly and concisely // In a short, clear way // To describe in few words",
+      "B": "A weakness or vulnerable point",
+      "C": "Praise oneself // Talk boastfully about oneself // to boast about their achievements",
+      "D": "Proficient in literary art // Scholar // A well educated and a wise person"
+    },
+    "correct_option": "B",
+    "answer": "A weakness or vulnerable point",
+    "explanation": "Hindi Meaning: कमजोरी"
+  },
+  {
+    "id": "IDIOM-172",
+    "chapter": "English",
+    "type": "Idioms",
+    "question": "What is the meaning of the idiom: \"Against the clock\"?",
+    "options": {
+      "A": "Work very fast to complete something within a deadline // as fast as possible",
+      "B": "To further a loss with mockery to worsen an unfavourable situation",
+      "C": "To put a difficulty in the way of progress // thwarted in the execution of the plan",
+      "D": "To fail to produce intended effect // have no effect"
+    },
+    "correct_option": "A",
+    "answer": "Work very fast to complete something within a deadline // as fast as possible",
+    "explanation": "Hindi Meaning: बहुत तेजी से काम करना"
+  },
+  {
+    "id": "IDIOM-173",
+    "chapter": "English",
+    "type": "Idioms",
+    "question": "What is the meaning of the idiom: \"Be in the red\"?",
+    "options": {
+      "A": "To waste one's time and energy doing trivial things // Make no progress",
+      "B": "To be in a loss or debt // To owe money to a bank",
+      "C": "Don’t make plans based on events that have not yet happened",
+      "D": "Trying to do something in a way that will not work // accuse or denounce the wrong person"
+    },
+    "correct_option": "B",
+    "answer": "To be in a loss or debt // To owe money to a bank",
+    "explanation": "Hindi Meaning: हानि में होना"
+  },
+  {
+    "id": "IDIOM-174",
+    "chapter": "English",
+    "type": "Idioms",
+    "question": "What is the meaning of the idiom: \"Bed of roses\"?",
+    "options": {
+      "A": "A pleasant situation // An enjoyable state",
+      "B": "Reminds them of one’s father // someone similar in character or behaviour to one’s father",
+      "C": "Very expensive // A large amount of money",
+      "D": "Angry feeling // enmity // ill feeling // Hostility between people"
+    },
+    "correct_option": "A",
+    "answer": "A pleasant situation // An enjoyable state",
+    "explanation": "Hindi Meaning: सुखद स्थिति"
+  },
+  {
+    "id": "IDIOM-175",
+    "chapter": "English",
+    "type": "Idioms",
+    "question": "What is the meaning of the idiom: \"Birds of the same feather\"?",
+    "options": {
+      "A": "To return to the starting point // Having to start all over again",
+      "B": "Persons of same character or interests // similar in many ways",
+      "C": "Eats a lot of food",
+      "D": "At the very last moment // Just before the deadline"
+    },
+    "correct_option": "B",
+    "answer": "Persons of same character or interests // similar in many ways",
+    "explanation": "Hindi Meaning: एक ही थाली के चट्टे-बट्टे"
+  },
+  {
+    "id": "IDIOM-176",
+    "chapter": "English",
+    "type": "Idioms",
+    "question": "What is the meaning of the idiom: \"Bite the dust\"?",
+    "options": {
+      "A": "To do something without special preparation // To improvise",
+      "B": "To hope that things will happen in the way that you want them to // wish for good luck",
+      "C": "Listening intently // To be ready and eager to listen",
+      "D": "Suffer a defeat // to die"
+    },
+    "correct_option": "D",
+    "answer": "Suffer a defeat // to die",
+    "explanation": "Hindi Meaning: धूल चाटना (हार जाना)"
+  },
+  {
+    "id": "IDIOM-177",
+    "chapter": "English",
+    "type": "Idioms",
+    "question": "What is the meaning of the idiom: \"Carry the day\"?",
+    "options": {
+      "A": "An unexpected winner // someone who unexpectedly succeeds // an unknown entry // a competitor of unknown capabilities",
+      "B": "Going above and beyond whatever is required for the task at hand",
+      "C": "Take on more responsibility than one can handle",
+      "D": "win a victory // becomes the winner"
+    },
+    "correct_option": "D",
+    "answer": "win a victory // becomes the winner",
+    "explanation": "Hindi Meaning: जीत हासिल करना"
+  },
+  {
+    "id": "IDIOM-178",
+    "chapter": "English",
+    "type": "Idioms",
+    "question": "What is the meaning of the idiom: \"Catch a tartar\"?",
+    "options": {
+      "A": "To stop something at the start // To stop something before it has an opportunity to develop",
+      "B": "To deal with someone or something that proves unexpectedly troublesome or powerful",
+      "C": "A private interest to serve // To have an ulterior motive",
+      "D": "Extremely happy // in delight"
+    },
+    "correct_option": "B",
+    "answer": "To deal with someone or something that proves unexpectedly troublesome or powerful",
+    "explanation": "Hindi Meaning: अपने से बलवान से जा भिड़ना"
+  },
+  {
+    "id": "IDIOM-179",
+    "chapter": "English",
+    "type": "Idioms",
+    "question": "What is the meaning of the idiom: \"Cross that bridge when you come to it\"?",
+    "options": {
+      "A": "Deal with something only when necessary // deal with a problem when and if it arises",
+      "B": "Angry feeling // enmity // ill feeling // Hostility between people",
+      "C": "Trying to do something in a way that will not work // accuse or denounce the wrong person",
+      "D": "Hypocrite // a dangerous person pretending to be harmless"
+    },
+    "correct_option": "A",
+    "answer": "Deal with something only when necessary // deal with a problem when and if it arises",
+    "explanation": "Hindi Meaning: समस्या उत्पन्न होने पर ही निपटाना"
+  },
+  {
+    "id": "IDIOM-180",
+    "chapter": "English",
+    "type": "Idioms",
+    "question": "What is the meaning of the idiom: \"Cross your fingers\"?",
+    "options": {
+      "A": "To hope that things will happen in the way that you want them to // wish for good luck",
+      "B": "Eats a lot of food",
+      "C": "To experience nervousness or anxiety before one attempts to do something",
+      "D": "To become mentally deficient // Become insane"
+    },
+    "correct_option": "A",
+    "answer": "To hope that things will happen in the way that you want them to // wish for good luck",
+    "explanation": "Hindi Meaning: आशा करना कि चीजें सही होंगी"
+  },
+  {
+    "id": "IDIOM-181",
+    "chapter": "English",
+    "type": "Idioms",
+    "question": "What is the meaning of the idiom: \"Cry for the moon\"?",
+    "options": {
+      "A": "To make an impractical, unreasonable or unattainable request",
+      "B": "To be angry // protesting vigorously about something // In rebellion",
+      "C": "To decide what to do // Decide firmly",
+      "D": "To not feel well // To feel sick or unhealthy // To be in low spirits"
+    },
+    "correct_option": "A",
+    "answer": "To make an impractical, unreasonable or unattainable request",
+    "explanation": "Hindi Meaning: अव्यवहारिक अनुरोध करना"
+  },
+  {
+    "id": "IDIOM-182",
+    "chapter": "English",
+    "type": "Idioms",
+    "question": "What is the meaning of the idiom: \"Don’t judge a book by its cover\"?",
+    "options": {
+      "A": "To experience nervousness or anxiety before one attempts to do something",
+      "B": "We should not judge something primarily by its outward appearance",
+      "C": "To accept punishment for mistake // Get reprimanded // to bear the consequences // Accept the blame",
+      "D": "To be at a distance with someone // Avoid being friendly with someone"
+    },
+    "correct_option": "B",
+    "answer": "We should not judge something primarily by its outward appearance",
+    "explanation": "Hindi Meaning: केवल बाहरी दिखावे से नहीं आंकना"
+  },
+  {
+    "id": "IDIOM-183",
+    "chapter": "English",
+    "type": "Idioms",
+    "question": "What is the meaning of the idiom: \"Donkey’s years\"?",
+    "options": {
+      "A": "To hope that things will happen in the way that you want them to // wish for good luck",
+      "B": "To have a very good sale // To sell quickly",
+      "C": "A very long time",
+      "D": "To be given the same treatment that you have given to others"
+    },
+    "correct_option": "C",
+    "answer": "A very long time",
+    "explanation": "Hindi Meaning: बहुत लंबा समय"
+  },
+  {
+    "id": "IDIOM-184",
+    "chapter": "English",
+    "type": "Idioms",
+    "question": "What is the meaning of the idiom: \"Easier said than done\"?",
+    "options": {
+      "A": "To waste one's time and energy doing trivial things // Make no progress",
+      "B": "To ask for help when you don't need it // To raise a false alarm",
+      "C": "Be more easily talked about than put into practice",
+      "D": "Persons of same character or interests // similar in many ways"
+    },
+    "correct_option": "C",
+    "answer": "Be more easily talked about than put into practice",
+    "explanation": "Hindi Meaning: कहना आसान है करना मुश्किल"
+  },
+  {
+    "id": "IDIOM-185",
+    "chapter": "English",
+    "type": "Idioms",
+    "question": "What is the meaning of the idiom: \"Fall flat\"?",
+    "options": {
+      "A": "Persons of same character or interests // similar in many ways",
+      "B": "Take on more responsibility than one can handle",
+      "C": "To fail to produce intended effect // have no effect",
+      "D": "Briefly and concisely // In a short, clear way // To describe in few words"
+    },
+    "correct_option": "C",
+    "answer": "To fail to produce intended effect // have no effect",
+    "explanation": "Hindi Meaning: असफल होना"
+  },
+  {
+    "id": "IDIOM-186",
+    "chapter": "English",
+    "type": "Idioms",
+    "question": "What is the meaning of the idiom: \"Feather in one’s cap\"?",
+    "options": {
+      "A": "A new and additional distinction // an accomplishment to be proud of",
+      "B": "To deal with someone or something that proves unexpectedly troublesome or powerful",
+      "C": "Avoiding the main topic // Speak in a round-about manner // speaking vaguely to avoid talking about it",
+      "D": "Costly and troublesome possession useless to its owner"
+    },
+    "correct_option": "A",
+    "answer": "A new and additional distinction // an accomplishment to be proud of",
+    "explanation": "Hindi Meaning: योग्य उपलब्धि (गर्व करने योग्य)"
+  },
+  {
+    "id": "IDIOM-187",
+    "chapter": "English",
+    "type": "Idioms",
+    "question": "What is the meaning of the idiom: \"Forty winks\"?",
+    "options": {
+      "A": "To accept punishment for mistake // Get reprimanded // to bear the consequences // Accept the blame",
+      "B": "To fix a limit // To stop before a point where something okay gets not okay",
+      "C": "To save money, time or effort when doing something by not including some parts",
+      "D": "A short nap/sleep during the day"
+    },
+    "correct_option": "D",
+    "answer": "A short nap/sleep during the day",
+    "explanation": "Hindi Meaning: झपकी"
+  },
+  {
+    "id": "IDIOM-188",
+    "chapter": "English",
+    "type": "Idioms",
+    "question": "What is the meaning of the idiom: \"From rags to riches\"?",
+    "options": {
+      "A": "A deception // A pretence",
+      "B": "A person who discourages enjoyment or enthusiasm // prevents other people from having fun",
+      "C": "To go from very poor to being very wealthy",
+      "D": "Eats a lot of food"
+    },
+    "correct_option": "C",
+    "answer": "To go from very poor to being very wealthy",
+    "explanation": "Hindi Meaning: रंक से राजा होना"
+  },
+  {
+    "id": "IDIOM-189",
+    "chapter": "English",
+    "type": "Idioms",
+    "question": "What is the meaning of the idiom: \"Get on somebody's nerves\"?",
+    "options": {
+      "A": "To be an irritant // annoys me",
+      "B": "To attempt to do the impossible // waste energy on an unalterable situation // a futile effort",
+      "C": "To complain about a loss from the past // Feeling sorry over a mistake that cannot be changed or rectified",
+      "D": "To be given the same treatment that you have given to others"
+    },
+    "correct_option": "A",
+    "answer": "To be an irritant // annoys me",
+    "explanation": "Hindi Meaning: किसी का दिमाग खराब करना"
+  },
+  {
+    "id": "IDIOM-190",
+    "chapter": "English",
+    "type": "Idioms",
+    "question": "What is the meaning of the idiom: \"Give a piece of one's mind\"?",
+    "options": {
+      "A": "The biggest and best part of a whole // The greatest and most desirable portion",
+      "B": "Suspect a trick or deceit // detected something wrong",
+      "C": "To politely ask for someone's full attention // to pay attention to",
+      "D": "To rebuke someone strongly // speaking sharply // scolding"
+    },
+    "correct_option": "D",
+    "answer": "To rebuke someone strongly // speaking sharply // scolding",
+    "explanation": "Hindi Meaning: डाँटना"
+  },
+  {
+    "id": "IDIOM-191",
+    "chapter": "English",
+    "type": "Idioms",
+    "question": "What is the meaning of the idiom: \"Go down like a lead balloon\"?",
+    "options": {
+      "A": "To hope that things will happen in the way that you want them to // wish for good luck",
+      "B": "To decide what to do // Decide firmly",
+      "C": "To be received badly by an audience",
+      "D": "Support under all circumstances // in times of good and bad fortune"
+    },
+    "correct_option": "C",
+    "answer": "To be received badly by an audience",
+    "explanation": "Hindi Meaning: पूरी तरह से विफल होना"
+  },
+  {
+    "id": "IDIOM-192",
+    "chapter": "English",
+    "type": "Idioms",
+    "question": "What is the meaning of the idiom: \"Go to the dogs\"?",
+    "options": {
+      "A": "To be ruined // Deteriorate shockingly",
+      "B": "Big fuss over a small matter // A lot of anger/excitement over trivial things",
+      "C": "To waste one's time and energy doing trivial things // Make no progress",
+      "D": "To put a difficulty in the way of progress // thwarted in the execution of the plan"
+    },
+    "correct_option": "A",
+    "answer": "To be ruined // Deteriorate shockingly",
+    "explanation": "Hindi Meaning: बर्बाद हो जाना"
+  },
+  {
+    "id": "IDIOM-193",
+    "chapter": "English",
+    "type": "Idioms",
+    "question": "What is the meaning of the idiom: \"Green thumb\"?",
+    "options": {
+      "A": "To have a natural interest in gardening",
+      "B": "Proficient in literary art // Scholar // A well educated and a wise person",
+      "C": "In a precarious/dangerous or risky situation",
+      "D": "To watch someone or something carefully // To be cautious"
+    },
+    "correct_option": "A",
+    "answer": "To have a natural interest in gardening",
+    "explanation": "Hindi Meaning: बागवानी में रुचि"
+  },
+  {
+    "id": "IDIOM-194",
+    "chapter": "English",
+    "type": "Idioms",
+    "question": "What is the meaning of the idiom: \"Hue and cry\"?",
+    "options": {
+      "A": "A short nap/sleep during the day",
+      "B": "Decide or agree to stop doing something // to give up work and go back to home",
+      "C": "A noisy expression of anger // Protest // loud clamour",
+      "D": "Don’t make plans based on events that have not yet happened"
+    },
+    "correct_option": "C",
+    "answer": "A noisy expression of anger // Protest // loud clamour",
+    "explanation": "Hindi Meaning: कोलाहल"
+  },
+  {
+    "id": "IDIOM-195",
+    "chapter": "English",
+    "type": "Idioms",
+    "question": "What is the meaning of the idiom: \"Ill at ease\"?",
+    "options": {
+      "A": "To bribe discreetly // to bribe someone",
+      "B": "to feel uncomfortable or worried in a situation",
+      "C": "Hypocrite // a dangerous person pretending to be harmless",
+      "D": "To catch someone doing something illegal // Caught in the act"
+    },
+    "correct_option": "B",
+    "answer": "to feel uncomfortable or worried in a situation",
+    "explanation": "Hindi Meaning: असहज होना"
+  },
+  {
+    "id": "IDIOM-196",
+    "chapter": "English",
+    "type": "Idioms",
+    "question": "What is the meaning of the idiom: \"Learn/Know the ropes\"?",
+    "options": {
+      "A": "To deal with someone or something that proves unexpectedly troublesome or powerful",
+      "B": "To perform well // To succeed",
+      "C": "Learn to do particular jobs // Be informed about the details",
+      "D": "To waste one's time and energy doing trivial things // Make no progress"
+    },
+    "correct_option": "C",
+    "answer": "Learn to do particular jobs // Be informed about the details",
+    "explanation": "Hindi Meaning: काम के तरीके समझना"
+  },
+  {
+    "id": "IDIOM-197",
+    "chapter": "English",
+    "type": "Idioms",
+    "question": "What is the meaning of the idiom: \"Lend me your ear\"?",
+    "options": {
+      "A": "To handle difficulties // To deal with a difficult or danger situation in a very direct or confident way",
+      "B": "One who is not accepted as part of a family or group because of bad conduct",
+      "C": "In the same unpleasant or difficult situation",
+      "D": "To politely ask for someone's full attention // to pay attention to"
+    },
+    "correct_option": "D",
+    "answer": "To politely ask for someone's full attention // to pay attention to",
+    "explanation": "Hindi Meaning: कान लगाकर सुनना"
+  },
+  {
+    "id": "IDIOM-198",
+    "chapter": "English",
+    "type": "Idioms",
+    "question": "What is the meaning of the idiom: \"Lose your marbles\"?",
+    "options": {
+      "A": "To become mentally deficient // Become insane",
+      "B": "To handle difficulties // To deal with a difficult or danger situation in a very direct or confident way",
+      "C": "To follow popular trends // Get involved in an activity because it is likely to succeed",
+      "D": "To attempt to do the impossible // waste energy on an unalterable situation // a futile effort"
+    },
+    "correct_option": "A",
+    "answer": "To become mentally deficient // Become insane",
+    "explanation": "Hindi Meaning: पागल हो जाना"
+  },
+  {
+    "id": "IDIOM-199",
+    "chapter": "English",
+    "type": "Idioms",
+    "question": "What is the meaning of the idiom: \"On thin ice\"?",
+    "options": {
+      "A": "An apparent misfortune that eventually has good results // A hidden favour",
+      "B": "Leave someone in a helpless condition // desert someone in his difficulties",
+      "C": "Completely unexpectedly // Suddenly and without prior warning",
+      "D": "In a precarious/dangerous or risky situation"
+    },
+    "correct_option": "D",
+    "answer": "In a precarious/dangerous or risky situation",
+    "explanation": "Hindi Meaning: जोखिम भरी स्थिति में"
+  }
+]

@@ -1,0 +1,2972 @@
+[
+  {
+    "id": "SYNO-0",
+    "chapter": "English",
+    "type": "Synonyms",
+    "question": "What is a synonym for \"Abandon\"?",
+    "options": {
+      "A": "Discord",
+      "B": "Respect",
+      "C": "Desert",
+      "D": "Disturbed"
+    },
+    "correct_option": "C",
+    "answer": "Desert",
+    "explanation": "Hindi: छोड़ देना"
+  },
+  {
+    "id": "ANTO-0",
+    "chapter": "English",
+    "type": "Antonyms",
+    "question": "What is an antonym for \"Abandon\"?",
+    "options": {
+      "A": "Meticulous",
+      "B": "Agitation",
+      "C": "Retain",
+      "D": "Eager"
+    },
+    "correct_option": "C",
+    "answer": "Retain",
+    "explanation": "Hindi: छोड़ देना"
+  },
+  {
+    "id": "SYNO-1",
+    "chapter": "English",
+    "type": "Synonyms",
+    "question": "What is a synonym for \"Abundant\"?",
+    "options": {
+      "A": "Plentiful",
+      "B": "Quiet",
+      "C": "Demure",
+      "D": "Seemingly"
+    },
+    "correct_option": "A",
+    "answer": "Plentiful",
+    "explanation": "Hindi: प्रचुर"
+  },
+  {
+    "id": "ANTO-1",
+    "chapter": "English",
+    "type": "Antonyms",
+    "question": "What is an antonym for \"Abundant\"?",
+    "options": {
+      "A": "Conceited",
+      "B": "Cordial",
+      "C": "Meagre",
+      "D": "Conscientious"
+    },
+    "correct_option": "C",
+    "answer": "Meagre",
+    "explanation": "Hindi: प्रचुर"
+  },
+  {
+    "id": "SYNO-2",
+    "chapter": "English",
+    "type": "Synonyms",
+    "question": "What is a synonym for \"Timid\"?",
+    "options": {
+      "A": "Puzzle",
+      "B": "Desolate",
+      "C": "Demure",
+      "D": "Coward"
+    },
+    "correct_option": "D",
+    "answer": "Coward",
+    "explanation": "Hindi: डरपोक"
+  },
+  {
+    "id": "ANTO-2",
+    "chapter": "English",
+    "type": "Antonyms",
+    "question": "What is an antonym for \"Timid\"?",
+    "options": {
+      "A": "Frequent",
+      "B": "Brave",
+      "C": "Scholarly",
+      "D": "Unproductive"
+    },
+    "correct_option": "B",
+    "answer": "Brave",
+    "explanation": "Hindi: डरपोक"
+  },
+  {
+    "id": "SYNO-3",
+    "chapter": "English",
+    "type": "Synonyms",
+    "question": "What is a synonym for \"Candid\"?",
+    "options": {
+      "A": "Disturbed",
+      "B": "Dissuade",
+      "C": "Frank",
+      "D": "Fake"
+    },
+    "correct_option": "C",
+    "answer": "Frank",
+    "explanation": "Hindi: निष्कपट, स्पष्ट"
+  },
+  {
+    "id": "ANTO-3",
+    "chapter": "English",
+    "type": "Antonyms",
+    "question": "What is an antonym for \"Candid\"?",
+    "options": {
+      "A": "Devious",
+      "B": "Optimism",
+      "C": "Pursue",
+      "D": "Radiant"
+    },
+    "correct_option": "A",
+    "answer": "Devious",
+    "explanation": "Hindi: निष्कपट, स्पष्ट"
+  },
+  {
+    "id": "SYNO-4",
+    "chapter": "English",
+    "type": "Synonyms",
+    "question": "What is a synonym for \"Barren\"?",
+    "options": {
+      "A": "Unproductive",
+      "B": "Stable",
+      "C": "Disappear",
+      "D": "Hatred"
+    },
+    "correct_option": "A",
+    "answer": "Unproductive",
+    "explanation": "Hindi: बांझ"
+  },
+  {
+    "id": "ANTO-4",
+    "chapter": "English",
+    "type": "Antonyms",
+    "question": "What is an antonym for \"Barren\"?",
+    "options": {
+      "A": "Wise",
+      "B": "Fertile",
+      "C": "Bondage",
+      "D": "Ridiculous"
+    },
+    "correct_option": "B",
+    "answer": "Fertile",
+    "explanation": "Hindi: बांझ"
+  },
+  {
+    "id": "SYNO-5",
+    "chapter": "English",
+    "type": "Synonyms",
+    "question": "What is a synonym for \"Dubious\"?",
+    "options": {
+      "A": "Doubtful",
+      "B": "Entice",
+      "C": "Unreasonable",
+      "D": "Wasteful"
+    },
+    "correct_option": "A",
+    "answer": "Doubtful",
+    "explanation": "Hindi: संदिग्ध"
+  },
+  {
+    "id": "ANTO-5",
+    "chapter": "English",
+    "type": "Antonyms",
+    "question": "What is an antonym for \"Dubious\"?",
+    "options": {
+      "A": "Likely",
+      "B": "Diminish",
+      "C": "Defenceless",
+      "D": "Niggard"
+    },
+    "correct_option": "A",
+    "answer": "Likely",
+    "explanation": "Hindi: संदिग्ध"
+  },
+  {
+    "id": "SYNO-6",
+    "chapter": "English",
+    "type": "Synonyms",
+    "question": "What is a synonym for \"Feeble\"?",
+    "options": {
+      "A": "Irritate",
+      "B": "Averse",
+      "C": "Weak",
+      "D": "Merciless"
+    },
+    "correct_option": "C",
+    "answer": "Weak",
+    "explanation": "Hindi: कमजोर"
+  },
+  {
+    "id": "ANTO-6",
+    "chapter": "English",
+    "type": "Antonyms",
+    "question": "What is an antonym for \"Feeble\"?",
+    "options": {
+      "A": "Resist",
+      "B": "Strong",
+      "C": "Luxurious",
+      "D": "Idle"
+    },
+    "correct_option": "B",
+    "answer": "Strong",
+    "explanation": "Hindi: कमजोर"
+  },
+  {
+    "id": "SYNO-7",
+    "chapter": "English",
+    "type": "Synonyms",
+    "question": "What is a synonym for \"Frugal/Frugality\"?",
+    "options": {
+      "A": "Confusion",
+      "B": "Bizarre",
+      "C": "Economical",
+      "D": "Intensify"
+    },
+    "correct_option": "C",
+    "answer": "Economical",
+    "explanation": "Hindi: अल्पव्ययी"
+  },
+  {
+    "id": "ANTO-7",
+    "chapter": "English",
+    "type": "Antonyms",
+    "question": "What is an antonym for \"Frugal/Frugality\"?",
+    "options": {
+      "A": "Eager",
+      "B": "Falsify",
+      "C": "Extravagant",
+      "D": "Vacillating"
+    },
+    "correct_option": "C",
+    "answer": "Extravagant",
+    "explanation": "Hindi: अल्पव्ययी"
+  },
+  {
+    "id": "SYNO-8",
+    "chapter": "English",
+    "type": "Synonyms",
+    "question": "What is a synonym for \"Spurious\"?",
+    "options": {
+      "A": "Extravagant",
+      "B": "Brutal",
+      "C": "Fake",
+      "D": "Discontinue"
+    },
+    "correct_option": "C",
+    "answer": "Fake",
+    "explanation": "Hindi: जाली"
+  },
+  {
+    "id": "ANTO-8",
+    "chapter": "English",
+    "type": "Antonyms",
+    "question": "What is an antonym for \"Spurious\"?",
+    "options": {
+      "A": "Normal",
+      "B": "At Risk",
+      "C": "Authentic",
+      "D": "Desert"
+    },
+    "correct_option": "C",
+    "answer": "Authentic",
+    "explanation": "Hindi: जाली"
+  },
+  {
+    "id": "SYNO-9",
+    "chapter": "English",
+    "type": "Synonyms",
+    "question": "What is a synonym for \"Absurd\"?",
+    "options": {
+      "A": "Ridiculous",
+      "B": "Kind",
+      "C": "Bold",
+      "D": "Prevent"
+    },
+    "correct_option": "A",
+    "answer": "Ridiculous",
+    "explanation": "Hindi: बेतुका"
+  },
+  {
+    "id": "ANTO-9",
+    "chapter": "English",
+    "type": "Antonyms",
+    "question": "What is an antonym for \"Absurd\"?",
+    "options": {
+      "A": "Real",
+      "B": "Sensible",
+      "C": "Normal",
+      "D": "Ameliorate"
+    },
+    "correct_option": "B",
+    "answer": "Sensible",
+    "explanation": "Hindi: बेतुका"
+  },
+  {
+    "id": "SYNO-10",
+    "chapter": "English",
+    "type": "Synonyms",
+    "question": "What is a synonym for \"Baffle\"?",
+    "options": {
+      "A": "Gloomy",
+      "B": "Gratify",
+      "C": "Puzzle",
+      "D": "Elation"
+    },
+    "correct_option": "C",
+    "answer": "Puzzle",
+    "explanation": "Hindi: चकित करना"
+  },
+  {
+    "id": "ANTO-10",
+    "chapter": "English",
+    "type": "Antonyms",
+    "question": "What is an antonym for \"Baffle\"?",
+    "options": {
+      "A": "Sober",
+      "B": "Vague",
+      "C": "Pompous",
+      "D": "Composed"
+    },
+    "correct_option": "D",
+    "answer": "Composed",
+    "explanation": "Hindi: चकित करना"
+  },
+  {
+    "id": "SYNO-11",
+    "chapter": "English",
+    "type": "Synonyms",
+    "question": "What is a synonym for \"Colossal\"?",
+    "options": {
+      "A": "Enormous",
+      "B": "Brave",
+      "C": "Destitution",
+      "D": "Minor"
+    },
+    "correct_option": "A",
+    "answer": "Enormous",
+    "explanation": "Hindi: विशाल"
+  },
+  {
+    "id": "ANTO-11",
+    "chapter": "English",
+    "type": "Antonyms",
+    "question": "What is an antonym for \"Colossal\"?",
+    "options": {
+      "A": "Deters",
+      "B": "Reproach",
+      "C": "Assiduous",
+      "D": "Small"
+    },
+    "correct_option": "D",
+    "answer": "Small",
+    "explanation": "Hindi: विशाल"
+  },
+  {
+    "id": "SYNO-12",
+    "chapter": "English",
+    "type": "Synonyms",
+    "question": "What is a synonym for \"Diligent\"?",
+    "options": {
+      "A": "Allay",
+      "B": "Industrious",
+      "C": "Short",
+      "D": "Fraudulent"
+    },
+    "correct_option": "B",
+    "answer": "Industrious",
+    "explanation": "Hindi: परिश्रमी"
+  },
+  {
+    "id": "ANTO-12",
+    "chapter": "English",
+    "type": "Antonyms",
+    "question": "What is an antonym for \"Diligent\"?",
+    "options": {
+      "A": "Lazy",
+      "B": "Economical",
+      "C": "Meagre",
+      "D": "Venturesome"
+    },
+    "correct_option": "A",
+    "answer": "Lazy",
+    "explanation": "Hindi: परिश्रमी"
+  },
+  {
+    "id": "SYNO-13",
+    "chapter": "English",
+    "type": "Synonyms",
+    "question": "What is a synonym for \"Harmony\"?",
+    "options": {
+      "A": "Consensus",
+      "B": "Willing",
+      "C": "Conceited",
+      "D": "Verdant"
+    },
+    "correct_option": "A",
+    "answer": "Consensus",
+    "explanation": "Hindi: सामंजस्य"
+  },
+  {
+    "id": "ANTO-13",
+    "chapter": "English",
+    "type": "Antonyms",
+    "question": "What is an antonym for \"Harmony\"?",
+    "options": {
+      "A": "Expert",
+      "B": "Deceitful",
+      "C": "Meek",
+      "D": "Strife"
+    },
+    "correct_option": "D",
+    "answer": "Strife",
+    "explanation": "Hindi: सामंजस्य"
+  },
+  {
+    "id": "SYNO-14",
+    "chapter": "English",
+    "type": "Synonyms",
+    "question": "What is a synonym for \"Eccentric\"?",
+    "options": {
+      "A": "Cunning",
+      "B": "Vague",
+      "C": "Miss",
+      "D": "Queer"
+    },
+    "correct_option": "D",
+    "answer": "Queer",
+    "explanation": "Hindi: विचित्र, सनकी"
+  },
+  {
+    "id": "ANTO-14",
+    "chapter": "English",
+    "type": "Antonyms",
+    "question": "What is an antonym for \"Eccentric\"?",
+    "options": {
+      "A": "Certain",
+      "B": "Haughty",
+      "C": "Customary",
+      "D": "Exaggerate"
+    },
+    "correct_option": "C",
+    "answer": "Customary",
+    "explanation": "Hindi: विचित्र, सनकी"
+  },
+  {
+    "id": "SYNO-15",
+    "chapter": "English",
+    "type": "Synonyms",
+    "question": "What is a synonym for \"Mitigate\"?",
+    "options": {
+      "A": "Stingy",
+      "B": "Lessen",
+      "C": "Formalize",
+      "D": "Ill-Tempered"
+    },
+    "correct_option": "B",
+    "answer": "Lessen",
+    "explanation": "Hindi: कम करना"
+  },
+  {
+    "id": "ANTO-15",
+    "chapter": "English",
+    "type": "Antonyms",
+    "question": "What is an antonym for \"Mitigate\"?",
+    "options": {
+      "A": "Autarchy",
+      "B": "Strife",
+      "C": "Calm",
+      "D": "Enhance"
+    },
+    "correct_option": "D",
+    "answer": "Enhance",
+    "explanation": "Hindi: कम करना"
+  },
+  {
+    "id": "SYNO-16",
+    "chapter": "English",
+    "type": "Synonyms",
+    "question": "What is a synonym for \"Trivial\"?",
+    "options": {
+      "A": "Soft",
+      "B": "Superficial",
+      "C": "Crude",
+      "D": "Spite"
+    },
+    "correct_option": "B",
+    "answer": "Superficial",
+    "explanation": "Hindi: तुच्छ"
+  },
+  {
+    "id": "ANTO-16",
+    "chapter": "English",
+    "type": "Antonyms",
+    "question": "What is an antonym for \"Trivial\"?",
+    "options": {
+      "A": "Modest",
+      "B": "Delicate",
+      "C": "Unassuming",
+      "D": "Profound"
+    },
+    "correct_option": "D",
+    "answer": "Profound",
+    "explanation": "Hindi: तुच्छ"
+  },
+  {
+    "id": "SYNO-17",
+    "chapter": "English",
+    "type": "Synonyms",
+    "question": "What is a synonym for \"Coarse\"?",
+    "options": {
+      "A": "Eager",
+      "B": "Rough",
+      "C": "Clear",
+      "D": "Ameliorate"
+    },
+    "correct_option": "B",
+    "answer": "Rough",
+    "explanation": "Hindi: खुरदुरा, अशोधित"
+  },
+  {
+    "id": "ANTO-17",
+    "chapter": "English",
+    "type": "Antonyms",
+    "question": "What is an antonym for \"Coarse\"?",
+    "options": {
+      "A": "Solemn",
+      "B": "Calm",
+      "C": "Dubious",
+      "D": "Smooth"
+    },
+    "correct_option": "D",
+    "answer": "Smooth",
+    "explanation": "Hindi: खुरदुरा, अशोधित"
+  },
+  {
+    "id": "SYNO-18",
+    "chapter": "English",
+    "type": "Synonyms",
+    "question": "What is a synonym for \"Sporadic\"?",
+    "options": {
+      "A": "Disturbed",
+      "B": "Enhance",
+      "C": "Peaceful",
+      "D": "Scattered"
+    },
+    "correct_option": "D",
+    "answer": "Scattered",
+    "explanation": "Hindi: छिटपुट"
+  },
+  {
+    "id": "ANTO-18",
+    "chapter": "English",
+    "type": "Antonyms",
+    "question": "What is an antonym for \"Sporadic\"?",
+    "options": {
+      "A": "Dreary",
+      "B": "Haughty",
+      "C": "Overstate",
+      "D": "Systematic"
+    },
+    "correct_option": "D",
+    "answer": "Systematic",
+    "explanation": "Hindi: छिटपुट"
+  },
+  {
+    "id": "SYNO-19",
+    "chapter": "English",
+    "type": "Synonyms",
+    "question": "What is a synonym for \"Transient\"?",
+    "options": {
+      "A": "Amend",
+      "B": "Diminish",
+      "C": "Transitory",
+      "D": "Sensible"
+    },
+    "correct_option": "C",
+    "answer": "Transitory",
+    "explanation": "Hindi: क्षणिक"
+  },
+  {
+    "id": "ANTO-19",
+    "chapter": "English",
+    "type": "Antonyms",
+    "question": "What is an antonym for \"Transient\"?",
+    "options": {
+      "A": "Bold",
+      "B": "Permanent",
+      "C": "Humanitarian",
+      "D": "Sophisticated"
+    },
+    "correct_option": "B",
+    "answer": "Permanent",
+    "explanation": "Hindi: क्षणिक"
+  },
+  {
+    "id": "SYNO-20",
+    "chapter": "English",
+    "type": "Synonyms",
+    "question": "What is a synonym for \"Apparent\"?",
+    "options": {
+      "A": "Greedy",
+      "B": "Courage",
+      "C": "Obvious",
+      "D": "Sensible"
+    },
+    "correct_option": "C",
+    "answer": "Obvious",
+    "explanation": "Hindi: स्पष्ट"
+  },
+  {
+    "id": "ANTO-20",
+    "chapter": "English",
+    "type": "Antonyms",
+    "question": "What is an antonym for \"Apparent\"?",
+    "options": {
+      "A": "Snippy",
+      "B": "Ambiguous",
+      "C": "Modesty",
+      "D": "Extrovert"
+    },
+    "correct_option": "B",
+    "answer": "Ambiguous",
+    "explanation": "Hindi: स्पष्ट"
+  },
+  {
+    "id": "SYNO-21",
+    "chapter": "English",
+    "type": "Synonyms",
+    "question": "What is a synonym for \"Benevolent\"?",
+    "options": {
+      "A": "Gullible",
+      "B": "Selfish",
+      "C": "Plentiful",
+      "D": "Kind"
+    },
+    "correct_option": "D",
+    "answer": "Kind",
+    "explanation": "Hindi: परोपकारी"
+  },
+  {
+    "id": "ANTO-21",
+    "chapter": "English",
+    "type": "Antonyms",
+    "question": "What is an antonym for \"Benevolent\"?",
+    "options": {
+      "A": "Selfish",
+      "B": "Lucid",
+      "C": "Pleasant",
+      "D": "Malevolent"
+    },
+    "correct_option": "D",
+    "answer": "Malevolent",
+    "explanation": "Hindi: परोपकारी"
+  },
+  {
+    "id": "SYNO-22",
+    "chapter": "English",
+    "type": "Synonyms",
+    "question": "What is a synonym for \"Clandestine\"?",
+    "options": {
+      "A": "Retain",
+      "B": "Secret",
+      "C": "Insulting",
+      "D": "Cunning"
+    },
+    "correct_option": "B",
+    "answer": "Secret",
+    "explanation": "Hindi: गुप्त"
+  },
+  {
+    "id": "ANTO-22",
+    "chapter": "English",
+    "type": "Antonyms",
+    "question": "What is an antonym for \"Clandestine\"?",
+    "options": {
+      "A": "Docile",
+      "B": "Watchful",
+      "C": "Grim",
+      "D": "Open"
+    },
+    "correct_option": "D",
+    "answer": "Open",
+    "explanation": "Hindi: गुप्त"
+  },
+  {
+    "id": "SYNO-23",
+    "chapter": "English",
+    "type": "Synonyms",
+    "question": "What is a synonym for \"Gloomy\"?",
+    "options": {
+      "A": "Effective",
+      "B": "Modest",
+      "C": "Murky",
+      "D": "Construct"
+    },
+    "correct_option": "C",
+    "answer": "Murky",
+    "explanation": "Hindi: उदास"
+  },
+  {
+    "id": "ANTO-23",
+    "chapter": "English",
+    "type": "Antonyms",
+    "question": "What is an antonym for \"Gloomy\"?",
+    "options": {
+      "A": "Straightforward",
+      "B": "Meagreness",
+      "C": "Bright",
+      "D": "Moderate"
+    },
+    "correct_option": "C",
+    "answer": "Bright",
+    "explanation": "Hindi: उदास"
+  },
+  {
+    "id": "SYNO-24",
+    "chapter": "English",
+    "type": "Synonyms",
+    "question": "What is a synonym for \"Morose\"?",
+    "options": {
+      "A": "Copious",
+      "B": "Transitory",
+      "C": "Nervous",
+      "D": "Gloomy"
+    },
+    "correct_option": "D",
+    "answer": "Gloomy",
+    "explanation": "Hindi: उदास"
+  },
+  {
+    "id": "ANTO-24",
+    "chapter": "English",
+    "type": "Antonyms",
+    "question": "What is an antonym for \"Morose\"?",
+    "options": {
+      "A": "Cheerful",
+      "B": "Unproductive",
+      "C": "Peaceful",
+      "D": "Shallow"
+    },
+    "correct_option": "A",
+    "answer": "Cheerful",
+    "explanation": "Hindi: उदास"
+  },
+  {
+    "id": "SYNO-25",
+    "chapter": "English",
+    "type": "Synonyms",
+    "question": "What is a synonym for \"Obscure\"?",
+    "options": {
+      "A": "Brief",
+      "B": "Uncertain",
+      "C": "Spite",
+      "D": "Frugal"
+    },
+    "correct_option": "B",
+    "answer": "Uncertain",
+    "explanation": "Hindi: अस्पष्ट"
+  },
+  {
+    "id": "ANTO-25",
+    "chapter": "English",
+    "type": "Antonyms",
+    "question": "What is an antonym for \"Obscure\"?",
+    "options": {
+      "A": "Inattentive",
+      "B": "Confident",
+      "C": "Clear",
+      "D": "Compress"
+    },
+    "correct_option": "C",
+    "answer": "Clear",
+    "explanation": "Hindi: अस्पष्ट"
+  },
+  {
+    "id": "SYNO-26",
+    "chapter": "English",
+    "type": "Synonyms",
+    "question": "What is a synonym for \"Perilous\"?",
+    "options": {
+      "A": "Scarcity",
+      "B": "Arcane",
+      "C": "Hazardous",
+      "D": "Bluff"
+    },
+    "correct_option": "C",
+    "answer": "Hazardous",
+    "explanation": "Hindi: खतरनाक"
+  },
+  {
+    "id": "ANTO-26",
+    "chapter": "English",
+    "type": "Antonyms",
+    "question": "What is an antonym for \"Perilous\"?",
+    "options": {
+      "A": "Safe",
+      "B": "Bold",
+      "C": "Discord",
+      "D": "Miserly"
+    },
+    "correct_option": "A",
+    "answer": "Safe",
+    "explanation": "Hindi: खतरनाक"
+  },
+  {
+    "id": "SYNO-27",
+    "chapter": "English",
+    "type": "Synonyms",
+    "question": "What is a synonym for \"Authentic\"?",
+    "options": {
+      "A": "Persistent",
+      "B": "Certain",
+      "C": "Malignant",
+      "D": "Idle"
+    },
+    "correct_option": "B",
+    "answer": "Certain",
+    "explanation": "Hindi: विश्वसनीय"
+  },
+  {
+    "id": "ANTO-27",
+    "chapter": "English",
+    "type": "Antonyms",
+    "question": "What is an antonym for \"Authentic\"?",
+    "options": {
+      "A": "Sympathy",
+      "B": "Arcane",
+      "C": "False",
+      "D": "Dereliction"
+    },
+    "correct_option": "C",
+    "answer": "False",
+    "explanation": "Hindi: विश्वसनीय"
+  },
+  {
+    "id": "SYNO-28",
+    "chapter": "English",
+    "type": "Synonyms",
+    "question": "What is a synonym for \"Awkward\"?",
+    "options": {
+      "A": "Clumsy",
+      "B": "Uplifted",
+      "C": "Aggravate",
+      "D": "Forsake"
+    },
+    "correct_option": "A",
+    "answer": "Clumsy",
+    "explanation": "Hindi: बेढंगा"
+  },
+  {
+    "id": "ANTO-28",
+    "chapter": "English",
+    "type": "Antonyms",
+    "question": "What is an antonym for \"Awkward\"?",
+    "options": {
+      "A": "Humble",
+      "B": "Careless",
+      "C": "Freedom",
+      "D": "Convenient"
+    },
+    "correct_option": "D",
+    "answer": "Convenient",
+    "explanation": "Hindi: बेढंगा"
+  },
+  {
+    "id": "SYNO-29",
+    "chapter": "English",
+    "type": "Synonyms",
+    "question": "What is a synonym for \"Conceal\"?",
+    "options": {
+      "A": "Nervous",
+      "B": "Selfish",
+      "C": "Radiant",
+      "D": "Hide"
+    },
+    "correct_option": "D",
+    "answer": "Hide",
+    "explanation": "Hindi: छिपाना"
+  },
+  {
+    "id": "ANTO-29",
+    "chapter": "English",
+    "type": "Antonyms",
+    "question": "What is an antonym for \"Conceal\"?",
+    "options": {
+      "A": "Delightful",
+      "B": "Reveal",
+      "C": "Trustworthy",
+      "D": "Certain"
+    },
+    "correct_option": "B",
+    "answer": "Reveal",
+    "explanation": "Hindi: छिपाना"
+  },
+  {
+    "id": "SYNO-30",
+    "chapter": "English",
+    "type": "Synonyms",
+    "question": "What is a synonym for \"Generous\"?",
+    "options": {
+      "A": "Unfriendly",
+      "B": "Benevolent",
+      "C": "Ill Will",
+      "D": "Frequent"
+    },
+    "correct_option": "B",
+    "answer": "Benevolent",
+    "explanation": "Hindi: उदार"
+  },
+  {
+    "id": "ANTO-30",
+    "chapter": "English",
+    "type": "Antonyms",
+    "question": "What is an antonym for \"Generous\"?",
+    "options": {
+      "A": "Lazy",
+      "B": "Stingy",
+      "C": "Pleasant",
+      "D": "Honest"
+    },
+    "correct_option": "B",
+    "answer": "Stingy",
+    "explanation": "Hindi: उदार"
+  },
+  {
+    "id": "SYNO-31",
+    "chapter": "English",
+    "type": "Synonyms",
+    "question": "What is a synonym for \"Modest\"?",
+    "options": {
+      "A": "Humble",
+      "B": "Careless",
+      "C": "Alert",
+      "D": "Incisive"
+    },
+    "correct_option": "A",
+    "answer": "Humble",
+    "explanation": "Hindi: विनम्र"
+  },
+  {
+    "id": "ANTO-31",
+    "chapter": "English",
+    "type": "Antonyms",
+    "question": "What is an antonym for \"Modest\"?",
+    "options": {
+      "A": "Unwise",
+      "B": "Egotism",
+      "C": "Vain",
+      "D": "Rational"
+    },
+    "correct_option": "C",
+    "answer": "Vain",
+    "explanation": "Hindi: विनम्र"
+  },
+  {
+    "id": "SYNO-32",
+    "chapter": "English",
+    "type": "Synonyms",
+    "question": "What is a synonym for \"Transparent\"?",
+    "options": {
+      "A": "Ambiguous",
+      "B": "Lucid",
+      "C": "Silent",
+      "D": "Ample"
+    },
+    "correct_option": "B",
+    "answer": "Lucid",
+    "explanation": "Hindi: पारदर्शी"
+  },
+  {
+    "id": "ANTO-32",
+    "chapter": "English",
+    "type": "Antonyms",
+    "question": "What is an antonym for \"Transparent\"?",
+    "options": {
+      "A": "Cancellation",
+      "B": "Meagre",
+      "C": "Opaque",
+      "D": "Resist"
+    },
+    "correct_option": "C",
+    "answer": "Opaque",
+    "explanation": "Hindi: पारदर्शी"
+  },
+  {
+    "id": "SYNO-33",
+    "chapter": "English",
+    "type": "Synonyms",
+    "question": "What is a synonym for \"Vigilant\"?",
+    "options": {
+      "A": "Watchful",
+      "B": "Idiosyncratic",
+      "C": "Gracious",
+      "D": "Repulse"
+    },
+    "correct_option": "A",
+    "answer": "Watchful",
+    "explanation": "Hindi: सावधान"
+  },
+  {
+    "id": "ANTO-33",
+    "chapter": "English",
+    "type": "Antonyms",
+    "question": "What is an antonym for \"Vigilant\"?",
+    "options": {
+      "A": "Apprehensive",
+      "B": "Disappear",
+      "C": "Unsuccessful",
+      "D": "Rash"
+    },
+    "correct_option": "D",
+    "answer": "Rash",
+    "explanation": "Hindi: सावधान"
+  },
+  {
+    "id": "SYNO-34",
+    "chapter": "English",
+    "type": "Synonyms",
+    "question": "What is a synonym for \"Alleviate\"?",
+    "options": {
+      "A": "Mitigate",
+      "B": "Applaud",
+      "C": "Hardworking",
+      "D": "Create"
+    },
+    "correct_option": "A",
+    "answer": "Mitigate",
+    "explanation": "Hindi: कम करना"
+  },
+  {
+    "id": "ANTO-34",
+    "chapter": "English",
+    "type": "Antonyms",
+    "question": "What is an antonym for \"Alleviate\"?",
+    "options": {
+      "A": "Copious",
+      "B": "Aggravate",
+      "C": "Bizarre",
+      "D": "Reasonable"
+    },
+    "correct_option": "B",
+    "answer": "Aggravate",
+    "explanation": "Hindi: कम करना"
+  },
+  {
+    "id": "SYNO-35",
+    "chapter": "English",
+    "type": "Synonyms",
+    "question": "What is a synonym for \"Dismal\"?",
+    "options": {
+      "A": "Meagre",
+      "B": "Apprehensive",
+      "C": "Grim",
+      "D": "Gloomy"
+    },
+    "correct_option": "D",
+    "answer": "Gloomy",
+    "explanation": "Hindi: निराशाजनक"
+  },
+  {
+    "id": "ANTO-35",
+    "chapter": "English",
+    "type": "Antonyms",
+    "question": "What is an antonym for \"Dismal\"?",
+    "options": {
+      "A": "Prevent",
+      "B": "Defenceless",
+      "C": "Cheerful",
+      "D": "Repel"
+    },
+    "correct_option": "C",
+    "answer": "Cheerful",
+    "explanation": "Hindi: निराशाजनक"
+  },
+  {
+    "id": "SYNO-36",
+    "chapter": "English",
+    "type": "Synonyms",
+    "question": "What is a synonym for \"Erudite\"?",
+    "options": {
+      "A": "Infrequent",
+      "B": "Scholarly",
+      "C": "Bland",
+      "D": "Insignificant"
+    },
+    "correct_option": "B",
+    "answer": "Scholarly",
+    "explanation": "Hindi: विद्वान"
+  },
+  {
+    "id": "ANTO-36",
+    "chapter": "English",
+    "type": "Antonyms",
+    "question": "What is an antonym for \"Erudite\"?",
+    "options": {
+      "A": "Artful",
+      "B": "Unscholarly",
+      "C": "Real",
+      "D": "Fake"
+    },
+    "correct_option": "B",
+    "answer": "Unscholarly",
+    "explanation": "Hindi: विद्वान"
+  },
+  {
+    "id": "SYNO-37",
+    "chapter": "English",
+    "type": "Synonyms",
+    "question": "What is a synonym for \"Genuine\"?",
+    "options": {
+      "A": "Learned",
+      "B": "Original",
+      "C": "Realistic",
+      "D": "Firm"
+    },
+    "correct_option": "B",
+    "answer": "Original",
+    "explanation": "Hindi: असली"
+  },
+  {
+    "id": "ANTO-37",
+    "chapter": "English",
+    "type": "Antonyms",
+    "question": "What is an antonym for \"Genuine\"?",
+    "options": {
+      "A": "Falsify",
+      "B": "Watchful",
+      "C": "Misfortune",
+      "D": "Fake"
+    },
+    "correct_option": "D",
+    "answer": "Fake",
+    "explanation": "Hindi: असली"
+  },
+  {
+    "id": "SYNO-38",
+    "chapter": "English",
+    "type": "Synonyms",
+    "question": "What is a synonym for \"Humble\"?",
+    "options": {
+      "A": "Miserly",
+      "B": "Meek",
+      "C": "Desert",
+      "D": "Destroy"
+    },
+    "correct_option": "B",
+    "answer": "Meek",
+    "explanation": "Hindi: विनम्र"
+  },
+  {
+    "id": "ANTO-38",
+    "chapter": "English",
+    "type": "Antonyms",
+    "question": "What is an antonym for \"Humble\"?",
+    "options": {
+      "A": "Discontinue",
+      "B": "Nervous",
+      "C": "Careless",
+      "D": "Arrogant"
+    },
+    "correct_option": "D",
+    "answer": "Arrogant",
+    "explanation": "Hindi: विनम्र"
+  },
+  {
+    "id": "SYNO-39",
+    "chapter": "English",
+    "type": "Synonyms",
+    "question": "What is a synonym for \"Insipid\"?",
+    "options": {
+      "A": "Bland",
+      "B": "Unassuming",
+      "C": "Thrifty",
+      "D": "Attain"
+    },
+    "correct_option": "A",
+    "answer": "Bland",
+    "explanation": "Hindi: फीका"
+  },
+  {
+    "id": "ANTO-39",
+    "chapter": "English",
+    "type": "Antonyms",
+    "question": "What is an antonym for \"Insipid\"?",
+    "options": {
+      "A": "Cowardice",
+      "B": "Lucid",
+      "C": "Chaste",
+      "D": "Tasty"
+    },
+    "correct_option": "D",
+    "answer": "Tasty",
+    "explanation": "Hindi: फीका"
+  },
+  {
+    "id": "SYNO-40",
+    "chapter": "English",
+    "type": "Synonyms",
+    "question": "What is a synonym for \"Judicious\"?",
+    "options": {
+      "A": "Plentiful",
+      "B": "Worsen",
+      "C": "Stormy",
+      "D": "Wise"
+    },
+    "correct_option": "D",
+    "answer": "Wise",
+    "explanation": "Hindi: विवेकी"
+  },
+  {
+    "id": "ANTO-40",
+    "chapter": "English",
+    "type": "Antonyms",
+    "question": "What is an antonym for \"Judicious\"?",
+    "options": {
+      "A": "Incoherence",
+      "B": "Silent",
+      "C": "Rash",
+      "D": "Tolerant"
+    },
+    "correct_option": "C",
+    "answer": "Rash",
+    "explanation": "Hindi: विवेकी"
+  },
+  {
+    "id": "SYNO-41",
+    "chapter": "English",
+    "type": "Synonyms",
+    "question": "What is a synonym for \"Lucid\"?",
+    "options": {
+      "A": "Clever",
+      "B": "Clear",
+      "C": "Comprehensible",
+      "D": "Occasional"
+    },
+    "correct_option": "B",
+    "answer": "Clear",
+    "explanation": "Hindi: स्पष्ट"
+  },
+  {
+    "id": "ANTO-41",
+    "chapter": "English",
+    "type": "Antonyms",
+    "question": "What is an antonym for \"Lucid\"?",
+    "options": {
+      "A": "Vague",
+      "B": "Meagre",
+      "C": "Indulge",
+      "D": "Humble"
+    },
+    "correct_option": "A",
+    "answer": "Vague",
+    "explanation": "Hindi: स्पष्ट"
+  },
+  {
+    "id": "SYNO-42",
+    "chapter": "English",
+    "type": "Synonyms",
+    "question": "What is a synonym for \"Meagre\"?",
+    "options": {
+      "A": "Clear",
+      "B": "Unassuming",
+      "C": "Indiscreet",
+      "D": "Inadequate"
+    },
+    "correct_option": "D",
+    "answer": "Inadequate",
+    "explanation": "Hindi: अपर्याप्त"
+  },
+  {
+    "id": "ANTO-42",
+    "chapter": "English",
+    "type": "Antonyms",
+    "question": "What is an antonym for \"Meagre\"?",
+    "options": {
+      "A": "Fraudulent",
+      "B": "Sharp",
+      "C": "Admiration",
+      "D": "Plentiful"
+    },
+    "correct_option": "D",
+    "answer": "Plentiful",
+    "explanation": "Hindi: अपर्याप्त"
+  },
+  {
+    "id": "SYNO-43",
+    "chapter": "English",
+    "type": "Synonyms",
+    "question": "What is a synonym for \"Meticulous\"?",
+    "options": {
+      "A": "Careful",
+      "B": "Arise",
+      "C": "Scratchy",
+      "D": "Magnanimous"
+    },
+    "correct_option": "A",
+    "answer": "Careful",
+    "explanation": "Hindi: सावधान"
+  },
+  {
+    "id": "ANTO-43",
+    "chapter": "English",
+    "type": "Antonyms",
+    "question": "What is an antonym for \"Meticulous\"?",
+    "options": {
+      "A": "Kind",
+      "B": "Careless",
+      "C": "Hardships",
+      "D": "Disappear"
+    },
+    "correct_option": "B",
+    "answer": "Careless",
+    "explanation": "Hindi: सावधान"
+  },
+  {
+    "id": "SYNO-44",
+    "chapter": "English",
+    "type": "Synonyms",
+    "question": "What is a synonym for \"Obstinate\"?",
+    "options": {
+      "A": "Stubborn",
+      "B": "Hide",
+      "C": "Rash",
+      "D": "Profound"
+    },
+    "correct_option": "A",
+    "answer": "Stubborn",
+    "explanation": "Hindi: जिद्दी"
+  },
+  {
+    "id": "ANTO-44",
+    "chapter": "English",
+    "type": "Antonyms",
+    "question": "What is an antonym for \"Obstinate\"?",
+    "options": {
+      "A": "Petite",
+      "B": "Wise",
+      "C": "Flexible",
+      "D": "Ignorant"
+    },
+    "correct_option": "C",
+    "answer": "Flexible",
+    "explanation": "Hindi: जिद्दी"
+  },
+  {
+    "id": "SYNO-45",
+    "chapter": "English",
+    "type": "Synonyms",
+    "question": "What is a synonym for \"Persuade\"?",
+    "options": {
+      "A": "Coax",
+      "B": "Magnify",
+      "C": "Refined",
+      "D": "Benevolent"
+    },
+    "correct_option": "A",
+    "answer": "Coax",
+    "explanation": "Hindi: राजी करना"
+  },
+  {
+    "id": "ANTO-45",
+    "chapter": "English",
+    "type": "Antonyms",
+    "question": "What is an antonym for \"Persuade\"?",
+    "options": {
+      "A": "Dissuade",
+      "B": "Prosperity",
+      "C": "Gentle",
+      "D": "Cowardice"
+    },
+    "correct_option": "A",
+    "answer": "Dissuade",
+    "explanation": "Hindi: राजी करना"
+  },
+  {
+    "id": "SYNO-46",
+    "chapter": "English",
+    "type": "Synonyms",
+    "question": "What is a synonym for \"Reluctant\"?",
+    "options": {
+      "A": "Hesitant",
+      "B": "Intensify",
+      "C": "Dearth",
+      "D": "Refined"
+    },
+    "correct_option": "A",
+    "answer": "Hesitant",
+    "explanation": "Hindi: अनिच्छुक"
+  },
+  {
+    "id": "ANTO-46",
+    "chapter": "English",
+    "type": "Antonyms",
+    "question": "What is an antonym for \"Reluctant\"?",
+    "options": {
+      "A": "Lessen",
+      "B": "Vanish",
+      "C": "Plain",
+      "D": "Eager"
+    },
+    "correct_option": "D",
+    "answer": "Eager",
+    "explanation": "Hindi: अनिच्छुक"
+  },
+  {
+    "id": "SYNO-47",
+    "chapter": "English",
+    "type": "Synonyms",
+    "question": "What is a synonym for \"Accomplish\"?",
+    "options": {
+      "A": "Certain",
+      "B": "Vanish",
+      "C": "Achieve",
+      "D": "Knowledgeable"
+    },
+    "correct_option": "C",
+    "answer": "Achieve",
+    "explanation": "Hindi: सफल होना"
+  },
+  {
+    "id": "ANTO-47",
+    "chapter": "English",
+    "type": "Antonyms",
+    "question": "What is an antonym for \"Accomplish\"?",
+    "options": {
+      "A": "Fail",
+      "B": "Politeness",
+      "C": "Conspicuous",
+      "D": "Certain"
+    },
+    "correct_option": "A",
+    "answer": "Fail",
+    "explanation": "Hindi: सफल होना"
+  },
+  {
+    "id": "SYNO-48",
+    "chapter": "English",
+    "type": "Synonyms",
+    "question": "What is a synonym for \"Admonish\"?",
+    "options": {
+      "A": "Magnanimous",
+      "B": "Overstate",
+      "C": "Chide",
+      "D": "Careful"
+    },
+    "correct_option": "C",
+    "answer": "Chide",
+    "explanation": "Hindi: डाँटना"
+  },
+  {
+    "id": "ANTO-48",
+    "chapter": "English",
+    "type": "Antonyms",
+    "question": "What is an antonym for \"Admonish\"?",
+    "options": {
+      "A": "Reticent",
+      "B": "Clear",
+      "C": "Merciless",
+      "D": "Praise"
+    },
+    "correct_option": "D",
+    "answer": "Praise",
+    "explanation": "Hindi: डाँटना"
+  },
+  {
+    "id": "SYNO-49",
+    "chapter": "English",
+    "type": "Synonyms",
+    "question": "What is a synonym for \"Affluence\"?",
+    "options": {
+      "A": "Forthright",
+      "B": "Dereliction",
+      "C": "Civilized",
+      "D": "Wealth"
+    },
+    "correct_option": "D",
+    "answer": "Wealth",
+    "explanation": "Hindi: समृद्धि"
+  },
+  {
+    "id": "ANTO-49",
+    "chapter": "English",
+    "type": "Antonyms",
+    "question": "What is an antonym for \"Affluence\"?",
+    "options": {
+      "A": "Poverty",
+      "B": "Kind",
+      "C": "Achieve",
+      "D": "Venturesome"
+    },
+    "correct_option": "A",
+    "answer": "Poverty",
+    "explanation": "Hindi: समृद्धि"
+  },
+  {
+    "id": "SYNO-50",
+    "chapter": "English",
+    "type": "Synonyms",
+    "question": "What is a synonym for \"Affluent\"?",
+    "options": {
+      "A": "Economical",
+      "B": "Dull",
+      "C": "Prosperous",
+      "D": "Stupid"
+    },
+    "correct_option": "C",
+    "answer": "Prosperous",
+    "explanation": "Hindi: धनी"
+  },
+  {
+    "id": "ANTO-50",
+    "chapter": "English",
+    "type": "Antonyms",
+    "question": "What is an antonym for \"Affluent\"?",
+    "options": {
+      "A": "Poor",
+      "B": "Learned",
+      "C": "Rash",
+      "D": "Pleasant"
+    },
+    "correct_option": "A",
+    "answer": "Poor",
+    "explanation": "Hindi: धनी"
+  },
+  {
+    "id": "SYNO-51",
+    "chapter": "English",
+    "type": "Synonyms",
+    "question": "What is a synonym for \"Amiable/Amicable\"?",
+    "options": {
+      "A": "Averse",
+      "B": "Friendly",
+      "C": "Sorrow",
+      "D": "Assertive"
+    },
+    "correct_option": "B",
+    "answer": "Friendly",
+    "explanation": "Hindi: मिलनसार"
+  },
+  {
+    "id": "ANTO-51",
+    "chapter": "English",
+    "type": "Antonyms",
+    "question": "What is an antonym for \"Amiable/Amicable\"?",
+    "options": {
+      "A": "Discourage",
+      "B": "Selfish",
+      "C": "Brave",
+      "D": "Hostile"
+    },
+    "correct_option": "D",
+    "answer": "Hostile",
+    "explanation": "Hindi: मिलनसार"
+  },
+  {
+    "id": "SYNO-52",
+    "chapter": "English",
+    "type": "Synonyms",
+    "question": "What is a synonym for \"Arrogant\"?",
+    "options": {
+      "A": "Courage",
+      "B": "Diminish",
+      "C": "Haughty",
+      "D": "Hope"
+    },
+    "correct_option": "C",
+    "answer": "Haughty",
+    "explanation": "Hindi: अभिमानी"
+  },
+  {
+    "id": "ANTO-52",
+    "chapter": "English",
+    "type": "Antonyms",
+    "question": "What is an antonym for \"Arrogant\"?",
+    "options": {
+      "A": "Modest",
+      "B": "Eternal",
+      "C": "Enthusiastic",
+      "D": "Graceful"
+    },
+    "correct_option": "A",
+    "answer": "Modest",
+    "explanation": "Hindi: अभिमानी"
+  },
+  {
+    "id": "SYNO-53",
+    "chapter": "English",
+    "type": "Synonyms",
+    "question": "What is a synonym for \"Barbaric\"?",
+    "options": {
+      "A": "Dreary",
+      "B": "Reduce",
+      "C": "Animated",
+      "D": "Uncivilized"
+    },
+    "correct_option": "D",
+    "answer": "Uncivilized",
+    "explanation": "Hindi: क्रूर, निर्दय"
+  },
+  {
+    "id": "ANTO-53",
+    "chapter": "English",
+    "type": "Antonyms",
+    "question": "What is an antonym for \"Barbaric\"?",
+    "options": {
+      "A": "Susceptible",
+      "B": "Unwilling",
+      "C": "Civilized",
+      "D": "Anger"
+    },
+    "correct_option": "C",
+    "answer": "Civilized",
+    "explanation": "Hindi: क्रूर, निर्दय"
+  },
+  {
+    "id": "SYNO-54",
+    "chapter": "English",
+    "type": "Synonyms",
+    "question": "What is a synonym for \"Bleak\"?",
+    "options": {
+      "A": "Hesitant",
+      "B": "Construct",
+      "C": "Depressing",
+      "D": "Compassionate"
+    },
+    "correct_option": "C",
+    "answer": "Depressing",
+    "explanation": "Hindi: उदास"
+  },
+  {
+    "id": "ANTO-54",
+    "chapter": "English",
+    "type": "Antonyms",
+    "question": "What is an antonym for \"Bleak\"?",
+    "options": {
+      "A": "Prodigality",
+      "B": "Pointless",
+      "C": "Unscholarly",
+      "D": "Bright"
+    },
+    "correct_option": "D",
+    "answer": "Bright",
+    "explanation": "Hindi: उदास"
+  },
+  {
+    "id": "SYNO-55",
+    "chapter": "English",
+    "type": "Synonyms",
+    "question": "What is a synonym for \"Boisterous\"?",
+    "options": {
+      "A": "Huge",
+      "B": "Wasteful",
+      "C": "Noisy",
+      "D": "Powerful"
+    },
+    "correct_option": "C",
+    "answer": "Noisy",
+    "explanation": "Hindi: कोलाहलपूर्ण"
+  },
+  {
+    "id": "ANTO-55",
+    "chapter": "English",
+    "type": "Antonyms",
+    "question": "What is an antonym for \"Boisterous\"?",
+    "options": {
+      "A": "Fleeting",
+      "B": "Industrious",
+      "C": "Compassionate",
+      "D": "Calm"
+    },
+    "correct_option": "D",
+    "answer": "Calm",
+    "explanation": "Hindi: कोलाहलपूर्ण"
+  },
+  {
+    "id": "SYNO-56",
+    "chapter": "English",
+    "type": "Synonyms",
+    "question": "What is a synonym for \"Copious\"?",
+    "options": {
+      "A": "Poverty",
+      "B": "Plentiful",
+      "C": "Foolish",
+      "D": "Reveal"
+    },
+    "correct_option": "B",
+    "answer": "Plentiful",
+    "explanation": "Hindi: प्रचुर"
+  },
+  {
+    "id": "ANTO-56",
+    "chapter": "English",
+    "type": "Antonyms",
+    "question": "What is an antonym for \"Copious\"?",
+    "options": {
+      "A": "Deceitful",
+      "B": "Politeness",
+      "C": "Humble",
+      "D": "Scarce"
+    },
+    "correct_option": "D",
+    "answer": "Scarce",
+    "explanation": "Hindi: प्रचुर"
+  },
+  {
+    "id": "SYNO-57",
+    "chapter": "English",
+    "type": "Synonyms",
+    "question": "What is a synonym for \"Fickle\"?",
+    "options": {
+      "A": "Unstable",
+      "B": "Assertive",
+      "C": "Guarded",
+      "D": "Idiosyncratic"
+    },
+    "correct_option": "A",
+    "answer": "Unstable",
+    "explanation": "Hindi: चंचल"
+  },
+  {
+    "id": "ANTO-57",
+    "chapter": "English",
+    "type": "Antonyms",
+    "question": "What is an antonym for \"Fickle\"?",
+    "options": {
+      "A": "Reasonable",
+      "B": "Admiration",
+      "C": "Constant",
+      "D": "Pursue"
+    },
+    "correct_option": "C",
+    "answer": "Constant",
+    "explanation": "Hindi: चंचल"
+  },
+  {
+    "id": "SYNO-58",
+    "chapter": "English",
+    "type": "Synonyms",
+    "question": "What is a synonym for \"Futile/Futility\"?",
+    "options": {
+      "A": "Luxury",
+      "B": "Modesty",
+      "C": "Useless",
+      "D": "Unrestraint"
+    },
+    "correct_option": "C",
+    "answer": "Useless",
+    "explanation": "Hindi: व्यर्थ"
+  },
+  {
+    "id": "ANTO-58",
+    "chapter": "English",
+    "type": "Antonyms",
+    "question": "What is an antonym for \"Futile/Futility\"?",
+    "options": {
+      "A": "Frugal",
+      "B": "Vain",
+      "C": "Grim",
+      "D": "Worthy"
+    },
+    "correct_option": "D",
+    "answer": "Worthy",
+    "explanation": "Hindi: व्यर्थ"
+  },
+  {
+    "id": "SYNO-59",
+    "chapter": "English",
+    "type": "Synonyms",
+    "question": "What is a synonym for \"Insolent\"?",
+    "options": {
+      "A": "Disrespectful",
+      "B": "Unproductive",
+      "C": "Enthusiastic",
+      "D": "Miserly"
+    },
+    "correct_option": "A",
+    "answer": "Disrespectful",
+    "explanation": "Hindi: अभद्र"
+  },
+  {
+    "id": "ANTO-59",
+    "chapter": "English",
+    "type": "Antonyms",
+    "question": "What is an antonym for \"Insolent\"?",
+    "options": {
+      "A": "Destroy",
+      "B": "Crude",
+      "C": "Profuse",
+      "D": "Humble"
+    },
+    "correct_option": "D",
+    "answer": "Humble",
+    "explanation": "Hindi: अभद्र"
+  },
+  {
+    "id": "SYNO-60",
+    "chapter": "English",
+    "type": "Synonyms",
+    "question": "What is a synonym for \"Malice\"?",
+    "options": {
+      "A": "Warning",
+      "B": "Respect",
+      "C": "Bitterness",
+      "D": "At Risk"
+    },
+    "correct_option": "C",
+    "answer": "Bitterness",
+    "explanation": "Hindi: द्वेष"
+  },
+  {
+    "id": "ANTO-60",
+    "chapter": "English",
+    "type": "Antonyms",
+    "question": "What is an antonym for \"Malice\"?",
+    "options": {
+      "A": "Amaze",
+      "B": "Goodwill",
+      "C": "Calm",
+      "D": "Stubborn"
+    },
+    "correct_option": "B",
+    "answer": "Goodwill",
+    "explanation": "Hindi: द्वेष"
+  },
+  {
+    "id": "SYNO-61",
+    "chapter": "English",
+    "type": "Synonyms",
+    "question": "What is a synonym for \"Opaque\"?",
+    "options": {
+      "A": "Falsify",
+      "B": "Nervous",
+      "C": "Arcane",
+      "D": "Brave"
+    },
+    "correct_option": "C",
+    "answer": "Arcane",
+    "explanation": "Hindi: अपारदर्शी"
+  },
+  {
+    "id": "ANTO-61",
+    "chapter": "English",
+    "type": "Antonyms",
+    "question": "What is an antonym for \"Opaque\"?",
+    "options": {
+      "A": "Short",
+      "B": "Sad",
+      "C": "Idle",
+      "D": "Transparent"
+    },
+    "correct_option": "D",
+    "answer": "Transparent",
+    "explanation": "Hindi: अपारदर्शी"
+  },
+  {
+    "id": "SYNO-62",
+    "chapter": "English",
+    "type": "Synonyms",
+    "question": "What is a synonym for \"Profound\"?",
+    "options": {
+      "A": "Certain",
+      "B": "Deep",
+      "C": "Artful",
+      "D": "Scratchy"
+    },
+    "correct_option": "B",
+    "answer": "Deep",
+    "explanation": "Hindi: गहरा"
+  },
+  {
+    "id": "ANTO-62",
+    "chapter": "English",
+    "type": "Antonyms",
+    "question": "What is an antonym for \"Profound\"?",
+    "options": {
+      "A": "Superficial",
+      "B": "Cheeky",
+      "C": "Wise",
+      "D": "Sloppy"
+    },
+    "correct_option": "A",
+    "answer": "Superficial",
+    "explanation": "Hindi: गहरा"
+  },
+  {
+    "id": "SYNO-63",
+    "chapter": "English",
+    "type": "Synonyms",
+    "question": "What is a synonym for \"Prudent\"?",
+    "options": {
+      "A": "Contempt",
+      "B": "Vanish",
+      "C": "Cautious",
+      "D": "Retain"
+    },
+    "correct_option": "C",
+    "answer": "Cautious",
+    "explanation": "Hindi: विवेकी"
+  },
+  {
+    "id": "ANTO-63",
+    "chapter": "English",
+    "type": "Antonyms",
+    "question": "What is an antonym for \"Prudent\"?",
+    "options": {
+      "A": "Unwise",
+      "B": "Careful",
+      "C": "Wise",
+      "D": "Dull"
+    },
+    "correct_option": "A",
+    "answer": "Unwise",
+    "explanation": "Hindi: विवेकी"
+  },
+  {
+    "id": "SYNO-64",
+    "chapter": "English",
+    "type": "Synonyms",
+    "question": "What is a synonym for \"Reprimand\"?",
+    "options": {
+      "A": "Perpetual",
+      "B": "Rebuke",
+      "C": "Hide",
+      "D": "Stoicism"
+    },
+    "correct_option": "B",
+    "answer": "Rebuke",
+    "explanation": "Hindi: फटकार"
+  },
+  {
+    "id": "ANTO-64",
+    "chapter": "English",
+    "type": "Antonyms",
+    "question": "What is an antonym for \"Reprimand\"?",
+    "options": {
+      "A": "Uncertain",
+      "B": "Stingy",
+      "C": "Stormy",
+      "D": "Reward"
+    },
+    "correct_option": "D",
+    "answer": "Reward",
+    "explanation": "Hindi: फटकार"
+  },
+  {
+    "id": "SYNO-65",
+    "chapter": "English",
+    "type": "Synonyms",
+    "question": "What is a synonym for \"Severe\"?",
+    "options": {
+      "A": "Strong",
+      "B": "Modesty",
+      "C": "Forsake",
+      "D": "Stormy"
+    },
+    "correct_option": "A",
+    "answer": "Strong",
+    "explanation": "Hindi: कठोर"
+  },
+  {
+    "id": "ANTO-65",
+    "chapter": "English",
+    "type": "Antonyms",
+    "question": "What is an antonym for \"Severe\"?",
+    "options": {
+      "A": "Mild",
+      "B": "Methodical",
+      "C": "Dangerous",
+      "D": "Immodest"
+    },
+    "correct_option": "A",
+    "answer": "Mild",
+    "explanation": "Hindi: कठोर"
+  },
+  {
+    "id": "SYNO-66",
+    "chapter": "English",
+    "type": "Synonyms",
+    "question": "What is a synonym for \"Triumph\"?",
+    "options": {
+      "A": "Leave",
+      "B": "Huge",
+      "C": "Ill Will",
+      "D": "Victory"
+    },
+    "correct_option": "D",
+    "answer": "Victory",
+    "explanation": "Hindi: विजय"
+  },
+  {
+    "id": "ANTO-66",
+    "chapter": "English",
+    "type": "Antonyms",
+    "question": "What is an antonym for \"Triumph\"?",
+    "options": {
+      "A": "Plain",
+      "B": "Bright",
+      "C": "Defeat",
+      "D": "Interesting"
+    },
+    "correct_option": "C",
+    "answer": "Defeat",
+    "explanation": "Hindi: विजय"
+  },
+  {
+    "id": "SYNO-67",
+    "chapter": "English",
+    "type": "Synonyms",
+    "question": "What is a synonym for \"Turbulent\"?",
+    "options": {
+      "A": "Violent",
+      "B": "Minimal",
+      "C": "Relieve",
+      "D": "Warning"
+    },
+    "correct_option": "A",
+    "answer": "Violent",
+    "explanation": "Hindi: अशांत"
+  },
+  {
+    "id": "ANTO-67",
+    "chapter": "English",
+    "type": "Antonyms",
+    "question": "What is an antonym for \"Turbulent\"?",
+    "options": {
+      "A": "Placid",
+      "B": "Alleviate",
+      "C": "Strong",
+      "D": "Minor"
+    },
+    "correct_option": "A",
+    "answer": "Placid",
+    "explanation": "Hindi: अशांत"
+  },
+  {
+    "id": "SYNO-68",
+    "chapter": "English",
+    "type": "Synonyms",
+    "question": "What is a synonym for \"Abstain\"?",
+    "options": {
+      "A": "Worsen",
+      "B": "Customary",
+      "C": "Refrain",
+      "D": "Hide"
+    },
+    "correct_option": "C",
+    "answer": "Refrain",
+    "explanation": "Hindi: परहेज करना"
+  },
+  {
+    "id": "ANTO-68",
+    "chapter": "English",
+    "type": "Antonyms",
+    "question": "What is an antonym for \"Abstain\"?",
+    "options": {
+      "A": "Indulge",
+      "B": "Praise",
+      "C": "Chaotic",
+      "D": "Copious"
+    },
+    "correct_option": "A",
+    "answer": "Indulge",
+    "explanation": "Hindi: परहेज करना"
+  },
+  {
+    "id": "SYNO-69",
+    "chapter": "English",
+    "type": "Synonyms",
+    "question": "What is a synonym for \"Adversity\"?",
+    "options": {
+      "A": "Assertive",
+      "B": "Misfortune",
+      "C": "Safe",
+      "D": "Prosperous"
+    },
+    "correct_option": "B",
+    "answer": "Misfortune",
+    "explanation": "Hindi: विपत्ति"
+  },
+  {
+    "id": "ANTO-69",
+    "chapter": "English",
+    "type": "Antonyms",
+    "question": "What is an antonym for \"Adversity\"?",
+    "options": {
+      "A": "Secure",
+      "B": "Unproductive",
+      "C": "Prosperity",
+      "D": "Unimportant"
+    },
+    "correct_option": "C",
+    "answer": "Prosperity",
+    "explanation": "Hindi: विपत्ति"
+  },
+  {
+    "id": "SYNO-70",
+    "chapter": "English",
+    "type": "Synonyms",
+    "question": "What is a synonym for \"Anxious\"?",
+    "options": {
+      "A": "Productive",
+      "B": "Contempt",
+      "C": "Nervous",
+      "D": "Continue"
+    },
+    "correct_option": "C",
+    "answer": "Nervous",
+    "explanation": "Hindi: चिंतित"
+  },
+  {
+    "id": "ANTO-70",
+    "chapter": "English",
+    "type": "Antonyms",
+    "question": "What is an antonym for \"Anxious\"?",
+    "options": {
+      "A": "Calm",
+      "B": "Magnify",
+      "C": "Stormy",
+      "D": "Wise"
+    },
+    "correct_option": "A",
+    "answer": "Calm",
+    "explanation": "Hindi: चिंतित"
+  },
+  {
+    "id": "SYNO-71",
+    "chapter": "English",
+    "type": "Synonyms",
+    "question": "What is a synonym for \"Attract\"?",
+    "options": {
+      "A": "Constraint",
+      "B": "Fascinate",
+      "C": "Plenty",
+      "D": "Watchful"
+    },
+    "correct_option": "B",
+    "answer": "Fascinate",
+    "explanation": "Hindi: आकर्षित करना"
+  },
+  {
+    "id": "ANTO-71",
+    "chapter": "English",
+    "type": "Antonyms",
+    "question": "What is an antonym for \"Attract\"?",
+    "options": {
+      "A": "Insufficient",
+      "B": "Durable",
+      "C": "Vague",
+      "D": "Repel"
+    },
+    "correct_option": "D",
+    "answer": "Repel",
+    "explanation": "Hindi: आकर्षित करना"
+  },
+  {
+    "id": "SYNO-72",
+    "chapter": "English",
+    "type": "Synonyms",
+    "question": "What is a synonym for \"Conceit\"?",
+    "options": {
+      "A": "Humble",
+      "B": "Exaggerate",
+      "C": "Vanity",
+      "D": "Destitution"
+    },
+    "correct_option": "C",
+    "answer": "Vanity",
+    "explanation": "Hindi: अहंकार"
+  },
+  {
+    "id": "ANTO-72",
+    "chapter": "English",
+    "type": "Antonyms",
+    "question": "What is an antonym for \"Conceit\"?",
+    "options": {
+      "A": "Peculiar",
+      "B": "Modesty",
+      "C": "Stormy",
+      "D": "Gloomy"
+    },
+    "correct_option": "B",
+    "answer": "Modesty",
+    "explanation": "Hindi: अहंकार"
+  },
+  {
+    "id": "SYNO-73",
+    "chapter": "English",
+    "type": "Synonyms",
+    "question": "What is a synonym for \"Cordial\"?",
+    "options": {
+      "A": "Friendly",
+      "B": "Clumsy",
+      "C": "Laconic",
+      "D": "Voluble"
+    },
+    "correct_option": "A",
+    "answer": "Friendly",
+    "explanation": "Hindi: दोस्ताना"
+  },
+  {
+    "id": "ANTO-73",
+    "chapter": "English",
+    "type": "Antonyms",
+    "question": "What is an antonym for \"Cordial\"?",
+    "options": {
+      "A": "Counsel",
+      "B": "Sympathy",
+      "C": "Hostile",
+      "D": "Certain"
+    },
+    "correct_option": "C",
+    "answer": "Hostile",
+    "explanation": "Hindi: दोस्ताना"
+  },
+  {
+    "id": "SYNO-74",
+    "chapter": "English",
+    "type": "Synonyms",
+    "question": "What is a synonym for \"Demolish\"?",
+    "options": {
+      "A": "Depressed",
+      "B": "Dismantle",
+      "C": "Economical",
+      "D": "Adamant"
+    },
+    "correct_option": "B",
+    "answer": "Dismantle",
+    "explanation": "Hindi: ध्वस्त करना"
+  },
+  {
+    "id": "ANTO-74",
+    "chapter": "English",
+    "type": "Antonyms",
+    "question": "What is an antonym for \"Demolish\"?",
+    "options": {
+      "A": "Eager",
+      "B": "Careful",
+      "C": "Build",
+      "D": "Deters"
+    },
+    "correct_option": "C",
+    "answer": "Build",
+    "explanation": "Hindi: ध्वस्त करना"
+  },
+  {
+    "id": "SYNO-75",
+    "chapter": "English",
+    "type": "Synonyms",
+    "question": "What is a synonym for \"Despair\"?",
+    "options": {
+      "A": "Rash",
+      "B": "Flat",
+      "C": "Misery",
+      "D": "Grim"
+    },
+    "correct_option": "C",
+    "answer": "Misery",
+    "explanation": "Hindi: निराशा"
+  },
+  {
+    "id": "ANTO-75",
+    "chapter": "English",
+    "type": "Antonyms",
+    "question": "What is an antonym for \"Despair\"?",
+    "options": {
+      "A": "Hesitant",
+      "B": "Idiosyncratic",
+      "C": "Hope",
+      "D": "Bizarre"
+    },
+    "correct_option": "C",
+    "answer": "Hope",
+    "explanation": "Hindi: निराशा"
+  },
+  {
+    "id": "SYNO-76",
+    "chapter": "English",
+    "type": "Synonyms",
+    "question": "What is a synonym for \"Disdain\"?",
+    "options": {
+      "A": "Indisputable",
+      "B": "Sturdy",
+      "C": "Careless",
+      "D": "Contempt"
+    },
+    "correct_option": "D",
+    "answer": "Contempt",
+    "explanation": "Hindi: तिरस्कार"
+  },
+  {
+    "id": "ANTO-76",
+    "chapter": "English",
+    "type": "Antonyms",
+    "question": "What is an antonym for \"Disdain\"?",
+    "options": {
+      "A": "Tenacious",
+      "B": "Admiration",
+      "C": "Outspoken",
+      "D": "Intelligible"
+    },
+    "correct_option": "B",
+    "answer": "Admiration",
+    "explanation": "Hindi: तिरस्कार"
+  },
+  {
+    "id": "SYNO-77",
+    "chapter": "English",
+    "type": "Synonyms",
+    "question": "What is a synonym for \"Emerge\"?",
+    "options": {
+      "A": "Cheeky",
+      "B": "Intelligible",
+      "C": "Appear",
+      "D": "Continue"
+    },
+    "correct_option": "C",
+    "answer": "Appear",
+    "explanation": "Hindi: प्रकट होना"
+  },
+  {
+    "id": "ANTO-77",
+    "chapter": "English",
+    "type": "Antonyms",
+    "question": "What is an antonym for \"Emerge\"?",
+    "options": {
+      "A": "Vanish",
+      "B": "Ill Will",
+      "C": "Conscientious",
+      "D": "Snippy"
+    },
+    "correct_option": "A",
+    "answer": "Vanish",
+    "explanation": "Hindi: प्रकट होना"
+  },
+  {
+    "id": "SYNO-78",
+    "chapter": "English",
+    "type": "Synonyms",
+    "question": "What is a synonym for \"Exaggerate\"?",
+    "options": {
+      "A": "Stubborn",
+      "B": "Magnify",
+      "C": "Overstate",
+      "D": "Cancellation"
+    },
+    "correct_option": "B",
+    "answer": "Magnify",
+    "explanation": "Hindi: अतिशयोक्ति करना"
+  },
+  {
+    "id": "ANTO-78",
+    "chapter": "English",
+    "type": "Antonyms",
+    "question": "What is an antonym for \"Exaggerate\"?",
+    "options": {
+      "A": "Disguised",
+      "B": "Reasonable",
+      "C": "Plain",
+      "D": "Understate"
+    },
+    "correct_option": "D",
+    "answer": "Understate",
+    "explanation": "Hindi: अतिशयोक्ति करना"
+  },
+  {
+    "id": "SYNO-79",
+    "chapter": "English",
+    "type": "Synonyms",
+    "question": "What is a synonym for \"Extravagant\"?",
+    "options": {
+      "A": "Uncharitable",
+      "B": "Expensively",
+      "C": "Real",
+      "D": "Brave"
+    },
+    "correct_option": "B",
+    "answer": "Expensively",
+    "explanation": "Hindi: फिजूलखर्ची"
+  },
+  {
+    "id": "ANTO-79",
+    "chapter": "English",
+    "type": "Antonyms",
+    "question": "What is an antonym for \"Extravagant\"?",
+    "options": {
+      "A": "Humility",
+      "B": "Frank",
+      "C": "Economical",
+      "D": "Genuine"
+    },
+    "correct_option": "C",
+    "answer": "Economical",
+    "explanation": "Hindi: फिजूलखर्ची"
+  },
+  {
+    "id": "SYNO-80",
+    "chapter": "English",
+    "type": "Synonyms",
+    "question": "What is a synonym for \"Garrulous\"?",
+    "options": {
+      "A": "Friendly",
+      "B": "Scared",
+      "C": "Talkative",
+      "D": "Abnormal"
+    },
+    "correct_option": "C",
+    "answer": "Talkative",
+    "explanation": "Hindi: बातूनी"
+  },
+  {
+    "id": "ANTO-80",
+    "chapter": "English",
+    "type": "Antonyms",
+    "question": "What is an antonym for \"Garrulous\"?",
+    "options": {
+      "A": "Taciturn",
+      "B": "Relieve",
+      "C": "Egotism",
+      "D": "Gentility"
+    },
+    "correct_option": "A",
+    "answer": "Taciturn",
+    "explanation": "Hindi: बातूनी"
+  },
+  {
+    "id": "SYNO-81",
+    "chapter": "English",
+    "type": "Synonyms",
+    "question": "What is a synonym for \"Lavish\"?",
+    "options": {
+      "A": "Disregard",
+      "B": "Expensive",
+      "C": "Unconcerned",
+      "D": "Censure"
+    },
+    "correct_option": "B",
+    "answer": "Expensive",
+    "explanation": "Hindi: विलासितापूर्ण"
+  },
+  {
+    "id": "ANTO-81",
+    "chapter": "English",
+    "type": "Antonyms",
+    "question": "What is an antonym for \"Lavish\"?",
+    "options": {
+      "A": "Scarce",
+      "B": "Superficial",
+      "C": "Unstable",
+      "D": "Frequent"
+    },
+    "correct_option": "A",
+    "answer": "Scarce",
+    "explanation": "Hindi: विलासितापूर्ण"
+  },
+  {
+    "id": "SYNO-82",
+    "chapter": "English",
+    "type": "Synonyms",
+    "question": "What is a synonym for \"Liberty\"?",
+    "options": {
+      "A": "Clever",
+      "B": "Certain",
+      "C": "Senseless",
+      "D": "Freedom"
+    },
+    "correct_option": "D",
+    "answer": "Freedom",
+    "explanation": "Hindi: स्वतंत्रता"
+  },
+  {
+    "id": "ANTO-82",
+    "chapter": "English",
+    "type": "Antonyms",
+    "question": "What is an antonym for \"Liberty\"?",
+    "options": {
+      "A": "Dependence",
+      "B": "Expensively",
+      "C": "Strong",
+      "D": "Frugal"
+    },
+    "correct_option": "A",
+    "answer": "Dependence",
+    "explanation": "Hindi: स्वतंत्रता"
+  },
+  {
+    "id": "SYNO-83",
+    "chapter": "English",
+    "type": "Synonyms",
+    "question": "What is a synonym for \"Naive\"?",
+    "options": {
+      "A": "Ingenuous",
+      "B": "Competent",
+      "C": "Taciturn",
+      "D": "Continue"
+    },
+    "correct_option": "A",
+    "answer": "Ingenuous",
+    "explanation": "Hindi: अनुभवहीन"
+  },
+  {
+    "id": "ANTO-83",
+    "chapter": "English",
+    "type": "Antonyms",
+    "question": "What is an antonym for \"Naive\"?",
+    "options": {
+      "A": "Uncertain",
+      "B": "Poverty",
+      "C": "Artful",
+      "D": "Excited"
+    },
+    "correct_option": "C",
+    "answer": "Artful",
+    "explanation": "Hindi: अनुभवहीन"
+  },
+  {
+    "id": "SYNO-84",
+    "chapter": "English",
+    "type": "Synonyms",
+    "question": "What is a synonym for \"Opulent\"?",
+    "options": {
+      "A": "Gloomy",
+      "B": "Rich",
+      "C": "Cheerful",
+      "D": "Mitigate"
+    },
+    "correct_option": "B",
+    "answer": "Rich",
+    "explanation": "Hindi: धनी"
+  },
+  {
+    "id": "ANTO-84",
+    "chapter": "English",
+    "type": "Antonyms",
+    "question": "What is an antonym for \"Opulent\"?",
+    "options": {
+      "A": "Mannerly",
+      "B": "Peaceful",
+      "C": "Hostile",
+      "D": "Poor"
+    },
+    "correct_option": "D",
+    "answer": "Poor",
+    "explanation": "Hindi: धनी"
+  },
+  {
+    "id": "SYNO-85",
+    "chapter": "English",
+    "type": "Synonyms",
+    "question": "What is a synonym for \"Rectify\"?",
+    "options": {
+      "A": "Correct",
+      "B": "Productive",
+      "C": "Useless",
+      "D": "Cowardice"
+    },
+    "correct_option": "A",
+    "answer": "Correct",
+    "explanation": "Hindi: सुधारना"
+  },
+  {
+    "id": "ANTO-85",
+    "chapter": "English",
+    "type": "Antonyms",
+    "question": "What is an antonym for \"Rectify\"?",
+    "options": {
+      "A": "Falsify",
+      "B": "Stormy",
+      "C": "Discourage",
+      "D": "Please"
+    },
+    "correct_option": "A",
+    "answer": "Falsify",
+    "explanation": "Hindi: सुधारना"
+  },
+  {
+    "id": "SYNO-86",
+    "chapter": "English",
+    "type": "Synonyms",
+    "question": "What is a synonym for \"Taciturn\"?",
+    "options": {
+      "A": "Devious",
+      "B": "Stable",
+      "C": "Silent",
+      "D": "Enthusiastic"
+    },
+    "correct_option": "C",
+    "answer": "Silent",
+    "explanation": "Hindi: अल्पभाषी"
+  },
+  {
+    "id": "ANTO-86",
+    "chapter": "English",
+    "type": "Antonyms",
+    "question": "What is an antonym for \"Taciturn\"?",
+    "options": {
+      "A": "Uplifted",
+      "B": "Talkative",
+      "C": "Adamant",
+      "D": "Aware"
+    },
+    "correct_option": "B",
+    "answer": "Talkative",
+    "explanation": "Hindi: अल्पभाषी"
+  },
+  {
+    "id": "SYNO-87",
+    "chapter": "English",
+    "type": "Synonyms",
+    "question": "What is a synonym for \"Tedious\"?",
+    "options": {
+      "A": "Presumed",
+      "B": "Scarce",
+      "C": "Dull",
+      "D": "Scholarly"
+    },
+    "correct_option": "C",
+    "answer": "Dull",
+    "explanation": "Hindi: उबाऊ"
+  },
+  {
+    "id": "ANTO-87",
+    "chapter": "English",
+    "type": "Antonyms",
+    "question": "What is an antonym for \"Tedious\"?",
+    "options": {
+      "A": "Interesting",
+      "B": "Consensus",
+      "C": "Genuine",
+      "D": "Dejected"
+    },
+    "correct_option": "A",
+    "answer": "Interesting",
+    "explanation": "Hindi: उबाऊ"
+  },
+  {
+    "id": "SYNO-88",
+    "chapter": "English",
+    "type": "Synonyms",
+    "question": "What is a synonym for \"Terse\"?",
+    "options": {
+      "A": "Uplifted",
+      "B": "Brief",
+      "C": "Disturbed",
+      "D": "Petite"
+    },
+    "correct_option": "B",
+    "answer": "Brief",
+    "explanation": "Hindi: संक्षिप्त, रुखापन से"
+  },
+  {
+    "id": "ANTO-88",
+    "chapter": "English",
+    "type": "Antonyms",
+    "question": "What is an antonym for \"Terse\"?",
+    "options": {
+      "A": "Unclear",
+      "B": "Unscholarly",
+      "C": "Attain",
+      "D": "Polite"
+    },
+    "correct_option": "D",
+    "answer": "Polite",
+    "explanation": "Hindi: संक्षिप्त, रुखापन से"
+  },
+  {
+    "id": "SYNO-89",
+    "chapter": "English",
+    "type": "Synonyms",
+    "question": "What is a synonym for \"Tranquil\"?",
+    "options": {
+      "A": "Dull",
+      "B": "Enthusiastic",
+      "C": "Peaceful",
+      "D": "Extrovert"
+    },
+    "correct_option": "C",
+    "answer": "Peaceful",
+    "explanation": "Hindi: शांत"
+  },
+  {
+    "id": "ANTO-89",
+    "chapter": "English",
+    "type": "Antonyms",
+    "question": "What is an antonym for \"Tranquil\"?",
+    "options": {
+      "A": "Ill Will",
+      "B": "Minimal",
+      "C": "Luxurious",
+      "D": "Stormy"
+    },
+    "correct_option": "D",
+    "answer": "Stormy",
+    "explanation": "Hindi: शांत"
+  },
+  {
+    "id": "SYNO-90",
+    "chapter": "English",
+    "type": "Synonyms",
+    "question": "What is a synonym for \"Vulnerable\"?",
+    "options": {
+      "A": "Unstable",
+      "B": "Exposed",
+      "C": "Insignificant",
+      "D": "Counsel"
+    },
+    "correct_option": "B",
+    "answer": "Exposed",
+    "explanation": "Hindi: असुरक्षित"
+  },
+  {
+    "id": "ANTO-90",
+    "chapter": "English",
+    "type": "Antonyms",
+    "question": "What is an antonym for \"Vulnerable\"?",
+    "options": {
+      "A": "Fleeting",
+      "B": "Warm",
+      "C": "Secure",
+      "D": "Disrespectful"
+    },
+    "correct_option": "C",
+    "answer": "Secure",
+    "explanation": "Hindi: असुरक्षित"
+  },
+  {
+    "id": "SYNO-91",
+    "chapter": "English",
+    "type": "Synonyms",
+    "question": "What is a synonym for \"Abolish\"?",
+    "options": {
+      "A": "Eliminate",
+      "B": "Careless",
+      "C": "Secret",
+      "D": "Adamant"
+    },
+    "correct_option": "A",
+    "answer": "Eliminate",
+    "explanation": "Hindi: हटाना"
+  },
+  {
+    "id": "ANTO-91",
+    "chapter": "English",
+    "type": "Antonyms",
+    "question": "What is an antonym for \"Abolish\"?",
+    "options": {
+      "A": "Continue",
+      "B": "Wise",
+      "C": "Gloomy",
+      "D": "Inclined"
+    },
+    "correct_option": "A",
+    "answer": "Continue",
+    "explanation": "Hindi: हटाना"
+  },
+  {
+    "id": "SYNO-92",
+    "chapter": "English",
+    "type": "Synonyms",
+    "question": "What is a synonym for \"Abundance\"?",
+    "options": {
+      "A": "Plentiful",
+      "B": "Tiny",
+      "C": "Scarcity",
+      "D": "Plethora"
+    },
+    "correct_option": "D",
+    "answer": "Plethora",
+    "explanation": "Hindi: प्रचुरता"
+  },
+  {
+    "id": "ANTO-92",
+    "chapter": "English",
+    "type": "Antonyms",
+    "question": "What is an antonym for \"Abundance\"?",
+    "options": {
+      "A": "Pointless",
+      "B": "Scarcity",
+      "C": "Defenceless",
+      "D": "Blunt"
+    },
+    "correct_option": "B",
+    "answer": "Scarcity",
+    "explanation": "Hindi: प्रचुरता"
+  },
+  {
+    "id": "SYNO-93",
+    "chapter": "English",
+    "type": "Synonyms",
+    "question": "What is a synonym for \"Altruistic/Altruist/Altruism\"?",
+    "options": {
+      "A": "Philanthropic",
+      "B": "Disregard",
+      "C": "Modest",
+      "D": "Sumptuous"
+    },
+    "correct_option": "A",
+    "answer": "Philanthropic",
+    "explanation": "Hindi: परोपकारी"
+  },
+  {
+    "id": "ANTO-93",
+    "chapter": "English",
+    "type": "Antonyms",
+    "question": "What is an antonym for \"Altruistic/Altruist/Altruism\"?",
+    "options": {
+      "A": "Wise",
+      "B": "Useless",
+      "C": "Brave",
+      "D": "Selfish"
+    },
+    "correct_option": "D",
+    "answer": "Selfish",
+    "explanation": "Hindi: परोपकारी"
+  },
+  {
+    "id": "SYNO-94",
+    "chapter": "English",
+    "type": "Synonyms",
+    "question": "What is a synonym for \"Annoy\"?",
+    "options": {
+      "A": "Enthusiastic",
+      "B": "True",
+      "C": "Offend",
+      "D": "Sorrow"
+    },
+    "correct_option": "C",
+    "answer": "Offend",
+    "explanation": "Hindi: झुंझला देना"
+  },
+  {
+    "id": "ANTO-94",
+    "chapter": "English",
+    "type": "Antonyms",
+    "question": "What is an antonym for \"Annoy\"?",
+    "options": {
+      "A": "Satisfy",
+      "B": "Extravagance",
+      "C": "Gloomy",
+      "D": "Clear"
+    },
+    "correct_option": "A",
+    "answer": "Satisfy",
+    "explanation": "Hindi: झुंझला देना"
+  },
+  {
+    "id": "SYNO-95",
+    "chapter": "English",
+    "type": "Synonyms",
+    "question": "What is a synonym for \"Audacious\"?",
+    "options": {
+      "A": "Unwise",
+      "B": "Evident",
+      "C": "Dark",
+      "D": "Bold"
+    },
+    "correct_option": "D",
+    "answer": "Bold",
+    "explanation": "Hindi: साहसी"
+  },
+  {
+    "id": "ANTO-95",
+    "chapter": "English",
+    "type": "Antonyms",
+    "question": "What is an antonym for \"Audacious\"?",
+    "options": {
+      "A": "Humanitarian",
+      "B": "Amaze",
+      "C": "Cowardly",
+      "D": "Constant"
+    },
+    "correct_option": "C",
+    "answer": "Cowardly",
+    "explanation": "Hindi: साहसी"
+  },
+  {
+    "id": "SYNO-96",
+    "chapter": "English",
+    "type": "Synonyms",
+    "question": "What is a synonym for \"Audacity\"?",
+    "options": {
+      "A": "False",
+      "B": "Hide",
+      "C": "Discord",
+      "D": "Boldness"
+    },
+    "correct_option": "D",
+    "answer": "Boldness",
+    "explanation": "Hindi: धृष्टता"
+  },
+  {
+    "id": "ANTO-96",
+    "chapter": "English",
+    "type": "Antonyms",
+    "question": "What is an antonym for \"Audacity\"?",
+    "options": {
+      "A": "Shy",
+      "B": "Leave",
+      "C": "Shortage",
+      "D": "Cowardice"
+    },
+    "correct_option": "D",
+    "answer": "Cowardice",
+    "explanation": "Hindi: धृष्टता"
+  },
+  {
+    "id": "SYNO-97",
+    "chapter": "English",
+    "type": "Synonyms",
+    "question": "What is a synonym for \"Benign\"?",
+    "options": {
+      "A": "Worsen",
+      "B": "Favourable",
+      "C": "Meticulous",
+      "D": "Graceful"
+    },
+    "correct_option": "B",
+    "answer": "Favourable",
+    "explanation": "Hindi: दयालु"
+  },
+  {
+    "id": "ANTO-97",
+    "chapter": "English",
+    "type": "Antonyms",
+    "question": "What is an antonym for \"Benign\"?",
+    "options": {
+      "A": "Malignant",
+      "B": "Bold",
+      "C": "Transitory",
+      "D": "Learned"
+    },
+    "correct_option": "A",
+    "answer": "Malignant",
+    "explanation": "Hindi: दयालु"
+  },
+  {
+    "id": "SYNO-98",
+    "chapter": "English",
+    "type": "Synonyms",
+    "question": "What is a synonym for \"Blunt\"?",
+    "options": {
+      "A": "Impervious",
+      "B": "Dull",
+      "C": "Appear",
+      "D": "Slavery"
+    },
+    "correct_option": "B",
+    "answer": "Dull",
+    "explanation": "Hindi: कम धार वाला, मंदबुद्धि"
+  },
+  {
+    "id": "ANTO-98",
+    "chapter": "English",
+    "type": "Antonyms",
+    "question": "What is an antonym for \"Blunt\"?",
+    "options": {
+      "A": "Sharp",
+      "B": "Enthusiastic",
+      "C": "Likely",
+      "D": "Unexpectedly"
+    },
+    "correct_option": "A",
+    "answer": "Sharp",
+    "explanation": "Hindi: कम धार वाला, मंदबुद्धि"
+  }
+]

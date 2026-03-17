@@ -1,0 +1,20 @@
+{
+  "maths": {
+    "baseTime": 60,
+    "penaltyTiers": [
+      {
+        "maxAttempts": 0,
+        "time": 60
+      },
+      {
+        "maxAttempts": 1,
+        "time": 45
+      },
+      {
+        "maxAttempts": null,
+        "time": 30
+      }
+    ]
+  },
+  "default": 15
+}

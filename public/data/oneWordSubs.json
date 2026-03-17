@@ -1,0 +1,3002 @@
+[
+  {
+    "id": "OWS-0",
+    "chapter": "English",
+    "type": "One Word Substitution",
+    "question": "Substitute one word for: \"A person who loves all mankind // Someone who freely gives money and help to people who need it\"",
+    "options": {
+      "A": "Ambidextrous",
+      "B": "Hypocrite",
+      "C": "Insatiable",
+      "D": "Philanthropist"
+    },
+    "correct_option": "D",
+    "answer": "Philanthropist",
+    "explanation": "Hindi: मानव प्रेमी, परोपकारी"
+  },
+  {
+    "id": "OWS-1",
+    "chapter": "English",
+    "type": "One Word Substitution",
+    "question": "Substitute one word for: \"Someone who makes charitable donations intended for the welfare of other people\"",
+    "options": {
+      "A": "Altruist",
+      "B": "Philistine",
+      "C": "Amnesia",
+      "D": "Introvert"
+    },
+    "correct_option": "A",
+    "answer": "Altruist",
+    "explanation": "Hindi: परोपकारी"
+  },
+  {
+    "id": "OWS-2",
+    "chapter": "English",
+    "type": "One Word Substitution",
+    "question": "Substitute one word for: \"One who helps a person in need\"",
+    "options": {
+      "A": "Alimony",
+      "B": "Samaritan",
+      "C": "Reticent",
+      "D": "Bilingual"
+    },
+    "correct_option": "B",
+    "answer": "Samaritan",
+    "explanation": "Hindi: नेक आदमी"
+  },
+  {
+    "id": "OWS-3",
+    "chapter": "English",
+    "type": "One Word Substitution",
+    "question": "Substitute one word for: \"Someone who is killed fighting for the cause of religion or faith\"",
+    "options": {
+      "A": "Draw",
+      "B": "Extempore",
+      "C": "Anarchist",
+      "D": "Martyr"
+    },
+    "correct_option": "D",
+    "answer": "Martyr",
+    "explanation": "Hindi: शहीद"
+  },
+  {
+    "id": "OWS-4",
+    "chapter": "English",
+    "type": "One Word Substitution",
+    "question": "Substitute one word for: \"A person who never takes alcoholic drinks\"",
+    "options": {
+      "A": "Philatelist",
+      "B": "Teetotaller",
+      "C": "Pacifist",
+      "D": "Astronaut"
+    },
+    "correct_option": "B",
+    "answer": "Teetotaller",
+    "explanation": "Hindi: पूर्णतया मद्यत्यागी"
+  },
+  {
+    "id": "OWS-5",
+    "chapter": "English",
+    "type": "One Word Substitution",
+    "question": "Substitute one word for: \"Someone having many skills\"",
+    "options": {
+      "A": "Versatile",
+      "B": "Ephemeral",
+      "C": "Orchard",
+      "D": "Hypochondriac"
+    },
+    "correct_option": "A",
+    "answer": "Versatile",
+    "explanation": "Hindi: सर्वगुण सम्पन्न"
+  },
+  {
+    "id": "OWS-6",
+    "chapter": "English",
+    "type": "One Word Substitution",
+    "question": "Substitute one word for: \"A man who knows a lot about things like food, music and art\"",
+    "options": {
+      "A": "Ascetic",
+      "B": "Connoisseur",
+      "C": "Constellation",
+      "D": "Pedestrian"
+    },
+    "correct_option": "B",
+    "answer": "Connoisseur",
+    "explanation": "Hindi: विशेषज्ञ, पारखी"
+  },
+  {
+    "id": "OWS-7",
+    "chapter": "English",
+    "type": "One Word Substitution",
+    "question": "Substitute one word for: \"One who denies oneself ordinary bodily pleasures\"",
+    "options": {
+      "A": "Polyglot",
+      "B": "Contagious",
+      "C": "Blasphemy",
+      "D": "Ascetic"
+    },
+    "correct_option": "D",
+    "answer": "Ascetic",
+    "explanation": "Hindi: सन्यासी"
+  },
+  {
+    "id": "OWS-8",
+    "chapter": "English",
+    "type": "One Word Substitution",
+    "question": "Substitute one word for: \"One who knows everything\"",
+    "options": {
+      "A": "Martyr",
+      "B": "Omniscient",
+      "C": "Choreographer",
+      "D": "Mint"
+    },
+    "correct_option": "B",
+    "answer": "Omniscient",
+    "explanation": "Hindi: सर्वज्ञानी"
+  },
+  {
+    "id": "OWS-9",
+    "chapter": "English",
+    "type": "One Word Substitution",
+    "question": "Substitute one word for: \"One who is all powerful\"",
+    "options": {
+      "A": "Philanthropist",
+      "B": "Samaritan",
+      "C": "Omnipotent",
+      "D": "Encyclopedia"
+    },
+    "correct_option": "C",
+    "answer": "Omnipotent",
+    "explanation": "Hindi: सर्वशक्तिमान"
+  },
+  {
+    "id": "OWS-10",
+    "chapter": "English",
+    "type": "One Word Substitution",
+    "question": "Substitute one word for: \"Present everywhere\"",
+    "options": {
+      "A": "Samaritan",
+      "B": "Aesthetic",
+      "C": "Omnipresent",
+      "D": "Casino"
+    },
+    "correct_option": "C",
+    "answer": "Omnipresent",
+    "explanation": "Hindi: सर्वव्यापक"
+  },
+  {
+    "id": "OWS-11",
+    "chapter": "English",
+    "type": "One Word Substitution",
+    "question": "Substitute one word for: \"A person who can endure pain or hardship without showing his feelings/complaining\"",
+    "options": {
+      "A": "Shoal",
+      "B": "Stoic",
+      "C": "Cynic",
+      "D": "Cartographer"
+    },
+    "correct_option": "B",
+    "answer": "Stoic",
+    "explanation": "Hindi: सहनशील, भावहीन"
+  },
+  {
+    "id": "OWS-12",
+    "chapter": "English",
+    "type": "One Word Substitution",
+    "question": "Substitute one word for: \"A person who loves or collects books\"",
+    "options": {
+      "A": "Sheath",
+      "B": "Theology",
+      "C": "Bibliophile",
+      "D": "Edible"
+    },
+    "correct_option": "C",
+    "answer": "Bibliophile",
+    "explanation": "Hindi: पुस्तक प्रेमी"
+  },
+  {
+    "id": "OWS-13",
+    "chapter": "English",
+    "type": "One Word Substitution",
+    "question": "Substitute one word for: \"A person who knows and is able to use several languages\"",
+    "options": {
+      "A": "Notorious",
+      "B": "Ambidextrous",
+      "C": "Inevitable",
+      "D": "Polyglot"
+    },
+    "correct_option": "D",
+    "answer": "Polyglot",
+    "explanation": "Hindi: बहुभाषी"
+  },
+  {
+    "id": "OWS-14",
+    "chapter": "English",
+    "type": "One Word Substitution",
+    "question": "Substitute one word for: \"Incapable of feeling tired or exhausted\"",
+    "options": {
+      "A": "Indefatigable",
+      "B": "Extempore",
+      "C": "Cartography",
+      "D": "Aristocracy"
+    },
+    "correct_option": "A",
+    "answer": "Indefatigable",
+    "explanation": "Hindi: न थकनेवाला"
+  },
+  {
+    "id": "OWS-15",
+    "chapter": "English",
+    "type": "One Word Substitution",
+    "question": "Substitute one word for: \"One who sees the bright side of things\"",
+    "options": {
+      "A": "Teetotaller",
+      "B": "Optimist",
+      "C": "Acrophobia",
+      "D": "Apiary"
+    },
+    "correct_option": "B",
+    "answer": "Optimist",
+    "explanation": "Hindi: आशावादी"
+  },
+  {
+    "id": "OWS-16",
+    "chapter": "English",
+    "type": "One Word Substitution",
+    "question": "Substitute one word for: \"A person who opposes war or use of military force\"",
+    "options": {
+      "A": "Pacifist",
+      "B": "Effeminate",
+      "C": "Glutton",
+      "D": "Volunteer"
+    },
+    "correct_option": "A",
+    "answer": "Pacifist",
+    "explanation": "Hindi: शांतिवादी"
+  },
+  {
+    "id": "OWS-17",
+    "chapter": "English",
+    "type": "One Word Substitution",
+    "question": "Substitute one word for: \"One who offers one's services without being forced\"",
+    "options": {
+      "A": "Cacophony",
+      "B": "Anonymous",
+      "C": "Amnesia",
+      "D": "Volunteer"
+    },
+    "correct_option": "D",
+    "answer": "Volunteer",
+    "explanation": "Hindi: स्वयं सेवक"
+  },
+  {
+    "id": "OWS-18",
+    "chapter": "English",
+    "type": "One Word Substitution",
+    "question": "Substitute one word for: \"A person who is long experienced or practiced in an activity\"",
+    "options": {
+      "A": "Utopia",
+      "B": "Chronology",
+      "C": "Veteran",
+      "D": "Pacifist"
+    },
+    "correct_option": "C",
+    "answer": "Veteran",
+    "explanation": "Hindi: अनुभवी"
+  },
+  {
+    "id": "OWS-19",
+    "chapter": "English",
+    "type": "One Word Substitution",
+    "question": "Substitute one word for: \"Able to use the left hand and right hand equally well\"",
+    "options": {
+      "A": "Ambidextrous",
+      "B": "Colleague",
+      "C": "Soliloquy",
+      "D": "Cacophony"
+    },
+    "correct_option": "A",
+    "answer": "Ambidextrous",
+    "explanation": "Hindi: उभय हस्त (दोनों हाथों से समान रूप से काम करने वाला)"
+  },
+  {
+    "id": "OWS-20",
+    "chapter": "English",
+    "type": "One Word Substitution",
+    "question": "Substitute one word for: \"A person who attacks or criticizes cherished beliefs or institutions\"",
+    "options": {
+      "A": "Dermatologist",
+      "B": "Ornithology",
+      "C": "Insomnia",
+      "D": "Iconoclast"
+    },
+    "correct_option": "D",
+    "answer": "Iconoclast",
+    "explanation": "Hindi: रिवाज तोड़नेवाला"
+  },
+  {
+    "id": "OWS-21",
+    "chapter": "English",
+    "type": "One Word Substitution",
+    "question": "Substitute one word for: \"A person who regards the whole world as his country // One who is a citizen not of a country but of the world\"",
+    "options": {
+      "A": "Demagogue",
+      "B": "Cosmopolitan",
+      "C": "Pacifist",
+      "D": "Claustrophobia"
+    },
+    "correct_option": "B",
+    "answer": "Cosmopolitan",
+    "explanation": "Hindi: समस्त संसार का, विश्व नागरिक"
+  },
+  {
+    "id": "OWS-22",
+    "chapter": "English",
+    "type": "One Word Substitution",
+    "question": "Substitute one word for: \"One who cannot make mistake\"",
+    "options": {
+      "A": "Sinecure",
+      "B": "Archaeology",
+      "C": "Infallible",
+      "D": "Numismatist"
+    },
+    "correct_option": "C",
+    "answer": "Infallible",
+    "explanation": "Hindi: अचूक"
+  },
+  {
+    "id": "OWS-23",
+    "chapter": "English",
+    "type": "One Word Substitution",
+    "question": "Substitute one word for: \"That which cannot be conquered\"",
+    "options": {
+      "A": "Invincible",
+      "B": "Incorrigible",
+      "C": "Mint",
+      "D": "Agenda"
+    },
+    "correct_option": "A",
+    "answer": "Invincible",
+    "explanation": "Hindi: अजेय"
+  },
+  {
+    "id": "OWS-24",
+    "chapter": "English",
+    "type": "One Word Substitution",
+    "question": "Substitute one word for: \"A solution for all difficulties or diseases\"",
+    "options": {
+      "A": "Entomology",
+      "B": "Connoisseur",
+      "C": "Omniscient",
+      "D": "Panacea"
+    },
+    "correct_option": "D",
+    "answer": "Panacea",
+    "explanation": "Hindi: रामबाण इलाज"
+  },
+  {
+    "id": "OWS-25",
+    "chapter": "English",
+    "type": "One Word Substitution",
+    "question": "Substitute one word for: \"Centre of attraction\"",
+    "options": {
+      "A": "Cynosure",
+      "B": "Obituary",
+      "C": "Pedestrian",
+      "D": "Congregation"
+    },
+    "correct_option": "A",
+    "answer": "Cynosure",
+    "explanation": "Hindi: आकर्षण-बिन्दु"
+  },
+  {
+    "id": "OWS-26",
+    "chapter": "English",
+    "type": "One Word Substitution",
+    "question": "Substitute one word for: \"A quiet person who is more interested in his own thoughts and feelings than in spending time with other people\"",
+    "options": {
+      "A": "Introvert",
+      "B": "Pessimist",
+      "C": "Aviary",
+      "D": "Martyr"
+    },
+    "correct_option": "A",
+    "answer": "Introvert",
+    "explanation": "Hindi: अन्तर्मुखी व्यक्ति"
+  },
+  {
+    "id": "OWS-27",
+    "chapter": "English",
+    "type": "One Word Substitution",
+    "question": "Substitute one word for: \"A person very reserved in speech\"",
+    "options": {
+      "A": "Reticent",
+      "B": "Samaritan",
+      "C": "Aesthetic",
+      "D": "Indefatigable"
+    },
+    "correct_option": "A",
+    "answer": "Reticent",
+    "explanation": "Hindi: अल्पभाषी"
+  },
+  {
+    "id": "OWS-28",
+    "chapter": "English",
+    "type": "One Word Substitution",
+    "question": "Substitute one word for: \"A person who believes that all events are predetermined or subject to fate\"",
+    "options": {
+      "A": "Insomnia",
+      "B": "Fatalist",
+      "C": "Mortuary",
+      "D": "Aquatic"
+    },
+    "correct_option": "B",
+    "answer": "Fatalist",
+    "explanation": "Hindi: भाग्यवादी"
+  },
+  {
+    "id": "OWS-29",
+    "chapter": "English",
+    "type": "One Word Substitution",
+    "question": "Substitute one word for: \"One who plays for pleasure rather than as a profession // A person who is neither well experienced nor professional\"",
+    "options": {
+      "A": "Edible",
+      "B": "Amateur",
+      "C": "Usurer",
+      "D": "Bibliophile"
+    },
+    "correct_option": "B",
+    "answer": "Amateur",
+    "explanation": "Hindi: शौक़ीन व्यक्ति/अनुभवहीन"
+  },
+  {
+    "id": "OWS-30",
+    "chapter": "English",
+    "type": "One Word Substitution",
+    "question": "Substitute one word for: \"A person who withdraws from the world to live in seclusion and often in solitude\"",
+    "options": {
+      "A": "Panacea",
+      "B": "Atheist",
+      "C": "Aquatic",
+      "D": "Recluse"
+    },
+    "correct_option": "D",
+    "answer": "Recluse",
+    "explanation": "Hindi: वैरागी"
+  },
+  {
+    "id": "OWS-31",
+    "chapter": "English",
+    "type": "One Word Substitution",
+    "question": "Substitute one word for: \"A person who readily believes others easily\"",
+    "options": {
+      "A": "Soliloquy",
+      "B": "Catalogue",
+      "C": "Credulous",
+      "D": "Abattoir"
+    },
+    "correct_option": "C",
+    "answer": "Credulous",
+    "explanation": "Hindi: भोला-भाला"
+  },
+  {
+    "id": "OWS-32",
+    "chapter": "English",
+    "type": "One Word Substitution",
+    "question": "Substitute one word for: \"One who is easily deceived\"",
+    "options": {
+      "A": "Cartography",
+      "B": "Gullible",
+      "C": "Fugitive",
+      "D": "Anonymous"
+    },
+    "correct_option": "B",
+    "answer": "Gullible",
+    "explanation": "Hindi: भोला भाला"
+  },
+  {
+    "id": "OWS-33",
+    "chapter": "English",
+    "type": "One Word Substitution",
+    "question": "Substitute one word for: \"Lasting for a very short time\"",
+    "options": {
+      "A": "Ephemeral",
+      "B": "Omnipotent",
+      "C": "Bevy",
+      "D": "Dermatologist"
+    },
+    "correct_option": "A",
+    "answer": "Ephemeral",
+    "explanation": "Hindi: क्षणिक"
+  },
+  {
+    "id": "OWS-34",
+    "chapter": "English",
+    "type": "One Word Substitution",
+    "question": "Substitute one word for: \"A person who is new to a profession without training or experience in a skill or subject\"",
+    "options": {
+      "A": "Novice",
+      "B": "Pessimist",
+      "C": "Insomnia",
+      "D": "Barometer"
+    },
+    "correct_option": "A",
+    "answer": "Novice",
+    "explanation": "Hindi: नौसिखिया"
+  },
+  {
+    "id": "OWS-35",
+    "chapter": "English",
+    "type": "One Word Substitution",
+    "question": "Substitute one word for: \"A person that one work with at the same place, in a profession or a business\"",
+    "options": {
+      "A": "Colleague",
+      "B": "Sinecure",
+      "C": "Pedestrian",
+      "D": "Orchard"
+    },
+    "correct_option": "A",
+    "answer": "Colleague",
+    "explanation": "Hindi: सहकर्मी"
+  },
+  {
+    "id": "OWS-36",
+    "chapter": "English",
+    "type": "One Word Substitution",
+    "question": "Substitute one word for: \"Holding an office without receiving a pay\"",
+    "options": {
+      "A": "Cardiologist",
+      "B": "Honorary",
+      "C": "Ornithology",
+      "D": "Omnipresent"
+    },
+    "correct_option": "B",
+    "answer": "Honorary",
+    "explanation": "Hindi: अवैतनिक"
+  },
+  {
+    "id": "OWS-37",
+    "chapter": "English",
+    "type": "One Word Substitution",
+    "question": "Substitute one word for: \"Whose names are not known // An unknown author\"",
+    "options": {
+      "A": "Anonymous",
+      "B": "Hypocrite",
+      "C": "Soliloquy",
+      "D": "Cynosure"
+    },
+    "correct_option": "A",
+    "answer": "Anonymous",
+    "explanation": "Hindi: बेनाम/गुमनाम"
+  },
+  {
+    "id": "OWS-38",
+    "chapter": "English",
+    "type": "One Word Substitution",
+    "question": "Substitute one word for: \"One who is not sure about God's existence\"",
+    "options": {
+      "A": "Colleague",
+      "B": "Mint",
+      "C": "Souvenir",
+      "D": "Agnostic"
+    },
+    "correct_option": "D",
+    "answer": "Agnostic",
+    "explanation": "Hindi: ईश्वर के बारे में संशयवादी व्यक्ति"
+  },
+  {
+    "id": "OWS-39",
+    "chapter": "English",
+    "type": "One Word Substitution",
+    "question": "Substitute one word for: \"Concerned with beauty or the appreciation of beauty\"",
+    "options": {
+      "A": "Versatile",
+      "B": "Calligraphy",
+      "C": "Acrophobia",
+      "D": "Aesthetic"
+    },
+    "correct_option": "D",
+    "answer": "Aesthetic",
+    "explanation": "Hindi: सौंदर्य संबंधी"
+  },
+  {
+    "id": "OWS-40",
+    "chapter": "English",
+    "type": "One Word Substitution",
+    "question": "Substitute one word for: \"An office with high salary but no work\"",
+    "options": {
+      "A": "Fatal",
+      "B": "Martyr",
+      "C": "Sinecure",
+      "D": "Biography"
+    },
+    "correct_option": "C",
+    "answer": "Sinecure",
+    "explanation": "Hindi: आराम की नौकरी"
+  },
+  {
+    "id": "OWS-41",
+    "chapter": "English",
+    "type": "One Word Substitution",
+    "question": "Substitute one word for: \"Belonging to the same time // A person living in the same age with another\"",
+    "options": {
+      "A": "Pseudonym",
+      "B": "Nepotism",
+      "C": "Contemporary",
+      "D": "Manuscript"
+    },
+    "correct_option": "C",
+    "answer": "Contemporary",
+    "explanation": "Hindi: समकालीन"
+  },
+  {
+    "id": "OWS-42",
+    "chapter": "English",
+    "type": "One Word Substitution",
+    "question": "Substitute one word for: \"An animal that lives in groups // Tending to associate with others of one's kind\"",
+    "options": {
+      "A": "Recluse",
+      "B": "Gregarious",
+      "C": "Anarchy",
+      "D": "Catalogue"
+    },
+    "correct_option": "B",
+    "answer": "Gregarious",
+    "explanation": "Hindi: झुण्ड में रहनेवाला"
+  },
+  {
+    "id": "OWS-43",
+    "chapter": "English",
+    "type": "One Word Substitution",
+    "question": "Substitute one word for: \"Someone working or acting merely for money or other rewards // A soldier who fights for the sake of money\"",
+    "options": {
+      "A": "Emigrant",
+      "B": "Alimony",
+      "C": "Plutocracy",
+      "D": "Mercenary"
+    },
+    "correct_option": "D",
+    "answer": "Mercenary",
+    "explanation": "Hindi: किराये का सैनिक"
+  },
+  {
+    "id": "OWS-44",
+    "chapter": "English",
+    "type": "One Word Substitution",
+    "question": "Substitute one word for: \"A person who collects or studies stamps\"",
+    "options": {
+      "A": "Congregation",
+      "B": "Illiterate",
+      "C": "Philatelist",
+      "D": "Aviary"
+    },
+    "correct_option": "C",
+    "answer": "Philatelist",
+    "explanation": "Hindi: डाक के टिकट का संग्राहक"
+  },
+  {
+    "id": "OWS-45",
+    "chapter": "English",
+    "type": "One Word Substitution",
+    "question": "Substitute one word for: \"A person who suffers from an imaginary illness // A person who is abnormally anxious about his health\"",
+    "options": {
+      "A": "Bankrupt",
+      "B": "Hypochondriac",
+      "C": "Gregarious",
+      "D": "Stoic"
+    },
+    "correct_option": "B",
+    "answer": "Hypochondriac",
+    "explanation": "Hindi: रोगभ्रमी"
+  },
+  {
+    "id": "OWS-46",
+    "chapter": "English",
+    "type": "One Word Substitution",
+    "question": "Substitute one word for: \"A person who leaves his country to live in another\"",
+    "options": {
+      "A": "Dermatology",
+      "B": "Polyglot",
+      "C": "Hamlet",
+      "D": "Emigrant"
+    },
+    "correct_option": "D",
+    "answer": "Emigrant",
+    "explanation": "Hindi: अपने देश को छोड़ने वाला"
+  },
+  {
+    "id": "OWS-47",
+    "chapter": "English",
+    "type": "One Word Substitution",
+    "question": "Substitute one word for: \"A person who is chosen to settle a disagreement // a person appointed by two parties to resolve a dispute\"",
+    "options": {
+      "A": "Psychology",
+      "B": "Contemporary",
+      "C": "Arbitrator",
+      "D": "Manuscript"
+    },
+    "correct_option": "C",
+    "answer": "Arbitrator",
+    "explanation": "Hindi: पंच/माध्यस्थ"
+  },
+  {
+    "id": "OWS-48",
+    "chapter": "English",
+    "type": "One Word Substitution",
+    "question": "Substitute one word for: \"Capable of being understood in either of two or more possible senses, and therefore not definite\"",
+    "options": {
+      "A": "Narcissist",
+      "B": "Plagiarism",
+      "C": "Ambiguous",
+      "D": "Cynosure"
+    },
+    "correct_option": "C",
+    "answer": "Ambiguous",
+    "explanation": "Hindi: संदिग्धार्थी/अस्पष्ट"
+  },
+  {
+    "id": "OWS-49",
+    "chapter": "English",
+    "type": "One Word Substitution",
+    "question": "Substitute one word for: \"That which cannot be believed\"",
+    "options": {
+      "A": "Chauffeur",
+      "B": "Astronomy",
+      "C": "Regicide",
+      "D": "Incredible"
+    },
+    "correct_option": "D",
+    "answer": "Incredible",
+    "explanation": "Hindi: अविश्वसनीय"
+  },
+  {
+    "id": "OWS-50",
+    "chapter": "English",
+    "type": "One Word Substitution",
+    "question": "Substitute one word for: \"In exactly the same words as were used originally\"",
+    "options": {
+      "A": "Soliloquy",
+      "B": "Entomology",
+      "C": "Verbatim",
+      "D": "Constellation"
+    },
+    "correct_option": "C",
+    "answer": "Verbatim",
+    "explanation": "Hindi: शब्द प्रति शब्द"
+  },
+  {
+    "id": "OWS-51",
+    "chapter": "English",
+    "type": "One Word Substitution",
+    "question": "Substitute one word for: \"A person who dislikes women\"",
+    "options": {
+      "A": "Bibliography",
+      "B": "Misogynist",
+      "C": "Carnivorous",
+      "D": "Somnambulist"
+    },
+    "correct_option": "B",
+    "answer": "Misogynist",
+    "explanation": "Hindi: स्त्री द्वेषी"
+  },
+  {
+    "id": "OWS-52",
+    "chapter": "English",
+    "type": "One Word Substitution",
+    "question": "Substitute one word for: \"A person who always expects bad things to happen or something not to be successful\"",
+    "options": {
+      "A": "Fratricide",
+      "B": "Sacrilege",
+      "C": "Inflammable",
+      "D": "Pessimist"
+    },
+    "correct_option": "D",
+    "answer": "Pessimist",
+    "explanation": "Hindi: निराशावादी"
+  },
+  {
+    "id": "OWS-53",
+    "chapter": "English",
+    "type": "One Word Substitution",
+    "question": "Substitute one word for: \"A person who admires himself/herself too much, especially his appearance\"",
+    "options": {
+      "A": "Misogynist",
+      "B": "Epitaph",
+      "C": "Novice",
+      "D": "Narcissist"
+    },
+    "correct_option": "D",
+    "answer": "Narcissist",
+    "explanation": "Hindi: आत्ममोही"
+  },
+  {
+    "id": "OWS-54",
+    "chapter": "English",
+    "type": "One Word Substitution",
+    "question": "Substitute one word for: \"Well-known for being bad // A person of evil reputation\"",
+    "options": {
+      "A": "Insatiable",
+      "B": "Notorious",
+      "C": "Gregarious",
+      "D": "Regalia"
+    },
+    "correct_option": "B",
+    "answer": "Notorious",
+    "explanation": "Hindi: कुख्यात"
+  },
+  {
+    "id": "OWS-55",
+    "chapter": "English",
+    "type": "One Word Substitution",
+    "question": "Substitute one word for: \"A person who hates and avoids other people\"",
+    "options": {
+      "A": "Cartography",
+      "B": "Calligraphy",
+      "C": "Anarchist",
+      "D": "Misanthrope"
+    },
+    "correct_option": "D",
+    "answer": "Misanthrope",
+    "explanation": "Hindi: मानवद्वेषी"
+  },
+  {
+    "id": "OWS-56",
+    "chapter": "English",
+    "type": "One Word Substitution",
+    "question": "Substitute one word for: \"One who eats too much\"",
+    "options": {
+      "A": "Elegy",
+      "B": "Anarchy",
+      "C": "Cynic",
+      "D": "Glutton"
+    },
+    "correct_option": "D",
+    "answer": "Glutton",
+    "explanation": "Hindi: खाऊ, पेटू"
+  },
+  {
+    "id": "OWS-57",
+    "chapter": "English",
+    "type": "One Word Substitution",
+    "question": "Substitute one word for: \"One who sneers at the aims and beliefs of his fellow men // A person who believes that only selfishness motivates human actions\"",
+    "options": {
+      "A": "Omnipotent",
+      "B": "Cynic",
+      "C": "Colleague",
+      "D": "Convalescence"
+    },
+    "correct_option": "B",
+    "answer": "Cynic",
+    "explanation": "Hindi: निंदक, मानवद्वेषी"
+  },
+  {
+    "id": "OWS-58",
+    "chapter": "English",
+    "type": "One Word Substitution",
+    "question": "Substitute one word for: \"A person pretending to be somebody he isn't\"",
+    "options": {
+      "A": "Hypocrite",
+      "B": "Indefatigable",
+      "C": "Acrophobia",
+      "D": "Somnambulist"
+    },
+    "correct_option": "A",
+    "answer": "Hypocrite",
+    "explanation": "Hindi: पाखंडी"
+  },
+  {
+    "id": "OWS-59",
+    "chapter": "English",
+    "type": "One Word Substitution",
+    "question": "Substitute one word for: \"A person who helps another to commit a crime or to do something morally wrong // A partner in crime\"",
+    "options": {
+      "A": "Inflammable",
+      "B": "Apiary",
+      "C": "Bankrupt",
+      "D": "Accomplice"
+    },
+    "correct_option": "D",
+    "answer": "Accomplice",
+    "explanation": "Hindi: सह-अपराधी"
+  },
+  {
+    "id": "OWS-60",
+    "chapter": "English",
+    "type": "One Word Substitution",
+    "question": "Substitute one word for: \"A person who eats human flesh\"",
+    "options": {
+      "A": "Indefatigable",
+      "B": "Hamlet",
+      "C": "Epitaph",
+      "D": "Cannibal"
+    },
+    "correct_option": "D",
+    "answer": "Cannibal",
+    "explanation": "Hindi: नरभक्षक"
+  },
+  {
+    "id": "OWS-61",
+    "chapter": "English",
+    "type": "One Word Substitution",
+    "question": "Substitute one word for: \"A person with strong desire to steal\"",
+    "options": {
+      "A": "Inevitable",
+      "B": "Kleptomania",
+      "C": "Homogeneous",
+      "D": "Sacrilege"
+    },
+    "correct_option": "B",
+    "answer": "Kleptomania",
+    "explanation": "Hindi: चोरी करने की बीमारी"
+  },
+  {
+    "id": "OWS-62",
+    "chapter": "English",
+    "type": "One Word Substitution",
+    "question": "Substitute one word for: \"A person motivated by irrational enthusiasm\"",
+    "options": {
+      "A": "Recluse",
+      "B": "Accomplice",
+      "C": "Atheist",
+      "D": "Fanatic"
+    },
+    "correct_option": "D",
+    "answer": "Fanatic",
+    "explanation": "Hindi: कट्टरपंथी"
+  },
+  {
+    "id": "OWS-63",
+    "chapter": "English",
+    "type": "One Word Substitution",
+    "question": "Substitute one word for: \"A person who has escaped from captivity or is in hiding\"",
+    "options": {
+      "A": "Acrophobia",
+      "B": "Blasphemy",
+      "C": "Agnostic",
+      "D": "Fugitive"
+    },
+    "correct_option": "D",
+    "answer": "Fugitive",
+    "explanation": "Hindi: भगोड़ा"
+  },
+  {
+    "id": "OWS-64",
+    "chapter": "English",
+    "type": "One Word Substitution",
+    "question": "Substitute one word for: \"Giving undue favours to one's own kith and kin\"",
+    "options": {
+      "A": "Kleptomania",
+      "B": "Nepotism",
+      "C": "Veteran",
+      "D": "Draw"
+    },
+    "correct_option": "B",
+    "answer": "Nepotism",
+    "explanation": "Hindi: भाई-भतीजावाद"
+  },
+  {
+    "id": "OWS-65",
+    "chapter": "English",
+    "type": "One Word Substitution",
+    "question": "Substitute one word for: \"Stealing of ideas or writings of someone else\"",
+    "options": {
+      "A": "Pedestrian",
+      "B": "Cosmopolitan",
+      "C": "Plagiarism",
+      "D": "Dermatologist"
+    },
+    "correct_option": "C",
+    "answer": "Plagiarism",
+    "explanation": "Hindi: साहित्यिक चोरी"
+  },
+  {
+    "id": "OWS-66",
+    "chapter": "English",
+    "type": "One Word Substitution",
+    "question": "Substitute one word for: \"One who lends money on high rates of interest\"",
+    "options": {
+      "A": "Bouquet",
+      "B": "Usurer",
+      "C": "Cartography",
+      "D": "Insomnia"
+    },
+    "correct_option": "B",
+    "answer": "Usurer",
+    "explanation": "Hindi: सूदखोर"
+  },
+  {
+    "id": "OWS-67",
+    "chapter": "English",
+    "type": "One Word Substitution",
+    "question": "Substitute one word for: \"A person who does not like, understand or enjoy the beauty of art, literature, music, etc.\"",
+    "options": {
+      "A": "Potable",
+      "B": "Choreographer",
+      "C": "Acrophobia",
+      "D": "Philistine"
+    },
+    "correct_option": "D",
+    "answer": "Philistine",
+    "explanation": "Hindi: अशिक्षित"
+  },
+  {
+    "id": "OWS-68",
+    "chapter": "English",
+    "type": "One Word Substitution",
+    "question": "Substitute one word for: \"A leader who sways his followers by his oratory\"",
+    "options": {
+      "A": "Regalia",
+      "B": "Dormitory",
+      "C": "Arbitrator",
+      "D": "Demagogue"
+    },
+    "correct_option": "D",
+    "answer": "Demagogue",
+    "explanation": "Hindi: जनोत्तेजक नेता"
+  },
+  {
+    "id": "OWS-69",
+    "chapter": "English",
+    "type": "One Word Substitution",
+    "question": "Substitute one word for: \"A system of government of a country in which one person has complete power\"",
+    "options": {
+      "A": "Horticulture",
+      "B": "Autocracy",
+      "C": "Incorrigible",
+      "D": "Archaeology"
+    },
+    "correct_option": "B",
+    "answer": "Autocracy",
+    "explanation": "Hindi: तानाशाही"
+  },
+  {
+    "id": "OWS-70",
+    "chapter": "English",
+    "type": "One Word Substitution",
+    "question": "Substitute one word for: \"A person who believes that laws and governments are not necessary // A person who believes in or tries to bring about a state of lawlessness\"",
+    "options": {
+      "A": "Aquatic",
+      "B": "Chauffeur",
+      "C": "Anarchist",
+      "D": "Sinecure"
+    },
+    "correct_option": "C",
+    "answer": "Anarchist",
+    "explanation": "Hindi: अराजकतावादी"
+  },
+  {
+    "id": "OWS-71",
+    "chapter": "English",
+    "type": "One Word Substitution",
+    "question": "Substitute one word for: \"A person who renounces a religious or political belief or principle\"",
+    "options": {
+      "A": "Ephemeral",
+      "B": "Bureaucracy",
+      "C": "Opaque",
+      "D": "Apostate"
+    },
+    "correct_option": "D",
+    "answer": "Apostate",
+    "explanation": "Hindi: धर्म त्यागी"
+  },
+  {
+    "id": "OWS-72",
+    "chapter": "English",
+    "type": "One Word Substitution",
+    "question": "Substitute one word for: \"Words uttered impiously about God // The act of speaking irreverently about sacred things\"",
+    "options": {
+      "A": "Plutocracy",
+      "B": "Carnivorous",
+      "C": "Blasphemy",
+      "D": "Cacophony"
+    },
+    "correct_option": "C",
+    "answer": "Blasphemy",
+    "explanation": "Hindi: ईश्वर की निंदा"
+  },
+  {
+    "id": "OWS-73",
+    "chapter": "English",
+    "type": "One Word Substitution",
+    "question": "Substitute one word for: \"That which cannot be satisfied\"",
+    "options": {
+      "A": "Misanthrope",
+      "B": "Cosmopolitan",
+      "C": "Aquatic",
+      "D": "Insatiable"
+    },
+    "correct_option": "D",
+    "answer": "Insatiable",
+    "explanation": "Hindi: लालची"
+  },
+  {
+    "id": "OWS-74",
+    "chapter": "English",
+    "type": "One Word Substitution",
+    "question": "Substitute one word for: \"One who is difficult to please\"",
+    "options": {
+      "A": "Philatelist",
+      "B": "Bankrupt",
+      "C": "Fastidious",
+      "D": "Cynic"
+    },
+    "correct_option": "C",
+    "answer": "Fastidious",
+    "explanation": "Hindi: तुनुक मिज़ाज/हठी"
+  },
+  {
+    "id": "OWS-75",
+    "chapter": "English",
+    "type": "One Word Substitution",
+    "question": "Substitute one word for: \"Man behaving more like a woman than as a man\"",
+    "options": {
+      "A": "Martyr",
+      "B": "Demagogue",
+      "C": "Effeminate",
+      "D": "Hangar"
+    },
+    "correct_option": "C",
+    "answer": "Effeminate",
+    "explanation": "Hindi: नारी जैसा"
+  },
+  {
+    "id": "OWS-76",
+    "chapter": "English",
+    "type": "One Word Substitution",
+    "question": "Substitute one word for: \"A person who cannot read or write\"",
+    "options": {
+      "A": "Illiterate",
+      "B": "Aristocracy",
+      "C": "Chronology",
+      "D": "Potable"
+    },
+    "correct_option": "A",
+    "answer": "Illiterate",
+    "explanation": "Hindi: अनपढ़"
+  },
+  {
+    "id": "OWS-77",
+    "chapter": "English",
+    "type": "One Word Substitution",
+    "question": "Substitute one word for: \"One who is unable to pay debts\"",
+    "options": {
+      "A": "Effeminate",
+      "B": "Abattoir",
+      "C": "Insolvent",
+      "D": "Convalescence"
+    },
+    "correct_option": "C",
+    "answer": "Insolvent",
+    "explanation": "Hindi: दिवालिया"
+  },
+  {
+    "id": "OWS-78",
+    "chapter": "English",
+    "type": "One Word Substitution",
+    "question": "Substitute one word for: \"One who is unable to pay his debts\"",
+    "options": {
+      "A": "Fugitive",
+      "B": "Bibliography",
+      "C": "Flora",
+      "D": "Bankrupt"
+    },
+    "correct_option": "D",
+    "answer": "Bankrupt",
+    "explanation": "Hindi: दिवालिया"
+  },
+  {
+    "id": "OWS-79",
+    "chapter": "English",
+    "type": "One Word Substitution",
+    "question": "Substitute one word for: \"Causing or ending in death\"",
+    "options": {
+      "A": "Infallible",
+      "B": "Fatal",
+      "C": "Auditor",
+      "D": "Hypochondriac"
+    },
+    "correct_option": "B",
+    "answer": "Fatal",
+    "explanation": "Hindi: घातक"
+  },
+  {
+    "id": "OWS-80",
+    "chapter": "English",
+    "type": "One Word Substitution",
+    "question": "Substitute one word for: \"Violation of something holy or sacred\"",
+    "options": {
+      "A": "Theology",
+      "B": "Demagogue",
+      "C": "Acrophobia",
+      "D": "Sacrilege"
+    },
+    "correct_option": "D",
+    "answer": "Sacrilege",
+    "explanation": "Hindi: अपवित्रीकरण"
+  },
+  {
+    "id": "OWS-81",
+    "chapter": "English",
+    "type": "One Word Substitution",
+    "question": "Substitute one word for: \"One who cannot be corrected // One who is beyond reform\"",
+    "options": {
+      "A": "Insolvent",
+      "B": "Shoal",
+      "C": "Barometer",
+      "D": "Incorrigible"
+    },
+    "correct_option": "D",
+    "answer": "Incorrigible",
+    "explanation": "Hindi: असंशोधनीय (जो कभी न सुधर सके)"
+  },
+  {
+    "id": "OWS-82",
+    "chapter": "English",
+    "type": "One Word Substitution",
+    "question": "Substitute one word for: \"One who doesn't believe in the existence of God\"",
+    "options": {
+      "A": "Hydrophobia",
+      "B": "Atheist",
+      "C": "Incorrigible",
+      "D": "Acrophobia"
+    },
+    "correct_option": "B",
+    "answer": "Atheist",
+    "explanation": "Hindi: नास्तिक"
+  },
+  {
+    "id": "OWS-83",
+    "chapter": "English",
+    "type": "One Word Substitution",
+    "question": "Substitute one word for: \"The study of the nature of god and religious beliefs // The study of religion\"",
+    "options": {
+      "A": "Ambidextrous",
+      "B": "Theology",
+      "C": "Incorrigible",
+      "D": "Philistine"
+    },
+    "correct_option": "B",
+    "answer": "Theology",
+    "explanation": "Hindi: ब्रह्मविद्या (धार्मिक विश्वास का अध्ययन)"
+  },
+  {
+    "id": "OWS-84",
+    "chapter": "English",
+    "type": "One Word Substitution",
+    "question": "Substitute one word for: \"An assembly of worshippers // A group of people who have come together in a religious building for worship and prayer\"",
+    "options": {
+      "A": "Congregation",
+      "B": "Encyclopedia",
+      "C": "Credulous",
+      "D": "Opaque"
+    },
+    "correct_option": "A",
+    "answer": "Congregation",
+    "explanation": "Hindi: धार्मिक सभा"
+  },
+  {
+    "id": "OWS-85",
+    "chapter": "English",
+    "type": "One Word Substitution",
+    "question": "Substitute one word for: \"Something no longer in use\"",
+    "options": {
+      "A": "Hangar",
+      "B": "Archaeology",
+      "C": "Obsolete",
+      "D": "Wreath"
+    },
+    "correct_option": "C",
+    "answer": "Obsolete",
+    "explanation": "Hindi: अप्रचलित"
+  },
+  {
+    "id": "OWS-86",
+    "chapter": "English",
+    "type": "One Word Substitution",
+    "question": "Substitute one word for: \"A speech or a presentation made without previous preparation\"",
+    "options": {
+      "A": "Extempore",
+      "B": "Reticent",
+      "C": "Mortuary",
+      "D": "Almanac"
+    },
+    "correct_option": "A",
+    "answer": "Extempore",
+    "explanation": "Hindi: बिना तैयारी के"
+  },
+  {
+    "id": "OWS-87",
+    "chapter": "English",
+    "type": "One Word Substitution",
+    "question": "Substitute one word for: \"A person who walks on foot and not travelling in a vehicle\"",
+    "options": {
+      "A": "Glutton",
+      "B": "Lexicographer",
+      "C": "Pedestrian",
+      "D": "Sacrilege"
+    },
+    "correct_option": "C",
+    "answer": "Pedestrian",
+    "explanation": "Hindi: पैदल यात्री"
+  },
+  {
+    "id": "OWS-88",
+    "chapter": "English",
+    "type": "One Word Substitution",
+    "question": "Substitute one word for: \"Something that cannot be avoided // Certain to happen\"",
+    "options": {
+      "A": "Oligarchy",
+      "B": "Inevitable",
+      "C": "Alimony",
+      "D": "Homogeneous"
+    },
+    "correct_option": "B",
+    "answer": "Inevitable",
+    "explanation": "Hindi: अटल"
+  },
+  {
+    "id": "OWS-89",
+    "chapter": "English",
+    "type": "One Word Substitution",
+    "question": "Substitute one word for: \"Handwriting which is difficult or impossible to read\"",
+    "options": {
+      "A": "Connoisseur",
+      "B": "Exonerate",
+      "C": "Insomnia",
+      "D": "Illegible"
+    },
+    "correct_option": "D",
+    "answer": "Illegible",
+    "explanation": "Hindi: अपठनीय"
+  },
+  {
+    "id": "OWS-90",
+    "chapter": "English",
+    "type": "One Word Substitution",
+    "question": "Substitute one word for: \"The art of beautiful handwriting\"",
+    "options": {
+      "A": "Novice",
+      "B": "Anthropology",
+      "C": "Acrophobia",
+      "D": "Calligraphy"
+    },
+    "correct_option": "D",
+    "answer": "Calligraphy",
+    "explanation": "Hindi: सुलेख"
+  },
+  {
+    "id": "OWS-91",
+    "chapter": "English",
+    "type": "One Word Substitution",
+    "question": "Substitute one word for: \"A person who is skilled at producing beautiful handwriting\"",
+    "options": {
+      "A": "Calligrapher",
+      "B": "Credulous",
+      "C": "Pseudonym",
+      "D": "Ornithology"
+    },
+    "correct_option": "A",
+    "answer": "Calligrapher",
+    "explanation": "Hindi: सुलेखक"
+  },
+  {
+    "id": "OWS-92",
+    "chapter": "English",
+    "type": "One Word Substitution",
+    "question": "Substitute one word for: \"Dress with medals, ribbons worn at official ceremony // symbols of royalty\"",
+    "options": {
+      "A": "Recluse",
+      "B": "Bale",
+      "C": "Hypocrite",
+      "D": "Regalia"
+    },
+    "correct_option": "D",
+    "answer": "Regalia",
+    "explanation": "Hindi: राजचिह्न, पदवी चिह्न, पदक"
+  },
+  {
+    "id": "OWS-93",
+    "chapter": "English",
+    "type": "One Word Substitution",
+    "question": "Substitute one word for: \"A situation in a country, an organization, etc. in which there is no government, order/control\"",
+    "options": {
+      "A": "Barometer",
+      "B": "Insolvent",
+      "C": "Anarchy",
+      "D": "Casino"
+    },
+    "correct_option": "C",
+    "answer": "Anarchy",
+    "explanation": "Hindi: अव्यवस्था/अराजकता"
+  },
+  {
+    "id": "OWS-94",
+    "chapter": "English",
+    "type": "One Word Substitution",
+    "question": "Substitute one word for: \"Murder of one's brother or sister\"",
+    "options": {
+      "A": "Chronology",
+      "B": "Gullible",
+      "C": "Mint",
+      "D": "Fratricide"
+    },
+    "correct_option": "D",
+    "answer": "Fratricide",
+    "explanation": "Hindi: भ्रातृहत्या"
+  },
+  {
+    "id": "OWS-95",
+    "chapter": "English",
+    "type": "One Word Substitution",
+    "question": "Substitute one word for: \"The murder of a king\"",
+    "options": {
+      "A": "Extempore",
+      "B": "Regalia",
+      "C": "Fatal",
+      "D": "Regicide"
+    },
+    "correct_option": "D",
+    "answer": "Regicide",
+    "explanation": "Hindi: राज-हत्या"
+  },
+  {
+    "id": "OWS-96",
+    "chapter": "English",
+    "type": "One Word Substitution",
+    "question": "Substitute one word for: \"The study of population and its dynamics\"",
+    "options": {
+      "A": "Demography",
+      "B": "Amateur",
+      "C": "Sheath",
+      "D": "Anthropology"
+    },
+    "correct_option": "A",
+    "answer": "Demography",
+    "explanation": "Hindi: जनसांख्यिकी"
+  },
+  {
+    "id": "OWS-97",
+    "chapter": "English",
+    "type": "One Word Substitution",
+    "question": "Substitute one word for: \"The murder of a whole race or a group of people\"",
+    "options": {
+      "A": "Fastidious",
+      "B": "Amateur",
+      "C": "Genocide",
+      "D": "Incorrigible"
+    },
+    "correct_option": "C",
+    "answer": "Genocide",
+    "explanation": "Hindi: नरसंहार"
+  },
+  {
+    "id": "OWS-98",
+    "chapter": "English",
+    "type": "One Word Substitution",
+    "question": "Substitute one word for: \"An official pardon // the formal act of liberating someone\"",
+    "options": {
+      "A": "Amnesty",
+      "B": "Illegible",
+      "C": "Florist",
+      "D": "Pacifist"
+    },
+    "correct_option": "A",
+    "answer": "Amnesty",
+    "explanation": "Hindi: राज-क्षमा"
+  },
+  {
+    "id": "OWS-99",
+    "chapter": "English",
+    "type": "One Word Substitution",
+    "question": "Substitute one word for: \"To free somebody from all blame\"",
+    "options": {
+      "A": "Illiterate",
+      "B": "Geology",
+      "C": "Almanac",
+      "D": "Exonerate"
+    },
+    "correct_option": "D",
+    "answer": "Exonerate",
+    "explanation": "Hindi: दोषमुक्त करना"
+  },
+  {
+    "id": "OWS-100",
+    "chapter": "English",
+    "type": "One Word Substitution",
+    "question": "Substitute one word for: \"An imagined society where everything is perfect and everyone is happy // A place of ideal perfection\"",
+    "options": {
+      "A": "Cacophony",
+      "B": "Utopia",
+      "C": "Entomology",
+      "D": "Abattoir"
+    },
+    "correct_option": "B",
+    "answer": "Utopia",
+    "explanation": "Hindi: आदर्शवादी काल्पनिक समाज/राज्य"
+  },
+  {
+    "id": "OWS-101",
+    "chapter": "English",
+    "type": "One Word Substitution",
+    "question": "Substitute one word for: \"A government run by officials in a state\"",
+    "options": {
+      "A": "Theology",
+      "B": "Bureaucracy",
+      "C": "Congregation",
+      "D": "Catalogue"
+    },
+    "correct_option": "B",
+    "answer": "Bureaucracy",
+    "explanation": "Hindi: नौकरशाही"
+  },
+  {
+    "id": "OWS-102",
+    "chapter": "English",
+    "type": "One Word Substitution",
+    "question": "Substitute one word for: \"Government by the richest people of a country\"",
+    "options": {
+      "A": "Aristocracy",
+      "B": "Contemporary",
+      "C": "Plutocracy",
+      "D": "Blasphemy"
+    },
+    "correct_option": "C",
+    "answer": "Plutocracy",
+    "explanation": "Hindi: धनिक तन्त्र"
+  },
+  {
+    "id": "OWS-103",
+    "chapter": "English",
+    "type": "One Word Substitution",
+    "question": "Substitute one word for: \"A government by the nobles/government by person of highest social order\"",
+    "options": {
+      "A": "Fratricide",
+      "B": "Aristocracy",
+      "C": "Amphibians",
+      "D": "Hamlet"
+    },
+    "correct_option": "B",
+    "answer": "Aristocracy",
+    "explanation": "Hindi: श्रेष्ठ जनों के द्वारा राज्य शासन"
+  },
+  {
+    "id": "OWS-104",
+    "chapter": "English",
+    "type": "One Word Substitution",
+    "question": "Substitute one word for: \"A system of government in which all the people of a country can vote to elect their representatives\"",
+    "options": {
+      "A": "Abdicate",
+      "B": "Democracy",
+      "C": "Aviary",
+      "D": "Novice"
+    },
+    "correct_option": "B",
+    "answer": "Democracy",
+    "explanation": "Hindi: लोकतंत्र/प्रजातंत्र/जनतंत्र"
+  },
+  {
+    "id": "OWS-105",
+    "chapter": "English",
+    "type": "One Word Substitution",
+    "question": "Substitute one word for: \"The scientific study of birds\"",
+    "options": {
+      "A": "Cosmopolitan",
+      "B": "Gullible",
+      "C": "Ornithology",
+      "D": "Autobiography"
+    },
+    "correct_option": "C",
+    "answer": "Ornithology",
+    "explanation": "Hindi: पक्षीविज्ञान"
+  },
+  {
+    "id": "OWS-106",
+    "chapter": "English",
+    "type": "One Word Substitution",
+    "question": "Substitute one word for: \"A place for keeping the birds in a confined space\"",
+    "options": {
+      "A": "Claustrophobia",
+      "B": "Souvenir",
+      "C": "Aviary",
+      "D": "Alimony"
+    },
+    "correct_option": "C",
+    "answer": "Aviary",
+    "explanation": "Hindi: पक्षीशाला/चिड़ियाघर"
+  },
+  {
+    "id": "OWS-107",
+    "chapter": "English",
+    "type": "One Word Substitution",
+    "question": "Substitute one word for: \"A place where bees are kept\"",
+    "options": {
+      "A": "Lexicographer",
+      "B": "Bureaucracy",
+      "C": "Pessimist",
+      "D": "Apiary"
+    },
+    "correct_option": "D",
+    "answer": "Apiary",
+    "explanation": "Hindi: मधुमक्खियों के पालने का स्थान"
+  },
+  {
+    "id": "OWS-108",
+    "chapter": "English",
+    "type": "One Word Substitution",
+    "question": "Substitute one word for: \"All (things or people) of the same or similar kind or nature\"",
+    "options": {
+      "A": "Indefatigable",
+      "B": "Homogeneous",
+      "C": "Hamlet",
+      "D": "Ambidextrous"
+    },
+    "correct_option": "B",
+    "answer": "Homogeneous",
+    "explanation": "Hindi: सजातीय"
+  },
+  {
+    "id": "OWS-109",
+    "chapter": "English",
+    "type": "One Word Substitution",
+    "question": "Substitute one word for: \"A person who draws or makes maps\"",
+    "options": {
+      "A": "Notorious",
+      "B": "Ambiguous",
+      "C": "Cartographer",
+      "D": "Philistine"
+    },
+    "correct_option": "C",
+    "answer": "Cartographer",
+    "explanation": "Hindi: मानचित्रकार"
+  },
+  {
+    "id": "OWS-110",
+    "chapter": "English",
+    "type": "One Word Substitution",
+    "question": "Substitute one word for: \"The art or process of drawing or making maps\"",
+    "options": {
+      "A": "Philatelist",
+      "B": "Omnipotent",
+      "C": "Cartography",
+      "D": "Autocracy"
+    },
+    "correct_option": "C",
+    "answer": "Cartography",
+    "explanation": "Hindi: मानचित्रकारी"
+  },
+  {
+    "id": "OWS-111",
+    "chapter": "English",
+    "type": "One Word Substitution",
+    "question": "Substitute one word for: \"A person who writes and edits dictionaries\"",
+    "options": {
+      "A": "Omnipotent",
+      "B": "Cortege",
+      "C": "Exonerate",
+      "D": "Lexicographer"
+    },
+    "correct_option": "D",
+    "answer": "Lexicographer",
+    "explanation": "Hindi: शब्दकोश के लेखक"
+  },
+  {
+    "id": "OWS-112",
+    "chapter": "English",
+    "type": "One Word Substitution",
+    "question": "Substitute one word for: \"An extreme fear of being in a small confined place\"",
+    "options": {
+      "A": "Claustrophobia",
+      "B": "Aesthetic",
+      "C": "Obituary",
+      "D": "Florist"
+    },
+    "correct_option": "A",
+    "answer": "Claustrophobia",
+    "explanation": "Hindi: छोटे जगह में होने का अत्यधिक डर"
+  },
+  {
+    "id": "OWS-113",
+    "chapter": "English",
+    "type": "One Word Substitution",
+    "question": "Substitute one word for: \"Extreme fear of water\"",
+    "options": {
+      "A": "Cortege",
+      "B": "Versatile",
+      "C": "Hydrophobia",
+      "D": "Draw"
+    },
+    "correct_option": "C",
+    "answer": "Hydrophobia",
+    "explanation": "Hindi: पानी का डर"
+  },
+  {
+    "id": "OWS-114",
+    "chapter": "English",
+    "type": "One Word Substitution",
+    "question": "Substitute one word for: \"Fear of great heights\"",
+    "options": {
+      "A": "Acrophobia",
+      "B": "Mercenary",
+      "C": "Aquatic",
+      "D": "Obsolete"
+    },
+    "correct_option": "A",
+    "answer": "Acrophobia",
+    "explanation": "Hindi: ऊँचाई का डर"
+  },
+  {
+    "id": "OWS-115",
+    "chapter": "English",
+    "type": "One Word Substitution",
+    "question": "Substitute one word for: \"A person who can speak only two languages\"",
+    "options": {
+      "A": "Fatalist",
+      "B": "Bilingual",
+      "C": "Arsenal",
+      "D": "Philatelist"
+    },
+    "correct_option": "B",
+    "answer": "Bilingual",
+    "explanation": "Hindi: द्विभाषिक"
+  },
+  {
+    "id": "OWS-116",
+    "chapter": "English",
+    "type": "One Word Substitution",
+    "question": "Substitute one word for: \"An arrangement of events or dates in the order of their occurrence\"",
+    "options": {
+      "A": "Chronology",
+      "B": "Apiary",
+      "C": "Effeminate",
+      "D": "Colleague"
+    },
+    "correct_option": "A",
+    "answer": "Chronology",
+    "explanation": "Hindi: कालक्रम"
+  },
+  {
+    "id": "OWS-117",
+    "chapter": "English",
+    "type": "One Word Substitution",
+    "question": "Substitute one word for: \"A list or collection of books or informative graphics\"",
+    "options": {
+      "A": "Notorious",
+      "B": "Catalogue",
+      "C": "Effeminate",
+      "D": "Apostate"
+    },
+    "correct_option": "B",
+    "answer": "Catalogue",
+    "explanation": "Hindi: सूची"
+  },
+  {
+    "id": "OWS-118",
+    "chapter": "English",
+    "type": "One Word Substitution",
+    "question": "Substitute one word for: \"The study of human race, especially of its origin, development, customs and beliefs\"",
+    "options": {
+      "A": "Fastidious",
+      "B": "Dermatology",
+      "C": "Almanac",
+      "D": "Anthropology"
+    },
+    "correct_option": "D",
+    "answer": "Anthropology",
+    "explanation": "Hindi: मानव विज्ञान"
+  },
+  {
+    "id": "OWS-119",
+    "chapter": "English",
+    "type": "One Word Substitution",
+    "question": "Substitute one word for: \"The scientific study of the mind and how it influences behaviour\"",
+    "options": {
+      "A": "Bibliophile",
+      "B": "Psychology",
+      "C": "Amateur",
+      "D": "Entomology"
+    },
+    "correct_option": "B",
+    "answer": "Psychology",
+    "explanation": "Hindi: मनोविज्ञान"
+  },
+  {
+    "id": "OWS-120",
+    "chapter": "English",
+    "type": "One Word Substitution",
+    "question": "Substitute one word for: \"The scientific study of worms and insects\"",
+    "options": {
+      "A": "Entomology",
+      "B": "Manuscript",
+      "C": "Altruist",
+      "D": "Oligarchy"
+    },
+    "correct_option": "A",
+    "answer": "Entomology",
+    "explanation": "Hindi: कीटविज्ञान"
+  },
+  {
+    "id": "OWS-121",
+    "chapter": "English",
+    "type": "One Word Substitution",
+    "question": "Substitute one word for: \"A doctor who studies and treats skin diseases\"",
+    "options": {
+      "A": "Abdicate",
+      "B": "Dermatologist",
+      "C": "Philatelist",
+      "D": "Regalia"
+    },
+    "correct_option": "B",
+    "answer": "Dermatologist",
+    "explanation": "Hindi: त्वचा विशेषज्ञ"
+  },
+  {
+    "id": "OWS-122",
+    "chapter": "English",
+    "type": "One Word Substitution",
+    "question": "Substitute one word for: \"The scientific study of skin diseases\"",
+    "options": {
+      "A": "Homogeneous",
+      "B": "Convalescence",
+      "C": "Hangar",
+      "D": "Dermatology"
+    },
+    "correct_option": "D",
+    "answer": "Dermatology",
+    "explanation": "Hindi: त्वचाविज्ञान"
+  },
+  {
+    "id": "OWS-123",
+    "chapter": "English",
+    "type": "One Word Substitution",
+    "question": "Substitute one word for: \"A doctor who specializes in the study or treatment of heart diseases\"",
+    "options": {
+      "A": "Astronomy",
+      "B": "Contagious",
+      "C": "Incorrigible",
+      "D": "Cardiologist"
+    },
+    "correct_option": "D",
+    "answer": "Cardiologist",
+    "explanation": "Hindi: हृदय रोग विशेषज्ञ"
+  },
+  {
+    "id": "OWS-124",
+    "chapter": "English",
+    "type": "One Word Substitution",
+    "question": "Substitute one word for: \"The study of human history and prehistory through the excavation of sites\"",
+    "options": {
+      "A": "Archaeology",
+      "B": "Obsolete",
+      "C": "Almanac",
+      "D": "Archive"
+    },
+    "correct_option": "A",
+    "answer": "Archaeology",
+    "explanation": "Hindi: पुरातत्त्व"
+  },
+  {
+    "id": "OWS-125",
+    "chapter": "English",
+    "type": "One Word Substitution",
+    "question": "Substitute one word for: \"The study of earth, including the origin and history of the rocks and soil of which the earth is made\"",
+    "options": {
+      "A": "Geology",
+      "B": "Constellation",
+      "C": "Veteran",
+      "D": "Entomology"
+    },
+    "correct_option": "A",
+    "answer": "Geology",
+    "explanation": "Hindi: भूगर्भशास्त्र"
+  },
+  {
+    "id": "OWS-126",
+    "chapter": "English",
+    "type": "One Word Substitution",
+    "question": "Substitute one word for: \"A group of stars that forms a shape in the sky and has a name\"",
+    "options": {
+      "A": "Constellation",
+      "B": "Nepotism",
+      "C": "Connoisseur",
+      "D": "Fratricide"
+    },
+    "correct_option": "A",
+    "answer": "Constellation",
+    "explanation": "Hindi: नक्षत्र"
+  },
+  {
+    "id": "OWS-127",
+    "chapter": "English",
+    "type": "One Word Substitution",
+    "question": "Substitute one word for: \"The scientific study of celestial bodies like sun, moon, stars, planets, etc.\"",
+    "options": {
+      "A": "Astronomy",
+      "B": "Gregarious",
+      "C": "Congregation",
+      "D": "Somnambulist"
+    },
+    "correct_option": "A",
+    "answer": "Astronomy",
+    "explanation": "Hindi: खगोल शास्त्र"
+  },
+  {
+    "id": "OWS-128",
+    "chapter": "English",
+    "type": "One Word Substitution",
+    "question": "Substitute one word for: \"The place where public, government or historical records are kept\"",
+    "options": {
+      "A": "Omnipotent",
+      "B": "Archive",
+      "C": "Antidote",
+      "D": "Ornithology"
+    },
+    "correct_option": "B",
+    "answer": "Archive",
+    "explanation": "Hindi: अभिलेखागार"
+  },
+  {
+    "id": "OWS-129",
+    "chapter": "English",
+    "type": "One Word Substitution",
+    "question": "Substitute one word for: \"A list of the books referred to in a scholarly work\"",
+    "options": {
+      "A": "Curator",
+      "B": "Ephemeral",
+      "C": "Bibliography",
+      "D": "Abattoir"
+    },
+    "correct_option": "C",
+    "answer": "Bibliography",
+    "explanation": "Hindi: संदर्भ ग्रंथसूची"
+  },
+  {
+    "id": "OWS-130",
+    "chapter": "English",
+    "type": "One Word Substitution",
+    "question": "Substitute one word for: \"A book or set of books giving information about all areas of knowledge\"",
+    "options": {
+      "A": "Encyclopedia",
+      "B": "Fugitive",
+      "C": "Amnesty",
+      "D": "Philatelist"
+    },
+    "correct_option": "A",
+    "answer": "Encyclopedia",
+    "explanation": "Hindi: विश्वकोश"
+  },
+  {
+    "id": "OWS-131",
+    "chapter": "English",
+    "type": "One Word Substitution",
+    "question": "Substitute one word for: \"A sound that cannot be heard\"",
+    "options": {
+      "A": "Brittle",
+      "B": "Effeminate",
+      "C": "Obsolete",
+      "D": "Inaudible"
+    },
+    "correct_option": "D",
+    "answer": "Inaudible",
+    "explanation": "Hindi: अश्रव्य"
+  },
+  {
+    "id": "OWS-132",
+    "chapter": "English",
+    "type": "One Word Substitution",
+    "question": "Substitute one word for: \"Harsh or discordant sound // Loud confusing disagreeable sounds // An incongruous or chaotic mixture\"",
+    "options": {
+      "A": "Cynic",
+      "B": "Inevitable",
+      "C": "Cacophony",
+      "D": "Acrophobia"
+    },
+    "correct_option": "C",
+    "answer": "Cacophony",
+    "explanation": "Hindi: कोलाहल, कर्कश ध्वनि"
+  },
+  {
+    "id": "OWS-133",
+    "chapter": "English",
+    "type": "One Word Substitution",
+    "question": "Substitute one word for: \"The scientific study of sound\"",
+    "options": {
+      "A": "Inflammable",
+      "B": "Shoal",
+      "C": "Sinecure",
+      "D": "Acoustics"
+    },
+    "correct_option": "D",
+    "answer": "Acoustics",
+    "explanation": "Hindi: ध्वनि-विज्ञान"
+  },
+  {
+    "id": "OWS-134",
+    "chapter": "English",
+    "type": "One Word Substitution",
+    "question": "Substitute one word for: \"Sentimental longing for a period in the past\"",
+    "options": {
+      "A": "Calligrapher",
+      "B": "Opaque",
+      "C": "Nostalgia",
+      "D": "Flora"
+    },
+    "correct_option": "C",
+    "answer": "Nostalgia",
+    "explanation": "Hindi: अतीत की घटनाओं की यादें"
+  },
+  {
+    "id": "OWS-135",
+    "chapter": "English",
+    "type": "One Word Substitution",
+    "question": "Substitute one word for: \"Animal that can live both on land and in water\"",
+    "options": {
+      "A": "Amphibians",
+      "B": "Honorary",
+      "C": "Edible",
+      "D": "Gregarious"
+    },
+    "correct_option": "A",
+    "answer": "Amphibians",
+    "explanation": "Hindi: उभयचर जन्तु (वह जीव जो जल और स्थल दोनों में रह सकता है)"
+  },
+  {
+    "id": "OWS-136",
+    "chapter": "English",
+    "type": "One Word Substitution",
+    "question": "Substitute one word for: \"Animals and plants growing or living in, or near water\"",
+    "options": {
+      "A": "Aquatic",
+      "B": "Usurer",
+      "C": "Elegy",
+      "D": "Sacrilege"
+    },
+    "correct_option": "A",
+    "answer": "Aquatic",
+    "explanation": "Hindi: जलीय"
+  },
+  {
+    "id": "OWS-137",
+    "chapter": "English",
+    "type": "One Word Substitution",
+    "question": "Substitute one word for: \"The life history of a person written by himself\"",
+    "options": {
+      "A": "Autobiography",
+      "B": "Agnostic",
+      "C": "Arbitrator",
+      "D": "Potable"
+    },
+    "correct_option": "A",
+    "answer": "Autobiography",
+    "explanation": "Hindi: आत्मकथा"
+  },
+  {
+    "id": "OWS-138",
+    "chapter": "English",
+    "type": "One Word Substitution",
+    "question": "Substitute one word for: \"A person employed to drive a private or hired car\"",
+    "options": {
+      "A": "Constellation",
+      "B": "Archive",
+      "C": "Chauffeur",
+      "D": "Sacrilege"
+    },
+    "correct_option": "C",
+    "answer": "Chauffeur",
+    "explanation": "Hindi: मोटर-चालक"
+  },
+  {
+    "id": "OWS-139",
+    "chapter": "English",
+    "type": "One Word Substitution",
+    "question": "Substitute one word for: \"Government or rule by a small group of people\"",
+    "options": {
+      "A": "Accomplice",
+      "B": "Oligarchy",
+      "C": "Pessimist",
+      "D": "Archaeology"
+    },
+    "correct_option": "B",
+    "answer": "Oligarchy",
+    "explanation": "Hindi: अल्पतंत्र"
+  },
+  {
+    "id": "OWS-140",
+    "chapter": "English",
+    "type": "One Word Substitution",
+    "question": "Substitute one word for: \"A glass tank where fish and water plants are kept\"",
+    "options": {
+      "A": "Aquarium",
+      "B": "Flora",
+      "C": "Mercenary",
+      "D": "Mortuary"
+    },
+    "correct_option": "A",
+    "answer": "Aquarium",
+    "explanation": "Hindi: मछलीघर"
+  },
+  {
+    "id": "OWS-141",
+    "chapter": "English",
+    "type": "One Word Substitution",
+    "question": "Substitute one word for: \"A large number of fish swimming together\"",
+    "options": {
+      "A": "Shoal",
+      "B": "Utopia",
+      "C": "Honorary",
+      "D": "Lexicographer"
+    },
+    "correct_option": "A",
+    "answer": "Shoal",
+    "explanation": "Hindi: मछलियों का समुदाय"
+  },
+  {
+    "id": "OWS-142",
+    "chapter": "English",
+    "type": "One Word Substitution",
+    "question": "Substitute one word for: \"A group of girls/boys/birds etc\"",
+    "options": {
+      "A": "Bevy",
+      "B": "Shoal",
+      "C": "Pseudonym",
+      "D": "Verbatim"
+    },
+    "correct_option": "A",
+    "answer": "Bevy",
+    "explanation": "Hindi: झुंड"
+  },
+  {
+    "id": "OWS-143",
+    "chapter": "English",
+    "type": "One Word Substitution",
+    "question": "Substitute one word for: \"A large bundle bound for storage or transport\"",
+    "options": {
+      "A": "Horticulture",
+      "B": "Bibliophile",
+      "C": "Hypocrite",
+      "D": "Bale"
+    },
+    "correct_option": "D",
+    "answer": "Bale",
+    "explanation": "Hindi: गठरी/गट्ठा"
+  },
+  {
+    "id": "OWS-144",
+    "chapter": "English",
+    "type": "One Word Substitution",
+    "question": "Substitute one word for: \"A piece of land/garden, in which fruit trees are grown\"",
+    "options": {
+      "A": "Orchard",
+      "B": "Stoic",
+      "C": "Autobiography",
+      "D": "Encyclopedia"
+    },
+    "correct_option": "A",
+    "answer": "Orchard",
+    "explanation": "Hindi: फलोद्यान"
+  },
+  {
+    "id": "OWS-145",
+    "chapter": "English",
+    "type": "One Word Substitution",
+    "question": "Substitute one word for: \"The study of growing garden plants\"",
+    "options": {
+      "A": "Insomnia",
+      "B": "Exonerate",
+      "C": "Horticulture",
+      "D": "Manuscript"
+    },
+    "correct_option": "C",
+    "answer": "Horticulture",
+    "explanation": "Hindi: उद्यान-विज्ञान"
+  },
+  {
+    "id": "OWS-146",
+    "chapter": "English",
+    "type": "One Word Substitution",
+    "question": "Substitute one word for: \"The plants and vegetation of a particular region\"",
+    "options": {
+      "A": "Amphibians",
+      "B": "Flora",
+      "C": "Souvenir",
+      "D": "Edible"
+    },
+    "correct_option": "B",
+    "answer": "Flora",
+    "explanation": "Hindi: वनस्पति"
+  },
+  {
+    "id": "OWS-147",
+    "chapter": "English",
+    "type": "One Word Substitution",
+    "question": "Substitute one word for: \"Fit to drink (water)\"",
+    "options": {
+      "A": "Astronaut",
+      "B": "Choreographer",
+      "C": "Potable",
+      "D": "Itinerary"
+    },
+    "correct_option": "C",
+    "answer": "Potable",
+    "explanation": "Hindi: पीने योग्य"
+  },
+  {
+    "id": "OWS-148",
+    "chapter": "English",
+    "type": "One Word Substitution",
+    "question": "Substitute one word for: \"A thing fit to be eaten\"",
+    "options": {
+      "A": "Inevitable",
+      "B": "Astronomy",
+      "C": "Bankrupt",
+      "D": "Edible"
+    },
+    "correct_option": "D",
+    "answer": "Edible",
+    "explanation": "Hindi: खाद्य"
+  },
+  {
+    "id": "OWS-149",
+    "chapter": "English",
+    "type": "One Word Substitution",
+    "question": "Substitute one word for: \"The condition of being unable to sleep over a period of time\"",
+    "options": {
+      "A": "Insomnia",
+      "B": "Invincible",
+      "C": "Martyr",
+      "D": "Democracy"
+    },
+    "correct_option": "A",
+    "answer": "Insomnia",
+    "explanation": "Hindi: अनिद्रा"
+  },
+  {
+    "id": "OWS-150",
+    "chapter": "English",
+    "type": "One Word Substitution",
+    "question": "Substitute one word for: \"A partial or total loss of memory\"",
+    "options": {
+      "A": "Antidote",
+      "B": "Archive",
+      "C": "Honorary",
+      "D": "Amnesia"
+    },
+    "correct_option": "D",
+    "answer": "Amnesia",
+    "explanation": "Hindi: भूलने की बीमारी"
+  },
+  {
+    "id": "OWS-151",
+    "chapter": "English",
+    "type": "One Word Substitution",
+    "question": "Substitute one word for: \"Someone who walks about in sleep\"",
+    "options": {
+      "A": "Calligraphy",
+      "B": "Somnambulist",
+      "C": "Calligrapher",
+      "D": "Demography"
+    },
+    "correct_option": "B",
+    "answer": "Somnambulist",
+    "explanation": "Hindi: नींद में चलने वाला"
+  },
+  {
+    "id": "OWS-152",
+    "chapter": "English",
+    "type": "One Word Substitution",
+    "question": "Substitute one word for: \"A place where money is coined by authority of the government\"",
+    "options": {
+      "A": "Astronaut",
+      "B": "Philistine",
+      "C": "Mint",
+      "D": "Botany"
+    },
+    "correct_option": "C",
+    "answer": "Mint",
+    "explanation": "Hindi: टकसाल"
+  },
+  {
+    "id": "OWS-153",
+    "chapter": "English",
+    "type": "One Word Substitution",
+    "question": "Substitute one word for: \"The study or collection of coins\"",
+    "options": {
+      "A": "Chronology",
+      "B": "Extempore",
+      "C": "Numismatics",
+      "D": "Archive"
+    },
+    "correct_option": "C",
+    "answer": "Numismatics",
+    "explanation": "Hindi: मुद्राशास्त्र"
+  },
+  {
+    "id": "OWS-154",
+    "chapter": "English",
+    "type": "One Word Substitution",
+    "question": "Substitute one word for: \"A person who collects coins\"",
+    "options": {
+      "A": "Astronomy",
+      "B": "Extempore",
+      "C": "Caravan",
+      "D": "Numismatist"
+    },
+    "correct_option": "D",
+    "answer": "Numismatist",
+    "explanation": "Hindi: मुद्राशास्त्री"
+  },
+  {
+    "id": "OWS-155",
+    "chapter": "English",
+    "type": "One Word Substitution",
+    "question": "Substitute one word for: \"A military structure where arms and ammunition and other military equipment are stored\"",
+    "options": {
+      "A": "Arsenal",
+      "B": "Invigilator",
+      "C": "Gullible",
+      "D": "Choreographer"
+    },
+    "correct_option": "A",
+    "answer": "Arsenal",
+    "explanation": "Hindi: शस्त्रागार"
+  },
+  {
+    "id": "OWS-156",
+    "chapter": "English",
+    "type": "One Word Substitution",
+    "question": "Substitute one word for: \"The story of a person's life written by somebody else\"",
+    "options": {
+      "A": "Incorrigible",
+      "B": "Fratricide",
+      "C": "Biography",
+      "D": "Bibliography"
+    },
+    "correct_option": "C",
+    "answer": "Biography",
+    "explanation": "Hindi: जीवनी"
+  },
+  {
+    "id": "OWS-157",
+    "chapter": "English",
+    "type": "One Word Substitution",
+    "question": "Substitute one word for: \"House or shelter of a gipsy // A group of people, especially traders or pilgrims, travelling together across a desert\"",
+    "options": {
+      "A": "Omnipotent",
+      "B": "Genocide",
+      "C": "Caravan",
+      "D": "Bibliography"
+    },
+    "correct_option": "C",
+    "answer": "Caravan",
+    "explanation": "Hindi: काफिला"
+  },
+  {
+    "id": "OWS-158",
+    "chapter": "English",
+    "type": "One Word Substitution",
+    "question": "Substitute one word for: \"A short speech at the end of a play\"",
+    "options": {
+      "A": "Epilogue",
+      "B": "Bibliography",
+      "C": "Plagiarism",
+      "D": "Nepotism"
+    },
+    "correct_option": "A",
+    "answer": "Epilogue",
+    "explanation": "Hindi: उपसंहार"
+  },
+  {
+    "id": "OWS-159",
+    "chapter": "English",
+    "type": "One Word Substitution",
+    "question": "Substitute one word for: \"A person who sells and arranges cut flowers\"",
+    "options": {
+      "A": "Flora",
+      "B": "Florist",
+      "C": "Archive",
+      "D": "Caravan"
+    },
+    "correct_option": "B",
+    "answer": "Florist",
+    "explanation": "Hindi: फूलवाला"
+  },
+  {
+    "id": "OWS-160",
+    "chapter": "English",
+    "type": "One Word Substitution",
+    "question": "Substitute one word for: \"A decorative ring of flowers and leaves\"",
+    "options": {
+      "A": "Amphibians",
+      "B": "Wreath",
+      "C": "Samaritan",
+      "D": "Indefatigable"
+    },
+    "correct_option": "B",
+    "answer": "Wreath",
+    "explanation": "Hindi: फूलों की माला"
+  },
+  {
+    "id": "OWS-161",
+    "chapter": "English",
+    "type": "One Word Substitution",
+    "question": "Substitute one word for: \"An arrangement of flowers that is usually given as a present\"",
+    "options": {
+      "A": "Insomnia",
+      "B": "Bouquet",
+      "C": "Mortuary",
+      "D": "Fratricide"
+    },
+    "correct_option": "B",
+    "answer": "Bouquet",
+    "explanation": "Hindi: गुलदस्ता"
+  },
+  {
+    "id": "OWS-162",
+    "chapter": "English",
+    "type": "One Word Substitution",
+    "question": "Substitute one word for: \"A plan of a journey, including the route and the places that will be visited\"",
+    "options": {
+      "A": "Demography",
+      "B": "Theology",
+      "C": "Fanatic",
+      "D": "Itinerary"
+    },
+    "correct_option": "D",
+    "answer": "Itinerary",
+    "explanation": "Hindi: यात्रा कार्यक्रम"
+  },
+  {
+    "id": "OWS-163",
+    "chapter": "English",
+    "type": "One Word Substitution",
+    "question": "Substitute one word for: \"The money paid to former wife, husband or partner when the marriage is ended\"",
+    "options": {
+      "A": "Autobiography",
+      "B": "Theology",
+      "C": "Cartographer",
+      "D": "Alimony"
+    },
+    "correct_option": "D",
+    "answer": "Alimony",
+    "explanation": "Hindi: छोड़े हुए साथी के लिये गुजारा भत्ता"
+  },
+  {
+    "id": "OWS-164",
+    "chapter": "English",
+    "type": "One Word Substitution",
+    "question": "Substitute one word for: \"Hard but easily broken // liable to break easily\"",
+    "options": {
+      "A": "Incredible",
+      "B": "Amphibians",
+      "C": "Choreographer",
+      "D": "Brittle"
+    },
+    "correct_option": "D",
+    "answer": "Brittle",
+    "explanation": "Hindi: भंगुर/आसानी से टूटने योग्य"
+  },
+  {
+    "id": "OWS-165",
+    "chapter": "English",
+    "type": "One Word Substitution",
+    "question": "Substitute one word for: \"A keeper or custodian of a museum or other collection\"",
+    "options": {
+      "A": "Blasphemy",
+      "B": "Hangar",
+      "C": "Effeminate",
+      "D": "Curator"
+    },
+    "correct_option": "D",
+    "answer": "Curator",
+    "explanation": "Hindi: संग्रहालय अध्यक्ष"
+  },
+  {
+    "id": "OWS-166",
+    "chapter": "English",
+    "type": "One Word Substitution",
+    "question": "Substitute one word for: \"A person who supervises during an examination\"",
+    "options": {
+      "A": "Altruist",
+      "B": "Alimony",
+      "C": "Archive",
+      "D": "Invigilator"
+    },
+    "correct_option": "D",
+    "answer": "Invigilator",
+    "explanation": "Hindi: निरीक्षक"
+  },
+  {
+    "id": "OWS-167",
+    "chapter": "English",
+    "type": "One Word Substitution",
+    "question": "Substitute one word for: \"That through which light cannot pass\"",
+    "options": {
+      "A": "Sinecure",
+      "B": "Glutton",
+      "C": "Archaeology",
+      "D": "Opaque"
+    },
+    "correct_option": "D",
+    "answer": "Opaque",
+    "explanation": "Hindi: अपारदर्शी"
+  },
+  {
+    "id": "OWS-168",
+    "chapter": "English",
+    "type": "One Word Substitution",
+    "question": "Substitute one word for: \"A speech made to oneself\"",
+    "options": {
+      "A": "Soliloquy",
+      "B": "Astronomy",
+      "C": "Philistine",
+      "D": "Regalia"
+    },
+    "correct_option": "A",
+    "answer": "Soliloquy",
+    "explanation": "Hindi: आत्मभाषण"
+  },
+  {
+    "id": "OWS-169",
+    "chapter": "English",
+    "type": "One Word Substitution",
+    "question": "Substitute one word for: \"To give up one's authority or throne\"",
+    "options": {
+      "A": "Mint",
+      "B": "Insolvent",
+      "C": "Abdicate",
+      "D": "Anarchy"
+    },
+    "correct_option": "C",
+    "answer": "Abdicate",
+    "explanation": "Hindi: अपना पद (या दावा) छोड़ देना"
+  },
+  {
+    "id": "OWS-170",
+    "chapter": "English",
+    "type": "One Word Substitution",
+    "question": "Substitute one word for: \"A publication containing astronomical or meteorological annual calendar that contains important dates and time\"",
+    "options": {
+      "A": "Somnambulist",
+      "B": "Choreographer",
+      "C": "Indefatigable",
+      "D": "Almanac"
+    },
+    "correct_option": "D",
+    "answer": "Almanac",
+    "explanation": "Hindi: पंचांग"
+  },
+  {
+    "id": "OWS-171",
+    "chapter": "English",
+    "type": "One Word Substitution",
+    "question": "Substitute one word for: \"A game in which no one wins\"",
+    "options": {
+      "A": "Omnipotent",
+      "B": "Cartographer",
+      "C": "Dermatologist",
+      "D": "Draw"
+    },
+    "correct_option": "D",
+    "answer": "Draw",
+    "explanation": "Hindi: अनिर्णित"
+  },
+  {
+    "id": "OWS-172",
+    "chapter": "English",
+    "type": "One Word Substitution",
+    "question": "Substitute one word for: \"A fictitious name especially one assumed by an author\"",
+    "options": {
+      "A": "Biography",
+      "B": "Atheist",
+      "C": "Veteran",
+      "D": "Pseudonym"
+    },
+    "correct_option": "D",
+    "answer": "Pseudonym",
+    "explanation": "Hindi: उपनाम"
+  },
+  {
+    "id": "OWS-173",
+    "chapter": "English",
+    "type": "One Word Substitution",
+    "question": "Substitute one word for: \"One who makes an official examination of accounts/financial records\"",
+    "options": {
+      "A": "Aquarium",
+      "B": "Auditor",
+      "C": "Invigilator",
+      "D": "Misogynist"
+    },
+    "correct_option": "B",
+    "answer": "Auditor",
+    "explanation": "Hindi: हिसाब किताब की जांच करने वाला"
+  },
+  {
+    "id": "OWS-174",
+    "chapter": "English",
+    "type": "One Word Substitution",
+    "question": "Substitute one word for: \"The scientific study of plants and their structure\"",
+    "options": {
+      "A": "Philistine",
+      "B": "Archive",
+      "C": "Botany",
+      "D": "Barometer"
+    },
+    "correct_option": "C",
+    "answer": "Botany",
+    "explanation": "Hindi: वनस्पति विज्ञान"
+  },
+  {
+    "id": "OWS-175",
+    "chapter": "English",
+    "type": "One Word Substitution",
+    "question": "Substitute one word for: \"Gradual recovery of health and strength\"",
+    "options": {
+      "A": "Demography",
+      "B": "Convalescence",
+      "C": "Anthropology",
+      "D": "Epilogue"
+    },
+    "correct_option": "B",
+    "answer": "Convalescence",
+    "explanation": "Hindi: बीमारी से ठीक होना"
+  },
+  {
+    "id": "OWS-176",
+    "chapter": "English",
+    "type": "One Word Substitution",
+    "question": "Substitute one word for: \"That can burn/catches fire easily\"",
+    "options": {
+      "A": "Manuscript",
+      "B": "Elegy",
+      "C": "Oligarchy",
+      "D": "Inflammable"
+    },
+    "correct_option": "D",
+    "answer": "Inflammable",
+    "explanation": "Hindi: ज्वलनशील"
+  },
+  {
+    "id": "OWS-177",
+    "chapter": "English",
+    "type": "One Word Substitution",
+    "question": "Substitute one word for: \"That which cannot be called back\"",
+    "options": {
+      "A": "Autobiography",
+      "B": "Hypochondriac",
+      "C": "Anthropology",
+      "D": "Irrevocable"
+    },
+    "correct_option": "D",
+    "answer": "Irrevocable",
+    "explanation": "Hindi: अटल"
+  },
+  {
+    "id": "OWS-178",
+    "chapter": "English",
+    "type": "One Word Substitution",
+    "question": "Substitute one word for: \"A notice of a person's death\"",
+    "options": {
+      "A": "Obituary",
+      "B": "Democracy",
+      "C": "Contemporary",
+      "D": "Teetotaller"
+    },
+    "correct_option": "A",
+    "answer": "Obituary",
+    "explanation": "Hindi: शोक सन्देश"
+  },
+  {
+    "id": "OWS-179",
+    "chapter": "English",
+    "type": "One Word Substitution",
+    "question": "Substitute one word for: \"A close-fitting cover for a sword or knife // Cover for the blade of a weapon or a tool\"",
+    "options": {
+      "A": "Sheath",
+      "B": "Incredible",
+      "C": "Bale",
+      "D": "Reticent"
+    },
+    "correct_option": "A",
+    "answer": "Sheath",
+    "explanation": "Hindi: म्यान"
+  },
+  {
+    "id": "OWS-180",
+    "chapter": "English",
+    "type": "One Word Substitution",
+    "question": "Substitute one word for: \"Something kept as a reminder of an event\"",
+    "options": {
+      "A": "Accomplice",
+      "B": "Bilingual",
+      "C": "Inflammable",
+      "D": "Souvenir"
+    },
+    "correct_option": "D",
+    "answer": "Souvenir",
+    "explanation": "Hindi: निशानी"
+  },
+  {
+    "id": "OWS-181",
+    "chapter": "English",
+    "type": "One Word Substitution",
+    "question": "Substitute one word for: \"A list of items to be discussed at a meeting\"",
+    "options": {
+      "A": "Ornithology",
+      "B": "Auditor",
+      "C": "Agenda",
+      "D": "Omnipotent"
+    },
+    "correct_option": "C",
+    "answer": "Agenda",
+    "explanation": "Hindi: कार्यसूची"
+  },
+  {
+    "id": "OWS-182",
+    "chapter": "English",
+    "type": "One Word Substitution",
+    "question": "Substitute one word for: \"A medicine to nullify the effect of poison or another medicine\"",
+    "options": {
+      "A": "Inflammable",
+      "B": "Almanac",
+      "C": "Calligraphy",
+      "D": "Antidote"
+    },
+    "correct_option": "D",
+    "answer": "Antidote",
+    "explanation": "Hindi: विष नाशक"
+  },
+  {
+    "id": "OWS-183",
+    "chapter": "English",
+    "type": "One Word Substitution",
+    "question": "Substitute one word for: \"A person engaged in or trained for spaceflight\"",
+    "options": {
+      "A": "Iconoclast",
+      "B": "Biography",
+      "C": "Astronaut",
+      "D": "Flora"
+    },
+    "correct_option": "C",
+    "answer": "Astronaut",
+    "explanation": "Hindi: अन्तरिक्ष यात्री"
+  },
+  {
+    "id": "OWS-184",
+    "chapter": "English",
+    "type": "One Word Substitution",
+    "question": "Substitute one word for: \"Animals that eat meat\"",
+    "options": {
+      "A": "Insolvent",
+      "B": "Cardiologist",
+      "C": "Sheath",
+      "D": "Carnivorous"
+    },
+    "correct_option": "D",
+    "answer": "Carnivorous",
+    "explanation": "Hindi: मांसभक्षी"
+  },
+  {
+    "id": "OWS-185",
+    "chapter": "English",
+    "type": "One Word Substitution",
+    "question": "Substitute one word for: \"A place where animals are slaughtered for consumption as food\"",
+    "options": {
+      "A": "Astronaut",
+      "B": "Abattoir",
+      "C": "Agnostic",
+      "D": "Versatile"
+    },
+    "correct_option": "B",
+    "answer": "Abattoir",
+    "explanation": "Hindi: कसाईखाना"
+  },
+  {
+    "id": "OWS-186",
+    "chapter": "English",
+    "type": "One Word Substitution",
+    "question": "Substitute one word for: \"A place where gambling games are played\"",
+    "options": {
+      "A": "Archaeology",
+      "B": "Entomology",
+      "C": "Cardiologist",
+      "D": "Casino"
+    },
+    "correct_option": "D",
+    "answer": "Casino",
+    "explanation": "Hindi: जुआखाना"
+  },
+  {
+    "id": "OWS-187",
+    "chapter": "English",
+    "type": "One Word Substitution",
+    "question": "Substitute one word for: \"A large bedroom for a number of people in a school or institution\"",
+    "options": {
+      "A": "Regicide",
+      "B": "Inevitable",
+      "C": "Dormitory",
+      "D": "Introvert"
+    },
+    "correct_option": "C",
+    "answer": "Dormitory",
+    "explanation": "Hindi: शयनागार"
+  },
+  {
+    "id": "OWS-188",
+    "chapter": "English",
+    "type": "One Word Substitution",
+    "question": "Substitute one word for: \"A very small village\"",
+    "options": {
+      "A": "Martyr",
+      "B": "Notorious",
+      "C": "Hamlet",
+      "D": "Cannibal"
+    },
+    "correct_option": "C",
+    "answer": "Hamlet",
+    "explanation": "Hindi: छोटा गांव"
+  },
+  {
+    "id": "OWS-189",
+    "chapter": "English",
+    "type": "One Word Substitution",
+    "question": "Substitute one word for: \"A building in which aircraft are housed\"",
+    "options": {
+      "A": "Acoustics",
+      "B": "Claustrophobia",
+      "C": "Hangar",
+      "D": "Bureaucracy"
+    },
+    "correct_option": "C",
+    "answer": "Hangar",
+    "explanation": "Hindi: विमानशाला"
+  },
+  {
+    "id": "OWS-190",
+    "chapter": "English",
+    "type": "One Word Substitution",
+    "question": "Substitute one word for: \"An instrument used for measuring atmospheric pressure\"",
+    "options": {
+      "A": "Novice",
+      "B": "Barometer",
+      "C": "Ornithology",
+      "D": "Psychology"
+    },
+    "correct_option": "B",
+    "answer": "Barometer",
+    "explanation": "Hindi: वायु-दाब-मापक"
+  },
+  {
+    "id": "OWS-191",
+    "chapter": "English",
+    "type": "One Word Substitution",
+    "question": "Substitute one word for: \"One who plans the steps and moves in a dance\"",
+    "options": {
+      "A": "Kleptomania",
+      "B": "Choreographer",
+      "C": "Amnesia",
+      "D": "Illiterate"
+    },
+    "correct_option": "B",
+    "answer": "Choreographer",
+    "explanation": "Hindi: नृत्य-निर्देशक"
+  },
+  {
+    "id": "OWS-192",
+    "chapter": "English",
+    "type": "One Word Substitution",
+    "question": "Substitute one word for: \"Easily spread from one person to another (disease) // A disease which spreads with contact\"",
+    "options": {
+      "A": "Gregarious",
+      "B": "Contagious",
+      "C": "Cynosure",
+      "D": "Alimony"
+    },
+    "correct_option": "B",
+    "answer": "Contagious",
+    "explanation": "Hindi: संक्रामक"
+  },
+  {
+    "id": "OWS-193",
+    "chapter": "English",
+    "type": "One Word Substitution",
+    "question": "Substitute one word for: \"Widespread outbreak of a disease which affects large populations at the same time\"",
+    "options": {
+      "A": "Inevitable",
+      "B": "Epidemic",
+      "C": "Martyr",
+      "D": "Choreographer"
+    },
+    "correct_option": "B",
+    "answer": "Epidemic",
+    "explanation": "Hindi: महामारी"
+  },
+  {
+    "id": "OWS-194",
+    "chapter": "English",
+    "type": "One Word Substitution",
+    "question": "Substitute one word for: \"A place for keeping dead bodies before burial or cremation\"",
+    "options": {
+      "A": "Convalescence",
+      "B": "Notorious",
+      "C": "Mortuary",
+      "D": "Nostalgia"
+    },
+    "correct_option": "C",
+    "answer": "Mortuary",
+    "explanation": "Hindi: शवगृह"
+  },
+  {
+    "id": "OWS-195",
+    "chapter": "English",
+    "type": "One Word Substitution",
+    "question": "Substitute one word for: \"A funeral procession\"",
+    "options": {
+      "A": "Convalescence",
+      "B": "Verbatim",
+      "C": "Dermatology",
+      "D": "Cortege"
+    },
+    "correct_option": "D",
+    "answer": "Cortege",
+    "explanation": "Hindi: शव-यात्रा"
+  },
+  {
+    "id": "OWS-196",
+    "chapter": "English",
+    "type": "One Word Substitution",
+    "question": "Substitute one word for: \"An inscription on a tombstone in the memory of the person who has died\"",
+    "options": {
+      "A": "Epitaph",
+      "B": "Obituary",
+      "C": "Omnipresent",
+      "D": "Bankrupt"
+    },
+    "correct_option": "A",
+    "answer": "Epitaph",
+    "explanation": "Hindi: समाधि-लेख"
+  },
+  {
+    "id": "OWS-197",
+    "chapter": "English",
+    "type": "One Word Substitution",
+    "question": "Substitute one word for: \"A poem that express lament for the dead\"",
+    "options": {
+      "A": "Effeminate",
+      "B": "Antidote",
+      "C": "Elegy",
+      "D": "Fugitive"
+    },
+    "correct_option": "C",
+    "answer": "Elegy",
+    "explanation": "Hindi: शोकगीत"
+  },
+  {
+    "id": "OWS-198",
+    "chapter": "English",
+    "type": "One Word Substitution",
+    "question": "Substitute one word for: \"A copy of a book, piece of music, etc. Before it has been printed // A paper written by hand\"",
+    "options": {
+      "A": "Alimony",
+      "B": "Curator",
+      "C": "Genocide",
+      "D": "Manuscript"
+    },
+    "correct_option": "D",
+    "answer": "Manuscript",
+    "explanation": "Hindi: हस्तलिखित (हाथ से लिखी हुई)"
+  },
+  {
+    "id": "OWS-199",
+    "chapter": "English",
+    "type": "One Word Substitution",
+    "question": "Substitute one word for: \"Occurring or coming into existence after a person's death\"",
+    "options": {
+      "A": "Cacophony",
+      "B": "Claustrophobia",
+      "C": "Posthumous",
+      "D": "Ascetic"
+    },
+    "correct_option": "C",
+    "answer": "Posthumous",
+    "explanation": "Hindi: मरणोपरांत"
+  }
+]

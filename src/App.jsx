@@ -1,6 +1,7 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { useQuiz } from './store/quizStore';
 import Layout from './components/ui/Layout';
+import ErrorBoundary from './components/ui/ErrorBoundary';
 import StartScreen from './components/quiz/StartScreen';
 import QuizScreen from './components/quiz/QuizScreen';
 import ResultScreen from './components/quiz/ResultScreen';
@@ -10,40 +11,54 @@ import RevisionScreen from './components/quiz/RevisionScreen';
 import { AnimatePresence, motion } from 'framer-motion';
 
 export default function App() {
-  const { quizStatus, user, currentView } = useQuiz();
+  const { quizStatus, user, currentView, isAppReady, initApp } = useQuiz();
+
+  useEffect(() => {
+    initApp();
+  }, [initApp]);
+
+  if (!isAppReady) {
+    return (
+      <div className="flex min-h-screen bg-slate-950 items-center justify-center">
+        <div className="w-8 h-8 border-4 border-blue-500 border-t-transparent rounded-full animate-spin"></div>
+      </div>
+    );
+  }
 
   return (
-    <Layout>
-      <AnimatePresence mode="wait">
-        {!user ? (
-          <motion.div key="login" initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }}>
-            <LoginScreen />
-          </motion.div>
-        ) : quizStatus === 'idle' ? (
-          currentView === 'dashboard' ? (
-            <motion.div key="dashboard" initial={{ opacity: 0, x: -20 }} animate={{ opacity: 1, x: 0 }} exit={{ opacity: 0, x: 20 }}>
-              <DashboardScreen />
+    <ErrorBoundary>
+      <Layout>
+        <AnimatePresence mode="wait">
+          {!user ? (
+            <motion.div key="login" initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }}>
+              <LoginScreen />
+            </motion.div>
+          ) : quizStatus === 'idle' ? (
+            currentView === 'dashboard' ? (
+              <motion.div key="dashboard" initial={{ opacity: 0, x: -20 }} animate={{ opacity: 1, x: 0 }} exit={{ opacity: 0, x: 20 }}>
+                <DashboardScreen />
+              </motion.div>
+            ) : (
+              <motion.div key="start" initial={{ opacity: 0, x: 20 }} animate={{ opacity: 1, x: 0 }} exit={{ opacity: 0, x: -20 }}>
+                <StartScreen />
+              </motion.div>
+            )
+          ) : quizStatus === 'running' ? (
+            <motion.div key="quiz" initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }}>
+              <QuizScreen />
+            </motion.div>
+          ) : quizStatus === 'revision' ? (
+            <motion.div key="revision" initial={{ opacity: 0, scale: 0.95 }} animate={{ opacity: 1, scale: 1 }} exit={{ opacity: 0, scale: 1.05 }}>
+              <RevisionScreen />
             </motion.div>
           ) : (
-            <motion.div key="start" initial={{ opacity: 0, x: 20 }} animate={{ opacity: 1, x: 0 }} exit={{ opacity: 0, x: -20 }}>
-              <StartScreen />
+            <motion.div key="result" initial={{ scale: 0.9, opacity: 0 }} animate={{ scale: 1, opacity: 1 }} exit={{ opacity: 0 }}>
+              <ResultScreen />
             </motion.div>
-          )
-        ) : quizStatus === 'running' ? (
-          <motion.div key="quiz" initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }}>
-            <QuizScreen />
-          </motion.div>
-        ) : quizStatus === 'revision' ? (
-          <motion.div key="revision" initial={{ opacity: 0, scale: 0.95 }} animate={{ opacity: 1, scale: 1 }} exit={{ opacity: 0, scale: 1.05 }}>
-            <RevisionScreen />
-          </motion.div>
-        ) : (
-          <motion.div key="result" initial={{ scale: 0.9, opacity: 0 }} animate={{ scale: 1, opacity: 1 }} exit={{ opacity: 0 }}>
-            <ResultScreen />
-          </motion.div>
-        )}
-      </AnimatePresence>
-    </Layout>
+          )}
+        </AnimatePresence>
+      </Layout>
+    </ErrorBoundary>
   );
 }
 

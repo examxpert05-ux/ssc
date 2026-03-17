@@ -10,38 +10,24 @@ export default function StartScreen() {
         timerMode, setTimerMode,
         questionCount, setQuestionCount,
         startQuiz, setCurrentView,
-        math1Data, math2Data,
-        math1Chapters, math1Types,
-        math2Chapters, math2Types,
+        metadata,
         englishTopics, gkgsSubjects,
-        polityTopics, staticGkTopics,
-        geographyTopics, economicsTopics,
-        physicsTopics, chemistryTopics,
-        biologyTopics, currentAffairsTopics,
-        historyCategories, historyData,
+        quizLoading
     } = useQuiz();
 
     const isMaths = filters.subject === 'Maths';
     const isEnglish = filters.subject === 'English';
     const isGkGs = filters.subject === 'GK/GS';
 
-    const currentMathsData = filters.mathsVersion === 'Maths 1' ? math1Data : math2Data;
-    const currentMathsChapters = filters.mathsVersion === 'Maths 1' ? math1Chapters : math2Chapters;
+    const currentMathsChapters = filters.mathsVersion === 'Maths 1' ? metadata.math1.chapters : metadata.math2.chapters;
+    const availableTypes = filters.mathsVersion === 'Maths 1' ? metadata.math1.types : metadata.math2.types;
 
-    const availableTypes = ['All', ...new Set(
-        currentMathsData.filter(q => filters.chapter === 'All' || q.chapter === filters.chapter).map(q => q.type)
-    )];
-
-    const currentGkgsTopics = filters.gkgsSubject === 'History' && historyData
-        ? [...new Set(historyData.filter(d => d.category === filters.historyCategory).map(d => d.topic))]
-        : filters.gkgsSubject === 'Polity' ? polityTopics
-        : filters.gkgsSubject === 'Geography' ? geographyTopics
-        : filters.gkgsSubject === 'Economics' ? economicsTopics
-        : filters.gkgsSubject === 'Physics' ? physicsTopics
-        : filters.gkgsSubject === 'Chemistry' ? chemistryTopics
-        : filters.gkgsSubject === 'Biology' ? biologyTopics
-        : filters.gkgsSubject === 'Current Affairs' ? currentAffairsTopics
-        : staticGkTopics;
+    const currentGkgsTopicsKey = filters.gkgsSubject === 'Current Affairs' ? 'currentAffairs' 
+        : filters.gkgsSubject === 'Static GK' ? 'staticGk' 
+        : filters.gkgsSubject.toLowerCase();
+    
+    const currentGkgsTopics = metadata[currentGkgsTopicsKey]?.topics || [];
+    const historyCategories = metadata.history?.categories || [];
 
     let attemptKey = isMaths
         ? `attempt-${filters.mathsVersion}-${filters.chapter}-${filters.type}`
@@ -50,13 +36,8 @@ export default function StartScreen() {
     let timePerQ = isMaths ? (previousAttempts >= 2 ? 30 : previousAttempts === 1 ? 45 : 60) : 30;
 
     const getCount = () => {
-        if (isMaths) {
-            const n = currentMathsData.filter(q =>
-                (filters.chapter === 'All' || q.chapter === filters.chapter) &&
-                (filters.type === 'All' || q.type === filters.type)
-            ).length;
-            return questionCount === 'all' ? n : Math.min(n, questionCount);
-        }
+        // Without downloading the file early, we can't show the EXACT count natively right now (until metadata carries sizes).
+        // Returning what they selected instead.
         return questionCount === 'all' ? 'All' : questionCount;
     };
 
@@ -315,12 +296,22 @@ export default function StartScreen() {
                 {/* Start Button */}
                 <motion.button
                     onClick={handleStart}
-                    whileHover={{ scale: 1.01 }}
-                    whileTap={{ scale: 0.99 }}
-                    className="w-full bg-gradient-to-r from-blue-600 via-indigo-600 to-purple-600 hover:brightness-110 text-white font-black py-4 rounded-2xl shadow-xl shadow-blue-900/30 flex items-center justify-center gap-3 text-lg transition-all"
+                    disabled={quizLoading}
+                    whileHover={{ scale: quizLoading ? 1 : 1.01 }}
+                    whileTap={{ scale: quizLoading ? 1 : 0.99 }}
+                    className="w-full bg-gradient-to-r from-blue-600 via-indigo-600 to-purple-600 hover:brightness-110 text-white font-black py-4 rounded-2xl shadow-xl shadow-blue-900/30 flex items-center justify-center gap-3 text-lg transition-all disabled:opacity-75 disabled:cursor-not-allowed"
                 >
-                    <Play fill="currentColor" size={20} />
-                    Start Test — {getCount()} Questions
+                    {quizLoading ? (
+                        <>
+                            <div className="w-5 h-5 border-2 border-white border-t-transparent rounded-full animate-spin"></div>
+                            Loading Test Data...
+                        </>
+                    ) : (
+                        <>
+                            <div className="bg-white/20 p-1 rounded-full"><Play fill="currentColor" size={16} /></div>
+                            Start Test — {getCount()} Questions
+                        </>
+                    )}
                 </motion.button>
             </div>
         </div>
