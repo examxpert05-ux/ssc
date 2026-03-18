@@ -25,7 +25,7 @@ const fractionData = [
 ];
 
 export default function RevisionScreen() {
-    const { startRealQuiz, filters, polityNotes, staticGkNotes, historyNotes, geographyNotes, economicsNotes, physicsNotes, chemistryNotes, biologyNotes, currentAffairsNotes, math1Notes, math2Notes } = useQuiz();
+    const { startRealQuiz, filters, currentNotes } = useQuiz();
     const [isExpanded, setIsExpanded] = React.useState(false);
 
     const isGkGs = filters.subject === 'GK/GS';
@@ -34,7 +34,7 @@ export default function RevisionScreen() {
     // Get notes for the selected topics
     let selectedTopicsNotes = [];
     if (isGkGs) {
-        let currentNotesSource = filters.gkgsSubject === 'History' ? historyNotes : (filters.gkgsSubject === 'Polity' ? polityNotes : (filters.gkgsSubject === 'Geography' ? geographyNotes : (filters.gkgsSubject === 'Economics' ? economicsNotes : (filters.gkgsSubject === 'Physics' ? physicsNotes : (filters.gkgsSubject === 'Chemistry' ? chemistryNotes : (filters.gkgsSubject === 'Biology' ? biologyNotes : (filters.gkgsSubject === 'Current Affairs' ? currentAffairsNotes : staticGkNotes)))))));
+        let currentNotesSource = currentNotes || [];
 
         if (filters.gkgsSubject === 'History') {
             currentNotesSource = currentNotesSource.filter(n => n.category === filters.historyCategory);
@@ -47,7 +47,6 @@ export default function RevisionScreen() {
         }
         selectedTopicsNotes = currentNotesSource.filter(n => topicsToFetch.includes(n.topic));
     } else if (isMaths) {
-        const currentNotes = filters.mathsVersion === 'Maths 1' ? math1Notes : math2Notes;
         if (currentNotes) {
             selectedTopicsNotes = currentNotes.filter(n => n.topic === filters.chapter || n.chapter === filters.chapter);
         }
@@ -119,7 +118,7 @@ export default function RevisionScreen() {
                                                     <div key={i} className="mb-4">
                                                         <h4 className="text-blue-300 font-semibold mb-2">{note.subtopic}</h4>
                                                         <ul className="list-disc pl-5 space-y-2 text-slate-300 text-sm leading-relaxed">
-                                                            {note.points.map((point, j) => (
+                                                            {(note.points || []).map((point, j) => (
                                                                 <li key={j}>{point}</li>
                                                             ))}
                                                         </ul>

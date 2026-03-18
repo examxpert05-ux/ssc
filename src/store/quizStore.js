@@ -254,7 +254,7 @@ export const useQuiz = create((set, get) => ({
 
                 let globalIndex = 0;
                 selectedTopicsData.forEach((topicObj, topicIndex) => {
-                    const mappedQuestions = topicObj.questions.map((q, qIndex) => {
+                    const mappedQuestions = (topicObj.questions || []).map((q, qIndex) => {
                         const mappedOption = q.answer.toUpperCase();
                         const optionsObj = Array.isArray(q.options)
                             ? { A: q.options[0], B: q.options[1], C: q.options[2], D: q.options[3] }
@@ -263,7 +263,7 @@ export const useQuiz = create((set, get) => ({
                         return {
                             ...q,
                             question: `Q.${q.id}. ${q.question}`,
-                            id: q.id !== undefined ? q.id : `gkgs-${topicIndex}-${qIndex}-${globalIndex++}`,
+                            id: `gkgs-${topicIndex}-${qIndex}-${q.id !== undefined ? q.id : globalIndex++}`,
                             chapter: 'GK/GS',
                             type: topicObj.topic,
                             correct_option: mappedOption,
